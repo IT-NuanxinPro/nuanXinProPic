@@ -1,0 +1,62 @@
+name: Sync Wallpaper from Gitee
+
+on:
+  # 定时触发：每天 UTC 0:00（北京时间 8:00）
+  schedule:
+    - cron: '0 0 * * *'
+
+  # 支持手动触发
+  workflow_dispatch:
+
+# 设置工作流权限
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Run sync script
+        id: sync
+        run: |
+          chmod +x ./scripts/sync-wallpaper.sh
+          ./scripts/sync-wallpaper.sh
+
+      - name: Check for changes
+        id: check
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add wallpaper/
+          git commit -m "chore: sync wallpapers from Gitee [$(date +'%Y-%m-%d')]"
+          git push
+
+      - name: Generate summary
+        run: |
+          echo "## 🖼️ Wallpaper Sync Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Item | Count |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Total wallpapers | $(ls -1 wallpaper/*.{jpg,jpeg,png,gif,webp,JPG,JPEG,PNG,GIF,WEBP} 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.check.outputs.has_changes }}" == "true" ]; then
+            echo "| Status | ✅ New images synced |" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "| Status | ℹ️ No new images |" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Source: [Gitee/desktop_wallpaper](https://gitee.com/zhang--shuang/desktop_wallpaper)" >> $GITHUB_STEP_SUMMARY
