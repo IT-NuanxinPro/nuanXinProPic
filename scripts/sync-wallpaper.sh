@@ -54,13 +54,18 @@ rm -rf "$THUMBNAIL_DIR"
 mkdir -p "$TARGET_DIR"
 mkdir -p "$THUMBNAIL_DIR"
 
-# 检查 ImageMagick 是否可用
-if ! command -v convert &> /dev/null; then
+# 检查 ImageMagick 是否可用（兼容 v6 的 convert 和 v7 的 magick）
+if command -v magick &> /dev/null; then
+    IMAGEMAGICK_CMD="magick"
+    echo -e "${GREEN}[INFO]${NC} ImageMagick v7 found (magick), will generate thumbnails"
+    GENERATE_THUMBNAILS=true
+elif command -v convert &> /dev/null; then
+    IMAGEMAGICK_CMD="convert"
+    echo -e "${GREEN}[INFO]${NC} ImageMagick found (convert), will generate thumbnails"
+    GENERATE_THUMBNAILS=true
+else
     echo -e "${YELLOW}[WARN]${NC} ImageMagick not found, thumbnails will not be generated"
     GENERATE_THUMBNAILS=false
-else
-    echo -e "${GREEN}[INFO]${NC} ImageMagick found, will generate thumbnails"
-    GENERATE_THUMBNAILS=true
 fi
 
 # 统计变量
@@ -96,7 +101,7 @@ for ext in "${IMAGE_EXTENSIONS[@]}"; do
 
         # 生成缩略图
         if [ "$GENERATE_THUMBNAILS" = true ]; then
-            if convert "$file" \
+            if $IMAGEMAGICK_CMD "$file" \
                 -resize "${THUMB_WIDTH}x>" \
                 -quality "$THUMB_QUALITY" \
                 -strip \
