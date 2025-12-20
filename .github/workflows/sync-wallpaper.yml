@@ -42,8 +42,8 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add wallpaper/
-          git commit -m "chore: sync wallpapers from Gitee [$(date +'%Y-%m-%d')]"
+          git add wallpaper/ thumbnail/
+          git commit -m "chore: sync wallpapers and thumbnails from Gitee [$(date +'%Y-%m-%d')]"
           git push
 
       - name: Generate summary
@@ -53,10 +53,11 @@ jobs:
           echo "| Item | Count |" >> $GITHUB_STEP_SUMMARY
           echo "|------|-------|" >> $GITHUB_STEP_SUMMARY
           echo "| Total wallpapers | $(ls -1 wallpaper/*.{jpg,jpeg,png,gif,webp,JPG,JPEG,PNG,GIF,WEBP} 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
+          echo "| Total thumbnails | $(ls -1 thumbnail/*.webp 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
           if [ "${{ steps.check.outputs.has_changes }}" == "true" ]; then
-            echo "| Status | ✅ New images synced |" >> $GITHUB_STEP_SUMMARY
+            echo "| Status | ✅ Synced (full overwrite) |" >> $GITHUB_STEP_SUMMARY
           else
-            echo "| Status | ℹ️ No new images |" >> $GITHUB_STEP_SUMMARY
+            echo "| Status | ℹ️ No changes |" >> $GITHUB_STEP_SUMMARY
           fi
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "Source: [Gitee/desktop_wallpaper](https://gitee.com/zhang--shuang/desktop_wallpaper)" >> $GITHUB_STEP_SUMMARY
