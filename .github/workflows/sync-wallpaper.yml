@@ -24,6 +24,8 @@ jobs:
 
       - name: Run sync script
         id: sync
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
         run: |
           chmod +x ./scripts/sync-wallpaper.sh
           ./scripts/sync-wallpaper.sh

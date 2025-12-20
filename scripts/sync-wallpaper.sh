@@ -4,9 +4,12 @@
 # 策略：全量覆盖（删除现有文件后重新同步）
 # 同时生成缩略图到 thumbnail 目录
 
-# 配置
-GITEE_REPO="https://gitee.com/zhang--shuang/desktop_wallpaper.git"
-GITEE_ZIP_URL="https://gitee.com/zhang--shuang/desktop_wallpaper/repository/archive/master.zip"
+# Gitee 仓库配置
+GITEE_OWNER="zhang--shuang"
+GITEE_REPO="desktop_wallpaper"
+GITEE_BRANCH="master"
+
+# 本地目录配置
 TEMP_DIR="/tmp/desktop_wallpaper_sync"
 TEMP_ZIP="/tmp/desktop_wallpaper.zip"
 TARGET_DIR="wallpaper"
@@ -35,6 +38,20 @@ echo "  Wallpaper Sync Script (Full Overwrite)"
 echo "=========================================="
 echo ""
 
+# 检查是否有 Gitee Token
+if [ -n "$GITEE_TOKEN" ]; then
+    echo -e "${GREEN}[INFO]${NC} Gitee token detected, using authenticated requests"
+    # 带认证的 URL
+    GITEE_ZIP_URL="https://gitee.com/${GITEE_OWNER}/${GITEE_REPO}/repository/archive/${GITEE_BRANCH}.zip"
+    GITEE_CLONE_URL="https://oauth2:${GITEE_TOKEN}@gitee.com/${GITEE_OWNER}/${GITEE_REPO}.git"
+    CURL_AUTH_HEADER="PRIVATE-TOKEN: ${GITEE_TOKEN}"
+else
+    echo -e "${YELLOW}[WARN]${NC} No Gitee token, using anonymous requests (may be rate limited)"
+    GITEE_ZIP_URL="https://gitee.com/${GITEE_OWNER}/${GITEE_REPO}/repository/archive/${GITEE_BRANCH}.zip"
+    GITEE_CLONE_URL="https://gitee.com/${GITEE_OWNER}/${GITEE_REPO}.git"
+    CURL_AUTH_HEADER=""
+fi
+
 # 清理临时目录和文件
 cleanup_temp() {
     rm -rf "$TEMP_DIR"
@@ -46,19 +63,26 @@ cleanup_temp
 download_source() {
     local success=false
 
-    # 方法1：下载 ZIP 包（推荐，绕过 Gitee 对 git clone 的限制）
+    # 方法1：下载 ZIP 包（推荐）
     echo -e "${BLUE}[METHOD 1]${NC} Downloading ZIP archive..."
     for ((i=1; i<=MAX_RETRIES; i++)); do
         echo -e "${BLUE}[ATTEMPT $i/$MAX_RETRIES]${NC} Downloading..."
 
-        if curl -fsSL --connect-timeout 30 --max-time 300 -o "$TEMP_ZIP" "$GITEE_ZIP_URL" 2>&1; then
+        # 构建 curl 命令
+        local curl_cmd="curl -fsSL --connect-timeout 30 --max-time 300"
+        if [ -n "$CURL_AUTH_HEADER" ]; then
+            curl_cmd="$curl_cmd -H \"$CURL_AUTH_HEADER\""
+        fi
+        curl_cmd="$curl_cmd -o \"$TEMP_ZIP\" \"$GITEE_ZIP_URL\""
+
+        if eval $curl_cmd 2>&1; then
             # 验证是否为有效的 ZIP 文件
             if file "$TEMP_ZIP" | grep -q "Zip archive"; then
                 echo -e "${GREEN}[SUCCESS]${NC} ZIP downloaded"
                 mkdir -p "$TEMP_DIR"
                 # 解压 ZIP（Gitee ZIP 包含一个根目录）
                 if unzip -q "$TEMP_ZIP" -d "$TEMP_DIR" 2>&1; then
-                    # 找到解压后的实际目录（通常是 desktop_wallpaper-master）
+                    # 找到解压后的实际目录
                     EXTRACTED_DIR=$(find "$TEMP_DIR" -mindepth 1 -maxdepth 1 -type d | head -1)
                     if [ -n "$EXTRACTED_DIR" ]; then
                         # 将内容移动到 TEMP_DIR 根目录
@@ -72,7 +96,10 @@ download_source() {
                     echo -e "${YELLOW}[FAILED]${NC} Failed to extract ZIP"
                 fi
             else
-                echo -e "${YELLOW}[FAILED]${NC} Downloaded file is not a valid ZIP"
+                echo -e "${YELLOW}[FAILED]${NC} Downloaded file is not a valid ZIP (may be 403/404 error page)"
+                # 显示文件内容以便调试
+                head -c 200 "$TEMP_ZIP" 2>/dev/null || true
+                echo ""
             fi
         else
             echo -e "${YELLOW}[FAILED]${NC} Download attempt $i failed"
@@ -94,7 +121,7 @@ download_source() {
         for ((i=1; i<=MAX_RETRIES; i++)); do
             echo -e "${BLUE}[ATTEMPT $i/$MAX_RETRIES]${NC} Cloning..."
 
-            if git clone --depth 1 "$GITEE_REPO" "$TEMP_DIR" 2>&1; then
+            if git clone --depth 1 "$GITEE_CLONE_URL" "$TEMP_DIR" 2>&1; then
                 echo -e "${GREEN}[SUCCESS]${NC} Clone completed"
                 success=true
                 break
