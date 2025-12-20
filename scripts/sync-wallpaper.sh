@@ -14,6 +14,10 @@ THUMBNAIL_DIR="thumbnail"
 THUMB_WIDTH=400
 THUMB_QUALITY=80
 
+# 重试配置
+MAX_RETRIES=3
+RETRY_DELAY=10
+
 # 支持的图片格式
 IMAGE_EXTENSIONS=("jpg" "jpeg" "png" "gif" "webp" "JPG" "JPEG" "PNG" "GIF" "WEBP")
 
@@ -35,12 +39,29 @@ if [ -d "$TEMP_DIR" ]; then
     rm -rf "$TEMP_DIR"
 fi
 
-# Shallow clone Gitee 仓库
+# Shallow clone Gitee 仓库（带重试机制）
 echo "Cloning Gitee repository (shallow)..."
-git clone --depth 1 "$GITEE_REPO" "$TEMP_DIR"
+clone_success=false
+for ((i=1; i<=MAX_RETRIES; i++)); do
+    echo -e "${BLUE}[ATTEMPT $i/$MAX_RETRIES]${NC} Cloning..."
 
-if [ $? -ne 0 ]; then
-    echo -e "${RED}[ERROR]${NC} Failed to clone repository"
+    if git clone --depth 1 "$GITEE_REPO" "$TEMP_DIR" 2>&1; then
+        clone_success=true
+        echo -e "${GREEN}[SUCCESS]${NC} Clone completed"
+        break
+    else
+        echo -e "${YELLOW}[FAILED]${NC} Clone attempt $i failed"
+        rm -rf "$TEMP_DIR"
+
+        if [ $i -lt $MAX_RETRIES ]; then
+            echo "Waiting ${RETRY_DELAY}s before retry..."
+            sleep $RETRY_DELAY
+        fi
+    fi
+done
+
+if [ "$clone_success" = false ]; then
+    echo -e "${RED}[ERROR]${NC} Failed to clone repository after $MAX_RETRIES attempts"
     exit 1
 fi
 
