@@ -2,7 +2,7 @@
 # sync-wallpaper.sh
 # 从 Gitee 仓库同步壁纸到本地 wallpaper 目录
 # 策略：全量覆盖（删除现有文件后重新同步）
-# 支持分类目录：游戏、动漫、风景、其他
+# 支持分类目录：自动检测所有子目录作为分类
 # 同时生成缩略图到 thumbnail 目录
 
 set -e
@@ -26,15 +26,6 @@ THUMB_QUALITY=80
 MAX_RETRIES=3
 RETRY_DELAY=5
 
-# 支持的图片格式（用于 find 命令）
-IMAGE_PATTERN=".*\.\(jpg\|jpeg\|png\|gif\|webp\|JPG\|JPEG\|PNG\|GIF\|WEBP\)$"
-
-# 分类目录
-CATEGORY_GAME="游戏"
-CATEGORY_ANIME="动漫"
-CATEGORY_SCENERY="风景"
-CATEGORY_OTHER="其他"
-
 # 颜色输出
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
@@ -45,7 +36,7 @@ NC='\033[0m'
 
 echo "=========================================="
 echo "  Wallpaper Sync Script (Full Overwrite)"
-echo "  With Category Support"
+echo "  With Auto Category Detection"
 echo "=========================================="
 echo ""
 
@@ -123,11 +114,11 @@ total_found=0
 copied=0
 thumbnails_generated=0
 thumbnail_errors=0
-count_game=0
-count_anime=0
-count_scenery=0
-count_other=0
 count_uncategorized=0
+
+# 用于存储分类统计的临时文件
+CATEGORY_STATS_FILE="/tmp/category_stats_$$"
+> "$CATEGORY_STATS_FILE"
 
 echo ""
 echo "Scanning and copying images with categories..."
@@ -181,10 +172,11 @@ process_image() {
     fi
 }
 
-# 处理分类目录
-process_category() {
+# 处理分类目录（带计数）
+process_category_with_count() {
     local category_name="$1"
     local category_dir="$TEMP_DIR/$category_name"
+    local category_count=0
 
     if [ -d "$category_dir" ]; then
         echo ""
@@ -193,23 +185,25 @@ process_category() {
         # 使用 find 来遍历文件，避免 glob 问题
         while IFS= read -r -d '' file; do
             process_image "$file" "$category_name"
-
-            # 更新分类计数
-            case "$category_name" in
-                "$CATEGORY_GAME") count_game=$((count_game + 1)) ;;
-                "$CATEGORY_ANIME") count_anime=$((count_anime + 1)) ;;
-                "$CATEGORY_SCENERY") count_scenery=$((count_scenery + 1)) ;;
-                "$CATEGORY_OTHER") count_other=$((count_other + 1)) ;;
-            esac
+            category_count=$((category_count + 1))
         done < <(find "$category_dir" -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" -o -iname "*.webp" \) -print0 2>/dev/null)
+
+        # 记录分类统计
+        if [ "$category_count" -gt 0 ]; then
+            echo "$category_name:$category_count" >> "$CATEGORY_STATS_FILE"
+        fi
     fi
 }
 
-# 处理各分类目录
-process_category "$CATEGORY_GAME"
-process_category "$CATEGORY_ANIME"
-process_category "$CATEGORY_SCENERY"
-process_category "$CATEGORY_OTHER"
+# 自动检测并处理所有子目录作为分类
+echo -e "${BLUE}[INFO]${NC} Auto-detecting category directories..."
+while IFS= read -r -d '' dir; do
+    dir_name=$(basename "$dir")
+    # 排除 .git 目录和其他隐藏目录
+    if [[ "$dir_name" != .* ]]; then
+        process_category_with_count "$dir_name"
+    fi
+done < <(find "$TEMP_DIR" -mindepth 1 -maxdepth 1 -type d -print0 2>/dev/null)
 
 # 处理根目录中的图片（未分类）
 echo ""
@@ -237,12 +231,23 @@ if [ "$thumbnail_errors" -gt 0 ]; then
 fi
 echo ""
 echo "  Category breakdown:"
-[ "$count_game" -gt 0 ] && echo "    $CATEGORY_GAME: $count_game"
-[ "$count_anime" -gt 0 ] && echo "    $CATEGORY_ANIME: $count_anime"
-[ "$count_scenery" -gt 0 ] && echo "    $CATEGORY_SCENERY: $count_scenery"
-[ "$count_other" -gt 0 ] && echo "    $CATEGORY_OTHER: $count_other"
-[ "$count_uncategorized" -gt 0 ] && echo "    未分类: $count_uncategorized"
+
+# 读取并显示分类统计
+if [ -s "$CATEGORY_STATS_FILE" ]; then
+    while IFS=':' read -r cat_name cat_count; do
+        echo "    $cat_name: $cat_count"
+    done < "$CATEGORY_STATS_FILE"
+fi
+
+# 显示未分类统计
+if [ "$count_uncategorized" -gt 0 ]; then
+    echo "    未分类: $count_uncategorized"
+fi
+
 echo "=========================================="
+
+# 清理临时统计文件
+rm -f "$CATEGORY_STATS_FILE"
 
 # 设置输出变量供 GitHub Actions 使用
 if [ -n "$GITHUB_OUTPUT" ]; then
