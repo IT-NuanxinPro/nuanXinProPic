@@ -6,7 +6,9 @@
 
 # 配置
 GITEE_REPO="https://gitee.com/zhang--shuang/desktop_wallpaper.git"
+GITEE_ZIP_URL="https://gitee.com/zhang--shuang/desktop_wallpaper/repository/archive/master.zip"
 TEMP_DIR="/tmp/desktop_wallpaper_sync"
+TEMP_ZIP="/tmp/desktop_wallpaper.zip"
 TARGET_DIR="wallpaper"
 THUMBNAIL_DIR="thumbnail"
 
@@ -16,7 +18,7 @@ THUMB_QUALITY=80
 
 # 重试配置
 MAX_RETRIES=3
-RETRY_DELAY=10
+RETRY_DELAY=5
 
 # 支持的图片格式
 IMAGE_EXTENSIONS=("jpg" "jpeg" "png" "gif" "webp" "JPG" "JPEG" "PNG" "GIF" "WEBP")
@@ -33,35 +35,90 @@ echo "  Wallpaper Sync Script (Full Overwrite)"
 echo "=========================================="
 echo ""
 
-# 清理临时目录
-if [ -d "$TEMP_DIR" ]; then
-    echo "Cleaning up previous temp directory..."
+# 清理临时目录和文件
+cleanup_temp() {
     rm -rf "$TEMP_DIR"
-fi
+    rm -f "$TEMP_ZIP"
+}
+cleanup_temp
 
-# Shallow clone Gitee 仓库（带重试机制）
-echo "Cloning Gitee repository (shallow)..."
-clone_success=false
-for ((i=1; i<=MAX_RETRIES; i++)); do
-    echo -e "${BLUE}[ATTEMPT $i/$MAX_RETRIES]${NC} Cloning..."
+# 下载函数：优先使用 ZIP 下载（更可靠），失败则尝试 git clone
+download_source() {
+    local success=false
 
-    if git clone --depth 1 "$GITEE_REPO" "$TEMP_DIR" 2>&1; then
-        clone_success=true
-        echo -e "${GREEN}[SUCCESS]${NC} Clone completed"
-        break
-    else
-        echo -e "${YELLOW}[FAILED]${NC} Clone attempt $i failed"
+    # 方法1：下载 ZIP 包（推荐，绕过 Gitee 对 git clone 的限制）
+    echo -e "${BLUE}[METHOD 1]${NC} Downloading ZIP archive..."
+    for ((i=1; i<=MAX_RETRIES; i++)); do
+        echo -e "${BLUE}[ATTEMPT $i/$MAX_RETRIES]${NC} Downloading..."
+
+        if curl -fsSL --connect-timeout 30 --max-time 300 -o "$TEMP_ZIP" "$GITEE_ZIP_URL" 2>&1; then
+            # 验证是否为有效的 ZIP 文件
+            if file "$TEMP_ZIP" | grep -q "Zip archive"; then
+                echo -e "${GREEN}[SUCCESS]${NC} ZIP downloaded"
+                mkdir -p "$TEMP_DIR"
+                # 解压 ZIP（Gitee ZIP 包含一个根目录）
+                if unzip -q "$TEMP_ZIP" -d "$TEMP_DIR" 2>&1; then
+                    # 找到解压后的实际目录（通常是 desktop_wallpaper-master）
+                    EXTRACTED_DIR=$(find "$TEMP_DIR" -mindepth 1 -maxdepth 1 -type d | head -1)
+                    if [ -n "$EXTRACTED_DIR" ]; then
+                        # 将内容移动到 TEMP_DIR 根目录
+                        mv "$EXTRACTED_DIR"/* "$TEMP_DIR"/ 2>/dev/null || true
+                        rm -rf "$EXTRACTED_DIR"
+                    fi
+                    echo -e "${GREEN}[SUCCESS]${NC} ZIP extracted"
+                    success=true
+                    break
+                else
+                    echo -e "${YELLOW}[FAILED]${NC} Failed to extract ZIP"
+                fi
+            else
+                echo -e "${YELLOW}[FAILED]${NC} Downloaded file is not a valid ZIP"
+            fi
+        else
+            echo -e "${YELLOW}[FAILED]${NC} Download attempt $i failed"
+        fi
+
+        rm -f "$TEMP_ZIP"
         rm -rf "$TEMP_DIR"
 
         if [ $i -lt $MAX_RETRIES ]; then
             echo "Waiting ${RETRY_DELAY}s before retry..."
             sleep $RETRY_DELAY
         fi
-    fi
-done
+    done
 
-if [ "$clone_success" = false ]; then
-    echo -e "${RED}[ERROR]${NC} Failed to clone repository after $MAX_RETRIES attempts"
+    # 方法2：如果 ZIP 下载失败，尝试 git clone
+    if [ "$success" = false ]; then
+        echo ""
+        echo -e "${BLUE}[METHOD 2]${NC} Trying git clone as fallback..."
+        for ((i=1; i<=MAX_RETRIES; i++)); do
+            echo -e "${BLUE}[ATTEMPT $i/$MAX_RETRIES]${NC} Cloning..."
+
+            if git clone --depth 1 "$GITEE_REPO" "$TEMP_DIR" 2>&1; then
+                echo -e "${GREEN}[SUCCESS]${NC} Clone completed"
+                success=true
+                break
+            else
+                echo -e "${YELLOW}[FAILED]${NC} Clone attempt $i failed"
+                rm -rf "$TEMP_DIR"
+
+                if [ $i -lt $MAX_RETRIES ]; then
+                    echo "Waiting ${RETRY_DELAY}s before retry..."
+                    sleep $RETRY_DELAY
+                fi
+            fi
+        done
+    fi
+
+    if [ "$success" = false ]; then
+        echo -e "${RED}[ERROR]${NC} Failed to download source after all attempts"
+        return 1
+    fi
+    return 0
+}
+
+# 执行下载
+if ! download_source; then
     exit 1
 fi
 
@@ -141,7 +198,7 @@ done
 # 清理临时目录
 echo ""
 echo "Cleaning up temp directory..."
-rm -rf "$TEMP_DIR"
+cleanup_temp
 
 # 输出统计
 echo ""
