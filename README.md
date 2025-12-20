@@ -1,4 +1,4 @@
-# 暖心图床
+# 暖心图床 — 免费永久图片托管 & 自动壁纸同步
 
 ![GitHub stars](https://img.shields.io/github/stars/IT-NuanxinPro/nuanXinProPic?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/IT-NuanxinPro/nuanXinProPic?style=social)
