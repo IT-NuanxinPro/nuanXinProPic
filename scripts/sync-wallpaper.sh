@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # sync-wallpaper.sh
-# 从 Gitee 仓库同步壁纸到本地 wallpaper 目录
-# 策略：全量覆盖（删除现有文件后重新同步）
-# 支持分类目录：自动检测所有子目录作为分类
+# 从 Gitee 仓库增量同步壁纸到本地 wallpaper 目录
+# 策略：增量同步（只添加新文件，不删除已有文件）
+# 源文件格式：分类--名称.扩展名（已带分类前缀）
 # 同时生成缩略图到 thumbnail 目录
 
 set -e
@@ -14,13 +14,12 @@ GITEE_BRANCH="master"
 
 # 本地目录配置
 TEMP_DIR="/tmp/desktop_wallpaper_sync"
-TEMP_ZIP="/tmp/desktop_wallpaper.zip"
 TARGET_DIR="wallpaper"
 THUMBNAIL_DIR="thumbnail"
 
 # 缩略图配置
-THUMB_WIDTH=400
-THUMB_QUALITY=80
+THUMB_WIDTH=800
+THUMB_QUALITY=85
 
 # 重试配置
 MAX_RETRIES=3
@@ -35,8 +34,7 @@ CYAN='\033[0;36m'
 NC='\033[0m'
 
 echo "=========================================="
-echo "  Wallpaper Sync Script (Full Overwrite)"
-echo "  With Auto Category Detection"
+echo "  Wallpaper Sync Script (Incremental)"
 echo "=========================================="
 echo ""
 
@@ -49,14 +47,13 @@ else
     GITEE_CLONE_URL="https://gitee.com/${GITEE_OWNER}/${GITEE_REPO}.git"
 fi
 
-# 清理临时目录和文件
+# 清理临时目录
 cleanup_temp() {
     rm -rf "$TEMP_DIR"
-    rm -f "$TEMP_ZIP"
 }
 cleanup_temp
 
-# 使用 git clone 下载（ZIP 解压中文文件名有编码问题）
+# 使用 git clone 下载
 download_source() {
     echo -e "${BLUE}[INFO]${NC} Cloning repository..."
     for i in $(seq 1 $MAX_RETRIES); do
@@ -85,13 +82,7 @@ if ! download_source; then
     exit 1
 fi
 
-# 全量覆盖：删除现有目录
-echo ""
-echo -e "${YELLOW}[INFO]${NC} Removing existing directories for full overwrite..."
-rm -rf "$TARGET_DIR"
-rm -rf "$THUMBNAIL_DIR"
-
-# 重新创建目录
+# 确保目标目录存在
 mkdir -p "$TARGET_DIR"
 mkdir -p "$THUMBNAIL_DIR"
 
@@ -111,106 +102,91 @@ fi
 
 # 统计变量
 total_found=0
-copied=0
+new_copied=0
+skipped=0
 thumbnails_generated=0
 thumbnail_errors=0
-count_uncategorized=0
 
 # 用于存储分类统计的临时文件
 CATEGORY_STATS_FILE="/tmp/category_stats_$$"
 > "$CATEGORY_STATS_FILE"
 
 echo ""
-echo "Scanning and copying images with categories..."
+echo "Scanning source repository for images..."
 echo ""
 
-# 处理图片函数
+# 处理图片函数（增量模式）
 process_image() {
     local file="$1"
-    local category="$2"
     local filename
     filename=$(basename "$file")
 
-    # 如果有分类，添加分类前缀
-    local target_filename
-    if [ -n "$category" ]; then
-        target_filename="${category}--${filename}"
-    else
-        target_filename="$filename"
-    fi
-
-    local target_file="$TARGET_DIR/$target_filename"
+    local target_file="$TARGET_DIR/$filename"
 
     # 生成缩略图文件名（统一使用 webp 格式）
-    local target_filename_noext="${target_filename%.*}"
-    local thumbnail_file="$THUMBNAIL_DIR/${target_filename_noext}.webp"
+    local filename_noext="${filename%.*}"
+    local thumbnail_file="$THUMBNAIL_DIR/${filename_noext}.webp"
 
     total_found=$((total_found + 1))
 
-    # 复制原图
-    if [ -n "$category" ]; then
-        echo -e "${CYAN}[$category]${NC} ${GREEN}[COPY]${NC} $filename"
-    else
-        echo -e "${GREEN}[COPY]${NC} $filename"
+    # 提取分类用于统计
+    local category="未分类"
+    if [[ "$filename" == *"--"* ]]; then
+        category="${filename%%--*}"
     fi
-    cp "$file" "$target_file"
-    copied=$((copied + 1))
 
-    # 生成缩略图
-    if [ "$GENERATE_THUMBNAILS" = true ]; then
-        if $IMAGEMAGICK_CMD "$file" \
-            -resize "${THUMB_WIDTH}x>" \
-            -quality "$THUMB_QUALITY" \
-            -strip \
-            "$thumbnail_file" 2>/dev/null; then
-            echo -e "${BLUE}[THUMB]${NC} ${target_filename_noext}.webp"
-            thumbnails_generated=$((thumbnails_generated + 1))
+    # 增量检查：文件是否已存在
+    if [ -f "$target_file" ]; then
+        # 壁纸已存在，检查缩略图是否需要生成
+        if [ "$GENERATE_THUMBNAILS" = true ] && [ ! -f "$thumbnail_file" ]; then
+            echo -e "${YELLOW}[THUMB ONLY]${NC} $filename"
+            if $IMAGEMAGICK_CMD "$file" \
+                -resize "${THUMB_WIDTH}x>" \
+                -quality "$THUMB_QUALITY" \
+                -strip \
+                "$thumbnail_file" 2>/dev/null; then
+                echo -e "${BLUE}[THUMB]${NC} ${filename_noext}.webp"
+                thumbnails_generated=$((thumbnails_generated + 1))
+            else
+                echo -e "${RED}[THUMB ERROR]${NC} Failed to generate thumbnail for $filename"
+                thumbnail_errors=$((thumbnail_errors + 1))
+            fi
         else
-            echo -e "${RED}[THUMB ERROR]${NC} Failed to generate thumbnail for $filename"
-            thumbnail_errors=$((thumbnail_errors + 1))
+            skipped=$((skipped + 1))
+        fi
+        return
+    fi
+
+    # 复制原图
+    echo -e "${CYAN}[$category]${NC} ${GREEN}[NEW]${NC} $filename"
+    cp "$file" "$target_file"
+    new_copied=$((new_copied + 1))
+
+    # 记录分类统计（仅新增文件）
+    echo "$category" >> "$CATEGORY_STATS_FILE"
+
+    # 生成缩略图（仅新文件）
+    if [ "$GENERATE_THUMBNAILS" = true ]; then
+        if [ ! -f "$thumbnail_file" ]; then
+            if $IMAGEMAGICK_CMD "$file" \
+                -resize "${THUMB_WIDTH}x>" \
+                -quality "$THUMB_QUALITY" \
+                -strip \
+                "$thumbnail_file" 2>/dev/null; then
+                echo -e "${BLUE}[THUMB]${NC} ${filename_noext}.webp"
+                thumbnails_generated=$((thumbnails_generated + 1))
+            else
+                echo -e "${RED}[THUMB ERROR]${NC} Failed to generate thumbnail for $filename"
+                thumbnail_errors=$((thumbnail_errors + 1))
+            fi
         fi
     fi
 }
 
-# 处理分类目录（带计数）
-process_category_with_count() {
-    local category_name="$1"
-    local category_dir="$TEMP_DIR/$category_name"
-    local category_count=0
-
-    if [ -d "$category_dir" ]; then
-        echo ""
-        echo -e "${CYAN}=== Processing category: $category_name ===${NC}"
-
-        # 使用 find 来遍历文件，避免 glob 问题
-        while IFS= read -r -d '' file; do
-            process_image "$file" "$category_name"
-            category_count=$((category_count + 1))
-        done < <(find "$category_dir" -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" -o -iname "*.webp" \) -print0 2>/dev/null)
-
-        # 记录分类统计
-        if [ "$category_count" -gt 0 ]; then
-            echo "$category_name:$category_count" >> "$CATEGORY_STATS_FILE"
-        fi
-    fi
-}
-
-# 自动检测并处理所有子目录作为分类
-echo -e "${BLUE}[INFO]${NC} Auto-detecting category directories..."
-while IFS= read -r -d '' dir; do
-    dir_name=$(basename "$dir")
-    # 排除 .git 目录和其他隐藏目录
-    if [[ "$dir_name" != .* ]]; then
-        process_category_with_count "$dir_name"
-    fi
-done < <(find "$TEMP_DIR" -mindepth 1 -maxdepth 1 -type d -print0 2>/dev/null)
-
-# 处理根目录中的图片（未分类）
-echo ""
-echo -e "${CYAN}=== Processing uncategorized images ===${NC}"
+# 处理源仓库根目录中的所有图片
+echo -e "${BLUE}[INFO]${NC} Processing images from source repository..."
 while IFS= read -r -d '' file; do
-    process_image "$file" ""
-    count_uncategorized=$((count_uncategorized + 1))
+    process_image "$file"
 done < <(find "$TEMP_DIR" -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" -o -iname "*.webp" \) -print0 2>/dev/null)
 
 # 清理临时目录
@@ -223,25 +199,21 @@ echo ""
 echo "=========================================="
 echo "  Sync Complete!"
 echo "=========================================="
-echo "  Total images found:      $total_found"
-echo "  Images copied:           $copied"
+echo "  Total images in source:  $total_found"
+echo "  New images copied:       $new_copied"
+echo "  Skipped (existing):      $skipped"
 echo "  Thumbnails generated:    $thumbnails_generated"
 if [ "$thumbnail_errors" -gt 0 ]; then
     echo "  Thumbnail errors:        $thumbnail_errors"
 fi
-echo ""
-echo "  Category breakdown:"
 
-# 读取并显示分类统计
-if [ -s "$CATEGORY_STATS_FILE" ]; then
-    while IFS=':' read -r cat_name cat_count; do
-        echo "    $cat_name: $cat_count"
-    done < "$CATEGORY_STATS_FILE"
-fi
-
-# 显示未分类统计
-if [ "$count_uncategorized" -gt 0 ]; then
-    echo "    未分类: $count_uncategorized"
+# 显示新增文件的分类统计
+if [ "$new_copied" -gt 0 ]; then
+    echo ""
+    echo "  New images by category:"
+    sort "$CATEGORY_STATS_FILE" | uniq -c | sort -rn | while read -r count cat_name; do
+        echo "    $cat_name: $count"
+    done
 fi
 
 echo "=========================================="
@@ -251,15 +223,17 @@ rm -f "$CATEGORY_STATS_FILE"
 
 # 设置输出变量供 GitHub Actions 使用
 if [ -n "$GITHUB_OUTPUT" ]; then
-    echo "total_images=$copied" >> "$GITHUB_OUTPUT"
+    echo "new_images=$new_copied" >> "$GITHUB_OUTPUT"
     echo "thumbnails=$thumbnails_generated" >> "$GITHUB_OUTPUT"
 fi
 
-# 返回是否有图片
-if [ "$copied" -gt 0 ]; then
+# 返回是否有新增
+if [ "$new_copied" -gt 0 ]; then
+    echo ""
+    echo -e "${GREEN}[INFO]${NC} $new_copied new images synced!"
     exit 0
 else
     echo ""
-    echo "No images found to sync."
+    echo -e "${BLUE}[INFO]${NC} No new images to sync."
     exit 0
 fi

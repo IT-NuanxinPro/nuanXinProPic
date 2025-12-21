@@ -1,9 +1,9 @@
 name: Sync Wallpaper from Gitee
 
 on:
-  # 定时触发：每天 UTC 0:00（北京时间 8:00）
+  # 定时触发：每天 UTC 22:00（北京时间 6:00）
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 22 * * *'
 
   # 支持手动触发
   workflow_dispatch:
@@ -62,7 +62,7 @@ jobs:
           echo "| Total wallpapers | $(ls -1 wallpaper/*.{jpg,jpeg,png,gif,webp,JPG,JPEG,PNG,GIF,WEBP} 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
           echo "| Total thumbnails | $(ls -1 thumbnail/*.webp 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
           if [ "${{ steps.check.outputs.has_changes }}" == "true" ]; then
-            echo "| Status | ✅ Synced (full overwrite) |" >> $GITHUB_STEP_SUMMARY
+            echo "| Status | ✅ Synced (incremental) |" >> $GITHUB_STEP_SUMMARY
           else
             echo "| Status | ℹ️ No changes |" >> $GITHUB_STEP_SUMMARY
           fi
