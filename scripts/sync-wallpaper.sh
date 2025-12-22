@@ -31,11 +31,12 @@ PREVIEW_QUALITY=90
 # 水印配置
 WATERMARK_ENABLED=true
 WATERMARK_TEXT="暖心"
-WATERMARK_SIZE_PERCENT=8    # 水印大小（预览图宽度的百分比）
+WATERMARK_SIZE_PERCENT=3    # 水印大小（预览图宽度的百分比）
 WATERMARK_OPACITY=65        # 水印不透明度（0-100）
 WATERMARK_POSITION="southeast"  # 水印位置（右下角）
-WATERMARK_OFFSET_X=25       # 水印 X 偏移量（像素）
-WATERMARK_OFFSET_Y=25       # 水印 Y 偏移量（像素）
+WATERMARK_OFFSET_X=40       # 水印 X 偏移量（像素）
+WATERMARK_OFFSET_Y=80       # 水印 Y 偏移量（像素）
+WATERMARK_ANGLE=-30         # 水印倾斜角度（负数为逆时针）
 
 # 重试配置
 MAX_RETRIES=3
@@ -129,8 +130,8 @@ if [ "$WATERMARK_ENABLED" = true ] && [ "$GENERATE_THUMBNAILS" = true ]; then
     # 检测可用的中文字体
     WATERMARK_FONT=""
     if [ "$(uname)" = "Darwin" ]; then
-        # macOS: 尝试多种中文字体
-        for font in "PingFang-SC-Medium" "PingFang-SC-Regular" "STHeiti" "Heiti-SC"; do
+        # macOS: 尝试多种中文字体（Heiti-SC-Medium 效果最好）
+        for font in "Heiti-SC-Medium" "PingFang-SC-Medium" "PingFang-SC-Regular" "Heiti-SC-Light"; do
             if $IMAGEMAGICK_CMD -list font 2>/dev/null | grep -qi "$font"; then
                 WATERMARK_FONT="$font"
                 break
@@ -138,7 +139,7 @@ if [ "$WATERMARK_ENABLED" = true ] && [ "$GENERATE_THUMBNAILS" = true ]; then
         done
         # 如果没找到，使用默认字体
         if [ -z "$WATERMARK_FONT" ]; then
-            WATERMARK_FONT="PingFang-SC-Medium"
+            WATERMARK_FONT="Heiti-SC-Medium"
         fi
     elif [ "$(uname)" = "Linux" ]; then
         # Linux: 尝试 Noto 字体
@@ -197,7 +198,7 @@ generate_preview() {
             -pointsize "$WATERMARK_FONT_SIZE" \
             -fill "$WATERMARK_COLOR" \
             -gravity "$WATERMARK_POSITION" \
-            -annotate "+${WATERMARK_OFFSET_X}+${WATERMARK_OFFSET_Y}" "$WATERMARK_TEXT" \
+            -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${WATERMARK_OFFSET_X}+${WATERMARK_OFFSET_Y} "$WATERMARK_TEXT" \
             -quality "$PREVIEW_QUALITY" \
             -strip \
             "$output_file" 2>/dev/null; then

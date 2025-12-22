@@ -22,10 +22,10 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Install ImageMagick
+      - name: Install ImageMagick and Chinese fonts
         run: |
           sudo apt-get update
-          sudo apt-get install -y imagemagick
+          sudo apt-get install -y imagemagick fonts-noto-cjk bc
 
       - name: Run sync script
         id: sync
@@ -49,8 +49,8 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add wallpaper/ thumbnail/
-          git commit -m "chore: sync wallpapers and thumbnails from Gitee [$(date +'%Y-%m-%d')]"
+          git add wallpaper/ thumbnail/ preview/
+          git commit -m "chore: sync wallpapers, thumbnails and previews from Gitee [$(date +'%Y-%m-%d')]"
           git push
 
       - name: Generate summary
@@ -59,8 +59,9 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Item | Count |" >> $GITHUB_STEP_SUMMARY
           echo "|------|-------|" >> $GITHUB_STEP_SUMMARY
-          echo "| Total wallpapers | $(ls -1 wallpaper/*.{jpg,jpeg,png,gif,webp,JPG,JPEG,PNG,GIF,WEBP} 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
-          echo "| Total thumbnails | $(ls -1 thumbnail/*.webp 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
+          echo "| Total wallpapers | $(ls -1 wallpaper/desktop/*.{jpg,jpeg,png,gif,webp,JPG,JPEG,PNG,GIF,WEBP} 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
+          echo "| Total thumbnails | $(ls -1 thumbnail/desktop/*.webp 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
+          echo "| Total previews | $(ls -1 preview/desktop/*.webp 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
           if [ "${{ steps.check.outputs.has_changes }}" == "true" ]; then
             echo "| Status | ✅ Synced (incremental) |" >> $GITHUB_STEP_SUMMARY
           else
