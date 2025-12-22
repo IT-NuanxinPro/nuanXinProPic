@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 # sync-wallpaper.sh
-# 从 Gitee 仓库增量同步壁纸到本地 wallpaper 目录
+# 从 Gitee 仓库增量同步电脑壁纸到本地 wallpaper/desktop 目录
 # 策略：增量同步（只添加新文件，不删除已有文件）
 # 源文件格式：分类--名称.扩展名（已带分类前缀）
-# 同时生成缩略图到 thumbnail 目录
+# 同时生成缩略图到 thumbnail/desktop 目录
+# 注意：手机壁纸(mobile)和头像(avatar)由用户手动管理
 
 set -e
 
@@ -12,10 +13,10 @@ GITEE_OWNER="zhang--shuang"
 GITEE_REPO="desktop_wallpaper"
 GITEE_BRANCH="master"
 
-# 本地目录配置
+# 本地目录配置（仅同步 desktop 子目录）
 TEMP_DIR="/tmp/desktop_wallpaper_sync"
-TARGET_DIR="wallpaper"
-THUMBNAIL_DIR="thumbnail"
+TARGET_DIR="wallpaper/desktop"
+THUMBNAIL_DIR="thumbnail/desktop"
 
 # 缩略图配置
 THUMB_WIDTH=800

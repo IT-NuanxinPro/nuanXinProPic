@@ -44,19 +44,32 @@ https://raw.githubusercontent.com/IT-NuanxinPro/nuanXinProPic/main/图片路径
 
 ```
 nuanXinProPic/
-├── wallpaper/     # 自动同步的壁纸原图（每日增量更新）
-│                  # 文件名格式：分类--名称.扩展名
-├── thumbnail/     # 自动生成的壁纸缩略图（WebP 格式，800px 宽）
-├── blog/          # 博客相关图片
-├── docs/          # 文档相关图片
-├── projects/      # 项目相关图片
-├── others/        # 其他类型图片
-├── scripts/       # 自动化脚本
-│   └── sync-wallpaper.sh  # 壁纸同步脚本
+├── wallpaper/              # 壁纸原图目录
+│   ├── desktop/            # 电脑壁纸（每日自动同步）
+│   ├── mobile/             # 手机壁纸（手动管理）
+│   └── avatar/             # 头像（手动管理）
+├── thumbnail/              # 壁纸缩略图目录（WebP 格式，800px 宽）
+│   ├── desktop/            # 电脑壁纸缩略图
+│   ├── mobile/             # 手机壁纸缩略图
+│   └── avatar/             # 头像缩略图
+├── blog/                   # 博客相关图片
+├── docs/                   # 文档相关图片
+├── projects/               # 项目相关图片
+├── others/                 # 其他类型图片
+├── scripts/                # 自动化脚本
+│   └── sync-wallpaper.sh   # 电脑壁纸同步脚本
 └── .github/
     └── workflows/
         └── sync-wallpaper.yml  # GitHub Actions 自动同步配置
 ```
+
+## 三大系列说明
+
+| 系列 | 目录 | 同步方式 | 说明 |
+|------|------|----------|------|
+| 电脑壁纸 | `wallpaper/desktop/` | 每日自动同步 | 从 Gitee 增量同步 |
+| 手机壁纸 | `wallpaper/mobile/` | 手动上传 | 用户自行管理 |
+| 头像 | `wallpaper/avatar/` | 手动上传 | 用户自行管理 |
 
 ## 壁纸自动同步
 
@@ -68,21 +81,21 @@ nuanXinProPic/
 |--------|------|
 | **同步频率** | 每天 UTC 22:00（北京时间 6:00） |
 | **同步策略** | 增量同步（只添加新文件，不删除已有文件） |
-| **原图目录** | `wallpaper/` |
-| **缩略图目录** | `thumbnail/` |
+| **原图目录** | `wallpaper/desktop/` |
+| **缩略图目录** | `thumbnail/desktop/` |
 | **缩略图格式** | WebP，宽度 800px，质量 85% |
 | **文件名格式** | `分类--名称.扩展名`（如：`动漫--原神_雷电将军.jpg`） |
 
 ### 访问链接格式
 
-**原图**：
+**电脑壁纸原图**：
 ```
-https://raw.githubusercontent.com/IT-NuanxinPro/nuanXinProPic/main/wallpaper/图片名称.jpg
+https://raw.githubusercontent.com/IT-NuanxinPro/nuanXinProPic/main/wallpaper/desktop/图片名称.jpg
 ```
 
-**缩略图**：
+**电脑壁纸缩略图**：
 ```
-https://raw.githubusercontent.com/IT-NuanxinPro/nuanXinProPic/main/thumbnail/图片名称.webp
+https://raw.githubusercontent.com/IT-NuanxinPro/nuanXinProPic/main/thumbnail/desktop/图片名称.webp
 ```
 
 ### 手动触发同步
