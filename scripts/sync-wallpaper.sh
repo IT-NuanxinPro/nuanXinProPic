@@ -4,6 +4,7 @@
 # 策略：增量同步（只添加新文件，不删除已有文件）
 # 源文件格式：分类--名称.扩展名（已带分类前缀）
 # 同时生成缩略图到 thumbnail/desktop 目录
+# 同时生成预览图到 preview/desktop 目录（1920px 宽，用于模态框快速加载）
 # 注意：手机壁纸(mobile)和头像(avatar)由用户手动管理
 
 set -e
@@ -17,10 +18,15 @@ GITEE_BRANCH="master"
 TEMP_DIR="/tmp/desktop_wallpaper_sync"
 TARGET_DIR="wallpaper/desktop"
 THUMBNAIL_DIR="thumbnail/desktop"
+PREVIEW_DIR="preview/desktop"
 
 # 缩略图配置
 THUMB_WIDTH=800
 THUMB_QUALITY=85
+
+# 预览图配置（用于模态框快速加载，比原图小但比缩略图清晰）
+PREVIEW_WIDTH=1920
+PREVIEW_QUALITY=90
 
 # 重试配置
 MAX_RETRIES=3
@@ -86,18 +92,19 @@ fi
 # 确保目标目录存在
 mkdir -p "$TARGET_DIR"
 mkdir -p "$THUMBNAIL_DIR"
+mkdir -p "$PREVIEW_DIR"
 
 # 检查 ImageMagick 是否可用
 if command -v magick &> /dev/null; then
     IMAGEMAGICK_CMD="magick"
-    echo -e "${GREEN}[INFO]${NC} ImageMagick v7 found (magick), will generate thumbnails"
+    echo -e "${GREEN}[INFO]${NC} ImageMagick v7 found (magick), will generate thumbnails and previews"
     GENERATE_THUMBNAILS=true
 elif command -v convert &> /dev/null; then
     IMAGEMAGICK_CMD="convert"
-    echo -e "${GREEN}[INFO]${NC} ImageMagick found (convert), will generate thumbnails"
+    echo -e "${GREEN}[INFO]${NC} ImageMagick found (convert), will generate thumbnails and previews"
     GENERATE_THUMBNAILS=true
 else
-    echo -e "${YELLOW}[WARN]${NC} ImageMagick not found, thumbnails will not be generated"
+    echo -e "${YELLOW}[WARN]${NC} ImageMagick not found, thumbnails and previews will not be generated"
     GENERATE_THUMBNAILS=false
 fi
 
@@ -107,6 +114,8 @@ new_copied=0
 skipped=0
 thumbnails_generated=0
 thumbnail_errors=0
+previews_generated=0
+preview_errors=0
 
 # 用于存储分类统计的临时文件
 CATEGORY_STATS_FILE="/tmp/category_stats_$$"
@@ -127,6 +136,7 @@ process_image() {
     # 生成缩略图文件名（统一使用 webp 格式）
     local filename_noext="${filename%.*}"
     local thumbnail_file="$THUMBNAIL_DIR/${filename_noext}.webp"
+    local preview_file="$PREVIEW_DIR/${filename_noext}.webp"
 
     total_found=$((total_found + 1))
 
@@ -138,19 +148,41 @@ process_image() {
 
     # 增量检查：文件是否已存在
     if [ -f "$target_file" ]; then
-        # 壁纸已存在，检查缩略图是否需要生成
-        if [ "$GENERATE_THUMBNAILS" = true ] && [ ! -f "$thumbnail_file" ]; then
-            echo -e "${YELLOW}[THUMB ONLY]${NC} $filename"
-            if $IMAGEMAGICK_CMD "$file" \
-                -resize "${THUMB_WIDTH}x>" \
-                -quality "$THUMB_QUALITY" \
-                -strip \
-                "$thumbnail_file" 2>/dev/null; then
-                echo -e "${BLUE}[THUMB]${NC} ${filename_noext}.webp"
-                thumbnails_generated=$((thumbnails_generated + 1))
-            else
-                echo -e "${RED}[THUMB ERROR]${NC} Failed to generate thumbnail for $filename"
-                thumbnail_errors=$((thumbnail_errors + 1))
+        # 壁纸已存在，检查缩略图和预览图是否需要生成
+        if [ "$GENERATE_THUMBNAILS" = true ]; then
+            # 检查缩略图
+            if [ ! -f "$thumbnail_file" ]; then
+                echo -e "${YELLOW}[THUMB ONLY]${NC} $filename"
+                if $IMAGEMAGICK_CMD "$file" \
+                    -resize "${THUMB_WIDTH}x>" \
+                    -quality "$THUMB_QUALITY" \
+                    -strip \
+                    "$thumbnail_file" 2>/dev/null; then
+                    echo -e "${BLUE}[THUMB]${NC} ${filename_noext}.webp"
+                    thumbnails_generated=$((thumbnails_generated + 1))
+                else
+                    echo -e "${RED}[THUMB ERROR]${NC} Failed to generate thumbnail for $filename"
+                    thumbnail_errors=$((thumbnail_errors + 1))
+                fi
+            fi
+            # 检查预览图
+            if [ ! -f "$preview_file" ]; then
+                echo -e "${YELLOW}[PREVIEW ONLY]${NC} $filename"
+                if $IMAGEMAGICK_CMD "$file" \
+                    -resize "${PREVIEW_WIDTH}x>" \
+                    -quality "$PREVIEW_QUALITY" \
+                    -strip \
+                    "$preview_file" 2>/dev/null; then
+                    echo -e "${BLUE}[PREVIEW]${NC} ${filename_noext}.webp"
+                    previews_generated=$((previews_generated + 1))
+                else
+                    echo -e "${RED}[PREVIEW ERROR]${NC} Failed to generate preview for $filename"
+                    preview_errors=$((preview_errors + 1))
+                fi
+            fi
+            # 如果缩略图和预览图都存在，则跳过
+            if [ -f "$thumbnail_file" ] && [ -f "$preview_file" ]; then
+                skipped=$((skipped + 1))
             fi
         else
             skipped=$((skipped + 1))
@@ -166,8 +198,9 @@ process_image() {
     # 记录分类统计（仅新增文件）
     echo "$category" >> "$CATEGORY_STATS_FILE"
 
-    # 生成缩略图（仅新文件）
+    # 生成缩略图和预览图（仅新文件）
     if [ "$GENERATE_THUMBNAILS" = true ]; then
+        # 生成缩略图
         if [ ! -f "$thumbnail_file" ]; then
             if $IMAGEMAGICK_CMD "$file" \
                 -resize "${THUMB_WIDTH}x>" \
@@ -179,6 +212,20 @@ process_image() {
             else
                 echo -e "${RED}[THUMB ERROR]${NC} Failed to generate thumbnail for $filename"
                 thumbnail_errors=$((thumbnail_errors + 1))
+            fi
+        fi
+        # 生成预览图
+        if [ ! -f "$preview_file" ]; then
+            if $IMAGEMAGICK_CMD "$file" \
+                -resize "${PREVIEW_WIDTH}x>" \
+                -quality "$PREVIEW_QUALITY" \
+                -strip \
+                "$preview_file" 2>/dev/null; then
+                echo -e "${BLUE}[PREVIEW]${NC} ${filename_noext}.webp"
+                previews_generated=$((previews_generated + 1))
+            else
+                echo -e "${RED}[PREVIEW ERROR]${NC} Failed to generate preview for $filename"
+                preview_errors=$((preview_errors + 1))
             fi
         fi
     fi
@@ -204,8 +251,12 @@ echo "  Total images in source:  $total_found"
 echo "  New images copied:       $new_copied"
 echo "  Skipped (existing):      $skipped"
 echo "  Thumbnails generated:    $thumbnails_generated"
+echo "  Previews generated:      $previews_generated"
 if [ "$thumbnail_errors" -gt 0 ]; then
     echo "  Thumbnail errors:        $thumbnail_errors"
+fi
+if [ "$preview_errors" -gt 0 ]; then
+    echo "  Preview errors:          $preview_errors"
 fi
 
 # 显示新增文件的分类统计
@@ -226,6 +277,7 @@ rm -f "$CATEGORY_STATS_FILE"
 if [ -n "$GITHUB_OUTPUT" ]; then
     echo "new_images=$new_copied" >> "$GITHUB_OUTPUT"
     echo "thumbnails=$thumbnails_generated" >> "$GITHUB_OUTPUT"
+    echo "previews=$previews_generated" >> "$GITHUB_OUTPUT"
 fi
 
 # 返回是否有新增
