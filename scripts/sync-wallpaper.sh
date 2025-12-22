@@ -28,6 +28,15 @@ THUMB_QUALITY=85
 PREVIEW_WIDTH=1920
 PREVIEW_QUALITY=90
 
+# 水印配置
+WATERMARK_ENABLED=true
+WATERMARK_TEXT="暖心"
+WATERMARK_SIZE_PERCENT=8    # 水印大小（预览图宽度的百分比）
+WATERMARK_OPACITY=65        # 水印不透明度（0-100）
+WATERMARK_POSITION="southeast"  # 水印位置（右下角）
+WATERMARK_OFFSET_X=25       # 水印 X 偏移量（像素）
+WATERMARK_OFFSET_Y=25       # 水印 Y 偏移量（像素）
+
 # 重试配置
 MAX_RETRIES=3
 RETRY_DELAY=5
@@ -108,6 +117,53 @@ else
     GENERATE_THUMBNAILS=false
 fi
 
+# 检查水印功能
+if [ "$WATERMARK_ENABLED" = true ] && [ "$GENERATE_THUMBNAILS" = true ]; then
+    # 计算水印字体大小（预览图宽度的百分比）
+    WATERMARK_FONT_SIZE=$((PREVIEW_WIDTH * WATERMARK_SIZE_PERCENT / 100))
+
+    # 计算水印颜色（白色带透明度）
+    WATERMARK_ALPHA=$(echo "scale=2; $WATERMARK_OPACITY / 100" | bc)
+    WATERMARK_COLOR="rgba(255,255,255,$WATERMARK_ALPHA)"
+
+    # 检测可用的中文字体
+    WATERMARK_FONT=""
+    if [ "$(uname)" = "Darwin" ]; then
+        # macOS: 尝试多种中文字体
+        for font in "PingFang-SC-Medium" "PingFang-SC-Regular" "STHeiti" "Heiti-SC"; do
+            if $IMAGEMAGICK_CMD -list font 2>/dev/null | grep -qi "$font"; then
+                WATERMARK_FONT="$font"
+                break
+            fi
+        done
+        # 如果没找到，使用默认字体
+        if [ -z "$WATERMARK_FONT" ]; then
+            WATERMARK_FONT="PingFang-SC-Medium"
+        fi
+    elif [ "$(uname)" = "Linux" ]; then
+        # Linux: 尝试 Noto 字体
+        for font in "Noto-Sans-CJK-SC-Medium" "Noto-Sans-CJK-SC" "WenQuanYi-Micro-Hei"; do
+            if $IMAGEMAGICK_CMD -list font 2>/dev/null | grep -qi "$font"; then
+                WATERMARK_FONT="$font"
+                break
+            fi
+        done
+        if [ -z "$WATERMARK_FONT" ]; then
+            WATERMARK_FONT="Noto-Sans-CJK-SC-Medium"
+        fi
+    else
+        # Windows 或其他系统
+        WATERMARK_FONT="Microsoft-YaHei-Bold"
+    fi
+
+    echo -e "${GREEN}[INFO]${NC} Watermark enabled: \"$WATERMARK_TEXT\" (font: $WATERMARK_FONT, size: ${WATERMARK_FONT_SIZE}px)"
+else
+    if [ "$WATERMARK_ENABLED" = true ]; then
+        echo -e "${YELLOW}[WARN]${NC} Watermark disabled (ImageMagick not available)"
+        WATERMARK_ENABLED=false
+    fi
+fi
+
 # 统计变量
 total_found=0
 new_copied=0
@@ -116,6 +172,8 @@ thumbnails_generated=0
 thumbnail_errors=0
 previews_generated=0
 preview_errors=0
+watermarks_added=0
+watermark_errors=0
 
 # 用于存储分类统计的临时文件
 CATEGORY_STATS_FILE="/tmp/category_stats_$$"
@@ -124,6 +182,54 @@ CATEGORY_STATS_FILE="/tmp/category_stats_$$"
 echo ""
 echo "Scanning source repository for images..."
 echo ""
+
+# 生成预览图函数（带水印）
+generate_preview() {
+    local source_file="$1"
+    local output_file="$2"
+    local filename="$3"
+
+    if [ "$WATERMARK_ENABLED" = true ]; then
+        # 生成带水印的预览图
+        if $IMAGEMAGICK_CMD "$source_file" \
+            -resize "${PREVIEW_WIDTH}x>" \
+            -font "$WATERMARK_FONT" \
+            -pointsize "$WATERMARK_FONT_SIZE" \
+            -fill "$WATERMARK_COLOR" \
+            -gravity "$WATERMARK_POSITION" \
+            -annotate "+${WATERMARK_OFFSET_X}+${WATERMARK_OFFSET_Y}" "$WATERMARK_TEXT" \
+            -quality "$PREVIEW_QUALITY" \
+            -strip \
+            "$output_file" 2>/dev/null; then
+            watermarks_added=$((watermarks_added + 1))
+            return 0
+        else
+            # 水印添加失败，尝试生成无水印版本
+            echo -e "${YELLOW}[WATERMARK FAILED]${NC} $filename, trying without watermark..."
+            watermark_errors=$((watermark_errors + 1))
+            if $IMAGEMAGICK_CMD "$source_file" \
+                -resize "${PREVIEW_WIDTH}x>" \
+                -quality "$PREVIEW_QUALITY" \
+                -strip \
+                "$output_file" 2>/dev/null; then
+                return 0
+            else
+                return 1
+            fi
+        fi
+    else
+        # 生成无水印的预览图
+        if $IMAGEMAGICK_CMD "$source_file" \
+            -resize "${PREVIEW_WIDTH}x>" \
+            -quality "$PREVIEW_QUALITY" \
+            -strip \
+            "$output_file" 2>/dev/null; then
+            return 0
+        else
+            return 1
+        fi
+    fi
+}
 
 # 处理图片函数（增量模式）
 process_image() {
@@ -168,11 +274,7 @@ process_image() {
             # 检查预览图
             if [ ! -f "$preview_file" ]; then
                 echo -e "${YELLOW}[PREVIEW ONLY]${NC} $filename"
-                if $IMAGEMAGICK_CMD "$file" \
-                    -resize "${PREVIEW_WIDTH}x>" \
-                    -quality "$PREVIEW_QUALITY" \
-                    -strip \
-                    "$preview_file" 2>/dev/null; then
+                if generate_preview "$file" "$preview_file" "$filename"; then
                     echo -e "${BLUE}[PREVIEW]${NC} ${filename_noext}.webp"
                     previews_generated=$((previews_generated + 1))
                 else
@@ -214,13 +316,9 @@ process_image() {
                 thumbnail_errors=$((thumbnail_errors + 1))
             fi
         fi
-        # 生成预览图
+        # 生成预览图（带水印）
         if [ ! -f "$preview_file" ]; then
-            if $IMAGEMAGICK_CMD "$file" \
-                -resize "${PREVIEW_WIDTH}x>" \
-                -quality "$PREVIEW_QUALITY" \
-                -strip \
-                "$preview_file" 2>/dev/null; then
+            if generate_preview "$file" "$preview_file" "$filename"; then
                 echo -e "${BLUE}[PREVIEW]${NC} ${filename_noext}.webp"
                 previews_generated=$((previews_generated + 1))
             else
@@ -252,11 +350,17 @@ echo "  New images copied:       $new_copied"
 echo "  Skipped (existing):      $skipped"
 echo "  Thumbnails generated:    $thumbnails_generated"
 echo "  Previews generated:      $previews_generated"
+if [ "$WATERMARK_ENABLED" = true ]; then
+    echo "  Watermarks added:        $watermarks_added"
+fi
 if [ "$thumbnail_errors" -gt 0 ]; then
     echo "  Thumbnail errors:        $thumbnail_errors"
 fi
 if [ "$preview_errors" -gt 0 ]; then
     echo "  Preview errors:          $preview_errors"
+fi
+if [ "$watermark_errors" -gt 0 ]; then
+    echo "  Watermark errors:        $watermark_errors"
 fi
 
 # 显示新增文件的分类统计
@@ -278,6 +382,7 @@ if [ -n "$GITHUB_OUTPUT" ]; then
     echo "new_images=$new_copied" >> "$GITHUB_OUTPUT"
     echo "thumbnails=$thumbnails_generated" >> "$GITHUB_OUTPUT"
     echo "previews=$previews_generated" >> "$GITHUB_OUTPUT"
+    echo "watermarks=$watermarks_added" >> "$GITHUB_OUTPUT"
 fi
 
 # 返回是否有新增
