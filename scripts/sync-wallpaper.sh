@@ -31,19 +31,26 @@ PREVIEW_QUALITY=90
 # 水印配置
 WATERMARK_ENABLED=true
 WATERMARK_TEXT="暖心"
-WATERMARK_OPACITY=65        # 水印不透明度（0-100）
+WATERMARK_OPACITY=50        # 水印不透明度（0-100）
 WATERMARK_POSITION="southeast"  # 水印位置（右下角）
 WATERMARK_ANGLE=-30         # 水印倾斜角度（负数为逆时针）
+# 左下角水平水印配置
+WATERMARK_SECOND_POSITION="southwest"
+WATERMARK_SECOND_ANGLE=0
 
 # 预览图水印配置
 PREVIEW_WATERMARK_SIZE_PERCENT=3    # 水印大小（预览图宽度的百分比）
 PREVIEW_WATERMARK_OFFSET_X=40       # 水印 X 偏移量（像素）
 PREVIEW_WATERMARK_OFFSET_Y=80       # 水印 Y 偏移量（像素）
+PREVIEW_WATERMARK_OFFSET_X_LEFT=40  # 左下角水印 X 偏移
+PREVIEW_WATERMARK_OFFSET_Y_LEFT=80  # 左下角水印 Y 偏移
 
 # 缩略图水印配置
-THUMB_WATERMARK_SIZE_PERCENT=2    # 水印大小（缩略图宽度的百分比，稍大一些以便可见）
-THUMB_WATERMARK_OFFSET_X=20         # 水印 X 偏移量（像素）
-THUMB_WATERMARK_OFFSET_Y=40         # 水印 Y 偏移量（像素）
+THUMB_WATERMARK_SIZE_PERCENT=2      # 水印大小（缩略图宽度的百分比，稍大一些以便可见）
+THUMB_WATERMARK_OFFSET_X=20         # 右下角水印 X 偏移量（像素）
+THUMB_WATERMARK_OFFSET_Y=40         # 右下角水印 Y 偏移量（像素）
+THUMB_WATERMARK_OFFSET_X_LEFT=20    # 左下角水印 X 偏移
+THUMB_WATERMARK_OFFSET_Y_LEFT=40    # 左下角水印 Y 偏移
 
 # 重试配置
 MAX_RETRIES=3
@@ -209,6 +216,8 @@ generate_preview() {
             -fill "$WATERMARK_COLOR" \
             -gravity "$WATERMARK_POSITION" \
             -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${PREVIEW_WATERMARK_OFFSET_X}+${PREVIEW_WATERMARK_OFFSET_Y} "$WATERMARK_TEXT" \
+            -gravity "$WATERMARK_SECOND_POSITION" \
+            -annotate ${WATERMARK_SECOND_ANGLE}x${WATERMARK_SECOND_ANGLE}+${PREVIEW_WATERMARK_OFFSET_X_LEFT}+${PREVIEW_WATERMARK_OFFSET_Y_LEFT} "$WATERMARK_TEXT" \
             -quality "$PREVIEW_QUALITY" \
             -strip \
             "$output_file" 2>/dev/null; then
@@ -257,6 +266,8 @@ generate_thumbnail() {
             -fill "$WATERMARK_COLOR" \
             -gravity "$WATERMARK_POSITION" \
             -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${THUMB_WATERMARK_OFFSET_X}+${THUMB_WATERMARK_OFFSET_Y} "$WATERMARK_TEXT" \
+            -gravity "$WATERMARK_SECOND_POSITION" \
+            -annotate ${WATERMARK_SECOND_ANGLE}x${WATERMARK_SECOND_ANGLE}+${THUMB_WATERMARK_OFFSET_X_LEFT}+${THUMB_WATERMARK_OFFSET_Y_LEFT} "$WATERMARK_TEXT" \
             -quality "$THUMB_QUALITY" \
             -strip \
             "$output_file" 2>/dev/null; then

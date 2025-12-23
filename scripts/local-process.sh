@@ -31,19 +31,26 @@ PREVIEW_QUALITY=85
 # 水印配置
 WATERMARK_ENABLED=true
 WATERMARK_TEXT="暖心"
-WATERMARK_OPACITY=65
+WATERMARK_OPACITY=50
 WATERMARK_POSITION="southeast"
 WATERMARK_ANGLE=-30
+# 左下角水印（水平）配置
+WATERMARK_SECOND_POSITION="southwest"
+WATERMARK_SECOND_ANGLE=0
 
 # 预览图水印配置
 PREVIEW_WATERMARK_SIZE_PERCENT=3
 PREVIEW_WATERMARK_OFFSET_X=40
 PREVIEW_WATERMARK_OFFSET_Y=80
+PREVIEW_WATERMARK_OFFSET_X_LEFT=40
+PREVIEW_WATERMARK_OFFSET_Y_LEFT=80
 
 # 缩略图水印配置
 THUMB_WATERMARK_SIZE_PERCENT=4
 THUMB_WATERMARK_OFFSET_X=20
 THUMB_WATERMARK_OFFSET_Y=40
+THUMB_WATERMARK_OFFSET_X_LEFT=20
+THUMB_WATERMARK_OFFSET_Y_LEFT=40
 
 # ========================================
 # 使用说明
@@ -143,6 +150,9 @@ process_image() {
                 -pointsize "$thumb_watermark_size" \
                 -fill "rgba(255,255,255,${WATERMARK_OPACITY}%)" \
                 -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${THUMB_WATERMARK_OFFSET_X}+${THUMB_WATERMARK_OFFSET_Y} "$WATERMARK_TEXT" \
+                -gravity "$WATERMARK_SECOND_POSITION" \
+                -pointsize "$thumb_watermark_size" \
+                -annotate ${WATERMARK_SECOND_ANGLE}x${WATERMARK_SECOND_ANGLE}+${THUMB_WATERMARK_OFFSET_X_LEFT}+${THUMB_WATERMARK_OFFSET_Y_LEFT} "$WATERMARK_TEXT" \
                 "$dest_thumbnail" 2>/dev/null
             echo -e "  ${GREEN}✓${NC} 缩略图(水印): ${name}.webp"
         else
@@ -172,6 +182,9 @@ process_image() {
                     -pointsize "$preview_watermark_size" \
                     -fill "rgba(255,255,255,${WATERMARK_OPACITY}%)" \
                     -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${PREVIEW_WATERMARK_OFFSET_X}+${PREVIEW_WATERMARK_OFFSET_Y} "$WATERMARK_TEXT" \
+                    -gravity "$WATERMARK_SECOND_POSITION" \
+                    -pointsize "$preview_watermark_size" \
+                    -annotate ${WATERMARK_SECOND_ANGLE}x${WATERMARK_SECOND_ANGLE}+${PREVIEW_WATERMARK_OFFSET_X_LEFT}+${PREVIEW_WATERMARK_OFFSET_Y_LEFT} "$WATERMARK_TEXT" \
                     "$dest_preview" 2>/dev/null
                 echo -e "  ${GREEN}✓${NC} 预览图(水印): ${name}.webp"
             else
