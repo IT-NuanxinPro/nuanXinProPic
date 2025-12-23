@@ -31,12 +31,19 @@ PREVIEW_QUALITY=90
 # 水印配置
 WATERMARK_ENABLED=true
 WATERMARK_TEXT="暖心"
-WATERMARK_SIZE_PERCENT=3    # 水印大小（预览图宽度的百分比）
 WATERMARK_OPACITY=65        # 水印不透明度（0-100）
 WATERMARK_POSITION="southeast"  # 水印位置（右下角）
-WATERMARK_OFFSET_X=40       # 水印 X 偏移量（像素）
-WATERMARK_OFFSET_Y=80       # 水印 Y 偏移量（像素）
 WATERMARK_ANGLE=-30         # 水印倾斜角度（负数为逆时针）
+
+# 预览图水印配置
+PREVIEW_WATERMARK_SIZE_PERCENT=3    # 水印大小（预览图宽度的百分比）
+PREVIEW_WATERMARK_OFFSET_X=40       # 水印 X 偏移量（像素）
+PREVIEW_WATERMARK_OFFSET_Y=80       # 水印 Y 偏移量（像素）
+
+# 缩略图水印配置
+THUMB_WATERMARK_SIZE_PERCENT=2    # 水印大小（缩略图宽度的百分比，稍大一些以便可见）
+THUMB_WATERMARK_OFFSET_X=20         # 水印 X 偏移量（像素）
+THUMB_WATERMARK_OFFSET_Y=40         # 水印 Y 偏移量（像素）
 
 # 重试配置
 MAX_RETRIES=3
@@ -120,8 +127,10 @@ fi
 
 # 检查水印功能
 if [ "$WATERMARK_ENABLED" = true ] && [ "$GENERATE_THUMBNAILS" = true ]; then
-    # 计算水印字体大小（预览图宽度的百分比）
-    WATERMARK_FONT_SIZE=$((PREVIEW_WIDTH * WATERMARK_SIZE_PERCENT / 100))
+    # 计算预览图水印字体大小
+    PREVIEW_WATERMARK_FONT_SIZE=$((PREVIEW_WIDTH * PREVIEW_WATERMARK_SIZE_PERCENT / 100))
+    # 计算缩略图水印字体大小
+    THUMB_WATERMARK_FONT_SIZE=$((THUMB_WIDTH * THUMB_WATERMARK_SIZE_PERCENT / 100))
 
     # 计算水印颜色（白色带透明度）
     WATERMARK_ALPHA=$(echo "scale=2; $WATERMARK_OPACITY / 100" | bc)
@@ -157,7 +166,8 @@ if [ "$WATERMARK_ENABLED" = true ] && [ "$GENERATE_THUMBNAILS" = true ]; then
         WATERMARK_FONT="Microsoft-YaHei-Bold"
     fi
 
-    echo -e "${GREEN}[INFO]${NC} Watermark enabled: \"$WATERMARK_TEXT\" (font: $WATERMARK_FONT, size: ${WATERMARK_FONT_SIZE}px)"
+    echo -e "${GREEN}[INFO]${NC} Watermark enabled: \"$WATERMARK_TEXT\" (font: $WATERMARK_FONT)"
+    echo -e "${GREEN}[INFO]${NC}   Preview: ${PREVIEW_WATERMARK_FONT_SIZE}px, Thumbnail: ${THUMB_WATERMARK_FONT_SIZE}px"
 else
     if [ "$WATERMARK_ENABLED" = true ]; then
         echo -e "${YELLOW}[WARN]${NC} Watermark disabled (ImageMagick not available)"
@@ -195,10 +205,10 @@ generate_preview() {
         if $IMAGEMAGICK_CMD "$source_file" \
             -resize "${PREVIEW_WIDTH}x>" \
             -font "$WATERMARK_FONT" \
-            -pointsize "$WATERMARK_FONT_SIZE" \
+            -pointsize "$PREVIEW_WATERMARK_FONT_SIZE" \
             -fill "$WATERMARK_COLOR" \
             -gravity "$WATERMARK_POSITION" \
-            -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${WATERMARK_OFFSET_X}+${WATERMARK_OFFSET_Y} "$WATERMARK_TEXT" \
+            -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${PREVIEW_WATERMARK_OFFSET_X}+${PREVIEW_WATERMARK_OFFSET_Y} "$WATERMARK_TEXT" \
             -quality "$PREVIEW_QUALITY" \
             -strip \
             "$output_file" 2>/dev/null; then
@@ -223,6 +233,52 @@ generate_preview() {
         if $IMAGEMAGICK_CMD "$source_file" \
             -resize "${PREVIEW_WIDTH}x>" \
             -quality "$PREVIEW_QUALITY" \
+            -strip \
+            "$output_file" 2>/dev/null; then
+            return 0
+        else
+            return 1
+        fi
+    fi
+}
+
+# 生成缩略图函数（带水印）
+generate_thumbnail() {
+    local source_file="$1"
+    local output_file="$2"
+    local filename="$3"
+
+    if [ "$WATERMARK_ENABLED" = true ]; then
+        # 生成带水印的缩略图
+        if $IMAGEMAGICK_CMD "$source_file" \
+            -resize "${THUMB_WIDTH}x>" \
+            -font "$WATERMARK_FONT" \
+            -pointsize "$THUMB_WATERMARK_FONT_SIZE" \
+            -fill "$WATERMARK_COLOR" \
+            -gravity "$WATERMARK_POSITION" \
+            -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${THUMB_WATERMARK_OFFSET_X}+${THUMB_WATERMARK_OFFSET_Y} "$WATERMARK_TEXT" \
+            -quality "$THUMB_QUALITY" \
+            -strip \
+            "$output_file" 2>/dev/null; then
+            return 0
+        else
+            # 水印添加失败，尝试生成无水印版本
+            echo -e "${YELLOW}[THUMB WATERMARK FAILED]${NC} $filename, trying without watermark..."
+            if $IMAGEMAGICK_CMD "$source_file" \
+                -resize "${THUMB_WIDTH}x>" \
+                -quality "$THUMB_QUALITY" \
+                -strip \
+                "$output_file" 2>/dev/null; then
+                return 0
+            else
+                return 1
+            fi
+        fi
+    else
+        # 生成无水印的缩略图
+        if $IMAGEMAGICK_CMD "$source_file" \
+            -resize "${THUMB_WIDTH}x>" \
+            -quality "$THUMB_QUALITY" \
             -strip \
             "$output_file" 2>/dev/null; then
             return 0
@@ -260,11 +316,7 @@ process_image() {
             # 检查缩略图
             if [ ! -f "$thumbnail_file" ]; then
                 echo -e "${YELLOW}[THUMB ONLY]${NC} $filename"
-                if $IMAGEMAGICK_CMD "$file" \
-                    -resize "${THUMB_WIDTH}x>" \
-                    -quality "$THUMB_QUALITY" \
-                    -strip \
-                    "$thumbnail_file" 2>/dev/null; then
+                if generate_thumbnail "$file" "$thumbnail_file" "$filename"; then
                     echo -e "${BLUE}[THUMB]${NC} ${filename_noext}.webp"
                     thumbnails_generated=$((thumbnails_generated + 1))
                 else
@@ -303,13 +355,9 @@ process_image() {
 
     # 生成缩略图和预览图（仅新文件）
     if [ "$GENERATE_THUMBNAILS" = true ]; then
-        # 生成缩略图
+        # 生成缩略图（带水印）
         if [ ! -f "$thumbnail_file" ]; then
-            if $IMAGEMAGICK_CMD "$file" \
-                -resize "${THUMB_WIDTH}x>" \
-                -quality "$THUMB_QUALITY" \
-                -strip \
-                "$thumbnail_file" 2>/dev/null; then
+            if generate_thumbnail "$file" "$thumbnail_file" "$filename"; then
                 echo -e "${BLUE}[THUMB]${NC} ${filename_noext}.webp"
                 thumbnails_generated=$((thumbnails_generated + 1))
             else

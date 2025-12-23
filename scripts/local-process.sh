@@ -31,12 +31,19 @@ PREVIEW_QUALITY=85
 # 水印配置
 WATERMARK_ENABLED=true
 WATERMARK_TEXT="暖心"
-WATERMARK_SIZE_PERCENT=3
 WATERMARK_OPACITY=65
 WATERMARK_POSITION="southeast"
-WATERMARK_OFFSET_X=40
-WATERMARK_OFFSET_Y=80
 WATERMARK_ANGLE=-30
+
+# 预览图水印配置
+PREVIEW_WATERMARK_SIZE_PERCENT=3
+PREVIEW_WATERMARK_OFFSET_X=40
+PREVIEW_WATERMARK_OFFSET_Y=80
+
+# 缩略图水印配置
+THUMB_WATERMARK_SIZE_PERCENT=4
+THUMB_WATERMARK_OFFSET_X=20
+THUMB_WATERMARK_OFFSET_Y=40
 
 # ========================================
 # 使用说明
@@ -59,7 +66,7 @@ show_help() {
     echo "说明:"
     echo "  - 支持 jpg, jpeg, png, webp 格式"
     echo "  - 原图复制到 wallpaper/<系列>/"
-    echo "  - 缩略图生成到 thumbnail/<系列>/ (800px宽, webp格式)"
+    echo "  - 缩略图生成到 thumbnail/<系列>/ (800px宽, webp格式, 带水印)"
     echo "  - 预览图生成到 preview/<系列>/ (1920px宽, webp格式, 带水印)"
     echo "  - avatar 系列不生成预览图"
 }
@@ -121,14 +128,30 @@ process_image() {
         echo -e "  ${YELLOW}→${NC} 原图已存在: $filename"
     fi
 
-    # 2. 生成缩略图
+    # 2. 生成缩略图（带水印）
     local dest_thumbnail="$thumbnail_dir/${name}.webp"
     if [ ! -f "$dest_thumbnail" ]; then
-        convert "$src_file" \
-            -resize "${THUMBNAIL_WIDTH}x>" \
-            -quality "$THUMBNAIL_QUALITY" \
-            "$dest_thumbnail" 2>/dev/null
-        echo -e "  ${GREEN}✓${NC} 缩略图: ${name}.webp"
+        if [ "$WATERMARK_ENABLED" = true ] && [ -n "$font" ]; then
+            # 计算缩略图水印大小
+            local thumb_watermark_size=$((THUMBNAIL_WIDTH * THUMB_WATERMARK_SIZE_PERCENT / 100))
+
+            convert "$src_file" \
+                -resize "${THUMBNAIL_WIDTH}x>" \
+                -quality "$THUMBNAIL_QUALITY" \
+                -gravity "$WATERMARK_POSITION" \
+                -font "$font" \
+                -pointsize "$thumb_watermark_size" \
+                -fill "rgba(255,255,255,${WATERMARK_OPACITY}%)" \
+                -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${THUMB_WATERMARK_OFFSET_X}+${THUMB_WATERMARK_OFFSET_Y} "$WATERMARK_TEXT" \
+                "$dest_thumbnail" 2>/dev/null
+            echo -e "  ${GREEN}✓${NC} 缩略图(水印): ${name}.webp"
+        else
+            convert "$src_file" \
+                -resize "${THUMBNAIL_WIDTH}x>" \
+                -quality "$THUMBNAIL_QUALITY" \
+                "$dest_thumbnail" 2>/dev/null
+            echo -e "  ${GREEN}✓${NC} 缩略图: ${name}.webp"
+        fi
     else
         echo -e "  ${YELLOW}→${NC} 缩略图已存在: ${name}.webp"
     fi
@@ -138,17 +161,17 @@ process_image() {
         local dest_preview="$preview_dir/${name}.webp"
         if [ ! -f "$dest_preview" ]; then
             if [ "$WATERMARK_ENABLED" = true ] && [ -n "$font" ]; then
-                # 计算水印大小
-                local watermark_size=$((PREVIEW_WIDTH * WATERMARK_SIZE_PERCENT / 100))
+                # 计算预览图水印大小
+                local preview_watermark_size=$((PREVIEW_WIDTH * PREVIEW_WATERMARK_SIZE_PERCENT / 100))
 
                 convert "$src_file" \
                     -resize "${PREVIEW_WIDTH}x>" \
                     -quality "$PREVIEW_QUALITY" \
                     -gravity "$WATERMARK_POSITION" \
                     -font "$font" \
-                    -pointsize "$watermark_size" \
+                    -pointsize "$preview_watermark_size" \
                     -fill "rgba(255,255,255,${WATERMARK_OPACITY}%)" \
-                    -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${WATERMARK_OFFSET_X}+${WATERMARK_OFFSET_Y} "$WATERMARK_TEXT" \
+                    -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${PREVIEW_WATERMARK_OFFSET_X}+${PREVIEW_WATERMARK_OFFSET_Y} "$WATERMARK_TEXT" \
                     "$dest_preview" 2>/dev/null
                 echo -e "  ${GREEN}✓${NC} 预览图(水印): ${name}.webp"
             else
