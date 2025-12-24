@@ -21,7 +21,7 @@ THUMBNAIL_DIR="thumbnail/desktop"
 PREVIEW_DIR="preview/desktop"
 
 # 缩略图配置
-THUMB_WIDTH=800
+THUMB_WIDTH=550
 THUMB_QUALITY=85
 
 # 预览图配置（用于模态框快速加载，比原图小但比缩略图清晰）
@@ -31,22 +31,22 @@ PREVIEW_QUALITY=90
 # 水印配置
 WATERMARK_ENABLED=true
 WATERMARK_TEXT="暖心"
-WATERMARK_OPACITY=50        # 水印不透明度（0-100）
+WATERMARK_OPACITY=40        # 水印不透明度（0-100）
 WATERMARK_POSITION="southeast"  # 水印位置（右下角）
-WATERMARK_ANGLE=-30         # 水印倾斜角度（负数为逆时针）
+WATERMARK_ANGLE=-25         # 水印倾斜角度（负数为逆时针）
 # 左下角水平水印配置
 WATERMARK_SECOND_POSITION="southwest"
 WATERMARK_SECOND_ANGLE=0
 
 # 预览图水印配置
-PREVIEW_WATERMARK_SIZE_PERCENT=3    # 水印大小（预览图宽度的百分比）
+PREVIEW_WATERMARK_SIZE_PERCENT=2  # 水印大小（预览图宽度的百分比）
 PREVIEW_WATERMARK_OFFSET_X=40       # 水印 X 偏移量（像素）
 PREVIEW_WATERMARK_OFFSET_Y=80       # 水印 Y 偏移量（像素）
 PREVIEW_WATERMARK_OFFSET_X_LEFT=40  # 左下角水印 X 偏移
 PREVIEW_WATERMARK_OFFSET_Y_LEFT=80  # 左下角水印 Y 偏移
 
 # 缩略图水印配置
-THUMB_WATERMARK_SIZE_PERCENT=2      # 水印大小（缩略图宽度的百分比，稍大一些以便可见）
+THUMB_WATERMARK_SIZE_PERCENT=1.5     # 水印大小（缩略图宽度的百分比，稍大一些以便可见）
 THUMB_WATERMARK_OFFSET_X=20         # 右下角水印 X 偏移量（像素）
 THUMB_WATERMARK_OFFSET_Y=40         # 右下角水印 Y 偏移量（像素）
 THUMB_WATERMARK_OFFSET_X_LEFT=20    # 左下角水印 X 偏移
