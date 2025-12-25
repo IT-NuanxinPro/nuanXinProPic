@@ -20,7 +20,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0  # 获取完整历史以读取所有 tags
 
       - name: Install ImageMagick and Chinese fonts
         run: |
@@ -44,6 +44,28 @@ jobs:
             echo "has_changes=false" >> $GITHUB_OUTPUT
           fi
 
+      - name: Get next version
+        id: version
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          # 获取最新的 tag（格式：v1.x.x）
+          LATEST_TAG=$(git tag -l 'v1.*' --sort=-version:refname | head -1)
+
+          if [ -z "$LATEST_TAG" ]; then
+            # 如果没有 tag，从 v1.0.0 开始
+            NEW_TAG="v1.0.1"
+          else
+            # 解析版本号并递增 patch 版本
+            VERSION=${LATEST_TAG#v}
+            IFS='.' read -r MAJOR MINOR PATCH <<< "$VERSION"
+            NEW_PATCH=$((PATCH + 1))
+            NEW_TAG="v${MAJOR}.${MINOR}.${NEW_PATCH}"
+          fi
+
+          echo "latest_tag=$LATEST_TAG" >> $GITHUB_OUTPUT
+          echo "new_tag=$NEW_TAG" >> $GITHUB_OUTPUT
+          echo "📦 Version: $LATEST_TAG -> $NEW_TAG"
+
       - name: Commit and push changes
         if: steps.check.outputs.has_changes == 'true'
         run: |
@@ -52,6 +74,14 @@ jobs:
           git add wallpaper/ thumbnail/ preview/
           git commit -m "chore: sync wallpapers, thumbnails and previews from Gitee [$(date +'%Y-%m-%d')]"
           git push
+
+      - name: Create and push tag
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          NEW_TAG="${{ steps.version.outputs.new_tag }}"
+          git tag -a "$NEW_TAG" -m "Auto release $NEW_TAG - $(date +'%Y-%m-%d')"
+          git push origin "$NEW_TAG"
+          echo "✅ Created tag: $NEW_TAG"
 
       - name: Generate summary
         run: |
@@ -64,6 +94,7 @@ jobs:
           echo "| Total previews | $(ls -1 preview/desktop/*.webp 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
           if [ "${{ steps.check.outputs.has_changes }}" == "true" ]; then
             echo "| Status | ✅ Synced (incremental) |" >> $GITHUB_STEP_SUMMARY
+            echo "| New Tag | 🏷️ ${{ steps.version.outputs.new_tag }} |" >> $GITHUB_STEP_SUMMARY
           else
             echo "| Status | ℹ️ No changes |" >> $GITHUB_STEP_SUMMARY
           fi
