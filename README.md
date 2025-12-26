@@ -148,7 +148,7 @@ https://raw.githubusercontent.com/IT-NuanxinPro/nuanXinProPic/main/thumbnail/des
 
 ## 相关项目
 
-- [Wallpaper Gallery](https://github.com/IT-NuanxinPro/wallpaper-gallery) - 基于本图床的壁纸展示网站
+- **Wallpaper Gallery** - 基于本图床的壁纸展示网站，访问 [我的 GitHub 主页](https://github.com/IT-NuanxinPro) 查看更多项目
 
 ## 贡献指南
 
