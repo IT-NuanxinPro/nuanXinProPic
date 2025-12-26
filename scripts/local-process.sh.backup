@@ -28,10 +28,6 @@ THUMBNAIL_QUALITY=85
 PREVIEW_WIDTH=1920
 PREVIEW_QUALITY=90
 
-# Mobile 预览图特殊配置（针对长屏优化）
-MOBILE_PREVIEW_WIDTH=1080
-MOBILE_PREVIEW_QUALITY=85
-
 # 水印配置
 WATERMARK_ENABLED=true
 WATERMARK_TEXT="暖心"
@@ -172,23 +168,15 @@ process_image() {
 
     # 3. 生成预览图（仅 desktop 和 mobile）
     if [ "$series" != "avatar" ]; then
-        # 根据系列类型选择预览图配置
-        local preview_width=$PREVIEW_WIDTH
-        local preview_quality=$PREVIEW_QUALITY
-        if [ "$series" = "mobile" ]; then
-            preview_width=$MOBILE_PREVIEW_WIDTH
-            preview_quality=$MOBILE_PREVIEW_QUALITY
-        fi
-
         local dest_preview="$preview_dir/${name}.webp"
         if [ ! -f "$dest_preview" ]; then
             if [ "$WATERMARK_ENABLED" = true ] && [ -n "$font" ]; then
                 # 计算预览图水印大小
-                local preview_watermark_size=$(echo "scale=0; $preview_width * $PREVIEW_WATERMARK_SIZE_PERCENT / 100" | bc)
+                local preview_watermark_size=$(echo "scale=0; $PREVIEW_WIDTH * $PREVIEW_WATERMARK_SIZE_PERCENT / 100" | bc)
 
                 convert "$src_file" \
-                    -resize "${preview_width}x>" \
-                    -quality "$preview_quality" \
+                    -resize "${PREVIEW_WIDTH}x>" \
+                    -quality "$PREVIEW_QUALITY" \
                     -gravity "$WATERMARK_POSITION" \
                     -font "$font" \
                     -pointsize "$preview_watermark_size" \
@@ -198,13 +186,13 @@ process_image() {
                     -pointsize "$preview_watermark_size" \
                     -annotate ${WATERMARK_SECOND_ANGLE}x${WATERMARK_SECOND_ANGLE}+${PREVIEW_WATERMARK_OFFSET_X_LEFT}+${PREVIEW_WATERMARK_OFFSET_Y_LEFT} "$WATERMARK_TEXT" \
                     "$dest_preview" 2>/dev/null
-                echo -e "  ${GREEN}✓${NC} 预览图(水印,${preview_width}px,${preview_quality}%): ${name}.webp"
+                echo -e "  ${GREEN}✓${NC} 预览图(水印): ${name}.webp"
             else
                 convert "$src_file" \
-                    -resize "${preview_width}x>" \
-                    -quality "$preview_quality" \
+                    -resize "${PREVIEW_WIDTH}x>" \
+                    -quality "$PREVIEW_QUALITY" \
                     "$dest_preview" 2>/dev/null
-                echo -e "  ${GREEN}✓${NC} 预览图(${preview_width}px,${preview_quality}%): ${name}.webp"
+                echo -e "  ${GREEN}✓${NC} 预览图: ${name}.webp"
             fi
         else
             echo -e "  ${YELLOW}→${NC} 预览图已存在: ${name}.webp"
