@@ -14,7 +14,7 @@ BLUE='\033[0;34m'
 NC='\033[0m'
 
 # 项目根目录
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 
 # ========================================
 # 配置
@@ -119,9 +119,9 @@ process_image() {
     local name="${filename%.*}"
 
     # 目标路径
-    local wallpaper_dir="$SCRIPT_DIR/wallpaper/$series"
-    local thumbnail_dir="$SCRIPT_DIR/thumbnail/$series"
-    local preview_dir="$SCRIPT_DIR/preview/$series"
+    local wallpaper_dir="$PROJECT_ROOT/wallpaper/$series"
+    local thumbnail_dir="$PROJECT_ROOT/thumbnail/$series"
+    local preview_dir="$PROJECT_ROOT/preview/$series"
 
     # 确保目录存在
     mkdir -p "$wallpaper_dir" "$thumbnail_dir" "$preview_dir"
@@ -140,7 +140,7 @@ process_image() {
     if [ ! -f "$dest_thumbnail" ]; then
         if [ "$WATERMARK_ENABLED" = true ] && [ -n "$font" ]; then
             # 计算缩略图水印大小
-            local thumb_watermark_size=$((THUMBNAIL_WIDTH * THUMB_WATERMARK_SIZE_PERCENT / 100))
+            local thumb_watermark_size=$(echo "scale=0; $THUMBNAIL_WIDTH * $THUMB_WATERMARK_SIZE_PERCENT / 100" | bc)
 
             convert "$src_file" \
                 -resize "${THUMBNAIL_WIDTH}x>" \
@@ -172,7 +172,7 @@ process_image() {
         if [ ! -f "$dest_preview" ]; then
             if [ "$WATERMARK_ENABLED" = true ] && [ -n "$font" ]; then
                 # 计算预览图水印大小
-                local preview_watermark_size=$((PREVIEW_WIDTH * PREVIEW_WATERMARK_SIZE_PERCENT / 100))
+                local preview_watermark_size=$(echo "scale=0; $PREVIEW_WIDTH * $PREVIEW_WATERMARK_SIZE_PERCENT / 100" | bc)
 
                 convert "$src_file" \
                     -resize "${PREVIEW_WIDTH}x>" \
@@ -285,13 +285,13 @@ main() {
     echo ""
 
     # 显示文件数量
-    local wallpaper_count=$(ls -1 "$SCRIPT_DIR/wallpaper/$series" 2>/dev/null | wc -l | tr -d ' ')
-    local thumbnail_count=$(ls -1 "$SCRIPT_DIR/thumbnail/$series" 2>/dev/null | wc -l | tr -d ' ')
+    local wallpaper_count=$(ls -1 "$PROJECT_ROOT/wallpaper/$series" 2>/dev/null | wc -l | tr -d ' ')
+    local thumbnail_count=$(ls -1 "$PROJECT_ROOT/thumbnail/$series" 2>/dev/null | wc -l | tr -d ' ')
     echo "当前总数:"
     echo -e "  原图:   ${GREEN}$wallpaper_count${NC} 张"
     echo -e "  缩略图: ${GREEN}$thumbnail_count${NC} 张"
     if [ "$series" != "avatar" ]; then
-        local preview_count=$(ls -1 "$SCRIPT_DIR/preview/$series" 2>/dev/null | wc -l | tr -d ' ')
+        local preview_count=$(ls -1 "$PROJECT_ROOT/preview/$series" 2>/dev/null | wc -l | tr -d ' ')
         echo -e "  预览图: ${GREEN}$preview_count${NC} 张"
     fi
 }
