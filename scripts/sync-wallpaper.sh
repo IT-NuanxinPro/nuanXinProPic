@@ -2,9 +2,10 @@
 # sync-wallpaper.sh
 # 从 Gitee 仓库增量同步电脑壁纸到本地 wallpaper/desktop 目录
 # 策略：增量同步（只添加新文件，不删除已有文件）
-# 源文件格式：分类--名称.扩展名（已带分类前缀）
-# 同时生成缩略图到 thumbnail/desktop 目录
-# 同时生成预览图到 preview/desktop 目录（1920px 宽，用于模态框快速加载）
+# 源文件格式：L1分类--L2分类_名称.扩展名（如：动漫--原神_雷电将军.jpg）
+# 目标结构：wallpaper/desktop/L1/L2/名称.扩展名
+# 同时生成缩略图到 thumbnail/desktop/L1/L2/ 目录
+# 同时生成预览图到 preview/desktop/L1/L2/ 目录
 # 注意：手机壁纸(mobile)和头像(avatar)由用户手动管理
 
 set -e
@@ -20,37 +21,58 @@ TARGET_DIR="wallpaper/desktop"
 THUMBNAIL_DIR="thumbnail/desktop"
 PREVIEW_DIR="preview/desktop"
 
+# 已知的一级分类（用于匹配）
+KNOWN_L1_CATEGORIES="动漫|游戏|影视|风景|人像|插画|IP形象|国风"
+
+# 排除列表（这些文件已经存在但名字不同，跳过同步）
+# 格式：Gitee文件名的核心部分（_后面的部分）
+EXCLUDE_CORE_NAMES="白色翅膀|蘑菇人对战"
+
+# 获取L2分类的函数
+get_l2_categories() {
+    local l1="$1"
+    case "$l1" in
+        "动漫") echo "原神|蜡笔小新|海贼王|名侦探柯南|鬼灭之刃|间谍过家家|春物雪乃|刀剑神域|新世纪福音战士|紫罗兰永恒花园|罪恶王冠|蕾姆|神奇宝贝|完美世界|斗破苍穹|百炼成神" ;;
+        "游戏") echo "原神|崩坏|艾尔登法环|英雄联盟" ;;
+        "影视") echo "疯狂动物城|海绵宝宝|漫威" ;;
+        "风景") echo "雪山|海滨|城市|天空|日落|湖泊|花卉|森林|星空" ;;
+        "人像") echo "氛围感|清新|日系" ;;
+        "插画") echo "二次元|国风|创意" ;;
+        "IP形象") echo "水豚噜噜|线条小狗|乌萨奇|小八" ;;
+        *) echo "" ;;
+    esac
+}
+
 # 缩略图配置
 THUMB_WIDTH=550
 THUMB_QUALITY=85
 
-# 预览图配置（用于模态框快速加载，比原图小但比缩略图清晰）
+# 预览图配置
 PREVIEW_WIDTH=1920
 PREVIEW_QUALITY=90
 
 # 水印配置
 WATERMARK_ENABLED=true
 WATERMARK_TEXT="暖心"
-WATERMARK_OPACITY=40        # 水印不透明度（0-100）
-WATERMARK_POSITION="southeast"  # 水印位置（右下角）
-WATERMARK_ANGLE=-25         # 水印倾斜角度（负数为逆时针）
-# 左下角水平水印配置
+WATERMARK_OPACITY=40
+WATERMARK_POSITION="southeast"
+WATERMARK_ANGLE=-25
 WATERMARK_SECOND_POSITION="southwest"
 WATERMARK_SECOND_ANGLE=0
 
 # 预览图水印配置
-PREVIEW_WATERMARK_SIZE_PERCENT=2  # 水印大小（预览图宽度的百分比）
-PREVIEW_WATERMARK_OFFSET_X=40       # 水印 X 偏移量（像素）
-PREVIEW_WATERMARK_OFFSET_Y=80       # 水印 Y 偏移量（像素）
-PREVIEW_WATERMARK_OFFSET_X_LEFT=40  # 左下角水印 X 偏移
-PREVIEW_WATERMARK_OFFSET_Y_LEFT=80  # 左下角水印 Y 偏移
+PREVIEW_WATERMARK_SIZE_PERCENT=2
+PREVIEW_WATERMARK_OFFSET_X=40
+PREVIEW_WATERMARK_OFFSET_Y=80
+PREVIEW_WATERMARK_OFFSET_X_LEFT=40
+PREVIEW_WATERMARK_OFFSET_Y_LEFT=80
 
 # 缩略图水印配置
-THUMB_WATERMARK_SIZE_PERCENT=1.5     # 水印大小（缩略图宽度的百分比，稍大一些以便可见）
-THUMB_WATERMARK_OFFSET_X=20         # 右下角水印 X 偏移量（像素）
-THUMB_WATERMARK_OFFSET_Y=40         # 右下角水印 Y 偏移量（像素）
-THUMB_WATERMARK_OFFSET_X_LEFT=20    # 左下角水印 X 偏移
-THUMB_WATERMARK_OFFSET_Y_LEFT=40    # 左下角水印 Y 偏移
+THUMB_WATERMARK_SIZE_PERCENT=2
+THUMB_WATERMARK_OFFSET_X=20
+THUMB_WATERMARK_OFFSET_Y=40
+THUMB_WATERMARK_OFFSET_X_LEFT=20
+THUMB_WATERMARK_OFFSET_Y_LEFT=40
 
 # 重试配置
 MAX_RETRIES=3
@@ -65,7 +87,7 @@ CYAN='\033[0;36m'
 NC='\033[0m'
 
 echo "=========================================="
-echo "  Wallpaper Sync Script (Incremental)"
+echo "  Wallpaper Sync Script (Folder Structure)"
 echo "=========================================="
 echo ""
 
@@ -89,21 +111,18 @@ download_source() {
     echo -e "${BLUE}[INFO]${NC} Cloning repository..."
     for i in $(seq 1 $MAX_RETRIES); do
         echo -e "${BLUE}[ATTEMPT $i/$MAX_RETRIES]${NC} Cloning..."
-
         if git clone --depth 1 "$GITEE_CLONE_URL" "$TEMP_DIR" 2>&1; then
             echo -e "${GREEN}[SUCCESS]${NC} Clone completed"
             return 0
         else
             echo -e "${YELLOW}[FAILED]${NC} Clone attempt $i failed"
             rm -rf "$TEMP_DIR"
-
             if [ "$i" -lt "$MAX_RETRIES" ]; then
                 echo "Waiting ${RETRY_DELAY}s before retry..."
                 sleep $RETRY_DELAY
             fi
         fi
     done
-
     echo -e "${RED}[ERROR]${NC} Failed to download source after all attempts"
     return 1
 }
@@ -121,65 +140,46 @@ mkdir -p "$PREVIEW_DIR"
 # 检查 ImageMagick 是否可用
 if command -v magick &> /dev/null; then
     IMAGEMAGICK_CMD="magick"
-    echo -e "${GREEN}[INFO]${NC} ImageMagick v7 found (magick), will generate thumbnails and previews"
+    echo -e "${GREEN}[INFO]${NC} ImageMagick v7 found"
     GENERATE_THUMBNAILS=true
 elif command -v convert &> /dev/null; then
     IMAGEMAGICK_CMD="convert"
-    echo -e "${GREEN}[INFO]${NC} ImageMagick found (convert), will generate thumbnails and previews"
+    echo -e "${GREEN}[INFO]${NC} ImageMagick found (convert)"
     GENERATE_THUMBNAILS=true
 else
-    echo -e "${YELLOW}[WARN]${NC} ImageMagick not found, thumbnails and previews will not be generated"
+    echo -e "${YELLOW}[WARN]${NC} ImageMagick not found"
     GENERATE_THUMBNAILS=false
 fi
 
 # 检查水印功能
 if [ "$WATERMARK_ENABLED" = true ] && [ "$GENERATE_THUMBNAILS" = true ]; then
-    # 计算预览图水印字体大小
     PREVIEW_WATERMARK_FONT_SIZE=$((PREVIEW_WIDTH * PREVIEW_WATERMARK_SIZE_PERCENT / 100))
-    # 计算缩略图水印字体大小
     THUMB_WATERMARK_FONT_SIZE=$((THUMB_WIDTH * THUMB_WATERMARK_SIZE_PERCENT / 100))
-
-    # 计算水印颜色（白色带透明度）
-    WATERMARK_ALPHA=$(echo "scale=2; $WATERMARK_OPACITY / 100" | bc)
+    # 使用 awk 计算小数
+    WATERMARK_ALPHA=$(awk "BEGIN {printf \"%.2f\", $WATERMARK_OPACITY / 100}")
     WATERMARK_COLOR="rgba(255,255,255,$WATERMARK_ALPHA)"
 
-    # 检测可用的中文字体
     WATERMARK_FONT=""
     if [ "$(uname)" = "Darwin" ]; then
-        # macOS: 尝试多种中文字体（Heiti-SC-Medium 效果最好）
-        for font in "Heiti-SC-Medium" "PingFang-SC-Medium" "PingFang-SC-Regular" "Heiti-SC-Light"; do
+        for font in "Heiti-SC-Medium" "PingFang-SC-Medium" "PingFang-SC-Regular"; do
             if $IMAGEMAGICK_CMD -list font 2>/dev/null | grep -qi "$font"; then
                 WATERMARK_FONT="$font"
                 break
             fi
         done
-        # 如果没找到，使用默认字体
-        if [ -z "$WATERMARK_FONT" ]; then
-            WATERMARK_FONT="Heiti-SC-Medium"
-        fi
+        [ -z "$WATERMARK_FONT" ] && WATERMARK_FONT="Heiti-SC-Medium"
     elif [ "$(uname)" = "Linux" ]; then
-        # Linux: 尝试 Noto 字体
         for font in "Noto-Sans-CJK-SC-Medium" "Noto-Sans-CJK-SC" "WenQuanYi-Micro-Hei"; do
             if $IMAGEMAGICK_CMD -list font 2>/dev/null | grep -qi "$font"; then
                 WATERMARK_FONT="$font"
                 break
             fi
         done
-        if [ -z "$WATERMARK_FONT" ]; then
-            WATERMARK_FONT="Noto-Sans-CJK-SC-Medium"
-        fi
+        [ -z "$WATERMARK_FONT" ] && WATERMARK_FONT="Noto-Sans-CJK-SC-Medium"
     else
-        # Windows 或其他系统
         WATERMARK_FONT="Microsoft-YaHei-Bold"
     fi
-
     echo -e "${GREEN}[INFO]${NC} Watermark enabled: \"$WATERMARK_TEXT\" (font: $WATERMARK_FONT)"
-    echo -e "${GREEN}[INFO]${NC}   Preview: ${PREVIEW_WATERMARK_FONT_SIZE}px, Thumbnail: ${THUMB_WATERMARK_FONT_SIZE}px"
-else
-    if [ "$WATERMARK_ENABLED" = true ]; then
-        echo -e "${YELLOW}[WARN]${NC} Watermark disabled (ImageMagick not available)"
-        WATERMARK_ENABLED=false
-    fi
 fi
 
 # 统计变量
@@ -187,13 +187,10 @@ total_found=0
 new_copied=0
 skipped=0
 thumbnails_generated=0
-thumbnail_errors=0
 previews_generated=0
-preview_errors=0
 watermarks_added=0
-watermark_errors=0
 
-# 用于存储分类统计的临时文件
+# 分类统计
 CATEGORY_STATS_FILE="/tmp/category_stats_$$"
 > "$CATEGORY_STATS_FILE"
 
@@ -201,14 +198,101 @@ echo ""
 echo "Scanning source repository for images..."
 echo ""
 
+# 解析文件名，提取分类信息
+# 格式：L1分类--L2分类_名称.扩展名（如：动漫--原神_雷电将军.jpg）
+# 返回：L1 L2 新文件名
+parse_filename() {
+    local filename="$1"
+    local filename_noext="${filename%.*}"
+    local ext="${filename##*.}"
+    
+    local l1="未分类"
+    local l2="通用"
+    local newname="$filename"
+    
+    # 检查是否包含 -- 分隔符
+    if [[ "$filename_noext" == *"--"* ]]; then
+        # 提取 L1 分类（-- 前面的部分）
+        local prefix="${filename_noext%%--*}"
+        local rest="${filename_noext#*--}"
+        
+        # 验证 L1 是否是已知分类
+        if echo "$prefix" | grep -qE "^($KNOWN_L1_CATEGORIES)$"; then
+            l1="$prefix"
+            
+            # 尝试提取 L2 分类（第一个 _ 前面的部分）
+            if [[ "$rest" == *"_"* ]]; then
+                local potential_l2="${rest%%_*}"
+                local remaining="${rest#*_}"
+                
+                # 检查是否是已知的 L2 分类
+                local l2_pattern
+                l2_pattern=$(get_l2_categories "$l1")
+                if [ -n "$l2_pattern" ] && echo "$potential_l2" | grep -qE "^($l2_pattern)$"; then
+                    l2="$potential_l2"
+                    newname="${remaining}.${ext}"
+                else
+                    # L2 不匹配，整个 rest 作为文件名，L2 设为通用
+                    l2="通用"
+                    newname="${rest}.${ext}"
+                fi
+            else
+                # 没有 _，整个 rest 作为文件名
+                newname="${rest}.${ext}"
+            fi
+        fi
+    fi
+    
+    echo "$l1|$l2|$newname"
+}
+
+# 提取文件名核心部分（用于匹配）
+# 格式：动漫--原神_雷电将军.jpg → 雷电将军
+# 格式：雷电将军.jpg → 雷电将军
+get_core_name() {
+    local filename="$1"
+    local filename_noext="${filename%.*}"
+    
+    # 如果包含 _，取最后一个 _ 后面的部分
+    if [[ "$filename_noext" == *"_"* ]]; then
+        echo "${filename_noext##*_}"
+    else
+        # 如果包含 --，取 -- 后面的部分
+        if [[ "$filename_noext" == *"--"* ]]; then
+            echo "${filename_noext#*--}"
+        else
+            echo "$filename_noext"
+        fi
+    fi
+}
+
+# 检查文件是否已存在（通过核心名匹配）
+file_exists_in_target() {
+    local filename="$1"
+    local core_name
+    core_name=$(get_core_name "$filename")
+    
+    # 检查是否在排除列表中
+    if echo "$core_name" | grep -qE "($EXCLUDE_CORE_NAMES)"; then
+        echo -e "${YELLOW}[EXCLUDE]${NC} $filename (在排除列表中)" >&2
+        return 0  # 视为已存在，跳过
+    fi
+    
+    # 递归搜索 wallpaper/desktop 目录，查找包含核心名的文件
+    if find "$TARGET_DIR" -type f \( -iname "*${core_name}.*" -o -iname "*${core_name}_*" -o -iname "*_${core_name}.*" \) 2>/dev/null | grep -q .; then
+        return 0  # 存在
+    fi
+    return 1  # 不存在
+}
+
 # 生成预览图函数（带水印）
 generate_preview() {
     local source_file="$1"
     local output_file="$2"
-    local filename="$3"
-
+    
+    mkdir -p "$(dirname "$output_file")"
+    
     if [ "$WATERMARK_ENABLED" = true ]; then
-        # 生成带水印的预览图
         if $IMAGEMAGICK_CMD "$source_file" \
             -resize "${PREVIEW_WIDTH}x>" \
             -font "$WATERMARK_FONT" \
@@ -223,42 +307,25 @@ generate_preview() {
             "$output_file" 2>/dev/null; then
             watermarks_added=$((watermarks_added + 1))
             return 0
-        else
-            # 水印添加失败，尝试生成无水印版本
-            echo -e "${YELLOW}[WATERMARK FAILED]${NC} $filename, trying without watermark..."
-            watermark_errors=$((watermark_errors + 1))
-            if $IMAGEMAGICK_CMD "$source_file" \
-                -resize "${PREVIEW_WIDTH}x>" \
-                -quality "$PREVIEW_QUALITY" \
-                -strip \
-                "$output_file" 2>/dev/null; then
-                return 0
-            else
-                return 1
-            fi
-        fi
-    else
-        # 生成无水印的预览图
-        if $IMAGEMAGICK_CMD "$source_file" \
-            -resize "${PREVIEW_WIDTH}x>" \
-            -quality "$PREVIEW_QUALITY" \
-            -strip \
-            "$output_file" 2>/dev/null; then
-            return 0
-        else
-            return 1
         fi
     fi
+    
+    # 无水印版本
+    $IMAGEMAGICK_CMD "$source_file" \
+        -resize "${PREVIEW_WIDTH}x>" \
+        -quality "$PREVIEW_QUALITY" \
+        -strip \
+        "$output_file" 2>/dev/null
 }
 
 # 生成缩略图函数（带水印）
 generate_thumbnail() {
     local source_file="$1"
     local output_file="$2"
-    local filename="$3"
-
+    
+    mkdir -p "$(dirname "$output_file")"
+    
     if [ "$WATERMARK_ENABLED" = true ]; then
-        # 生成带水印的缩略图
         if $IMAGEMAGICK_CMD "$source_file" \
             -resize "${THUMB_WIDTH}x>" \
             -font "$WATERMARK_FONT" \
@@ -272,119 +339,68 @@ generate_thumbnail() {
             -strip \
             "$output_file" 2>/dev/null; then
             return 0
-        else
-            # 水印添加失败，尝试生成无水印版本
-            echo -e "${YELLOW}[THUMB WATERMARK FAILED]${NC} $filename, trying without watermark..."
-            if $IMAGEMAGICK_CMD "$source_file" \
-                -resize "${THUMB_WIDTH}x>" \
-                -quality "$THUMB_QUALITY" \
-                -strip \
-                "$output_file" 2>/dev/null; then
-                return 0
-            else
-                return 1
-            fi
-        fi
-    else
-        # 生成无水印的缩略图
-        if $IMAGEMAGICK_CMD "$source_file" \
-            -resize "${THUMB_WIDTH}x>" \
-            -quality "$THUMB_QUALITY" \
-            -strip \
-            "$output_file" 2>/dev/null; then
-            return 0
-        else
-            return 1
         fi
     fi
+    
+    # 无水印版本
+    $IMAGEMAGICK_CMD "$source_file" \
+        -resize "${THUMB_WIDTH}x>" \
+        -quality "$THUMB_QUALITY" \
+        -strip \
+        "$output_file" 2>/dev/null
 }
 
-# 处理图片函数（增量模式）
+# 处理图片函数
 process_image() {
     local file="$1"
-    local filename
-    filename=$(basename "$file")
-
-    local target_file="$TARGET_DIR/$filename"
-
-    # 生成缩略图文件名（统一使用 webp 格式）
-    local filename_noext="${filename%.*}"
-    local thumbnail_file="$THUMBNAIL_DIR/${filename_noext}.webp"
-    local preview_file="$PREVIEW_DIR/${filename_noext}.webp"
-
+    local original_filename
+    original_filename=$(basename "$file")
+    
     total_found=$((total_found + 1))
-
-    # 提取分类用于统计
-    local category="未分类"
-    if [[ "$filename" == *"--"* ]]; then
-        category="${filename%%--*}"
-    fi
-
-    # 增量检查：文件是否已存在
-    if [ -f "$target_file" ]; then
-        # 壁纸已存在，检查缩略图和预览图是否需要生成
-        if [ "$GENERATE_THUMBNAILS" = true ]; then
-            # 检查缩略图
-            if [ ! -f "$thumbnail_file" ]; then
-                echo -e "${YELLOW}[THUMB ONLY]${NC} $filename"
-                if generate_thumbnail "$file" "$thumbnail_file" "$filename"; then
-                    echo -e "${BLUE}[THUMB]${NC} ${filename_noext}.webp"
-                    thumbnails_generated=$((thumbnails_generated + 1))
-                else
-                    echo -e "${RED}[THUMB ERROR]${NC} Failed to generate thumbnail for $filename"
-                    thumbnail_errors=$((thumbnail_errors + 1))
-                fi
-            fi
-            # 检查预览图
-            if [ ! -f "$preview_file" ]; then
-                echo -e "${YELLOW}[PREVIEW ONLY]${NC} $filename"
-                if generate_preview "$file" "$preview_file" "$filename"; then
-                    echo -e "${BLUE}[PREVIEW]${NC} ${filename_noext}.webp"
-                    previews_generated=$((previews_generated + 1))
-                else
-                    echo -e "${RED}[PREVIEW ERROR]${NC} Failed to generate preview for $filename"
-                    preview_errors=$((preview_errors + 1))
-                fi
-            fi
-            # 如果缩略图和预览图都存在，则跳过
-            if [ -f "$thumbnail_file" ] && [ -f "$preview_file" ]; then
-                skipped=$((skipped + 1))
-            fi
-        else
-            skipped=$((skipped + 1))
-        fi
+    
+    # 解析文件名，获取分类信息
+    local parsed
+    parsed=$(parse_filename "$original_filename")
+    local l1=$(echo "$parsed" | cut -d'|' -f1)
+    local l2=$(echo "$parsed" | cut -d'|' -f2)
+    local newname=$(echo "$parsed" | cut -d'|' -f3)
+    local newname_noext="${newname%.*}"
+    
+    # 增量检查：递归搜索是否已存在同名文件
+    if file_exists_in_target "$newname"; then
+        skipped=$((skipped + 1))
         return
     fi
-
+    
+    # 构建目标路径
+    local target_subdir="$TARGET_DIR/$l1/$l2"
+    local thumb_subdir="$THUMBNAIL_DIR/$l1/$l2"
+    local preview_subdir="$PREVIEW_DIR/$l1/$l2"
+    
+    local target_file="$target_subdir/$newname"
+    local thumbnail_file="$thumb_subdir/${newname_noext}.webp"
+    local preview_file="$preview_subdir/${newname_noext}.webp"
+    
+    # 创建目录
+    mkdir -p "$target_subdir"
+    
     # 复制原图
-    echo -e "${CYAN}[$category]${NC} ${GREEN}[NEW]${NC} $filename"
+    echo -e "${CYAN}[$l1/$l2]${NC} ${GREEN}[NEW]${NC} $newname"
     cp "$file" "$target_file"
     new_copied=$((new_copied + 1))
-
-    # 记录分类统计（仅新增文件）
-    echo "$category" >> "$CATEGORY_STATS_FILE"
-
-    # 生成缩略图和预览图（仅新文件）
+    
+    # 记录分类统计
+    echo "$l1/$l2" >> "$CATEGORY_STATS_FILE"
+    
+    # 生成缩略图和预览图
     if [ "$GENERATE_THUMBNAILS" = true ]; then
-        # 生成缩略图（带水印）
-        if [ ! -f "$thumbnail_file" ]; then
-            if generate_thumbnail "$file" "$thumbnail_file" "$filename"; then
-                echo -e "${BLUE}[THUMB]${NC} ${filename_noext}.webp"
-                thumbnails_generated=$((thumbnails_generated + 1))
-            else
-                echo -e "${RED}[THUMB ERROR]${NC} Failed to generate thumbnail for $filename"
-                thumbnail_errors=$((thumbnail_errors + 1))
-            fi
+        if generate_thumbnail "$file" "$thumbnail_file"; then
+            echo -e "${BLUE}[THUMB]${NC} $l1/$l2/${newname_noext}.webp"
+            thumbnails_generated=$((thumbnails_generated + 1))
         fi
-        # 生成预览图（带水印）
-        if [ ! -f "$preview_file" ]; then
-            if generate_preview "$file" "$preview_file" "$filename"; then
-                echo -e "${BLUE}[PREVIEW]${NC} ${filename_noext}.webp"
-                previews_generated=$((previews_generated + 1))
-            else
-                echo -e "${RED}[PREVIEW ERROR]${NC} Failed to generate preview for $filename"
-                preview_errors=$((preview_errors + 1))
-            fi
+        if generate_preview "$file" "$preview_file"; then
+            echo -e "${BLUE}[PREVIEW]${NC} $l1/$l2/${newname_noext}.webp"
+            previews_generated=$((previews_generated + 1))
         fi
     fi
 }
@@ -412,15 +428,6 @@ echo "  Thumbnails generated:    $thumbnails_generated"
 echo "  Previews generated:      $previews_generated"
 if [ "$WATERMARK_ENABLED" = true ]; then
     echo "  Watermarks added:        $watermarks_added"
-fi
-if [ "$thumbnail_errors" -gt 0 ]; then
-    echo "  Thumbnail errors:        $thumbnail_errors"
-fi
-if [ "$preview_errors" -gt 0 ]; then
-    echo "  Preview errors:          $preview_errors"
-fi
-if [ "$watermark_errors" -gt 0 ]; then
-    echo "  Watermark errors:        $watermark_errors"
 fi
 
 # 显示新增文件的分类统计

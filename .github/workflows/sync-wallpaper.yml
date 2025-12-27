@@ -3,7 +3,7 @@ name: Sync Wallpaper from Gitee
 on:
   # 定时触发：每天 UTC 22:00（北京时间 6:00）
   schedule:
-    - cron: '0 22 * * *'
+    - cron: "0 22 * * *"
 
   # 支持手动触发
   workflow_dispatch:
@@ -20,7 +20,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 获取完整历史以读取所有 tags
+          fetch-depth: 0 # 获取完整历史以读取所有 tags
 
       - name: Install ImageMagick and Chinese fonts
         run: |
@@ -89,9 +89,9 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Item | Count |" >> $GITHUB_STEP_SUMMARY
           echo "|------|-------|" >> $GITHUB_STEP_SUMMARY
-          echo "| Total wallpapers | $(ls -1 wallpaper/desktop/*.{jpg,jpeg,png,gif,webp,JPG,JPEG,PNG,GIF,WEBP} 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
-          echo "| Total thumbnails | $(ls -1 thumbnail/desktop/*.webp 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
-          echo "| Total previews | $(ls -1 preview/desktop/*.webp 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
+          echo "| Total wallpapers | $(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.gif' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
+          echo "| Total thumbnails | $(find thumbnail/desktop -type f -iname '*.webp' 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
+          echo "| Total previews | $(find preview/desktop -type f -iname '*.webp' 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
           if [ "${{ steps.check.outputs.has_changes }}" == "true" ]; then
             echo "| Status | ✅ Synced (incremental) |" >> $GITHUB_STEP_SUMMARY
             echo "| New Tag | 🏷️ ${{ steps.version.outputs.new_tag }} |" >> $GITHUB_STEP_SUMMARY

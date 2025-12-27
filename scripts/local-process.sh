@@ -1,311 +1,243 @@
 #!/bin/bash
 # ========================================
-# 本地图片处理脚本
-# 用于手动处理本地图片，生成缩略图和预览图
+# 本地图片处理脚本（支持二级分类）
 # ========================================
 
 set -e
 
-# 颜色输出
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
+CYAN='\033[0;36m'
 NC='\033[0m'
 
-# 项目根目录
 PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 
-# ========================================
 # 配置
-# ========================================
-
-# 缩略图配置
 THUMBNAIL_WIDTH=550
 THUMBNAIL_QUALITY=85
-
-# 预览图配置
 PREVIEW_WIDTH=1920
 PREVIEW_QUALITY=90
-
-# Mobile 预览图特殊配置（针对长屏优化）
 MOBILE_PREVIEW_WIDTH=1080
 MOBILE_PREVIEW_QUALITY=85
 
-# 水印配置
 WATERMARK_ENABLED=true
 WATERMARK_TEXT="暖心"
 WATERMARK_OPACITY=40
 WATERMARK_POSITION="southeast"
 WATERMARK_ANGLE=-25
-# 左下角水印（水平）配置
 WATERMARK_SECOND_POSITION="southwest"
 WATERMARK_SECOND_ANGLE=0
 
-# 预览图水印配置
 PREVIEW_WATERMARK_SIZE_PERCENT=2
 PREVIEW_WATERMARK_OFFSET_X=40
 PREVIEW_WATERMARK_OFFSET_Y=80
-PREVIEW_WATERMARK_OFFSET_X_LEFT=40
-PREVIEW_WATERMARK_OFFSET_Y_LEFT=80
-
-# 缩略图水印配置
 THUMB_WATERMARK_SIZE_PERCENT=1.5
 THUMB_WATERMARK_OFFSET_X=20
 THUMB_WATERMARK_OFFSET_Y=40
-THUMB_WATERMARK_OFFSET_X_LEFT=20
-THUMB_WATERMARK_OFFSET_Y_LEFT=40
 
-# ========================================
-# 使用说明
-# ========================================
+# 一级分类白名单
+VALID_CATEGORIES_L1=(
+  "动漫" "插画" "风景" "人像" "游戏" "国风"
+  "水豚噜噜" "意境" "吉伊猫" "萌系" "影视" "宠物"
+  "写真" "IP形象" "搞怪"
+  "美女" "明星" "汽车" "动物" "植物" "建筑" "科技" "艺术"
+  "体育" "节日" "摄影" "城市" "自然" "星空" "海洋" "萌宠"
+  "美食" "创意" "简约" "复古" "赛博朋克" "情侣" "闺蜜" "卡通" "文字"
+  "其他"
+)
+
+# 二级分类白名单（用函数实现，兼容 bash 3.2）
+get_l2_categories() {
+    local cat_l1="$1"
+    case "$cat_l1" in
+        "游戏") echo "原神,崩坏,英雄联盟,王者荣耀,艾尔登法环,塞尔达,最终幻想,赛博朋克2077,只狼,黑神话悟空,明日方舟,碧蓝航线,少女前线,战双帕弥什,绝区零" ;;
+        "动漫") echo "蜡笔小新,海绵宝宝,春物雪乃,鬼灭之刃,间谍过家家,神奇宝贝,疯狂动物城,蕾姆,罪恶王冠,紫罗兰永恒花园,百炼成神,刀剑神域,新世纪福音战士,斗破苍穹,完美世界,水豚噜噜" ;;
+        "插画") echo "风景,人物,抽象,科幻,奇幻" ;;
+        "吉伊猫") echo "小八,乌萨奇,小熊" ;;
+        "水豚噜噜") echo "" ;;
+        *) echo "" ;;
+    esac
+}
+
+DEFAULT_CATEGORY_L1="其他"
+DEFAULT_CATEGORY_L2="通用"
 
 show_help() {
-    echo -e "${BLUE}本地图片处理脚本${NC}"
+    echo -e "${BLUE}本地图片处理脚本（二级分类）${NC}"
     echo ""
-    echo "用法: $0 <输入文件夹> [系列类型]"
+    echo "用法: $0 <输入文件夹> [系列] [一级分类] [二级分类]"
     echo ""
     echo "参数:"
     echo "  输入文件夹    包含待处理图片的文件夹路径"
-    echo "  系列类型      可选: desktop(默认), mobile, avatar"
+    echo "  系列          desktop(默认), mobile, avatar"
+    echo "  一级分类      如: 动漫, 游戏, 风景"
+    echo "  二级分类      如: 原神, 蜡笔小新 (可选，默认 通用)"
     echo ""
     echo "示例:"
-    echo "  $0 ~/Pictures/new-wallpapers"
-    echo "  $0 ~/Pictures/phone-wallpapers mobile"
-    echo "  $0 ~/Pictures/avatars avatar"
+    echo "  $0 ~/Pictures/new desktop 游戏 原神"
+    echo "  $0 ~/Pictures/new desktop 动漫 蜡笔小新"
+    echo "  $0 ~/Pictures/new mobile 风景"
     echo ""
-    echo "说明:"
-    echo "  - 支持 jpg, jpeg, png, webp 格式"
-    echo "  - 原图复制到 wallpaper/<系列>/"
-    echo "  - 缩略图生成到 thumbnail/<系列>/ (800px宽, webp格式, 带水印)"
-    echo "  - 预览图生成到 preview/<系列>/ (1920px宽, webp格式, 带水印)"
-    echo "  - avatar 系列不生成预览图"
+    echo "输出结构:"
+    echo "  wallpaper/<系列>/<一级分类>/<二级分类>/xxx.jpg"
 }
 
-# ========================================
-# 检测中文字体
-# ========================================
+is_valid_category_l1() {
+    local category="$1"
+    for valid_cat in "${VALID_CATEGORIES_L1[@]}"; do
+        [ "$category" = "$valid_cat" ] && return 0
+    done
+    return 1
+}
 
-detect_chinese_font() {
-    local font=""
-
-    # macOS 字体优先级
-    for f in "Heiti-SC-Medium" "PingFang-SC-Medium" "PingFang-SC-Regular" "Heiti-SC-Light"; do
-        if convert -list font 2>/dev/null | grep -q "$f"; then
-            font="$f"
-            break
+is_valid_category_l2() {
+    local cat_l1="$1"
+    local cat_l2="$2"
+    local l2_list
+    l2_list=$(get_l2_categories "$cat_l1")
+    [ -z "$l2_list" ] && return 1
+    local OLD_IFS="$IFS"
+    IFS=','
+    for valid_l2 in $l2_list; do
+        if [ "$cat_l2" = "$valid_l2" ]; then
+            IFS="$OLD_IFS"
+            return 0
         fi
     done
-
-    # Linux 字体备选
-    if [ -z "$font" ]; then
-        for f in "Noto-Sans-CJK-SC" "Noto-Sans-CJK-SC-Regular" "WenQuanYi-Micro-Hei"; do
-            if convert -list font 2>/dev/null | grep -q "$f"; then
-                font="$f"
-                break
-            fi
-        done
-    fi
-
-    echo "$font"
+    IFS="$OLD_IFS"
+    return 1
 }
 
-# ========================================
-# 处理单个图片
-# ========================================
+detect_chinese_font() {
+    for f in "Heiti-SC-Medium" "PingFang-SC-Medium" "Noto-Sans-CJK-SC"; do
+        convert -list font 2>/dev/null | grep -q "$f" && echo "$f" && return
+    done
+}
 
 process_image() {
     local src_file="$1"
     local series="$2"
-    local font="$3"
+    local cat_l1="$3"
+    local cat_l2="$4"
+    local font="$5"
 
     local filename=$(basename "$src_file")
     local name="${filename%.*}"
 
-    # 目标路径
-    local wallpaper_dir="$PROJECT_ROOT/wallpaper/$series"
-    local thumbnail_dir="$PROJECT_ROOT/thumbnail/$series"
-    local preview_dir="$PROJECT_ROOT/preview/$series"
+    # 目标路径（二级分类结构）
+    local wallpaper_dir="$PROJECT_ROOT/wallpaper/$series/$cat_l1/$cat_l2"
+    local thumbnail_dir="$PROJECT_ROOT/thumbnail/$series/$cat_l1/$cat_l2"
+    local preview_dir="$PROJECT_ROOT/preview/$series/$cat_l1/$cat_l2"
 
-    # 确保目录存在
-    mkdir -p "$wallpaper_dir" "$thumbnail_dir" "$preview_dir"
+    mkdir -p "$wallpaper_dir" "$thumbnail_dir"
+    [ "$series" != "avatar" ] && mkdir -p "$preview_dir"
 
-    # 1. 复制原图到 wallpaper 目录
+    # 复制原图
     local dest_wallpaper="$wallpaper_dir/$filename"
     if [ ! -f "$dest_wallpaper" ]; then
         cp "$src_file" "$dest_wallpaper"
-        echo -e "  ${GREEN}✓${NC} 原图: $filename"
+        echo -e "  ${GREEN}✓${NC} 原图: $cat_l1/$cat_l2/$filename"
     else
-        echo -e "  ${YELLOW}→${NC} 原图已存在: $filename"
+        echo -e "  ${YELLOW}→${NC} 已存在: $cat_l1/$cat_l2/$filename"
     fi
 
-    # 2. 生成缩略图（带水印）
+    # 生成缩略图
     local dest_thumbnail="$thumbnail_dir/${name}.webp"
     if [ ! -f "$dest_thumbnail" ]; then
+        local thumb_size=$(echo "scale=0; $THUMBNAIL_WIDTH * $THUMB_WATERMARK_SIZE_PERCENT / 100" | bc)
         if [ "$WATERMARK_ENABLED" = true ] && [ -n "$font" ]; then
-            # 计算缩略图水印大小
-            local thumb_watermark_size=$(echo "scale=0; $THUMBNAIL_WIDTH * $THUMB_WATERMARK_SIZE_PERCENT / 100" | bc)
-
-            convert "$src_file" \
-                -resize "${THUMBNAIL_WIDTH}x>" \
-                -quality "$THUMBNAIL_QUALITY" \
-                -gravity "$WATERMARK_POSITION" \
-                -font "$font" \
-                -pointsize "$thumb_watermark_size" \
+            convert "$src_file" -resize "${THUMBNAIL_WIDTH}x>" -quality "$THUMBNAIL_QUALITY" \
+                -gravity "$WATERMARK_POSITION" -font "$font" -pointsize "$thumb_size" \
                 -fill "rgba(255,255,255,${WATERMARK_OPACITY}%)" \
-                -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${THUMB_WATERMARK_OFFSET_X}+${THUMB_WATERMARK_OFFSET_Y} "$WATERMARK_TEXT" \
+                -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${THUMB_WATERMARK_OFFSET_X}+40 "$WATERMARK_TEXT" \
                 -gravity "$WATERMARK_SECOND_POSITION" \
-                -pointsize "$thumb_watermark_size" \
-                -annotate ${WATERMARK_SECOND_ANGLE}x${WATERMARK_SECOND_ANGLE}+${THUMB_WATERMARK_OFFSET_X_LEFT}+${THUMB_WATERMARK_OFFSET_Y_LEFT} "$WATERMARK_TEXT" \
+                -annotate 0x0+20+40 "$WATERMARK_TEXT" \
                 "$dest_thumbnail" 2>/dev/null
-            echo -e "  ${GREEN}✓${NC} 缩略图(水印): ${name}.webp"
         else
-            convert "$src_file" \
-                -resize "${THUMBNAIL_WIDTH}x>" \
-                -quality "$THUMBNAIL_QUALITY" \
-                "$dest_thumbnail" 2>/dev/null
-            echo -e "  ${GREEN}✓${NC} 缩略图: ${name}.webp"
+            convert "$src_file" -resize "${THUMBNAIL_WIDTH}x>" -quality "$THUMBNAIL_QUALITY" "$dest_thumbnail" 2>/dev/null
         fi
-    else
-        echo -e "  ${YELLOW}→${NC} 缩略图已存在: ${name}.webp"
+        echo -e "  ${GREEN}✓${NC} 缩略图"
     fi
 
-    # 3. 生成预览图（仅 desktop 和 mobile）
+    # 生成预览图
     if [ "$series" != "avatar" ]; then
-        # 根据系列类型选择预览图配置
         local preview_width=$PREVIEW_WIDTH
-        local preview_quality=$PREVIEW_QUALITY
-        if [ "$series" = "mobile" ]; then
-            preview_width=$MOBILE_PREVIEW_WIDTH
-            preview_quality=$MOBILE_PREVIEW_QUALITY
-        fi
-
+        [ "$series" = "mobile" ] && preview_width=$MOBILE_PREVIEW_WIDTH
+        
         local dest_preview="$preview_dir/${name}.webp"
         if [ ! -f "$dest_preview" ]; then
+            local preview_size=$(echo "scale=0; $preview_width * $PREVIEW_WATERMARK_SIZE_PERCENT / 100" | bc)
             if [ "$WATERMARK_ENABLED" = true ] && [ -n "$font" ]; then
-                # 计算预览图水印大小
-                local preview_watermark_size=$(echo "scale=0; $preview_width * $PREVIEW_WATERMARK_SIZE_PERCENT / 100" | bc)
-
-                convert "$src_file" \
-                    -resize "${preview_width}x>" \
-                    -quality "$preview_quality" \
-                    -gravity "$WATERMARK_POSITION" \
-                    -font "$font" \
-                    -pointsize "$preview_watermark_size" \
+                convert "$src_file" -resize "${preview_width}x>" -quality "$PREVIEW_QUALITY" \
+                    -gravity "$WATERMARK_POSITION" -font "$font" -pointsize "$preview_size" \
                     -fill "rgba(255,255,255,${WATERMARK_OPACITY}%)" \
-                    -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${PREVIEW_WATERMARK_OFFSET_X}+${PREVIEW_WATERMARK_OFFSET_Y} "$WATERMARK_TEXT" \
+                    -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${PREVIEW_WATERMARK_OFFSET_X}+80 "$WATERMARK_TEXT" \
                     -gravity "$WATERMARK_SECOND_POSITION" \
-                    -pointsize "$preview_watermark_size" \
-                    -annotate ${WATERMARK_SECOND_ANGLE}x${WATERMARK_SECOND_ANGLE}+${PREVIEW_WATERMARK_OFFSET_X_LEFT}+${PREVIEW_WATERMARK_OFFSET_Y_LEFT} "$WATERMARK_TEXT" \
+                    -annotate 0x0+40+80 "$WATERMARK_TEXT" \
                     "$dest_preview" 2>/dev/null
-                echo -e "  ${GREEN}✓${NC} 预览图(水印,${preview_width}px,${preview_quality}%): ${name}.webp"
             else
-                convert "$src_file" \
-                    -resize "${preview_width}x>" \
-                    -quality "$preview_quality" \
-                    "$dest_preview" 2>/dev/null
-                echo -e "  ${GREEN}✓${NC} 预览图(${preview_width}px,${preview_quality}%): ${name}.webp"
+                convert "$src_file" -resize "${preview_width}x>" -quality "$PREVIEW_QUALITY" "$dest_preview" 2>/dev/null
             fi
-        else
-            echo -e "  ${YELLOW}→${NC} 预览图已存在: ${name}.webp"
+            echo -e "  ${GREEN}✓${NC} 预览图"
         fi
     fi
 }
 
-# ========================================
-# 主程序
-# ========================================
-
 main() {
-    # 检查参数
-    if [ $# -lt 1 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
-        show_help
-        exit 0
-    fi
+    [ $# -lt 1 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ] && { show_help; exit 0; }
 
     local input_dir="$1"
     local series="${2:-desktop}"
+    local cat_l1="${3:-$DEFAULT_CATEGORY_L1}"
+    local cat_l2="${4:-$DEFAULT_CATEGORY_L2}"
 
-    # 验证输入目录
-    if [ ! -d "$input_dir" ]; then
-        echo -e "${RED}错误: 目录不存在: $input_dir${NC}"
-        exit 1
+    [ ! -d "$input_dir" ] && { echo -e "${RED}目录不存在: $input_dir${NC}"; exit 1; }
+    [[ ! "$series" =~ ^(desktop|mobile|avatar)$ ]] && { echo -e "${RED}无效系列: $series${NC}"; exit 1; }
+    
+    if ! is_valid_category_l1 "$cat_l1"; then
+        echo -e "${YELLOW}未知一级分类 '$cat_l1'，使用 '$DEFAULT_CATEGORY_L1'${NC}"
+        cat_l1="$DEFAULT_CATEGORY_L1"
     fi
 
-    # 验证系列类型
-    if [[ ! "$series" =~ ^(desktop|mobile|avatar)$ ]]; then
-        echo -e "${RED}错误: 无效的系列类型: $series${NC}"
-        echo "有效类型: desktop, mobile, avatar"
-        exit 1
+    if [ "$cat_l2" != "$DEFAULT_CATEGORY_L2" ] && ! is_valid_category_l2 "$cat_l1" "$cat_l2"; then
+        echo -e "${YELLOW}未知二级分类 '$cat_l2'，使用 '$DEFAULT_CATEGORY_L2'${NC}"
+        cat_l2="$DEFAULT_CATEGORY_L2"
     fi
 
     echo -e "${BLUE}========================================${NC}"
-    echo -e "${BLUE}本地图片处理${NC}"
+    echo -e "${BLUE}本地图片处理（二级分类）${NC}"
     echo -e "${BLUE}========================================${NC}"
     echo ""
-    echo -e "输入目录: ${GREEN}$input_dir${NC}"
-    echo -e "系列类型: ${GREEN}$series${NC}"
+    echo -e "输入: ${GREEN}$input_dir${NC}"
+    echo -e "系列: ${GREEN}$series${NC}"
+    echo -e "分类: ${CYAN}$cat_l1 / $cat_l2${NC}"
     echo ""
 
-    # 检测字体
     local font=""
-    if [ "$WATERMARK_ENABLED" = true ]; then
-        font=$(detect_chinese_font)
-        if [ -n "$font" ]; then
-            echo -e "水印字体: ${GREEN}$font${NC}"
-        else
-            echo -e "${YELLOW}警告: 未找到中文字体，将跳过水印${NC}"
-        fi
-    fi
-    echo ""
+    [ "$WATERMARK_ENABLED" = true ] && font=$(detect_chinese_font)
 
-    # 查找图片文件
     local image_files=()
     while IFS= read -r -d '' file; do
         image_files+=("$file")
     done < <(find "$input_dir" -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \) -print0 | sort -z)
 
-    local total=${#image_files[@]}
+    [ ${#image_files[@]} -eq 0 ] && { echo -e "${YELLOW}未找到图片${NC}"; exit 0; }
 
-    if [ $total -eq 0 ]; then
-        echo -e "${YELLOW}未找到图片文件${NC}"
-        exit 0
-    fi
-
-    echo -e "找到 ${GREEN}$total${NC} 张图片"
+    echo -e "找到 ${GREEN}${#image_files[@]}${NC} 张图片"
     echo ""
 
-    # 处理每张图片
     local count=0
     for file in "${image_files[@]}"; do
         count=$((count + 1))
-        echo -e "${BLUE}[$count/$total]${NC} $(basename "$file")"
-        process_image "$file" "$series" "$font"
+        echo -e "${BLUE}[$count/${#image_files[@]}]${NC} $(basename "$file")"
+        process_image "$file" "$series" "$cat_l1" "$cat_l2" "$font"
         echo ""
     done
 
-    # 统计结果
-    echo -e "${BLUE}========================================${NC}"
     echo -e "${GREEN}处理完成!${NC}"
-    echo ""
-    echo "输出目录:"
-    echo -e "  原图:   ${GREEN}wallpaper/$series/${NC}"
-    echo -e "  缩略图: ${GREEN}thumbnail/$series/${NC}"
-    if [ "$series" != "avatar" ]; then
-        echo -e "  预览图: ${GREEN}preview/$series/${NC}"
-    fi
-    echo ""
-
-    # 显示文件数量
-    local wallpaper_count=$(ls -1 "$PROJECT_ROOT/wallpaper/$series" 2>/dev/null | wc -l | tr -d ' ')
-    local thumbnail_count=$(ls -1 "$PROJECT_ROOT/thumbnail/$series" 2>/dev/null | wc -l | tr -d ' ')
-    echo "当前总数:"
-    echo -e "  原图:   ${GREEN}$wallpaper_count${NC} 张"
-    echo -e "  缩略图: ${GREEN}$thumbnail_count${NC} 张"
-    if [ "$series" != "avatar" ]; then
-        local preview_count=$(ls -1 "$PROJECT_ROOT/preview/$series" 2>/dev/null | wc -l | tr -d ' ')
-        echo -e "  预览图: ${GREEN}$preview_count${NC} 张"
-    fi
+    echo "输出: wallpaper/$series/$cat_l1/$cat_l2/"
 }
 
 main "$@"
