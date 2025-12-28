@@ -2,6 +2,58 @@
 # ========================================
 # 本地图片处理脚本（支持二级分类）
 # ========================================
+#
+# 功能：批量处理图片，生成缩略图和预览图，自动添加水印
+#
+# 用法：
+#   ./scripts/local-process.sh <输入文件夹> [系列] [一级分类] [二级分类]
+#
+# 示例：
+#   ./scripts/local-process.sh ~/Pictures/new desktop 游戏 原神
+#   ./scripts/local-process.sh ~/Pictures/new mobile 动漫
+#   ./scripts/local-process.sh ~/Pictures/new avatar 萌系
+#
+# ========================================
+# 注意事项
+# ========================================
+#
+# 1. 分类说明
+#    - 可以使用任意分类名称，脚本会自动创建对应目录
+#    - 常用一级分类：动漫、游戏、风景、插画、人像、国风、萌系 等
+#    - 二级分类可选，默认为"通用"
+#
+# 2. 新增分类
+#    - 脚本会自动创建 wallpaper/thumbnail/preview 目录
+#    - 如需在前端显示，需运行 generate-data 脚本重新生成数据
+#
+# 3. 输出目录结构
+#    wallpaper/<系列>/<一级分类>/<二级分类>/xxx.jpg   (原图)
+#    thumbnail/<系列>/<一级分类>/<二级分类>/xxx.webp  (缩略图)
+#    preview/<系列>/<一级分类>/<二级分类>/xxx.webp    (预览图)
+#
+# ========================================
+# Windows 用户使用说明
+# ========================================
+#
+# 1. 安装 Git for Windows（包含 Git Bash）
+#    下载地址: https://git-scm.com/download/win
+#
+# 2. 安装 Scoop 包管理器（在 PowerShell 中执行）
+#    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+#    Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+#
+# 3. 安装 ImageMagick
+#    scoop install imagemagick
+#
+# 4. 打开 Git Bash，进入项目目录运行脚本
+#    cd /d/Projects/nuanXinProPic
+#    ./scripts/local-process.sh /d/Pictures/new desktop 游戏 原神
+#
+# 注意：Windows 路径格式
+#    - 使用 /d/xxx 代替 D:\xxx
+#    - 使用 /c/Users/xxx 代替 C:\Users\xxx
+#
+# ========================================
 
 set -e
 
@@ -64,6 +116,37 @@ get_l2_categories() {
 DEFAULT_CATEGORY_L1="其他"
 DEFAULT_CATEGORY_L2="通用"
 
+# 自动检测 ImageMagick 命令（兼容 Windows/Mac/Linux）
+detect_imagemagick_cmd() {
+    # Windows 上优先使用 magick（避免与系统 convert.exe 冲突）
+    if command -v magick &>/dev/null; then
+        echo "magick"
+    elif command -v convert &>/dev/null; then
+        # 检查是否是 ImageMagick 的 convert（而非 Windows 系统的）
+        if convert --version 2>&1 | grep -q "ImageMagick"; then
+            echo "convert"
+        elif command -v magick &>/dev/null; then
+            echo "magick"
+        else
+            echo ""
+        fi
+    else
+        echo ""
+    fi
+}
+
+IMAGEMAGICK_CMD=$(detect_imagemagick_cmd)
+
+if [ -z "$IMAGEMAGICK_CMD" ]; then
+    echo -e "${RED}错误: 未找到 ImageMagick${NC}"
+    echo ""
+    echo "请先安装 ImageMagick:"
+    echo "  macOS:   brew install imagemagick"
+    echo "  Windows: scoop install imagemagick"
+    echo "  Ubuntu:  sudo apt install imagemagick"
+    exit 1
+fi
+
 show_help() {
     echo -e "${BLUE}本地图片处理脚本（二级分类）${NC}"
     echo ""
@@ -111,8 +194,8 @@ is_valid_category_l2() {
 }
 
 detect_chinese_font() {
-    for f in "Heiti-SC-Medium" "PingFang-SC-Medium" "Noto-Sans-CJK-SC"; do
-        convert -list font 2>/dev/null | grep -q "$f" && echo "$f" && return
+    for f in "Heiti-SC-Medium" "PingFang-SC-Medium" "Noto-Sans-CJK-SC" "Microsoft-YaHei" "SimHei"; do
+        $IMAGEMAGICK_CMD -list font 2>/dev/null | grep -q "$f" && echo "$f" && return
     done
 }
 
@@ -148,7 +231,7 @@ process_image() {
     if [ ! -f "$dest_thumbnail" ]; then
         local thumb_size=$(echo "scale=0; $THUMBNAIL_WIDTH * $THUMB_WATERMARK_SIZE_PERCENT / 100" | bc)
         if [ "$WATERMARK_ENABLED" = true ] && [ -n "$font" ]; then
-            convert "$src_file" -resize "${THUMBNAIL_WIDTH}x>" -quality "$THUMBNAIL_QUALITY" \
+            $IMAGEMAGICK_CMD "$src_file" -resize "${THUMBNAIL_WIDTH}x>" -quality "$THUMBNAIL_QUALITY" \
                 -gravity "$WATERMARK_POSITION" -font "$font" -pointsize "$thumb_size" \
                 -fill "rgba(255,255,255,${WATERMARK_OPACITY}%)" \
                 -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${THUMB_WATERMARK_OFFSET_X}+40 "$WATERMARK_TEXT" \
@@ -156,7 +239,7 @@ process_image() {
                 -annotate 0x0+20+40 "$WATERMARK_TEXT" \
                 "$dest_thumbnail" 2>/dev/null
         else
-            convert "$src_file" -resize "${THUMBNAIL_WIDTH}x>" -quality "$THUMBNAIL_QUALITY" "$dest_thumbnail" 2>/dev/null
+            $IMAGEMAGICK_CMD "$src_file" -resize "${THUMBNAIL_WIDTH}x>" -quality "$THUMBNAIL_QUALITY" "$dest_thumbnail" 2>/dev/null
         fi
         echo -e "  ${GREEN}✓${NC} 缩略图"
     fi
@@ -170,7 +253,7 @@ process_image() {
         if [ ! -f "$dest_preview" ]; then
             local preview_size=$(echo "scale=0; $preview_width * $PREVIEW_WATERMARK_SIZE_PERCENT / 100" | bc)
             if [ "$WATERMARK_ENABLED" = true ] && [ -n "$font" ]; then
-                convert "$src_file" -resize "${preview_width}x>" -quality "$PREVIEW_QUALITY" \
+                $IMAGEMAGICK_CMD "$src_file" -resize "${preview_width}x>" -quality "$PREVIEW_QUALITY" \
                     -gravity "$WATERMARK_POSITION" -font "$font" -pointsize "$preview_size" \
                     -fill "rgba(255,255,255,${WATERMARK_OPACITY}%)" \
                     -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${PREVIEW_WATERMARK_OFFSET_X}+80 "$WATERMARK_TEXT" \
@@ -178,7 +261,7 @@ process_image() {
                     -annotate 0x0+40+80 "$WATERMARK_TEXT" \
                     "$dest_preview" 2>/dev/null
             else
-                convert "$src_file" -resize "${preview_width}x>" -quality "$PREVIEW_QUALITY" "$dest_preview" 2>/dev/null
+                $IMAGEMAGICK_CMD "$src_file" -resize "${preview_width}x>" -quality "$PREVIEW_QUALITY" "$dest_preview" 2>/dev/null
             fi
             echo -e "  ${GREEN}✓${NC} 预览图"
         fi
@@ -197,13 +280,11 @@ main() {
     [[ ! "$series" =~ ^(desktop|mobile|avatar)$ ]] && { echo -e "${RED}无效系列: $series${NC}"; exit 1; }
     
     if ! is_valid_category_l1 "$cat_l1"; then
-        echo -e "${YELLOW}未知一级分类 '$cat_l1'，使用 '$DEFAULT_CATEGORY_L1'${NC}"
-        cat_l1="$DEFAULT_CATEGORY_L1"
+        echo -e "${YELLOW}提示: '$cat_l1' 是新的一级分类，将自动创建目录${NC}"
     fi
 
     if [ "$cat_l2" != "$DEFAULT_CATEGORY_L2" ] && ! is_valid_category_l2 "$cat_l1" "$cat_l2"; then
-        echo -e "${YELLOW}未知二级分类 '$cat_l2'，使用 '$DEFAULT_CATEGORY_L2'${NC}"
-        cat_l2="$DEFAULT_CATEGORY_L2"
+        echo -e "${YELLOW}提示: '$cat_l2' 是新的二级分类，将自动创建目录${NC}"
     fi
 
     echo -e "${BLUE}========================================${NC}"
