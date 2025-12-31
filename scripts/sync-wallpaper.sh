@@ -285,32 +285,14 @@ file_exists_in_target() {
     return 1  # 不存在
 }
 
-# 生成预览图函数（带水印）
+# 生成预览图函数（desktop 不加水印，与 mobile 保持一致）
 generate_preview() {
     local source_file="$1"
     local output_file="$2"
-    
+
     mkdir -p "$(dirname "$output_file")"
-    
-    if [ "$WATERMARK_ENABLED" = true ]; then
-        if $IMAGEMAGICK_CMD "$source_file" \
-            -resize "${PREVIEW_WIDTH}x>" \
-            -font "$WATERMARK_FONT" \
-            -pointsize "$PREVIEW_WATERMARK_FONT_SIZE" \
-            -fill "$WATERMARK_COLOR" \
-            -gravity "$WATERMARK_POSITION" \
-            -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${PREVIEW_WATERMARK_OFFSET_X}+${PREVIEW_WATERMARK_OFFSET_Y} "$WATERMARK_TEXT" \
-            -gravity "$WATERMARK_SECOND_POSITION" \
-            -annotate ${WATERMARK_SECOND_ANGLE}x${WATERMARK_SECOND_ANGLE}+${PREVIEW_WATERMARK_OFFSET_X_LEFT}+${PREVIEW_WATERMARK_OFFSET_Y_LEFT} "$WATERMARK_TEXT" \
-            -quality "$PREVIEW_QUALITY" \
-            -strip \
-            "$output_file" 2>/dev/null; then
-            watermarks_added=$((watermarks_added + 1))
-            return 0
-        fi
-    fi
-    
-    # 无水印版本
+
+    # desktop 预览图不加水印，直接生成
     $IMAGEMAGICK_CMD "$source_file" \
         -resize "${PREVIEW_WIDTH}x>" \
         -quality "$PREVIEW_QUALITY" \

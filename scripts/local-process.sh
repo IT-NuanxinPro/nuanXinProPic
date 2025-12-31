@@ -244,25 +244,15 @@ process_image() {
         echo -e "  ${GREEN}✓${NC} 缩略图"
     fi
 
-    # 生成预览图
+    # 生成预览图（desktop 和 mobile 预览图都不加水印）
     if [ "$series" != "avatar" ]; then
         local preview_width=$PREVIEW_WIDTH
         [ "$series" = "mobile" ] && preview_width=$MOBILE_PREVIEW_WIDTH
-        
+
         local dest_preview="$preview_dir/${name}.webp"
         if [ ! -f "$dest_preview" ]; then
-            local preview_size=$(echo "scale=0; $preview_width * $PREVIEW_WATERMARK_SIZE_PERCENT / 100" | bc)
-            if [ "$WATERMARK_ENABLED" = true ] && [ -n "$font" ]; then
-                $IMAGEMAGICK_CMD "$src_file" -resize "${preview_width}x>" -quality "$PREVIEW_QUALITY" \
-                    -gravity "$WATERMARK_POSITION" -font "$font" -pointsize "$preview_size" \
-                    -fill "rgba(255,255,255,${WATERMARK_OPACITY}%)" \
-                    -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${PREVIEW_WATERMARK_OFFSET_X}+80 "$WATERMARK_TEXT" \
-                    -gravity "$WATERMARK_SECOND_POSITION" \
-                    -annotate 0x0+40+80 "$WATERMARK_TEXT" \
-                    "$dest_preview" 2>/dev/null
-            else
-                $IMAGEMAGICK_CMD "$src_file" -resize "${preview_width}x>" -quality "$PREVIEW_QUALITY" "$dest_preview" 2>/dev/null
-            fi
+            # 预览图不加水印，直接生成
+            $IMAGEMAGICK_CMD "$src_file" -resize "${preview_width}x>" -quality "$PREVIEW_QUALITY" "$dest_preview" 2>/dev/null
             echo -e "  ${GREEN}✓${NC} 预览图"
         fi
     fi
