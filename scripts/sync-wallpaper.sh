@@ -366,9 +366,9 @@ process_image() {
     # 创建目录
     mkdir -p "$target_subdir"
     
-    # 复制原图
+    # 复制原图（保留时间戳 -p 参数）
     echo -e "${CYAN}[$l1/$l2]${NC} ${GREEN}[NEW]${NC} $newname"
-    cp "$file" "$target_file"
+    cp -p "$file" "$target_file"
     new_copied=$((new_copied + 1))
     
     # 记录分类统计
