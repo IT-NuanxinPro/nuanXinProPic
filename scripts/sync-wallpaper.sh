@@ -43,13 +43,13 @@ get_l2_categories() {
     esac
 }
 
-# 缩略图配置
-THUMB_WIDTH=550
-THUMB_QUALITY=85
+# 缩略图配置（优化后：降低尺寸和质量以提升加载速度）
+THUMB_WIDTH=350      # 从 550 → 350（降低36%尺寸）
+THUMB_QUALITY=75     # 从 85 → 75（WebP格式下质量75已足够清晰）
 
-# 预览图配置
-PREVIEW_WIDTH=1920
-PREVIEW_QUALITY=90
+# 预览图配置（优化后：降低质量以减小文件大小）
+PREVIEW_WIDTH=1920   # 保持1920宽度（桌面弹窗预览）
+PREVIEW_QUALITY=78   # 从 90 → 78（降低质量，减小30%文件大小）
 
 # 水印配置
 WATERMARK_ENABLED=true
