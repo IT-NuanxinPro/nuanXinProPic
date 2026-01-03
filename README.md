@@ -67,7 +67,13 @@ nuanXinProPic/
 │   ├── local-process.sh        # 本地图片处理脚本
 │   ├── batch-process.sh        # 批量处理脚本
 │   ├── create-local-folders.sh # 生成本地空目录结构
-│   └── release.sh              # 发布脚本（commit+tag+push）
+│   ├── release.sh              # 发布脚本（commit+tag+push）
+│   ├── backup-timestamps.sh    # 时间戳备份脚本（自动）
+│   └── restore-timestamps.sh   # 时间戳恢复脚本（CI 使用）
+├── docs/                   # 文档目录
+│   └── 时间戳自动化系统.md # 时间戳管理详细文档
+├── 时间戳快速指南.md       # 时间戳系统快速入门
+├── timestamps-backup-all.txt # 文件时间戳备份（自动维护）
 └── .github/
     └── workflows/
         └── sync-wallpaper.yml  # GitHub Actions 自动同步配置
@@ -146,6 +152,68 @@ nuanXinProPic/
 - 计算新版本号 (v1.0.4 → v1.0.5)
 - 提交代码并创建 tag
 - 推送到远程仓库
+
+## 时间戳自动化系统
+
+本项目实现了完全自动化的文件时间戳管理系统，确保图片的上传时间在 Git 仓库和前端展示中保持准确。
+
+### 核心功能
+
+**方案 A: Git Hook 自动备份**
+- ✅ 提交前自动运行备份脚本
+- ✅ 自动将备份文件加入提交
+- ✅ 100% 避免人为遗忘
+
+**方案 C: 智能回退机制**
+- ✅ CI 环境验证备份完整性
+- ✅ 检测未备份的新文件
+- ✅ 从 Git 历史自动恢复时间戳
+- ✅ 多层保护确保数据准确
+
+### 使用说明
+
+日常添加图片时，**完全自动化，无需任何额外操作**：
+
+```bash
+# 1. 正常添加图片
+cp new-image.jpg wallpaper/desktop/风景/
+
+# 2. 正常提交
+git add wallpaper/
+git commit -m "add: 新增风景壁纸"
+
+# ✨ Git Hook 自动运行:
+#   → 扫描所有图片文件
+#   → 备份时间戳
+#   → 自动加入提交
+
+# 3. 推送
+git push
+```
+
+### 系统特性
+
+- **完全自动化** - 零人工干预，零维护成本
+- **多层保护** - Git Hook + 智能检测 + Git 回退
+- **生产级可靠** - CI 环境强制验证
+- **开箱即用** - 所有配置已完成
+
+### 文档说明
+
+- **快速入门**: `时间戳快速指南.md` - 包含使用指南、验证方法、故障排查
+- **详细文档**: `docs/时间戳自动化系统.md` - 包含系统架构、技术细节、API 说明
+
+### 备份统计
+
+```
+Desktop: 127 个文件 ✅
+Mobile:  72 个文件 ✅
+Avatar:  42 个文件 ✅
+━━━━━━━━━━━━━━━━━━
+总计:    241 个文件
+```
+
+备份文件: `timestamps-backup-all.txt` (自动维护，请勿手动编辑)
 
 ### 访问链接格式
 
