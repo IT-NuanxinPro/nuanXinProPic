@@ -1,57 +1,31 @@
 #!/bin/bash
 # ========================================
-# 本地图片处理脚本（支持二级分类）
+# 本地图片处理脚本
 # ========================================
 #
-# 功能：批量处理图片，生成缩略图和预览图，自动添加水印
+# 功能：处理单个目录的图片，生成原图、缩略图、预览图
+#       缩略图自动添加水印，预览图无水印
 #
 # 用法：
 #   ./scripts/local-process.sh <输入文件夹> [系列] [一级分类] [二级分类]
 #
+# 参数：
+#   输入文件夹  包含待处理图片的目录
+#   系列        desktop(默认) | mobile | avatar
+#   一级分类    如: 动漫、游戏、风景（默认: 其他）
+#   二级分类    如: 原神、蜡笔小新（默认: 通用）
+#
 # 示例：
 #   ./scripts/local-process.sh ~/Pictures/new desktop 游戏 原神
-#   ./scripts/local-process.sh ~/Pictures/new mobile 动漫
-#   ./scripts/local-process.sh ~/Pictures/new avatar 萌系
+#   ./scripts/local-process.sh ~/Pictures/cats mobile 萌宠 猫咪
+#   ./scripts/local-process.sh ~/Pictures/avatar avatar IP形象 小八
 #
-# ========================================
-# 注意事项
-# ========================================
+# 输出结构：
+#   wallpaper/<系列>/<一级>/<二级>/xxx.jpg   原图
+#   thumbnail/<系列>/<一级>/<二级>/xxx.webp  缩略图(带水印)
+#   preview/<系列>/<一级>/<二级>/xxx.webp    预览图(无水印)
 #
-# 1. 分类说明
-#    - 可以使用任意分类名称，脚本会自动创建对应目录
-#    - 常用一级分类：动漫、游戏、风景、插画、人像、国风、萌系 等
-#    - 二级分类可选，默认为"通用"
-#
-# 2. 新增分类
-#    - 脚本会自动创建 wallpaper/thumbnail/preview 目录
-#    - 如需在前端显示，需运行 generate-data 脚本重新生成数据
-#
-# 3. 输出目录结构
-#    wallpaper/<系列>/<一级分类>/<二级分类>/xxx.jpg   (原图)
-#    thumbnail/<系列>/<一级分类>/<二级分类>/xxx.webp  (缩略图)
-#    preview/<系列>/<一级分类>/<二级分类>/xxx.webp    (预览图)
-#
-# ========================================
-# Windows 用户使用说明
-# ========================================
-#
-# 1. 安装 Git for Windows（包含 Git Bash）
-#    下载地址: https://git-scm.com/download/win
-#
-# 2. 安装 Scoop 包管理器（在 PowerShell 中执行）
-#    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-#    Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
-#
-# 3. 安装 ImageMagick
-#    scoop install imagemagick
-#
-# 4. 打开 Git Bash，进入项目目录运行脚本
-#    cd /d/Projects/nuanXinProPic
-#    ./scripts/local-process.sh /d/Pictures/new desktop 游戏 原神
-#
-# 注意：Windows 路径格式
-#    - 使用 /d/xxx 代替 D:\xxx
-#    - 使用 /c/Users/xxx 代替 C:\Users\xxx
+# 依赖：ImageMagick (brew install imagemagick)
 #
 # ========================================
 
@@ -82,12 +56,12 @@ WATERMARK_ANGLE=-25
 WATERMARK_SECOND_POSITION="southwest"
 WATERMARK_SECOND_ANGLE=0
 
-PREVIEW_WATERMARK_SIZE_PERCENT=2
-PREVIEW_WATERMARK_OFFSET_X=40
-PREVIEW_WATERMARK_OFFSET_Y=80
-THUMB_WATERMARK_SIZE_PERCENT=1.5
+# 缩略图水印配置（与 sync-wallpaper.sh 保持一致）
+THUMB_WATERMARK_SIZE_PERCENT=2
 THUMB_WATERMARK_OFFSET_X=20
 THUMB_WATERMARK_OFFSET_Y=40
+THUMB_WATERMARK_OFFSET_X_LEFT=20
+THUMB_WATERMARK_OFFSET_Y_LEFT=40
 
 # 一级分类白名单
 VALID_CATEGORIES_L1=(
@@ -217,42 +191,61 @@ process_image() {
     mkdir -p "$wallpaper_dir" "$thumbnail_dir"
     [ "$series" != "avatar" ] && mkdir -p "$preview_dir"
 
-    # 复制原图
+    # 复制原图（保留时间戳）
     local dest_wallpaper="$wallpaper_dir/$filename"
     if [ ! -f "$dest_wallpaper" ]; then
-        cp "$src_file" "$dest_wallpaper"
+        cp -p "$src_file" "$dest_wallpaper"
         echo -e "  ${GREEN}✓${NC} 原图: $cat_l1/$cat_l2/$filename"
     else
         echo -e "  ${YELLOW}→${NC} 已存在: $cat_l1/$cat_l2/$filename"
     fi
 
-    # 生成缩略图
+    # 生成缩略图（与 sync-wallpaper.sh 保持一致）
     local dest_thumbnail="$thumbnail_dir/${name}.webp"
     if [ ! -f "$dest_thumbnail" ]; then
-        local thumb_size=$(echo "scale=0; $THUMBNAIL_WIDTH * $THUMB_WATERMARK_SIZE_PERCENT / 100" | bc)
+        local thumb_font_size=$((THUMBNAIL_WIDTH * THUMB_WATERMARK_SIZE_PERCENT / 100))
+        local watermark_alpha=$(awk "BEGIN {printf \"%.2f\", $WATERMARK_OPACITY / 100}")
+        local watermark_color="rgba(255,255,255,$watermark_alpha)"
+        
         if [ "$WATERMARK_ENABLED" = true ] && [ -n "$font" ]; then
-            $IMAGEMAGICK_CMD "$src_file" -resize "${THUMBNAIL_WIDTH}x>" -quality "$THUMBNAIL_QUALITY" \
-                -gravity "$WATERMARK_POSITION" -font "$font" -pointsize "$thumb_size" \
-                -fill "rgba(255,255,255,${WATERMARK_OPACITY}%)" \
-                -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${THUMB_WATERMARK_OFFSET_X}+40 "$WATERMARK_TEXT" \
+            $IMAGEMAGICK_CMD "$src_file" \
+                -resize "${THUMBNAIL_WIDTH}x>" \
+                -font "$font" \
+                -pointsize "$thumb_font_size" \
+                -fill "$watermark_color" \
+                -gravity "$WATERMARK_POSITION" \
+                -annotate ${WATERMARK_ANGLE}x${WATERMARK_ANGLE}+${THUMB_WATERMARK_OFFSET_X}+${THUMB_WATERMARK_OFFSET_Y} "$WATERMARK_TEXT" \
                 -gravity "$WATERMARK_SECOND_POSITION" \
-                -annotate 0x0+20+40 "$WATERMARK_TEXT" \
+                -annotate ${WATERMARK_SECOND_ANGLE}x${WATERMARK_SECOND_ANGLE}+${THUMB_WATERMARK_OFFSET_X_LEFT}+${THUMB_WATERMARK_OFFSET_Y_LEFT} "$WATERMARK_TEXT" \
+                -quality "$THUMBNAIL_QUALITY" \
+                -strip \
                 "$dest_thumbnail" 2>/dev/null
         else
-            $IMAGEMAGICK_CMD "$src_file" -resize "${THUMBNAIL_WIDTH}x>" -quality "$THUMBNAIL_QUALITY" "$dest_thumbnail" 2>/dev/null
+            $IMAGEMAGICK_CMD "$src_file" \
+                -resize "${THUMBNAIL_WIDTH}x>" \
+                -quality "$THUMBNAIL_QUALITY" \
+                -strip \
+                "$dest_thumbnail" 2>/dev/null
         fi
         echo -e "  ${GREEN}✓${NC} 缩略图"
     fi
 
-    # 生成预览图（desktop 和 mobile 预览图都不加水印）
+    # 生成预览图（与 sync-wallpaper.sh 保持一致，不加水印）
     if [ "$series" != "avatar" ]; then
         local preview_width=$PREVIEW_WIDTH
-        [ "$series" = "mobile" ] && preview_width=$MOBILE_PREVIEW_WIDTH
+        local preview_quality=$PREVIEW_QUALITY
+        if [ "$series" = "mobile" ]; then
+            preview_width=$MOBILE_PREVIEW_WIDTH
+            preview_quality=$MOBILE_PREVIEW_QUALITY
+        fi
 
         local dest_preview="$preview_dir/${name}.webp"
         if [ ! -f "$dest_preview" ]; then
-            # 预览图不加水印，直接生成
-            $IMAGEMAGICK_CMD "$src_file" -resize "${preview_width}x>" -quality "$PREVIEW_QUALITY" "$dest_preview" 2>/dev/null
+            $IMAGEMAGICK_CMD "$src_file" \
+                -resize "${preview_width}x>" \
+                -quality "$preview_quality" \
+                -strip \
+                "$dest_preview" 2>/dev/null
             echo -e "  ${GREEN}✓${NC} 预览图"
         fi
     fi

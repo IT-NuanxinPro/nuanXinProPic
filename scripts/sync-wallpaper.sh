@@ -1,12 +1,26 @@
 #!/usr/bin/env bash
-# sync-wallpaper.sh
-# 从 Gitee 仓库增量同步电脑壁纸到本地 wallpaper/desktop 目录
-# 策略：增量同步（只添加新文件，不删除已有文件）
-# 源文件格式：L1分类--L2分类_名称.扩展名（如：动漫--原神_雷电将军.jpg）
-# 目标结构：wallpaper/desktop/L1/L2/名称.扩展名
-# 同时生成缩略图到 thumbnail/desktop/L1/L2/ 目录
-# 同时生成预览图到 preview/desktop/L1/L2/ 目录
-# 注意：手机壁纸(mobile)和头像(avatar)由用户手动管理
+# ========================================
+# Gitee 壁纸同步脚本
+# ========================================
+#
+# 功能：从 Gitee 仓库增量同步 desktop 壁纸
+#       自动解析文件名分类，生成缩略图和预览图
+#
+# 用法：
+#   ./scripts/sync-wallpaper.sh
+#   GITEE_TOKEN=xxx ./scripts/sync-wallpaper.sh  # 使用 token 避免限流
+#
+# 源文件命名格式：
+#   L1分类--L2分类_名称.jpg  (如: 动漫--原神_雷电将军.jpg)
+#
+# 输出结构：
+#   wallpaper/desktop/动漫/原神/雷电将军.jpg
+#   thumbnail/desktop/动漫/原神/雷电将军.webp
+#   preview/desktop/动漫/原神/雷电将军.webp
+#
+# 注意：仅同步 desktop，mobile 和 avatar 需手动管理
+#
+# ========================================
 
 set -e
 

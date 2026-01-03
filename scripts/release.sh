@@ -1,7 +1,21 @@
 #!/bin/bash
 # ========================================
-# 本地发布脚本：提交更改并自动打 tag
-# 用法: ./scripts/release.sh [commit message]
+# 发布脚本
+# ========================================
+#
+# 功能：一键完成 git add + commit + tag + push
+#       自动递增版本号 (v1.0.x)
+#
+# 用法：
+#   ./scripts/release.sh [提交信息]
+#
+# 参数：
+#   提交信息  可选，默认为 "chore: update wallpapers [日期]"
+#
+# 示例：
+#   ./scripts/release.sh                          # 使用默认提交信息
+#   ./scripts/release.sh "feat: 新增动漫壁纸"      # 自定义提交信息
+#
 # ========================================
 
 set -e

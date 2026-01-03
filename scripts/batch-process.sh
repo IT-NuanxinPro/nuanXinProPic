@@ -3,13 +3,27 @@
 # 批量扫描处理脚本
 # ========================================
 #
-# 功能：扫描本地文件夹结构，自动调用 local-process.sh 处理每个子目录
+# 功能：扫描本地文件夹，自动识别一级/二级分类，批量处理所有图片
+#       内部调用 local-process.sh 处理每个子目录
 #
 # 用法：
 #   ./scripts/batch-process.sh <本地壁纸根目录> [系列]
 #
+# 参数：
+#   本地壁纸根目录  包含 一级分类/二级分类 结构的目录
+#   系列            desktop(默认) | mobile | avatar
+#
 # 示例：
-#   ./scripts/batch-process.sh /Users/nuanxinpro/Pictures/wallpaper desktop
+#   ./scripts/batch-process.sh /Users/xxx/Pictures/wallpaper desktop
+#   ./scripts/batch-process.sh /Users/xxx/Pictures/mobile-pics mobile
+#
+# 目录结构要求：
+#   <根目录>/
+#     ├── 动漫/           # 一级分类
+#     │   ├── 原神/       # 二级分类（含图片）
+#     │   └── 海贼王/
+#     └── 风景/
+#         └── 雪山/
 #
 # ========================================
 
