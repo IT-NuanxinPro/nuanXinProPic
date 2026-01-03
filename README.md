@@ -16,10 +16,10 @@
 - 无限图片容量
 - 简单易用的管理方式
 - **自动同步壁纸** - 每日从 Gitee 增量同步精选壁纸
-- **自动生成缩略图** - 同步时自动生成带双水印 WebP 格式缩略图（550px，85%），加速网页加载
+- **自动生成缩略图** - 同步时自动生成带双水印 WebP 格式缩略图（350px，75%），加速网页加载
 - **自动生成预览图** - 同步时自动生成 WebP 格式预览图
-  - Desktop: 1920px，90% 质量（无水印，适合大屏预览）
-  - Mobile: 1080px，85% 质量（无水印，适合长屏，节省带宽）
+  - Desktop: 1920px，78% 质量（无水印，适合大屏预览）
+  - Mobile: 1080px，75% 质量（无水印，适合长屏，节省带宽）
 
 ## 使用指南
 
@@ -51,19 +51,23 @@ nuanXinProPic/
 │   ├── desktop/            # 电脑壁纸（每日自动同步）
 │   ├── mobile/             # 手机壁纸（手动管理）
 │   └── avatar/             # 头像（手动管理）
-├── thumbnail/              # 壁纸缩略图目录（WebP 格式，550px 宽，带双水印）
+├── thumbnail/              # 壁纸缩略图目录（WebP 格式，350px 宽，带双水印）
 │   ├── desktop/            # 电脑壁纸缩略图
 │   ├── mobile/             # 手机壁纸缩略图
 │   └── avatar/             # 头像缩略图
 ├── preview/                # 壁纸预览图目录（WebP 格式，无水印）
-│   ├── desktop/            # 电脑壁纸预览图（1920px，90%）
-│   └── mobile/             # 手机壁纸预览图（1080px，85%，长屏优化）
+│   ├── desktop/            # 电脑壁纸预览图（1920px，78%）
+│   └── mobile/             # 手机壁纸预览图（1080px，75%，长屏优化）
 ├── blog/                   # 博客相关图片
 ├── docs/                   # 文档相关图片
 ├── projects/               # 项目相关图片
 ├── others/                 # 其他类型图片
 ├── scripts/                # 自动化脚本
-│   └── sync-wallpaper.sh   # 电脑壁纸同步脚本
+│   ├── sync-wallpaper.sh       # Gitee 壁纸同步脚本
+│   ├── local-process.sh        # 本地图片处理脚本
+│   ├── batch-process.sh        # 批量处理脚本
+│   ├── create-local-folders.sh # 生成本地空目录结构
+│   └── release.sh              # 发布脚本（commit+tag+push）
 └── .github/
     └── workflows/
         └── sync-wallpaper.yml  # GitHub Actions 自动同步配置
@@ -90,11 +94,11 @@ nuanXinProPic/
 | **自动打 Tag** | 同步有变更时自动创建版本 tag（如 v1.0.5） |
 | **原图目录** | `wallpaper/desktop/` |
 | **缩略图目录** | `thumbnail/desktop/` |
-| **缩略图格式** | WebP，宽度 550px，质量 85%，带双水印 |
+| **缩略图格式** | WebP，宽度 350px，质量 75%，带双水印 |
 | **预览图目录** | `preview/desktop/` |
-| **预览图格式** | Desktop: WebP，1920px，90%（无水印）<br>Mobile: WebP，1080px，85%（无水印，长屏优化） |
+| **预览图格式** | Desktop: WebP，1920px，78%（无水印）<br>Mobile: WebP，1080px，75%（无水印，长屏优化） |
 | **水印配置** | 仅缩略图添加水印：文字"暖心"，40% 透明度，双水印（右下 -25° + 左下水平） |
-| **缩略图水印** | 1.5% 字号，右下偏移 20x40，左下偏移 20x40 |
+| **缩略图水印** | 2% 字号，右下偏移 20x40，左下偏移 20x40 |
 | **文件名格式** | `分类--名称.扩展名`（如：`动漫--原神_雷电将军.jpg`） |
 | **时间戳保留** | 使用 `cp -p` 保留源文件修改时间，确保前端时间排序正确 |
 
@@ -110,13 +114,26 @@ nuanXinProPic/
 每日 6:00 同步 → 检测变更 → 自动打 tag (v1.0.x) → 前端 8:00 构建时自动获取
 ```
 
-### 本地手动发布
+### 本地图片处理
 
-本地添加图片后，使用便捷脚本一键发布：
+本地新增图片时，使用以下脚本处理：
 
 ```bash
-# 添加图片到 wallpaper/ 目录后...
+# 1. 生成本地空目录结构（可选，用于整理本地图片）
+./scripts/create-local-folders.sh mobile /Users/xxx/Pictures/wallpaper-mobile
 
+# 2. 处理单个目录的图片
+./scripts/local-process.sh ~/Pictures/new desktop 游戏 原神
+
+# 3. 批量处理多个目录（目录结构：一级分类/二级分类/图片）
+./scripts/batch-process.sh ~/Pictures/wallpaper-desktop desktop
+```
+
+### 本地手动发布
+
+处理完图片后，使用便捷脚本一键发布：
+
+```bash
 # 一键发布（自动提交 + 打 tag + 推送）
 ./scripts/release.sh
 

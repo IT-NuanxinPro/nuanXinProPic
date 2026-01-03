@@ -42,8 +42,12 @@ else
     COMMIT_MSG="chore: update wallpapers [$(date +'%Y-%m-%d')]"
 fi
 
-# 获取最新的 tag 并计算新版本号
-LATEST_TAG=$(git tag -l 'v1.*' --sort=-version:refname | head -1)
+# 获取远程最新 tag
+echo -e "${BLUE}📡 获取远程 tag...${NC}"
+git fetch --tags --quiet
+
+# 获取最新的 tag 并计算新版本号（支持任意版本号）
+LATEST_TAG=$(git tag -l 'v*' --sort=-version:refname | head -1)
 
 if [ -z "$LATEST_TAG" ]; then
     NEW_TAG="v1.0.1"
