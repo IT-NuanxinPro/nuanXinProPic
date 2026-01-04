@@ -2,14 +2,12 @@
 /**
  * Bing 每日壁纸同步脚本 (Node.js 跨平台版本)
  *
+ * 优化版：只同步元数据，不下载图片
+ * - Bing 图片链接永久有效，无需本地存储
+ * - 前端直接使用 Bing CDN URL
+ *
  * 目录结构：
  * bing/
- * ├── 2025/                          # 按年/月组织图片
- * │   ├── 01/
- * │   │   ├── 2025-01-01.jpg         # 4K UHD 原图
- * │   │   └── ...
- * │   └── 02/
- * │
  * └── meta/                          # 元数据
  *     ├── index.json                 # 总索引
  *     ├── latest.json                # 最近 7 天
@@ -28,7 +26,7 @@ const __dirname = path.dirname(__filename)
 // 配置
 const CONFIG = {
   BING_API: 'https://www.bing.com/HPImageArchive.aspx',
-  BING_BASE: 'https://www.bing.com',
+  BING_BASE: 'https://cn.bing.com',
   ROOT_DIR: path.resolve(__dirname, '..'),
 }
 
@@ -41,6 +39,7 @@ const colors = {
   green: text => `\x1b[32m${text}\x1b[0m`,
   yellow: text => `\x1b[33m${text}\x1b[0m`,
   blue: text => `\x1b[34m${text}\x1b[0m`,
+  cyan: text => `\x1b[36m${text}\x1b[0m`,
 }
 
 /**
@@ -48,10 +47,8 @@ const colors = {
  */
 function httpGet(url) {
   return new Promise((resolve, reject) => {
-    const protocol = url.startsWith('https') ? https : require('http')
-    protocol.get(url, (res) => {
+    https.get(url, (res) => {
       if (res.statusCode === 301 || res.statusCode === 302) {
-        // 跟随重定向
         return httpGet(res.headers.location).then(resolve).catch(reject)
       }
 
@@ -67,21 +64,11 @@ function httpGet(url) {
 }
 
 /**
- * 下载文件
- */
-async function downloadFile(url, destPath) {
-  const { buffer, statusCode } = await httpGet(url)
-  if (statusCode !== 200) {
-    throw new Error(`HTTP ${statusCode}`)
-  }
-  fs.writeFileSync(destPath, buffer)
-}
-
-/**
  * 获取 Bing API 数据
+ * 使用美国市场保证获取到最新数据
  */
 async function fetchBingData(days) {
-  const url = `${CONFIG.BING_API}?format=js&idx=0&n=${days}&mkt=zh-CN`
+  const url = `${CONFIG.BING_API}?format=js&idx=0&n=${days}&mkt=en-US`
   const { buffer, statusCode } = await httpGet(url)
 
   if (statusCode !== 200) {
@@ -92,65 +79,53 @@ async function fetchBingData(days) {
 }
 
 /**
- * 处理单张图片
+ * 处理单张图片元数据
  */
-async function processImage(image) {
-  const startdate = image.startdate
-  const year = startdate.substring(0, 4)
-  const month = startdate.substring(4, 6)
-  const day = startdate.substring(6, 8)
+function processImage(image, idx) {
+  // 重要：Bing API 使用美国时间
+  // idx=0 是美国的"今天"，但对中国用户是"明天"
+  // idx=1 是中国用户真正的"今天"
+  // 所以日期计算：today + 1 - idx
+  const today = new Date()
+  const targetDate = new Date(today)
+  targetDate.setDate(today.getDate() + 1 - idx)
+
+  const year = targetDate.getFullYear()
+  const month = String(targetDate.getMonth() + 1).padStart(2, '0')
+  const day = String(targetDate.getDate()).padStart(2, '0')
   const dateFormatted = `${year}-${month}-${day}`
 
-  console.log(`${colors.blue('[INFO]')} ${dateFormatted} - ${image.title}`)
+  console.log(`${colors.blue('[INFO]')} ${dateFormatted} (idx=${idx}, startdate=${image.startdate}) - ${image.title}`)
 
-  // 目录和文件路径
-  const imageDir = path.join(BING_DIR, year, month)
-  const imageFile = path.join(imageDir, `${dateFormatted}.jpg`)
-  const imagePath = `/bing/${year}/${month}/${dateFormatted}.jpg`
-
-  // 确保目录存在
-  fs.mkdirSync(imageDir, { recursive: true })
-
-  // 检查是否已存在
-  if (fs.existsSync(imageFile)) {
-    console.log(`       ${colors.yellow('已存在，跳过下载')}`)
-    // 仍然更新元数据
-    saveToYearFile(year, {
-      date: dateFormatted,
-      title: image.title,
-      copyright: image.copyright,
-      copyrightlink: image.copyrightlink,
-      quiz: image.quiz,
-      hsh: image.hsh,
-      urlbase: image.urlbase,
-      path: imagePath,
-    })
-    return { skipped: true }
+  // 构建元数据
+  const metadata = {
+    date: dateFormatted,
+    title: image.title,
+    copyright: image.copyright,
+    copyrightlink: image.copyrightlink,
+    quiz: image.quiz,
+    hsh: image.hsh,
+    urlbase: image.urlbase,
   }
 
-  // 下载 4K 原图
-  const uhdUrl = `${CONFIG.BING_BASE}${image.urlbase}_UHD.jpg`
+  // 检查是否已存在
+  const yearFile = path.join(META_DIR, `${year}.json`)
+  let isNew = true
 
-  try {
-    await downloadFile(uhdUrl, imageFile)
-    console.log(`       ${colors.green('✓ 下载成功')}`)
+  if (fs.existsSync(yearFile)) {
+    const yearData = JSON.parse(fs.readFileSync(yearFile, 'utf-8'))
+    isNew = !yearData.items.some(i => i.date === dateFormatted)
+  }
 
-    // 保存元数据
-    saveToYearFile(year, {
-      date: dateFormatted,
-      title: image.title,
-      copyright: image.copyright,
-      copyrightlink: image.copyrightlink,
-      quiz: image.quiz,
-      hsh: image.hsh,
-      urlbase: image.urlbase,
-      path: imagePath,
-    })
+  // 保存元数据
+  saveToYearFile(year, metadata)
 
+  if (isNew) {
+    console.log(`       ${colors.green('✓ 新增')}`)
     return { success: true }
-  } catch (e) {
-    console.log(`       ${colors.red('✗ 下载失败')}: ${e.message}`)
-    return { failed: true }
+  } else {
+    console.log(`       ${colors.yellow('已存在，更新元数据')}`)
+    return { skipped: true }
   }
 }
 
@@ -165,10 +140,10 @@ function saveToYearFile(year, item) {
     yearData = JSON.parse(fs.readFileSync(yearFile, 'utf-8'))
 
     // 检查是否已存在
-    const exists = yearData.items.some(i => i.date === item.date)
-    if (exists) {
+    const existsIndex = yearData.items.findIndex(i => i.date === item.date)
+    if (existsIndex >= 0) {
       // 更新现有条目
-      yearData.items = yearData.items.map(i => i.date === item.date ? item : i)
+      yearData.items[existsIndex] = item
     } else {
       // 添加新条目
       yearData.items.push(item)
@@ -264,11 +239,11 @@ async function main() {
   const days = parseInt(process.argv[2]) || 1
 
   console.log('========================================')
-  console.log('  Bing 每日壁纸同步 (Node.js)')
+  console.log('  Bing 每日壁纸同步 (元数据模式)')
   console.log('========================================')
   console.log('')
-  console.log('目录结构: bing/{年}/{月}/{日期}.jpg')
-  console.log('元数据:   bing/meta/*.json')
+  console.log(`${colors.cyan('模式:')} 只同步元数据，不下载图片`)
+  console.log(`${colors.cyan('原因:')} Bing 图片链接永久有效`)
   console.log('')
   console.log(`${colors.blue('[INFO]')} 获取最近 ${days} 天的壁纸...`)
   console.log('')
@@ -285,19 +260,19 @@ async function main() {
       process.exit(1)
     }
 
-    console.log(`${colors.blue('[INFO]')} 获取到 ${bingData.images.length} 张壁纸`)
+    console.log(`${colors.blue('[INFO]')} 获取到 ${bingData.images.length} 条数据`)
     console.log('')
 
-    // 处理每张壁纸
+    // 处理每条数据
     let success = 0
     let skip = 0
-    let failed = 0
 
-    for (const image of bingData.images) {
-      const result = await processImage(image)
+    for (let i = 0; i < bingData.images.length; i++) {
+      const image = bingData.images[i]
+      const idx = i // idx=0 是今天，idx=1 是昨天，以此类推
+      const result = processImage(image, idx)
       if (result.success) success++
       else if (result.skipped) skip++
-      else if (result.failed) failed++
     }
 
     console.log('')
@@ -305,10 +280,7 @@ async function main() {
     console.log('  同步完成')
     console.log('========================================')
     console.log(`  ${colors.green('新增:')} ${success}`)
-    console.log(`  ${colors.yellow('跳过:')} ${skip}`)
-    if (failed > 0) {
-      console.log(`  ${colors.red('失败:')} ${failed}`)
-    }
+    console.log(`  ${colors.yellow('更新:')} ${skip}`)
     console.log('========================================')
 
     // 更新索引

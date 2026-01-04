@@ -1,18 +1,38 @@
 {
-  "generatedAt": "2026-01-04T13:51:43.919Z",
+  "generatedAt": "2026-01-04T15:47:50.395Z",
   "series": "bing",
   "seriesName": "Bing 每日",
-  "total": 7,
+  "total": 1800,
   "years": [
     {
       "year": 2026,
-      "count": 3,
+      "count": 5,
       "file": "2026.json"
     },
     {
       "year": 2025,
-      "count": 4,
+      "count": 367,
       "file": "2025.json"
+    },
+    {
+      "year": 2024,
+      "count": 368,
+      "file": "2024.json"
+    },
+    {
+      "year": 2023,
+      "count": 364,
+      "file": "2023.json"
+    },
+    {
+      "year": 2022,
+      "count": 364,
+      "file": "2022.json"
+    },
+    {
+      "year": 2021,
+      "count": 332,
+      "file": "2021.json"
     }
   ]
 }

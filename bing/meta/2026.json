@@ -1,37 +1,52 @@
 {
   "year": 2026,
-  "total": 3,
-  "updatedAt": "2026-01-04T13:51:43.615Z",
+  "total": 5,
   "items": [
     {
-      "date": "2026-01-03",
+      "date": "2026-01-05",
       "title": "王者视野",
       "copyright": "国王山, 楚加奇山脉, 阿拉斯加, 美国 (© Chris Moore - Exploring Light Photography/TANDEM Stills + Motion)",
       "copyrightlink": "https://www.bing.com/search?q=%E6%A5%9A%E5%8A%A0%E5%A5%87%E5%B1%B1%E8%84%89&form=hpcapt&mkt=zh-cn",
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260103_KingMountain%22&FORM=HPQUIZ",
       "hsh": "8cf8bf55b8ddda8d0a9df7717c4890f5",
-      "urlbase": "/th?id=OHR.KingMountain_ZH-CN0397508222",
-      "path": "/bing/2026/01/2026-01-03.jpg"
+      "urlbase": "/th?id=OHR.KingMountain_ZH-CN0397508222"
     },
     {
-      "date": "2026-01-02",
+      "date": "2026-01-04",
       "title": "传奇故事前的篇章",
       "copyright": "劳特布隆嫩的施陶巴赫瀑布, 伯尔尼州, 瑞士 (© pongnathee kluaythong/Getty Images)",
       "copyrightlink": "https://www.bing.com/search?q=%E6%96%BD%E9%99%B6%E5%B7%B4%E8%B5%AB%E7%80%91%E5%B8%83&form=hpcapt&mkt=zh-cn",
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260102_LauterbrunnenValley%22&FORM=HPQUIZ",
       "hsh": "143ee0b5e6b80596c8b4c89b5300bd37",
-      "urlbase": "/th?id=OHR.LauterbrunnenValley_ZH-CN0118001217",
-      "path": "/bing/2026/01/2026-01-02.jpg"
+      "urlbase": "/th?id=OHR.LauterbrunnenValley_ZH-CN0118001217"
     },
     {
-      "date": "2026-01-01",
+      "date": "2026-01-03",
       "title": "威尼斯的灵魂",
       "copyright": "威尼斯鸟瞰图, 意大利 (© Clement Leonard/Getty Images)",
       "copyrightlink": "https://www.bing.com/search?q=%E6%84%8F%E5%A4%A7%E5%88%A9%E5%A8%81%E5%B0%BC%E6%96%AF&form=hpcapt&mkt=zh-cn",
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260101_VeniceView%22&FORM=HPQUIZ",
       "hsh": "239e0c1af12fbde772de535a95437033",
-      "urlbase": "/th?id=OHR.VeniceView_ZH-CN3088407995",
-      "path": "/bing/2026/01/2026-01-01.jpg"
+      "urlbase": "/th?id=OHR.VeniceView_ZH-CN3088407995"
+    },
+    {
+      "date": "2026-01-02",
+      "title": "伸个懒腰，迈向新年！",
+      "copyright": "正在睡觉的北极狐 (© Chansak Joe/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%85%83%E6%97%A6&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251231_NewYearFox%22&FORM=HPQUIZ",
+      "hsh": "2e842de8dd2aa5496f111c5bc406d595",
+      "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
+    },
+    {
+      "date": "2026-01-01",
+      "title": "柏林，新年之桥",
+      "copyright": "除夕夜，奥伯鲍姆桥，柏林，德国 (© spreephoto.de/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%99%A4%E5%A4%95%E5%A4%9C&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251230_GermanyNewYear%22&FORM=HPQUIZ",
+      "hsh": "cd30c553a2c5857b801284c98e5e615a",
+      "urlbase": "/th?id=OHR.GermanyNewYear_ZH-CN9155122755"
     }
-  ]
+  ],
+  "updatedAt": "2026-01-04T15:47:50.264Z"
 }
