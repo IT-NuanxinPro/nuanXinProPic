@@ -79,19 +79,20 @@ nuanXinProPic/
         └── sync-wallpaper.yml  # GitHub Actions 自动同步配置
 ```
 
-## 三大系列说明
+## 四大系列说明
 
 | 系列 | 目录 | 同步方式 | 说明 |
 |------|------|----------|------|
 | 电脑壁纸 | `wallpaper/desktop/` | 每日自动同步 | 从 Gitee 增量同步 |
 | 手机壁纸 | `wallpaper/mobile/` | 手动上传 | 用户自行管理 |
 | 头像 | `wallpaper/avatar/` | 手动上传 | 用户自行管理 |
+| Bing 每日 | `bing/meta/` | 每日自动同步 | Bing 官方壁纸元数据（纯元数据模式） |
 
 ## 壁纸自动同步
 
-本项目通过 GitHub Actions 每日自动从 [Gitee/desktop_wallpaper](https://gitee.com/zhang--shuang/desktop_wallpaper) 同步精选壁纸。
+本项目通过 GitHub Actions 每日自动从 [Gitee/desktop_wallpaper](https://gitee.com/zhang--shuang/desktop_wallpaper) 同步精选壁纸，以及从 Bing 官方 API 同步每日壁纸元数据。
 
-### 同步配置
+### Desktop 壁纸同步配置
 
 | 配置项 | 说明 |
 |--------|------|
@@ -152,6 +153,55 @@ nuanXinProPic/
 - 计算新版本号 (v1.0.4 → v1.0.5)
 - 提交代码并创建 tag
 - 推送到远程仓库
+
+
+
+### Bing 每日壁纸同步配置
+
+Bing 每日壁纸系列采用**纯元数据模式**，不下载图片，直接使用 Bing CDN 链接。
+
+| 配置项 | 说明 |
+|--------|------|
+| **同步频率** | 每天 UTC 22:00（北京时间 6:00） |
+| **同步策略** | 增量同步元数据，不下载图片 |
+| **数据目录** | `bing/meta/` |
+| **数据格式** | JSON 元数据文件 |
+| **数据内容** | 标题、日期、版权信息、quiz 链接、urlbase 等 |
+| **图片来源** | Bing 中国 CDN（cn.bing.com） |
+| **历史数据** | 2021年2月至今（约 1800 张） |
+
+#### 元数据文件结构
+
+```
+bing/
+└── meta/
+    ├── index.json      # 总索引（年份列表、总数）
+    ├── latest.json     # 最近 7 天
+    ├── 2026.json       # 2026年数据
+    ├── 2025.json       # 2025年数据
+    ├── 2024.json       # 2024年数据
+    ├── 2023.json       # 2023年数据
+    ├── 2022.json       # 2022年数据
+    └── 2021.json       # 2021年数据
+```
+
+#### 为什么不下载图片？
+
+- ✅ **Bing 链接永久有效** - Bing CDN 链接不会失效
+- ✅ **节省存储空间** - 避免存储数千张高清图片（预计 3.5GB+）
+- ✅ **加快同步速度** - 只同步元数据（KB 级），无需下载图片（MB 级）
+- ✅ **降低带宽成本** - GitHub Actions 和用户访问均节省带宽
+- ✅ **利用 Bing CDN** - Bing 全球 CDN 加速，比 GitHub Raw 更快
+
+#### 同步脚本
+
+```bash
+# 手动同步最近 7 天
+node scripts/sync-bing.mjs 7
+
+# 同步单天（默认）
+node scripts/sync-bing.mjs
+```
 
 ## 时间戳自动化系统
 
