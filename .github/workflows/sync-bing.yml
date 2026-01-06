@@ -1,10 +1,10 @@
 name: Sync Bing Daily Wallpaper
 
 on:
-  # 每天 UTC 00:30（北京时间 08:30）
-  # Bing 壁纸约在 UTC 00:00（北京 08:00）更新，延迟 30 分钟确保更新完成
+  # 每天 UTC 22:00（北京时间 06:00）
+  # 确保在前端 08:00 展示前完成同步
   schedule:
-    - cron: "30 0 * * *"
+    - cron: "0 22 * * *"
 
   # 手动触发
   workflow_dispatch:
