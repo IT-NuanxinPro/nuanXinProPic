@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-01-06T08:11:19.669Z",
+  "generatedAt": "2026-01-06T22:29:39.365Z",
   "total": 7,
   "items": [
+    {
+      "date": "2026-01-07",
+      "title": "Chillin' in Nuuk",
+      "copyright": "Nuuk, Greenland (© nevereverro/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=Nuuk+Greenland&form=hpcapt&filters=HpDate%3a%2220260106_0800%22",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260106_NuukGreenland%22&FORM=HPQUIZ",
+      "hsh": "27234662645390e74f5f6f40e92ce5a3",
+      "urlbase": "/th?id=OHR.NuukGreenland_EN-US6879869782"
+    },
     {
       "date": "2026-01-06",
       "title": "努克的慵懒时光",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251231_NewYearFox%22&FORM=HPQUIZ",
       "hsh": "2e842de8dd2aa5496f111c5bc406d595",
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
-    },
-    {
-      "date": "2025-12-31",
-      "title": "柏林，新年之桥",
-      "copyright": "除夕夜，奥伯鲍姆桥，柏林，德国 (© spreephoto.de/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E9%99%A4%E5%A4%95%E5%A4%9C&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251230_GermanyNewYear%22&FORM=HPQUIZ",
-      "hsh": "cd30c553a2c5857b801284c98e5e615a",
-      "urlbase": "/th?id=OHR.GermanyNewYear_ZH-CN9155122755"
     }
   ]
 }
