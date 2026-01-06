@@ -82,20 +82,23 @@ async function fetchBingData(days) {
  * 处理单张图片元数据
  */
 function processImage(image, idx) {
-  // 重要：Bing API 使用美国时间
-  // idx=0 是美国的"今天"，但对中国用户是"明天"
-  // idx=1 是中国用户真正的"今天"
-  // 所以日期计算：today + 1 - idx
-  const today = new Date()
-  const targetDate = new Date(today)
-  targetDate.setDate(today.getDate() + 1 - idx)
+  // Bing API 返回的是美国时间的日期 (startdate 格式: YYYYMMDD)
+  // 对于中国用户，需要 +1 天才是当天的壁纸
+  // 例如：美国 1月5日 的壁纸，在中国是 1月6日 展示
+  const startdate = image.startdate
+  const apiDate = new Date(
+    parseInt(startdate.slice(0, 4)),
+    parseInt(startdate.slice(4, 6)) - 1,
+    parseInt(startdate.slice(6, 8))
+  )
+  apiDate.setDate(apiDate.getDate() + 1) // +1 天转换为中国时间
 
-  const year = targetDate.getFullYear()
-  const month = String(targetDate.getMonth() + 1).padStart(2, '0')
-  const day = String(targetDate.getDate()).padStart(2, '0')
+  const year = apiDate.getFullYear()
+  const month = String(apiDate.getMonth() + 1).padStart(2, '0')
+  const day = String(apiDate.getDate()).padStart(2, '0')
   const dateFormatted = `${year}-${month}-${day}`
 
-  console.log(`${colors.blue('[INFO]')} ${dateFormatted} (idx=${idx}, startdate=${image.startdate}) - ${image.title}`)
+  console.log(`${colors.blue('[INFO]')} ${dateFormatted} (API: ${startdate}, idx=${idx}) - ${image.title}`)
 
   // 构建元数据
   const metadata = {

@@ -4,12 +4,12 @@
   "items": [
     {
       "date": "2025-12-31",
-      "title": "新太阳的诞生",
-      "copyright": "晨光透过结霜的树木洒下，瑞典 (© Schon/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%8C%97%E5%8D%8A%E7%90%83%E7%9A%84%E5%86%AC%E5%AD%A3&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251229_SwedenSolstice%22&FORM=HPQUIZ",
-      "hsh": "d3aa55b4bdbf50f4e5c8454d76cf8c00",
-      "urlbase": "/th?id=OHR.SwedenSolstice_ZH-CN8975506700"
+      "title": "柏林，新年之桥",
+      "copyright": "除夕夜，奥伯鲍姆桥，柏林，德国 (© spreephoto.de/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%99%A4%E5%A4%95%E5%A4%9C&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251230_GermanyNewYear%22&FORM=HPQUIZ",
+      "hsh": "cd30c553a2c5857b801284c98e5e615a",
+      "urlbase": "/th?id=OHR.GermanyNewYear_ZH-CN9155122755"
     },
     {
       "date": "2025-12-30",
@@ -3306,5 +3306,5 @@
       "hsh": ""
     }
   ],
-  "updatedAt": "2026-01-04T15:47:50.356Z"
+  "updatedAt": "2026-01-06T02:05:58.579Z"
 }

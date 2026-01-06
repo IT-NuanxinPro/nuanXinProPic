@@ -1,18 +1,36 @@
 {
   "year": 2026,
-  "total": 5,
+  "total": 6,
   "items": [
     {
+      "date": "2026-01-06",
+      "title": "努克的慵懒时光",
+      "copyright": "努克, 格陵兰 (© nevereverro/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%8A%AA%E5%85%8B%E6%A0%BC%E9%99%B5%E5%85%B0%E5%B2%9B&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260105_NuukGreenland%22&FORM=HPQUIZ",
+      "hsh": "4f42a213b48f82c835c88fd0704c5279",
+      "urlbase": "/th?id=OHR.NuukGreenland_ZH-CN2414771686"
+    },
+    {
       "date": "2026-01-05",
-      "title": "A royal view",
-      "copyright": "Kings Mountain, Chugach Mountains, Alaska (© Chris Moore - Exploring Light Photography/TANDEM Stills + Motion)",
-      "copyrightlink": "https://www.bing.com/search?q=Kings+Mountain+Chugach+Mountains&form=hpcapt&filters=HpDate%3a%2220260104_0800%22",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260104_KingMountain%22&FORM=HPQUIZ",
-      "hsh": "4b8f294efdde0af2c43ef1e21071f8cc",
-      "urlbase": "/th?id=OHR.KingMountain_EN-US6730743729"
+      "title": "高角羚群紧急戒备",
+      "copyright": "一群高角羚, 隆多洛齐野生动物保护区, 南非 (© Mint Images/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%AB%98%E8%A7%92%E7%BE%9A&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260104_ImpalaRooibok%22&FORM=HPQUIZ",
+      "hsh": "a617f5766e166dfda69826e9b297ea22",
+      "urlbase": "/th?id=OHR.ImpalaRooibok_ZH-CN2307890154"
     },
     {
       "date": "2026-01-04",
+      "title": "王者视野",
+      "copyright": "国王山, 楚加奇山脉, 阿拉斯加, 美国 (© Chris Moore - Exploring Light Photography/TANDEM Stills + Motion)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%A5%9A%E5%8A%A0%E5%A5%87%E5%B1%B1%E8%84%89&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260103_KingMountain%22&FORM=HPQUIZ",
+      "hsh": "8cf8bf55b8ddda8d0a9df7717c4890f5",
+      "urlbase": "/th?id=OHR.KingMountain_ZH-CN0397508222"
+    },
+    {
+      "date": "2026-01-03",
       "title": "传奇故事前的篇章",
       "copyright": "劳特布隆嫩的施陶巴赫瀑布, 伯尔尼州, 瑞士 (© pongnathee kluaythong/Getty Images)",
       "copyrightlink": "https://www.bing.com/search?q=%E6%96%BD%E9%99%B6%E5%B7%B4%E8%B5%AB%E7%80%91%E5%B8%83&form=hpcapt&mkt=zh-cn",
@@ -21,7 +39,7 @@
       "urlbase": "/th?id=OHR.LauterbrunnenValley_ZH-CN0118001217"
     },
     {
-      "date": "2026-01-03",
+      "date": "2026-01-02",
       "title": "威尼斯的灵魂",
       "copyright": "威尼斯鸟瞰图, 意大利 (© Clement Leonard/Getty Images)",
       "copyrightlink": "https://www.bing.com/search?q=%E6%84%8F%E5%A4%A7%E5%88%A9%E5%A8%81%E5%B0%BC%E6%96%AF&form=hpcapt&mkt=zh-cn",
@@ -30,23 +48,14 @@
       "urlbase": "/th?id=OHR.VeniceView_ZH-CN3088407995"
     },
     {
-      "date": "2026-01-02",
+      "date": "2026-01-01",
       "title": "伸个懒腰，迈向新年！",
       "copyright": "正在睡觉的北极狐 (© Chansak Joe/Getty Images)",
       "copyrightlink": "https://www.bing.com/search?q=%E5%85%83%E6%97%A6&form=hpcapt&mkt=zh-cn",
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251231_NewYearFox%22&FORM=HPQUIZ",
       "hsh": "2e842de8dd2aa5496f111c5bc406d595",
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
-    },
-    {
-      "date": "2026-01-01",
-      "title": "柏林，新年之桥",
-      "copyright": "除夕夜，奥伯鲍姆桥，柏林，德国 (© spreephoto.de/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E9%99%A4%E5%A4%95%E5%A4%9C&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251230_GermanyNewYear%22&FORM=HPQUIZ",
-      "hsh": "cd30c553a2c5857b801284c98e5e615a",
-      "urlbase": "/th?id=OHR.GermanyNewYear_ZH-CN9155122755"
     }
   ],
-  "updatedAt": "2026-01-04T22:15:32.572Z"
+  "updatedAt": "2026-01-06T02:05:58.576Z"
 }
