@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-01-06T22:29:39.365Z",
+  "generatedAt": "2026-01-07T22:29:26.192Z",
   "total": 7,
   "items": [
+    {
+      "date": "2026-01-08",
+      "title": "废墟之上，椋鸟群舞",
+      "copyright": "椋鸟群在布莱顿西码头废墟上空盘旋, 英格兰 (© Philip Reeve/Photodisc/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%A4%8B%E9%B8%9F&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260107_StarlingBrighton2025%22&FORM=HPQUIZ",
+      "hsh": "908915655cd0b1135451a2669e259dbe",
+      "urlbase": "/th?id=OHR.StarlingBrighton2025_ZH-CN2775446092"
+    },
     {
       "date": "2026-01-07",
       "title": "古老岩石的传奇",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260101_VeniceView%22&FORM=HPQUIZ",
       "hsh": "239e0c1af12fbde772de535a95437033",
       "urlbase": "/th?id=OHR.VeniceView_ZH-CN3088407995"
-    },
-    {
-      "date": "2026-01-01",
-      "title": "伸个懒腰，迈向新年！",
-      "copyright": "正在睡觉的北极狐 (© Chansak Joe/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%85%83%E6%97%A6&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251231_NewYearFox%22&FORM=HPQUIZ",
-      "hsh": "2e842de8dd2aa5496f111c5bc406d595",
-      "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ]
 }
