@@ -65,10 +65,10 @@ function httpGet(url) {
 
 /**
  * 获取 Bing API 数据
- * 使用美国市场保证获取到最新数据
+ * 使用中国市场获取中文标题和描述
  */
 async function fetchBingData(days) {
-  const url = `${CONFIG.BING_API}?format=js&idx=0&n=${days}&mkt=en-US`
+  const url = `${CONFIG.BING_API}?format=js&idx=0&n=${days}&mkt=zh-CN`
   const { buffer, statusCode } = await httpGet(url)
 
   if (statusCode !== 200) {
