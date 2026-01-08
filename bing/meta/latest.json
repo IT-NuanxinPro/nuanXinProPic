@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-01-07T22:29:26.192Z",
+  "generatedAt": "2026-01-08T22:29:42.919Z",
   "total": 7,
   "items": [
+    {
+      "date": "2026-01-09",
+      "title": "时光在此处茁壮成长",
+      "copyright": "缪尔树林国家保护区的巨型红杉树林, 加利福尼亚州, 美国 (© photo by canderson/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%BC%AA%E5%B0%94%E6%A0%91%E6%9E%97%E5%9B%BD%E5%AE%B6%E4%BF%9D%E6%8A%A4%E5%8C%BA&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260108_MuirWoodsMonument%22&FORM=HPQUIZ",
+      "hsh": "62e9cb2160162501bb0eabeb10119447",
+      "urlbase": "/th?id=OHR.MuirWoodsMonument_ZH-CN2985538001"
+    },
     {
       "date": "2026-01-08",
       "title": "废墟之上，椋鸟群舞",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260102_LauterbrunnenValley%22&FORM=HPQUIZ",
       "hsh": "143ee0b5e6b80596c8b4c89b5300bd37",
       "urlbase": "/th?id=OHR.LauterbrunnenValley_ZH-CN0118001217"
-    },
-    {
-      "date": "2026-01-02",
-      "title": "威尼斯的灵魂",
-      "copyright": "威尼斯鸟瞰图, 意大利 (© Clement Leonard/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E6%84%8F%E5%A4%A7%E5%88%A9%E5%A8%81%E5%B0%BC%E6%96%AF&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260101_VeniceView%22&FORM=HPQUIZ",
-      "hsh": "239e0c1af12fbde772de535a95437033",
-      "urlbase": "/th?id=OHR.VeniceView_ZH-CN3088407995"
     }
   ]
 }
