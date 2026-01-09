@@ -138,8 +138,12 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          # 添加所有变化的目录
-          git add wallpaper/ thumbnail/ preview/ bing/ public/
+          # 添加所有变化的目录（只添加存在的目录）
+          for dir in wallpaper thumbnail preview bing; do
+            if [ -d "$dir" ]; then
+              git add "$dir/" || true
+            fi
+          done
 
           TODAY=$(date +'%Y-%m-%d')
           git commit -m "chore: daily sync [$TODAY]"
