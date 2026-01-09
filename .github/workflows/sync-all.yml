@@ -28,6 +28,11 @@ on:
           - '3'
           - '7'
           - '8'
+      full_sync:
+        description: '全量同步到 R2（首次迁移使用）'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -54,9 +59,10 @@ jobs:
         if: ${{ github.event.inputs.sync_wallpaper != 'false' }}
         run: |
           sudo apt-get update
-          sudo apt-get install -y imagemagick fonts-noto-cjk bc
+          sudo apt-get install -y imagemagick fonts-noto-cjk bc jq
 
       - name: Sync wallpapers from Gitee
+        id: sync_gitee
         if: ${{ github.event.inputs.sync_wallpaper != 'false' }}
         env:
           GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
@@ -64,16 +70,37 @@ jobs:
           echo "📥 Syncing wallpapers from Gitee..."
           chmod +x ./scripts/sync-wallpaper.sh
           ./scripts/sync-wallpaper.sh || echo "⚠️ Gitee sync completed with warnings"
+          
+          # 记录更新的系列
+          UPDATED_SERIES=""
+          if [ -n "$(git status --porcelain wallpaper/desktop)" ]; then
+            UPDATED_SERIES="$UPDATED_SERIES desktop"
+          fi
+          if [ -n "$(git status --porcelain wallpaper/mobile)" ]; then
+            UPDATED_SERIES="$UPDATED_SERIES mobile"
+          fi
+          if [ -n "$(git status --porcelain wallpaper/avatar)" ]; then
+            UPDATED_SERIES="$UPDATED_SERIES avatar"
+          fi
+          echo "updated_series=$UPDATED_SERIES" >> $GITHUB_OUTPUT
 
       # ========================================
       # 2. 同步 Bing 每日壁纸
       # ========================================
       - name: Sync Bing daily wallpaper
+        id: sync_bing
         if: ${{ github.event.inputs.sync_bing != 'false' }}
         run: |
           echo "📥 Syncing Bing daily wallpaper..."
           DAYS="${{ github.event.inputs.bing_days || '1' }}"
           node ./scripts/sync-bing.mjs "$DAYS"
+          
+          # 检查 Bing 是否有更新
+          if [ -n "$(git status --porcelain bing/)" ]; then
+            echo "bing_updated=true" >> $GITHUB_OUTPUT
+          else
+            echo "bing_updated=false" >> $GITHUB_OUTPUT
+          fi
 
       # ========================================
       # 3. 检查变化并提交
@@ -112,12 +139,115 @@ jobs:
           git config --local user.name "github-actions[bot]"
 
           # 添加所有变化的目录
-          git add wallpaper/ thumbnail/ preview/ bing/
+          git add wallpaper/ thumbnail/ preview/ bing/ public/
 
           TODAY=$(date +'%Y-%m-%d')
           git commit -m "chore: daily sync [$TODAY]"
           git push
 
+      # ========================================
+      # 4. 上传到 Cloudflare R2
+      # ========================================
+      - name: Upload to Cloudflare R2
+        id: r2_upload
+        if: steps.check.outputs.has_changes == 'true' || github.event.inputs.full_sync == 'true'
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_R2_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY }}
+          CLOUDFLARE_R2_SECRET_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_KEY }}
+        run: |
+          # 检查是否配置了 R2 凭据
+          if [ -z "$CLOUDFLARE_ACCOUNT_ID" ] || [ -z "$CLOUDFLARE_R2_ACCESS_KEY" ]; then
+            echo "⚠️ R2 credentials not configured, skipping upload"
+            echo "r2_enabled=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          echo "r2_enabled=true" >> $GITHUB_OUTPUT
+          
+          # 安装 AWS CLI
+          pip install awscli --quiet
+          
+          echo "📤 Uploading to Cloudflare R2..."
+          chmod +x ./scripts/upload-r2.sh
+          
+          if [ "${{ github.event.inputs.full_sync }}" == "true" ]; then
+            ./scripts/upload-r2.sh --full
+          else
+            ./scripts/upload-r2.sh
+          fi
+
+      # ========================================
+      # 5. 生成 JSON 数据并上传到 R2
+      # ========================================
+      - name: Generate and upload JSON data
+        if: (steps.check.outputs.has_changes == 'true' || github.event.inputs.full_sync == 'true') && steps.r2_upload.outputs.r2_enabled == 'true'
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_R2_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY }}
+          CLOUDFLARE_R2_SECRET_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_KEY }}
+          CDN_BASE_URL: https://img.061129.xyz
+        run: |
+          echo "📊 Generating JSON data..."
+          
+          # 生成 JSON 数据
+          node ./scripts/generate-data.js
+          
+          echo "📤 Uploading JSON to R2..."
+          
+          # 配置 AWS CLI
+          export AWS_ACCESS_KEY_ID="$CLOUDFLARE_R2_ACCESS_KEY"
+          export AWS_SECRET_ACCESS_KEY="$CLOUDFLARE_R2_SECRET_KEY"
+          export AWS_DEFAULT_REGION="auto"
+          
+          R2_ENDPOINT="https://${CLOUDFLARE_ACCOUNT_ID}.r2.cloudflarestorage.com"
+          R2_BUCKET="wallpaper-images"
+          
+          # 上传 JSON 数据
+          aws s3 sync public/data/ "s3://$R2_BUCKET/data/" \
+            --endpoint-url "$R2_ENDPOINT" \
+            --content-type "application/json" \
+            --no-progress
+          
+          echo "✅ JSON data uploaded"
+
+      # ========================================
+      # 6. 清除 Cloudflare 缓存
+      # ========================================
+      - name: Purge Cloudflare Cache
+        if: (steps.check.outputs.has_changes == 'true' || github.event.inputs.full_sync == 'true') && steps.r2_upload.outputs.r2_enabled == 'true'
+        env:
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: |
+          # 检查是否配置了缓存清除凭据
+          if [ -z "$CF_ZONE_ID" ] || [ -z "$CF_API_TOKEN" ]; then
+            echo "⚠️ Cache purge credentials not configured, skipping"
+            exit 0
+          fi
+          
+          echo "🔄 Purging Cloudflare cache..."
+          chmod +x ./scripts/purge-cache.sh
+          
+          # 根据更新的系列清除缓存
+          SERIES_TO_PURGE=""
+          if [ -n "${{ steps.sync_gitee.outputs.updated_series }}" ]; then
+            SERIES_TO_PURGE="${{ steps.sync_gitee.outputs.updated_series }}"
+          fi
+          if [ "${{ steps.sync_bing.outputs.bing_updated }}" == "true" ]; then
+            SERIES_TO_PURGE="$SERIES_TO_PURGE bing"
+          fi
+          
+          if [ -n "$SERIES_TO_PURGE" ]; then
+            ./scripts/purge-cache.sh $SERIES_TO_PURGE
+          else
+            # 全量同步时清除所有
+            ./scripts/purge-cache.sh
+          fi
+
+      # ========================================
+      # 7. 创建 Git Tag 和 Release（保留用于 jsDelivr 回退）
+      # ========================================
       - name: Create tag
         if: steps.check.outputs.has_changes == 'true'
         run: |
@@ -145,6 +275,10 @@ jobs:
           | Avatar | $(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ') |
           | Bing | $(if [ -f bing/meta/index.json ]; then jq -r '.total' bing/meta/index.json; else echo 0; fi) |
 
+          ### 🚀 CDN
+          - **主要**: https://img.061129.xyz (Cloudflare R2)
+          - **备用**: https://cdn.jsdelivr.net/gh/IT-NuanxinPro/nuanXinProPic@$NEW_TAG (jsDelivr)
+
           ---
           *Auto-generated by GitHub Actions*"
 
@@ -156,7 +290,7 @@ jobs:
           echo "✅ Created release: $NEW_TAG"
 
       # ========================================
-      # 4. 生成摘要
+      # 8. 生成摘要
       # ========================================
       - name: Generate summary
         run: |
@@ -173,6 +307,13 @@ jobs:
           if [ "${{ steps.check.outputs.has_changes }}" == "true" ]; then
             echo "### ✅ 同步完成" >> $GITHUB_STEP_SUMMARY
             echo "- 版本: \`${{ steps.version.outputs.new_tag }}\`" >> $GITHUB_STEP_SUMMARY
+            
+            if [ "${{ steps.r2_upload.outputs.r2_enabled }}" == "true" ]; then
+              echo "- R2 上传: ✅" >> $GITHUB_STEP_SUMMARY
+              echo "- 缓存清除: ✅" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "- R2 上传: ⏭️ 跳过（未配置凭据）" >> $GITHUB_STEP_SUMMARY
+            fi
           else
             echo "### ℹ️ 无更新" >> $GITHUB_STEP_SUMMARY
           fi
