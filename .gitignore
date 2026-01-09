@@ -17,6 +17,12 @@ auto-imports.d.ts
 components.d.ts
 public/data/
 
+# Documentation (local only)
+docs/
+
+# Old timestamp backup (deprecated)
+timestamps-backup.txt
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

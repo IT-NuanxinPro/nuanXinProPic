@@ -43,27 +43,31 @@ function getShanghaiISOString(date = new Date()) {
 
 /**
  * 加载时间戳备份文件
- * 格式: 相对路径|时间戳(秒)
+ * 格式: series|相对路径|时间戳(秒)
  */
 function loadTimestampBackup(rootDir) {
   const timestampMap = new Map()
-  const backupFiles = ['timestamps-backup.txt', 'timestamps-backup-all.txt']
+  const backupPath = path.join(rootDir, 'timestamps-backup-all.txt')
   
-  for (const backupFile of backupFiles) {
-    const backupPath = path.join(rootDir, backupFile)
-    if (fs.existsSync(backupPath)) {
-      const content = fs.readFileSync(backupPath, 'utf-8')
-      const lines = content.split('\n').filter(line => line.trim())
-      
-      for (const line of lines) {
-        const [relativePath, timestamp] = line.split('|')
-        if (relativePath && timestamp) {
-          // 时间戳是秒，转换为毫秒
-          timestampMap.set(relativePath.trim(), parseInt(timestamp.trim()) * 1000)
-        }
+  if (fs.existsSync(backupPath)) {
+    const content = fs.readFileSync(backupPath, 'utf-8')
+    const lines = content.split('\n').filter(line => line.trim())
+    
+    for (const line of lines) {
+      const parts = line.split('|')
+      if (parts.length === 3) {
+        // 新格式: series|path|timestamp
+        const [series, relativePath, timestamp] = parts
+        const key = `${series}|${relativePath.trim()}`
+        timestampMap.set(key, parseInt(timestamp.trim()) * 1000)
+      } else if (parts.length === 2) {
+        // 兼容旧格式: path|timestamp (默认 desktop)
+        const [relativePath, timestamp] = parts
+        const key = `desktop|${relativePath.trim()}`
+        timestampMap.set(key, parseInt(timestamp.trim()) * 1000)
       }
-      console.log(`  Loaded ${timestampMap.size} timestamps from ${backupFile}`)
     }
+    console.log(`  Loaded ${timestampMap.size} timestamps from timestamps-backup-all.txt`)
   }
   
   return timestampMap
@@ -71,7 +75,7 @@ function loadTimestampBackup(rootDir) {
 
 /**
  * 保存新增图片的时间戳到备份文件
- * @param {Map} newTimestamps - 新增图片的时间戳 Map (relativePath -> timestamp_ms)
+ * @param {Map} newTimestamps - 新增图片的时间戳 Map (series|relativePath -> timestamp_ms)
  * @param {string} rootDir - 根目录
  */
 function saveNewTimestamps(newTimestamps, rootDir) {
@@ -80,19 +84,19 @@ function saveNewTimestamps(newTimestamps, rootDir) {
     return
   }
   
-  const backupPath = path.join(rootDir, 'timestamps-backup.txt')
+  const backupPath = path.join(rootDir, 'timestamps-backup-all.txt')
   
   // 追加新时间戳到文件末尾
   const lines = []
-  for (const [relativePath, timestampMs] of newTimestamps) {
+  for (const [key, timestampMs] of newTimestamps) {
     const timestampSec = Math.floor(timestampMs / 1000)
-    lines.push(`${relativePath}|${timestampSec}`)
+    lines.push(`${key}|${timestampSec}`)
   }
   
   const content = '\n' + lines.join('\n')
   fs.appendFileSync(backupPath, content)
   
-  console.log(`  ✅ Saved ${newTimestamps.size} new timestamps to timestamps-backup.txt`)
+  console.log(`  ✅ Saved ${newTimestamps.size} new timestamps to timestamps-backup-all.txt`)
 }
 
 /**
@@ -381,7 +385,8 @@ function generateWallpaperData(files, seriesConfig) {
     // 获取时间戳：优先使用备份文件中的时间戳，保持现有图片时间不变
     let createdAt
     let timestampMs
-    const backupTimestamp = CONFIG.TIMESTAMP_MAP?.get(file.relativePath)
+    const timestampKey = `${seriesConfig.id}|${file.relativePath}`
+    const backupTimestamp = CONFIG.TIMESTAMP_MAP?.get(timestampKey)
     if (backupTimestamp) {
       // 使用备份的时间戳（上海时区）
       timestampMs = backupTimestamp
@@ -390,7 +395,7 @@ function generateWallpaperData(files, seriesConfig) {
       // 新文件使用当前时间（上海时区），并记录到新时间戳 Map
       timestampMs = currentTime
       createdAt = getShanghaiISOString(new Date(currentTime))
-      newTimestamps.set(file.relativePath, timestampMs)
+      newTimestamps.set(timestampKey, timestampMs)
     }
 
     // 构建数据对象（字段顺序与前端一致）

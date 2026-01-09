@@ -214,9 +214,9 @@ jobs:
           node ./scripts/generate-data.js
           
           # 如果时间戳备份文件有更新，提交它
-          if [ -n "$(git status --porcelain timestamps-backup.txt)" ]; then
+          if [ -n "$(git status --porcelain timestamps-backup-all.txt)" ]; then
             echo "📝 Committing updated timestamps..."
-            git add timestamps-backup.txt
+            git add timestamps-backup-all.txt
             git commit -m "chore: update timestamp backup" || true
             git push || true
           fi
