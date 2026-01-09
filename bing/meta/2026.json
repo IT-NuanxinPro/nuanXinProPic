@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 9,
+  "total": 10,
   "items": [
+    {
+      "date": "2026-01-10",
+      "title": "纯粹的瑞士魔力",
+      "copyright": "日出时分，马特洪峰的倒影映照在斯特利湖中, 采尔马特, 瑞士 (© Andy Trowbridge/naturepl.com)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%A9%AC%E7%89%B9%E6%B4%AA%E5%B3%B0&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260109_MatterhornSunrise%22&FORM=HPQUIZ",
+      "hsh": "fa35733dd3d9cc47fbc704c55684ce4a",
+      "urlbase": "/th?id=OHR.MatterhornSunrise_ZH-CN3171879631"
+    },
     {
       "date": "2026-01-09",
       "title": "时光在此处茁壮成长",
@@ -84,5 +93,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-01-09T15:47:11.031Z"
+  "updatedAt": "2026-01-09T16:22:52.629Z"
 }
