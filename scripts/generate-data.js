@@ -32,6 +32,44 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 /**
+ * 获取上海时区的 ISO 时间字符串
+ */
+function getShanghaiISOString(date = new Date()) {
+  // 上海时区 UTC+8
+  const shanghaiOffset = 8 * 60 * 60 * 1000
+  const shanghaiTime = new Date(date.getTime() + shanghaiOffset)
+  return shanghaiTime.toISOString().replace('Z', '+08:00')
+}
+
+/**
+ * 加载时间戳备份文件
+ * 格式: 相对路径|时间戳(秒)
+ */
+function loadTimestampBackup(rootDir) {
+  const timestampMap = new Map()
+  const backupFiles = ['timestamps-backup.txt', 'timestamps-backup-all.txt']
+  
+  for (const backupFile of backupFiles) {
+    const backupPath = path.join(rootDir, backupFile)
+    if (fs.existsSync(backupPath)) {
+      const content = fs.readFileSync(backupPath, 'utf-8')
+      const lines = content.split('\n').filter(line => line.trim())
+      
+      for (const line of lines) {
+        const [relativePath, timestamp] = line.split('|')
+        if (relativePath && timestamp) {
+          // 时间戳是秒，转换为毫秒
+          timestampMap.set(relativePath.trim(), parseInt(timestamp.trim()) * 1000)
+        }
+      }
+      console.log(`  Loaded ${timestampMap.size} timestamps from ${backupFile}`)
+    }
+  }
+  
+  return timestampMap
+}
+
+/**
  * 自定义编码（Base64 + 字符映射 + 反转）
  * 与前端 codec.js 完全一致
  */
@@ -54,6 +92,9 @@ const CONFIG = {
 
   // 输出路径
   OUTPUT_DIR: path.resolve(__dirname, '../public/data'),
+
+  // 时间戳映射（从备份文件加载）
+  TIMESTAMP_MAP: null,
 
   // 三大系列配置（与前端完全一致）
   SERIES: {
@@ -307,6 +348,17 @@ function generateWallpaperData(files, seriesConfig) {
       }
     }
 
+    // 获取时间戳：优先使用备份文件中的时间戳，保持现有图片时间不变
+    let createdAt
+    const backupTimestamp = CONFIG.TIMESTAMP_MAP?.get(file.relativePath)
+    if (backupTimestamp) {
+      // 使用备份的时间戳（上海时区）
+      createdAt = getShanghaiISOString(new Date(backupTimestamp))
+    } else {
+      // 新文件使用当前时间（上海时区）
+      createdAt = getShanghaiISOString(new Date())
+    }
+
     // 构建数据对象（字段顺序与前端一致）
     const wallpaperData = {
       id: `${seriesConfig.id}-${index + 1}`,
@@ -316,7 +368,7 @@ function generateWallpaperData(files, seriesConfig) {
       thumbnailPath,
       size: file.size,
       format: ext,
-      createdAt: file.mtime.toISOString(),
+      createdAt,
       sha: file.sha || '', // 与前端格式一致
     }
 
@@ -402,7 +454,7 @@ function generateCategorySplitData(wallpapers, seriesId, seriesConfig) {
 
   // index.json 格式与前端完全一致
   const indexData = {
-    generatedAt: new Date().toISOString(),
+    generatedAt: getShanghaiISOString(),
     series: seriesId,
     seriesName: seriesConfig.name,
     total: wallpapers.length,
@@ -420,7 +472,7 @@ function generateCategorySplitData(wallpapers, seriesId, seriesConfig) {
   Object.entries(categoryGroups).forEach(([categoryName, items]) => {
     const blob = encodeData(JSON.stringify(items))
     const encryptedData = {
-      generatedAt: new Date().toISOString(),
+      generatedAt: getShanghaiISOString(),
       series: seriesId,
       category: categoryName,
       total: items.length,
@@ -443,7 +495,7 @@ function generateLegacyFile(wallpapers, seriesId, seriesConfig) {
   const blob = encodeData(JSON.stringify(wallpapers))
 
   const outputData = {
-    generatedAt: new Date().toISOString(),
+    generatedAt: getShanghaiISOString(),
     series: seriesId,
     seriesName: seriesConfig.name,
     total: wallpapers.length,
@@ -604,6 +656,14 @@ async function main() {
   } else {
     console.log('CDN Base URL: (not set, using relative paths)')
   }
+  
+  console.log(`Timezone: Asia/Shanghai (UTC+8)`)
+  console.log(`Generated At: ${getShanghaiISOString()}`)
+
+  // 加载时间戳备份文件
+  console.log('')
+  console.log('Loading timestamp backups...')
+  CONFIG.TIMESTAMP_MAP = loadTimestampBackup(CONFIG.ROOT_DIR)
 
   try {
     if (!fs.existsSync(CONFIG.OUTPUT_DIR)) {
