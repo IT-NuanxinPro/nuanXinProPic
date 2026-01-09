@@ -108,7 +108,10 @@ sync_directory() {
     echo -e "${CYAN}[SYNC]${NC} $dir/ -> $s3_path"
     
     # 构建 aws s3 sync 命令
-    local sync_cmd="aws s3 sync \"$dir/\" \"$s3_path\" --endpoint-url \"$R2_ENDPOINT\""
+    # --size-only: 只比较文件大小，忽略时间戳
+    # 原因：GitHub Actions checkout 会重置所有文件的 mtime 为当前时间
+    #       导致每次都比 R2 对象"新"，触发全量上传
+    local sync_cmd="aws s3 sync \"$dir/\" \"$s3_path\" --endpoint-url \"$R2_ENDPOINT\" --size-only"
     
     # 添加选项
     if [ "$DRY_RUN" = true ]; then
