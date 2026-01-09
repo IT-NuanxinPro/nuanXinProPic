@@ -161,7 +161,7 @@ jobs:
             fi
           done
 
-          TODAY=$(date +'%Y-%m-%d')
+          TODAY=$(TZ='Asia/Shanghai' date +'%Y-%m-%d')
           git commit -m "chore: daily sync [$TODAY]"
           git push
 
@@ -281,7 +281,7 @@ jobs:
         if: steps.check.outputs.has_changes == 'true'
         run: |
           NEW_TAG="${{ steps.version.outputs.new_tag }}"
-          git tag -a "$NEW_TAG" -m "Daily sync $(date +'%Y-%m-%d')"
+          git tag -a "$NEW_TAG" -m "Daily sync $(TZ='Asia/Shanghai' date +'%Y-%m-%d')"
           git push origin "$NEW_TAG"
           echo "✅ Created tag: $NEW_TAG"
 
@@ -291,7 +291,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           NEW_TAG="${{ steps.version.outputs.new_tag }}"
-          TODAY=$(date +'%Y-%m-%d')
+          TODAY=$(TZ='Asia/Shanghai' date +'%Y-%m-%d')
           
           # 计算当前数量
           DESKTOP_NOW=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
