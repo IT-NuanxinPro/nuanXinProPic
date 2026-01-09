@@ -70,6 +70,32 @@ function loadTimestampBackup(rootDir) {
 }
 
 /**
+ * 保存新增图片的时间戳到备份文件
+ * @param {Map} newTimestamps - 新增图片的时间戳 Map (relativePath -> timestamp_ms)
+ * @param {string} rootDir - 根目录
+ */
+function saveNewTimestamps(newTimestamps, rootDir) {
+  if (newTimestamps.size === 0) {
+    console.log('  No new timestamps to save')
+    return
+  }
+  
+  const backupPath = path.join(rootDir, 'timestamps-backup.txt')
+  
+  // 追加新时间戳到文件末尾
+  const lines = []
+  for (const [relativePath, timestampMs] of newTimestamps) {
+    const timestampSec = Math.floor(timestampMs / 1000)
+    lines.push(`${relativePath}|${timestampSec}`)
+  }
+  
+  const content = '\n' + lines.join('\n')
+  fs.appendFileSync(backupPath, content)
+  
+  console.log(`  ✅ Saved ${newTimestamps.size} new timestamps to timestamps-backup.txt`)
+}
+
+/**
  * 自定义编码（Base64 + 字符映射 + 反转）
  * 与前端 codec.js 完全一致
  */
@@ -305,9 +331,13 @@ function buildImageUrl(relativePath, baseDir) {
 
 /**
  * 生成壁纸数据（格式与前端完全一致）
+ * @returns {Object} { wallpapers: Array, newTimestamps: Map }
  */
 function generateWallpaperData(files, seriesConfig) {
-  return files.map((file, index) => {
+  const newTimestamps = new Map() // 记录新增图片的时间戳
+  const currentTime = Date.now()
+  
+  const wallpapers = files.map((file, index) => {
     const ext = path.extname(file.name).replace('.', '').toUpperCase()
     const filenameNoExt = path.basename(file.name, path.extname(file.name))
     const pathParts = file.relativePath.split(path.sep)
@@ -350,13 +380,17 @@ function generateWallpaperData(files, seriesConfig) {
 
     // 获取时间戳：优先使用备份文件中的时间戳，保持现有图片时间不变
     let createdAt
+    let timestampMs
     const backupTimestamp = CONFIG.TIMESTAMP_MAP?.get(file.relativePath)
     if (backupTimestamp) {
       // 使用备份的时间戳（上海时区）
+      timestampMs = backupTimestamp
       createdAt = getShanghaiISOString(new Date(backupTimestamp))
     } else {
-      // 新文件使用当前时间（上海时区）
-      createdAt = getShanghaiISOString(new Date())
+      // 新文件使用当前时间（上海时区），并记录到新时间戳 Map
+      timestampMs = currentTime
+      createdAt = getShanghaiISOString(new Date(currentTime))
+      newTimestamps.set(file.relativePath, timestampMs)
     }
 
     // 构建数据对象（字段顺序与前端一致）
@@ -394,6 +428,8 @@ function generateWallpaperData(files, seriesConfig) {
 
     return wallpaperData
   })
+  
+  return { wallpapers, newTimestamps }
 }
 
 /**
@@ -570,7 +606,7 @@ async function processSeries(seriesId, seriesConfig) {
 
   if (!fs.existsSync(wallpaperDir)) {
     console.log(`  Directory not found: ${wallpaperDir}`)
-    return { seriesId, count: 0, wallpapers: [] }
+    return { seriesId, count: 0, wallpapers: [], newTimestamps: new Map() }
   }
 
   // 扫描目录
@@ -578,12 +614,16 @@ async function processSeries(seriesId, seriesConfig) {
   console.log(`  Found ${files.length} image files`)
 
   if (files.length === 0) {
-    return { seriesId, count: 0, wallpapers: [] }
+    return { seriesId, count: 0, wallpapers: [], newTimestamps: new Map() }
   }
 
-  // 生成数据
-  const wallpapers = generateWallpaperData(files, seriesConfig)
+  // 生成数据（返回 wallpapers 和 newTimestamps）
+  const { wallpapers, newTimestamps } = generateWallpaperData(files, seriesConfig)
   wallpapers.sort((a, b) => b.size - a.size)
+  
+  if (newTimestamps.size > 0) {
+    console.log(`  📝 Found ${newTimestamps.size} new images`)
+  }
 
   // 生成传统单文件（向后兼容）
   generateLegacyFile(wallpapers, seriesId, seriesConfig)
@@ -640,7 +680,7 @@ async function processSeries(seriesId, seriesConfig) {
       })
   }
 
-  return { seriesId, count: wallpapers.length, wallpapers }
+  return { seriesId, count: wallpapers.length, wallpapers, newTimestamps }
 }
 
 /**
@@ -671,10 +711,24 @@ async function main() {
     }
 
     const results = []
+    const allNewTimestamps = new Map() // 收集所有系列的新时间戳
+    
     for (const [seriesId, seriesConfig] of Object.entries(CONFIG.SERIES)) {
       const result = await processSeries(seriesId, seriesConfig)
       results.push(result)
+      
+      // 合并新时间戳（添加系列前缀以区分不同系列的相同文件名）
+      if (result.newTimestamps) {
+        for (const [relativePath, timestamp] of result.newTimestamps) {
+          allNewTimestamps.set(relativePath, timestamp)
+        }
+      }
     }
+
+    // 保存新增图片的时间戳到备份文件
+    console.log('')
+    console.log('Saving new timestamps...')
+    saveNewTimestamps(allNewTimestamps, CONFIG.ROOT_DIR)
 
     console.log('')
     console.log('='.repeat(50))
@@ -682,14 +736,17 @@ async function main() {
     console.log('='.repeat(50))
 
     let totalCount = 0
+    let totalNewImages = 0
     results.forEach((result) => {
       const config = CONFIG.SERIES[result.seriesId]
-      console.log(`${config.name}: ${result.count} items`)
+      const newCount = result.newTimestamps?.size || 0
+      console.log(`${config.name}: ${result.count} items${newCount > 0 ? ` (+${newCount} new)` : ''}`)
       totalCount += result.count
+      totalNewImages += newCount
     })
 
     console.log('-'.repeat(50))
-    console.log(`Total: ${totalCount} items`)
+    console.log(`Total: ${totalCount} items${totalNewImages > 0 ? ` (+${totalNewImages} new)` : ''}`)
     console.log(`Output: ${CONFIG.OUTPUT_DIR}`)
 
     // 格式统计

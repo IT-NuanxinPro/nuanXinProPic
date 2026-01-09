@@ -210,8 +210,16 @@ jobs:
         run: |
           echo "📊 Generating JSON data..."
           
-          # 生成 JSON 数据
+          # 生成 JSON 数据（会自动更新 timestamps-backup.txt）
           node ./scripts/generate-data.js
+          
+          # 如果时间戳备份文件有更新，提交它
+          if [ -n "$(git status --porcelain timestamps-backup.txt)" ]; then
+            echo "📝 Committing updated timestamps..."
+            git add timestamps-backup.txt
+            git commit -m "chore: update timestamp backup" || true
+            git push || true
+          fi
           
           echo "📤 Uploading JSON to R2..."
           
