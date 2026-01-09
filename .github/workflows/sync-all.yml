@@ -231,12 +231,17 @@ jobs:
           R2_ENDPOINT="https://${CLOUDFLARE_ACCOUNT_ID}.r2.cloudflarestorage.com"
           R2_BUCKET="wallpaper-images"
           
-          # 上传 JSON 数据（每次都上传，因为 JSON 内容变化但大小可能相同）
-          # 注意：不用 --size-only，JSON 文件很小，直接覆盖
+          # 上传 JSON 数据（--size-only 避免重复上传未变化的文件）
           aws s3 sync public/data/ "s3://$R2_BUCKET/data/" \
             --endpoint-url "$R2_ENDPOINT" \
             --content-type "application/json" \
+            --size-only \
             --no-progress
+          
+          # 单独强制上传 latest.json（内容变化但大小可能相同）
+          aws s3 cp public/data/bing/latest.json "s3://$R2_BUCKET/data/bing/latest.json" \
+            --endpoint-url "$R2_ENDPOINT" \
+            --content-type "application/json"
           
           echo "✅ JSON data uploaded"
 
