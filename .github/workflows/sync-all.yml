@@ -61,6 +61,22 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y imagemagick fonts-noto-cjk bc jq
 
+      - name: Record previous counts
+        id: prev_count
+        run: |
+          # 记录同步前的数量
+          DESKTOP_PREV=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
+          MOBILE_PREV=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
+          AVATAR_PREV=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
+          BING_PREV=$(if [ -f bing/meta/index.json ]; then jq -r '.total' bing/meta/index.json; else echo 0; fi)
+          
+          echo "desktop=$DESKTOP_PREV" >> $GITHUB_OUTPUT
+          echo "mobile=$MOBILE_PREV" >> $GITHUB_OUTPUT
+          echo "avatar=$AVATAR_PREV" >> $GITHUB_OUTPUT
+          echo "bing=$BING_PREV" >> $GITHUB_OUTPUT
+          
+          echo "📊 Previous counts: Desktop=$DESKTOP_PREV, Mobile=$MOBILE_PREV, Avatar=$AVATAR_PREV, Bing=$BING_PREV"
+
       - name: Sync wallpapers from Gitee
         id: sync_gitee
         if: ${{ github.event.inputs.sync_wallpaper != 'false' }}
@@ -267,17 +283,44 @@ jobs:
         run: |
           NEW_TAG="${{ steps.version.outputs.new_tag }}"
           TODAY=$(date +'%Y-%m-%d')
+          
+          # 计算当前数量
+          DESKTOP_NOW=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
+          MOBILE_NOW=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
+          AVATAR_NOW=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
+          BING_NOW=$(if [ -f bing/meta/index.json ]; then jq -r '.total' bing/meta/index.json; else echo 0; fi)
+          
+          # 计算增量
+          DESKTOP_PREV=${{ steps.prev_count.outputs.desktop }}
+          MOBILE_PREV=${{ steps.prev_count.outputs.mobile }}
+          AVATAR_PREV=${{ steps.prev_count.outputs.avatar }}
+          BING_PREV=${{ steps.prev_count.outputs.bing }}
+          
+          DESKTOP_DIFF=$((DESKTOP_NOW - DESKTOP_PREV))
+          MOBILE_DIFF=$((MOBILE_NOW - MOBILE_PREV))
+          AVATAR_DIFF=$((AVATAR_NOW - AVATAR_PREV))
+          BING_DIFF=$((BING_NOW - BING_PREV))
+          
+          # 格式化增量显示（正数加+号）
+          format_diff() {
+            if [ "$1" -gt 0 ]; then echo "+$1"; elif [ "$1" -lt 0 ]; then echo "$1"; else echo "-"; fi
+          }
+          
+          DESKTOP_DIFF_STR=$(format_diff $DESKTOP_DIFF)
+          MOBILE_DIFF_STR=$(format_diff $MOBILE_DIFF)
+          AVATAR_DIFF_STR=$(format_diff $AVATAR_DIFF)
+          BING_DIFF_STR=$(format_diff $BING_DIFF)
 
           # 生成 Release 内容
           BODY="## 📅 Daily Sync - $TODAY
 
           ### 📊 统计
-          | 系列 | 数量 |
-          |------|------|
-          | Desktop | $(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ') |
-          | Mobile | $(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ') |
-          | Avatar | $(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ') |
-          | Bing | $(if [ -f bing/meta/index.json ]; then jq -r '.total' bing/meta/index.json; else echo 0; fi) |
+          | 系列 | 总数 | 今日增量 |
+          |------|------|----------|
+          | 🖥️ Desktop | $DESKTOP_NOW | $DESKTOP_DIFF_STR |
+          | 📱 Mobile | $MOBILE_NOW | $MOBILE_DIFF_STR |
+          | 👤 Avatar | $AVATAR_NOW | $AVATAR_DIFF_STR |
+          | 🌄 Bing | $BING_NOW | $BING_DIFF_STR |
 
           ### 🚀 CDN
           - **主要**: https://img.061129.xyz (Cloudflare R2)
@@ -298,14 +341,36 @@ jobs:
       # ========================================
       - name: Generate summary
         run: |
+          # 计算当前数量
+          DESKTOP_NOW=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
+          MOBILE_NOW=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
+          AVATAR_NOW=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
+          BING_NOW=$(if [ -f bing/meta/index.json ]; then jq -r '.total' bing/meta/index.json; else echo 0; fi)
+          
+          # 计算增量
+          DESKTOP_PREV=${{ steps.prev_count.outputs.desktop }}
+          MOBILE_PREV=${{ steps.prev_count.outputs.mobile }}
+          AVATAR_PREV=${{ steps.prev_count.outputs.avatar }}
+          BING_PREV=${{ steps.prev_count.outputs.bing }}
+          
+          DESKTOP_DIFF=$((DESKTOP_NOW - DESKTOP_PREV))
+          MOBILE_DIFF=$((MOBILE_NOW - MOBILE_PREV))
+          AVATAR_DIFF=$((AVATAR_NOW - AVATAR_PREV))
+          BING_DIFF=$((BING_NOW - BING_PREV))
+          
+          # 格式化增量显示
+          format_diff() {
+            if [ "$1" -gt 0 ]; then echo "+$1"; elif [ "$1" -lt 0 ]; then echo "$1"; else echo "-"; fi
+          }
+          
           echo "## 🖼️ Daily Wallpaper Sync" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "| 系列 | 数量 |" >> $GITHUB_STEP_SUMMARY
-          echo "|------|------|" >> $GITHUB_STEP_SUMMARY
-          echo "| Desktop | $(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
-          echo "| Mobile | $(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
-          echo "| Avatar | $(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ') |" >> $GITHUB_STEP_SUMMARY
-          echo "| Bing | $(if [ -f bing/meta/index.json ]; then jq -r '.total' bing/meta/index.json; else echo 0; fi) |" >> $GITHUB_STEP_SUMMARY
+          echo "| 系列 | 总数 | 今日增量 |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|------|----------|" >> $GITHUB_STEP_SUMMARY
+          echo "| 🖥️ Desktop | $DESKTOP_NOW | $(format_diff $DESKTOP_DIFF) |" >> $GITHUB_STEP_SUMMARY
+          echo "| 📱 Mobile | $MOBILE_NOW | $(format_diff $MOBILE_DIFF) |" >> $GITHUB_STEP_SUMMARY
+          echo "| 👤 Avatar | $AVATAR_NOW | $(format_diff $AVATAR_DIFF) |" >> $GITHUB_STEP_SUMMARY
+          echo "| 🌄 Bing | $BING_NOW | $(format_diff $BING_DIFF) |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
           if [ "${{ steps.check.outputs.has_changes }}" == "true" ]; then
