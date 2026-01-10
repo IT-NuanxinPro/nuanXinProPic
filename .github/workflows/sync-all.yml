@@ -1,9 +1,9 @@
 name: Sync All Wallpapers
 
 on:
-  # 每天 UTC 22:00（北京时间 06:00）
+  # 每天 UTC 14:00（北京时间 22:00）- 低峰期,延迟最短
   schedule:
-    - cron: "0 22 * * *"
+    - cron: "0 14 * * *"
 
   # 手动触发
   workflow_dispatch:

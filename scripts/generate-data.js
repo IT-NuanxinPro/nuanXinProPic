@@ -47,30 +47,38 @@ function getShanghaiISOString(date = new Date()) {
  */
 function loadTimestampBackup(rootDir) {
   const timestampMap = new Map()
+  const tagMap = new Map() // 新增: 存储 first_tag
   const backupPath = path.join(rootDir, 'timestamps-backup-all.txt')
-  
+
   if (fs.existsSync(backupPath)) {
     const content = fs.readFileSync(backupPath, 'utf-8')
     const lines = content.split('\n').filter(line => line.trim())
-    
+
     for (const line of lines) {
       const parts = line.split('|')
-      if (parts.length === 3) {
-        // 新格式: series|path|timestamp
+      if (parts.length === 4) {
+        // 新格式: series|path|timestamp|first_tag
+        const [series, relativePath, timestamp, firstTag] = parts
+        const key = `${series}|${relativePath.trim()}`
+        timestampMap.set(key, parseInt(timestamp.trim()) * 1000)
+        tagMap.set(key, firstTag.trim())
+      } else if (parts.length === 3) {
+        // 旧格式(兼容): series|path|timestamp
         const [series, relativePath, timestamp] = parts
         const key = `${series}|${relativePath.trim()}`
         timestampMap.set(key, parseInt(timestamp.trim()) * 1000)
       } else if (parts.length === 2) {
-        // 兼容旧格式: path|timestamp (默认 desktop)
+        // 更旧格式(兼容): path|timestamp (默认 desktop)
         const [relativePath, timestamp] = parts
         const key = `desktop|${relativePath.trim()}`
         timestampMap.set(key, parseInt(timestamp.trim()) * 1000)
       }
     }
     console.log(`  Loaded ${timestampMap.size} timestamps from timestamps-backup-all.txt`)
+    console.log(`  Loaded ${tagMap.size} first_tag entries`)
   }
-  
-  return timestampMap
+
+  return { timestampMap, tagMap }
 }
 
 /**
@@ -125,6 +133,7 @@ const CONFIG = {
 
   // 时间戳映射（从备份文件加载）
   TIMESTAMP_MAP: null,
+  TAG_MAP: null, // 新增: first_tag 映射表
 
   // 三大系列配置（与前端完全一致）
   SERIES: {
@@ -334,6 +343,21 @@ function buildImageUrl(relativePath, baseDir) {
 }
 
 /**
+ * 获取当前最新的 Git tag
+ */
+function getCurrentTag() {
+  try {
+    const result = execSync('git tag -l "v*" --sort=-version:refname | head -1', {
+      encoding: 'utf-8',
+      stdio: ['pipe', 'pipe', 'ignore'],
+    }).trim()
+    return result || 'v1.0.0'
+  } catch {
+    return 'v1.0.0'
+  }
+}
+
+/**
  * 生成壁纸数据（格式与前端完全一致）
  * @returns {Object} { wallpapers: Array, newTimestamps: Map }
  */
@@ -385,17 +409,24 @@ function generateWallpaperData(files, seriesConfig) {
     // 获取时间戳：优先使用备份文件中的时间戳，保持现有图片时间不变
     let createdAt
     let timestampMs
+    let cdnTag // CDN tag for cache optimization
     const timestampKey = `${seriesConfig.id}|${file.relativePath}`
     const backupTimestamp = CONFIG.TIMESTAMP_MAP?.get(timestampKey)
+    const backupTag = CONFIG.TAG_MAP?.get(timestampKey)
+
     if (backupTimestamp) {
       // 使用备份的时间戳（上海时区）
       timestampMs = backupTimestamp
       createdAt = getShanghaiISOString(new Date(backupTimestamp))
+      // 使用备份的 first_tag
+      cdnTag = backupTag || 'v1.0.0'
     } else {
       // 新文件使用当前时间（上海时区），并记录到新时间戳 Map
       timestampMs = currentTime
       createdAt = getShanghaiISOString(new Date(currentTime))
       newTimestamps.set(timestampKey, timestampMs)
+      // 新文件使用当前最新 tag
+      cdnTag = getCurrentTag()
     }
 
     // 构建数据对象（字段顺序与前端一致）
@@ -408,6 +439,7 @@ function generateWallpaperData(files, seriesConfig) {
       size: file.size,
       format: ext,
       createdAt,
+      cdnTag, // 新增: 每张图片的专属 CDN tag
       sha: file.sha || '', // 与前端格式一致
     }
 
@@ -708,7 +740,9 @@ async function main() {
   // 加载时间戳备份文件
   console.log('')
   console.log('Loading timestamp backups...')
-  CONFIG.TIMESTAMP_MAP = loadTimestampBackup(CONFIG.ROOT_DIR)
+  const { timestampMap, tagMap } = loadTimestampBackup(CONFIG.ROOT_DIR)
+  CONFIG.TIMESTAMP_MAP = timestampMap
+  CONFIG.TAG_MAP = tagMap
 
   try {
     if (!fs.existsSync(CONFIG.OUTPUT_DIR)) {

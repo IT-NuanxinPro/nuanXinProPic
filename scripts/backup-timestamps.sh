@@ -10,7 +10,8 @@
 #   ./scripts/backup-timestamps.sh
 #
 # 输出：
-#   timestamps-backup-all.txt (格式: series|relative_path|timestamp)
+#   timestamps-backup-all.txt (格式: series|relative_path|timestamp|first_tag)
+#   - first_tag: 文件首次上传时的 Git tag (用于 CDN 缓存优化)
 #
 # ========================================
 
@@ -24,6 +25,25 @@ echo "========================================"
 echo "备份文件时间戳"
 echo "========================================"
 echo ""
+
+# 获取当前最新 tag
+CURRENT_TAG=$(git tag -l 'v*' --sort=-version:refname | head -1 2>/dev/null || echo "v1.0.0")
+echo "📦 当前 tag: $CURRENT_TAG"
+echo ""
+
+# 读取旧备份文件 (如果存在),用于保留已有的 first_tag
+declare -A existing_tags
+if [ -f "$BACKUP_FILE" ]; then
+    echo "📂 读取现有备份文件..."
+    while IFS='|' read -r series path timestamp tag; do
+        if [ -n "$tag" ]; then
+            # 使用 series 和 path 作为唯一键
+            existing_tags["$series|$path"]="$tag"
+        fi
+    done < "$BACKUP_FILE"
+    echo "   找到 ${#existing_tags[@]} 个已记录的 first_tag"
+    echo ""
+fi
 
 # 临时文件(避免写入一半时出错)
 TEMP_FILE="$BACKUP_FILE.tmp"
@@ -59,8 +79,18 @@ for series in desktop mobile avatar; do
             timestamp=$(stat -c "%Y" "$file_path")
         fi
 
-        # 写入临时文件 (格式: series|relative_path|timestamp)
-        echo "$series|$relative_path|$timestamp" >> "$TEMP_FILE"
+        # 获取或设置 first_tag
+        key="$series|$relative_path"
+        if [ -n "${existing_tags[$key]}" ]; then
+            # 使用已记录的 first_tag
+            first_tag="${existing_tags[$key]}"
+        else
+            # 新文件,使用当前 tag
+            first_tag="$CURRENT_TAG"
+        fi
+
+        # 写入临时文件 (格式: series|relative_path|timestamp|first_tag)
+        echo "$series|$relative_path|$timestamp|$first_tag" >> "$TEMP_FILE"
 
         count=$((count + 1))
         series_files=$((series_files + 1))

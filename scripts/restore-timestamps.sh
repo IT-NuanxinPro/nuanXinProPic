@@ -14,7 +14,7 @@
 #   --dry-run  仅显示将要恢复的文件，不实际执行
 #
 # 环境变量：
-#   BACKUP_FILE  指定备份文件路径（默认: timestamps-backup.txt）
+#   BACKUP_FILE  指定备份文件路径（默认: timestamps-backup-all.txt）
 #
 # ========================================
 
@@ -24,7 +24,7 @@ PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 WALLPAPER_DIR="$PROJECT_ROOT/wallpaper"
 
 # 使用环境变量指定的备份文件，或默认值
-BACKUP_FILE="${BACKUP_FILE:-$PROJECT_ROOT/timestamps-backup.txt}"
+BACKUP_FILE="${BACKUP_FILE:-$PROJECT_ROOT/timestamps-backup-all.txt}"
 
 DRY_RUN=false
 if [ "$1" = "--dry-run" ]; then
