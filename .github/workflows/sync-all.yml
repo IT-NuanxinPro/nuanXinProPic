@@ -124,12 +124,16 @@ jobs:
       - name: Check for changes
         id: check
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
+          # 只检查图片相关目录的变更，忽略脚本、文档等修改
+          IMAGE_CHANGES=$(git status --porcelain wallpaper/ thumbnail/ preview/ bing/ timestamps-backup-all.txt 2>/dev/null || echo "")
+
+          if [ -n "$IMAGE_CHANGES" ]; then
             echo "has_changes=true" >> $GITHUB_OUTPUT
-            echo "📝 Changes detected"
+            echo "📝 Image changes detected:"
+            echo "$IMAGE_CHANGES"
           else
             echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "ℹ️ No changes"
+            echo "ℹ️ No image changes (scripts/docs changes ignored)"
           fi
 
       - name: Get next version
