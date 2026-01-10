@@ -57,9 +57,70 @@ not_found=0
 first_line=$(head -1 "$BACKUP_FILE")
 field_count=$(echo "$first_line" | awk -F'|' '{print NF}')
 
-if [ "$field_count" -eq 3 ]; then
-    # 新格式: series|relative_path|timestamp
+echo "检测到字段数: $field_count"
+
+# 定义恢复时间戳的函数
+restore_timestamp() {
+    local file_path="$1"
+    local timestamp="$2"
+    
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+        # macOS: touch -t [[CC]YY]MMDDhhmm[.SS]
+        touch -t "$(date -r "$timestamp" "+%Y%m%d%H%M.%S")" "$file_path" 2>/dev/null
+    else
+        # Linux: touch -d
+        touch -d "@$timestamp" "$file_path" 2>/dev/null
+    fi
+}
+
+# 定义格式化时间戳的函数
+format_timestamp() {
+    local timestamp="$1"
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+        date -r "$timestamp" "+%Y-%m-%d %H:%M:%S"
+    else
+        date -d "@$timestamp" "+%Y-%m-%d %H:%M:%S"
+    fi
+}
+
+if [ "$field_count" -eq 4 ]; then
+    # 4字段格式: series|relative_path|timestamp|cdnTag
     echo "检测到新格式备份文件（包含系列信息）"
+    echo ""
+
+    while IFS='|' read -r series relative_path timestamp cdnTag; do
+        count=$((count + 1))
+
+        file_path="$WALLPAPER_DIR/$series/$relative_path"
+
+        # 检查文件是否存在
+        if [ ! -f "$file_path" ]; then
+            not_found=$((not_found + 1))
+            continue
+        fi
+
+        if [ "$DRY_RUN" = true ]; then
+            readable_time=$(format_timestamp "$timestamp")
+            echo "[DRY-RUN] $series/$relative_path -> $readable_time"
+            success=$((success + 1))
+        else
+            if restore_timestamp "$file_path" "$timestamp"; then
+                success=$((success + 1))
+            else
+                failed=$((failed + 1))
+            fi
+        fi
+
+        # 每处理 100 个文件显示一次进度
+        if [ $((count % 100)) -eq 0 ]; then
+            echo "进度: $count/$total_lines"
+        fi
+
+    done < "$BACKUP_FILE"
+
+elif [ "$field_count" -eq 3 ]; then
+    # 3字段格式: series|relative_path|timestamp
+    echo "检测到3字段格式备份文件（包含系列信息）"
     echo ""
 
     while IFS='|' read -r series relative_path timestamp; do
@@ -74,30 +135,14 @@ if [ "$field_count" -eq 3 ]; then
         fi
 
         if [ "$DRY_RUN" = true ]; then
-            # 转换时间戳为可读格式
-            if [[ "$OSTYPE" == "darwin"* ]]; then
-                readable_time=$(date -r "$timestamp" "+%Y-%m-%d %H:%M:%S")
-            else
-                readable_time=$(date -d "@$timestamp" "+%Y-%m-%d %H:%M:%S")
-            fi
+            readable_time=$(format_timestamp "$timestamp")
             echo "[DRY-RUN] $series/$relative_path -> $readable_time"
             success=$((success + 1))
         else
-            # 恢复时间戳
-            if [[ "$OSTYPE" == "darwin"* ]]; then
-                # macOS: touch -t [[CC]YY]MMDDhhmm[.SS]
-                if touch -t "$(date -r "$timestamp" "+%Y%m%d%H%M.%S")" "$file_path" 2>/dev/null; then
-                    success=$((success + 1))
-                else
-                    failed=$((failed + 1))
-                fi
+            if restore_timestamp "$file_path" "$timestamp"; then
+                success=$((success + 1))
             else
-                # Linux: touch -d
-                if touch -d "@$timestamp" "$file_path" 2>/dev/null; then
-                    success=$((success + 1))
-                else
-                    failed=$((failed + 1))
-                fi
+                failed=$((failed + 1))
             fi
         fi
 
@@ -107,7 +152,8 @@ if [ "$field_count" -eq 3 ]; then
         fi
 
     done < "$BACKUP_FILE"
-else
+
+elif [ "$field_count" -eq 2 ]; then
     # 旧格式: relative_path|timestamp（仅 desktop）
     echo "检测到旧格式备份文件（仅 desktop 系列）"
     echo ""
@@ -126,28 +172,14 @@ else
         fi
 
         if [ "$DRY_RUN" = true ]; then
-            # 转换时间戳为可读格式
-            if [[ "$OSTYPE" == "darwin"* ]]; then
-                readable_time=$(date -r "$timestamp" "+%Y-%m-%d %H:%M:%S")
-            else
-                readable_time=$(date -d "@$timestamp" "+%Y-%m-%d %H:%M:%S")
-            fi
+            readable_time=$(format_timestamp "$timestamp")
             echo "[DRY-RUN] $relative_path -> $readable_time"
             success=$((success + 1))
         else
-            # 恢复时间戳
-            if [[ "$OSTYPE" == "darwin"* ]]; then
-                if touch -t "$(date -r "$timestamp" "+%Y%m%d%H%M.%S")" "$file_path" 2>/dev/null; then
-                    success=$((success + 1))
-                else
-                    failed=$((failed + 1))
-                fi
+            if restore_timestamp "$file_path" "$timestamp"; then
+                success=$((success + 1))
             else
-                if touch -d "@$timestamp" "$file_path" 2>/dev/null; then
-                    success=$((success + 1))
-                else
-                    failed=$((failed + 1))
-                fi
+                failed=$((failed + 1))
             fi
         fi
 
@@ -157,6 +189,11 @@ else
         fi
 
     done < "$BACKUP_FILE"
+
+else
+    echo "错误: 无法识别的备份文件格式（字段数: $field_count）"
+    echo "第一行内容: $first_line"
+    exit 1
 fi
 
 echo ""
@@ -178,7 +215,7 @@ if [ "$DRY_RUN" = true ]; then
 fi
 
 # ========================================
-# 方案 C: 智能回退 - 检测未备份的新文件
+# 验证备份完整性
 # ========================================
 
 if [ "$DRY_RUN" = false ]; then
@@ -203,7 +240,7 @@ if [ "$DRY_RUN" = false ]; then
         while IFS= read -r file_path; do
             relative_path="${file_path#$series_dir/}"
 
-            # 检查是否在备份文件中
+            # 检查是否在备份文件中（支持新旧格式）
             if ! grep -q "^$series|$relative_path|" "$BACKUP_FILE" 2>/dev/null; then
                 missing_count=$((missing_count + 1))
                 missing_files+=("$series/$relative_path")
@@ -214,13 +251,8 @@ if [ "$DRY_RUN" = false ]; then
                 commit_date=$(git log -1 --format="%at" -- "$file_path" 2>/dev/null || echo "")
 
                 if [ -n "$commit_date" ]; then
-                    # 恢复时间戳
-                    if [[ "$OSTYPE" == "darwin"* ]]; then
-                        touch -t "$(date -r "$commit_date" "+%Y%m%d%H%M.%S")" "$file_path" 2>/dev/null && \
-                            echo "   ✅ 已从 Git 历史恢复时间戳"
-                    else
-                        touch -d "@$commit_date" "$file_path" 2>/dev/null && \
-                            echo "   ✅ 已从 Git 历史恢复时间戳"
+                    if restore_timestamp "$file_path" "$commit_date"; then
+                        echo "   ✅ 已从 Git 历史恢复时间戳"
                     fi
                 else
                     echo "   ❌ Git 历史中未找到此文件，将使用当前时间"
