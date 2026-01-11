@@ -26,7 +26,6 @@
 echo "[DISABLED] 缓存清除功能已暂停，如需恢复请编辑此脚本"
 exit 0
 
-: <<'DISABLED'
 set -e
 
 # 颜色输出
@@ -38,7 +37,7 @@ CYAN='\033[0;36m'
 NC='\033[0m'
 
 # 配置
-CDN_DOMAIN="${CDN_DOMAIN:-img.061129.xyz}"
+CDN_DOMAIN="${CDN_DOMAIN:-wallpaper.061129.xyz}"
 CF_API_BASE="https://api.cloudflare.com/client/v4"
 
 # 所有系列
@@ -238,4 +237,3 @@ echo ""
 echo "=========================================="
 echo "  Cache Purge Complete!"
 echo "=========================================="
-DISABLED

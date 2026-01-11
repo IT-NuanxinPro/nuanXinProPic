@@ -20,6 +20,7 @@ set -e
 PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 WALLPAPER_DIR="$PROJECT_ROOT/wallpaper"
 BACKUP_FILE="$PROJECT_ROOT/timestamps-backup-all.txt"
+OLD_BACKUP_FILE="$PROJECT_ROOT/timestamps-backup-all.txt.old"
 
 echo "========================================"
 echo "备份文件时间戳"
@@ -31,19 +32,24 @@ CURRENT_TAG=$(git tag -l 'v*' --sort=-version:refname | head -1 2>/dev/null || e
 echo "📦 当前 tag: $CURRENT_TAG"
 echo ""
 
-# 读取旧备份文件 (如果存在),用于保留已有的 first_tag
-declare -A existing_tags
+# 保存旧备份文件用于查找已有的 first_tag
+existing_tags_count=0
 if [ -f "$BACKUP_FILE" ]; then
     echo "📂 读取现有备份文件..."
-    while IFS='|' read -r series path timestamp tag; do
-        if [ -n "$tag" ]; then
-            # 使用 series 和 path 作为唯一键
-            existing_tags["$series|$path"]="$tag"
-        fi
-    done < "$BACKUP_FILE"
-    echo "   找到 ${#existing_tags[@]} 个已记录的 first_tag"
+    cp "$BACKUP_FILE" "$OLD_BACKUP_FILE"
+    existing_tags_count=$(wc -l < "$OLD_BACKUP_FILE" | tr -d ' ')
+    echo "   找到 $existing_tags_count 个已记录的文件"
     echo ""
 fi
+
+# 从旧备份中查找 first_tag 的函数
+get_existing_tag() {
+    local series="$1"
+    local path="$2"
+    if [ -f "$OLD_BACKUP_FILE" ]; then
+        grep "^$series|$path|" "$OLD_BACKUP_FILE" 2>/dev/null | cut -d'|' -f4 | head -1
+    fi
+}
 
 # 临时文件(避免写入一半时出错)
 TEMP_FILE="$BACKUP_FILE.tmp"
@@ -80,10 +86,10 @@ for series in desktop mobile avatar; do
         fi
 
         # 获取或设置 first_tag
-        key="$series|$relative_path"
-        if [ -n "${existing_tags[$key]}" ]; then
+        existing_tag=$(get_existing_tag "$series" "$relative_path")
+        if [ -n "$existing_tag" ]; then
             # 使用已记录的 first_tag
-            first_tag="${existing_tags[$key]}"
+            first_tag="$existing_tag"
         else
             # 新文件,使用当前 tag
             first_tag="$CURRENT_TAG"
@@ -122,6 +128,9 @@ if [ $count -eq 0 ]; then
 fi
 
 mv "$TEMP_FILE" "$BACKUP_FILE"
+
+# 清理临时文件
+rm -f "$OLD_BACKUP_FILE"
 
 echo "========================================"
 echo "✅ 备份完成!"
