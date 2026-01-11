@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 11,
+  "total": 12,
   "items": [
+    {
+      "date": "2026-01-12",
+      "title": "水獭之国爱沙尼亚",
+      "copyright": "欧亚水獭和幼崽, 爱沙尼亚 (© Sven Zacek/naturepl.com)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%AC%A7%E4%BA%9A%E6%B0%B4%E7%8D%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260111_SnowOtters%22&FORM=HPQUIZ",
+      "hsh": "3752e881011974706fcea4c061384433",
+      "urlbase": "/th?id=OHR.SnowOtters_ZH-CN3563991803"
+    },
     {
       "date": "2026-01-11",
       "title": "从抗拒到绽放",
@@ -102,5 +111,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-01-11T06:30:02.047Z"
+  "updatedAt": "2026-01-11T17:17:25.523Z"
 }
