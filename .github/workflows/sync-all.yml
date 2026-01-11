@@ -1,7 +1,7 @@
 name: Sync All Wallpapers
 
 on:
-  # 每天 UTC 14:00（北京时间 22:00）- 低峰期,延迟最短
+  # 每天 UTC 17:00（北京时间 13:00）- 低峰期,延迟最短
   schedule:
     - cron: "0 17 * * *"
 
