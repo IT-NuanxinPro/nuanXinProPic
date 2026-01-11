@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 10,
+  "total": 11,
   "items": [
+    {
+      "date": "2026-01-11",
+      "title": "从抗拒到绽放",
+      "copyright": "舍夫沙万的蓝色墙壁, 摩洛哥 (© AnetteAndersen/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%91%A9%E6%B4%9B%E5%93%A5%E8%88%8D%E5%A4%AB%E6%B2%99%E4%B8%87&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260110_BlueMorocco%22&FORM=HPQUIZ",
+      "hsh": "1cc4d8c07fecfcf0e4dbbc1abe7b6f6a",
+      "urlbase": "/th?id=OHR.BlueMorocco_ZH-CN3296596109"
+    },
     {
       "date": "2026-01-10",
       "title": "纯粹的瑞士魔力",
@@ -93,5 +102,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-01-10T14:21:55.777Z"
+  "updatedAt": "2026-01-11T06:30:02.047Z"
 }
