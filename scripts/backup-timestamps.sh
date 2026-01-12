@@ -7,7 +7,12 @@
 #       支持 desktop、mobile、avatar 三个系列
 #
 # 用法：
-#   ./scripts/backup-timestamps.sh
+#   ./scripts/backup-timestamps.sh          # 默认：使用文件修改时间
+#   ./scripts/backup-timestamps.sh --now    # 新文件使用当前时间
+#
+# 参数：
+#   --now    新文件（不在备份记录中的）使用当前时间，而非文件修改时间
+#            适用于：收藏的图片上传时，想用上传时间而非原始时间
 #
 # 输出：
 #   timestamps-backup-all.txt (格式: series|relative_path|timestamp|first_tag)
@@ -16,6 +21,33 @@
 # ========================================
 
 set -e
+
+# 解析参数
+USE_NOW_FOR_NEW=false
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        --now)
+            USE_NOW_FOR_NEW=true
+            shift
+            ;;
+        -h|--help)
+            echo "用法: $0 [--now]"
+            echo ""
+            echo "参数:"
+            echo "  --now    新文件使用当前时间（而非文件修改时间）"
+            echo ""
+            exit 0
+            ;;
+        *)
+            echo "未知参数: $1"
+            echo "使用 -h 或 --help 查看帮助"
+            exit 1
+            ;;
+    esac
+done
+
+# 当前时间戳（用于 --now 模式）
+CURRENT_TIMESTAMP=$(date +%s)
 
 PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 WALLPAPER_DIR="$PROJECT_ROOT/wallpaper"
@@ -26,6 +58,11 @@ echo "========================================"
 echo "备份文件时间戳"
 echo "========================================"
 echo ""
+
+if [ "$USE_NOW_FOR_NEW" = true ]; then
+    echo "🕐 模式: 新文件使用当前时间"
+    echo ""
+fi
 
 # 获取当前最新 tag
 CURRENT_TAG=$(git tag -l 'v*' --sort=-version:refname | head -1 2>/dev/null || echo "v1.0.0")
@@ -51,6 +88,27 @@ get_existing_tag() {
     fi
 }
 
+# 从旧备份中查找时间戳的函数
+get_existing_timestamp() {
+    local series="$1"
+    local path="$2"
+    if [ -f "$OLD_BACKUP_FILE" ]; then
+        grep "^$series|$path|" "$OLD_BACKUP_FILE" 2>/dev/null | cut -d'|' -f3 | head -1
+    fi
+}
+
+# 检查文件是否是新文件（不在旧备份中）
+is_new_file() {
+    local series="$1"
+    local path="$2"
+    if [ -f "$OLD_BACKUP_FILE" ]; then
+        if grep -q "^$series|$path|" "$OLD_BACKUP_FILE" 2>/dev/null; then
+            return 1  # 不是新文件
+        fi
+    fi
+    return 0  # 是新文件
+}
+
 # 临时文件(避免写入一半时出错)
 TEMP_FILE="$BACKUP_FILE.tmp"
 > "$TEMP_FILE"
@@ -74,15 +132,30 @@ for series in desktop mobile avatar; do
 
     # 查找所有图片文件并排序(保证顺序稳定)
     series_files=0
+    new_files=0
     while IFS= read -r file_path; do
         # 获取相对路径
         relative_path="${file_path#$series_dir/}"
 
-        # 获取时间戳
-        if [[ "$OSTYPE" == "darwin"* ]]; then
-            timestamp=$(stat -f "%m" "$file_path")
+        # 判断是否是新文件
+        if is_new_file "$series" "$relative_path"; then
+            is_new=true
+            new_files=$((new_files + 1))
         else
-            timestamp=$(stat -c "%Y" "$file_path")
+            is_new=false
+        fi
+
+        # 获取时间戳
+        if [ "$is_new" = true ] && [ "$USE_NOW_FOR_NEW" = true ]; then
+            # 新文件 + --now 模式：使用当前时间
+            timestamp="$CURRENT_TIMESTAMP"
+        else
+            # 已有文件：使用文件修改时间
+            if [[ "$OSTYPE" == "darwin"* ]]; then
+                timestamp=$(stat -f "%m" "$file_path")
+            else
+                timestamp=$(stat -c "%Y" "$file_path")
+            fi
         fi
 
         # 获取或设置 first_tag
@@ -117,6 +190,9 @@ for series in desktop mobile avatar; do
     \) | sort)
 
     echo "   找到 $series_files 个文件"
+    if [ "$USE_NOW_FOR_NEW" = true ] && [ $new_files -gt 0 ]; then
+        echo "   其中 $new_files 个新文件使用当前时间"
+    fi
     echo ""
 done
 
