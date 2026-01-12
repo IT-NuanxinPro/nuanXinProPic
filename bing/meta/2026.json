@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 12,
+  "total": 13,
   "items": [
+    {
+      "date": "2026-01-13",
+      "title": "苹果韵，旧时光",
+      "copyright": "克卢伊德谷, 威尔士 (© Valerie Blencowe/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%A8%81%E5%B0%94%E5%A3%AB%E5%85%8B%E5%8D%A2%E4%BC%8A%E5%BE%B7%E8%B0%B7&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260112_WalesWinter%22&FORM=HPQUIZ",
+      "hsh": "12f3326c63d6b341b36e0dca5fa03267",
+      "urlbase": "/th?id=OHR.WalesWinter_ZH-CN3692879767"
+    },
     {
       "date": "2026-01-12",
       "title": "水獭之国爱沙尼亚",
@@ -111,5 +120,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-01-11T17:17:25.523Z"
+  "updatedAt": "2026-01-12T17:24:14.912Z"
 }
