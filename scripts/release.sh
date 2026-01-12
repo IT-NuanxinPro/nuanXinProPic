@@ -35,6 +35,12 @@ NC='\033[0m' # No Color
 
 echo -e "${BLUE}🚀 开始发布流程...${NC}"
 
+# ========================================
+# 备份时间戳（新文件使用当前时间）
+# ========================================
+echo -e "${BLUE}🕐 备份文件时间戳...${NC}"
+./scripts/backup-timestamps.sh --now
+
 # 检查 gh CLI 是否安装
 if ! command -v gh &> /dev/null; then
     echo -e "${RED}❌ 未检测到 gh CLI${NC}"
@@ -116,28 +122,18 @@ else
     NEW_TAG="v${MAJOR}.${MINOR}.${NEW_PATCH}"
 
     # ========================================
-    # 获取上个版本的统计数据
+    # 获取上个版本的统计数据（使用 git ls-tree 直接统计文件数量）
     # ========================================
     echo -e "${BLUE}📊 计算增量 (对比 ${LATEST_TAG})...${NC}"
 
-    # 优化: 使用 git show 读取上个版本的时间戳文件 (无需切换分支)
     if git rev-parse --verify "$LATEST_TAG" &>/dev/null; then
-        # 尝试从上个 tag 读取时间戳文件
-        PREV_TIMESTAMP_CONTENT=$(git show "${LATEST_TAG}:${TIMESTAMP_FILE}" 2>/dev/null)
-
-        if [ -n "$PREV_TIMESTAMP_CONTENT" ]; then
-            echo -e "${GREEN}  ⚡ 从 ${LATEST_TAG} 读取时间戳文件${NC}"
-            DESKTOP_PREV=$(echo "$PREV_TIMESTAMP_CONTENT" | grep '^desktop|' | wc -l | tr -d ' ')
-            MOBILE_PREV=$(echo "$PREV_TIMESTAMP_CONTENT" | grep '^mobile|' | wc -l | tr -d ' ')
-            AVATAR_PREV=$(echo "$PREV_TIMESTAMP_CONTENT" | grep '^avatar|' | wc -l | tr -d ' ')
-        else
-            echo -e "${YELLOW}  ⚠️  ${LATEST_TAG} 无时间戳文件，使用 0 作为基准${NC}"
-            DESKTOP_PREV=0
-            MOBILE_PREV=0
-            AVATAR_PREV=0
-        fi
+        echo -e "${GREEN}  ⚡ 从 ${LATEST_TAG} 统计文件数量${NC}"
+        # 使用 git ls-tree 递归列出上个 tag 的文件，统计图片数量
+        DESKTOP_PREV=$(git ls-tree -r --name-only "$LATEST_TAG" -- wallpaper/desktop 2>/dev/null | grep -iE '\.(jpg|jpeg|png)$' | wc -l | tr -d ' ')
+        MOBILE_PREV=$(git ls-tree -r --name-only "$LATEST_TAG" -- wallpaper/mobile 2>/dev/null | grep -iE '\.(jpg|jpeg|png)$' | wc -l | tr -d ' ')
+        AVATAR_PREV=$(git ls-tree -r --name-only "$LATEST_TAG" -- wallpaper/avatar 2>/dev/null | grep -iE '\.(jpg|jpeg|png)$' | wc -l | tr -d ' ')
     else
-        echo -e "${YELLOW}  ⚠️  无法读取 ${LATEST_TAG}，将使用当前数量作为增量${NC}"
+        echo -e "${YELLOW}  ⚠️  无法读取 ${LATEST_TAG}，使用 0 作为基准${NC}"
         DESKTOP_PREV=0
         MOBILE_PREV=0
         AVATAR_PREV=0
