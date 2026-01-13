@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 13,
+  "total": 14,
   "items": [
+    {
+      "date": "2026-01-14",
+      "title": "帕拉米蒂的历史之阶",
+      "copyright": "帕拉米蒂要塞的阶梯, 纳夫普利翁, 希腊 (© George Pachantouris/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%B8%95%E6%8B%89%E7%B1%B3%E8%92%82%E5%9F%8E%E5%A0%A1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260113_PalamidiFortress%22&FORM=HPQUIZ",
+      "hsh": "03e168c80290763f3e521ff9f4957f0e",
+      "urlbase": "/th?id=OHR.PalamidiFortress_ZH-CN5420143053"
+    },
     {
       "date": "2026-01-13",
       "title": "苹果韵，旧时光",
@@ -120,5 +129,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-01-12T17:24:14.912Z"
+  "updatedAt": "2026-01-13T17:26:56.773Z"
 }

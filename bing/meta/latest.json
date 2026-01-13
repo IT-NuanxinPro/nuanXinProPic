@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-01-12T17:24:14.925Z",
+  "generatedAt": "2026-01-13T17:26:56.787Z",
   "total": 7,
   "items": [
+    {
+      "date": "2026-01-14",
+      "title": "帕拉米蒂的历史之阶",
+      "copyright": "帕拉米蒂要塞的阶梯, 纳夫普利翁, 希腊 (© George Pachantouris/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%B8%95%E6%8B%89%E7%B1%B3%E8%92%82%E5%9F%8E%E5%A0%A1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260113_PalamidiFortress%22&FORM=HPQUIZ",
+      "hsh": "03e168c80290763f3e521ff9f4957f0e",
+      "urlbase": "/th?id=OHR.PalamidiFortress_ZH-CN5420143053"
+    },
     {
       "date": "2026-01-13",
       "title": "苹果韵，旧时光",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260107_StarlingBrighton2025%22&FORM=HPQUIZ",
       "hsh": "908915655cd0b1135451a2669e259dbe",
       "urlbase": "/th?id=OHR.StarlingBrighton2025_ZH-CN2775446092"
-    },
-    {
-      "date": "2026-01-07",
-      "title": "古老岩石的传奇",
-      "copyright": "拱门国家公园的北窗框景中的炮塔拱门, 犹他州, 美国 (© Jim Patterson/TANDEM Stills + Motion)",
-      "copyrightlink": "https://www.bing.com/search?q=%E6%8B%B1%E9%97%A8%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260106_OldRockArch%22&FORM=HPQUIZ",
-      "hsh": "e34d3a5ddb821effa71078d658de8128",
-      "urlbase": "/th?id=OHR.OldRockArch_ZH-CN2061140260"
     }
   ]
 }
