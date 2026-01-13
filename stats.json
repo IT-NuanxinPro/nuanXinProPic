@@ -1,0 +1,110 @@
+{
+  "total": {
+    "desktop": 248,
+    "mobile": 351,
+    "avatar": 249
+  },
+  "lastUpdated": "2026-01-13T10:35:01+08:00",
+  "releases": [
+    {
+      "tag": "v1.1.25",
+      "date": "2026-01-12",
+      "added": { "desktop": 0, "mobile": 0, "avatar": 0 }
+    },
+    {
+      "tag": "v1.1.24",
+      "date": "2026-01-12",
+      "added": { "desktop": 0, "mobile": 121, "avatar": 59 }
+    },
+    {
+      "tag": "v1.1.23",
+      "date": "2026-01-11",
+      "added": { "desktop": 0, "mobile": 0, "avatar": 0 }
+    },
+    {
+      "tag": "v1.1.22",
+      "date": "2026-01-11",
+      "added": { "desktop": 36, "mobile": 22, "avatar": 62 }
+    },
+    {
+      "tag": "v1.1.21",
+      "date": "2026-01-11",
+      "added": { "desktop": 0, "mobile": 0, "avatar": 0 }
+    },
+    {
+      "tag": "v1.1.20",
+      "date": "2026-01-10",
+      "added": { "desktop": 0, "mobile": 0, "avatar": 0 }
+    },
+    {
+      "tag": "v1.1.19",
+      "date": "2026-01-10",
+      "added": { "desktop": 0, "mobile": 1, "avatar": 0 }
+    },
+    {
+      "tag": "v1.1.18",
+      "date": "2026-01-09",
+      "added": { "desktop": 0, "mobile": 0, "avatar": 1 }
+    },
+    {
+      "tag": "v1.1.17",
+      "date": "2026-01-09",
+      "added": { "desktop": 0, "mobile": 0, "avatar": 0 }
+    },
+    {
+      "tag": "v1.1.16",
+      "date": "2026-01-08",
+      "added": { "desktop": 0, "mobile": 0, "avatar": 0 }
+    },
+    {
+      "tag": "v1.1.15",
+      "date": "2026-01-07",
+      "added": { "desktop": 0, "mobile": 0, "avatar": 0 }
+    },
+    {
+      "tag": "v1.1.14",
+      "date": "2026-01-07",
+      "added": { "desktop": 3, "mobile": 0, "avatar": 0 }
+    },
+    {
+      "tag": "v1.1.13",
+      "date": "2026-01-06",
+      "added": { "desktop": 47, "mobile": 0, "avatar": 12 }
+    },
+    {
+      "tag": "v1.1.12",
+      "date": "2026-01-06",
+      "added": { "desktop": 0, "mobile": 0, "avatar": 0 }
+    },
+    {
+      "tag": "v1.1.11",
+      "date": "2026-01-05",
+      "added": { "desktop": 0, "mobile": 122, "avatar": 75 }
+    },
+    {
+      "tag": "v1.1.10",
+      "date": "2026-01-04",
+      "added": { "desktop": 0, "mobile": 0, "avatar": 0 }
+    },
+    {
+      "tag": "v1.1.9",
+      "date": "2026-01-04",
+      "added": { "desktop": 36, "mobile": 13, "avatar": 0 }
+    },
+    {
+      "tag": "v1.1.8",
+      "date": "2026-01-01",
+      "added": { "desktop": 0, "mobile": 0, "avatar": 0 }
+    },
+    {
+      "tag": "v1.1.7",
+      "date": "2026-01-01",
+      "added": { "desktop": 0, "mobile": 0, "avatar": 0 }
+    },
+    {
+      "tag": "v1.1.6",
+      "date": "2026-01-01",
+      "added": { "desktop": 0, "mobile": 0, "avatar": 0 }
+    }
+  ]
+}
