@@ -4,8 +4,18 @@
     "mobile": 352,
     "avatar": 253
   },
-  "lastUpdated": 1768285917.028081,
+  "lastUpdated": 1768320569.271419,
   "releases": [
+    {
+      "tag": "v1.1.27",
+      "date": "2026-01-14",
+      "added": {
+        "desktop": 0,
+        "mobile": 0,
+        "avatar": 0
+      },
+      "publisher": "IT-NuanxinPro"
+    },
     {
       "tag": "v1.1.26",
       "date": "2026-01-13",
