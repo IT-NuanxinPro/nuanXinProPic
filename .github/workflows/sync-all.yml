@@ -295,6 +295,7 @@ jobs:
           echo "✅ Created tag: $NEW_TAG"
 
       - name: Create Release
+        id: release
         if: steps.check.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -359,7 +360,6 @@ jobs:
           echo "mobile_now=$MOBILE_NOW" >> $GITHUB_OUTPUT
           echo "avatar_now=$AVATAR_NOW" >> $GITHUB_OUTPUT
           echo "bing_now=$BING_NOW" >> $GITHUB_OUTPUT
-        id: release
 
       - name: Update stats.json
         if: steps.check.outputs.has_changes == 'true'
