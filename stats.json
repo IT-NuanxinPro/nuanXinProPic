@@ -1,12 +1,23 @@
 {
   "total": {
-    "desktop": 281,
+    "desktop": 284,
     "mobile": 356,
     "avatar": 262,
-    "bing": 2424
+    "bing": 2425
   },
-  "lastUpdated": 1768381837.109222,
+  "lastUpdated": 1768411761.602031,
   "releases": [
+    {
+      "tag": "v1.1.30",
+      "date": "2026-01-15",
+      "added": {
+        "desktop": 3,
+        "mobile": 0,
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
+    },
     {
       "tag": "v1.1.29",
       "date": "2026-01-14",
