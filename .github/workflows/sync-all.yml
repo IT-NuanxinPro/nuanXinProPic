@@ -349,6 +349,76 @@ jobs:
             --latest
 
           echo "✅ Created release: $NEW_TAG"
+          
+          # 保存增量信息供后续步骤使用
+          echo "desktop_diff=$DESKTOP_DIFF" >> $GITHUB_OUTPUT
+          echo "mobile_diff=$MOBILE_DIFF" >> $GITHUB_OUTPUT
+          echo "avatar_diff=$AVATAR_DIFF" >> $GITHUB_OUTPUT
+          echo "bing_diff=$BING_DIFF" >> $GITHUB_OUTPUT
+          echo "desktop_now=$DESKTOP_NOW" >> $GITHUB_OUTPUT
+          echo "mobile_now=$MOBILE_NOW" >> $GITHUB_OUTPUT
+          echo "avatar_now=$AVATAR_NOW" >> $GITHUB_OUTPUT
+          echo "bing_now=$BING_NOW" >> $GITHUB_OUTPUT
+        id: release
+
+      - name: Update stats.json
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          NEW_TAG="${{ steps.version.outputs.new_tag }}"
+          TODAY=$(TZ='Asia/Shanghai' date +'%Y-%m-%d')
+          
+          DESKTOP_DIFF=${{ steps.release.outputs.desktop_diff }}
+          MOBILE_DIFF=${{ steps.release.outputs.mobile_diff }}
+          AVATAR_DIFF=${{ steps.release.outputs.avatar_diff }}
+          BING_DIFF=${{ steps.release.outputs.bing_diff }}
+          DESKTOP_NOW=${{ steps.release.outputs.desktop_now }}
+          MOBILE_NOW=${{ steps.release.outputs.mobile_now }}
+          AVATAR_NOW=${{ steps.release.outputs.avatar_now }}
+          BING_NOW=${{ steps.release.outputs.bing_now }}
+          
+          # 创建新的 release 记录
+          NEW_RELEASE=$(cat <<EOF
+          {
+            "tag": "$NEW_TAG",
+            "date": "$TODAY",
+            "added": {
+              "desktop": $DESKTOP_DIFF,
+              "mobile": $MOBILE_DIFF,
+              "avatar": $AVATAR_DIFF,
+              "bing": $BING_DIFF
+            },
+            "publisher": "github-actions[bot]"
+          }
+          EOF
+          )
+          
+          # 更新 stats.json
+          if [ -f stats.json ]; then
+            # 更新 total 和 releases 数组
+            jq --argjson new_release "$NEW_RELEASE" \
+               --argjson desktop "$DESKTOP_NOW" \
+               --argjson mobile "$MOBILE_NOW" \
+               --argjson avatar "$AVATAR_NOW" \
+               --argjson bing "$BING_NOW" \
+               '.total.desktop = $desktop | .total.mobile = $mobile | .total.avatar = $avatar | .total.bing = $bing | .lastUpdated = now | .releases = [$new_release] + .releases' \
+               stats.json > stats.json.tmp && mv stats.json.tmp stats.json
+          else
+            # 创建新的 stats.json
+            jq -n --argjson new_release "$NEW_RELEASE" \
+               --argjson desktop "$DESKTOP_NOW" \
+               --argjson mobile "$MOBILE_NOW" \
+               --argjson avatar "$AVATAR_NOW" \
+               --argjson bing "$BING_NOW" \
+               '{total: {desktop: $desktop, mobile: $mobile, avatar: $avatar, bing: $bing}, lastUpdated: now, releases: [$new_release]}' \
+               > stats.json
+          fi
+          
+          # 提交 stats.json
+          git add stats.json
+          git commit -m "chore: update stats.json for $NEW_TAG" || true
+          git push || true
+          
+          echo "✅ Updated stats.json"
 
       # ========================================
       # 8. 生成摘要

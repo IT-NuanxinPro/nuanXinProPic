@@ -2,7 +2,8 @@
   "total": {
     "desktop": 281,
     "mobile": 356,
-    "avatar": 262
+    "avatar": 262,
+    "bing": 2424
   },
   "lastUpdated": 1768381837.109222,
   "releases": [
@@ -12,9 +13,21 @@
       "added": {
         "desktop": 12,
         "mobile": 2,
-        "avatar": 9
+        "avatar": 9,
+        "bing": 0
       },
       "publisher": "IT-NuanXin"
+    },
+    {
+      "tag": "v1.1.28",
+      "date": "2026-01-14",
+      "added": {
+        "desktop": 0,
+        "mobile": 0,
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
     },
     {
       "tag": "v1.1.27",
@@ -22,7 +35,8 @@
       "added": {
         "desktop": 21,
         "mobile": 2,
-        "avatar": 0
+        "avatar": 0,
+        "bing": 0
       },
       "publisher": "IT-NuanxinPro"
     },
@@ -32,7 +46,8 @@
       "added": {
         "desktop": 0,
         "mobile": 1,
-        "avatar": 4
+        "avatar": 4,
+        "bing": 1
       },
       "publisher": ""
     },
@@ -42,8 +57,10 @@
       "added": {
         "desktop": 0,
         "mobile": 0,
-        "avatar": 0
-      }
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
     },
     {
       "tag": "v1.1.24",
@@ -51,7 +68,8 @@
       "added": {
         "desktop": 0,
         "mobile": 121,
-        "avatar": 59
+        "avatar": 59,
+        "bing": 1
       }
     },
     {
@@ -60,8 +78,10 @@
       "added": {
         "desktop": 0,
         "mobile": 0,
-        "avatar": 0
-      }
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
     },
     {
       "tag": "v1.1.22",
@@ -69,7 +89,8 @@
       "added": {
         "desktop": 36,
         "mobile": 22,
-        "avatar": 62
+        "avatar": 62,
+        "bing": 1
       }
     },
     {
@@ -78,8 +99,10 @@
       "added": {
         "desktop": 0,
         "mobile": 0,
-        "avatar": 0
-      }
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
     },
     {
       "tag": "v1.1.20",
@@ -87,8 +110,10 @@
       "added": {
         "desktop": 0,
         "mobile": 0,
-        "avatar": 0
-      }
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
     },
     {
       "tag": "v1.1.19",
@@ -96,7 +121,8 @@
       "added": {
         "desktop": 0,
         "mobile": 1,
-        "avatar": 0
+        "avatar": 0,
+        "bing": 1
       }
     },
     {
@@ -105,7 +131,8 @@
       "added": {
         "desktop": 0,
         "mobile": 0,
-        "avatar": 1
+        "avatar": 1,
+        "bing": 1
       }
     },
     {
@@ -114,8 +141,10 @@
       "added": {
         "desktop": 0,
         "mobile": 0,
-        "avatar": 0
-      }
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
     },
     {
       "tag": "v1.1.16",
@@ -123,8 +152,10 @@
       "added": {
         "desktop": 0,
         "mobile": 0,
-        "avatar": 0
-      }
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
     },
     {
       "tag": "v1.1.15",
@@ -132,8 +163,10 @@
       "added": {
         "desktop": 0,
         "mobile": 0,
-        "avatar": 0
-      }
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
     },
     {
       "tag": "v1.1.14",
@@ -141,7 +174,8 @@
       "added": {
         "desktop": 3,
         "mobile": 0,
-        "avatar": 0
+        "avatar": 0,
+        "bing": 1
       }
     },
     {
@@ -150,7 +184,8 @@
       "added": {
         "desktop": 47,
         "mobile": 0,
-        "avatar": 12
+        "avatar": 12,
+        "bing": 1
       }
     },
     {
@@ -159,8 +194,10 @@
       "added": {
         "desktop": 0,
         "mobile": 0,
-        "avatar": 0
-      }
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
     },
     {
       "tag": "v1.1.11",
@@ -168,7 +205,8 @@
       "added": {
         "desktop": 0,
         "mobile": 122,
-        "avatar": 75
+        "avatar": 75,
+        "bing": 1
       }
     },
     {
@@ -177,8 +215,10 @@
       "added": {
         "desktop": 0,
         "mobile": 0,
-        "avatar": 0
-      }
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
     },
     {
       "tag": "v1.1.9",
@@ -186,7 +226,8 @@
       "added": {
         "desktop": 36,
         "mobile": 13,
-        "avatar": 0
+        "avatar": 0,
+        "bing": 1
       }
     },
     {
@@ -195,8 +236,10 @@
       "added": {
         "desktop": 0,
         "mobile": 0,
-        "avatar": 0
-      }
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
     },
     {
       "tag": "v1.1.7",
@@ -204,8 +247,10 @@
       "added": {
         "desktop": 0,
         "mobile": 0,
-        "avatar": 0
-      }
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
     },
     {
       "tag": "v1.1.6",
@@ -213,8 +258,10 @@
       "added": {
         "desktop": 0,
         "mobile": 0,
-        "avatar": 0
-      }
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
     }
   ]
 }
