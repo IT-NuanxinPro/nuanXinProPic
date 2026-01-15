@@ -2,10 +2,20 @@
   "total": {
     "desktop": 330,
     "mobile": 358,
-    "avatar": 262
+    "avatar": 273
   },
-  "lastUpdated": 1768468256.430608,
+  "lastUpdated": 1768483678.394994,
   "releases": [
+    {
+      "tag": "v1.1.33",
+      "date": "2026-01-15",
+      "added": {
+        "desktop": 0,
+        "mobile": 0,
+        "avatar": 11
+      },
+      "publisher": "IT-NuanXin"
+    },
     {
       "tag": "v1.1.32",
       "date": "2026-01-15",
