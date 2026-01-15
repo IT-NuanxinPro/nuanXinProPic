@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 15,
+  "total": 16,
   "items": [
+    {
+      "date": "2026-01-16",
+      "title": "眼神对上了",
+      "copyright": "埃托沙国家公园的豹子，纳米比亚 (© Norbert Achtelik/Cavan Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%B1%B9%E5%AD%90&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260115_EtoshaLeopard%22&FORM=HPQUIZ",
+      "hsh": "1d88070c60c59a5188b89780ed606a78",
+      "urlbase": "/th?id=OHR.EtoshaLeopard_ZH-CN6654006040"
+    },
     {
       "date": "2026-01-15",
       "title": "小村庄，大视野",
@@ -138,5 +147,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-01-14T17:27:31.859Z"
+  "updatedAt": "2026-01-15T17:32:07.382Z"
 }
