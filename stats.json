@@ -3,10 +3,21 @@
     "desktop": 330,
     "mobile": 358,
     "avatar": 273,
-    "bing": 2426
+    "bing": 2427
   },
-  "lastUpdated": 1768498427.086526,
+  "lastUpdated": 1768584357.243765,
   "releases": [
+    {
+      "tag": "v1.1.35",
+      "date": "2026-01-17",
+      "added": {
+        "desktop": 0,
+        "mobile": 0,
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
+    },
     {
       "tag": "v1.1.34",
       "date": "2026-01-16",
