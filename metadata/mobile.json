@@ -1,7 +1,7 @@
 {
   "version": 2,
   "series": "mobile",
-  "lastUpdated": "2026-01-17T12:35:16.308Z",
+  "lastUpdated": "2026-01-17T13:30:42.782Z",
   "count": 359,
   "images": {
     "wallpaper/mobile/IP形象/乌萨奇/乌萨奇&小八&小熊_睡衣裹被贴贴.png": {
@@ -9043,8 +9043,8 @@
           "公路,",
           "秋景"
         ],
-        "description": "峡湾湖畔雪山公路.jpg",
-        "displayTitle": "峡湾湖畔公路蜿蜒，雪山云雾缭绕，秋林浸染金黄，静谧壮美如诗。",
+        "description": "峡湾湖畔公路蜿蜒，雪山云雾缭绕，秋林浸染金黄，静谧壮美如诗。",
+        "displayTitle": "峡湾湖畔雪山公路.jpg",
         "confidence": 0,
         "model": "filename-inference",
         "analyzedAt": null
