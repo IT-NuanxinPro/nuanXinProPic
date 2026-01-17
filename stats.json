@@ -1,6 +1,6 @@
 {
-  "lastUpdated": 1768664982.660906,
-  "cdnTag": "v1.1.37",
+  "lastUpdated": "2026-01-17T16:20:30.235Z",
+  "cdnTag": "--force",
   "series": {
     "desktop": {
       "count": 330,
@@ -44,7 +44,8 @@
   "total": {
     "desktop": 330,
     "mobile": 371,
-    "avatar": 275
+    "avatar": 275,
+    "bing": 0
   },
   "releases": [
     {
