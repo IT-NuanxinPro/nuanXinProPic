@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "createdAt": "2026-01-17T11:25:24.621Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/张凌赫/帅气-张凌赫.jpg",
+      "category": "人像",
+      "subcategory": "张凌赫",
+      "filename": "帅气-张凌赫.jpg",
+      "createdAt": "2026-01-17T11:25:24.621Z",
+      "size": 452684,
+      "format": "jpg",
+      "ai": {
+        "keywords": [
+          "帅气",
+          "张凌赫"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "filename": "",
+        "confidence": 0,
+        "model": "none",
+        "analyzedAt": null
+      }
+    }
+  ]
+}
