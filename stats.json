@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-17T12:35:16.311Z",
-  "cdnTag": "v1.1.37-test",
+  "lastUpdated": 1768664982.660906,
+  "cdnTag": "v1.1.37",
   "series": {
     "desktop": {
       "count": 330,
@@ -17,7 +17,7 @@
       ]
     },
     "mobile": {
-      "count": 359,
+      "count": 371,
       "categories": [
         "人像",
         "影视",
@@ -43,11 +43,20 @@
   },
   "total": {
     "desktop": 330,
-    "mobile": 359,
-    "avatar": 275,
-    "bing": 2427
+    "mobile": 371,
+    "avatar": 275
   },
   "releases": [
+    {
+      "tag": "v1.1.37",
+      "date": "2026-01-17",
+      "added": {
+        "desktop": 0,
+        "mobile": 12,
+        "avatar": 0
+      },
+      "publisher": "IT-NuanXin"
+    },
     {
       "tag": "v1.1.36",
       "date": "2026-01-17",
