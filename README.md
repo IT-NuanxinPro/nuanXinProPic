@@ -33,8 +33,18 @@ nuanXinProPic/
 │   └── avatar/             # 头像
 ├── thumbnail/              # 壁纸缩略图（WebP，带水印）
 ├── preview/                # 壁纸预览图（WebP，无水印）
+├── metadata/               # 图片元数据（AI 分析结果）
+│   ├── desktop.json        # 电脑壁纸元数据
+│   ├── mobile.json         # 手机壁纸元数据
+│   └── avatar.json         # 头像元数据
+├── metadata-pending/       # 待处理的元数据（上传系统生成）
+├── data/                   # 前端分片数据（按分类）
+│   ├── desktop/            # 电脑壁纸分类数据
+│   ├── mobile/             # 手机壁纸分类数据
+│   └── avatar/             # 头像分类数据
 ├── bing/meta/              # Bing 每日壁纸元数据
 ├── scripts/                # 自动化脚本
+├── stats.json              # 壁纸统计和发布历史
 ├── timestamps-backup-all.txt  # 时间戳备份（自动维护）
 └── .github/workflows/      # GitHub Actions 配置
 ```
