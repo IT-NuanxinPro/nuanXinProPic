@@ -1,7 +1,7 @@
 {
   "version": 2,
   "series": "avatar",
-  "lastUpdated": "2026-01-17T11:27:09.346Z",
+  "lastUpdated": "2026-01-17T12:35:16.309Z",
   "count": 275,
   "images": {
     "wallpaper/avatar/IP形象/Hello Kitty/HelloKitty_好运.png": {
@@ -6508,7 +6508,8 @@
       },
       "ai": {
         "keywords": [
-          "樱花下女孩"
+          "樱花",
+          "女孩"
         ],
         "description": "",
         "displayTitle": "",
@@ -6533,7 +6534,8 @@
       },
       "ai": {
         "keywords": [
-          "少女与猫"
+          "少女",
+          "猫"
         ],
         "description": "",
         "displayTitle": "",
@@ -6558,7 +6560,8 @@
       },
       "ai": {
         "keywords": [
-          "草地女孩"
+          "草地",
+          "女孩"
         ],
         "description": "",
         "displayTitle": "",
@@ -6583,7 +6586,7 @@
       },
       "ai": {
         "keywords": [
-          "吻玫瑰"
+          "玫瑰"
         ],
         "description": "",
         "displayTitle": "",
@@ -6608,7 +6611,7 @@
       },
       "ai": {
         "keywords": [
-          "蓝裙少女"
+          "少女"
         ],
         "description": "",
         "displayTitle": "",
@@ -6633,8 +6636,8 @@
       },
       "ai": {
         "keywords": [
-          "牛牛拥抱",
-          "噜噜安心"
+          "牛牛黎深",
+          "噜噜"
         ],
         "description": "",
         "displayTitle": "",
@@ -6659,8 +6662,8 @@
       },
       "ai": {
         "keywords": [
-          "牛牛拍头",
-          "噜噜不满"
+          "牛牛黎深",
+          "噜噜"
         ],
         "description": "",
         "displayTitle": "",
@@ -6685,8 +6688,8 @@
       },
       "ai": {
         "keywords": [
-          "牛牛送花",
-          "噜噜害"
+          "牛牛黎深",
+          "噜噜"
         ],
         "description": "",
         "displayTitle": "",
@@ -6711,8 +6714,8 @@
       },
       "ai": {
         "keywords": [
-          "牛牛威严",
-          "噜噜躲闪"
+          "牛牛黎深",
+          "噜噜"
         ],
         "description": "",
         "displayTitle": "",
@@ -6737,8 +6740,8 @@
       },
       "ai": {
         "keywords": [
-          "高五击掌",
-          "开心"
+          "牛牛黎深",
+          "噜噜"
         ],
         "description": "",
         "displayTitle": "",
@@ -6763,8 +6766,8 @@
       },
       "ai": {
         "keywords": [
-          "牛牛生气",
-          "噜噜害怕"
+          "牛牛黎深",
+          "噜噜"
         ],
         "description": "",
         "displayTitle": "",
@@ -6789,8 +6792,8 @@
       },
       "ai": {
         "keywords": [
-          "牛牛指脸",
-          "噜噜害羞"
+          "牛牛黎深",
+          "噜噜"
         ],
         "description": "",
         "displayTitle": "",
@@ -6815,8 +6818,8 @@
       },
       "ai": {
         "keywords": [
-          "噜噜靠肩",
-          "牛牛无奈"
+          "牛牛黎深",
+          "噜噜"
         ],
         "description": "",
         "displayTitle": "",
@@ -6841,8 +6844,8 @@
       },
       "ai": {
         "keywords": [
-          "牛牛指脸",
-          "噜噜生气"
+          "牛牛黎深",
+          "噜噜"
         ],
         "description": "",
         "displayTitle": "",
@@ -6867,8 +6870,8 @@
       },
       "ai": {
         "keywords": [
-          "双人冷战",
-          "对峙"
+          "牛牛黎深",
+          "噜噜"
         ],
         "description": "",
         "displayTitle": "",
@@ -6893,8 +6896,8 @@
       },
       "ai": {
         "keywords": [
-          "双人跳跃",
-          "欢乐"
+          "牛牛黎深",
+          "噜噜"
         ],
         "description": "",
         "displayTitle": "",
@@ -6919,10 +6922,12 @@
       },
       "ai": {
         "keywords": [
-          "微信图片"
+          "萌系",
+          "骑行",
+          "粉色"
         ],
-        "description": "",
-        "displayTitle": "",
+        "description": "日漫风格可爱少女骑粉色摩托，绿眸灵动、神情鲜活，身旁小宠相伴，清新治愈。",
+        "displayTitle": "日漫萌系少女骑粉摩托.jpg",
         "confidence": 0,
         "model": "filename-inference",
         "analyzedAt": null
@@ -6944,14 +6949,17 @@
       },
       "ai": {
         "keywords": [
+          "张凌赫",
           "帅气",
-          "张凌赫"
+          "明星",
+          "演员"
         ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "description": "张凌赫帅气写真照片，展现了他的魅力和气质",
+        "displayTitle": "帅气张凌赫写真",
+        "confidence": 0.95,
+        "model": "gpt-4-vision",
+        "analyzedAt": "2026-01-17T12:00:00.000Z",
+        "aiFilename": "帅气-张凌赫.jpg"
       }
     }
   }

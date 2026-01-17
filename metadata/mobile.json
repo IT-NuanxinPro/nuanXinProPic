@@ -1,7 +1,7 @@
 {
   "version": 2,
   "series": "mobile",
-  "lastUpdated": "2026-01-17T11:27:09.344Z",
+  "lastUpdated": "2026-01-17T12:35:16.308Z",
   "count": 359,
   "images": {
     "wallpaper/mobile/IP形象/乌萨奇/乌萨奇&小八&小熊_睡衣裹被贴贴.png": {
@@ -9025,7 +9025,7 @@
     "wallpaper/mobile/风景/雪山/微信图片_20260116204142_22481_100.jpg": {
       "category": "风景",
       "subcategory": "雪山",
-      "filename": "微信图片_20260116204142_22481_100.jpg",
+      "filename": "秋林雪山沿湖公路.jpg",
       "createdAt": "2026-01-17T11:27:09.000Z",
       "cdnTag": "v1.1.36",
       "size": 353531,
@@ -9038,10 +9038,13 @@
       },
       "ai": {
         "keywords": [
-          "微信图片"
+          "雪山",
+          "湖泊",
+          "公路,",
+          "秋景"
         ],
-        "description": "",
-        "displayTitle": "",
+        "description": "峡湾湖畔雪山公路.jpg",
+        "displayTitle": "峡湾湖畔公路蜿蜒，雪山云雾缭绕，秋林浸染金黄，静谧壮美如诗。",
         "confidence": 0,
         "model": "filename-inference",
         "analyzedAt": null
