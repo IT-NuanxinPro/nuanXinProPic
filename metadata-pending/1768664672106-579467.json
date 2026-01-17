@@ -1,0 +1,373 @@
+{
+  "version": 1,
+  "createdAt": "2026-01-17T15:44:32.106Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/海滨/image_高级3D景深全屏壁纸张张质感拉满..._2.png",
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._2.png",
+      "createdAt": "2026-01-17T15:44:32.106Z",
+      "size": 462105,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "海滨",
+          "礁石",
+          "水下景观",
+          "乌云",
+          "蓝调"
+        ],
+        "description": "海面上下的礁石奇景，上承乌云压境，下映澄澈蓝海，光影交织尽显自然奇幻。",
+        "filenameSuggestions": [
+          "半海半礁的奇幻海滨.jpg",
+          "深海礁岩与乌云海景.jpg"
+        ],
+        "display_title": "沧溟礁影 明暗澄蓝",
+        "confidence": 0.9,
+        "reasoning": "图片呈现海洋（海滨）、礁石（含水下延伸）、乌云海景的自然景观，无人物/动漫元素，符合‘风景’二级分类；场景核心为海洋礁石（海滨典型元素），故三级归类‘海滨’。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/image_高级3D景深全屏壁纸张张质感拉满..._3.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._3.png",
+      "createdAt": "2026-01-17T15:44:32.106Z",
+      "size": 203378,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "JK制服",
+          "云海日出",
+          "治愈",
+          "人像"
+        ],
+        "description": "山间云海日出作幕，JK少女姿态舒展，画面明亮治愈，满溢氧气感。",
+        "filenameSuggestions": [
+          "云海山间的清新JK少女.jpg",
+          "日出时分的治愈系JK女孩.jpg"
+        ],
+        "display_title": "云海日出下的清新JK少女",
+        "confidence": 0.9,
+        "reasoning": "检测到人物穿JK制服（非性感类），背景云海日出光线明亮、氛围治愈氧气感强，无胶片感/低对比度等日系特征，根据规则A4，判定为[清新]而非[日系]，且无明星、古装、魅力类特征，故归入人像/清新。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/image_高级3D景深全屏壁纸张张质感拉满..._1.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._1.png",
+      "createdAt": "2026-01-17T15:44:32.106Z",
+      "size": 246374,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "人像",
+          "魅力",
+          "蓝天背景",
+          "时尚穿搭",
+          "青春感"
+        ],
+        "description": "蓝天为幕，少女着紧身白T与破洞牛仔，仰拍视角尽显青春时尚魅力。",
+        "filenameSuggestions": [
+          "晴空下的紧身衣牛仔少女.jpg",
+          "蓝天视角的破洞牛仔穿搭.jpg"
+        ],
+        "display_title": "晴空下的青春魅力",
+        "confidence": 0.9,
+        "reasoning": "图片为真人拍摄，无特定明星/古装；因紧身衣展示身材曲线、穿搭具吸引力，符合'魅力'类定义（优先级高于清新），故归入人像/魅力。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/image_高级3D景深全屏壁纸张张质感拉满..._5.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._5.png",
+      "createdAt": "2026-01-17T15:44:32.106Z",
+      "size": 272893,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "露肩",
+          "紧身衣",
+          "办公场景",
+          "黑框眼镜"
+        ],
+        "description": "一位身着露肩紧身白衫、佩戴黑框镜的少女，专注于办公，以身材曲线与成熟气质传递吸引力。",
+        "filenameSuggestions": [
+          "露肩白衫的魅力办公少女.jpg",
+          "黑框镜下的紧身衣佳人.jpg"
+        ],
+        "display_title": "白衫凝眸的魅力瞬间",
+        "confidence": 0.9,
+        "reasoning": "人物身着露肩紧身衣，明确展示身材曲线、传递成熟吸引力，符合'魅力'类（强调身材曲线、成熟美、吸引力）的定义，故归入人像-魅力；现有分类可精准匹配，无需向下匹配其他子类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/image_高级3D景深全屏壁纸张张质感拉满..._7.png",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._7.png",
+      "createdAt": "2026-01-17T15:44:32.106Z",
+      "size": 427373,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "金箍棒",
+          "奇幻插画",
+          "宇宙黑洞",
+          "创意美学",
+          "星空"
+        ],
+        "description": "创意插画，定海神针（金箍棒）插入星云黑洞，星河云浪环绕，东方奇幻与宇宙美学交融",
+        "filenameSuggestions": [
+          "星河玄渊定海神针.jpg",
+          "奇幻金箍棒宇宙插画.jpg"
+        ],
+        "display_title": "星河玄渊·定海神针",
+        "confidence": 0.9,
+        "reasoning": "图片为绘画感强的创意插画，描绘如意金箍棒与宇宙黑洞/星云的奇幻结合，符合“插画-创意”的分类特征；因核心IP《西游记》未在现有列表，故提案补充动漫/西游记分类"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/image_高级3D景深全屏壁纸张张质感拉满..._8.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._8.png",
+      "createdAt": "2026-01-17T15:44:32.106Z",
+      "size": 179670,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "白丝",
+          "露肩",
+          "清新",
+          "人像"
+        ],
+        "description": "少女身着米白露肩裙，搭配白丝，于明亮走廊自拍，身姿优雅，氛围清新又具吸引力",
+        "filenameSuggestions": [
+          "白丝露肩裙魅力少女.jpg",
+          "走廊自拍优雅美少女.jpg"
+        ],
+        "display_title": "阳光下的魅力少女",
+        "confidence": 0.9,
+        "reasoning": "图片含白丝、露肩设计（展示身材曲线），符合'魅力'分类核心特征；画面明亮、构图干净，兼具清新感，故优先归类人像/魅力"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/爱国主题/image_高级3D景深全屏壁纸张张质感拉满..._9.png",
+      "category": "创意",
+      "subcategory": "爱国主题",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._9.png",
+      "createdAt": "2026-01-17T15:44:32.106Z",
+      "size": 533288,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "爱国主题",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "爱国主题",
+        "keywords": [
+          "爱国主题",
+          "建筑",
+          "气球",
+          "白鸽",
+          "华彩"
+        ],
+        "description": "以国徽建筑为核，气球白鸽翱翔，天坛相映，展现家国庆典的华彩盛景。",
+        "filenameSuggestions": [
+          "爱国主题建筑气球白鸽壁纸.jpg",
+          "天坛大会堂庆典主题壁纸.jpg"
+        ],
+        "display_title": "家国同辉 华彩盛景",
+        "confidence": 0.9,
+        "reasoning": "图片包含国徽（爱国象征）、彩色气球、白鸽（庆典元素）及人民大会堂、天坛（中国标志性建筑），符合创意类“爱国主题”的特征，故归类为创意/爱国主题。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/image_高级3D景深全屏壁纸张张质感拉满..._14.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._14.png",
+      "createdAt": "2026-01-17T15:44:32.106Z",
+      "size": 621228,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "人像",
+          "治愈",
+          "氧气感",
+          "白衬衫"
+        ],
+        "description": "白衬衫少女发丝温柔，画面明亮治愈，尽显清新氧气感，传递温柔治愈氛围。",
+        "filenameSuggestions": [
+          "清新氧气感长发少女.jpg",
+          "白衬衫温柔治愈系人像.jpg"
+        ],
+        "display_title": "氧气感少女的温柔瞬间",
+        "confidence": 0.9,
+        "reasoning": "图片为人物肖像，画面明亮、色彩自然，给人治愈氧气感，符合「清新」类‘明亮、治愈、氧气感’的特征，故归入人像/清新。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/蜡笔小新/image_高级3D景深全屏壁纸张张质感拉满..._10.png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._10.png",
+      "createdAt": "2026-01-17T15:44:32.106Z",
+      "size": 124051,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动漫",
+          "卡通形象"
+        ],
+        "description": "蜡笔小新以蹲姿呈现，红衫黄裤搭配，黑瞳粉腮，背景简约，尽显童趣俏皮。",
+        "filenameSuggestions": [
+          "俏皮蹲姿蜡笔小新.jpg",
+          "红衫黄裤蜡笔小新.jpg"
+        ],
+        "display_title": "俏皮蹲姿的蜡笔小新",
+        "confidence": 0.9,
+        "reasoning": "识别出角色为《蜡笔小新》中的野原新之助，符合动漫类特定IP的判定规则，故归类至'动漫/蜡笔小新'。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/国风/image_高级3D景深全屏壁纸张张质感拉满..._11.png",
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._11.png",
+      "createdAt": "2026-01-17T15:44:32.106Z",
+      "size": 461730,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "和服",
+          "刺青",
+          "插画",
+          "国风",
+          "武士刀"
+        ],
+        "description": "数字绘画作品，暗夜背景下露背刺青的和服少女持武士刀，日式国风风格，绘画感强烈",
+        "filenameSuggestions": [
+          "暗夜和服刺青姬.jpg",
+          "日式国风插画少女.jpg"
+        ],
+        "display_title": "暗夜和服刺青姬",
+        "confidence": 0.9,
+        "reasoning": "图片为数字绘画（非真实人像/动画截图），绘画感强，含和服、武士刀等日式传统元素，符合插画-国风分类逻辑；人物露背刺青、姿态撩人，兼具魅力特征，但因绘画属性优先归为插画"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/image_高级3D景深全屏壁纸张张质感拉满..._13.png",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._13.png",
+      "createdAt": "2026-01-17T15:44:32.106Z",
+      "size": 347701,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "创意插画",
+          "月夜",
+          "光影",
+          "海面",
+          "梦幻"
+        ],
+        "description": "月牙倾泻金辉如瀑，落海成熠熠星途，云暗海幽，氛围感十足的创意插画。",
+        "filenameSuggestions": [
+          "月垂金瀑海引星途.jpg",
+          "金辉落海梦幻月夜.jpg"
+        ],
+        "display_title": "月垂金瀑 海引星途",
+        "confidence": 0.9,
+        "reasoning": "画面为绘画感的创意场景（月牙、金色光点、海面、云朵），无特定IP或明星，符合插画类的创意风格特征，故归类为插画/创意。"
+      }
+    }
+  ]
+}
