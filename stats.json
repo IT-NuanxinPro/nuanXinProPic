@@ -1,331 +1,44 @@
 {
-  "total": {
-    "desktop": 330,
-    "mobile": 358,
-    "avatar": 273,
-    "bing": 2427
-  },
-  "lastUpdated": 1768584357.243765,
-  "releases": [
-    {
-      "tag": "v1.1.35",
-      "date": "2026-01-17",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
+  "lastUpdated": "2026-01-17T07:27:11.739Z",
+  "cdnTag": "v1.1.35",
+  "series": {
+    "desktop": {
+      "count": 330,
+      "categories": [
+        "动漫",
+        "插画",
+        "人像",
+        "风景",
+        "IP形象",
+        "萌宠",
+        "游戏",
+        "影视",
+        "政治"
+      ]
     },
-    {
-      "tag": "v1.1.34",
-      "date": "2026-01-16",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
+    "mobile": {
+      "count": 358,
+      "categories": [
+        "人像",
+        "影视",
+        "动漫",
+        "风景",
+        "萌宠",
+        "创意",
+        "IP形象",
+        "插画"
+      ]
     },
-    {
-      "tag": "v1.1.33",
-      "date": "2026-01-15",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 11
-      },
-      "publisher": "IT-NuanXin"
-    },
-    {
-      "tag": "v1.1.32",
-      "date": "2026-01-15",
-      "added": {
-        "desktop": 17,
-        "mobile": 2,
-        "avatar": 0
-      },
-      "publisher": "IT-NuanXin"
-    },
-    {
-      "tag": "v1.1.31",
-      "date": "2026-01-15",
-      "added": {
-        "desktop": 29,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
-    },
-    {
-      "tag": "v1.1.30",
-      "date": "2026-01-15",
-      "added": {
-        "desktop": 3,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 0
-      },
-      "publisher": "IT-NuanXin"
-    },
-    {
-      "tag": "v1.1.29",
-      "date": "2026-01-14",
-      "added": {
-        "desktop": 12,
-        "mobile": 2,
-        "avatar": 9,
-        "bing": 0
-      },
-      "publisher": "IT-NuanXin"
-    },
-    {
-      "tag": "v1.1.28",
-      "date": "2026-01-14",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
-    },
-    {
-      "tag": "v1.1.27",
-      "date": "2026-01-14",
-      "added": {
-        "desktop": 21,
-        "mobile": 2,
-        "avatar": 0,
-        "bing": 0
-      },
-      "publisher": "IT-NuanxinPro"
-    },
-    {
-      "tag": "v1.1.26",
-      "date": "2026-01-13",
-      "added": {
-        "desktop": 0,
-        "mobile": 1,
-        "avatar": 4,
-        "bing": 1
-      },
-      "publisher": ""
-    },
-    {
-      "tag": "v1.1.25",
-      "date": "2026-01-12",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
-    },
-    {
-      "tag": "v1.1.24",
-      "date": "2026-01-12",
-      "added": {
-        "desktop": 0,
-        "mobile": 121,
-        "avatar": 59,
-        "bing": 1
-      }
-    },
-    {
-      "tag": "v1.1.23",
-      "date": "2026-01-11",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
-    },
-    {
-      "tag": "v1.1.22",
-      "date": "2026-01-11",
-      "added": {
-        "desktop": 36,
-        "mobile": 22,
-        "avatar": 62,
-        "bing": 1
-      }
-    },
-    {
-      "tag": "v1.1.21",
-      "date": "2026-01-11",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
-    },
-    {
-      "tag": "v1.1.20",
-      "date": "2026-01-10",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
-    },
-    {
-      "tag": "v1.1.19",
-      "date": "2026-01-10",
-      "added": {
-        "desktop": 0,
-        "mobile": 1,
-        "avatar": 0,
-        "bing": 1
-      }
-    },
-    {
-      "tag": "v1.1.18",
-      "date": "2026-01-09",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 1,
-        "bing": 1
-      }
-    },
-    {
-      "tag": "v1.1.17",
-      "date": "2026-01-09",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
-    },
-    {
-      "tag": "v1.1.16",
-      "date": "2026-01-08",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
-    },
-    {
-      "tag": "v1.1.15",
-      "date": "2026-01-07",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
-    },
-    {
-      "tag": "v1.1.14",
-      "date": "2026-01-07",
-      "added": {
-        "desktop": 3,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      }
-    },
-    {
-      "tag": "v1.1.13",
-      "date": "2026-01-06",
-      "added": {
-        "desktop": 47,
-        "mobile": 0,
-        "avatar": 12,
-        "bing": 1
-      }
-    },
-    {
-      "tag": "v1.1.12",
-      "date": "2026-01-06",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
-    },
-    {
-      "tag": "v1.1.11",
-      "date": "2026-01-05",
-      "added": {
-        "desktop": 0,
-        "mobile": 122,
-        "avatar": 75,
-        "bing": 1
-      }
-    },
-    {
-      "tag": "v1.1.10",
-      "date": "2026-01-04",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
-    },
-    {
-      "tag": "v1.1.9",
-      "date": "2026-01-04",
-      "added": {
-        "desktop": 36,
-        "mobile": 13,
-        "avatar": 0,
-        "bing": 1
-      }
-    },
-    {
-      "tag": "v1.1.8",
-      "date": "2026-01-01",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
-    },
-    {
-      "tag": "v1.1.7",
-      "date": "2026-01-01",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
-    },
-    {
-      "tag": "v1.1.6",
-      "date": "2026-01-01",
-      "added": {
-        "desktop": 0,
-        "mobile": 0,
-        "avatar": 0,
-        "bing": 1
-      },
-      "publisher": "github-actions[bot]"
+    "avatar": {
+      "count": 273,
+      "categories": [
+        "动漫",
+        "人像",
+        "IP形象",
+        "插画",
+        "表情包",
+        "萌宠"
+      ]
     }
-  ]
+  }
 }
