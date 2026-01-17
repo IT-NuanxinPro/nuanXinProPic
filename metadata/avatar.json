@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "avatar",
-  "lastUpdated": "2026-01-17T07:27:11.737Z",
-  "count": 273,
+  "lastUpdated": "2026-01-17T11:27:09.346Z",
+  "count": 275,
   "images": {
     "wallpaper/avatar/IP形象/Hello Kitty/HelloKitty_好运.png": {
       "category": "IP形象",
@@ -6895,6 +6895,57 @@
         "keywords": [
           "双人跳跃",
           "欢乐"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/avatar/动漫/日漫/微信图片_20260116220358_22518_100.jpg": {
+      "category": "动漫",
+      "subcategory": "日漫",
+      "filename": "微信图片_20260116220358_22518_100.jpg",
+      "createdAt": "2026-01-17T11:27:09.000Z",
+      "cdnTag": "v1.1.36",
+      "size": 257105,
+      "format": "jpg",
+      "resolution": {
+        "width": 1024,
+        "height": 1113,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "keywords": [
+          "微信图片"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/avatar/人像/张凌赫/帅气-张凌赫.jpg": {
+      "category": "人像",
+      "subcategory": "张凌赫",
+      "filename": "帅气-张凌赫.jpg",
+      "createdAt": "2026-01-17T11:27:09.000Z",
+      "cdnTag": "v1.1.36",
+      "size": 452684,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "keywords": [
+          "帅气",
+          "张凌赫"
         ],
         "description": "",
         "displayTitle": "",

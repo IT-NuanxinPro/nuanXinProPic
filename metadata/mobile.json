@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "mobile",
-  "lastUpdated": "2026-01-17T07:27:11.736Z",
-  "count": 358,
+  "lastUpdated": "2026-01-17T11:27:09.344Z",
+  "count": 359,
   "images": {
     "wallpaper/mobile/IP形象/乌萨奇/乌萨奇&小八&小熊_睡衣裹被贴贴.png": {
       "category": "IP形象",
@@ -9014,6 +9014,31 @@
       "ai": {
         "keywords": [
           "温柔侧颜"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/mobile/风景/雪山/微信图片_20260116204142_22481_100.jpg": {
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "微信图片_20260116204142_22481_100.jpg",
+      "createdAt": "2026-01-17T11:27:09.000Z",
+      "cdnTag": "v1.1.36",
+      "size": 353531,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2341,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "keywords": [
+          "微信图片"
         ],
         "description": "",
         "displayTitle": "",

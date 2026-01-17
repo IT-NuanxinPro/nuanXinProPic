@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-17T07:27:11.739Z",
-  "cdnTag": "v1.1.35",
+  "lastUpdated": 1768649229.630503,
+  "cdnTag": "v1.1.36",
   "series": {
     "desktop": {
       "count": 330,
@@ -17,7 +17,7 @@
       ]
     },
     "mobile": {
-      "count": 358,
+      "count": 359,
       "categories": [
         "人像",
         "影视",
@@ -30,7 +30,7 @@
       ]
     },
     "avatar": {
-      "count": 273,
+      "count": 275,
       "categories": [
         "动漫",
         "人像",
@@ -40,5 +40,22 @@
         "萌宠"
       ]
     }
-  }
+  },
+  "total": {
+    "desktop": 330,
+    "mobile": 359,
+    "avatar": 275
+  },
+  "releases": [
+    {
+      "tag": "v1.1.36",
+      "date": "2026-01-17",
+      "added": {
+        "desktop": 0,
+        "mobile": 1,
+        "avatar": 2
+      },
+      "publisher": "IT-NuanXin"
+    }
+  ]
 }
