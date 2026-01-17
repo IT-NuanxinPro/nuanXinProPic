@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "createdAt": "2026-01-17T15:47:21.765Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/IP形象/水豚噜噜/橘顶噜噜破璃萌现.png",
+      "category": "IP形象",
+      "subcategory": "水豚噜噜",
+      "filename": "橘顶噜噜破璃萌现.png",
+      "createdAt": "2026-01-17T15:47:21.766Z",
+      "size": 253555,
+      "format": "png",
+      "ai": {
+        "keywords": [
+          "橘顶噜噜破璃萌现"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "filename": "",
+        "confidence": 0,
+        "model": "none",
+        "analyzedAt": null
+      }
+    }
+  ]
+}
