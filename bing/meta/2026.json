@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 19,
+  "total": 20,
   "items": [
+    {
+      "date": "2026-01-20",
+      "title": "冬季里的呆萌小可爱",
+      "copyright": "栖息在树枝上的北长尾山雀，大庆市，中国黑龙江省 (© Visual China Group/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%A4%A7%E5%AF%92%E8%8A%82%E6%B0%94&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260119_TheGreatColdY25%22&FORM=HPQUIZ",
+      "hsh": "087049716999ffecbb2e662b46bf921e",
+      "urlbase": "/th?id=OHR.TheGreatColdY25_ZH-CN7239762815"
+    },
     {
       "date": "2026-01-19",
       "title": "大自然的波普艺术",
@@ -174,5 +183,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-01-18T17:17:47.229Z"
+  "updatedAt": "2026-01-19T17:24:18.974Z"
 }
