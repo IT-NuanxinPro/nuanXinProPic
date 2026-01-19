@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "createdAt": "2026-01-19T02:08:07.102Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/卡通简笔画/微信图片_20260119095916_475_4.jpg",
+      "category": "人像",
+      "subcategory": "卡通简笔画",
+      "filename": "微信图片_20260119095916_475_4.jpg",
+      "createdAt": "2026-01-19T02:08:07.102Z",
+      "size": 137913,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "卡通简笔画",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "卡通简笔画",
+        "keywords": [
+          "Q版",
+          "萌系",
+          "卡通女孩",
+          "大灰猫",
+          "热饮"
+        ],
+        "description": "Q版萌系女孩戴猫形帽，坐慵懒大灰猫上，手持热饮，暖色调氛围治愈可爱。",
+        "filenameSuggestions": [
+          "萌系女孩坐大灰猫喝热饮.jpg",
+          "戴猫帽Q版女孩与大猫.jpg"
+        ],
+        "displayTitle": "萌系女孩与慵懒大猫",
+        "confidence": 0.9,
+        "reasoning": "图片主体为Q版、可爱风格的卡通女孩（非写实），符合人像/卡通简笔画的特征，故归类。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/IP形象/通用/微信图片_20260119095917_476_4.jpg",
+      "category": "IP形象",
+      "subcategory": "通用",
+      "filename": "微信图片_20260119095917_476_4.jpg",
+      "createdAt": "2026-01-19T02:08:07.102Z",
+      "size": 162328,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "avatar",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "马里奥",
+          "卡通",
+          "骑行",
+          "萌系",
+          "IP形象"
+        ],
+        "description": "超级马里奥骑单车，伴星星与彩屑，童趣满溢的卡通IP形象。",
+        "filenameSuggestions": [
+          "童趣马里奥骑行卡通形象.jpg",
+          "欢乐马里奥骑单车萌系IP.jpg"
+        ],
+        "displayTitle": "童趣马里奥骑行记",
+        "confidence": 0.9,
+        "reasoning": "识别出图中角色为知名IP《超级马里奥》的卡通形象，因现有IP形象分类无对应子类，根据规则A1（特定IP需归入对应子类），需提案新增[IP形象/马里奥]分类"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/表情包/搞怪/微信图片_20260119095920_479_4.jpg",
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "微信图片_20260119095920_479_4.jpg",
+      "createdAt": "2026-01-19T02:08:07.102Z",
+      "size": 170177,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "搞怪",
+          "猫咪",
+          "墨镜",
+          "卡通",
+          "表情包"
+        ],
+        "description": "粉色背景下，戴墨镜抱臂的卡通橘猫，姿态傲娇搞怪，适配聊天情绪表达。",
+        "filenameSuggestions": [
+          "搞怪墨镜橘猫表情包.jpg",
+          "傲娇抱臂猫咪搞怪图.jpg"
+        ],
+        "displayTitle": "搞怪墨镜橘猫表情包",
+        "confidence": 0.9,
+        "reasoning": "图片展示搞怪姿态（抱臂、墨镜）的卡通猫咪，符合表情包“搞怪风格、用于聊天情绪表达”的核心特征，故归类为表情包/搞怪。"
+      }
+    }
+  ]
+}
