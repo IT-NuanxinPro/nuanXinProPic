@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "mobile",
-  "lastUpdated": "2026-01-20T08:56:31.113Z",
-  "count": 371,
+  "lastUpdated": "2026-01-20T09:29:52.776Z",
+  "count": 392,
   "images": {
     "wallpaper/mobile/IP形象/乌萨奇/乌萨奇&小八&小熊_睡衣裹被贴贴.png": {
       "category": "IP形象",
@@ -9490,6 +9490,804 @@
         "confidence": 0,
         "model": "none",
         "analyzedAt": null
+      }
+    },
+    "wallpaper/mobile/插画/创意/微信图片_20260120161619_503_4.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_20260120161619_503_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 456978,
+      "format": "jpg",
+      "resolution": {
+        "width": 843,
+        "height": 1498,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "治愈系",
+          "卡通螃蟹",
+          "手绘插画",
+          "微笑",
+          "举花"
+        ],
+        "description": "可爱红蟹手持黄花笑意盈盈，配文字‘生活很忙，别忘了微笑’，传递温暖治愈力量。",
+        "filenameSuggestions": [
+          "举花微笑的治愈红蟹.jpg",
+          "可爱卡通螃蟹手绘插画.jpg"
+        ],
+        "displayTitle": "持花微笑的红蟹治愈时光",
+        "confidence": 0.9,
+        "reasoning": "图片为手绘卡通螃蟹（非特定IP），含文字与创意设计，符合‘插画-创意’分类；同时作为原创卡通角色，新提案归入‘IP形象-卡通角色’更精准"
+      }
+    },
+    "wallpaper/mobile/插画/国风/微信图片_20260120161620_504_4.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "微信图片_20260120161620_504_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 623064,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2275,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "卡通鸡",
+          "爱己箴言",
+          "励志壁纸",
+          "中式马甲"
+        ],
+        "description": "卡通公鸡身着国风马甲，配爱己箴言，传递治愈励志的中式美学。",
+        "filenameSuggestions": [
+          "穿国风马甲的励志小鸡.jpg",
+          "携爱己箴言的卡通公鸡.jpg"
+        ],
+        "displayTitle": "国风小鸡的爱己箴言",
+        "confidence": 0.9,
+        "reasoning": "图为手绘插画，含中国传统服饰（国风马甲）、中式花纹，无特定明星/IP，符合「插画→国风」分类逻辑。"
+      }
+    },
+    "wallpaper/mobile/IP形象/卡通角色/微信图片_20260120161621_505_4.jpg": {
+      "category": "IP形象",
+      "subcategory": "卡通角色",
+      "filename": "微信图片_20260120161621_505_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 1569998,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2336,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "卡通角色",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "卡通角色",
+        "keywords": [
+          "达菲熊",
+          "IP形象",
+          "烟花",
+          "童话建筑",
+          "治愈"
+        ],
+        "description": "迪士尼IP角色达菲熊与伙伴立于童话建筑消防梯，共赏绚烂烟花，暖光装饰营造温馨治愈氛围。",
+        "filenameSuggestions": [
+          "达菲熊烟花建筑壁纸.jpg",
+          "卡通角色夜景眺望壁纸.jpg"
+        ],
+        "displayTitle": "烟花下的达菲熊伙伴",
+        "confidence": 0.9,
+        "reasoning": "1. 核心元素为迪士尼IP角色（达菲熊系列），符合「IP形象」类特征；2. 现有三级分类无该IP细分，暂以「卡通角色」兜底；3. 画面含童话建筑、烟花、暖光装饰，风格治愈，需补充IP细分以提升归类精准度"
+      }
+    },
+    "wallpaper/mobile/风景/星空/微信图片_20260120161623_506_4.jpg": {
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "微信图片_20260120161623_506_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 2102369,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2781,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "烟花",
+          "夜景",
+          "星空",
+          "水面",
+          "盛典"
+        ],
+        "description": "夜空绽放绚烂烟花，水面倒映璀璨光影，一场梦幻的烟花视觉盛宴。",
+        "filenameSuggestions": [
+          "夜空绚烂烟花秀.jpg",
+          "水面倒影烟花盛典.jpg"
+        ],
+        "displayTitle": "夜空花火映水间",
+        "confidence": 0.9,
+        "reasoning": "图片无人物、非动漫/插画，判定为风景类；现有风景三级无“烟花”，因烟花属夜空景观暂归“星空”，故提案新增风景-烟花分类。"
+      }
+    },
+    "wallpaper/mobile/IP形象/卡通角色/微信图片_20260120161624_507_4.jpg": {
+      "category": "IP形象",
+      "subcategory": "卡通角色",
+      "filename": "微信图片_20260120161624_507_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 146573,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2773,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "卡通角色",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "卡通角色",
+        "keywords": [
+          "咱们裸熊",
+          "卡通角色",
+          "趣味堆叠",
+          "森林",
+          "治愈"
+        ],
+        "description": "《咱们裸熊》中棕熊、熊猫、白熊趣味堆叠前行，森林背景清新治愈，适配手机壁纸。",
+        "filenameSuggestions": [
+          "森林里堆叠的裸熊三兄弟.jpg",
+          "咱们裸熊趣味出行.jpg"
+        ],
+        "displayTitle": "森林间的裸熊堆叠趣景",
+        "confidence": 0.9,
+        "reasoning": "图片为《咱们裸熊》的IP角色组合，符合‘IP形象’二级分类下的‘卡通角色’特征；因该IP属知名动漫，现有动漫分类未涵盖，故提案补充‘动漫/咱们裸熊’子类"
+      }
+    },
+    "wallpaper/mobile/IP形象/卡通角色/微信图片_20260120161625_508_4.jpg": {
+      "category": "IP形象",
+      "subcategory": "卡通角色",
+      "filename": "微信图片_20260120161625_508_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 122655,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2773,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "卡通角色",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "卡通角色",
+        "keywords": [
+          "咱们裸熊",
+          "IP形象",
+          "卡通角色",
+          "治愈系",
+          "动漫风"
+        ],
+        "description": "《咱们裸熊》IP形象组图，三只萌熊趣味互动，色彩清新治愈，适配手机壁纸场景。",
+        "filenameSuggestions": [
+          "咱们裸熊趣味组合.jpg",
+          "三只裸熊搞怪日常.jpg"
+        ],
+        "displayTitle": "咱们裸熊 趣味同行",
+        "confidence": 0.9,
+        "reasoning": "图片呈现《咱们裸熊》的卡通角色（白熊、熊猫、棕熊），属于知名IP形象；二级分类命中「IP形象」，三级分类命中「卡通角色」，符合分类体系规则。"
+      }
+    },
+    "wallpaper/mobile/IP形象/卡通角色/微信图片_20260120161626_509_4.jpg": {
+      "category": "IP形象",
+      "subcategory": "卡通角色",
+      "filename": "微信图片_20260120161626_509_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 102497,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2773,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "卡通角色",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "卡通角色",
+        "keywords": [
+          "咱们裸熊",
+          "卡通IP",
+          "治愈系",
+          "草地",
+          "动漫角色"
+        ],
+        "description": "三只《咱们裸熊》IP角色于绿草地上互动，蓝天为幕、繁花点缀，氛围轻松治愈。",
+        "filenameSuggestions": [
+          "咱们裸熊草地互动.jpg",
+          "卡通熊 trio 趣味壁纸.jpg"
+        ],
+        "displayTitle": "咱们裸熊草地嬉戏壁纸",
+        "confidence": 0.9,
+        "reasoning": "图片展示《咱们裸熊》的卡通IP角色，符合「IP形象」二级分类下的「卡通角色」三级分类；因现有动漫三级分类无该IP，故提案补充对应分类以完善体系。"
+      }
+    },
+    "wallpaper/mobile/IP形象/卡通角色/微信图片_20260120161626_510_4.jpg": {
+      "category": "IP形象",
+      "subcategory": "卡通角色",
+      "filename": "微信图片_20260120161626_510_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 86557,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2773,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "通用",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "通用",
+        "third": "通用",
+        "keywords": [
+          "咱们裸熊",
+          "动漫壁纸",
+          "背影",
+          "黄昏",
+          "治愈"
+        ],
+        "description": "《咱们裸熊》动漫主题壁纸，三只裸熊背影伫立在渐变黄昏场景中，暖色调氛围传递治愈感，适配手机桌面。",
+        "filenameSuggestions": [
+          "咱们裸熊黄昏背影壁纸.jpg",
+          "裸熊三兄弟治愈壁纸.jpg"
+        ],
+        "displayTitle": "咱们裸熊·黄昏背影同框",
+        "confidence": 0.9,
+        "reasoning": "图片核心元素为《咱们裸熊》的动漫角色（三只裸熊背影），属于动漫内容范畴；因现有动漫三级分类无'咱们裸熊'子类，暂归入'通用'；经IP识别与风格分析，该内容具备独特性，建议在动漫三级分类补充'咱们裸熊'子类以精准归类。"
+      }
+    },
+    "wallpaper/mobile/IP形象/卡通角色/微信图片_20260120161627_511_4.jpg": {
+      "category": "IP形象",
+      "subcategory": "卡通角色",
+      "filename": "微信图片_20260120161627_511_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 146954,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2773,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "卡通角色",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "卡通角色",
+        "keywords": [
+          "咱们裸熊",
+          "卡通角色",
+          "治愈系",
+          "IP形象",
+          "动漫风"
+        ],
+        "description": "三只裸熊IP角色并肩而立，清新自然场景衬托，传递治愈感的手机壁纸。",
+        "filenameSuggestions": [
+          "咱们裸熊三熊同框壁纸.jpg",
+          "萌熊IP卡通冒险壁纸.jpg"
+        ],
+        "displayTitle": "咱们裸熊·同游小景",
+        "confidence": 0.9,
+        "reasoning": "图片呈现《咱们裸熊》的卡通IP角色，符合「IP形象-卡通角色」分类逻辑；因该IP为知名动漫IP且现有动漫分类无对应子项，故提案新增「动漫/咱们裸熊」以优化分类体系。"
+      }
+    },
+    "wallpaper/mobile/动漫/通用/微信图片_20260120161628_512_4.jpg": {
+      "category": "动漫",
+      "subcategory": "通用",
+      "filename": "微信图片_20260120161628_512_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 104136,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2773,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "通用",
+        "keywords": [
+          "咱们裸熊",
+          "动漫IP",
+          "萌趣角色",
+          "手机壁纸",
+          "三熊同行"
+        ],
+        "description": "画面展示《咱们裸熊》中白熊、棕熊、熊猫并肩而立的场景，蓝天为幕，角色神态鲜活治愈，适配手机使用。",
+        "filenameSuggestions": [
+          "咱们裸熊三熊同行壁纸.jpg",
+          "萌趣三熊咱们裸熊手机壁纸.jpg"
+        ],
+        "displayTitle": "咱们裸熊·三熊萌趣同行",
+        "confidence": 0.9,
+        "reasoning": "图片为动漫《咱们裸熊》的角色群像，符合“动漫”二级分类特征；因现有动漫三级分类无对应IP项，故提案新增“咱们裸熊”子类，角色萌趣、场景简洁适配手机壁纸场景。"
+      }
+    },
+    "wallpaper/mobile/风景/建筑/微信图片_20260120161629_513_4.jpg": {
+      "category": "风景",
+      "subcategory": "建筑",
+      "filename": "微信图片_20260120161629_513_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 141413,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2773,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "建筑",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "建筑",
+        "keywords": [
+          "夜景",
+          "桥梁",
+          "城市建筑",
+          "新月",
+          "车流"
+        ],
+        "description": "新月悬于深蓝夜空，跨海大桥车流如金色丝带，城市建筑群灯火璀璨，夜色静谧而绚烂。",
+        "filenameSuggestions": [
+          "月夜跨海大桥城市夜景.jpg",
+          "新月下的桥梁车流与城景.jpg"
+        ],
+        "displayTitle": "新月悬夜 桥灯织城",
+        "confidence": 0.9,
+        "reasoning": "图片呈现城市桥梁、建筑群、夜景车流与新月，无人物/动漫元素，符合‘风景-建筑’的场景定义。"
+      }
+    },
+    "wallpaper/mobile/风景/海滨/微信图片_20260120161630_514_4.jpg": {
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "微信图片_20260120161630_514_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 171429,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2773,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "黑白",
+          "海滨",
+          "海浪礁石",
+          "静谧",
+          "风景"
+        ],
+        "description": "黑白色调下，海浪拍击礁石，海面辽阔朦胧，勾勒出静谧的海滨意境。",
+        "filenameSuggestions": [
+          "黑白色调浪拍礁石.jpg",
+          "海滨岩石海浪特写.jpg"
+        ],
+        "displayTitle": "浪击礁石的黑白海滨",
+        "confidence": 0.9,
+        "reasoning": "图片无人物、动漫元素，内容为海边岩石与海浪的真实风景，符合‘风景’二级分类；三级分类中‘海滨’精准匹配海洋、礁石的场景特征，故归类为‘风景/海滨’。"
+      }
+    },
+    "wallpaper/mobile/IP形象/卡通角色/微信图片_20260120161631_515_4.jpg": {
+      "category": "IP形象",
+      "subcategory": "卡通角色",
+      "filename": "微信图片_20260120161631_515_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 71984,
+      "format": "jpg",
+      "resolution": {
+        "width": 540,
+        "height": 1172,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "卡通角色",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "卡通角色",
+        "keywords": [
+          "花生漫画",
+          "史努比",
+          "IP形象",
+          "马卡龙",
+          "治愈系"
+        ],
+        "description": "画面展示花生漫画IP角色造型的马卡龙甜点，色彩柔和童趣盎然，创意与治愈感兼具。",
+        "filenameSuggestions": [
+          "花生漫画角色马卡龙甜点.jpg",
+          "萌趣史努比系列马卡龙.jpg"
+        ],
+        "displayTitle": "治愈系花生漫画IP马卡龙",
+        "confidence": 0.9,
+        "reasoning": "图片主体为花生漫画（史努比系列）卡通角色造型的马卡龙，属于IP形象类内容；现有IP形象三级分类中“卡通角色”为兜底选项，故优先归入，同时提案补充该IP的细分分类。"
+      }
+    },
+    "wallpaper/mobile/影视/猫和老鼠/微信图片_20260120161632_516_4.jpg": {
+      "category": "影视",
+      "subcategory": "猫和老鼠",
+      "filename": "微信图片_20260120161632_516_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 100271,
+      "format": "jpg",
+      "resolution": {
+        "width": 813,
+        "height": 1427,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "影视",
+        "subcategory": "猫和老鼠",
+        "primary": "mobile",
+        "secondary": "影视",
+        "third": "猫和老鼠",
+        "keywords": [
+          "猫和老鼠",
+          "月夜",
+          "泛舟",
+          "动漫",
+          "夜景"
+        ],
+        "description": "汤姆与杰瑞同乘扁舟，于月夜湖面上共赏星河，静谧美好。",
+        "filenameSuggestions": [
+          "月夜湖面小船里的汤姆杰瑞.jpg",
+          "猫和老鼠泛舟观星夜景.jpg"
+        ],
+        "displayTitle": "月夜扁舟·猫鼠同赏星河",
+        "confidence": 0.9,
+        "reasoning": "图中角色为汤姆和杰瑞，属于《猫和老鼠》IP，根据影视分类决策树，优先归入影视->猫和老鼠。"
+      }
+    },
+    "wallpaper/mobile/影视/猫和老鼠/微信图片_20260120161633_517_4.jpg": {
+      "category": "影视",
+      "subcategory": "猫和老鼠",
+      "filename": "微信图片_20260120161633_517_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 166042,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2281,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "影视",
+        "subcategory": "猫和老鼠",
+        "primary": "mobile",
+        "secondary": "影视",
+        "third": "猫和老鼠",
+        "keywords": [
+          "猫和老鼠",
+          "新春",
+          "鞭炮",
+          "喜庆",
+          "动漫"
+        ],
+        "description": "汤姆与杰瑞着华服持鞭炮，红底金纹间尽显新春喜庆氛围",
+        "filenameSuggestions": [
+          "汤姆杰瑞贺春放鞭炮.jpg",
+          "猫和老鼠新春喜乐图.jpg"
+        ],
+        "displayTitle": "猫鼠贺春 鞭炮迎新",
+        "confidence": 0.9,
+        "reasoning": "图片角色为《猫和老鼠》经典IP，场景围绕新春放鞭炮展开，符合“影视-猫和老鼠”分类逻辑"
+      }
+    },
+    "wallpaper/mobile/影视/猫和老鼠/微信图片_20260120161634_518_4.jpg": {
+      "category": "影视",
+      "subcategory": "猫和老鼠",
+      "filename": "微信图片_20260120161634_518_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 152288,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1894,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "影视",
+        "subcategory": "猫和老鼠",
+        "primary": "mobile",
+        "secondary": "影视",
+        "third": "猫和老鼠",
+        "keywords": [
+          "猫和老鼠",
+          "热气球",
+          "日落",
+          "动漫IP",
+          "童趣"
+        ],
+        "description": "汤姆与杰瑞乘热气球遨游，日落云霞绚烂，童趣与浪漫在天际交织。",
+        "filenameSuggestions": [
+          "热气球上的汤姆与杰瑞.jpg",
+          "日落猫鼠伙伴热气球.jpg"
+        ],
+        "displayTitle": "热气球上的猫鼠日落之旅",
+        "confidence": 0.9,
+        "reasoning": "图片包含《猫和老鼠》IP角色汤姆、杰瑞，根据影视类三级分类规则，归入影视/猫和老鼠。"
+      }
+    },
+    "wallpaper/mobile/影视/猫和老鼠/微信图片_20260120161635_519_4.jpg": {
+      "category": "影视",
+      "subcategory": "猫和老鼠",
+      "filename": "微信图片_20260120161635_519_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 131932,
+      "format": "jpg",
+      "resolution": {
+        "width": 864,
+        "height": 1536,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "影视",
+        "subcategory": "猫和老鼠",
+        "primary": "mobile",
+        "secondary": "影视",
+        "third": "猫和老鼠",
+        "keywords": [
+          "猫和老鼠",
+          "游乐园",
+          "棉花糖",
+          "治愈",
+          "动漫"
+        ],
+        "description": "汤姆与杰瑞在游乐园摩天轮下，共享棉花糖，氛围温馨治愈。",
+        "filenameSuggestions": [
+          "游乐园共品棉花糖的汤姆杰瑞.jpg",
+          "摩天轮下友好互动的猫鼠.jpg"
+        ],
+        "displayTitle": "游乐园里的猫鼠甜趣时光",
+        "confidence": 0.9,
+        "reasoning": "识别出角色为汤姆和杰瑞（猫和老鼠IP），根据动漫与插画决策树的特定IP规则，归入影视下的猫和老鼠分类。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/微信图片_20260120161616_498_4.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_20260120161616_498_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 874599,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2275,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "卡通财神",
+          "创意插画",
+          "暴富",
+          "恭喜发财",
+          "公主请发财"
+        ],
+        "description": "卡通财神坐云持卷轴，配‘公主请发财’等文字，传递暴富祝福的创意插画。",
+        "filenameSuggestions": [
+          "卡通财神公主请发财插画.jpg",
+          "暴富主题创意财神壁纸.jpg"
+        ],
+        "displayTitle": "公主请发财 卡通财神创意插画",
+        "confidence": 0.9,
+        "reasoning": "图片为手绘风格插画，以卡通财神为主体，结合‘公主请发财’等创意文字设计，符合插画-创意的分类标准，故归入插画-创意。"
+      }
+    },
+    "wallpaper/mobile/插画/国风/微信图片_20260120161616_499_4.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "微信图片_20260120161616_499_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 1027954,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2275,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "萌熊",
+          "财运",
+          "喜庆",
+          "插画"
+        ],
+        "description": "两只萌熊着唐装，伴灯笼烟花，国风插画传递“命里有钱、前程似锦”的美好祝愿。",
+        "filenameSuggestions": [
+          "萌熊贺岁国风财运壁纸.jpg",
+          "唐装小熊喜庆国风壁纸.jpg"
+        ],
+        "displayTitle": "萌熊贺岁·国风财运壁纸",
+        "confidence": 0.9,
+        "reasoning": "图片含灯笼、祥云、中式服饰、铜钱等国风元素，卡通形象为插画风格，无特定明星/动漫IP，故归插画-国风；原创卡通熊角色提案IP形象-卡通角色以完善分类。"
+      }
+    },
+    "wallpaper/mobile/插画/国风/微信图片_20260120161617_500_4.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "微信图片_20260120161617_500_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 849614,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2276,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "禅意小僧",
+          "水墨风格",
+          "治愈系",
+          "茶道禅意"
+        ],
+        "description": "水墨国风插画，禅意小和尚坐蒲团品茗，配文心若浮沉浅笑安然，意境宁静治愈。",
+        "filenameSuggestions": [
+          "水墨国风禅意小僧品茗插画.jpg",
+          "心若浮沉浅笑安然禅僧壁纸.jpg"
+        ],
+        "displayTitle": "禅意小僧 浅笑安然",
+        "confidence": 0.9,
+        "reasoning": "图片为手绘水墨风格的插画，展现禅意小和尚品茗场景，含国风文化元素，无特定明星或动漫IP，故依据插画决策树归入「插画->国风」分类。"
+      }
+    },
+    "wallpaper/mobile/插画/国风/微信图片_20260120161618_501_4.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "微信图片_20260120161618_501_4.jpg",
+      "createdAt": "2026-01-20T09:28:26.048Z",
+      "cdnTag": "v1.1.43",
+      "size": 850271,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2275,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "插画",
+          "风铃",
+          "花卉",
+          "吉祥语"
+        ],
+        "description": "白花卉枝下悬国风风铃，附“心想事成”“万事如意”吉语，清新治愈的手绘插画。",
+        "filenameSuggestions": [
+          "花枝风铃国风插画.jpg",
+          "心想事成风铃手绘插画.jpg"
+        ],
+        "displayTitle": "花下风铃寄愿 心想万事皆成",
+        "confidence": 0.9,
+        "reasoning": "图片无特定明星、IP，为手绘风格（插画特征），含中文吉祥语、传统风铃花卉等国风元素，故归入“插画→国风”。"
       }
     }
   }
