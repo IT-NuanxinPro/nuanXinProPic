@@ -261,27 +261,26 @@ parse_filename() {
 }
 
 # 提取文件名核心部分（用于匹配）
-# 格式：插画--通用_蓝蝶轻倚的卷发少女.jpg → 蓝蝶轻倚的卷发少女
-# 格式：插画--通用_蓝蝶轻倚的卷发少女_多花.jpg → 蓝蝶轻倚的卷发少女_多花
+# 格式：动漫--原神_雷电将军.jpg → 雷电将军
+# 格式：雷电将军.jpg → 雷电将军
 get_core_name() {
     local filename="$1"
     local filename_noext="${filename%.*}"
     
-    # 如果包含 --，取 -- 后面的部分
-    if [[ "$filename_noext" == *"--"* ]]; then
-        local after_dash="${filename_noext#*--}"
-        # 如果还包含 _，取第一个 _ 后面的所有内容
-        if [[ "$after_dash" == *"_"* ]]; then
-            echo "${after_dash#*_}"
-        else
-            echo "$after_dash"
-        fi
+    # 如果包含 _，取最后一个 _ 后面的部分
+    if [[ "$filename_noext" == *"_"* ]]; then
+        echo "${filename_noext##*_}"
     else
-        echo "$filename_noext"
+        # 如果包含 --，取 -- 后面的部分
+        if [[ "$filename_noext" == *"--"* ]]; then
+            echo "${filename_noext#*--}"
+        else
+            echo "$filename_noext"
+        fi
     fi
 }
 
-# 检查文件是否已存在（通过核心名精确匹配）
+# 检查文件是否已存在（通过核心名匹配）
 file_exists_in_target() {
     local filename="$1"
     local core_name
@@ -293,9 +292,8 @@ file_exists_in_target() {
         return 0  # 视为已存在，跳过
     fi
     
-    # 精确匹配文件名（不含扩展名），避免前缀匹配问题
-    # 例如："蓝蝶轻倚的卷发少女" 不会匹配到 "蓝蝶轻倚的卷发少女_多花"
-    if find "$TARGET_DIR" -type f \( -iname "${core_name}.jpg" -o -iname "${core_name}.jpeg" -o -iname "${core_name}.png" -o -iname "${core_name}.gif" -o -iname "${core_name}.webp" \) 2>/dev/null | grep -q .; then
+    # 递归搜索 wallpaper/desktop 目录，查找包含核心名的文件
+    if find "$TARGET_DIR" -type f \( -iname "*${core_name}.*" -o -iname "*${core_name}_*" -o -iname "*_${core_name}.*" \) 2>/dev/null | grep -q .; then
         return 0  # 存在
     fi
     return 1  # 不存在
