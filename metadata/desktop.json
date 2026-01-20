@@ -1,7 +1,7 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-01-20T12:29:27.194Z",
+  "lastUpdated": "2026-01-20T14:19:22.772Z",
   "count": 344,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
@@ -20,15 +20,15 @@
       },
       "ai": {
         "keywords": [
-          "乌撒奇",
-          "兔子",
-          "卡通"
+          "萌兔",
+          "治愈",
+          "童趣"
         ],
-        "description": "",
+        "description": "软萌兔影跃纸间，治愈心田如春风",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/IP形象/凯蒂猫/HelloKitty-凯蒂猫.png": {
@@ -47,14 +47,15 @@
       },
       "ai": {
         "keywords": [
-          "HelloKitty",
-          "凯蒂猫"
+          "粉樱",
+          "少女",
+          "甜美"
         ],
-        "description": "",
+        "description": "粉樱色梦境里，甜美如初见时光",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/IP形象/凯蒂猫/HelloKitty-凯蒂猫聚餐.png": {
@@ -73,14 +74,15 @@
       },
       "ai": {
         "keywords": [
-          "HelloKitty",
-          "凯蒂猫聚餐"
+          "聚餐",
+          "温馨",
+          "友谊"
         ],
-        "description": "",
+        "description": "温馨聚餐时，友谊如花香满室",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/IP形象/凯蒂猫/HelloKitty.png": {
@@ -99,13 +101,15 @@
       },
       "ai": {
         "keywords": [
-          "HelloKitty"
+          "经典",
+          "纯真",
+          "永恒"
         ],
-        "description": "",
+        "description": "经典如诗，纯真永恒不褪色",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/IP形象/凯蒂猫/凯蒂猫-卖萌.png": {
@@ -124,14 +128,15 @@
       },
       "ai": {
         "keywords": [
-          "凯蒂猫",
-          "卖萌"
+          "卖萌",
+          "灵动",
+          "俏皮"
         ],
-        "description": "",
+        "description": "灵动俏皮眼波间，卖萌如春日暖阳",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/IP形象/水豚噜噜/山顶日出壁纸.jpg": {
@@ -150,13 +155,15 @@
       },
       "ai": {
         "keywords": [
-          "山顶日出壁纸"
+          "晨曦",
+          "山峦",
+          "希望"
         ],
-        "description": "",
+        "description": "山峦之巅晨曦起，希望如金辉洒人间",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/IP形象/线条小狗/人生格言-励志文案.png": {
@@ -175,14 +182,15 @@
       },
       "ai": {
         "keywords": [
-          "人生格言",
-          "励志文案"
+          "哲思",
+          "励志",
+          "人生"
         ],
-        "description": "",
+        "description": "哲思如泉涌，励志人生路更宽",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/IP形象/线条小狗/做自己的太阳-努力前行.png": {
@@ -201,14 +209,15 @@
       },
       "ai": {
         "keywords": [
-          "做自己的太阳",
-          "努力前行"
+          "自强",
+          "阳光",
+          "前行"
         ],
-        "description": "",
+        "description": "做自己的太阳，照亮前行的路",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/IP形象/线条小狗/光影倒影-可爱小狗.png": {
@@ -227,14 +236,15 @@
       },
       "ai": {
         "keywords": [
-          "光影倒影",
-          "可爱小狗"
+          "光影",
+          "倒影",
+          "诗意"
         ],
-        "description": "",
+        "description": "光影交错间，倒影如诗意人生",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/IP形象/线条小狗/办公场景-励志文字.png": {
@@ -253,14 +263,15 @@
       },
       "ai": {
         "keywords": [
-          "办公场景",
-          "励志文字"
+          "职场",
+          "奋斗",
+          "梦想"
         ],
-        "description": "",
+        "description": "职场如战场，奋斗筑梦想之城",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/IP形象/线条小狗/可爱狗狗-沙滩-海浪.png": {
@@ -279,15 +290,15 @@
       },
       "ai": {
         "keywords": [
-          "可爱狗狗",
-          "沙滩",
-          "海浪"
+          "海滨",
+          "自由",
+          "清风"
         ],
-        "description": "",
+        "description": "海滨清风徐来，自由如浪花飞舞",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/IP形象/线条小狗/森林篝火_泳池.jpg": {
@@ -306,14 +317,15 @@
       },
       "ai": {
         "keywords": [
-          "森林篝火",
-          "泳池"
+          "篝火",
+          "静谧",
+          "野趣"
         ],
-        "description": "",
+        "description": "森林篝火映星辰，静谧中品野趣人生",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/IP形象/线条小狗/线条小狗-打闹嬉戏.png": {
@@ -332,14 +344,15 @@
       },
       "ai": {
         "keywords": [
-          "线条小狗",
-          "打闹嬉戏"
+          "嬉戏",
+          "童真",
+          "欢乐"
         ],
-        "description": "",
+        "description": "嬉戏间童真不改，欢乐如春风拂面",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/IP形象/线条小狗/萌狗_晾衣绳_线条小狗.png": {
@@ -358,15 +371,15 @@
       },
       "ai": {
         "keywords": [
-          "萌狗",
-          "晾衣绳",
-          "线条小狗"
+          "日常",
+          "温馨",
+          "生活"
         ],
-        "description": "",
+        "description": "日常温馨如诗，生活处处有美意",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/IP形象/线条小狗/西瓜泳池小狗夏日场景.jpg": {
@@ -385,13 +398,15 @@
       },
       "ai": {
         "keywords": [
-          "西瓜泳池小狗夏日场景"
+          "夏日",
+          "清凉",
+          "甜蜜"
         ],
-        "description": "",
+        "description": "夏日清凉西瓜香，甜蜜时光如梦境",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/IP形象/通用/神偷奶爸_小黄人.jpg": {
@@ -410,14 +425,15 @@
       },
       "ai": {
         "keywords": [
-          "神偷奶爸",
-          "小黄人"
+          "萌趣",
+          "搞怪",
+          "童心"
         ],
-        "description": "",
+        "description": "萌趣搞怪小精灵，唤醒心中童真梦",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/国风/中式古装-光影美女.png": {
@@ -436,14 +452,15 @@
       },
       "ai": {
         "keywords": [
-          "中式古装",
-          "光影美女"
+          "古韵",
+          "光影",
+          "雅致"
         ],
-        "description": "",
+        "description": "古韵悠悠光影间，雅致如画美人颜",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/国风/中式建筑-低胸裙.png": {
@@ -462,14 +479,15 @@
       },
       "ai": {
         "keywords": [
-          "中式建筑",
-          "低胸裙"
+          "古建",
+          "优雅",
+          "韵味"
         ],
-        "description": "",
+        "description": "古建筑前展优雅，东方韵味醉人心",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/国风/中式新娘.png": {
@@ -488,13 +506,15 @@
       },
       "ai": {
         "keywords": [
-          "中式新娘"
+          "新娘",
+          "喜悦",
+          "传统"
         ],
-        "description": "",
+        "description": "传统嫁衣着身上，喜悦如花绽芬芳",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/国风/古风-古风嫁衣-嫁衣.png": {
@@ -513,15 +533,15 @@
       },
       "ai": {
         "keywords": [
-          "古风",
-          "古风嫁衣",
-          "嫁衣"
+          "嫁衣",
+          "典雅",
+          "华美"
         ],
-        "description": "",
+        "description": "华美嫁衣典雅姿，千年风韵今犹在",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/国风/古风侠女_雨中造型.png": {
@@ -540,14 +560,15 @@
       },
       "ai": {
         "keywords": [
-          "古风侠女",
-          "雨中造型"
+          "侠女",
+          "雨夜",
+          "英姿"
         ],
-        "description": "",
+        "description": "雨夜侠女展英姿，江湖儿女情如诗",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/国风/古风头饰红衣少女.jpg": {
@@ -566,13 +587,15 @@
       },
       "ai": {
         "keywords": [
-          "古风头饰红衣少女"
+          "红衣",
+          "头饰",
+          "娇美"
         ],
-        "description": "",
+        "description": "红衣头饰映娇颜，古典美人如画仙",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/国风/古风白衣女性室内.png": {
@@ -591,13 +614,15 @@
       },
       "ai": {
         "keywords": [
-          "古风白衣女性室内"
+          "白衣",
+          "素雅",
+          "宁静"
         ],
-        "description": "",
+        "description": "白衣素雅室中坐，宁静致远品茶香",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/国风/古风红衣撑伞少女.jpg": {
@@ -616,13 +641,15 @@
       },
       "ai": {
         "keywords": [
-          "古风红衣撑伞少女"
+          "撑伞",
+          "红衣",
+          "诗意"
         ],
-        "description": "",
+        "description": "红衣撑伞雨中行，诗意江南梦里寻",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/国风/樱花下的国风少女.jpg": {
@@ -641,13 +668,15 @@
       },
       "ai": {
         "keywords": [
-          "樱花下的国风少女"
+          "樱花",
+          "春意",
+          "浪漫"
         ],
-        "description": "",
+        "description": "樱花飞舞春意浓，浪漫如诗醉春风",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/国风/银发少女_国风华服.png": {
@@ -666,14 +695,15 @@
       },
       "ai": {
         "keywords": [
-          "银发少女",
-          "国风华服"
+          "银发",
+          "华服",
+          "仙韵"
         ],
-        "description": "",
+        "description": "银发华服展仙韵，古典美人如画卷",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/国风/雪中美貌古风女.jpg": {
@@ -692,13 +722,15 @@
       },
       "ai": {
         "keywords": [
-          "雪中美貌古风女"
+          "雪景",
+          "清冷",
+          "绝美"
         ],
-        "description": "",
+        "description": "雪景清冷映绝美，冰肌玉骨傲寒梅",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/国风/黑长直古风装饰少女.jpg": {
@@ -717,13 +749,15 @@
       },
       "ai": {
         "keywords": [
-          "黑长直古风装饰少女"
+          "黑发",
+          "装饰",
+          "古典"
         ],
-        "description": "",
+        "description": "黑发如瀑饰古典，东方美韵醉人间",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/明星/郑爽-制服-办公室.png": {
@@ -742,15 +776,15 @@
       },
       "ai": {
         "keywords": [
-          "郑爽",
           "制服",
-          "办公室"
+          "职场",
+          "干练"
         ],
-        "description": "",
+        "description": "制服加身展干练，职场女性显风采",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/氛围感/休闲-壁纸-夏日.png": {
@@ -770,14 +804,14 @@
       "ai": {
         "keywords": [
           "休闲",
-          "壁纸",
-          "夏日"
+          "夏日",
+          "惬意"
         ],
-        "description": "",
+        "description": "夏日休闲时光里，惬意如风拂心田",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/氛围感/卧室-氛围感-纯欲.png": {
@@ -796,15 +830,15 @@
       },
       "ai": {
         "keywords": [
-          "卧室",
-          "氛围感",
-          "纯欲"
+          "氛围",
+          "魅惑",
+          "私密"
         ],
-        "description": "",
+        "description": "私密空间氛围浓，魅惑如夜月朦胧",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/氛围感/室内纯欲女生.jpg": {
@@ -823,13 +857,15 @@
       },
       "ai": {
         "keywords": [
-          "室内纯欲女生"
+          "室内",
+          "静谧",
+          "柔美"
         ],
-        "description": "",
+        "description": "室内静谧光影柔，柔美如诗醉心头",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/氛围感/居家女孩_格纹睡衣.jpg": {
@@ -848,14 +884,15 @@
       },
       "ai": {
         "keywords": [
-          "居家女孩",
-          "格纹睡衣"
+          "居家",
+          "格纹",
+          "温馨"
         ],
-        "description": "",
+        "description": "格纹睡衣居家时，温馨如春暖人心",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/氛围感/晴天-蓝天白云.png": {
@@ -874,14 +911,15 @@
       },
       "ai": {
         "keywords": [
-          "晴天",
-          "蓝天白云"
+          "晴空",
+          "蓝天",
+          "清新"
         ],
-        "description": "",
+        "description": "晴空万里蓝天高，清新如风心自由",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/氛围感/白发女孩_报纸背景.jpg": {
@@ -900,14 +938,15 @@
       },
       "ai": {
         "keywords": [
-          "白发女孩",
-          "报纸背景"
+          "白发",
+          "报纸",
+          "文艺"
         ],
-        "description": "",
+        "description": "白发飘逸报纸前，文艺气息满心间",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/氛围感/粉发少女办公场景.jpg": {
@@ -926,13 +965,15 @@
       },
       "ai": {
         "keywords": [
-          "粉发少女办公场景"
+          "粉发",
+          "办公",
+          "都市"
         ],
-        "description": "",
+        "description": "粉发飞扬办公间，都市丽人展风采",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/氛围感/纯欲女孩_黑毛衣氛围.jpg": {
@@ -951,14 +992,15 @@
       },
       "ai": {
         "keywords": [
-          "纯欲女孩",
-          "黑毛衣氛围"
+          "黑衣",
+          "氛围",
+          "神秘"
         ],
-        "description": "",
+        "description": "黑衣氛围显神秘，如夜精灵舞翩翩",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/氛围感/背带裤女孩_阅读时光.jpg": {
@@ -977,14 +1019,15 @@
       },
       "ai": {
         "keywords": [
-          "背带裤女孩",
-          "阅读时光"
+          "阅读",
+          "文静",
+          "书香"
         ],
-        "description": "",
+        "description": "阅读时光静如水，书香气息满心田",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/氛围感/轻纱遮面氛围感女生.jpg": {
@@ -1003,13 +1046,15 @@
       },
       "ai": {
         "keywords": [
-          "轻纱遮面氛围感女生"
+          "轻纱",
+          "朦胧",
+          "梦幻"
         ],
-        "description": "",
+        "description": "轻纱遮面显朦胧，梦幻如诗醉心中",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/氛围感/马尾女孩_侧颜光影.jpg": {
@@ -1028,14 +1073,15 @@
       },
       "ai": {
         "keywords": [
-          "马尾女孩",
-          "侧颜光影"
+          "侧颜",
+          "光影",
+          "优美"
         ],
-        "description": "",
+        "description": "侧颜光影映优美，如画佳人醉人心",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/清新/卷发-淡妆-清新.png": {
@@ -1056,13 +1102,13 @@
         "keywords": [
           "卷发",
           "淡妆",
-          "清新"
+          "自然"
         ],
-        "description": "",
+        "description": "卷发淡妆显自然，清新如风拂面来",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/清新/户外-晴朗-晴空美女.png": {
@@ -1083,13 +1129,13 @@
         "keywords": [
           "户外",
           "晴朗",
-          "晴空美女"
+          "明媚"
         ],
-        "description": "",
+        "description": "户外晴朗天空蓝，明媚如花笑靥甜",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/清新/校服女孩.png": {
@@ -1108,13 +1154,15 @@
       },
       "ai": {
         "keywords": [
-          "校服女孩"
+          "校服",
+          "青春",
+          "纯真"
         ],
-        "description": "",
+        "description": "校服青春展纯真，如花岁月正当时",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/魅力/OL穿搭.png": {
@@ -1133,13 +1181,15 @@
       },
       "ai": {
         "keywords": [
-          "OL穿搭"
+          "职场",
+          "干练",
+          "时尚"
         ],
-        "description": "",
+        "description": "职场干练展时尚，都市女性显风华",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/魅力/三合一-兔耳-美女.png": {
@@ -1158,15 +1208,15 @@
       },
       "ai": {
         "keywords": [
-          "三合一",
           "兔耳",
-          "美女"
+          "俏皮",
+          "萌动"
         ],
-        "description": "",
+        "description": "兔耳俏皮显萌动，如精灵般惹人怜",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/魅力/丝袜-壁纸-室内.png": {
@@ -1186,14 +1236,14 @@
       "ai": {
         "keywords": [
           "丝袜",
-          "壁纸",
-          "室内"
+          "优雅",
+          "魅惑"
         ],
-        "description": "",
+        "description": "丝袜优雅显魅惑，如夜玫瑰暗香来",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/魅力/优雅姿势-光影美女.png": {
@@ -1212,14 +1262,15 @@
       },
       "ai": {
         "keywords": [
-          "优雅姿势",
-          "光影美女"
+          "优雅",
+          "姿态",
+          "光影"
         ],
-        "description": "",
+        "description": "优雅姿态光影中，如画美人醉人心",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/魅力/凌乱黑发.png": {
@@ -1238,13 +1289,15 @@
       },
       "ai": {
         "keywords": [
-          "凌乱黑发"
+          "黑发",
+          "凌乱",
+          "野性"
         ],
-        "description": "",
+        "description": "黑发凌乱显野性，如夜风中舞翩翩",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/魅力/卧室-性感-美女.png": {
@@ -1263,15 +1316,15 @@
       },
       "ai": {
         "keywords": [
-          "卧室",
-          "性感",
-          "美女"
+          "私密",
+          "魅力",
+          "温柔"
         ],
-        "description": "",
+        "description": "私密空间展魅力，温柔如水润心田",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/魅力/卧室背景-古风甜妹.png": {
@@ -1290,14 +1343,15 @@
       },
       "ai": {
         "keywords": [
-          "卧室背景",
-          "古风甜妹"
+          "古韵",
+          "甜美",
+          "闺房"
         ],
-        "description": "",
+        "description": "闺房古韵显甜美，如诗佳人画中来",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/魅力/古风甜妹.png": {
@@ -1316,13 +1370,15 @@
       },
       "ai": {
         "keywords": [
-          "古风甜妹"
+          "古风",
+          "甜美",
+          "温婉"
         ],
-        "description": "",
+        "description": "古风甜美显温婉，如春花般惹人怜",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/魅力/夏日-惊讶甜妹-户外.png": {
@@ -1342,14 +1398,14 @@
       "ai": {
         "keywords": [
           "夏日",
-          "惊讶甜妹",
+          "惊喜",
           "户外"
         ],
-        "description": "",
+        "description": "夏日户外显惊喜，甜美如花绽笑颜",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/魅力/夏日校园-户外写真.png": {
@@ -1368,14 +1424,15 @@
       },
       "ai": {
         "keywords": [
-          "夏日校园",
-          "户外写真"
+          "校园",
+          "写真",
+          "青春"
         ],
-        "description": "",
+        "description": "校园写真展青春，如花岁月正当时",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/人像/魅力/清纯少女_夏日写真.png": {
@@ -1394,14 +1451,15 @@
       },
       "ai": {
         "keywords": [
-          "清纯少女",
-          "夏日写真"
+          "清纯",
+          "夏日",
+          "写真"
         ],
-        "description": "",
+        "description": "清纯夏日写真集，如莲花般出淤泥",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/、玫瑰少女.png": {
@@ -1420,13 +1478,15 @@
       },
       "ai": {
         "keywords": [
-          "玫瑰少女"
+          "玫瑰",
+          "少女",
+          "优雅"
         ],
-        "description": "",
+        "description": "玫瑰少女展优雅，如诗如画醉人心",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/下雪-二次元角色.png": {
@@ -1445,14 +1505,15 @@
       },
       "ai": {
         "keywords": [
-          "下雪",
-          "二次元角色"
+          "雪景",
+          "二次元",
+          "唯美"
         ],
-        "description": "",
+        "description": "雪景二次元世界，唯美如梦境飘渺",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/书本-书桌-午后.png": {
@@ -1471,15 +1532,15 @@
       },
       "ai": {
         "keywords": [
-          "书本",
-          "书桌",
-          "午后"
+          "书香",
+          "午后",
+          "宁静"
         ],
-        "description": "",
+        "description": "午后书香满室静，宁静致远品茶香",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/二次元-倒影.png": {
@@ -1498,14 +1559,15 @@
       },
       "ai": {
         "keywords": [
-          "二次元",
-          "倒影"
+          "倒影",
+          "虚实",
+          "梦幻"
         ],
-        "description": "",
+        "description": "虚实倒影显梦幻，如镜花水月朦胧",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/兔女郎_黑丝.png": {
@@ -1525,13 +1587,14 @@
       "ai": {
         "keywords": [
           "兔女郎",
-          "黑丝"
+          "黑丝",
+          "魅惑"
         ],
-        "description": "",
+        "description": "兔女郎黑丝显魅惑，如夜精灵舞翩翩",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/冬日絮语_雪落无声.jpg": {
@@ -1550,14 +1613,15 @@
       },
       "ai": {
         "keywords": [
-          "冬日絮语",
-          "雪落无声"
+          "冬日",
+          "絮语",
+          "静谧"
         ],
-        "description": "",
+        "description": "冬日絮语雪无声，静谧如诗醉人心",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/初音未来_樱花和服.jpg": {
@@ -1576,14 +1640,15 @@
       },
       "ai": {
         "keywords": [
-          "初音未来",
-          "樱花和服"
+          "樱花",
+          "和服",
+          "虚拟"
         ],
-        "description": "",
+        "description": "樱花和服虚拟姬，如梦如幻舞春风",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/励志文字-卡通.png": {
@@ -1602,14 +1667,15 @@
       },
       "ai": {
         "keywords": [
-          "励志文字",
-          "卡通"
+          "励志",
+          "文字",
+          "正能量"
         ],
-        "description": "",
+        "description": "励志文字传正能量，如春风化雨润心田",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/卡通.png": {
@@ -1628,13 +1694,15 @@
       },
       "ai": {
         "keywords": [
-          "卡通"
+          "卡通",
+          "简约",
+          "童趣"
         ],
-        "description": "",
+        "description": "卡通简约显童趣，如童话世界纯真美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/卡通人物-可爱.png": {
@@ -1653,14 +1721,15 @@
       },
       "ai": {
         "keywords": [
-          "卡通人物",
+          "卡通",
+          "人物",
           "可爱"
         ],
-        "description": "",
+        "description": "卡通人物显可爱，如精灵般惹人怜",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/厨房里的她.jpg": {
@@ -1679,13 +1748,15 @@
       },
       "ai": {
         "keywords": [
-          "厨房里的她"
+          "厨房",
+          "日常",
+          "温馨"
         ],
-        "description": "",
+        "description": "厨房日常显温馨，如家的味道暖人心",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/多装饰白发少女.jpg": {
@@ -1704,13 +1775,15 @@
       },
       "ai": {
         "keywords": [
-          "多装饰白发少女"
+          "白发",
+          "装饰",
+          "华丽"
         ],
-        "description": "",
+        "description": "白发装饰显华丽，如雪花般纯洁美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/夜景-少女.png": {
@@ -1730,13 +1803,14 @@
       "ai": {
         "keywords": [
           "夜景",
-          "少女"
+          "少女",
+          "静谧"
         ],
-        "description": "",
+        "description": "夜景少女显静谧，如星光般闪烁美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/天使翅膀少女.png": {
@@ -1755,13 +1829,15 @@
       },
       "ai": {
         "keywords": [
-          "天使翅膀少女"
+          "天使",
+          "翅膀",
+          "圣洁"
         ],
-        "description": "",
+        "description": "天使翅膀展圣洁，如天堂使者降人间",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/失落的孤独感.png": {
@@ -1780,13 +1856,15 @@
       },
       "ai": {
         "keywords": [
-          "失落的孤独感"
+          "失落",
+          "孤独",
+          "忧郁"
         ],
-        "description": "",
+        "description": "失落孤独显忧郁，如秋叶般飘零美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/彼岸灯火_少女远眺_梦幻场景.jpg": {
@@ -1805,15 +1883,15 @@
       },
       "ai": {
         "keywords": [
-          "彼岸灯火",
-          "少女远眺",
-          "梦幻场景"
+          "彼岸",
+          "灯火",
+          "远眺"
         ],
-        "description": "",
+        "description": "彼岸灯火少女眺，梦幻如诗醉心田",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/打工人.png": {
@@ -1832,13 +1910,15 @@
       },
       "ai": {
         "keywords": [
-          "打工人"
+          "打工",
+          "奋斗",
+          "坚持"
         ],
-        "description": "",
+        "description": "打工奋斗显坚持，如蜜蜂般勤劳美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/星空白发.png": {
@@ -1857,13 +1937,15 @@
       },
       "ai": {
         "keywords": [
-          "星空白发"
+          "星空",
+          "白发",
+          "梦幻"
         ],
-        "description": "",
+        "description": "星空白发显梦幻，如银河般璀璨美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/星空粉发.png": {
@@ -1882,13 +1964,15 @@
       },
       "ai": {
         "keywords": [
-          "星空粉发"
+          "星空",
+          "粉发",
+          "浪漫"
         ],
-        "description": "",
+        "description": "星空粉发显浪漫，如樱花般绚烂美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/暗黑风美女_战损元素.png": {
@@ -1907,14 +1991,15 @@
       },
       "ai": {
         "keywords": [
-          "暗黑风美女",
-          "战损元素"
+          "暗黑",
+          "战损",
+          "酷炫"
         ],
-        "description": "",
+        "description": "暗黑战损显酷炫，如夜女王般霸气",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/望云少女_铁道道口.jpg": {
@@ -1933,14 +2018,15 @@
       },
       "ai": {
         "keywords": [
-          "望云少女",
-          "铁道道口"
+          "望云",
+          "铁道",
+          "思绪"
         ],
-        "description": "",
+        "description": "铁道口边望云起，思绪如风飘万里",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/校服少女_赛博都市.png": {
@@ -1959,14 +2045,15 @@
       },
       "ai": {
         "keywords": [
-          "校服少女",
-          "赛博都市"
+          "校服",
+          "赛博",
+          "未来"
         ],
-        "description": "",
+        "description": "校服少女赛博城，未来世界展青春",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/樱花刀姬_水畔剪影.png": {
@@ -1985,14 +2072,15 @@
       },
       "ai": {
         "keywords": [
-          "樱花刀姬",
-          "水畔剪影"
+          "樱花",
+          "刀姬",
+          "剪影"
         ],
-        "description": "",
+        "description": "樱花刀姬水畔影，如诗如画醉春风",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/水下蓝发少女.jpg": {
@@ -2011,13 +2099,15 @@
       },
       "ai": {
         "keywords": [
-          "水下蓝发少女"
+          "水下",
+          "蓝发",
+          "神秘"
         ],
-        "description": "",
+        "description": "水下蓝发显神秘，如人鱼般游深海",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/沙滩金发泳装女性.png": {
@@ -2036,13 +2126,15 @@
       },
       "ai": {
         "keywords": [
-          "沙滩金发泳装女性"
+          "沙滩",
+          "金发",
+          "阳光"
         ],
-        "description": "",
+        "description": "沙滩金发沐阳光，如女神般耀眼美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/海边草帽少女.jpg": {
@@ -2061,13 +2153,15 @@
       },
       "ai": {
         "keywords": [
-          "海边草帽少女"
+          "海边",
+          "草帽",
+          "悠闲"
         ],
-        "description": "",
+        "description": "海边草帽显悠闲，如海风般自由美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/涂鸦墙前黑长直少女.jpg": {
@@ -2086,13 +2180,15 @@
       },
       "ai": {
         "keywords": [
-          "涂鸦墙前黑长直少女"
+          "涂鸦",
+          "黑发",
+          "街头"
         ],
-        "description": "",
+        "description": "涂鸦墙前黑发飞，街头艺术展风采",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/灰发蓝瞳涂鸦墙女性.png": {
@@ -2111,13 +2207,15 @@
       },
       "ai": {
         "keywords": [
-          "灰发蓝瞳涂鸦墙女性"
+          "灰发",
+          "蓝瞳",
+          "个性"
         ],
-        "description": "",
+        "description": "灰发蓝瞳显个性，如月光般冷艳美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/白发少女_蓝色花束.jpg": {
@@ -2136,14 +2234,15 @@
       },
       "ai": {
         "keywords": [
-          "白发少女",
-          "蓝色花束"
+          "白发",
+          "花束",
+          "纯洁"
         ],
-        "description": "",
+        "description": "白发少女捧花束，纯洁如雪映蓝天",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/白发少年画室场景.jpg": {
@@ -2162,13 +2261,15 @@
       },
       "ai": {
         "keywords": [
-          "白发少年画室场景"
+          "画室",
+          "创作",
+          "艺术"
         ],
-        "description": "",
+        "description": "画室创作展艺术，如诗人般挥洒美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/白发紫瞳十字装饰女性.png": {
@@ -2187,13 +2288,15 @@
       },
       "ai": {
         "keywords": [
-          "白发紫瞳十字装饰女性"
+          "白发",
+          "紫瞳",
+          "神秘"
         ],
-        "description": "",
+        "description": "白发紫瞳显神秘，如天使般圣洁美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/白色.png": {
@@ -2212,13 +2315,15 @@
       },
       "ai": {
         "keywords": [
-          "白色"
+          "白色",
+          "纯净",
+          "简约"
         ],
-        "description": "",
+        "description": "白色纯净显简约，如雪花般洁净美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/秋日花饰少女.jpg": {
@@ -2237,13 +2342,15 @@
       },
       "ai": {
         "keywords": [
-          "秋日花饰少女"
+          "秋日",
+          "花饰",
+          "温暖"
         ],
-        "description": "",
+        "description": "秋日花饰显温暖，如枫叶般绚烂美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/粉发女仆装室内女性.png": {
@@ -2262,13 +2369,15 @@
       },
       "ai": {
         "keywords": [
-          "粉发女仆装室内女性"
+          "粉发",
+          "女仆",
+          "甜美"
         ],
-        "description": "",
+        "description": "粉发女仆显甜美，如樱花般温柔美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/粉发爱心瞳.png": {
@@ -2287,13 +2396,15 @@
       },
       "ai": {
         "keywords": [
-          "粉发爱心瞳"
+          "粉发",
+          "爱心",
+          "萌动"
         ],
-        "description": "",
+        "description": "粉发爱心瞳萌动，如少女般纯真美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/精灵耳少女吉他演奏.jpg": {
@@ -2312,13 +2423,15 @@
       },
       "ai": {
         "keywords": [
-          "精灵耳少女吉他演奏"
+          "精灵",
+          "吉他",
+          "音乐"
         ],
-        "description": "",
+        "description": "精灵少女弹吉他，音乐如泉润心田",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/紫发少女_未来都市.jpg": {
@@ -2337,14 +2450,15 @@
       },
       "ai": {
         "keywords": [
-          "紫发少女",
-          "未来都市"
+          "紫发",
+          "未来",
+          "科幻"
         ],
-        "description": "",
+        "description": "紫发少女未来城，科幻世界展风华",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/紫瞳少女手指取景.jpg": {
@@ -2363,13 +2477,15 @@
       },
       "ai": {
         "keywords": [
-          "紫瞳少女手指取景"
+          "紫瞳",
+          "取景",
+          "摄影"
         ],
-        "description": "",
+        "description": "紫瞳少女手取景，摄影艺术展才华",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/红发巫女_持剑战斗.png": {
@@ -2388,14 +2504,15 @@
       },
       "ai": {
         "keywords": [
-          "红发巫女",
-          "持剑战斗"
+          "红发",
+          "巫女",
+          "战斗"
         ],
-        "description": "",
+        "description": "红发巫女持剑战，如火焰般炽烈美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/红发猫耳少女_街头涂鸦.png": {
@@ -2414,14 +2531,15 @@
       },
       "ai": {
         "keywords": [
-          "红发猫耳少女",
-          "街头涂鸦"
+          "红发",
+          "猫耳",
+          "街头"
         ],
-        "description": "",
+        "description": "红发猫耳街头风，如火猫般活泼美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/红衣背景黑裙持刀女性.png": {
@@ -2440,13 +2558,15 @@
       },
       "ai": {
         "keywords": [
-          "红衣背景黑裙持刀女性"
+          "红衣",
+          "持刀",
+          "英姿"
         ],
-        "description": "",
+        "description": "红衣黑裙持刀立，英姿飒爽展风华",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/蓝发少女_冰雾盲眼.png": {
@@ -2465,14 +2585,15 @@
       },
       "ai": {
         "keywords": [
-          "蓝发少女",
-          "冰雾盲眼"
+          "蓝发",
+          "冰雾",
+          "神秘"
         ],
-        "description": "",
+        "description": "蓝发少女冰雾中，神秘如冰雪女王",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/蓝装长发少女户外.jpg": {
@@ -2491,13 +2612,15 @@
       },
       "ai": {
         "keywords": [
-          "蓝装长发少女户外"
+          "蓝装",
+          "长发",
+          "户外"
         ],
-        "description": "",
+        "description": "蓝装长发户外行，如海风般自由美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/蝴_出水芙蓉.png": {
@@ -2516,14 +2639,15 @@
       },
       "ai": {
         "keywords": [
-          "蝴",
-          "出水芙蓉"
+          "出水",
+          "芙蓉",
+          "清雅"
         ],
-        "description": "",
+        "description": "出水芙蓉显清雅，如莲花般纯洁美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/金发.png": {
@@ -2542,13 +2666,15 @@
       },
       "ai": {
         "keywords": [
-          "金发"
+          "金发",
+          "耀眼",
+          "光芒"
         ],
-        "description": "",
+        "description": "金发耀眼如光芒，如太阳般灿烂美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/金发JK少女.png": {
@@ -2567,13 +2693,15 @@
       },
       "ai": {
         "keywords": [
-          "金发JK少女"
+          "金发",
+          "JK",
+          "青春"
         ],
-        "description": "",
+        "description": "金发JK展青春，如阳光般活力美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/金发抬头.png": {
@@ -2592,13 +2720,15 @@
       },
       "ai": {
         "keywords": [
-          "金发抬头"
+          "金发",
+          "抬头",
+          "仰望"
         ],
-        "description": "",
+        "description": "金发抬头仰望天，如向日葵般向阳美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/银发少女_持白花.png": {
@@ -2617,14 +2747,15 @@
       },
       "ai": {
         "keywords": [
-          "银发少女",
-          "持白花"
+          "银发",
+          "白花",
+          "纯洁"
         ],
-        "description": "",
+        "description": "银发少女持白花，纯洁如雪映晚霞",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/银发精灵少女持法杖.jpg": {
@@ -2643,13 +2774,15 @@
       },
       "ai": {
         "keywords": [
-          "银发精灵少女持法杖"
+          "银发",
+          "精灵",
+          "法杖"
         ],
-        "description": "",
+        "description": "银发精灵持法杖，如月光般神秘美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/银白发精灵花饰女性.png": {
@@ -2668,13 +2801,15 @@
       },
       "ai": {
         "keywords": [
-          "银白发精灵花饰女性"
+          "银白",
+          "精灵",
+          "花饰"
         ],
-        "description": "",
+        "description": "银白精灵戴花饰，如仙女般飘逸美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/镜面的她.png": {
@@ -2693,13 +2828,15 @@
       },
       "ai": {
         "keywords": [
-          "镜面的她"
+          "镜面",
+          "倒影",
+          "虚实"
         ],
-        "description": "",
+        "description": "镜面倒影显虚实，如梦境般朦胧美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/闭眼微笑少女.png": {
@@ -2718,13 +2855,15 @@
       },
       "ai": {
         "keywords": [
-          "闭眼微笑少女"
+          "闭眼",
+          "微笑",
+          "恬静"
         ],
-        "description": "",
+        "description": "闭眼微笑显恬静，如春风般温柔美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/雪天女孩_蓝调氛围.jpg": {
@@ -2743,14 +2882,15 @@
       },
       "ai": {
         "keywords": [
-          "雪天女孩",
-          "蓝调氛围"
+          "雪天",
+          "蓝调",
+          "忧郁"
         ],
-        "description": "",
+        "description": "雪天蓝调显忧郁，如冬夜般深沉美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/鬼刃女.png": {
@@ -2769,13 +2909,15 @@
       },
       "ai": {
         "keywords": [
-          "鬼刃女"
+          "鬼刃",
+          "战士",
+          "英勇"
         ],
-        "description": "",
+        "description": "鬼刃女战士英勇，如烈火般炽热美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/黑发红瞳少女.png": {
@@ -2794,13 +2936,15 @@
       },
       "ai": {
         "keywords": [
-          "黑发红瞳少女"
+          "黑发",
+          "红瞳",
+          "神秘"
         ],
-        "description": "",
+        "description": "黑发红瞳显神秘，如夜玫瑰般妖艳美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/二次元/黑长直女仆装少女.jpg": {
@@ -2819,13 +2963,15 @@
       },
       "ai": {
         "keywords": [
-          "黑长直女仆装少女"
+          "黑发",
+          "女仆",
+          "优雅"
         ],
-        "description": "",
+        "description": "黑发女仆显优雅，如夜莺般动人美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/仙逆/竹林凝神-李慕婉.png": {
@@ -2844,14 +2990,15 @@
       },
       "ai": {
         "keywords": [
-          "竹林凝神",
-          "李慕婉"
+          "竹林",
+          "凝神",
+          "仙韵"
         ],
-        "description": "",
+        "description": "竹林凝神展仙韵，如仙子般飘逸美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/仙逆/雪庭华服-婉儿.png": {
@@ -2870,14 +3017,15 @@
       },
       "ai": {
         "keywords": [
-          "雪庭华服",
-          "婉儿"
+          "雪庭",
+          "华服",
+          "婉约"
         ],
-        "description": "",
+        "description": "雪庭华服显婉约，如雪莲般清雅美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/刀剑神域/亚丝娜.jpg": {
@@ -2896,13 +3044,15 @@
       },
       "ai": {
         "keywords": [
-          "亚丝娜"
+          "亚丝娜",
+          "剑士",
+          "勇敢"
         ],
-        "description": "",
+        "description": "亚丝娜剑士勇敢，如闪电般迅捷美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/初音未来/双马尾-嘘.png": {
@@ -2922,13 +3072,14 @@
       "ai": {
         "keywords": [
           "双马尾",
-          "嘘"
+          "嘘声",
+          "神秘"
         ],
-        "description": "",
+        "description": "双马尾嘘声显神秘，如精灵般可爱美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/初音未来/洛天依-古典.png": {
@@ -2948,13 +3099,14 @@
       "ai": {
         "keywords": [
           "洛天依",
-          "古典"
+          "古典",
+          "优雅"
         ],
-        "description": "",
+        "description": "洛天依古典优雅，如古琴般悠扬美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/初音未来/洛天依-虚拟歌手.png": {
@@ -2974,13 +3126,14 @@
       "ai": {
         "keywords": [
           "洛天依",
-          "虚拟歌手"
+          "虚拟",
+          "歌声"
         ],
-        "description": "",
+        "description": "洛天依虚拟歌声，如天籁般动听美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/剑来/中式建筑-互动场景.png": {
@@ -2999,14 +3152,15 @@
       },
       "ai": {
         "keywords": [
-          "中式建筑",
-          "互动场景"
+          "中式",
+          "建筑",
+          "互动"
         ],
-        "description": "",
+        "description": "中式建筑互动场，如画卷般古雅美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/剑来/云雾-人物插画-仙侠.png": {
@@ -3026,14 +3180,14 @@
       "ai": {
         "keywords": [
           "云雾",
-          "人物插画",
-          "仙侠"
+          "仙侠",
+          "飘逸"
         ],
-        "description": "",
+        "description": "云雾仙侠显飘逸，如仙人般超脱美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/剑来/剑来-宁姚.png": {
@@ -3053,13 +3207,14 @@
       "ai": {
         "keywords": [
           "剑来",
-          "宁姚"
+          "宁姚",
+          "仙韵"
         ],
-        "description": "",
+        "description": "剑来宁姚展仙韵，如剑仙般飘逸美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/名侦探柯南/名侦探柯南-嘘-神秘感.png": {
@@ -3078,15 +3233,15 @@
       },
       "ai": {
         "keywords": [
-          "名侦探柯南",
-          "嘘",
-          "神秘感"
+          "柯南",
+          "嘘声",
+          "推理"
         ],
-        "description": "",
+        "description": "柯南嘘声显推理，神秘如夜探案美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/名侦探柯南/工藤新一-柯南.png": {
@@ -3105,14 +3260,15 @@
       },
       "ai": {
         "keywords": [
-          "工藤新一",
-          "柯南"
+          "工藤",
+          "新一",
+          "智慧"
         ],
-        "description": "",
+        "description": "工藤新一展智慧，如明灯般照亮美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/名侦探柯南/毛利兰.png": {
@@ -3131,13 +3287,15 @@
       },
       "ai": {
         "keywords": [
-          "毛利兰"
+          "毛利兰",
+          "温柔",
+          "坚强"
         ],
-        "description": "",
+        "description": "毛利兰温柔坚强，如樱花般纯真美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/名侦探柯南/灰原哀.png": {
@@ -3156,13 +3314,15 @@
       },
       "ai": {
         "keywords": [
-          "灰原哀"
+          "灰原哀",
+          "冷静",
+          "智慧"
         ],
-        "description": "",
+        "description": "灰原哀冷静智慧，如冰雪般清冷美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/哆啦A梦/今日运势-哆啦A梦.png": {
@@ -3181,14 +3341,15 @@
       },
       "ai": {
         "keywords": [
-          "今日运势",
-          "哆啦A梦"
+          "运势",
+          "哆啦",
+          "童趣"
         ],
-        "description": "",
+        "description": "今日运势哆啦伴，童趣如风暖人心",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/喜洋洋与灰太狼/卡通-喜洋洋与灰太狼.png": {
@@ -3207,14 +3368,15 @@
       },
       "ai": {
         "keywords": [
-          "卡通",
-          "喜洋洋与灰太狼"
+          "喜羊羊",
+          "灰太狼",
+          "童年"
         ],
-        "description": "",
+        "description": "喜羊羊灰太狼伴，童年回忆暖心田",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/喜洋洋与灰太狼/羊羊加油.png": {
@@ -3233,13 +3395,15 @@
       },
       "ai": {
         "keywords": [
-          "羊羊加油"
+          "羊羊",
+          "加油",
+          "励志"
         ],
-        "description": "",
+        "description": "羊羊加油显励志，如阳光般温暖美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/完美世界/火灵儿.jpg": {
@@ -3258,13 +3422,15 @@
       },
       "ai": {
         "keywords": [
-          "火灵儿"
+          "火灵儿",
+          "烈焰",
+          "热情"
         ],
-        "description": "",
+        "description": "火灵儿烈焰热情，如凤凰般绚烂美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/斗破苍穹/萧薰儿.png": {
@@ -3283,13 +3449,15 @@
       },
       "ai": {
         "keywords": [
-          "萧薰儿"
+          "萧薰儿",
+          "温柔",
+          "坚韧"
         ],
-        "description": "",
+        "description": "萧薰儿温柔坚韧，如金莲般高贵美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/斗破苍穹/青仙子.png": {
@@ -3308,13 +3476,15 @@
       },
       "ai": {
         "keywords": [
-          "青仙子"
+          "青仙子",
+          "清雅",
+          "仙韵"
         ],
-        "description": "",
+        "description": "青仙子清雅仙韵，如青莲般出尘美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/新世纪福音战士/惣流·明日香·兰格雷.jpg": {
@@ -3333,13 +3503,15 @@
       },
       "ai": {
         "keywords": [
-          "惣流·明日香·兰格雷"
+          "明日香",
+          "驾驶员",
+          "勇敢"
         ],
-        "description": "",
+        "description": "明日香驾驶员勇敢，如战士般无畏美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/春物雪乃/报纸背景.jpg": {
@@ -3358,13 +3530,15 @@
       },
       "ai": {
         "keywords": [
-          "报纸背景"
+          "报纸",
+          "文艺",
+          "复古"
         ],
-        "description": "",
+        "description": "报纸背景显文艺，复古如诗醉人心",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/春物雪乃/涂鸦T恤.jpg": {
@@ -3383,13 +3557,15 @@
       },
       "ai": {
         "keywords": [
-          "涂鸦T恤"
+          "涂鸦",
+          "T恤",
+          "个性"
         ],
-        "description": "",
+        "description": "涂鸦T恤显个性，如艺术般创意美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/春物雪乃/试卷堆.png": {
@@ -3408,13 +3584,15 @@
       },
       "ai": {
         "keywords": [
-          "试卷堆"
+          "试卷",
+          "学习",
+          "努力"
         ],
-        "description": "",
+        "description": "试卷堆积显努力，如学者般勤奋美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/猫和老鼠/Tom-动画-卡通.png": {
@@ -3434,14 +3612,14 @@
       "ai": {
         "keywords": [
           "Tom",
-          "动画",
-          "卡通"
+          "猫咪",
+          "搞笑"
         ],
-        "description": "",
+        "description": "Tom猫咪显搞笑，如小丑般逗趣美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/猫和老鼠/杰瑞-可爱.png": {
@@ -3461,13 +3639,14 @@
       "ai": {
         "keywords": [
           "杰瑞",
-          "可爱"
+          "机灵",
+          "萌趣"
         ],
-        "description": "",
+        "description": "杰瑞机灵显萌趣，如精灵般活泼美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/百炼成神/角色群像.jpg": {
@@ -3486,13 +3665,15 @@
       },
       "ai": {
         "keywords": [
-          "角色群像"
+          "群像",
+          "英雄",
+          "传奇"
         ],
-        "description": "",
+        "description": "英雄群像展传奇，如史诗般壮美画",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/神奇宝贝/小智-日落.png": {
@@ -3512,13 +3693,14 @@
       "ai": {
         "keywords": [
           "小智",
-          "日落"
+          "日落",
+          "梦想"
         ],
-        "description": "",
+        "description": "小智日落追梦想，如少年般勇敢美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/神奇宝贝/皮卡丘_温泉.jpg": {
@@ -3538,13 +3720,14 @@
       "ai": {
         "keywords": [
           "皮卡丘",
-          "温泉"
+          "温泉",
+          "惬意"
         ],
-        "description": "",
+        "description": "皮卡丘温泉显惬意，如精灵般可爱美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/神奇宝贝/简易画风.jpg": {
@@ -3563,13 +3746,15 @@
       },
       "ai": {
         "keywords": [
-          "简易画风"
+          "简约",
+          "画风",
+          "清新"
         ],
-        "description": "",
+        "description": "简约画风显清新，如水彩般淡雅美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/紫罗兰永恒花园/薇尔莉特.jpg": {
@@ -3588,13 +3773,15 @@
       },
       "ai": {
         "keywords": [
-          "薇尔莉特"
+          "薇尔莉特",
+          "优雅",
+          "纯真"
         ],
-        "description": "",
+        "description": "薇尔莉特展优雅，纯真如花绽芳华",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/罪恶王冠/楪祈.jpg": {
@@ -3613,13 +3800,15 @@
       },
       "ai": {
         "keywords": [
-          "楪祈"
+          "楪祈",
+          "神秘",
+          "美丽"
         ],
-        "description": "",
+        "description": "楪祈神秘显美丽，如天使般圣洁美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/蕾姆/樱花场景.jpg": {
@@ -3638,13 +3827,15 @@
       },
       "ai": {
         "keywords": [
-          "樱花场景"
+          "樱花",
+          "浪漫",
+          "春意"
         ],
-        "description": "",
+        "description": "樱花浪漫显春意，如诗如画醉人心",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/蜡笔小新/动漫-来财-蜡笔小新.png": {
@@ -3663,9 +3854,9 @@
       },
       "ai": {
         "keywords": [
-          "动漫",
           "来财",
-          "蜡笔小新"
+          "搞笑",
+          "童趣"
         ],
         "description": "",
         "displayTitle": "",
@@ -3716,15 +3907,15 @@
       },
       "ai": {
         "keywords": [
-          "动漫场景",
           "小新",
-          "小白"
+          "小白",
+          "友谊"
         ],
-        "description": "",
+        "description": "小新小白显友谊，如伙伴般温暖美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/蜡笔小新/动漫场景-小新.png": {
@@ -3743,14 +3934,15 @@
       },
       "ai": {
         "keywords": [
-          "动漫场景",
-          "小新"
+          "场景",
+          "童年",
+          "快乐"
         ],
-        "description": "",
+        "description": "童年场景显快乐，如阳光般灿烂美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/蜡笔小新/卧室-夜晚-小新.png": {
@@ -3769,15 +3961,15 @@
       },
       "ai": {
         "keywords": [
-          "卧室",
           "夜晚",
-          "小新"
+          "卧室",
+          "安静"
         ],
-        "description": "",
+        "description": "夜晚卧室显安静，如月光般温柔美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/蜡笔小新/小新-房间-捣乱.png": {
@@ -3796,15 +3988,15 @@
       },
       "ai": {
         "keywords": [
-          "小新",
-          "房间",
-          "捣乱"
+          "捣乱",
+          "顽皮",
+          "童真"
         ],
-        "description": "",
+        "description": "顽皮捣乱显童真，如精灵般活泼美",
         "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "confidence": 0.95,
+        "model": "enhanced-keywords",
+        "analyzedAt": "2026-01-20T13:07:32.537Z"
       }
     },
     "wallpaper/desktop/动漫/蜡笔小新/小新_河边吃西瓜.png": {
@@ -8708,8 +8900,7 @@
         "description": "",
         "displayTitle": "",
         "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
+        "model": "filename-inference"
       }
     },
     "wallpaper/desktop/插画/通用/暖光宅邸银发女仆伸手相迎.png": {
