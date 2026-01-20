@@ -280,7 +280,7 @@ get_core_name() {
     fi
 }
 
-# 检查文件是否已存在（通过核心名匹配）
+# 检查文件是否已存在（通过核心名精确匹配）
 file_exists_in_target() {
     local filename="$1"
     local core_name
@@ -292,8 +292,21 @@ file_exists_in_target() {
         return 0  # 视为已存在，跳过
     fi
     
-    # 递归搜索 wallpaper/desktop 目录，查找包含核心名的文件
-    if find "$TARGET_DIR" -type f \( -iname "*${core_name}.*" -o -iname "*${core_name}_*" -o -iname "*_${core_name}.*" \) 2>/dev/null | grep -q .; then
+    # 递归搜索 wallpaper/desktop 目录，精确匹配文件名（不包含扩展名）
+    # 修复：避免前缀匹配问题（如 "蓝蝶轻倚的卷发少女" 匹配到 "蓝蝶轻倚的卷发少女_多花"）
+    local found=false
+    while IFS= read -r existing_file; do
+        local existing_basename=$(basename "$existing_file")
+        local existing_noext="${existing_basename%.*}"
+        
+        # 精确匹配：文件名（不含扩展名）必须完全相同
+        if [ "$existing_noext" = "$core_name" ]; then
+            found=true
+            break
+        fi
+    done < <(find "$TARGET_DIR" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" -o -iname "*.webp" \) 2>/dev/null)
+    
+    if [ "$found" = true ]; then
         return 0  # 存在
     fi
     return 1  # 不存在

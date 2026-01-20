@@ -1,7 +1,7 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-01-20T09:29:52.773Z",
+  "lastUpdated": "2026-01-20T09:52:50.548Z",
   "count": 336,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
@@ -8552,7 +8552,7 @@
       "subcategory": "",
       "filename": "夜色泳池蕾塞.png",
       "createdAt": "2026-01-19T17:24:46.000Z",
-      "cdnTag": "v1.1.42",
+      "cdnTag": "v1.1.41",
       "size": 7860230,
       "format": "png",
       "resolution": {
@@ -8563,7 +8563,9 @@
       },
       "ai": {
         "keywords": [
-          "夜色泳池蕾塞"
+          "夜色",
+          "泳池",
+          "少女"
         ],
         "description": "",
         "displayTitle": "",
@@ -8577,7 +8579,7 @@
       "subcategory": "",
       "filename": "林荫光影下戴眼镜的辫发少女.png",
       "createdAt": "2026-01-19T17:24:46.000Z",
-      "cdnTag": "v1.1.42",
+      "cdnTag": "v1.1.41",
       "size": 7664492,
       "format": "png",
       "resolution": {
@@ -8588,7 +8590,10 @@
       },
       "ai": {
         "keywords": [
-          "林荫光影下戴眼镜的辫发少女"
+          "林荫",
+          "眼镜",
+          "辫发",
+          "少女"
         ],
         "description": "",
         "displayTitle": "",
@@ -8602,7 +8607,7 @@
       "subcategory": "",
       "filename": "漆皮靴酷飒少女天台闲坐.png",
       "createdAt": "2026-01-19T17:24:46.000Z",
-      "cdnTag": "v1.1.42",
+      "cdnTag": "v1.1.41",
       "size": 7334528,
       "format": "png",
       "resolution": {
@@ -8613,7 +8618,10 @@
       },
       "ai": {
         "keywords": [
-          "漆皮靴酷飒少女天台闲坐"
+          "漆皮靴",
+          "酷飒",
+          "少女",
+          "时尚"
         ],
         "description": "",
         "displayTitle": "",
@@ -8627,7 +8635,7 @@
       "subcategory": "",
       "filename": "粉发花环少女与眠猫.png",
       "createdAt": "2026-01-19T17:24:46.000Z",
-      "cdnTag": "v1.1.42",
+      "cdnTag": "v1.1.41",
       "size": 7394294,
       "format": "png",
       "resolution": {
@@ -8638,7 +8646,10 @@
       },
       "ai": {
         "keywords": [
-          "粉发花环少女与眠猫"
+          "粉发",
+          "花环",
+          "少女",
+          "温馨"
         ],
         "description": "",
         "displayTitle": "",
@@ -8652,7 +8663,7 @@
       "subcategory": "",
       "filename": "蓝蝶轻倚的卷发少女_多花.png",
       "createdAt": "2026-01-19T17:24:46.000Z",
-      "cdnTag": "v1.1.42",
+      "cdnTag": "v1.1.41",
       "size": 8472034,
       "format": "png",
       "resolution": {
@@ -8663,8 +8674,9 @@
       },
       "ai": {
         "keywords": [
-          "蓝蝶轻倚的卷发少女",
-          "多花"
+          "卷发",
+          "少女",
+          "唯美"
         ],
         "description": "",
         "displayTitle": "",
@@ -8678,7 +8690,7 @@
       "subcategory": "",
       "filename": "霓虹电梯里的金发二次元少女.png",
       "createdAt": "2026-01-20T08:56:29.000Z",
-      "cdnTag": "v1.1.42",
+      "cdnTag": "v1.1.41",
       "size": 7598278,
       "format": "png",
       "resolution": {
@@ -8689,7 +8701,9 @@
       },
       "ai": {
         "keywords": [
-          "霓虹电梯里的金发二次元少女"
+          "霓虹",
+          "金发",
+          "赛博朋克"
         ],
         "description": "",
         "displayTitle": "",

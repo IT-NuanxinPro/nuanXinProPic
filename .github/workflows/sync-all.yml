@@ -202,7 +202,23 @@ jobs:
           fi
 
       # ========================================
-      # 5. 生成 JSON 数据并上传到 R2
+      # 5. 处理 metadata（关键步骤！）
+      # ========================================
+      - name: Process metadata from timestamps
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          echo "📊 Processing metadata from timestamps..."
+          
+          # 获取新 tag
+          NEW_TAG="${{ steps.version.outputs.new_tag }}"
+          
+          # 处理 metadata（会从 timestamps-backup-all.txt 同步缺失的图片）
+          node ./scripts/process-metadata.js . "$NEW_TAG" --force
+          
+          echo "✅ Metadata processed"
+
+      # ========================================
+      # 6. 生成 JSON 数据并上传到 R2
       # ========================================
       - name: Generate and upload JSON data
         if: (steps.check.outputs.has_changes == 'true' || github.event.inputs.full_sync == 'true') && steps.r2_upload.outputs.r2_enabled == 'true'
@@ -214,14 +230,14 @@ jobs:
         run: |
           echo "📊 Generating JSON data..."
           
-          # 生成 JSON 数据（会自动更新 timestamps-backup.txt）
-          node ./scripts/generate-data.js
+          # 注意：不再需要 generate-data.js，因为 process-metadata.js 已经生成了前端数据
+          # node ./scripts/generate-data.js
           
-          # 如果时间戳备份文件有更新，提交它
-          if [ -n "$(git status --porcelain timestamps-backup-all.txt)" ]; then
-            echo "📝 Committing updated timestamps..."
-            git add timestamps-backup-all.txt
-            git commit -m "chore: update timestamp backup" || true
+          # 提交 metadata 和 data 的更新
+          if [ -n "$(git status --porcelain metadata/ data/)" ]; then
+            echo "📝 Committing metadata and data updates..."
+            git add metadata/ data/
+            git commit -m "chore: update metadata and frontend data" || true
             git push || true
           fi
           
@@ -250,7 +266,7 @@ jobs:
           echo "✅ JSON data uploaded"
 
       # ========================================
-      # 6. 清除 Cloudflare 缓存
+      # 7. 清除 Cloudflare 缓存
       # ========================================
       - name: Purge Cloudflare Cache
         if: (steps.check.outputs.has_changes == 'true' || github.event.inputs.full_sync == 'true') && steps.r2_upload.outputs.r2_enabled == 'true'
@@ -284,7 +300,7 @@ jobs:
           fi
 
       # ========================================
-      # 7. 创建 Git Tag 和 Release（保留用于 jsDelivr 回退）
+      # 8. 创建 Git Tag 和 Release（保留用于 jsDelivr 回退）
       # ========================================
       - name: Create tag
         if: steps.check.outputs.has_changes == 'true'
@@ -421,7 +437,7 @@ jobs:
           echo "✅ Updated stats.json"
 
       # ========================================
-      # 8. 生成摘要
+      # 9. 生成摘要
       # ========================================
       - name: Generate summary
         run: |
