@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "avatar",
-  "lastUpdated": "2026-01-19T02:09:45.021Z",
-  "count": 278,
+  "lastUpdated": "2026-01-20T08:56:31.115Z",
+  "count": 297,
   "images": {
     "wallpaper/avatar/IP形象/Hello Kitty/HelloKitty_好运.png": {
       "category": "IP形象",
@@ -7074,6 +7074,728 @@
         "displayTitle": "搞怪墨镜橘猫表情包",
         "confidence": 0.9,
         "reasoning": "图片展示搞怪姿态（抱臂、墨镜）的卡通猫咪，符合表情包“搞怪风格、用于聊天情绪表达”的核心特征，故归类为表情包/搞怪。"
+      }
+    },
+    "wallpaper/avatar/动漫/小王子/微信图片_20260120161545_493_4.jpg": {
+      "category": "动漫",
+      "subcategory": "小王子",
+      "filename": "微信图片_20260120161545_493_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.126Z",
+      "cdnTag": "v1.1.42",
+      "size": 233051,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "小王子",
+          "插画",
+          "星空",
+          "玫瑰",
+          "治愈"
+        ],
+        "description": "小王子坐于花丛，仰望星夜明月，暖色调插画传递治愈梦幻的童话感。",
+        "filenameSuggestions": [
+          "星夜下仰望月亮的小王子.jpg",
+          "花丛中沉思的小王子插画.jpg"
+        ],
+        "displayTitle": "星夜下的小王子与玫瑰",
+        "confidence": 0.9,
+        "reasoning": "图片为手绘插画风格，以星空、花朵与小王子的场景为核心，符合“插画/场景”的分类逻辑（场景为主的插画）；角色为《小王子》IP，现有分类未收录，故提案补充。"
+      }
+    },
+    "wallpaper/avatar/动漫/小王子/微信图片_20260120161546_494_4.jpg": {
+      "category": "动漫",
+      "subcategory": "小王子",
+      "filename": "微信图片_20260120161546_494_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.126Z",
+      "cdnTag": "v1.1.42",
+      "size": 262966,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "卡通",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "卡通",
+        "keywords": [
+          "小王子",
+          "玫瑰",
+          "星空",
+          "插画",
+          "卡通"
+        ],
+        "description": "小王子立于星球，玫瑰簇拥，星空熠熠，卡通插画演绎童话梦幻。",
+        "filenameSuggestions": [
+          "小王子与玫瑰的星夜插画.jpg",
+          "星空下的小王子与玫瑰.jpg"
+        ],
+        "displayTitle": "小王子的星夜玫瑰之境",
+        "confidence": 0.9,
+        "reasoning": "图片为《小王子》主题的卡通风格插画，画面以卡通化角色与场景呈现，符合插画/卡通子类的风格特征，故归入插画/卡通。"
+      }
+    },
+    "wallpaper/avatar/动漫/小王子/微信图片_20260120161546_495_4.jpg": {
+      "category": "动漫",
+      "subcategory": "小王子",
+      "filename": "微信图片_20260120161546_495_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.126Z",
+      "cdnTag": "v1.1.42",
+      "size": 192545,
+      "format": "jpg",
+      "resolution": {
+        "width": 816,
+        "height": 816,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "小王子",
+          "狐狸",
+          "插画",
+          "治愈",
+          "春日"
+        ],
+        "description": "春日草地上，小王子执红玫瑰与狐狸相伴，水彩画风清新治愈，尽显温柔意境。",
+        "filenameSuggestions": [
+          "春日相伴的小王子与狐狸.jpg",
+          "执玫瑰的小王子和狐狸插画.jpg"
+        ],
+        "displayTitle": "小王子与狐狸的春日絮语",
+        "confidence": 0.9,
+        "reasoning": "图片为水彩插画，展现小王子与狐狸的互动场景，风格清新治愈，符合「插画/场景」的分类逻辑；因IP为《小王子》，现有分类无对应子类故提案新增。"
+      }
+    },
+    "wallpaper/avatar/动漫/小王子/微信图片_20260120161547_496_4.jpg": {
+      "category": "动漫",
+      "subcategory": "小王子",
+      "filename": "微信图片_20260120161547_496_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.126Z",
+      "cdnTag": "v1.1.42",
+      "size": 242959,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1014,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "小王子",
+          "狐狸",
+          "麦田",
+          "治愈插画",
+          "IP形象"
+        ],
+        "description": "阳光洒落金黄麦田，小王子系着飘带与狐狸相伴而立，风拂麦浪，画面静谧治愈。",
+        "filenameSuggestions": [
+          "麦田里的小王子与狐狸.jpg",
+          "风拂飘带的小王子和狐狸.jpg"
+        ],
+        "displayTitle": "麦田暖阳·小王子与狐",
+        "confidence": 0.9,
+        "reasoning": "图片呈现《小王子》IP的核心角色（小王子、狐狸），风格为插画，场景为麦田。因现有IP分类无“小王子”子类，故提案新增IP形象/小王子，符合特定IP归类逻辑。"
+      }
+    },
+    "wallpaper/avatar/动漫/猫和老鼠/微信图片_20260120161635_520_4.jpg": {
+      "category": "动漫",
+      "subcategory": "猫和老鼠",
+      "filename": "微信图片_20260120161635_520_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.126Z",
+      "cdnTag": "v1.1.42",
+      "size": 103953,
+      "format": "jpg",
+      "resolution": {
+        "width": 952,
+        "height": 1069,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "猫和老鼠",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "猫和老鼠",
+        "keywords": [
+          "猫和老鼠",
+          "汤姆杰瑞",
+          "西瓜冰浴",
+          "夏日清凉",
+          "动漫壁纸"
+        ],
+        "description": "汤姆与杰瑞在西瓜容器中，伴冰块共享西瓜，呈现夏日清凉治愈的动漫场景。",
+        "filenameSuggestions": [
+          "汤姆杰瑞西瓜冰浴.jpg",
+          "猫和老鼠清凉吃瓜.jpg"
+        ],
+        "displayTitle": "猫鼠西瓜冰夏同欢",
+        "confidence": 0.9,
+        "reasoning": "图片展示《猫和老鼠》IP角色（汤姆、杰瑞），符合动漫分类下“特定IP”规则，故归类为动漫/猫和老鼠。"
+      }
+    },
+    "wallpaper/avatar/人像/氛围感/微信图片_20260119095918_477_4.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_20260119095918_477_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.126Z",
+      "cdnTag": "v1.1.42",
+      "size": 197228,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "自拍",
+          "少年",
+          "白背心",
+          "手机"
+        ],
+        "description": "少年身着白背心，持蓝色手机自拍，背景简笔肖像，氛围清新治愈。",
+        "filenameSuggestions": [
+          "穿白背心自拍的清新少年.jpg",
+          "持蓝手机自拍的少年.jpg"
+        ],
+        "displayTitle": "镜前自拍的清新少年",
+        "confidence": 0.9,
+        "reasoning": "图片呈现人物自拍场景，风格明亮干净、充满氧气感，符合‘人像/清新’的特征判定，故归类至此。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/微信图片_20260119095919_478_4.jpg": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_20260119095919_478_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.126Z",
+      "cdnTag": "v1.1.42",
+      "size": 266755,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "玫瑰",
+          "气球",
+          "卷发",
+          "笑容"
+        ],
+        "description": "卷发少女怀红玫瑰、握气球，浅笑时光影柔和，满溢治愈清新气息。",
+        "filenameSuggestions": [
+          "抱红玫瑰的清新卷发少女.jpg",
+          "携气球浅笑的治愈系女孩.jpg"
+        ],
+        "displayTitle": "玫瑰与气球的治愈笑颜",
+        "confidence": 0.9,
+        "reasoning": "图片为人物肖像，无特定明星；无魅力（无身材展示）、国风（无传统服饰/建筑）、氛围感（五官清晰）特征，符合清新的明亮治愈、笑容甜美特征，故归入人像/清新。"
+      }
+    },
+    "wallpaper/avatar/动漫/海贼王/微信图片_20260120161534_480_4.jpg": {
+      "category": "动漫",
+      "subcategory": "海贼王",
+      "filename": "微信图片_20260120161534_480_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.126Z",
+      "cdnTag": "v1.1.42",
+      "size": 316312,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "通用",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "通用",
+        "keywords": [
+          "海贼王",
+          "路飞",
+          "水墨风",
+          "动漫",
+          "笑容"
+        ],
+        "description": "以水墨笔触绘制的《海贼王》路飞，爽朗大笑传递热血活力。",
+        "filenameSuggestions": [
+          "水墨风大笑的路飞.jpg",
+          "海贼王路飞的热血笑容.jpg"
+        ],
+        "displayTitle": "草帽路飞的爽朗大笑",
+        "confidence": 0.9,
+        "reasoning": "图片角色为《海贼王》蒙奇·D·路飞，属动漫IP（现有分类无对应项）；画面为手绘插画风格，角色笑容清新，故归类动漫类并提案新增IP分类。"
+      }
+    },
+    "wallpaper/avatar/插画/二次元/微信图片_20260120161535_481_4.jpg": {
+      "category": "插画",
+      "subcategory": "二次元",
+      "filename": "微信图片_20260120161535_481_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.126Z",
+      "cdnTag": "v1.1.42",
+      "size": 151532,
+      "format": "jpg",
+      "resolution": {
+        "width": 1024,
+        "height": 1258,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "暗黑",
+          "抽烟",
+          "红眸",
+          "连帽衫"
+        ],
+        "description": "暗夜中，身着黑连帽衫的二次元少女，红眸噙烟，烟雾袅袅，氛围感浓郁。",
+        "filenameSuggestions": [
+          "黑连帽衫红眸抽烟的二次元少女.jpg",
+          "暗夜氛围感抽烟的动漫少女.jpg"
+        ],
+        "displayTitle": "暗夜红眸的连帽少女",
+        "confidence": 0.9,
+        "reasoning": "图片呈现典型日式动漫风格（二次元），无特定IP角色，故归入动漫/二次元分类。"
+      }
+    },
+    "wallpaper/avatar/人像/氛围感/微信图片_20260120161536_482_4.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_20260120161536_482_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.126Z",
+      "cdnTag": "v1.1.42",
+      "size": 121745,
+      "format": "jpg",
+      "resolution": {
+        "width": 926,
+        "height": 926,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "人像",
+          "日落",
+          "海滨",
+          "动漫"
+        ],
+        "description": "暖黄日落铺洒海滨，白衣少年持粉玫瑰，柔和光影晕染治愈氛围，清新如诗。",
+        "filenameSuggestions": [
+          "日落海畔持玫瑰的清新少年.jpg",
+          "暖光下拿玫瑰的治愈动漫男生.jpg"
+        ],
+        "displayTitle": "日落海畔的玫瑰少年",
+        "confidence": 0.9,
+        "reasoning": "图片主体为动漫风格人物，色彩明亮、氛围治愈，符合人像“清新”类的高明度、氧气感特征（高明度暖黄与粉白配色，海滨日落的治愈场景），故判定为[人像/清新]。"
+      }
+    },
+    "wallpaper/avatar/插画/二次元/微信图片_20260120161537_483_4.jpg": {
+      "category": "插画",
+      "subcategory": "二次元",
+      "filename": "微信图片_20260120161537_483_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.126Z",
+      "cdnTag": "v1.1.42",
+      "size": 334844,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "卡通",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "卡通",
+        "keywords": [
+          "卡通猫",
+          "红条纹衣",
+          "举铲",
+          "插画",
+          "萌宠"
+        ],
+        "description": "一只身着红条纹衣、系紫领结的卡通黑猫，双手举铲，神态呆萌可爱。",
+        "filenameSuggestions": [
+          "举铲的红条纹卡通猫.jpg",
+          "呆萌黑猫举铲插画.jpg"
+        ],
+        "displayTitle": "举铲的红装卡通肥猫",
+        "confidence": 0.9,
+        "reasoning": "图片为手绘卡通风格，无现有动漫IP匹配，故归入插画/卡通；主体为猫咪，符合萌宠/猫咪特征，因插画类优先级（B决策树）高于萌宠，主归类为插画/卡通。"
+      }
+    },
+    "wallpaper/avatar/动漫/海贼王/微信图片_20260120161538_484_4.jpg": {
+      "category": "动漫",
+      "subcategory": "海贼王",
+      "filename": "微信图片_20260120161538_484_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.126Z",
+      "cdnTag": "v1.1.42",
+      "size": 249461,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 991,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "海贼王",
+          "路飞",
+          "动漫",
+          "航海",
+          "甲板"
+        ],
+        "description": "草帽路飞立于航海船甲板，笑容明媚，洋溢着冒险的活力与热血。",
+        "filenameSuggestions": [
+          "草帽路飞航海甲板英姿.jpg",
+          "海贼王路飞冒险时刻.jpg"
+        ],
+        "displayTitle": "草帽路飞的航海征途",
+        "confidence": 0.9,
+        "reasoning": "图片角色为《海贼王》的蒙奇·D·路飞，具有典型日式动漫风格，现有动漫三级分类无该IP，故提案新增‘动漫/海贼王’子类，二级选‘动漫’符合判定逻辑。"
+      }
+    },
+    "wallpaper/avatar/动漫/猫和老鼠/微信图片_20260120161539_485_4.jpg": {
+      "category": "动漫",
+      "subcategory": "猫和老鼠",
+      "filename": "微信图片_20260120161539_485_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.126Z",
+      "cdnTag": "v1.1.42",
+      "size": 73444,
+      "format": "jpg",
+      "resolution": {
+        "width": 690,
+        "height": 690,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "猫和老鼠",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "猫和老鼠",
+        "keywords": [
+          "动漫",
+          "猫和老鼠",
+          "卡通",
+          "温馨",
+          "经典IP"
+        ],
+        "description": "汤姆猫掌心托着杰瑞鼠，二者互动洋溢着温馨趣味，重现经典IP的可爱瞬间。",
+        "filenameSuggestions": [
+          "汤姆掌心托杰瑞鼠.jpg",
+          "猫和老鼠经典角色互动.jpg"
+        ],
+        "displayTitle": "汤姆与杰瑞的温馨互动",
+        "confidence": 0.9,
+        "reasoning": "图片呈现《猫和老鼠》中的汤姆与杰瑞，符合动漫分类下的特定IP规则，故归入动漫/猫和老鼠。"
+      }
+    },
+    "wallpaper/avatar/动漫/猫和老鼠/微信图片_20260120161539_486_4.jpg": {
+      "category": "动漫",
+      "subcategory": "猫和老鼠",
+      "filename": "微信图片_20260120161539_486_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.126Z",
+      "cdnTag": "v1.1.42",
+      "size": 63253,
+      "format": "jpg",
+      "resolution": {
+        "width": 690,
+        "height": 690,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "猫和老鼠",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "猫和老鼠",
+        "keywords": [
+          "猫和老鼠",
+          "杰瑞",
+          "汤姆",
+          "卡通",
+          "童趣"
+        ],
+        "description": "动画《猫和老鼠》中的杰瑞，手持迷你汤姆玩偶，可爱神态尽显童趣。",
+        "filenameSuggestions": [
+          "杰瑞手持汤姆玩偶.jpg",
+          "可爱杰瑞与迷你汤姆卡通.jpg"
+        ],
+        "displayTitle": "杰瑞与迷你汤姆的童趣时光",
+        "confidence": 0.9,
+        "reasoning": "图片呈现《猫和老鼠》中的角色杰瑞与迷你汤姆形象，根据动漫类特定IP规则，归入动漫/猫和老鼠。"
+      }
+    },
+    "wallpaper/avatar/动漫/猫和老鼠/微信图片_20260120161540_487_4.jpg": {
+      "category": "动漫",
+      "subcategory": "猫和老鼠",
+      "filename": "微信图片_20260120161540_487_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.126Z",
+      "cdnTag": "v1.1.42",
+      "size": 159736,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "猫和老鼠",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "猫和老鼠",
+        "keywords": [
+          "猫和老鼠",
+          "杰瑞",
+          "恐龙装",
+          "萌趣",
+          "卡通"
+        ],
+        "description": "《猫和老鼠》杰瑞身着粉色恐龙装，张嘴嗷叫，可爱俏皮，童趣满溢。",
+        "filenameSuggestions": [
+          "杰瑞穿粉恐龙装嗷叫.jpg",
+          "猫和老鼠杰瑞恐龙装.jpg"
+        ],
+        "displayTitle": "杰瑞扮恐龙萌趣嗷叫",
+        "confidence": 0.9,
+        "reasoning": "图片角色为《猫和老鼠》的杰瑞，结合恐龙装造型，根据动漫分类决策树‘特定IP’规则，判定为‘动漫/猫和老鼠’。"
+      }
+    },
+    "wallpaper/avatar/动漫/猫和老鼠/微信图片_20260120161541_489_4.jpg": {
+      "category": "动漫",
+      "subcategory": "猫和老鼠",
+      "filename": "微信图片_20260120161541_489_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.127Z",
+      "cdnTag": "v1.1.42",
+      "size": 154615,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "猫和老鼠",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "猫和老鼠",
+        "keywords": [
+          "猫和老鼠",
+          "汤姆猫",
+          "恐龙装",
+          "萌趣",
+          "动漫"
+        ],
+        "description": "汤姆猫身着蓝色恐龙服，双眼灵动，姿态可爱，童趣满溢。",
+        "filenameSuggestions": [
+          "穿蓝色恐龙装的汤姆猫.jpg",
+          "萌态恐龙服汤姆猫.jpg"
+        ],
+        "displayTitle": "恐龙装萌趣汤姆猫",
+        "confidence": 0.9,
+        "reasoning": "图片呈现《猫和老鼠》中的汤姆猫角色，身着恐龙服，符合动漫分类下的‘猫和老鼠’IP子类，故归类。"
+      }
+    },
+    "wallpaper/avatar/动漫/海绵宝宝/微信图片_20260120161542_490_4.jpg": {
+      "category": "动漫",
+      "subcategory": "海绵宝宝",
+      "filename": "微信图片_20260120161542_490_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.127Z",
+      "cdnTag": "v1.1.42",
+      "size": 250464,
+      "format": "jpg",
+      "resolution": {
+        "width": 1024,
+        "height": 1024,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "影视",
+        "subcategory": "海绵宝宝",
+        "primary": "desktop",
+        "secondary": "影视",
+        "third": "海绵宝宝",
+        "keywords": [
+          "海绵宝宝",
+          "愤怒",
+          "高跟鞋",
+          "卡通",
+          "影视"
+        ],
+        "description": "海绵宝宝怒目圆睁，手持高跟鞋，背景梦幻，尽显搞怪愤怒神态。",
+        "filenameSuggestions": [
+          "愤怒持高跟鞋的海绵宝宝.jpg",
+          "搞怪怒颜海绵宝宝卡通.jpg"
+        ],
+        "displayTitle": "怒态海绵宝宝持鞋对峙",
+        "confidence": 0.9,
+        "reasoning": "图片角色为海绵宝宝，属于影视分类下的海绵宝宝IP，故归类为影视/海绵宝宝。"
+      }
+    },
+    "wallpaper/avatar/人像/氛围感/微信图片_20260120161543_491_4.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_20260120161543_491_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.127Z",
+      "cdnTag": "v1.1.42",
+      "size": 239657,
+      "format": "jpg",
+      "resolution": {
+        "width": 1024,
+        "height": 1024,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "影视",
+        "subcategory": "通用",
+        "primary": "desktop",
+        "secondary": "影视",
+        "third": "通用",
+        "keywords": [
+          "小丑",
+          "电影角色",
+          "红西装",
+          "绿发",
+          "影视美学"
+        ],
+        "description": "电影《小丑》角色特写，绿发搭配红西装，妆容鲜明，氛围冷峻且富有艺术张力。",
+        "filenameSuggestions": [
+          "红西装绿发小丑肖像.jpg",
+          "电影小丑角色特写.jpg"
+        ],
+        "displayTitle": "小丑的冷峻凝视",
+        "confidence": 0.9,
+        "reasoning": "图片呈现电影《小丑》的角色形象，具有强影视IP属性；现有影视三级分类无对应项，故二级归为影视、三级选通用，同时提案新增影视/小丑分类。"
+      }
+    },
+    "wallpaper/avatar/动漫/小王子/微信图片_20260120161544_492_4.jpg": {
+      "category": "动漫",
+      "subcategory": "小王子",
+      "filename": "微信图片_20260120161544_492_4.jpg",
+      "createdAt": "2026-01-20T08:53:21.127Z",
+      "cdnTag": "v1.1.42",
+      "size": 225303,
+      "format": "jpg",
+      "resolution": {
+        "width": 1024,
+        "height": 1024,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "小王子",
+          "玫瑰",
+          "治愈",
+          "动漫",
+          "光影"
+        ],
+        "description": "小王子怀拥玫瑰，暖光漫过云空，花瓣与星芒纷飞，画面梦幻治愈。",
+        "filenameSuggestions": [
+          "暖阳中凝视玫瑰的小王子.jpg",
+          "星光下守护玫瑰的少年插画.jpg"
+        ],
+        "displayTitle": "小王子与玫瑰的暖光之约",
+        "confidence": 0.9,
+        "reasoning": "图片为日式动漫风格插画，无现有特定IP匹配，故归入动漫/二次元；因是《小王子》IP场景，现有分类缺失，提案新增。"
       }
     }
   }

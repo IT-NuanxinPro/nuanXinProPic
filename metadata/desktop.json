@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-01-19T02:09:45.017Z",
-  "count": 330,
+  "lastUpdated": "2026-01-20T08:56:31.111Z",
+  "count": 336,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -8539,6 +8539,157 @@
           "海边少女",
           "春风花语",
           "温柔"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/夜色泳池蕾塞.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "夜色泳池蕾塞.png",
+      "createdAt": "2026-01-19T17:24:46.000Z",
+      "cdnTag": "v1.1.42",
+      "size": 7860230,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "夜色泳池蕾塞"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/林荫光影下戴眼镜的辫发少女.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "林荫光影下戴眼镜的辫发少女.png",
+      "createdAt": "2026-01-19T17:24:46.000Z",
+      "cdnTag": "v1.1.42",
+      "size": 7664492,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "林荫光影下戴眼镜的辫发少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/漆皮靴酷飒少女天台闲坐.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "漆皮靴酷飒少女天台闲坐.png",
+      "createdAt": "2026-01-19T17:24:46.000Z",
+      "cdnTag": "v1.1.42",
+      "size": 7334528,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "漆皮靴酷飒少女天台闲坐"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/粉发花环少女与眠猫.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "粉发花环少女与眠猫.png",
+      "createdAt": "2026-01-19T17:24:46.000Z",
+      "cdnTag": "v1.1.42",
+      "size": 7394294,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "粉发花环少女与眠猫"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/蓝蝶轻倚的卷发少女_多花.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "蓝蝶轻倚的卷发少女_多花.png",
+      "createdAt": "2026-01-19T17:24:46.000Z",
+      "cdnTag": "v1.1.42",
+      "size": 8472034,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "蓝蝶轻倚的卷发少女",
+          "多花"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/霓虹电梯里的金发二次元少女.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "霓虹电梯里的金发二次元少女.png",
+      "createdAt": "2026-01-20T08:56:29.000Z",
+      "cdnTag": "v1.1.42",
+      "size": 7598278,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "霓虹电梯里的金发二次元少女"
         ],
         "description": "",
         "displayTitle": "",

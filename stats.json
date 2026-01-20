@@ -1,9 +1,9 @@
 {
-  "lastUpdated": 1768843543.191718,
-  "cdnTag": "v1.1.40",
+  "lastUpdated": 1768899391.402908,
+  "cdnTag": "v1.1.42",
   "series": {
     "desktop": {
-      "count": 330,
+      "count": 336,
       "categories": [
         "动漫",
         "插画",
@@ -30,10 +30,10 @@
       ]
     },
     "avatar": {
-      "count": 278,
+      "count": 297,
       "categories": [
-        "人像",
         "动漫",
+        "人像",
         "IP形象",
         "插画",
         "表情包",
@@ -44,10 +44,19 @@
   "total": {
     "desktop": 336,
     "mobile": 371,
-    "avatar": 278,
-    "bing": 2430
+    "avatar": 297
   },
   "releases": [
+    {
+      "tag": "v1.1.42",
+      "date": "2026-01-20",
+      "added": {
+        "desktop": 1,
+        "mobile": 0,
+        "avatar": 19
+      },
+      "publisher": "aSheep-yyqx"
+    },
     {
       "tag": "v1.1.41",
       "date": "2026-01-20",
