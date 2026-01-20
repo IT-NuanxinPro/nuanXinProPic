@@ -280,33 +280,22 @@ get_core_name() {
     fi
 }
 
-# 检查文件是否已存在（通过核心名精确匹配）
+# 检查文件是否已存在（基于解析后的目标路径）
 file_exists_in_target() {
     local filename="$1"
-    local core_name
-    core_name=$(get_core_name "$filename")
     
-    # 检查是否在排除列表中
-    if echo "$core_name" | grep -qE "($EXCLUDE_CORE_NAMES)"; then
-        echo -e "${YELLOW}[EXCLUDE]${NC} $filename (在排除列表中)" >&2
-        return 0  # 视为已存在，跳过
-    fi
+    # 解析文件名，获取目标路径
+    local parsed
+    parsed=$(parse_filename "$filename")
+    local l1=$(echo "$parsed" | cut -d'|' -f1)
+    local l2=$(echo "$parsed" | cut -d'|' -f2)
+    local newname=$(echo "$parsed" | cut -d'|' -f3)
     
-    # 递归搜索 wallpaper/desktop 目录，精确匹配文件名（不包含扩展名）
-    # 修复：避免前缀匹配问题（如 "蓝蝶轻倚的卷发少女" 匹配到 "蓝蝶轻倚的卷发少女_多花"）
-    local found=false
-    while IFS= read -r existing_file; do
-        local existing_basename=$(basename "$existing_file")
-        local existing_noext="${existing_basename%.*}"
-        
-        # 精确匹配：文件名（不含扩展名）必须完全相同
-        if [ "$existing_noext" = "$core_name" ]; then
-            found=true
-            break
-        fi
-    done < <(find "$TARGET_DIR" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" -o -iname "*.webp" \) 2>/dev/null)
+    # 构建目标文件路径
+    local target_file="$TARGET_DIR/$l1/$l2/$newname"
     
-    if [ "$found" = true ]; then
+    # 直接检查目标文件是否存在
+    if [ -f "$target_file" ]; then
         return 0  # 存在
     fi
     return 1  # 不存在
