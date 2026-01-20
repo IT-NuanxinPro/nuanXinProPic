@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-01-20T09:52:50.548Z",
-  "count": 336,
+  "lastUpdated": "2026-01-20T12:29:27.194Z",
+  "count": 344,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -8704,6 +8704,206 @@
           "霓虹",
           "金发",
           "赛博朋克"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/暖光宅邸银发女仆伸手相迎.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "暖光宅邸银发女仆伸手相迎.png",
+      "createdAt": "2026-01-20T12:29:02.000Z",
+      "cdnTag": "v1.1.44",
+      "size": 7259018,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "暖光宅邸银发女仆伸手相迎"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/粉樱纷飞中的二次元少女.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "粉樱纷飞中的二次元少女.png",
+      "createdAt": "2026-01-20T12:29:02.000Z",
+      "cdnTag": "v1.1.44",
+      "size": 10050096,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "粉樱纷飞中的二次元少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/黑发红瞳衔红果的制服少女.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "黑发红瞳衔红果的制服少女.png",
+      "createdAt": "2026-01-20T12:29:02.000Z",
+      "cdnTag": "v1.1.44",
+      "size": 7932818,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "黑发红瞳衔红果的制服少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/戴宽檐草帽的泳池二次元少女.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "戴宽檐草帽的泳池二次元少女.png",
+      "createdAt": "2026-01-20T12:29:02.000Z",
+      "cdnTag": "v1.1.44",
+      "size": 8753964,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "戴宽檐草帽的泳池二次元少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/红枫落处持狐面的巫女.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "红枫落处持狐面的巫女.png",
+      "createdAt": "2026-01-20T12:29:02.000Z",
+      "cdnTag": "v1.1.44",
+      "size": 7868792,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "红枫落处持狐面的巫女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/樱花林间逆光黑裙JK少女.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "樱花林间逆光黑裙JK少女.png",
+      "createdAt": "2026-01-20T12:29:02.000Z",
+      "cdnTag": "v1.1.44",
+      "size": 6472850,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "樱花林间逆光黑裙JK少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/暗域紫发黑丝二次元少女.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "暗域紫发黑丝二次元少女.png",
+      "createdAt": "2026-01-20T12:29:02.000Z",
+      "cdnTag": "v1.1.44",
+      "size": 5735839,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "暗域紫发黑丝二次元少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/粉格泳装羊角少女静坐浅滩.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "粉格泳装羊角少女静坐浅滩.png",
+      "createdAt": "2026-01-20T12:29:02.000Z",
+      "cdnTag": "v1.1.44",
+      "size": 6711461,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "粉格泳装羊角少女静坐浅滩"
         ],
         "description": "",
         "displayTitle": "",
