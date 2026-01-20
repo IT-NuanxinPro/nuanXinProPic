@@ -261,41 +261,41 @@ parse_filename() {
 }
 
 # 提取文件名核心部分（用于匹配）
-# 格式：动漫--原神_雷电将军.jpg → 雷电将军
-# 格式：雷电将军.jpg → 雷电将军
+# 格式：插画--通用_蓝蝶轻倚的卷发少女.jpg → 蓝蝶轻倚的卷发少女
+# 格式：插画--通用_蓝蝶轻倚的卷发少女_多花.jpg → 蓝蝶轻倚的卷发少女_多花
 get_core_name() {
     local filename="$1"
     local filename_noext="${filename%.*}"
     
-    # 如果包含 _，取最后一个 _ 后面的部分
-    if [[ "$filename_noext" == *"_"* ]]; then
-        echo "${filename_noext##*_}"
-    else
-        # 如果包含 --，取 -- 后面的部分
-        if [[ "$filename_noext" == *"--"* ]]; then
-            echo "${filename_noext#*--}"
+    # 如果包含 --，取 -- 后面的部分
+    if [[ "$filename_noext" == *"--"* ]]; then
+        local after_dash="${filename_noext#*--}"
+        # 如果还包含 _，取第一个 _ 后面的所有内容
+        if [[ "$after_dash" == *"_"* ]]; then
+            echo "${after_dash#*_}"
         else
-            echo "$filename_noext"
+            echo "$after_dash"
         fi
+    else
+        echo "$filename_noext"
     fi
 }
 
-# 检查文件是否已存在（基于解析后的目标路径）
+# 检查文件是否已存在（通过核心名精确匹配）
 file_exists_in_target() {
     local filename="$1"
+    local core_name
+    core_name=$(get_core_name "$filename")
     
-    # 解析文件名，获取目标路径
-    local parsed
-    parsed=$(parse_filename "$filename")
-    local l1=$(echo "$parsed" | cut -d'|' -f1)
-    local l2=$(echo "$parsed" | cut -d'|' -f2)
-    local newname=$(echo "$parsed" | cut -d'|' -f3)
+    # 检查是否在排除列表中
+    if echo "$core_name" | grep -qE "($EXCLUDE_CORE_NAMES)"; then
+        echo -e "${YELLOW}[EXCLUDE]${NC} $filename (在排除列表中)" >&2
+        return 0  # 视为已存在，跳过
+    fi
     
-    # 构建目标文件路径
-    local target_file="$TARGET_DIR/$l1/$l2/$newname"
-    
-    # 直接检查目标文件是否存在
-    if [ -f "$target_file" ]; then
+    # 精确匹配文件名（不含扩展名），避免前缀匹配问题
+    # 例如："蓝蝶轻倚的卷发少女" 不会匹配到 "蓝蝶轻倚的卷发少女_多花"
+    if find "$TARGET_DIR" -type f \( -iname "${core_name}.jpg" -o -iname "${core_name}.jpeg" -o -iname "${core_name}.png" -o -iname "${core_name}.gif" -o -iname "${core_name}.webp" \) 2>/dev/null | grep -q .; then
         return 0  # 存在
     fi
     return 1  # 不存在
