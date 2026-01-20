@@ -232,21 +232,11 @@ jobs:
           echo "✅ Metadata processed"
 
       # ========================================
-      # 6. 生成 JSON 数据并上传到 R2
+      # 6. 提交 metadata 和 data 更新
       # ========================================
-      - name: Generate and upload JSON data
-        if: (steps.check.outputs.has_changes == 'true' || github.event.inputs.full_sync == 'true') && steps.r2_upload.outputs.r2_enabled == 'true'
-        env:
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CLOUDFLARE_R2_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY }}
-          CLOUDFLARE_R2_SECRET_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_KEY }}
-          CDN_BASE_URL: https://img.061129.xyz
+      - name: Commit metadata and data updates
+        if: steps.check.outputs.has_changes == 'true'
         run: |
-          echo "📊 Generating JSON data..."
-          
-          # 注意：不再需要 generate-data.js，因为 process-metadata.js 已经生成了前端数据
-          # node ./scripts/generate-data.js
-          
           # 提交 metadata 和 data 的更新
           if [ -n "$(git status --porcelain metadata/ data/)" ]; then
             echo "📝 Committing metadata and data updates..."
@@ -254,67 +244,9 @@ jobs:
             git commit -m "chore: update metadata and frontend data" || true
             git push || true
           fi
-          
-          echo "📤 Uploading JSON to R2..."
-          
-          # 配置 AWS CLI
-          export AWS_ACCESS_KEY_ID="$CLOUDFLARE_R2_ACCESS_KEY"
-          export AWS_SECRET_ACCESS_KEY="$CLOUDFLARE_R2_SECRET_KEY"
-          export AWS_DEFAULT_REGION="auto"
-          
-          R2_ENDPOINT="https://${CLOUDFLARE_ACCOUNT_ID}.r2.cloudflarestorage.com"
-          R2_BUCKET="wallpaper-images"
-          
-          # 上传 JSON 数据（--size-only 避免重复上传未变化的文件）
-          aws s3 sync public/data/ "s3://$R2_BUCKET/data/" \
-            --endpoint-url "$R2_ENDPOINT" \
-            --content-type "application/json" \
-            --size-only \
-            --no-progress
-          
-          # 单独强制上传 latest.json（内容变化但大小可能相同）
-          aws s3 cp public/data/bing/latest.json "s3://$R2_BUCKET/data/bing/latest.json" \
-            --endpoint-url "$R2_ENDPOINT" \
-            --content-type "application/json"
-          
-          echo "✅ JSON data uploaded"
 
       # ========================================
-      # 7. 清除 Cloudflare 缓存
-      # ========================================
-      - name: Purge Cloudflare Cache
-        if: (steps.check.outputs.has_changes == 'true' || github.event.inputs.full_sync == 'true') && steps.r2_upload.outputs.r2_enabled == 'true'
-        env:
-          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: |
-          # 检查是否配置了缓存清除凭据
-          if [ -z "$CF_ZONE_ID" ] || [ -z "$CF_API_TOKEN" ]; then
-            echo "⚠️ Cache purge credentials not configured, skipping"
-            exit 0
-          fi
-          
-          echo "🔄 Purging Cloudflare cache..."
-          chmod +x ./scripts/purge-cache.sh
-          
-          # 根据更新的系列清除缓存
-          SERIES_TO_PURGE=""
-          if [ -n "${{ steps.sync_gitee.outputs.updated_series }}" ]; then
-            SERIES_TO_PURGE="${{ steps.sync_gitee.outputs.updated_series }}"
-          fi
-          if [ "${{ steps.sync_bing.outputs.bing_updated }}" == "true" ]; then
-            SERIES_TO_PURGE="$SERIES_TO_PURGE bing"
-          fi
-          
-          if [ -n "$SERIES_TO_PURGE" ]; then
-            ./scripts/purge-cache.sh $SERIES_TO_PURGE
-          else
-            # 全量同步时清除所有
-            ./scripts/purge-cache.sh
-          fi
-
-      # ========================================
-      # 8. 创建 Git Tag 和 Release（保留用于 jsDelivr 回退）
+      # 7. 创建 Git Tag 和 Release（保留用于 jsDelivr 回退）
       # ========================================
       - name: Create tag
         if: steps.check.outputs.has_changes == 'true'
@@ -451,7 +383,77 @@ jobs:
           echo "✅ Updated stats.json"
 
       # ========================================
-      # 9. 生成摘要
+      # 9. 上传 JSON 数据到 R2（放在最后，失败不影响核心流程）
+      # ========================================
+      - name: Upload JSON data to R2
+        if: (steps.check.outputs.has_changes == 'true' || github.event.inputs.full_sync == 'true') && steps.r2_upload.outputs.r2_enabled == 'true'
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_R2_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY }}
+          CLOUDFLARE_R2_SECRET_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_KEY }}
+        run: |
+          echo "📤 Uploading JSON to R2..."
+          
+          # 配置 AWS CLI
+          export AWS_ACCESS_KEY_ID="$CLOUDFLARE_R2_ACCESS_KEY"
+          export AWS_SECRET_ACCESS_KEY="$CLOUDFLARE_R2_SECRET_KEY"
+          export AWS_DEFAULT_REGION="auto"
+          
+          R2_ENDPOINT="https://${CLOUDFLARE_ACCOUNT_ID}.r2.cloudflarestorage.com"
+          R2_BUCKET="wallpaper-images"
+          
+          # 上传 JSON 数据（--size-only 避免重复上传未变化的文件）
+          aws s3 sync data/ "s3://$R2_BUCKET/data/" \
+            --endpoint-url "$R2_ENDPOINT" \
+            --content-type "application/json" \
+            --size-only \
+            --no-progress
+          
+          # 单独强制上传 latest.json（内容变化但大小可能相同）
+          if [ -f data/bing/latest.json ]; then
+            aws s3 cp data/bing/latest.json "s3://$R2_BUCKET/data/bing/latest.json" \
+              --endpoint-url "$R2_ENDPOINT" \
+              --content-type "application/json"
+          fi
+          
+          echo "✅ JSON data uploaded"
+
+      # ========================================
+      # 10. 清除 Cloudflare 缓存
+      # ========================================
+      - name: Purge Cloudflare Cache
+        if: (steps.check.outputs.has_changes == 'true' || github.event.inputs.full_sync == 'true') && steps.r2_upload.outputs.r2_enabled == 'true'
+        env:
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: |
+          # 检查是否配置了缓存清除凭据
+          if [ -z "$CF_ZONE_ID" ] || [ -z "$CF_API_TOKEN" ]; then
+            echo "⚠️ Cache purge credentials not configured, skipping"
+            exit 0
+          fi
+          
+          echo "🔄 Purging Cloudflare cache..."
+          chmod +x ./scripts/purge-cache.sh
+          
+          # 根据更新的系列清除缓存
+          SERIES_TO_PURGE=""
+          if [ -n "${{ steps.sync_gitee.outputs.updated_series }}" ]; then
+            SERIES_TO_PURGE="${{ steps.sync_gitee.outputs.updated_series }}"
+          fi
+          if [ "${{ steps.sync_bing.outputs.bing_updated }}" == "true" ]; then
+            SERIES_TO_PURGE="$SERIES_TO_PURGE bing"
+          fi
+          
+          if [ -n "$SERIES_TO_PURGE" ]; then
+            ./scripts/purge-cache.sh $SERIES_TO_PURGE
+          else
+            # 全量同步时清除所有
+            ./scripts/purge-cache.sh
+          fi
+
+      # ========================================
+      # 11. 生成摘要
       # ========================================
       - name: Generate summary
         run: |
