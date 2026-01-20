@@ -152,6 +152,17 @@ jobs:
           echo "new_tag=$NEW_TAG" >> $GITHUB_OUTPUT
           echo "📦 Version: $LATEST_TAG -> $NEW_TAG"
 
+      - name: Update timestamps file
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          echo "📝 Updating timestamps file with new tag..."
+          NEW_TAG="${{ steps.version.outputs.new_tag }}"
+          
+          chmod +x ./scripts/update-timestamps.sh
+          ./scripts/update-timestamps.sh . "$NEW_TAG"
+          
+          echo "✅ Timestamps file updated"
+
       - name: Commit and push
         if: steps.check.outputs.has_changes == 'true'
         run: |
@@ -164,6 +175,9 @@ jobs:
               git add "$dir/" || true
             fi
           done
+          
+          # 添加 timestamps 文件
+          git add timestamps-backup-all.txt || true
 
           TODAY=$(TZ='Asia/Shanghai' date +'%Y-%m-%d')
           git commit -m "chore: daily sync [$TODAY]"
