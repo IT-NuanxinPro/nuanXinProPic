@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-01-20T17:29:54.559Z",
-  "count": 344,
+  "lastUpdated": "2026-01-21T06:39:22.670Z",
+  "count": 351,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -9095,6 +9095,181 @@
       "ai": {
         "keywords": [
           "粉格泳装羊角少女静坐浅滩"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/披透感头纱的八重神子婚纱像.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "披透感头纱的八重神子婚纱像.png",
+      "createdAt": "2026-01-21T06:38:49.000Z",
+      "cdnTag": "v1.1.46",
+      "size": 8244074,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "披透感头纱的八重神子婚纱像"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/雪落黄昏哈气取暖的二次元少女.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "雪落黄昏哈气取暖的二次元少女.png",
+      "createdAt": "2026-01-21T06:38:49.000Z",
+      "cdnTag": "v1.1.46",
+      "size": 8217321,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "雪落黄昏哈气取暖的二次元少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/暖阳下俯身的紫发御姐.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "暖阳下俯身的紫发御姐.png",
+      "createdAt": "2026-01-21T06:38:49.000Z",
+      "cdnTag": "v1.1.46",
+      "size": 6569636,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "暖阳下俯身的紫发御姐"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/湖畔微笑的清新少女.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "湖畔微笑的清新少女.png",
+      "createdAt": "2026-01-21T06:38:49.000Z",
+      "cdnTag": "v1.1.46",
+      "size": 9359919,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "湖畔微笑的清新少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/云峦之巅持剑的白衣侠女.jpg.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "云峦之巅持剑的白衣侠女.jpg.png",
+      "createdAt": "2026-01-21T06:38:49.000Z",
+      "cdnTag": "v1.1.46",
+      "size": 8744403,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "云峦之巅持剑的白衣侠女.jpg"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/复古茶会的二次元软萌少女.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "复古茶会的二次元软萌少女.png",
+      "createdAt": "2026-01-21T06:38:49.000Z",
+      "cdnTag": "v1.1.46",
+      "size": 7872628,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "复古茶会的二次元软萌少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/通用/风拂金发的二次元户外少女.png": {
+      "category": "插画",
+      "subcategory": "",
+      "filename": "风拂金发的二次元户外少女.png",
+      "createdAt": "2026-01-21T06:38:49.000Z",
+      "cdnTag": "v1.1.46",
+      "size": 7480813,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "风拂金发的二次元户外少女"
         ],
         "description": "",
         "displayTitle": "",
