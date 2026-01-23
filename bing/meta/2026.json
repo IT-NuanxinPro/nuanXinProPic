@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 23,
+  "total": 24,
   "items": [
+    {
+      "date": "2026-01-24",
+      "title": "瑞士山间的短逃离",
+      "copyright": "阿尔卑斯山脉的安德马特小镇，瑞士 (© Xantana/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%91%9E%E5%A3%AB%E5%AE%89%E5%BE%B7%E9%A9%AC%E7%89%B9%E5%B0%8F%E9%95%87&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260123_AndermattSwiss%22&FORM=HPQUIZ",
+      "hsh": "2c08a97b8176b01b10b5363e67cafaf1",
+      "urlbase": "/th?id=OHR.AndermattSwiss_ZH-CN4112824348"
+    },
     {
       "date": "2026-01-23",
       "title": "霜雪中的盛宴",
@@ -210,5 +219,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-01-22T17:28:59.395Z"
+  "updatedAt": "2026-01-23T17:35:10.813Z"
 }

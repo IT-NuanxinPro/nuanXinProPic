@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-01-22T17:28:59.410Z",
+  "generatedAt": "2026-01-23T17:35:10.827Z",
   "total": 7,
   "items": [
+    {
+      "date": "2026-01-24",
+      "title": "瑞士山间的短逃离",
+      "copyright": "阿尔卑斯山脉的安德马特小镇，瑞士 (© Xantana/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%91%9E%E5%A3%AB%E5%AE%89%E5%BE%B7%E9%A9%AC%E7%89%B9%E5%B0%8F%E9%95%87&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260123_AndermattSwiss%22&FORM=HPQUIZ",
+      "hsh": "2c08a97b8176b01b10b5363e67cafaf1",
+      "urlbase": "/th?id=OHR.AndermattSwiss_ZH-CN4112824348"
+    },
     {
       "date": "2026-01-23",
       "title": "霜雪中的盛宴",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260117_WhiteSandsNM%22&FORM=HPQUIZ",
       "hsh": "f908e2960769968361a4eb8e0f743a30",
       "urlbase": "/th?id=OHR.WhiteSandsNM_ZH-CN7070772772"
-    },
-    {
-      "date": "2026-01-17",
-      "title": "普雷比希托广场上的穹顶",
-      "copyright": "保罗圣方济圣殿，那不勒斯，意大利 (© javarman3/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E9%82%A3%E4%B8%8D%E5%8B%92%E6%96%AF%E4%BF%9D%E7%BD%97%E5%9C%A3%E8%8A%B3%E6%B5%8E%E5%9C%A3%E6%AE%BF&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260116_NaplesBasilica%22&FORM=HPQUIZ",
-      "hsh": "2780dbe9f38ce72566401e1d83a69022",
-      "urlbase": "/th?id=OHR.NaplesBasilica_ZH-CN6888150174"
     }
   ]
 }
