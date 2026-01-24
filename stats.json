@@ -1,6 +1,6 @@
 {
-  "lastUpdated": 1769189980.544045,
-  "cdnTag": "v1.1.49",
+  "lastUpdated": 1769254891.211974,
+  "cdnTag": "v1.1.50",
   "series": {
     "desktop": {
       "count": 351,
@@ -17,16 +17,16 @@
       ]
     },
     "mobile": {
-      "count": 392,
+      "count": 446,
       "categories": [
         "人像",
         "影视",
         "风景",
         "动漫",
-        "萌宠",
-        "IP形象",
         "插画",
-        "创意"
+        "萌宠",
+        "创意",
+        "IP形象"
       ]
     },
     "avatar": {
@@ -43,11 +43,20 @@
   },
   "total": {
     "desktop": 351,
-    "mobile": 392,
-    "avatar": 297,
-    "bing": 2434
+    "mobile": 446,
+    "avatar": 297
   },
   "releases": [
+    {
+      "tag": "v1.1.50",
+      "date": "2026-01-24",
+      "added": {
+        "desktop": 0,
+        "mobile": 54,
+        "avatar": 0
+      },
+      "publisher": "IT-NuanxinPro"
+    },
     {
       "tag": "v1.1.49",
       "date": "2026-01-24",
