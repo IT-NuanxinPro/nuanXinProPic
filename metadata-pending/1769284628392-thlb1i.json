@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "createdAt": "2026-01-24T19:57:08.392Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/场景/ins风-厨房布置.png",
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "ins风-厨房布置.png",
+      "createdAt": "2026-01-24T19:57:08.392Z",
+      "size": 1956350,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "插画",
+          "厨房场景",
+          "清新"
+        ],
+        "description": "充满生活气息的厨房小角落",
+        "filenameSuggestions": [
+          "温馨厨房角落.jpg",
+          "阳光下的厨房小景.jpg"
+        ],
+        "displayTitle": "清新厨房一隅",
+        "confidence": 0.9,
+        "reasoning": "图片呈现了一个充满生活气息的厨房场景，物品摆放整齐，色彩清新明亮。根据决策树B2，图片具有强烈的绘画感和生活场景，归入插画/场景。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/国风/云霄-仙侠动漫.png",
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "云霄-仙侠动漫.png",
+      "createdAt": "2026-01-24T19:57:08.392Z",
+      "size": 1891548,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "神秘女子",
+          "光环",
+          "古风"
+        ],
+        "description": "一位身穿古风服饰的女子，站在金色光环前，散发着神秘气息。",
+        "filenameSuggestions": [
+          "身披金色光环的紫发女子.jpg",
+          "古风光环仙女插画.jpg"
+        ],
+        "displayTitle": "光环下的神秘女子",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一位具有中国传统风格的女性角色，拥有紫色长发和金色装饰，背景是发光的金色圆环，整体具有浓厚的国风和神秘感。根据决策树B2，图片具有中国传统美学和古典韵味，因此判定为[插画/国风]。"
+      }
+    }
+  ]
+}
