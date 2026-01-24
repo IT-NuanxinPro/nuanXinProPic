@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 24,
+  "total": 25,
   "items": [
+    {
+      "date": "2026-01-25",
+      "title": "传统熠熠生辉",
+      "copyright": "伯恩斯国家遗产公园，艾尔，南艾尔郡，苏格兰 (© Alister Firth/Alamy)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%8B%8F%E6%A0%BC%E5%85%B0%E5%8D%97%E8%89%BE%E5%B0%94%E9%83%A1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260124_BurnsPark%22&FORM=HPQUIZ",
+      "hsh": "a6a87f7ea2e442376860691c90ac17c3",
+      "urlbase": "/th?id=OHR.BurnsPark_ZH-CN4442772228"
+    },
     {
       "date": "2026-01-24",
       "title": "瑞士山间的短逃离",
@@ -219,5 +228,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-01-23T17:35:10.813Z"
+  "updatedAt": "2026-01-24T17:18:27.258Z"
 }
