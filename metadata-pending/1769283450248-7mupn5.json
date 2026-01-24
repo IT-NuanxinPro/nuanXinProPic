@@ -1,0 +1,327 @@
+{
+  "version": 1,
+  "createdAt": "2026-01-24T19:37:30.248Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/清新/夏日-度假-棕榈树.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "夏日-度假-棕榈树.png",
+      "createdAt": "2026-01-24T19:37:30.248Z",
+      "size": 1474851,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "海边",
+          "少女"
+        ],
+        "description": "海边椰风少女，清新脱俗，笑容甜美。",
+        "filenameSuggestions": [
+          "海边椰风少女.jpg",
+          "热带海滩清新美人.jpg"
+        ],
+        "displayTitle": "海边椰风少女",
+        "confidence": 0.9,
+        "reasoning": "图片为一位少女在海边持椰子，整体氛围明亮、自然，符合【清新】(Fresh)的定义。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/魅力/事业线-女性-室内.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "事业线-女性-室内.png",
+      "createdAt": "2026-01-24T19:37:30.248Z",
+      "size": 481224,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "人像",
+          "现代",
+          "都市"
+        ],
+        "description": "照片展现了现代都市中的女性魅力，穿着时尚，姿态优雅。",
+        "filenameSuggestions": [
+          "时尚女性在现代空间中的优雅瞬间.jpg",
+          "都市白领的日常工作与休闲瞬间.jpg"
+        ],
+        "displayTitle": "优雅女性的现代都市剪影",
+        "confidence": 0.9,
+        "reasoning": "图片以人物为主，展现了女性的身材曲线和成熟魅力，背景为现代都市环境。根据决策树A. 人像分类决策树 (Portrait Logic)中的【魅力】(Glamour)定义，图片优先归入人像/魅力。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/人物穿搭-动漫场景.png",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "人物穿搭-动漫场景.png",
+      "createdAt": "2026-01-24T19:37:30.248Z",
+      "size": 709974,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫",
+          "二次元",
+          "樱花",
+          "温馨"
+        ],
+        "description": "动漫风格的樱花树下浪漫场景，情侣与自行车。",
+        "filenameSuggestions": [
+          "樱花树下的情侣骑行.jpg",
+          "粉色樱花浪漫场景.jpg"
+        ],
+        "displayTitle": "樱花树下的温馨时光",
+        "confidence": 0.9,
+        "reasoning": "图片具有典型的日式动漫风格，人物和场景设计符合二次元特征，无具体IP指向，因此归为动漫/二次元。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/城市/中国-地标建筑.png",
+      "category": "风景",
+      "subcategory": "城市",
+      "filename": "中国-地标建筑.png",
+      "createdAt": "2026-01-24T19:37:30.248Z",
+      "size": 2497495,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "城市",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "城市",
+        "keywords": [
+          "城市夜景",
+          "摩天大楼",
+          "霓虹灯",
+          "现代都市"
+        ],
+        "description": "高楼大厦在夜晚闪耀着五彩缤纷的灯光，展现现代城市的繁华与魅力。",
+        "filenameSuggestions": [
+          "繁华城市的夜间景观.jpg",
+          "灯光闪烁的现代都市夜景.jpg"
+        ],
+        "displayTitle": "夜间璀璨的城市天际线",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一幅城市的夜间景观，拥有高楼大厦和闪烁的灯光，根据决策树C1，判定为风景/城市。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/通用/乡村-围栏-壁纸.png",
+      "category": "风景",
+      "subcategory": "通用",
+      "filename": "乡村-围栏-壁纸.png",
+      "createdAt": "2026-01-24T19:37:30.248Z",
+      "size": 1228576,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "通用",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "通用",
+        "keywords": [
+          "风景",
+          "田园",
+          "自然"
+        ],
+        "description": "一片绿意盎然的田园风光，远处树木成荫，蓝天白云。",
+        "filenameSuggestions": [
+          "绿意盎然的田园风光.jpg",
+          "宁静乡村风景.jpg"
+        ],
+        "displayTitle": "绿意盎然的田园风光",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一幅典型的自然风景，包含绿色的草地、树木和蓝天白云，没有明显特指某地或具体场景，因此归类为风景/通用。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/城市/世纪钟-中国-倒影.png",
+      "category": "风景",
+      "subcategory": "城市",
+      "filename": "世纪钟-中国-倒影.png",
+      "createdAt": "2026-01-24T19:37:30.248Z",
+      "size": 1224451,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "城市",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "城市",
+        "keywords": [
+          "城市风景",
+          "河滨",
+          "日落"
+        ],
+        "description": "城市河滨日落时分的美丽景色，游轮缓缓驶过，城市建筑与桥梁在夕阳下熠熠生辉。",
+        "filenameSuggestions": [
+          "黄昏下的城市河滨游轮.jpg",
+          "城市河景游船日落巡游.jpg"
+        ],
+        "displayTitle": "日落时分的城市河滨风光",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一幅城市河滨风景，重点突出城市建筑、桥梁和游轮，背景是美丽的日落天空。根据决策树C1，具体场景优先，判定为风景/城市。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/海滨/云-地貌-壁纸.png",
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "云-地貌-壁纸.png",
+      "createdAt": "2026-01-24T19:37:30.248Z",
+      "size": 2487368,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "海滨",
+          "岩石",
+          "黄昏"
+        ],
+        "description": "黄昏下的海滨岩石，带着一丝神秘的色彩。",
+        "filenameSuggestions": [
+          "黄昏海滨岩石.jpg",
+          "海边岩石日落景象.jpg"
+        ],
+        "displayTitle": "黄昏下的海滨岩石",
+        "confidence": 0.9,
+        "reasoning": "图片展示了海滨的岩石和沙滩，配以黄昏的云层和天空，根据决策树C1，判定为风景/海滨。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/雪山/倒影-冬季-冰雪.png",
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "倒影-冬季-冰雪.png",
+      "createdAt": "2026-01-24T19:37:30.248Z",
+      "size": 2276930,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "雪山",
+          "湖泊",
+          "晨光",
+          "山峰"
+        ],
+        "description": "雪山与湖泊在晨光中交映生辉，构成一幅宁静而壮丽的风景画。",
+        "filenameSuggestions": [
+          "晨光下的雪山湖泊.jpg",
+          "冰雪覆盖的山脉倒影.jpg"
+        ],
+        "displayTitle": "晨光映照下的冰雪山峰",
+        "confidence": 0.9,
+        "reasoning": "图片展示了雪覆盖的山脉、湖泊和森林，符合风景/雪山的特征，根据决策树C1，判定为风景/雪山。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/海滨/云彩-夕阳-天空.png",
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "云彩-夕阳-天空.png",
+      "createdAt": "2026-01-24T19:37:30.248Z",
+      "size": 2029754,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "海滨",
+          "日落",
+          "椰树",
+          "浪漫"
+        ],
+        "description": "日落时分的海滨景色，椰树挺拔，海水波光粼粼。",
+        "filenameSuggestions": [
+          "宁静的海滨日落.jpg",
+          "椰树与夕阳海浪.jpg"
+        ],
+        "displayTitle": "日落椰林海岸的宁静黄昏",
+        "confidence": 0.9,
+        "reasoning": "图片展示了海滨的典型景象，包括海浪、沙滩、椰树和日落时的天空色彩，根据决策树C1，直接归类为风景/海滨。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/星空/云层-云景-夜晚.png",
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "云层-云景-夜晚.png",
+      "createdAt": "2026-01-24T19:37:30.248Z",
+      "size": 814698,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "星空",
+          "月亮",
+          "云海"
+        ],
+        "description": "夜空中的明月高悬，照亮了翻滚的云海，梦幻而神秘。",
+        "filenameSuggestions": [
+          "月光下的梦幻天空.jpg",
+          "云海之上皓月当空.jpg"
+        ],
+        "displayTitle": "月光下的梦幻天空",
+        "confidence": 0.9,
+        "reasoning": "图片展示了夜空中的月亮和云海，根据决策树C1，判定为风景/星空。"
+      }
+    }
+  ]
+}
