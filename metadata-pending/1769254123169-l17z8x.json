@@ -1,0 +1,1744 @@
+{
+  "version": 1,
+  "createdAt": "2026-01-24T11:28:43.169Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/文字/image_iOS26苹果系统空间景深壁纸效..._29.png",
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._29.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 148013,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "文字",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "文字",
+        "keywords": [
+          "国风书法",
+          "创意文字",
+          "求财寓意",
+          "手写风格"
+        ],
+        "description": "融合麻将發字元素的手写国风书法，以趣味文字传递求财寓意，适配空间装饰",
+        "filenameSuggestions": [
+          "墨韵国风带發字的创意书法框画.jpg",
+          "向钱向厚赚主题的手写书法挂画.jpg"
+        ],
+        "displayTitle": "墨趣国风 求财创意书法挂画",
+        "confidence": 0.9,
+        "reasoning": "检测到图片为以手写趣味求财文字为主体的创意内容，结合现有分类体系，匹配二级分类创意、三级分类文字，完美契合分类规则"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/抽象/image_iOS26苹果系统空间景深壁纸效..._15.png",
+      "category": "创意",
+      "subcategory": "抽象",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._15.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 105741,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "抽象",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "抽象",
+        "keywords": [
+          "极简风",
+          "抽象",
+          "苹果标志",
+          "黑灰调"
+        ],
+        "description": "黑灰配色搭配极简抽象设计，以苹果标识为核心，营造简约质感视觉效果。",
+        "filenameSuggestions": [
+          "黑灰极简苹果标识手机壁纸.jpg",
+          "抽象圈形苹果标志手机背景.jpg"
+        ],
+        "displayTitle": "黑灰极简苹果标识创意壁纸",
+        "confidence": 0.9,
+        "reasoning": "检测到图片为以苹果标识为主体的抽象创意设计，符合现有分类体系中创意/抽象分类规则，判定归为此类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/image_高级3D景深全屏壁纸张张质感拉满..._23.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._23.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 368473,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "黑丝",
+          "JK制服",
+          "双马尾",
+          "魅力"
+        ],
+        "description": "白墙柔光下，双马尾少女着JK制服持书包，清甜中透着慵懒魅力。",
+        "filenameSuggestions": [
+          "身着白衫JK裙的双马尾少女.jpg",
+          "端坐白椅持书包的黑丝女生.jpg"
+        ],
+        "displayTitle": "白墙柔光里的双马尾少女",
+        "confidence": 0.9,
+        "reasoning": "检测到人物搭配黑丝，符合核心判定逻辑A2中魅力类的特征，故判定为[人像/魅力]"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/文字/image_高级3D景深全屏壁纸张张质感拉满..._22.png",
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._22.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 563371,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "文字",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "文字",
+        "keywords": [
+          "复古肌理",
+          "励志文字",
+          "暖色调",
+          "创意壁纸"
+        ],
+        "description": "复古肌理质感基底，暖色块衬出励志文字，传递治愈安心的温柔力量。",
+        "filenameSuggestions": [
+          "复古肌理暖语治愈手机壁纸.jpg",
+          "橙黄绿调励志文字锁屏壁纸.jpg"
+        ],
+        "displayTitle": "暖痕字绘 万事皆安可期",
+        "confidence": 0.9,
+        "reasoning": "图片核心为创意文字设计，以复古暖色调肌理为背景，符合现有分类体系中创意/文字分类，完美匹配。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/森林/image_iOS26苹果系统空间景深壁纸效..._14.png",
+      "category": "风景",
+      "subcategory": "森林",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._14.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 363519,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "森林",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "森林",
+        "keywords": [
+          "森林湖景",
+          "自然治愈",
+          "山水倒影",
+          "静谧松岛"
+        ],
+        "description": "澄澈碧湖映出山峦松影，湖心石岛栖立苍松，如诗如画的自然谧境。",
+        "filenameSuggestions": [
+          "翠色湖波中栖松的湖心石岛.jpg",
+          "山岚树影共映的静谧碧湖.jpg"
+        ],
+        "displayTitle": "碧湖涵翠 林岛松风入镜",
+        "confidence": 0.9,
+        "reasoning": "检测到图片为自然风景，画面包含森林覆盖的山峦、湖心松岛与湖泊，核心元素含森林景观，符合现有分类体系中风景/森林分类，判定为完美匹配"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/氛围感/image_iOS26苹果系统空间景深壁纸效..._28.png",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._28.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 492540,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "水下人像",
+          "红玫瑰",
+          "柔美感"
+        ],
+        "description": "水下光影缱绻，少女持红玫瑰置身其中，勾勒出梦幻柔美的诗意氛围。",
+        "filenameSuggestions": [
+          "水纹环绕持红玫瑰的少女.jpg",
+          "水下柔光氛围感人像写真.jpg"
+        ],
+        "displayTitle": "溺于水色花影的少女",
+        "confidence": 0.9,
+        "reasoning": "图片为人像类，以水下独特光影营造强烈意境，符合人像分类中【氛围感】的特征，依据规则A5判定。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/国风/image_iOS26苹果系统空间景深壁纸效..._16.png",
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._16.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 227588,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "创意文字",
+          "西游意象",
+          "孤峰侠客"
+        ],
+        "description": "云涛漫卷的苍空下，鎏金巨掌巍峨矗立，孤客立峰头，金箍棒直刺云天",
+        "filenameSuggestions": [
+          "云巅鎏金巨掌下的孤峰侠客.jpg",
+          "含趣味文字的国风西游插画.jpg"
+        ],
+        "displayTitle": "云巅巨掌悬，孤客杖边停",
+        "confidence": 0.9,
+        "reasoning": "画面为绘画感强烈的国风作品，融入西游金箍棒元素与创意文字，符合现有分类中插画-国风的类别定义，故判定为此类"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/森林/image_高级3D景深全屏壁纸张张质感拉满..._34.png",
+      "category": "风景",
+      "subcategory": "森林",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._34.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 410249,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "森林",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "森林",
+        "keywords": [
+          "秋日郊野",
+          "晴空流云",
+          "鎏金彩林",
+          "治愈系"
+        ],
+        "description": "澄澈晴空浮着絮状流云，鎏金秋林环抱着碧色芳野，满溢治愈秋意",
+        "filenameSuggestions": [
+          "晴空絮云下鎏金秋林碧草.jpg",
+          "秋日郊野彩叶林映晴草地.jpg"
+        ],
+        "displayTitle": "晴云絮影映秋林芳草地",
+        "confidence": 0.9,
+        "reasoning": "检测到图片为自然风景类，主体是秋日郊野的草地与彩叶林、晴云，现有风景三级分类中最接近的是森林，但该景致属于未覆盖的秋景类别，故判定二级为风景，三级为森林，匹配度为不完美"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/IP形象/卡通角色/image_高级3D景深全屏壁纸张张质感拉满..._20.png",
+      "category": "IP形象",
+      "subcategory": "卡通角色",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._20.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 335808,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "卡通角色",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "卡通角色",
+        "keywords": [
+          "史迪奇",
+          "IP形象",
+          "山巅云海",
+          "治愈感"
+        ],
+        "description": "蓝绒史迪奇披黄披风立于山巅振臂，云海群山作衬，满是治愈元气",
+        "filenameSuggestions": [
+          "伫立山巅振臂的史迪奇.jpg",
+          "云海旁披黄披风的史迪奇.jpg"
+        ],
+        "displayTitle": "山巅振臂的披风小英雄",
+        "confidence": 0.9,
+        "reasoning": "检测到主体为迪士尼《星际宝贝》IP史迪奇，属于IP形象类，现有三级分类中「卡通角色」可匹配，但该IP为知名专属IP，现有分类库缺失，故按此归类并提交新分类提案"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/二次元/image_高级3D景深全屏壁纸张张质感拉满..._21.png",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._21.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 190616,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "氛围感",
+          "眼眸特写",
+          "水波纹"
+        ],
+        "description": "碧水轻覆眉眼，澄澈眼眸藏着迷茫，氛围感拉满的二次元人像。",
+        "filenameSuggestions": [
+          "水波半遮面的二次元少女.jpg",
+          "碧水间抬眸的动漫人像特写.jpg"
+        ],
+        "displayTitle": "碧波间抬眸的二次元少女",
+        "confidence": 0.9,
+        "reasoning": "检测到画面为典型日式二次元风格人像，无特定知名IP，符合动漫分类下的二次元类别判定标准，故归类为动漫/二次元。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/氛围感/image_高级3D景深全屏壁纸张张质感拉满..._35.png",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._35.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 259459,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "萌犬",
+          "海滨",
+          "治愈"
+        ],
+        "description": "湛蓝海滨旁，黄衫少女背影伴着蹲坐萌犬，风扬裙摆满是治愈气息。",
+        "filenameSuggestions": [
+          "海滨公路黄衫背影与蹲坐小狗.jpg",
+          "风扬裙摆的海湾少女与萌犬.jpg"
+        ],
+        "displayTitle": "风拂海湾 黄衫与犬共晴光",
+        "confidence": 0.9,
+        "reasoning": "检测到人物为不露脸的背影，符合人像分类中氛围感的特征，根据规则A5，判定为人像->氛围感"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/文字/image_iOS26苹果系统空间景深壁纸效..._17.png",
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._17.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 205231,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "文字",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "文字",
+        "keywords": [
+          "国风书法",
+          "温馨桌面",
+          "花艺摆件",
+          "雅致氛围"
+        ],
+        "description": "案头的国风书法摆台与柔美白花相映，晕染出治愈雅致的日常小景。",
+        "filenameSuggestions": [
+          "案头书法花艺温馨小景.jpg",
+          "国风墨韵雅致桌面摆饰.jpg"
+        ],
+        "displayTitle": "案头雅韵 字间清欢",
+        "confidence": 0.9,
+        "reasoning": "检测到图片核心为带有国风书法文字的创意桌面摆饰，符合现有分类体系中创意/文字的分类标准，故归入此类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/image_iOS26苹果系统空间景深壁纸效..._13.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._13.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 678446,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "温柔",
+          "氧气感",
+          "室内"
+        ],
+        "description": "暖调居室中，素衣少女抬眸凝望，清柔眉眼漾着治愈气息。",
+        "filenameSuggestions": [
+          "暖调室内穿米衫的清新少女.jpg",
+          "露肩素衣的温柔眸光女孩.jpg"
+        ],
+        "displayTitle": "浅衫凝眸的氧气感少女",
+        "confidence": 0.9,
+        "reasoning": "检测到图片为清晰人像，画面明亮柔和，人物气质清新治愈，无特定明星或日系胶片特征，根据规则A4判定为[人像/清新]"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/日系/image_高级3D景深全屏壁纸张张质感拉满..._31.png",
+      "category": "人像",
+      "subcategory": "日系",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._31.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 569218,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "日系",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "日系",
+        "keywords": [
+          "日系风",
+          "富士山",
+          "樱花",
+          "背影"
+        ],
+        "description": "澄澈晴空下樱枝漫绽，少女凭栏遥望富士山，晕染出春日的温柔氛围感。",
+        "filenameSuggestions": [
+          "樱枝下持白包的日系少女背影.jpg",
+          "晴空下望富士的黑裙长发少女.jpg"
+        ],
+        "displayTitle": "樱溪旁遥观富士的少女",
+        "confidence": 0.9,
+        "reasoning": "未识别到特定明星或古装，无魅力类特征，人物身着日系穿搭且场景为日本富士山樱花景观，符合人像分类下日系的特征，根据规则A3判定为人像/日系。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/image_高级3D景深全屏壁纸张张质感拉满..._25.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._25.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 241357,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "治愈",
+          "氧气感",
+          "蒲公英",
+          "少女"
+        ],
+        "description": "晴蓝晴空下，蒲公英绒絮随风漫舞，甜笑少女伸手轻触，满是治愈氛围。",
+        "filenameSuggestions": [
+          "晴日蒲公英下的甜笑少女.jpg",
+          "风舞绒絮的清新氧气女孩.jpg"
+        ],
+        "displayTitle": "晴日蒲公英下的清甜笑颜",
+        "confidence": 0.9,
+        "reasoning": "检测到画面为高明度户外场景，少女笑容甜美，背景是蓝天与蒲公英，符合核心判定逻辑A4的清新类特征，故判定为人像/清新。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/海滨/image_高级3D景深全屏壁纸张张质感拉满..._19.png",
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._19.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 339984,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "海滨风光",
+          "澄澈海域",
+          "水下礁石",
+          "晴空碧海"
+        ],
+        "description": "晴空碧海与澄澈水下景致交融，礁石映着天光，勾勒出静谧梦幻的海滨秘境。",
+        "filenameSuggestions": [
+          "海面上下分界的澄澈海景.jpg",
+          "天光云影下的水下礁石海域.jpg"
+        ],
+        "displayTitle": "海空分界的澄澈梦幻之境",
+        "confidence": 0.9,
+        "reasoning": "经识别，图片为包含海面与水下景观的海滨风景，匹配现有分类体系中mobile/风景/海滨，判定为完美匹配。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/氛围感/image_高级3D景深全屏壁纸张张质感拉满..._18.png",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._18.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 412274,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "甜酷",
+          "机车少女",
+          "皮衣"
+        ],
+        "description": "黑盔缀绒羽，皮衣衬娇容，机车少女的酷飒与灵动交织。",
+        "filenameSuggestions": [
+          "盔缀绒羽的酷飒机车少女.jpg",
+          "着黑皮衣戴全盔的灵动女孩.jpg"
+        ],
+        "displayTitle": "盔下星眸 酷飒机车少女",
+        "confidence": 0.9,
+        "reasoning": "未识别到特定明星、古装，画面以头盔半遮脸营造氛围感，不符合魅力、日系、清新的特征，根据规则A5，判定为人像-氛围感。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/风景/image_高级3D景深全屏壁纸张张质感拉满..._24.png",
+      "category": "插画",
+      "subcategory": "风景",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._24.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 482408,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "风景",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "风景",
+        "keywords": [
+          "治愈系",
+          "海滨小镇",
+          "插画风格",
+          "马卡龙色调"
+        ],
+        "description": "粉云漫卷天际，彩色街巷通向蔚蓝海滨，治愈感拉满的童话风场景。",
+        "filenameSuggestions": [
+          "粉云笼罩的彩色海滨小镇街景.jpg",
+          "通向蓝海的治愈系彩色街巷.jpg"
+        ],
+        "displayTitle": "粉云漫卷的海滨童话小镇",
+        "confidence": 0.9,
+        "reasoning": "检测到图片为绘画感强烈的海滨小镇创作内容，符合插画类的判定特征，匹配现有分类中插画->风景类别，因此判定为该分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/抽象/image_高级3D景深全屏壁纸张张质感拉满..._30.png",
+      "category": "创意",
+      "subcategory": "抽象",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._30.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 217339,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "抽象",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "抽象",
+        "keywords": [
+          "抽象创意",
+          "苹果logo",
+          "黑色系",
+          "水珠质感"
+        ],
+        "description": "黑色哑光背景上，苹果徽标覆着剔透凝珠，质感高级，尽显简约科技美感。",
+        "filenameSuggestions": [
+          "覆凝清珠的黑色苹果徽标壁纸.jpg",
+          "雅黑镜面带露苹果标识背景.jpg"
+        ],
+        "displayTitle": "雅黑凝露苹果品牌徽记",
+        "confidence": 0.9,
+        "reasoning": "图片为苹果logo的创意视觉呈现，以水珠效果打造抽象质感，匹配现有分类中创意->抽象的类别，故如此判定。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/风景/image_iOS26苹果系统空间景深壁纸效..._12.png",
+      "category": "插画",
+      "subcategory": "风景",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._12.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 533027,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "风景",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "风景",
+        "keywords": [
+          "手绘风景",
+          "鎏金公路",
+          "云霭远山",
+          "治愈意境"
+        ],
+        "description": "鎏金长路向云霭笼罩的远山延伸，绘就静谧治愈的旅途盛景。",
+        "filenameSuggestions": [
+          "云霭漫山的鎏金长路插画.jpg",
+          "夕照含烟的远山公路壁纸.jpg"
+        ],
+        "displayTitle": "云霭漫山 鎏金长路向天际",
+        "confidence": 0.9,
+        "reasoning": "检测到图片具有强烈绘画感，属于手绘风格的风景内容，根据规则B3判定为插画/风景分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/抽象/image_iOS26苹果系统空间景深壁纸效..._10.png",
+      "category": "创意",
+      "subcategory": "抽象",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._10.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 381001,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "抽象",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "抽象",
+        "keywords": [
+          "暗调氛围",
+          "色彩对比",
+          "创意抽象",
+          "孤舟峡湾"
+        ],
+        "description": "深峡夹岸，静水载着赤色孤舟，暗调云雾里晕开静谧氛围感。",
+        "filenameSuggestions": [
+          "暗调峡谷水域的赤色孤舟.jpg",
+          "灰雾峡湾静水的红舟独影.jpg"
+        ],
+        "displayTitle": "深峡静水间的赤舟独泊",
+        "confidence": 0.9,
+        "reasoning": "画面以高对比度暗调呈现峡谷孤舟，核心是色彩反差的创意表达，符合创意->抽象的分类规则。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/image_高级3D景深全屏壁纸张张质感拉满..._32.png",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._32.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 113307,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "手绘插画",
+          "自嘲文字",
+          "情绪共鸣",
+          "简约风格"
+        ],
+        "description": "简约手绘蜷缩小人搭配自嘲文字，精准传递当代人疲惫硬撑的情绪",
+        "filenameSuggestions": [
+          "红条纹蹲姿自嘲手绘插画.jpg",
+          "墙角蜷缩带文字手绘插画.jpg"
+        ],
+        "displayTitle": "当代情绪自嘲手绘小插画",
+        "confidence": 0.9,
+        "reasoning": "检测到画面为手绘插画风格，带有创意性的自嘲文字内容，根据动漫与插画决策树，判定归入插画->创意分类，符合现有分类体系"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/氛围感/image_高级3D景深全屏壁纸张张质感拉满..._33.png",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._33.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 167462,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "冷调光影",
+          "长发少女",
+          "薄纱裙"
+        ],
+        "description": "冷调柔光合拢静谧室内，薄纱裙少女嘟嘴抬眸，满是清甜氛围感。",
+        "filenameSuggestions": [
+          "冷调光影里嘟嘴的清甜少女.jpg",
+          "身着薄纱裙的氛围感长发女孩.jpg"
+        ],
+        "displayTitle": "冷调光影里的清甜少女",
+        "confidence": 0.9,
+        "reasoning": "检测到图中为人像内容，无特定明星、古装或魅力类特征，无日系胶片感，画面以冷调光影营造朦胧意境，符合人像分类下的氛围感特征，根据规则A5判定为人像/氛围感。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/通用/image_高级3D景深全屏壁纸张张质感拉满..._27.png",
+      "category": "动漫",
+      "subcategory": "通用",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._27.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 541440,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "通用",
+        "keywords": [
+          "赛车总动员",
+          "霓虹赛道",
+          "竞速狂欢",
+          "动画IP"
+        ],
+        "description": "霓虹闪烁的都市赛道，赛车们飞驰竞速，烟花与富士山相映成趣。",
+        "filenameSuggestions": [
+          "霓虹都市赛道疾驰的赛车群.jpg",
+          "富士山下烟花中的赛车竞速.jpg"
+        ],
+        "displayTitle": "霓虹赛道竞速狂欢之夜",
+        "confidence": 0.9,
+        "reasoning": "检测到图片为《赛车总动员》动画IP场景，现有动漫分类下无对应特定IP子类，根据规则B2的兜底逻辑，判定为动漫/通用，同时提案新增对应IP分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/冬日雪景/image_iOS26苹果系统空间景深壁纸效..._11.png",
+      "category": "风景",
+      "subcategory": "冬日雪景",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._11.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 1122682,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "冬日雪景",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "冬日雪景",
+        "keywords": [
+          "冬日雪景",
+          "冰雪枝桠",
+          "澄澈蓝天",
+          "森林冬景"
+        ],
+        "description": "澄澈晴空之下，林木枝桠覆雪凝冰，晕染出冬日森林的清冷雅致。",
+        "filenameSuggestions": [
+          "覆雪凝冰的林间枝桠映蓝天.jpg",
+          "冬日苍林雪裹枝桠衬晴空.jpg"
+        ],
+        "displayTitle": "雪凝枝桠映万里碧空",
+        "confidence": 0.9,
+        "reasoning": "检测到图片为冰雪覆盖的冬日林间风景，匹配现有分类体系中风景->冬日雪景类目，判定为完美匹配。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/抽象/image_iOS26苹果系统空间景深壁纸效..._7.png",
+      "category": "创意",
+      "subcategory": "抽象",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._7.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 338253,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "抽象",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "抽象",
+        "keywords": [
+          "超现实合成",
+          "潮酷滑板",
+          "青空背景",
+          "涂鸦场地"
+        ],
+        "description": "青空之下，涂鸦滑板场的滑板与客机同框，打造超现实创意图景",
+        "filenameSuggestions": [
+          "青空下与客机同飞的腾空滑板.jpg",
+          "涂鸦坡道旁创意合成的滑板.jpg"
+        ],
+        "displayTitle": "云际滑板伴客机同翔",
+        "confidence": 0.9,
+        "reasoning": "检测到图片为超现实创意合成作品，二级分类匹配创意，但现有创意三级分类无对应子类，故判定is_perfect_match为false，提案新增三级分类"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/影视/疯狂动物城/image_iOS26苹果系统空间景深壁纸效..._6.png",
+      "category": "影视",
+      "subcategory": "疯狂动物城",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._6.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 463096,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "影视",
+        "subcategory": "疯狂动物城",
+        "primary": "mobile",
+        "secondary": "影视",
+        "third": "疯狂动物城",
+        "keywords": [
+          "疯狂动物城",
+          "治愈系",
+          "梦幻夜景",
+          "IP角色"
+        ],
+        "description": "朱迪与尼克依偎在花簇间，窗外星夜下的城堡如梦似幻，满是治愈氛围。",
+        "filenameSuggestions": [
+          "星夜窗边依偎的狐兔CP.jpg",
+          "城堡前花簇里的朱迪尼克.jpg"
+        ],
+        "displayTitle": "星夜窗棂下的狐兔甜梦",
+        "confidence": 0.9,
+        "reasoning": "检测到图中为《疯狂动物城》的核心角色朱迪和尼克，按照核心判定逻辑，优先匹配影视分类下的疯狂动物城子类，为完美匹配。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/萌宠/狗狗/image_iOS26苹果系统空间景深壁纸效..._4.png",
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._4.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 659198,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "3D萌宠",
+          "狗狗滑板",
+          "治愈系",
+          "彩色街巷"
+        ],
+        "description": "软萌卷毛狗狗在彩色街巷玩滑板，活力满满，画面治愈又欢乐",
+        "filenameSuggestions": [
+          "彩色街巷玩滑板的萌狗狗.jpg",
+          "踏板跃动的治愈系卷毛汪.jpg"
+        ],
+        "displayTitle": "彩巷滑板萌犬欢乐集结",
+        "confidence": 0.9,
+        "reasoning": "检测到图片主体是玩滑板的狗狗，属于萌宠范畴，匹配现有分类体系中萌宠/狗狗子类，判定为完美匹配"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/二次元/image_iOS26苹果系统空间景深壁纸效..._5.png",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._5.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 240241,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "JK制服",
+          "暖光氛围",
+          "少女插画"
+        ],
+        "description": "晴光漫洒的街面，二次元JK少女慵懒依偎，织就治愈的午后氛围感。",
+        "filenameSuggestions": [
+          "晴光下依偎的JK少女腿部特写.jpg",
+          "暖阳斑驳的二次元JK少女画面.jpg"
+        ],
+        "displayTitle": "晴光里的JK少女午后闲坐",
+        "confidence": 0.9,
+        "reasoning": "检测到画面为典型日式二次元风格的JK少女内容，无特定知名IP，根据动漫类决策树规则，判定为[动漫/二次元]"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/image_iOS26苹果系统空间景深壁纸效..._1.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._1.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 407653,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新人像",
+          "氧气感",
+          "蓝天暖阳",
+          "风动发梢"
+        ],
+        "description": "晴日蓝天之下，少女发丝被风拂动，墨镜遮面，满是治愈的氧气感。",
+        "filenameSuggestions": [
+          "晴空下戴墨镜的氧气感少女.jpg",
+          "蓝天暖阳里发梢飞扬的女孩.jpg"
+        ],
+        "displayTitle": "晴日里风拂发梢的氧气少女",
+        "confidence": 0.9,
+        "reasoning": "检测到为人像类，未识别出现有列表内明星，无魅力、日系特征，画面明亮通透，背景为蓝天，整体呈现清新治愈的氧气感，根据规则A4，判定为人像/清新"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/影视/猫和老鼠/image_iOS26苹果系统空间景深壁纸效..._2.png",
+      "category": "影视",
+      "subcategory": "猫和老鼠",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._2.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 394042,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "影视",
+        "subcategory": "猫和老鼠",
+        "primary": "mobile",
+        "secondary": "影视",
+        "third": "猫和老鼠",
+        "keywords": [
+          "猫和老鼠",
+          "海滨雨夜",
+          "落寞氛围感",
+          "经典IP"
+        ],
+        "description": "乌云翻涌的雨夜海滨，汤姆与杰瑞并肩怅惘，满是落寞氛围。",
+        "filenameSuggestions": [
+          "暮雨海滨栏杆旁的汤姆杰瑞.jpg",
+          "乌云暴雨下落寞的猫和老鼠.jpg"
+        ],
+        "displayTitle": "雨落海滨的汤姆与杰瑞",
+        "confidence": 0.9,
+        "reasoning": "检测到画面为经典IP猫和老鼠的海滨雨夜创作，匹配现有分类体系中影视/猫和老鼠分类，故以此归档。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/image_iOS26苹果系统空间景深壁纸效..._3.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._3.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 291533,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "氛围感",
+          "金发",
+          "露肩",
+          "魅力人像"
+        ],
+        "description": "穹窗柔光洒落，蓬松卷发随微风轻扬，露肩造型尽显优雅温柔。",
+        "filenameSuggestions": [
+          "窗畔柔光笼罩的卷发少女.jpg",
+          "复古穹窗前的露肩金发佳人.jpg"
+        ],
+        "displayTitle": "窗畔柔光里的卷发佳人",
+        "confidence": 0.9,
+        "reasoning": "检测到人物为露肩造型，画面着重展现成熟优雅的吸引力，符合核心判定逻辑A2的魅力特征，因此判定为人像->魅力。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/IP形象/卡通角色/image_iOS26苹果系统空间景深壁纸效..._8.png",
+      "category": "IP形象",
+      "subcategory": "卡通角色",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._8.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 263094,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "卡通角色",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "卡通角色",
+        "keywords": [
+          "潮酷风格",
+          "兔八哥",
+          "滑板涂鸦",
+          "卡通插画"
+        ],
+        "description": "兔八哥化身街头潮人，墨镜滑板加持，涂鸦元素点缀尽显随性酷感",
+        "filenameSuggestions": [
+          "戴墨镜持滑板的潮酷兔八哥.jpg",
+          "涂鸦背景的街头潮范兔.jpg"
+        ],
+        "displayTitle": "墨镜滑板兔的涂鸦潮趣时光",
+        "confidence": 0.9,
+        "reasoning": "检测到图片主体为经典卡通IP兔八哥，属于IP形象范畴，现有IP形象三级分类无对应具体IP，故归入「卡通角色」"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/image_iOS26苹果系统空间景深壁纸效..._9.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._9.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 450195,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "氛围感",
+          "白丝",
+          "魅力人像",
+          "长发"
+        ],
+        "description": "紫调柔光晕染乌黑长发，曼妙身姿在暗调空间里尽显成熟魅惑。",
+        "filenameSuggestions": [
+          "紫韵柔光下的长发魅力少女.jpg",
+          "暗调氛围里的白丝气质女生.jpg"
+        ],
+        "displayTitle": "紫韵柔光中的长发伊人",
+        "confidence": 0.9,
+        "reasoning": "检测到人物身着白丝与紧身衣，姿态撩人，画面有紫调柔光的氛围感，符合核心判定逻辑A2的魅力类特征，故归为人像/魅力。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/星空/image_iOS26苹果系统空间景深壁纸效..._20.png",
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._20.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 500529,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "银河星空",
+          "海滨礁石",
+          "夜景风光",
+          "静谧治愈"
+        ],
+        "description": "澄澈银河垂坠墨色夜空，碧蓝海湾映着星芒，礁石静立勾勒梦幻夜色。",
+        "filenameSuggestions": [
+          "银河璀璨的礁石海滨夜景.jpg",
+          "星空映辉的碧蓝静谧海湾.jpg"
+        ],
+        "displayTitle": "银河垂落的静谧海滨",
+        "confidence": 0.9,
+        "reasoning": "检测到图片为星空下的海滨风景，视觉核心为璀璨银河星空，符合现有分类体系中[风景/星空]的分类标准，判定完美匹配。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/文字/image_iOS26苹果系统空间景深壁纸效..._34.png",
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._34.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 143109,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "文字",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "文字",
+        "keywords": [
+          "治愈系",
+          "文字创意",
+          "励志短句",
+          "元气风"
+        ],
+        "description": "搭配笑脸元素的励志文字壁纸，传递豁达释然的生活态度，治愈又暖心。",
+        "filenameSuggestions": [
+          "配笑脸元素治愈系文字壁纸.jpg",
+          "格局打开励志风手机壁纸.jpg"
+        ],
+        "displayTitle": "释然豁达元气治愈文字壁纸",
+        "confidence": 0.9,
+        "reasoning": "检测到画面核心为创意设计的励志文字内容，辅以笑脸装饰元素，符合现有分类体系中创意/文字的分类标准，故归为此类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/通用/image_高级3D景深全屏壁纸张张质感拉满..._16.png",
+      "category": "创意",
+      "subcategory": "通用",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._16.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 260081,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "通用",
+        "keywords": [
+          "创意合成",
+          "高空云海",
+          "翠色客机"
+        ],
+        "description": "翠色客机翱翔于云海碧海之上，群鸟随行，勾勒梦幻空天景致。",
+        "filenameSuggestions": [
+          "苍云海面上的绿翼客机.jpg",
+          "穿云破雾的翠色民航飞机.jpg"
+        ],
+        "displayTitle": "苍空碧海间绿翼遨翔",
+        "confidence": 0.9,
+        "reasoning": "图片为合成创意视觉作品，主元素为绿翼客机、云海碧海与飞鸟，不属于现有创意三级分类的爱国主题、抽象、文字子类，故判定二级分类为创意，需新增对应三级分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/萌宠/猫咪/image_高级3D景深全屏壁纸张张质感拉满..._17.png",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._17.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 221415,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "治愈萌宠",
+          "拟人装扮",
+          "粉色系",
+          "傲娇猫咪"
+        ],
+        "description": "软萌猫咪化身粉色小鳄鱼，背着鱼形背包，傲娇闭眼尽显慵懒治愈感。",
+        "filenameSuggestions": [
+          "身着粉鳄套装的傲娇闭眼猫.jpg",
+          "背鱼形背包的扮鳄慵懒猫.jpg"
+        ],
+        "displayTitle": "粉鳄衣装的傲娇小懒猫",
+        "confidence": 0.9,
+        "reasoning": "检测到图片主体为拟人装扮的猫咪，匹配现有分类体系中萌宠类目下的猫咪分类，故判定归为萌宠/猫咪。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/星空/image_iOS26苹果系统空间景深壁纸效..._35.png",
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._35.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 481744,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "星轨",
+          "森林河谷",
+          "静谧",
+          "梦幻"
+        ],
+        "description": "旋绕星轨铺满幽蓝穹苍，静谧森林环拥淌光河谷，织就梦幻夜境。",
+        "filenameSuggestions": [
+          "星轨旋绕的森林河谷夜景.jpg",
+          "穹顶星澜映照的静谧林河.jpg"
+        ],
+        "displayTitle": "星轨漫穹苍 林涧载清辉",
+        "confidence": 0.9,
+        "reasoning": "检测到画面为星轨夜景下的森林河谷风景，核心视觉元素为星空星轨，匹配现有分类体系中风景-星空类目，判定为完美匹配。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/氛围感/image_iOS26苹果系统空间景深壁纸效..._23.png",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._23.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 380592,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "明星人像",
+          "夜景",
+          "甜笑",
+          "晚风"
+        ],
+        "description": "暮色湖畔晚风撩发，少女笑眼弯弯，氛围感拉满的治愈人像。",
+        "filenameSuggestions": [
+          "夜风吹拂长发的甜笑女星.jpg",
+          "暮色湖畔笑眼弯弯的人像.jpg"
+        ],
+        "displayTitle": "湖畔夜风中的明媚笑靥",
+        "confidence": 0.9,
+        "reasoning": "检测到图片为夜景人像，现有分类库无对应特定明星分类，不符合魅力、日系、清新特征，重光影意境，根据规则A5，判定为人像->氛围感"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/风景/image_高级3D景深全屏壁纸张张质感拉满..._29.png",
+      "category": "插画",
+      "subcategory": "风景",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._29.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 367551,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "风景",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "风景",
+        "keywords": [
+          "治愈系",
+          "手绘插画",
+          "花卉风景",
+          "温柔色调"
+        ],
+        "description": "柔绘花田漫径搭配治愈文字，为手机屏晕染出温柔治愈氛围。",
+        "filenameSuggestions": [
+          "柔色花田漫径手绘插画壁纸.jpg",
+          "缀花野径治愈文字手机壁纸.jpg"
+        ],
+        "displayTitle": "花田漫径治愈手绘手机壁纸",
+        "confidence": 0.9,
+        "reasoning": "检测到图片为水彩手绘风格的花卉风景插画，绘画感强，根据动漫与插画决策树B3，判定归为插画二级分类，对应三级分类为插画下的风景，与现有分类体系匹配。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/IP形象/卡通角色/image_高级3D景深全屏壁纸张张质感拉满..._15.png",
+      "category": "IP形象",
+      "subcategory": "卡通角色",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._15.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 539247,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "卡通角色",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "卡通角色",
+        "keywords": [
+          "魔童哪吒",
+          "国风",
+          "新年福字",
+          "动漫IP",
+          "红绫"
+        ],
+        "description": "红绫翻飞火浪腾跃，魔童哪吒携福而来，尽显国风年味的手机壁纸。",
+        "filenameSuggestions": [
+          "红绫翻飞携福的魔童哪吒.jpg",
+          "踏火腾跃的国风魔童哪吒.jpg"
+        ],
+        "displayTitle": "魔童携福 红绫掣火踏云来",
+        "confidence": 0.9,
+        "reasoning": "检测到图片为《哪吒之魔童降世》IP角色，现有分类体系中IP形象下的「卡通角色」可作为兜底匹配，该IP为现有分类缺失的知名国漫IP，故判定为不完全匹配并提案新增分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/image_高级3D景深全屏壁纸张张质感拉满..._28.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_高级3D景深全屏壁纸张张质感拉满..._28.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 226435,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新感",
+          "海滨人像",
+          "氧气少女",
+          "治愈氛围"
+        ],
+        "description": "碧海晴空下，少女立于海滨礁石，舒展双臂，满是治愈的清新气息。",
+        "filenameSuggestions": [
+          "碧海晴空下舒展双臂的少女.jpg",
+          "海滨礁石上的清新穿搭女孩.jpg"
+        ],
+        "displayTitle": "碧海晴空下的氧气少女",
+        "confidence": 0.9,
+        "reasoning": "检测到画面为海滨场景下的人像，整体明亮治愈，色彩自然清新，符合核心判定逻辑A4，故归为人像/清新分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/IP形象/卡通角色/image_iOS26苹果系统空间景深壁纸效..._22.png",
+      "category": "IP形象",
+      "subcategory": "卡通角色",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._22.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 278627,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "卡通角色",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "卡通角色",
+        "keywords": [
+          "凯蒂猫",
+          "绒感治愈",
+          "萌系风格",
+          "创意文字"
+        ],
+        "description": "绒绒质感的凯蒂猫驾驶同款粉车，搭配暖心文字，传递软萌治愈的日常氛围",
+        "filenameSuggestions": [
+          "绒感凯蒂猫驾粉萌小车壁纸.jpg",
+          "缀暖心文字的凯蒂猫手机壁纸.jpg"
+        ],
+        "displayTitle": "粉车凯蒂 暖愈日常小确幸",
+        "confidence": 0.9,
+        "reasoning": "检测到图片主体为IP形象凯蒂猫，属于IP形象范畴，现有IP形象三级分类中最匹配的为「卡通角色」，但无该IP专属分类，因此按此归类并提案新增专属IP分类"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/雪山/image_iOS26苹果系统空间景深壁纸效..._32.png",
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._32.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 159676,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "雪山",
+          "夕照",
+          "金辉",
+          "险峻",
+          "云霞"
+        ],
+        "description": "夕阳光辉浸染巍峨雪峰，橙黄云霞缭绕山巅，尽显山川雄浑壮阔之姿。",
+        "filenameSuggestions": [
+          "夕照下金芒覆顶的巍峨雪峰.jpg",
+          "云霞环绕的险峻雪山峰峦.jpg"
+        ],
+        "displayTitle": "夕染雪峰 金芒覆顶凌云",
+        "confidence": 0.9,
+        "reasoning": "检测到画面为被夕阳映照的雪山自然景观，依据现有分类体系，匹配二级分类[风景]下的三级分类[雪山]，属于完美匹配。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/萌宠/猫咪/image_iOS26苹果系统空间景深壁纸效..._26.png",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._26.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 282088,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "软萌猫咪",
+          "冬日海滨",
+          "雪景",
+          "治愈系"
+        ],
+        "description": "冬日海滨雪地上，戴蓝围巾的猫咪顶雪凝眸，软萌治愈人心。",
+        "filenameSuggestions": [
+          "顶雪戴蓝围巾的黑白猫咪.jpg",
+          "冬日海滨雪地的软萌猫咪.jpg"
+        ],
+        "displayTitle": "雪顶萌猫临海凝眸",
+        "confidence": 0.9,
+        "reasoning": "图片主体为黑白猫咪，属于萌宠类范畴，匹配现有分类体系中萌宠-猫咪分类，判定为该归类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/image_iOS26苹果系统空间景深壁纸效..._27.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._27.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 570193,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "黑丝",
+          "魅力人像",
+          "清冷感",
+          "长发"
+        ],
+        "description": "灰砾滩之上，黑衣黑丝的长发少女掩面端坐，冷调氛围尽显独特魅力。",
+        "filenameSuggestions": [
+          "砾石滩头黑衣掩面的长发少女.jpg",
+          "着黑丝紧身衣的冷调人像.jpg"
+        ],
+        "displayTitle": "砾石滩上的黑衣掩面少女",
+        "confidence": 0.9,
+        "reasoning": "检测到人物穿着黑丝与紧身衣，突出身材曲线与成熟吸引力，根据核心判定逻辑A2，判定为人像分类下的[魅力]。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/氛围感/image_iOS26苹果系统空间景深壁纸效..._33.png",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._33.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 229244,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "夜景",
+          "俏皮",
+          "毛绒帽"
+        ],
+        "description": "冬夜街头暖黄灯光下，戴毛绒熊帽的少女俏皮眨眼比耶，氛围感十足",
+        "filenameSuggestions": [
+          "戴毛绒熊帽夜街比耶少女.jpg",
+          "暖路灯下俏皮眨眼的女孩.jpg"
+        ],
+        "displayTitle": "夜巷暖光里的软萌少女",
+        "confidence": 0.9,
+        "reasoning": "检测到人像为夜景暖光场景，整体侧重光影营造的松弛氛围，符合人像类下[氛围感]的分类规则"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/海滨/image_iOS26苹果系统空间景深壁纸效..._25.png",
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._25.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 440005,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "深海鱼群",
+          "逆光氛围",
+          "海滨风景",
+          "治愈系"
+        ],
+        "description": "幽蓝深海间，鱼群随涡旋海浪逐光漫游，澄澈蓝光晕染出静谧治愈的水下天地。",
+        "filenameSuggestions": [
+          "幽蓝深海里逐光的鱼群.jpg",
+          "涡旋海浪下逆光的鱼群.jpg"
+        ],
+        "displayTitle": "幽蓝深海鱼群逐光而行",
+        "confidence": 0.9,
+        "reasoning": "图片呈现水下海滨场景，包含深海、鱼群与逆光光影元素，匹配现有分类体系中「风景/海滨」的分类标准，故归入此类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/二次元/image_iOS26苹果系统空间景深壁纸效..._31.png",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._31.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 155123,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "蓝发赤瞳",
+          "动漫少女",
+          "手绘插画"
+        ],
+        "description": "蓝发少女以指为框，赤瞳澄澈含光，细腻笔触尽显二次元灵动质感",
+        "filenameSuggestions": [
+          "蓝发赤瞳比OK手势的动漫少女.jpg",
+          "半遮脸的二次元蓝发红眸少女.jpg"
+        ],
+        "displayTitle": "绀发赤瞳少女的指尖凝望",
+        "confidence": 0.9,
+        "reasoning": "检测到画面为典型日式二次元动漫风格，未识别到现有分类体系内的特定IP，根据动漫分类决策树规则，判定归入动漫/二次元"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/花卉/image_iOS26苹果系统空间景深壁纸效..._19.png",
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._19.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 282100,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "夜景花卉",
+          "柔光氛围感",
+          "粉花枝蔓",
+          "静谧治愈"
+        ],
+        "description": "深邃夜色里，一束柔光抚过粉花枝，暖调花影晕开静谧温柔的诗意。",
+        "filenameSuggestions": [
+          "暗夜柔光晕染的粉花枝条.jpg",
+          "夜色中被光轻抚的粉花枝.jpg"
+        ],
+        "displayTitle": "夜色柔光里的粉花枝蔓",
+        "confidence": 0.9,
+        "reasoning": "识别图片主体为夜景中的粉色花卉，根据现有分类体系，匹配二级分类[风景]下的三级分类[花卉]，属于完美匹配。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/image_iOS26苹果系统空间景深壁纸效..._18.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._18.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 418975,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "氧气感",
+          "甜系",
+          "蓝天",
+          "人像"
+        ],
+        "description": "晴日蓝天绿树为伴，甜系少女浅笑嫣然，满是治愈的清新氧气感。",
+        "filenameSuggestions": [
+          "蓝天绿树旁的清新甜系少女.jpg",
+          "晴日浅笑的氧气感美少女.jpg"
+        ],
+        "displayTitle": "晴空下的氧气甜系少女",
+        "confidence": 0.9,
+        "reasoning": "检测到画面明亮清新，背景为蓝天绿树，人物笑容甜美充满氧气感，符合核心判定逻辑A4，判定为[人像/清新]"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/氛围感/image_iOS26苹果系统空间景深壁纸效..._30.png",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._30.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 456696,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "冬日雪林",
+          "暖光",
+          "独行"
+        ],
+        "description": "冬夜雪林间暖光破开幽暗，独行身影伫立冰封小径，意境悠长静谧。",
+        "filenameSuggestions": [
+          "雪林暖光中的斗篷背影.jpg",
+          "冬夜林间雪路独行旅人.jpg"
+        ],
+        "displayTitle": "雪林暖光里的孑立身影",
+        "confidence": 0.9,
+        "reasoning": "检测到画面主体为不露脸的背影人物，重光影意境，符合人像分类下的氛围感特征，根据规则A5，判定为[人像/氛围感]"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/国风/image_iOS26苹果系统空间景深壁纸效..._24.png",
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "image_iOS26苹果系统空间景深壁纸效..._24.png",
+      "createdAt": "2026-01-24T11:28:43.169Z",
+      "size": 315014,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "财神主题",
+          "暖绒质感",
+          "搞钱文案"
+        ],
+        "description": "粉色暖绒背景搭配Q版国风财神，趣味字样添讨喜氛围",
+        "filenameSuggestions": [
+          "暖绒质感国风财神奉旨发财壁纸.jpg",
+          "粉色毛绒底搞钱要紧财神插画.jpg"
+        ],
+        "displayTitle": "暖绒国风财神奉旨送福壁纸",
+        "confidence": 0.9,
+        "reasoning": "检测到图片为带有国风元素的财神插画，符合插画分类下的国风子类，匹配现有分类体系"
+      }
+    }
+  ]
+}
