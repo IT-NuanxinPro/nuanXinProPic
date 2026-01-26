@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 26,
+  "total": 27,
   "items": [
+    {
+      "date": "2026-01-27",
+      "title": "羽翼预告：前方有鹈鹕",
+      "copyright": "卷羽鹈鹕，凯尔基尼湖，希腊 (© Guy Edwardes/naturepl.com)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%8D%B7%E7%BE%BD%E9%B9%88%E9%B9%95&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260126_DalmationPelicans%22&FORM=HPQUIZ",
+      "hsh": "043ac4a0f06c043cf1e7d8ed97eec4df",
+      "urlbase": "/th?id=OHR.DalmationPelicans_ZH-CN5252732863"
+    },
     {
       "date": "2026-01-26",
       "title": "巴伐利亚的瑰宝",
@@ -237,5 +246,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-01-26T14:20:54.932Z"
+  "updatedAt": "2026-01-26T17:29:48.793Z"
 }
