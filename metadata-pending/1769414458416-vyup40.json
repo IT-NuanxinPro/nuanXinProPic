@@ -1,0 +1,504 @@
+{
+  "version": 1,
+  "createdAt": "2026-01-26T08:00:58.416Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/萌宠/猫咪/微信图片_2026-01-23_164940_327.jpg",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_2026-01-23_164940_327.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 53435,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "猫咪",
+          "可爱",
+          "呆萌"
+        ],
+        "description": "一只白色猫咪侧卧在床沿，表情呆萌可爱。",
+        "filenameSuggestions": [
+          "可爱白猫侧卧卖萌.jpg",
+          "白色猫咪呆萌表情写真.jpg"
+        ],
+        "displayTitle": "可爱猫咪侧卧卖萌",
+        "confidence": 0.9,
+        "reasoning": "图片内容为一只白色猫咪，侧卧在床沿，脸部有可爱的腮红，符合萌宠/猫咪分类特征。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/萌宠/狗狗/微信图片_2026-01-23_165009_180.jpg",
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_2026-01-23_165009_180.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 131566,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "萌狗",
+          "卷心菜",
+          "搞笑"
+        ],
+        "description": "一只白色的狗被卷心菜包裹着头部，表情搞笑可爱。",
+        "filenameSuggestions": [
+          "可爱卷心菜小狗.jpg",
+          "搞笑蔬菜狗狗.jpg"
+        ],
+        "displayTitle": "可爱的卷心菜小狗",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只狗的脸部特写，它被卷心菜叶包裹着头部，表现出搞笑的表情。根据决策树C.萌宠与表情包决策树，判定为萌宠/狗狗。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/IP形象/通用/微信图片_2026-01-23_165018_073.jpg",
+      "category": "IP形象",
+      "subcategory": "通用",
+      "filename": "微信图片_2026-01-23_165018_073.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 63281,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "avatar",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "小八",
+          "求婚",
+          "浪漫"
+        ],
+        "description": "小八拿着玫瑰和求婚戒指，表情憨态可掬。",
+        "filenameSuggestions": [
+          "浪漫小八求婚.jpg",
+          "可爱熊求婚瞬间.jpg"
+        ],
+        "displayTitle": "可爱小八求婚瞬间",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，识别出该角色与小八形象高度相似，结合其手持玫瑰和求婚戒指的动作，判定为IP形象/小八。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/表情包/搞怪/微信图片_2026-01-23_165024_232.jpg",
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "微信图片_2026-01-23_165024_232.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 34629,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "搞怪",
+          "熊猫",
+          "表情包"
+        ],
+        "description": "一张呆萌的熊猫搞怪表情包，适合用于聊天时表达情绪。",
+        "filenameSuggestions": [
+          "呆萌熊猫搞怪表情包.jpg",
+          "可爱熊猫卖萌动态图.jpg"
+        ],
+        "displayTitle": "呆萌熊猫搞怪表情",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，熊猫的表情和姿势明显是搞怪的，符合表情包/搞怪的分类。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/萌宠/猫咪/微信图片_2026-01-23_165039_033.jpg",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_2026-01-23_165039_033.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 122080,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "猫咪",
+          "时尚",
+          "墨镜"
+        ],
+        "description": "一只戴着墨镜的猫咪，坐在橙色猫床上，周围环绕着闪烁的灯串。",
+        "filenameSuggestions": [
+          "可爱猫咪戴墨镜写真.jpg",
+          "时尚小猫咪戴眼镜软照.jpg"
+        ],
+        "displayTitle": "时尚猫咪的优雅瞬间",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只明显的猫咪，佩戴着墨镜和项圈，符合萌宠/猫咪的分类特征。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/萌宠/狗狗/微信图片_2026-01-23_165043_781.jpg",
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_2026-01-23_165043_781.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 42419,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "柯基犬",
+          "搞怪",
+          "可爱"
+        ],
+        "description": "柯基犬探头好奇的瞬间，展现出其顽皮的一面。",
+        "filenameSuggestions": [
+          "可爱柯基犬搞怪表情.jpg",
+          "柯基犬好奇探头.jpg"
+        ],
+        "displayTitle": "好奇的小柯基犬",
+        "confidence": 0.9,
+        "reasoning": "图片内容为一只柯基犬探头看着某处，表情搞怪，符合萌宠分类下的狗狗子类。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/通用/微信图片_2026-01-23_165048_375.jpg",
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165048_375.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 133953,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/通用/微信图片_2026-01-23_165053_657.jpg",
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165053_657.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 201053,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/通用/微信图片_2026-01-23_165101_406.jpg",
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165101_406.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 192471,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/通用/微信图片_2026-01-23_165106_243.jpg",
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165106_243.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 64343,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/通用/微信图片_2026-01-23_165115_601.jpg",
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165115_601.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 38477,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/通用/微信图片_2026-01-23_165124_953.png",
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165124_953.png",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 613417,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/通用/微信图片_2026-01-23_165148_276.png",
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165148_276.png",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 500742,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/通用/微信图片_2026-01-23_165331_896.jpg",
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165331_896.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 106113,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/插画/创意/微信图片_2026-01-23_165339_916.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_2026-01-23_165339_916.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 215501,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "avatar",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "风景",
+          "樱花",
+          "插画"
+        ],
+        "description": "美丽的樱花湖景风景插画",
+        "filenameSuggestions": [
+          "美丽的樱花湖景风景插画.jpg",
+          "梦幻樱花山脉湖泊.jpg"
+        ],
+        "displayTitle": "樱花湖泊山脉风景",
+        "confidence": 0.9,
+        "reasoning": "该图片为一幅风景插画，展现了自然景观中的湖泊、山脉和樱花，符合插画/创意的分类特征。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/通用/微信图片_2026-01-23_165345_426.jpg",
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165345_426.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 268911,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/通用/微信图片_2026-01-23_165349_820.jpg",
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165349_820.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 114998,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/通用/微信图片_2026-01-23_165357_255.jpg",
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165357_255.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "size": 375676,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    }
+  ]
+}
