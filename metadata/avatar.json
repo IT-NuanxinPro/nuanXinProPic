@@ -8940,18 +8940,17 @@
       },
       "ai": {
         "series": "avatar",
-        "category": "通用",
-        "subcategory": "",
+        "category": "萌宠",
+        "subcategory": "猫咪",
         "primary": "avatar",
-        "secondary": "通用",
-        "third": "",
-        "keywords": [],
-        "description": "",
-        "filenameSuggestions": [],
-        "displayTitle": null,
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": ["猫咪","搞怪","时尚"],
+        "description": "穿着粉色帽子戴着墨镜的可爱猫咪，展现出时尚与可爱的完美结合",
+        "filenameSuggestions": ["可爱猫咪戴墨镜穿毛衣.jpg","粉色系小猫搞怪写真.jpg"],
+        "displayTitle": "可爱猫咪戴墨镜穿毛衣",
         "confidence": 0,
         "reasoning": null,
-        "error": "API 请求频率超限，请稍后再试。"
       }
     },
     "wallpaper/avatar/萌宠/猫咪/微信图片_20260126155108_63_1186.jpg": {
@@ -8970,18 +8969,17 @@
       },
       "ai": {
         "series": "avatar",
-        "category": "通用",
-        "subcategory": "",
+        "category": "萌宠",
+        "subcategory": "猫咪",
         "primary": "avatar",
-        "secondary": "通用",
-        "third": "",
-        "keywords": [],
-        "description": "",
-        "filenameSuggestions": [],
-        "displayTitle": null,
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": ["猫咪","萌宠","时尚"],
+        "description": "一只时尚的猫咪戴着太阳镜和星帽，手持星形花束。",
+        "filenameSuggestions": ["戴着太阳镜和星帽的可爱猫咪.jpg","手持星形花束的时尚猫.jpg"],
+        "displayTitle": "蓝色帽子下的星星眼镜",
         "confidence": 0,
         "reasoning": null,
-        "error": "API 请求频率超限，请稍后再试。"
       }
     },
     "wallpaper/avatar/表情包/搞怪/微信图片_20260126155109_64_1186.jpg": {
