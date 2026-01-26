@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "mobile",
-  "lastUpdated": "2026-01-24T19:58:30.868Z",
-  "count": 446,
+  "lastUpdated": "2026-01-26T08:17:49.601Z",
+  "count": 458,
   "images": {
     "wallpaper/mobile/IP形象/乌萨奇/乌萨奇&小八&小熊_睡衣裹被贴贴.png": {
       "category": "IP形象",
@@ -12290,6 +12290,450 @@
         "displayTitle": "暖绒国风财神奉旨送福壁纸",
         "confidence": 0.9,
         "reasoning": "检测到图片为带有国风元素的财神插画，符合插画分类下的国风子类，匹配现有分类体系"
+      }
+    },
+    "wallpaper/mobile/动漫/夏目友人帐/微信图片_2026-01-26_084930_605.jpg": {
+      "category": "动漫",
+      "subcategory": "夏目友人帐",
+      "filename": "微信图片_2026-01-26_084930_605.jpg",
+      "createdAt": "2026-01-26T08:15:17.986Z",
+      "cdnTag": "v1.1.53",
+      "size": 186899,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2337,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "夏目友人帐",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "夏目友人帐",
+        "keywords": [
+          "治愈系",
+          "夏目友人帐",
+          "冬雪",
+          "二次元",
+          "暖萌"
+        ],
+        "description": "素白冬雪之上，夏目静看憨态抱糖的猫咪老师，满溢温柔治愈感。",
+        "filenameSuggestions": [
+          "冬雪地里观猫的夏目贵志.jpg",
+          "憨态抱糖的猫咪老师与少年.jpg"
+        ],
+        "displayTitle": "冬雪漫野，猫伴温良少年",
+        "confidence": 0.9,
+        "reasoning": "检测到画面为动漫《夏目友人帐》的核心角色夏目贵志与猫咪老师，根据动漫类IP优先匹配规则，归入动漫/夏目友人帐分类，属于完美匹配。"
+      }
+    },
+    "wallpaper/mobile/风景/冬日雪景/微信图片_20260126155442_536_4.jpg": {
+      "category": "风景",
+      "subcategory": "冬日雪景",
+      "filename": "微信图片_20260126155442_536_4.jpg",
+      "createdAt": "2026-01-26T08:15:17.986Z",
+      "cdnTag": "v1.1.53",
+      "size": 1348158,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2339,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "冬日雪景",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "冬日雪景",
+        "keywords": [
+          "冬日雪景",
+          "米菲兔",
+          "日式街景",
+          "治愈氛围"
+        ],
+        "description": "雪粒簌簌落满檐角，米菲兔主题小店在冬日街头漾着暖意，治愈感拉满。",
+        "filenameSuggestions": [
+          "雪落檐头的米菲主题小店.jpg",
+          "飘雪冬日的日式IP商铺.jpg"
+        ],
+        "displayTitle": "雪覆檐角 米菲铺藏冬意",
+        "confidence": 0.9,
+        "reasoning": "图片核心场景为飘雪的冬日日式街头店铺，符合风景类下冬日雪景的分类特征，故归入风景/冬日雪景；同时识别出未收录IP米菲兔，提交提案补充分类。"
+      }
+    },
+    "wallpaper/mobile/动漫/蜡笔小新/微信图片_2026-01-26_085008_556.jpg": {
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "微信图片_2026-01-26_085008_556.jpg",
+      "createdAt": "2026-01-26T08:15:17.986Z",
+      "cdnTag": "v1.1.53",
+      "size": 324554,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2341,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "治愈系",
+          "乡野童趣",
+          "动漫IP"
+        ],
+        "description": "晴日乡野间，小新举荷伞逗白鹅、牵小白嬉游，满是治愈童真趣味。",
+        "filenameSuggestions": [
+          "举荷伞乡间赶鹅的小新.jpg",
+          "牵小白嬉逛蘑菇林的小新.jpg"
+        ],
+        "displayTitle": "晴日乡间小新伴鹅嬉游",
+        "confidence": 0.9,
+        "reasoning": "检测到画面核心为IP角色蜡笔小新，属于现有动漫分类下的明确三级分类项，根据核心判定逻辑优先级，匹配动漫/蜡笔小新。"
+      }
+    },
+    "wallpaper/mobile/动漫/初音未来/微信图片_2026-01-26_085016_059.jpg": {
+      "category": "动漫",
+      "subcategory": "初音未来",
+      "filename": "微信图片_2026-01-26_085016_059.jpg",
+      "createdAt": "2026-01-26T08:15:17.986Z",
+      "cdnTag": "v1.1.53",
+      "size": 85995,
+      "format": "jpg",
+      "resolution": {
+        "width": 720,
+        "height": 1560,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "初音未来",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "初音未来",
+        "keywords": [
+          "初音未来",
+          "二次元",
+          "软萌",
+          "蓝发双马尾"
+        ],
+        "description": "清蓝双马尾的初音探头张望，澄澈眼眸透着软萌娇憨，治愈人心。",
+        "filenameSuggestions": [
+          "蓝发双马尾初音软萌探头壁纸.jpg",
+          "澄澈眼眸初音俏皮露脸壁纸.jpg"
+        ],
+        "displayTitle": "蓝发初音软萌探头尽显娇憨",
+        "confidence": 0.9,
+        "reasoning": "识别出图中角色为初音未来，属于动漫类IP，根据核心判定逻辑B1，匹配现有分类体系中动漫/初音未来，判定为完美匹配。"
+      }
+    },
+    "wallpaper/mobile/动漫/二次元/微信图片_2026-01-26_085027_288.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微信图片_2026-01-26_085027_288.jpg",
+      "createdAt": "2026-01-26T08:15:17.986Z",
+      "cdnTag": "v1.1.53",
+      "size": 95112,
+      "format": "jpg",
+      "resolution": {
+        "width": 1038,
+        "height": 2250,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "御姐风",
+          "神秘感",
+          "暗调"
+        ],
+        "description": "暗调深幕里绯衣少女静立，指尖抵唇示意缄默，紫眸半睁满是魅惑。",
+        "filenameSuggestions": [
+          "暗背景下绯衣抵唇的二次元少女.jpg",
+          "紫眸半睁的御姐风动漫少女.jpg"
+        ],
+        "displayTitle": "暗夜绯衫 缄默紫眸少女",
+        "confidence": 0.9,
+        "reasoning": "检测到画面为典型日式二次元动画风格，无特定IP对应，根据核心判定逻辑B2，归入动漫/二次元分类。"
+      }
+    },
+    "wallpaper/mobile/创意/文字/微信图片_2026-01-26_085037_132.jpg": {
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "微信图片_2026-01-26_085037_132.jpg",
+      "createdAt": "2026-01-26T08:15:17.986Z",
+      "cdnTag": "v1.1.53",
+      "size": 94114,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2341,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "文字",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "文字",
+        "keywords": [
+          "文字壁纸",
+          "财运祈愿",
+          "创意设计",
+          "粉底黑字"
+        ],
+        "description": "粉晕质感底色搭配黑体发财大字，辅以财运祈愿小字，打造纳福手机壁纸。",
+        "filenameSuggestions": [
+          "粉晕底衬黑体发财文字壁纸.jpg",
+          "携财运祈愿的创意文字壁纸.jpg"
+        ],
+        "displayTitle": "粉笺墨书 祈愿财运亨通",
+        "confidence": 0.9,
+        "reasoning": "检测到图片以文字为核心创作元素，属于创意类的文字主题范畴，匹配现有分类体系中创意/文字分类，因此判定归属该类。"
+      }
+    },
+    "wallpaper/mobile/创意/文字/微信图片_2026-01-26_085042_978.jpg": {
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "微信图片_2026-01-26_085042_978.jpg",
+      "createdAt": "2026-01-26T08:15:17.986Z",
+      "cdnTag": "v1.1.53",
+      "size": 138584,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2341,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "文字",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "文字",
+        "keywords": [
+          "红底文字",
+          "发财祈愿",
+          "创意壁纸",
+          "国风祝福"
+        ],
+        "description": "朱红底色搭配醒目白字，满屏发财吉语，传递红火求财的美好祈愿",
+        "filenameSuggestions": [
+          "红底白字发财主题手机壁纸.jpg",
+          "满屏吉语求财创意手机壁纸.jpg"
+        ],
+        "displayTitle": "朱红载愿 发财吉语满屏",
+        "confidence": 0.9,
+        "reasoning": "图片核心为文字创意设计，红底搭配发财相关祝福文字，符合创意分类下的文字子类标准，匹配现有分类体系"
+      }
+    },
+    "wallpaper/mobile/风景/冬日雪景/微信图片_20260126155438_531_4.jpg": {
+      "category": "风景",
+      "subcategory": "冬日雪景",
+      "filename": "微信图片_20260126155438_531_4.jpg",
+      "createdAt": "2026-01-26T08:15:17.987Z",
+      "cdnTag": "v1.1.53",
+      "size": 256568,
+      "format": "jpg",
+      "resolution": {
+        "width": 810,
+        "height": 1440,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "冬日雪景",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "冬日雪景",
+        "keywords": [
+          "冬日雪景",
+          "静谧治愈",
+          "红浆果",
+          "素净氛围"
+        ],
+        "description": "素净白雪铺就冬日底色，一枚艳红浆果静卧其间，晕开清冷里的温柔生机",
+        "filenameSuggestions": [
+          "皑雪之上静卧的艳红小果.jpg",
+          "冬日雪面留存的红浆果.jpg"
+        ],
+        "displayTitle": "皑皑白雪里的孤艳红果",
+        "confidence": 0.9,
+        "reasoning": "识别到画面为冬日雪地场景，点缀着红浆果，属于风景类下的冬日雪景，匹配现有分类体系"
+      }
+    },
+    "wallpaper/mobile/人像/日系/微信图片_20260126155439_532_4.jpg": {
+      "category": "人像",
+      "subcategory": "日系",
+      "filename": "微信图片_20260126155439_532_4.jpg",
+      "createdAt": "2026-01-26T08:15:17.987Z",
+      "cdnTag": "v1.1.53",
+      "size": 1038004,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2347,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "日系",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "日系",
+        "keywords": [
+          "日系人像",
+          "冬日雪景",
+          "JK制服",
+          "氛围感"
+        ],
+        "description": "落雪纷纷的冬日，少女们共撑一伞走下楼道，满是日系氛围感。",
+        "filenameSuggestions": [
+          "雪天楼道下撑伞的JK少女.jpg",
+          "落雪时分同行的日系女孩.jpg"
+        ],
+        "displayTitle": "雪漫檐阶共伞的日系少女",
+        "confidence": 0.9,
+        "reasoning": "检测到画面中人物穿着JK制服，场景为冬日雪景，具有日系抓拍感，根据规则A3，判定为[人像/日系]"
+      }
+    },
+    "wallpaper/mobile/风景/冬日雪景/微信图片_20260126155440_533_4.jpg": {
+      "category": "风景",
+      "subcategory": "冬日雪景",
+      "filename": "微信图片_20260126155440_533_4.jpg",
+      "createdAt": "2026-01-26T08:15:17.987Z",
+      "cdnTag": "v1.1.53",
+      "size": 1319377,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2346,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "冬日雪景",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "冬日雪景",
+        "keywords": [
+          "冬日雪景",
+          "城市夜景",
+          "暖光氛围",
+          "飘雪"
+        ],
+        "description": "冬夜城市街区飞雪弥漫，暖黄路灯晕开温柔，掌心托着蓬松雪团，浪漫治愈。",
+        "filenameSuggestions": [
+          "冬夜飘雪街头掌托雪团的场景.jpg",
+          "暖光路灯下的城市落雪夜景.jpg"
+        ],
+        "displayTitle": "雪夜街灯下掌心的蓬松雪团",
+        "confidence": 0.9,
+        "reasoning": "检测到画面为夜晚城市的冬日雪景场景，核心元素匹配现有分类体系中风景/冬日雪景的定义，判定为完美匹配。"
+      }
+    },
+    "wallpaper/mobile/风景/冬日雪景/微信图片_20260126155441_534_4.jpg": {
+      "category": "风景",
+      "subcategory": "冬日雪景",
+      "filename": "微信图片_20260126155441_534_4.jpg",
+      "createdAt": "2026-01-26T08:15:17.987Z",
+      "cdnTag": "v1.1.53",
+      "size": 1213981,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1440,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "冬日雪景",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "冬日雪景",
+        "keywords": [
+          "冬日雪景",
+          "瓷房子",
+          "古建筑",
+          "中式美学"
+        ],
+        "description": "雪落津门瓷房子，瓷艺古建裹银装，尽显中式建筑别样冬韵。",
+        "filenameSuggestions": [
+          "银妆素裹的瓷房子古建筑.jpg",
+          "雪后瓷艺古建大门景观.jpg"
+        ],
+        "displayTitle": "雪覆瓷楼 古雅冬韵如画",
+        "confidence": 0.9,
+        "reasoning": "检测到画面为雪后的天津瓷房子古建筑，属于冬日雪景类风景，匹配现有分类体系中风景/冬日雪景类目"
+      }
+    },
+    "wallpaper/mobile/风景/冬日雪景/微信图片_20260126155442_535_4.jpg": {
+      "category": "风景",
+      "subcategory": "冬日雪景",
+      "filename": "微信图片_20260126155442_535_4.jpg",
+      "createdAt": "2026-01-26T08:15:17.987Z",
+      "cdnTag": "v1.1.53",
+      "size": 1442812,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2347,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "冬日雪景",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "冬日雪景",
+        "keywords": [
+          "冬日雪景",
+          "暖灯夜雪",
+          "静谧氛围"
+        ],
+        "description": "寒夜中路灯晕开暖光，落雪覆盖枝桠与地面，晕染出静谧柔美的冬夜景致",
+        "filenameSuggestions": [
+          "暖灯落雪覆枝的冬夜小径.jpg",
+          "寒夜积雪映暖光的街景.jpg"
+        ],
+        "displayTitle": "夜雪暖灯绘就静谧冬景",
+        "confidence": 0.9,
+        "reasoning": "检测到图片为夜晚的冬日雪景场景，符合现有分类体系里风景/冬日雪景的分类，判定为该分类"
       }
     }
   }

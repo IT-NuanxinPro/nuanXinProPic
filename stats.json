@@ -1,6 +1,6 @@
 {
-  "lastUpdated": 1769284711.173174,
-  "cdnTag": "v1.1.52",
+  "lastUpdated": 1769415469.952522,
+  "cdnTag": "v1.1.53",
   "series": {
     "desktop": {
       "count": 370,
@@ -17,36 +17,47 @@
       ]
     },
     "mobile": {
-      "count": 446,
+      "count": 458,
       "categories": [
         "人像",
         "影视",
         "风景",
         "动漫",
+        "创意",
         "插画",
         "萌宠",
-        "创意",
         "IP形象"
       ]
     },
     "avatar": {
-      "count": 297,
+      "count": 358,
       "categories": [
-        "动漫",
         "人像",
+        "动漫",
         "IP形象",
         "插画",
+        "萌宠",
         "表情包",
-        "萌宠"
+        "通用"
       ]
     }
   },
   "total": {
     "desktop": 370,
-    "mobile": 446,
-    "avatar": 297
+    "mobile": 458,
+    "avatar": 358
   },
   "releases": [
+    {
+      "tag": "v1.1.53",
+      "date": "2026-01-26",
+      "added": {
+        "desktop": 0,
+        "mobile": 12,
+        "avatar": 61
+      },
+      "publisher": "aSheep-yyqx"
+    },
     {
       "tag": "v1.1.52",
       "date": "2026-01-25",

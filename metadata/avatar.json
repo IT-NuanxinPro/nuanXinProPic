@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "avatar",
-  "lastUpdated": "2026-01-24T19:58:30.870Z",
-  "count": 297,
+  "lastUpdated": "2026-01-26T08:17:49.603Z",
+  "count": 358,
   "images": {
     "wallpaper/avatar/IP形象/Hello Kitty/HelloKitty_好运.png": {
       "category": "IP形象",
@@ -7796,6 +7796,2119 @@
         "displayTitle": "小王子与玫瑰的暖光之约",
         "confidence": 0.9,
         "reasoning": "图片为日式动漫风格插画，无现有特定IP匹配，故归入动漫/二次元；因是《小王子》IP场景，现有分类缺失，提案新增。"
+      }
+    },
+    "wallpaper/avatar/萌宠/猫咪/微信图片_2026-01-23_164940_327.jpg": {
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_2026-01-23_164940_327.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 53435,
+      "format": "jpg",
+      "resolution": {
+        "width": 1017,
+        "height": 1017,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "猫咪",
+          "可爱",
+          "呆萌"
+        ],
+        "description": "一只白色猫咪侧卧在床沿，表情呆萌可爱。",
+        "filenameSuggestions": [
+          "可爱白猫侧卧卖萌.jpg",
+          "白色猫咪呆萌表情写真.jpg"
+        ],
+        "displayTitle": "可爱猫咪侧卧卖萌",
+        "confidence": 0.9,
+        "reasoning": "图片内容为一只白色猫咪，侧卧在床沿，脸部有可爱的腮红，符合萌宠/猫咪分类特征。"
+      }
+    },
+    "wallpaper/avatar/萌宠/狗狗/微信图片_2026-01-23_165009_180.jpg": {
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_2026-01-23_165009_180.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 131566,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "萌狗",
+          "卷心菜",
+          "搞笑"
+        ],
+        "description": "一只白色的狗被卷心菜包裹着头部，表情搞笑可爱。",
+        "filenameSuggestions": [
+          "可爱卷心菜小狗.jpg",
+          "搞笑蔬菜狗狗.jpg"
+        ],
+        "displayTitle": "可爱的卷心菜小狗",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只狗的脸部特写，它被卷心菜叶包裹着头部，表现出搞笑的表情。根据决策树C.萌宠与表情包决策树，判定为萌宠/狗狗。"
+      }
+    },
+    "wallpaper/avatar/IP形象/通用/微信图片_2026-01-23_165018_073.jpg": {
+      "category": "IP形象",
+      "subcategory": "通用",
+      "filename": "微信图片_2026-01-23_165018_073.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 63281,
+      "format": "jpg",
+      "resolution": {
+        "width": 500,
+        "height": 500,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "avatar",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "小八",
+          "求婚",
+          "浪漫"
+        ],
+        "description": "小八拿着玫瑰和求婚戒指，表情憨态可掬。",
+        "filenameSuggestions": [
+          "浪漫小八求婚.jpg",
+          "可爱熊求婚瞬间.jpg"
+        ],
+        "displayTitle": "可爱小八求婚瞬间",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，识别出该角色与小八形象高度相似，结合其手持玫瑰和求婚戒指的动作，判定为IP形象/小八。"
+      }
+    },
+    "wallpaper/avatar/表情包/搞怪/微信图片_2026-01-23_165024_232.jpg": {
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "微信图片_2026-01-23_165024_232.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 34629,
+      "format": "jpg",
+      "resolution": {
+        "width": 828,
+        "height": 828,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "搞怪",
+          "熊猫",
+          "表情包"
+        ],
+        "description": "一张呆萌的熊猫搞怪表情包，适合用于聊天时表达情绪。",
+        "filenameSuggestions": [
+          "呆萌熊猫搞怪表情包.jpg",
+          "可爱熊猫卖萌动态图.jpg"
+        ],
+        "displayTitle": "呆萌熊猫搞怪表情",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，熊猫的表情和姿势明显是搞怪的，符合表情包/搞怪的分类。"
+      }
+    },
+    "wallpaper/avatar/萌宠/猫咪/微信图片_2026-01-23_165039_033.jpg": {
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_2026-01-23_165039_033.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 122080,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "猫咪",
+          "时尚",
+          "墨镜"
+        ],
+        "description": "一只戴着墨镜的猫咪，坐在橙色猫床上，周围环绕着闪烁的灯串。",
+        "filenameSuggestions": [
+          "可爱猫咪戴墨镜写真.jpg",
+          "时尚小猫咪戴眼镜软照.jpg"
+        ],
+        "displayTitle": "时尚猫咪的优雅瞬间",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只明显的猫咪，佩戴着墨镜和项圈，符合萌宠/猫咪的分类特征。"
+      }
+    },
+    "wallpaper/avatar/萌宠/狗狗/微信图片_2026-01-23_165043_781.jpg": {
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_2026-01-23_165043_781.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 42419,
+      "format": "jpg",
+      "resolution": {
+        "width": 564,
+        "height": 564,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "柯基犬",
+          "搞怪",
+          "可爱"
+        ],
+        "description": "柯基犬探头好奇的瞬间，展现出其顽皮的一面。",
+        "filenameSuggestions": [
+          "可爱柯基犬搞怪表情.jpg",
+          "柯基犬好奇探头.jpg"
+        ],
+        "displayTitle": "好奇的小柯基犬",
+        "confidence": 0.9,
+        "reasoning": "图片内容为一只柯基犬探头看着某处，表情搞怪，符合萌宠分类下的狗狗子类。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165048_375.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165048_375.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 133953,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165053_657.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165053_657.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 201053,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165101_406.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165101_406.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 192471,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165106_243.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165106_243.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 64343,
+      "format": "jpg",
+      "resolution": {
+        "width": 1000,
+        "height": 1000,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165115_601.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165115_601.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 38477,
+      "format": "jpg",
+      "resolution": {
+        "width": 608,
+        "height": 608,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165124_953.png": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165124_953.png",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 613417,
+      "format": "png",
+      "resolution": {
+        "width": 851,
+        "height": 851,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165148_276.png": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165148_276.png",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 500742,
+      "format": "png",
+      "resolution": {
+        "width": 690,
+        "height": 690,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165331_896.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165331_896.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 106113,
+      "format": "jpg",
+      "resolution": {
+        "width": 1024,
+        "height": 1024,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/插画/创意/微信图片_2026-01-23_165339_916.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_2026-01-23_165339_916.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 215501,
+      "format": "jpg",
+      "resolution": {
+        "width": 1024,
+        "height": 1024,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "avatar",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "风景",
+          "樱花",
+          "插画"
+        ],
+        "description": "美丽的樱花湖景风景插画",
+        "filenameSuggestions": [
+          "美丽的樱花湖景风景插画.jpg",
+          "梦幻樱花山脉湖泊.jpg"
+        ],
+        "displayTitle": "樱花湖泊山脉风景",
+        "confidence": 0.9,
+        "reasoning": "该图片为一幅风景插画，展现了自然景观中的湖泊、山脉和樱花，符合插画/创意的分类特征。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165345_426.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165345_426.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 268911,
+      "format": "jpg",
+      "resolution": {
+        "width": 1024,
+        "height": 1024,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165349_820.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165349_820.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 114998,
+      "format": "jpg",
+      "resolution": {
+        "width": 1024,
+        "height": 1024,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165357_255.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165357_255.jpg",
+      "createdAt": "2026-01-26T08:00:58.416Z",
+      "cdnTag": "v1.1.53",
+      "size": 375676,
+      "format": "jpg",
+      "resolution": {
+        "width": 1024,
+        "height": 1040,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/插画/创意/微信图片_2026-01-23_165404_724.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_2026-01-23_165404_724.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 133250,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 1280,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "avatar",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "梦幻",
+          "莲花",
+          "锦鲤",
+          "创意"
+        ],
+        "description": "一幅梦幻的莲花池塘插画，粉紫色莲花与金色锦鲤在水中嬉戏。",
+        "filenameSuggestions": [
+          "梦幻莲花锦鲤图.jpg",
+          "粉紫色莲花鱼池插画.jpg"
+        ],
+        "displayTitle": "梦幻莲花池塘",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，是一幅富有创意和梦幻色彩的插画，描绘了莲花和锦鲤在水中的景象。根据决策树，首先排除IP形象、动漫、萌宠、表情包和人像等分类，归类为插画。图片具有创意和艺术感，但不是典型的二次元风格，因此归类为插画/创意。"
+      }
+    },
+    "wallpaper/avatar/插画/创意/微信图片_2026-01-23_165414_548.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_2026-01-23_165414_548.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 96373,
+      "format": "jpg",
+      "resolution": {
+        "width": 1024,
+        "height": 1024,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "avatar",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "梦幻",
+          "莲花",
+          "创意插画"
+        ],
+        "description": "梦幻的莲花插画，带有彩虹和水珠，充满诗意和艺术感。",
+        "filenameSuggestions": [
+          "梦幻紫色莲花桌面壁纸.jpg",
+          "创意插画莲花水彩风景.jpg"
+        ],
+        "displayTitle": "梦幻莲花",
+        "confidence": 0.9,
+        "reasoning": "根据图像特征，这是一幅充满创意和梦幻色彩的莲花插画，没有特定的IP形象或动漫角色，归类为插画/创意。"
+      }
+    },
+    "wallpaper/avatar/插画/创意/微信图片_2026-01-23_165422_376.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_2026-01-23_165422_376.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 207337,
+      "format": "jpg",
+      "resolution": {
+        "width": 1024,
+        "height": 1024,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "avatar",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "金色",
+          "山水",
+          "仙境",
+          "光辉"
+        ],
+        "description": "一幅梦幻般的金色山水风景画，山脉、湖泊、树木与光辉的金色光芒交织成一幅仙境般的画面。",
+        "filenameSuggestions": [
+          "梦幻金色山脉湖泊风景.jpg",
+          "光辉仙境山水湖光.jpg"
+        ],
+        "displayTitle": "金色光辉山水仙境",
+        "confidence": 0.9,
+        "reasoning": "根据决策树，该图片不属于avatar主分类下的任何二级分类，因为它不涉及表情包、插画、动漫、萌宠、人像、IP形象等类别。但其具备创意插画的特征：具有梦幻、光辉的艺术感和抽象风格，因此归类为插画/创意。"
+      }
+    },
+    "wallpaper/avatar/插画/创意/微信图片_2026-01-23_165428_806.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_2026-01-23_165428_806.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 225461,
+      "format": "jpg",
+      "resolution": {
+        "width": 1024,
+        "height": 1024,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "avatar",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "风景",
+          "插画",
+          "梦幻",
+          "山水"
+        ],
+        "description": "一幅描绘山水风景的梦幻插画，日落时分，山脉、瀑布、湖泊与鲜花构成一幅唯美画面。",
+        "filenameSuggestions": [
+          "梦幻山水风景插画.jpg",
+          "唯美山水日落风景.jpg"
+        ],
+        "displayTitle": "梦幻山水风景插画",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，判定为插画/创意，图片展示了一幅富有创意和艺术感的风景插画，没有具体IP形象或动漫角色。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/微信图片_2026-01-23_165507_501.jpg": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-01-23_165507_501.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 166534,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "少女",
+          "俏皮",
+          "自拍"
+        ],
+        "description": "一个充满俏皮感的少女自拍瞬间，带有可爱的发饰和甜美的微笑。",
+        "filenameSuggestions": [
+          "可爱女孩的俏皮表情.jpg",
+          "甜美风格的少女自拍.jpg"
+        ],
+        "displayTitle": "甜美少女的俏皮瞬间",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，女孩面部表情甜美，充满俏皮感，归类为人像/甜妹。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/微信图片_2026-01-23_165512_965.jpg": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-01-23_165512_965.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 120689,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "小女孩",
+          "户外"
+        ],
+        "description": "一个充满活力的小女孩，在户外玩耍时展现出甜美的笑容。",
+        "filenameSuggestions": [
+          "可爱小女孩户外玩耍.jpg",
+          "甜美风格女孩生活照.jpg"
+        ],
+        "displayTitle": "甜美小女孩的户外欢乐时光",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，女孩展现出甜美可爱、少女感的形象，归类为 人像/甜妹。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/微信图片_2026-01-23_165533_532.jpg": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-01-23_165533_532.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 109817,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1077,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜妹",
+          "面膜",
+          "阅读"
+        ],
+        "description": "一个敷着面膜正在阅读的甜美少女。",
+        "filenameSuggestions": [
+          "面膜少女阅读瞬间.jpg",
+          "甜美女孩放松时光.jpg"
+        ],
+        "displayTitle": "敷面膜的少女时光",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B3，人像分类决策树中特征描述为甜美可爱、少女感、清新风格，图片中的女孩敷面膜阅读，展现出甜美少女的形象，因此归类为 人像/甜妹。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/微信图片_2026-01-23_165538_262.jpg": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-01-23_165538_262.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 84261,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1078,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "少女",
+          "生活照"
+        ],
+        "description": "一位甜美少女倚靠在枕头上，沉思的表情展现了她的纯真与美丽。",
+        "filenameSuggestions": [
+          "清新甜美女孩倚枕沉思.jpg",
+          "粉色系少女生活照.jpg"
+        ],
+        "displayTitle": "甜美少女倚枕沉思",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，少女的甜美可爱、少女感、清新风格，归类为人像/甜妹。"
+      }
+    },
+    "wallpaper/avatar/萌宠/猫咪/微信图片_2026-01-23_165613_598.jpg": {
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_2026-01-23_165613_598.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 120991,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "猫咪",
+          "萌宠",
+          "搞笑"
+        ],
+        "description": "一只戴着眼镜的猫咪坐在电脑前，呆萌可爱。",
+        "filenameSuggestions": [
+          "可爱猫咪戴眼镜编程.jpg",
+          "呆萌猫猫办公场景.jpg"
+        ],
+        "displayTitle": "呆萌猫咪编程员",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只猫咪戴着眼镜，坐在电脑前，带有搞笑表情，符合萌宠/猫咪分类。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165621_612.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165621_612.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 116219,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165626_116.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165626_116.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 53586,
+      "format": "jpg",
+      "resolution": {
+        "width": 474,
+        "height": 474,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165630_233.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165630_233.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 82049,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165636_691.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165636_691.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 101827,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1087,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/萌宠/狗狗/微信图片_2026-01-23_165640_914.jpg": {
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_2026-01-23_165640_914.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 106657,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "可爱",
+          "狗狗",
+          "微笑"
+        ],
+        "description": "一只白色小狗坐在黑色皮革上，表情开心，舌头微露。",
+        "filenameSuggestions": [
+          "白色小狗微笑生活照.jpg",
+          "毛茸茸小狗开心表情.jpg"
+        ],
+        "displayTitle": "可爱小狗微笑瞬间",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只白色的小狗，表情可爱，舌头微露，符合萌宠分类下的狗狗特征。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-23_165646_392.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-23_165646_392.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 76561,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/通用/微信图片_2026-01-26_142312_598.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_2026-01-26_142312_598.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 96880,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1064,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/萌宠/猫咪/微信图片_20260126155106_62_1186.jpg": {
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_20260126155106_62_1186.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 594397,
+      "format": "jpg",
+      "resolution": {
+        "width": 2580,
+        "height": 2580,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/萌宠/猫咪/微信图片_20260126155108_63_1186.jpg": {
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_20260126155108_63_1186.jpg",
+      "createdAt": "2026-01-26T08:03:28.928Z",
+      "cdnTag": "v1.1.53",
+      "size": 659623,
+      "format": "jpg",
+      "resolution": {
+        "width": 2580,
+        "height": 2580,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/avatar/表情包/搞怪/微信图片_20260126155109_64_1186.jpg": {
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "微信图片_20260126155109_64_1186.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 435674,
+      "format": "jpg",
+      "resolution": {
+        "width": 2048,
+        "height": 2048,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "搞怪",
+          "酷拽",
+          "软萌",
+          "喵星人",
+          "墨镜"
+        ],
+        "description": "戴着荧光绿墨镜与黑绒萌帽的猫咪，仰头抬眼，拽酷又软萌。",
+        "filenameSuggestions": [
+          "荧光绿墨镜搞怪软萌猫咪.jpg",
+          "黑绿绒帽拽酷猫崽特写.jpg"
+        ],
+        "displayTitle": "酷拽墨镜喵星人超有范儿",
+        "confidence": 0.9,
+        "reasoning": "猫咪佩戴夸张搞怪的墨镜与绒帽，神态拽酷，适合用作聊天表情包，根据规则C1，判定为[表情包/搞怪]"
+      }
+    },
+    "wallpaper/avatar/萌宠/猫咪/微信图片_20260126155110_65_1186.jpg": {
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_20260126155110_65_1186.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 334076,
+      "format": "jpg",
+      "resolution": {
+        "width": 2048,
+        "height": 2048,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "酷拽萌态",
+          "宠物穿搭",
+          "圆眼猫咪",
+          "绒帽墨镜"
+        ],
+        "description": "头戴棕绒兔耳帽，架着咖色墨镜的圆眼猫咪，拽酷萌态尽显治愈感。",
+        "filenameSuggestions": [
+          "棕绒兔耳帽咖框墨镜猫咪.jpg",
+          "拽酷萌态圆眼可爱猫咪.jpg"
+        ],
+        "displayTitle": "棕绒兔耳帽墨镜酷拽猫咪",
+        "confidence": 0.9,
+        "reasoning": "识别为真实猫咪照片，头戴装饰帽与墨镜，符合萌宠分类特征，根据规则C2，判定为[萌宠/猫咪]"
+      }
+    },
+    "wallpaper/avatar/萌宠/猫咪/微信图片_20260126155111_66_1186.jpg": {
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_20260126155111_66_1186.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 402765,
+      "format": "jpg",
+      "resolution": {
+        "width": 2048,
+        "height": 2048,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "酷拽萌猫",
+          "墨镜造型",
+          "软萌治愈",
+          "银渐层"
+        ],
+        "description": "头戴蓝绒系带帽、架着绿框墨镜的银渐层小猫，抬首耍帅，软萌又酷拽。",
+        "filenameSuggestions": [
+          "蓝绒系带帽绿镜萌猫.jpg",
+          "拽酷银渐层猫耍帅瞬间.jpg"
+        ],
+        "displayTitle": "蓝帽绿镜萌猫酷拽吸睛",
+        "confidence": 0.9,
+        "reasoning": "识别为真实猫咪照片，符合萌宠分类规则C2，因此判定为[萌宠/猫咪]"
+      }
+    },
+    "wallpaper/avatar/萌宠/猫咪/微信图片_20260126155112_67_1186.jpg": {
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_20260126155112_67_1186.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 399900,
+      "format": "jpg",
+      "resolution": {
+        "width": 2048,
+        "height": 2048,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "圣诞装扮",
+          "酷萌猫咪",
+          "墨镜造型",
+          "节日氛围"
+        ],
+        "description": "戴着圣诞风帽兜与墨镜的奶萌猫咪，尽显潮酷可爱的节日氛围感。",
+        "filenameSuggestions": [
+          "红白绿圣诞帽戴墨镜猫咪.jpg",
+          "苹果围兜酷萌节日猫咪.jpg"
+        ],
+        "displayTitle": "圣诞装扮潮酷喵星人",
+        "confidence": 0.9,
+        "reasoning": "识别出为真实猫咪照片，搭配圣诞风格服饰与墨镜，根据规则C2，判定为[萌宠/猫咪]"
+      }
+    },
+    "wallpaper/avatar/表情包/搞怪/微信图片_20260126155113_68_1186.jpg": {
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "微信图片_20260126155113_68_1186.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 364063,
+      "format": "jpg",
+      "resolution": {
+        "width": 1838,
+        "height": 1838,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "搞怪猫咪",
+          "萌趣治愈",
+          "宠物表情包",
+          "潮酷穿搭"
+        ],
+        "description": "金渐层戴着梨形毛绒帽与黄框墨镜，歪头尽显搞怪萌趣的治愈感。",
+        "filenameSuggestions": [
+          "软萌梨帽黄镜搞怪小猫咪.jpg",
+          "潮酷墨镜猫咪搞怪萌趣照.jpg"
+        ],
+        "displayTitle": "梨帽墨镜搞怪酷萌小猫",
+        "confidence": 0.9,
+        "reasoning": "识别出猫咪具有搞怪造型与神态，适合用作聊天表情包，根据规则C1，判定为[表情包/搞怪]"
+      }
+    },
+    "wallpaper/avatar/萌宠/猫咪/微信图片_20260126155114_69_1186.jpg": {
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_20260126155114_69_1186.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 148869,
+      "format": "jpg",
+      "resolution": {
+        "width": 1152,
+        "height": 1152,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "慵懒治愈",
+          "暖黄风格",
+          "潮范萌猫",
+          "小鸭相伴"
+        ],
+        "description": "裹黄头巾的萌猫戴墨镜，捧小黄书，在小鸭陪伴下享慵懒治愈时光。",
+        "filenameSuggestions": [
+          "墨镜浴袍萌猫持黄书伴小鸭.jpg",
+          "暖黄系慵懒橘白猫阅卷玩鸭.jpg"
+        ],
+        "displayTitle": "浴袍墨镜萌猫伴鸭读闲书",
+        "confidence": 0.9,
+        "reasoning": "识别出为真实猫咪的趣味造型，符合萌宠分类特征，根据规则C2，判定为[萌宠/猫咪]"
+      }
+    },
+    "wallpaper/avatar/萌宠/猫咪/微信图片_20260126155116_70_1186.jpg": {
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_20260126155116_70_1186.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 135846,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "酷萌猫咪",
+          "红绒帽围脖",
+          "黑框墨镜",
+          "红浆果"
+        ],
+        "description": "红绒帽配黑墨镜的拽酷猫咪，手捧艳红浆果，反差感拉满超治愈。",
+        "filenameSuggestions": [
+          "酷帅黑镜红绒帽猫咪执红果.jpg",
+          "软萌红围脖猫咪捧浆果枝.jpg"
+        ],
+        "displayTitle": "红帽墨镜喵捧红浆果",
+        "confidence": 0.9,
+        "reasoning": "识别到真实猫咪的照片，根据规则C2，判定为[萌宠/猫咪]"
+      }
+    },
+    "wallpaper/avatar/萌宠/猫咪/微信图片_20260126155124_71_1186.jpg": {
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_20260126155124_71_1186.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 399791,
+      "format": "jpg",
+      "resolution": {
+        "width": 2048,
+        "height": 2048,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "粉色系",
+          "傲娇猫咪",
+          "酷萌风格",
+          "圆脸短毛"
+        ],
+        "description": "头戴粉色毛绒帽与同色墨镜的圆脸猫咪，傲娇抬首，酷感与软萌兼具。",
+        "filenameSuggestions": [
+          "粉色绒帽墨镜傲娇圆脸猫咪.jpg",
+          "酷萌傲娇粉饰短毛小猫咪.jpg"
+        ],
+        "displayTitle": "粉帽粉镜傲娇酷萌小猫咪",
+        "confidence": 0.9,
+        "reasoning": "识别为真实猫咪照片，符合萌宠分类下的猫咪子类要求，根据规则C2，判定为[萌宠/猫咪]"
+      }
+    },
+    "wallpaper/avatar/表情包/搞怪/微信图片_20260126155237_72_1186.jpg": {
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "微信图片_20260126155237_72_1186.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 64494,
+      "format": "jpg",
+      "resolution": {
+        "width": 517,
+        "height": 532,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "搞怪",
+          "萌系",
+          "傲娇",
+          "小鸭"
+        ],
+        "description": "黄小鸭扮齐刘海配粉蝴蝶结，厌世眼神尽显搞怪萌趣感。",
+        "filenameSuggestions": [
+          "傲娇黄鸭戴发蝴蝶结搞怪.jpg",
+          "厌世脸萌系小鸭趣味形象.jpg"
+        ],
+        "displayTitle": "傲娇萌鸭搞怪趣态尽显",
+        "confidence": 0.9,
+        "reasoning": "图中形象为带有搞怪厌世表情的萌系小鸭，符合表情包搞怪的特征，根据规则C1，判定为[表情包/搞怪]"
+      }
+    },
+    "wallpaper/avatar/表情包/搞怪/微信图片_20260126155435_526_4.jpg": {
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "微信图片_20260126155435_526_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 51742,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "搞怪柴犬",
+          "勺子倒影",
+          "萌趣表情",
+          "搞笑瞬间"
+        ],
+        "description": "勺子倒映柴犬形成搞怪变形脸，真实柴犬吐舌相伴，趣味治愈。",
+        "filenameSuggestions": [
+          "勺中变形搞怪柴犬笑脸.jpg",
+          "趣味搞怪柴犬勺子倒影.jpg"
+        ],
+        "displayTitle": "勺映柴犬 搞怪萌趣模样",
+        "confidence": 0.9,
+        "reasoning": "图片中柴犬经勺子反射呈现搞怪变形脸，具备表情包搞怪的特征，依据规则C1判定为[表情包/搞怪]"
+      }
+    },
+    "wallpaper/avatar/人像/氛围感/微信图片_20260126155435_527_4.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_20260126155435_527_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 824836,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "二次元插画",
+          "氛围感",
+          "酷拽风格",
+          "休闲日常"
+        ],
+        "description": "暖棕调露台边，戴墨镜的酷感少年闲饮，慵懒氛围感十足。",
+        "filenameSuggestions": [
+          "黑调酷感露台漫饮少年.jpg",
+          "暖棕慵懒戴镜闲坐少年.jpg"
+        ],
+        "displayTitle": "露台闲酌的酷拽少年",
+        "confidence": 0.9,
+        "reasoning": "图片为遮挡面部的二次元风格人像，符合人像类氛围感特征，根据规则B2，判定为人像/氛围感"
+      }
+    },
+    "wallpaper/avatar/动漫/日漫/微信图片_20260126155436_528_4.jpg": {
+      "category": "动漫",
+      "subcategory": "日漫",
+      "filename": "微信图片_20260126155436_528_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 314111,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "日漫",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "日漫",
+        "keywords": [
+          "日漫",
+          "冷峻",
+          "星舰",
+          "赤膊",
+          "烟影"
+        ],
+        "description": "星舰舱内，赤膊男子静立抽烟，烟霭轻绕，舷窗外星河漫布，满是孤寂氛围感。",
+        "filenameSuggestions": [
+          "星舰舷窗赤膊抽烟男子.jpg",
+          "冷峻日漫男性烟姿插画.jpg"
+        ],
+        "displayTitle": "星舱烟萦赤膊，夜伴星河",
+        "confidence": 0.9,
+        "reasoning": "识别出该角色为日漫《星际牛仔》主角斯派克，属于日系动漫范畴，根据规则A2，判定为[动漫/日漫]"
+      }
+    },
+    "wallpaper/avatar/插画/二次元/微信图片_20260126155437_529_4.jpg": {
+      "category": "插画",
+      "subcategory": "二次元",
+      "filename": "微信图片_20260126155437_529_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 902001,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "插画",
+        "subcategory": "二次元",
+        "primary": "avatar",
+        "secondary": "插画",
+        "third": "二次元",
+        "keywords": [
+          "二次元插画",
+          "酷感少年",
+          "复古漫风",
+          "通勤场景"
+        ],
+        "description": "车窗边的漫风少年，高领衣遮半脸，耳机私享独属的静谧时光。",
+        "filenameSuggestions": [
+          "酷感黑调侧戴耳机漫风少年.jpg",
+          "车窗旁高领潮系动漫男生.jpg"
+        ],
+        "displayTitle": "车窗旁酷感漫风少年",
+        "confidence": 0.9,
+        "reasoning": "识别为无特定IP的动漫风格插画作品，依据规则D1，判定为[插画/二次元]"
+      }
+    },
+    "wallpaper/avatar/动漫/通用/微信图片_20260126155438_530_4.jpg": {
+      "category": "动漫",
+      "subcategory": "通用",
+      "filename": "微信图片_20260126155438_530_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 509000,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "通用",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "通用",
+        "keywords": [
+          "复古日漫",
+          "伏案酣眠",
+          "自习场景",
+          "疲惫少年"
+        ],
+        "description": "复古日漫风格的少年，在摆满课业的桌前伏案酣眠，尽显疲惫。",
+        "filenameSuggestions": [
+          "复古日漫风桌前酣眠少年.jpg",
+          "课业劳倦伏案熟睡少年.jpg"
+        ],
+        "displayTitle": "案头倦眠的自习少年",
+        "confidence": 0.9,
+        "reasoning": "图片呈现动漫风格的角色形象，无法识别具体动漫作品，依据规则A2，判定为[动漫/通用]"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/微信图片_20260126155443_537_4.jpg": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_20260126155443_537_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 391005,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "软萌甜妹",
+          "虎纹毛绒",
+          "暖调氛围",
+          "治愈笑容"
+        ],
+        "description": "暖调氛围中，虎纹毛绒帽的软萌少女，以甜笑与指尖互动传递治愈感。",
+        "filenameSuggestions": [
+          "暖棕虎纹毛绒衫甜妹笑靥.jpg",
+          "软萌黑长发少女暖心互动.jpg"
+        ],
+        "displayTitle": "毛绒虎耳甜妹治愈笑颜",
+        "confidence": 0.9,
+        "reasoning": "图片主体为笑容甜美、风格软萌的少女，符合人像分类下甜妹的特征，依据规则B3判定为人像/甜妹。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/微信图片_20260126155444_538_4.jpg": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_20260126155444_538_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 469452,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "软萌正太",
+          "毛绒小熊装",
+          "治愈笑颜",
+          "暖系氛围"
+        ],
+        "description": "暖棕毛绒小熊装的小男孩，眉眼弯弯笑意融融，软萌氛围治愈人心。",
+        "filenameSuggestions": [
+          "奶fufu小熊装笑眼男孩.jpg",
+          "暖棕毛绒衣软萌小正太.jpg"
+        ],
+        "displayTitle": "软萌小熊装治愈笑颜",
+        "confidence": 0.9,
+        "reasoning": "识别为真实人像主体，现有三级分类无适配小男孩的类目，暂选最接近的人像/甜妹，提案新增人像/正太分类"
+      }
+    },
+    "wallpaper/avatar/萌宠/狗狗/微信图片_20260126155445_539_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_20260126155445_539_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 400239,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "温馨治愈",
+          "白绒奶狗",
+          "暖心少年",
+          "亲密互动"
+        ],
+        "description": "浅衣少年怀拥软萌白绒小狗，亲昵贴近满溢温柔气息。",
+        "filenameSuggestions": [
+          "暖心少年怀拥白绒奶狗.jpg",
+          "软萌小狗依偎可爱男孩.jpg"
+        ],
+        "displayTitle": "怀抱奶狗的暖心小少年",
+        "confidence": 0.9,
+        "reasoning": "经排查，图片非IP/动漫角色，不符合人像分类下各子类，也不属于表情包、插画，符合萌宠分类下真实狗狗的特征，根据规则C2判定为[萌宠/狗狗]"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/微信图片_20260126155445_540_4.jpg": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_20260126155445_540_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 419692,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜系少女",
+          "软萌白犬",
+          "温馨治愈",
+          "清新日常"
+        ],
+        "description": "金发甜系少女怀抱着软萌白色小狗，画面温馨治愈，满是温柔氛围",
+        "filenameSuggestions": [
+          "清甜少女怀拥卷毛白犬.jpg",
+          "温柔软萌少女与白狗相依.jpg"
+        ],
+        "displayTitle": "金发少女怀拥软萌白犬",
+        "confidence": 0.9,
+        "reasoning": "识别出画面主体为甜美可爱的金发少女，符合人像分类下甜妹的特征，根据规则B3，判定为[人像/甜妹]"
+      }
+    },
+    "wallpaper/avatar/萌宠/猫咪/微信图片_20260126155446_541_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_20260126155446_541_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 425390,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "软萌治愈",
+          "温馨日常",
+          "金瞳白猫",
+          "可爱幼崽"
+        ],
+        "description": "暖柔氛围里，软萌男孩怀抱着金瞳蓬松白猫，满是治愈感。",
+        "filenameSuggestions": [
+          "暖调氛围男孩怀抱蓬松白猫.jpg",
+          "圆眼萌娃与金瞳奶白猫咪.jpg"
+        ],
+        "displayTitle": "软萌幼崽与金瞳白猫",
+        "confidence": 0.9,
+        "reasoning": "识别出真实白色长毛猫咪，根据规则C2，判定为[萌宠/猫咪]，画面温馨治愈。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/微信图片_20260126155447_542_4.jpg": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_20260126155447_542_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 345980,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜系少女",
+          "纯白萌猫",
+          "温馨治愈",
+          "软萌可爱"
+        ],
+        "description": "甜系少女怀抱着粉瞳纯白长毛猫咪，画面软萌温馨，满是治愈气息。",
+        "filenameSuggestions": [
+          "软萌甜妹怀拥纯白长毛猫咪.jpg",
+          "暖系少女抱粉瞳雪白萌猫.jpg"
+        ],
+        "displayTitle": "暖系少女怀拥纯白猫咪",
+        "confidence": 0.9,
+        "reasoning": "识别出画面主体是甜美可爱的少女，符合人像分类下甜妹的特征，根据规则B3，判定为[人像/甜妹]"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/微信图片_20260126155447_543_4.jpg": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_20260126155447_543_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 70584,
+      "format": "jpg",
+      "resolution": {
+        "width": 1070,
+        "height": 988,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "酷萌女孩",
+          "新春招财",
+          "皮草墨镜",
+          "喜庆氛围"
+        ],
+        "description": "身着黑裘戴墨镜的酷萌女孩，手持招财红笺，尽显新春喜庆俏皮感。",
+        "filenameSuggestions": [
+          "黑裘墨镜萌娃持红春联.jpg",
+          "酷飒女孩携招财笺贺新春.jpg"
+        ],
+        "displayTitle": "黑裘墨镜萌娃迎福招财",
+        "confidence": 0.9,
+        "reasoning": "识别为真实人像，女孩造型酷萌甜美，符合人像/甜妹的分类特征，根据规则B3判定为人像/甜妹。"
+      }
+    },
+    "wallpaper/avatar/表情包/搞怪/微信图片_20260126155448_544_4.jpg": {
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "微信图片_20260126155448_544_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 97883,
+      "format": "jpg",
+      "resolution": {
+        "width": 1078,
+        "height": 990,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "搞怪",
+          "萌趣",
+          "俏皮",
+          "红装"
+        ],
+        "description": "红兔耳头套配美元眼镜，红白手套衬得女娃俏皮搞怪，满是萌趣。",
+        "filenameSuggestions": [
+          "红兔耳美元镜搞怪萌女孩.jpg",
+          "红白手套俏皮搞怪小少女.jpg"
+        ],
+        "displayTitle": "兔耳红手套搞怪小萌妹",
+        "confidence": 0.9,
+        "reasoning": "识别到画面中小女孩佩戴搞怪美元眼镜，做出俏皮姿势，符合表情包搞怪的特征，根据规则C1，判定为[表情包/搞怪]"
+      }
+    },
+    "wallpaper/avatar/表情包/搞怪/微信图片_20260126155449_545_4.jpg": {
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "微信图片_20260126155449_545_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 99243,
+      "format": "jpg",
+      "resolution": {
+        "width": 1070,
+        "height": 994,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "搞怪萌娃",
+          "狂吃不胖",
+          "童趣装扮",
+          "生日氛围"
+        ],
+        "description": "红毛衣萌娃戴搞怪发箍与太阳花眼镜，手持蛋糕道具，祈愿狂吃不胖，童趣满满。",
+        "filenameSuggestions": [
+          "红毛衣萌娃戴太阳花搞怪眼镜.jpg",
+          "彩色扭扭发箍萌娃捧蛋糕道具.jpg"
+        ],
+        "displayTitle": "搞怪萌娃祈愿狂吃不胖",
+        "confidence": 0.9,
+        "reasoning": "识别到萌娃佩戴诙谐搞怪的装扮，适合用作聊天情绪表达，根据规则C1，判定为[表情包/搞怪]"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/微信图片_20260126155450_546_4.jpg": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_20260126155450_546_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 179028,
+      "format": "jpg",
+      "resolution": {
+        "width": 1287,
+        "height": 1279,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜妹",
+          "海边",
+          "金发",
+          "夏日"
+        ],
+        "description": "椰林海滨的金发甜妹，手持汽水瓶，海风拂动发丝，满溢夏日清新氛围。",
+        "filenameSuggestions": [
+          "金发甜妹海边持汽水瓶.jpg",
+          "椰风白背心红甲少女.jpg"
+        ],
+        "displayTitle": "椰林岸畔甜系少女",
+        "confidence": 0.9,
+        "reasoning": "图中人物为甜美可爱、充满少女感的现实人像，符合规则B3的甜妹特征，判定为[人像/甜妹]"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/微信图片_20260126155451_547_4.jpg": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_20260126155451_547_4.jpg",
+      "createdAt": "2026-01-26T08:12:35.177Z",
+      "cdnTag": "v1.1.53",
+      "size": 207379,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 1280,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜妹",
+          "复古风",
+          "俏皮",
+          "居家"
+        ],
+        "description": "双丸子头搭白框墨镜的甜妹，身着印花吊带，在复古感空间里俏皮摆拍。",
+        "filenameSuggestions": [
+          "双丸子头墨镜甜妹居家快照.jpg",
+          "复古风印花吊带甜妹写真.jpg"
+        ],
+        "displayTitle": "元气甜妹俏皮居家随拍",
+        "confidence": 0.9,
+        "reasoning": "图中人物呈现甜美可爱的少女感，符合甜妹特征，依据规则B3，判定为[人像/甜妹]"
       }
     }
   }
