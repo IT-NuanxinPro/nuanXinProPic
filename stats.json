@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1769415469.952522,
+  "lastUpdated": "2026-01-26T14:16:37.852Z",
   "cdnTag": "v1.1.53",
   "series": {
     "desktop": {
@@ -37,15 +37,15 @@
         "IP形象",
         "插画",
         "萌宠",
-        "表情包",
-        "通用"
+        "表情包"
       ]
     }
   },
   "total": {
     "desktop": 370,
     "mobile": 458,
-    "avatar": 358
+    "avatar": 358,
+    "bing": 0
   },
   "releases": [
     {
