@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "createdAt": "2026-01-28T08:55:48.974Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/美少女战士/美少女战士_月野兔_都市夜景.png",
+      "category": "动漫",
+      "subcategory": "美少女战士",
+      "filename": "美少女战士_月野兔_都市夜景.png",
+      "createdAt": "2026-01-28T08:55:48.974Z",
+      "size": 618271,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "美少女战士",
+        "subcategory": "美少女战士",
+        "filenameSuggestions": [
+          "背对城市夜景的月野兔.jpg",
+          "仰望满月的水冰月.jpg"
+        ],
+        "filenames": [
+          "背对城市夜景的月野兔.jpg",
+          "仰望满月的水冰月.jpg"
+        ],
+        "displayTitle": "月光下的守护者",
+        "keywords": [
+          "美少女战士",
+          "月野兔",
+          "水冰月"
+        ],
+        "description": "动漫风格的赛尔月光站在城市夜景前仰望满月。",
+        "confidence": 0.9,
+        "reasoning": "图片具有典型的动漫风格，人物形象类似赛尔月光，但未明确对应某一具体作品，因此归类为动漫/通用"
+      }
+    }
+  ]
+}
