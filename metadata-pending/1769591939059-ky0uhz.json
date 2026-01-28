@@ -1,0 +1,360 @@
+{
+  "version": 1,
+  "createdAt": "2026-01-28T09:18:59.059Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/政治/通用/励志语录-历史人物.png",
+      "category": "政治",
+      "subcategory": "通用",
+      "filename": "励志语录-历史人物.png",
+      "createdAt": "2026-01-28T09:18:59.059Z",
+      "size": 1723251,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "政治",
+        "subcategory": "通用",
+        "primary": "desktop",
+        "secondary": "政治",
+        "third": "通用",
+        "keywords": [
+          "政治",
+          "激励",
+          "革命",
+          "领导人"
+        ],
+        "description": "毛泽东头像与激励名言的结合，展现革命精神与远大抱负。",
+        "filenameSuggestions": [
+          "毛泽东头像壁画.jpg",
+          "远大抱负的革命象征.jpg"
+        ],
+        "displayTitle": "胸怀壮志，砥砺前行",
+        "confidence": 0.9,
+        "reasoning": "图片以毛泽东头像和相关名言为核心内容，体现政治主题和激励氛围，根据现有分类体系，归入'政治/通用'。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/政治/通用/书法-国庆-大气.png",
+      "category": "政治",
+      "subcategory": "通用",
+      "filename": "书法-国庆-大气.png",
+      "createdAt": "2026-01-28T09:18:59.059Z",
+      "size": 578010,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "政治",
+        "subcategory": "通用",
+        "primary": "desktop",
+        "secondary": "政治",
+        "third": "通用",
+        "keywords": [
+          "爱国主义",
+          "中国风",
+          "字体设计"
+        ],
+        "description": "爱国金色字体设计",
+        "filenameSuggestions": [
+          "中国风金色字体设计.jpg",
+          "爱国主义金色字体.jpg"
+        ],
+        "displayTitle": "中华之声",
+        "confidence": 0.9,
+        "reasoning": "图片内容为金色字体设计的爱国主义语句，符合政治类别下的通用风格。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/文字/中国-主权-书法.png",
+      "category": "插画",
+      "subcategory": "文字",
+      "filename": "中国-主权-书法.png",
+      "createdAt": "2026-01-28T09:18:59.059Z",
+      "size": 1042306,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "文字",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "文字",
+        "keywords": [
+          "书法",
+          "艺术",
+          "中华文化"
+        ],
+        "description": "书法艺术与鸟的结合，展现中华文化独特韵味。",
+        "filenameSuggestions": [
+          "台湾情怀的文字艺术.jpg",
+          "鸟鸣寄相思的书法设计.jpg"
+        ],
+        "displayTitle": "中华情韵",
+        "confidence": 0.9,
+        "reasoning": "图片主要以书法和少量鸟的图案为主，强调中华文化元素，归类为插画/文字。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/国风/绿意盎然中的古典佳人.png",
+      "category": "人像",
+      "subcategory": "国风",
+      "filename": "绿意盎然中的古典佳人.png",
+      "createdAt": "2026-01-28T09:18:59.059Z",
+      "size": 2354737,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "古典",
+          "竹林"
+        ],
+        "description": "一位身着绿衣的女子躺在竹林中的栏杆上，展现出古典美与自然景色的完美结合。",
+        "filenameSuggestions": [
+          "绿意竹林中的古典美人.jpg",
+          "身着青绿长裙的竹林仙子.jpg"
+        ],
+        "displayTitle": "绿意竹林中的古典佳人",
+        "confidence": 0.9,
+        "reasoning": "图片中的女子穿着具有中国传统风格的服装，背景是竹林，整体呈现出浓厚的国风韵味，根据决策树A. 人像分类决策树中的【国风】(Chinese Style)定义和特征，判定为[人像/国风]"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/明星/时代少年团合照.png",
+      "category": "人像",
+      "subcategory": "明星",
+      "filename": "时代少年团合照.png",
+      "createdAt": "2026-01-28T09:18:59.059Z",
+      "size": 1035123,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "明星",
+        "subcategory": "明星",
+        "filenameSuggestions": [
+          "酷帅时代少年团魅力写真.jpg",
+          "黑色西装男团时尚大片.jpg"
+        ],
+        "filenames": [
+          "酷帅时代少年团魅力写真.jpg",
+          "黑色西装男团时尚大片.jpg"
+        ],
+        "displayTitle": "时尚男团魅力瞬间",
+        "keywords": [
+          "男团",
+          "魅力",
+          "时尚",
+          "黑西装"
+        ],
+        "description": "一组时长少年团成员的魅力写真，穿着黑色西装，展现酷帅风格。",
+        "confidence": 0.9,
+        "reasoning": "图片中为一群穿着黑色西装的男团成员，整体氛围时尚且具有魅力，根据人像分类决策树中的魅力定义，归类为[人像/魅力]"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/政治/通用/中华人民共和国-五角星.png",
+      "category": "政治",
+      "subcategory": "通用",
+      "filename": "中华人民共和国-五角星.png",
+      "createdAt": "2026-01-28T09:18:59.059Z",
+      "size": 504700,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "政治",
+        "subcategory": "通用",
+        "primary": "desktop",
+        "secondary": "政治",
+        "third": "通用",
+        "keywords": [
+          "政治",
+          "国徽",
+          "中华人民共和国"
+        ],
+        "description": "展示中华人民共和国的标志和口号，传递国家力量与民族希望。",
+        "filenameSuggestions": [
+          "庄严的中华人民共和国标志.jpg",
+          "红色背景金色国徽图案.jpg"
+        ],
+        "displayTitle": "红色背景下的中华人民共和国象征",
+        "confidence": 0.9,
+        "reasoning": "图片内容包含中华人民共和国的国徽和相关口号，根据现有分类体系，归类为政治/通用。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/政治/通用/中国心-五星红旗.png",
+      "category": "政治",
+      "subcategory": "通用",
+      "filename": "中国心-五星红旗.png",
+      "createdAt": "2026-01-28T09:18:59.059Z",
+      "size": 824629,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "政治",
+        "subcategory": "通用",
+        "primary": "desktop",
+        "secondary": "政治",
+        "third": "通用",
+        "keywords": [
+          "爱国",
+          "五星红旗",
+          "寄语"
+        ],
+        "description": "手持寄语与五星红旗的背景交织，传递爱国情怀。",
+        "filenameSuggestions": [
+          "手持爱国寄语的五星红旗背景.jpg",
+          "清新寄语与中国风景.jpg"
+        ],
+        "displayTitle": "爱国寄语与五星红旗的交织",
+        "confidence": 0.9,
+        "reasoning": "图片以手持的爱国寄语为中心，背景是五星红旗，表达了强烈的政治和爱国主题。根据决策树规则，归类为政治/通用。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/国风/身穿青衣的古典美人.png",
+      "category": "人像",
+      "subcategory": "国风",
+      "filename": "身穿青衣的古典美人.png",
+      "createdAt": "2026-01-28T09:18:59.059Z",
+      "size": 3506313,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "古典美",
+          "青绿长裙"
+        ],
+        "description": "一位身穿青绿长裙的古典美人静坐于江南水岸，周围绿意盎然，充满诗意。",
+        "filenameSuggestions": [
+          "身穿青绿长裙的古典美人.jpg",
+          "江南水岸静坐美人.jpg"
+        ],
+        "displayTitle": "绿意江南，静谧光影",
+        "confidence": 0.9,
+        "reasoning": "图片中人物穿着具有中国传统风格的服装，场景也是典型的江南水乡景色，根据决策树A中的国风定义，归类为人像/国风。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/政治/通用/五角星-党建.png",
+      "category": "政治",
+      "subcategory": "通用",
+      "filename": "五角星-党建.png",
+      "createdAt": "2026-01-28T09:18:59.059Z",
+      "size": 1191073,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "政治",
+        "subcategory": "通用",
+        "primary": "desktop",
+        "secondary": "政治",
+        "third": "通用",
+        "keywords": [
+          "政治",
+          "党员",
+          "学习中心"
+        ],
+        "description": "党员学习中心的庄严大厅，红星闪耀，彰显党的光辉历史。",
+        "filenameSuggestions": [
+          "党员学习中心的庄严大厅.jpg",
+          "红星照亮的会议室.jpg"
+        ],
+        "displayTitle": "庄严的党员学习中心",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一间具有政治意义的场所，墙上的标语和红星灯饰表明其政治属性，根据决策树A和C的优先级，判定为[政治/通用]。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/清新/jk制服-休闲-室内.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "jk制服-休闲-室内.png",
+      "createdAt": "2026-01-28T09:18:59.059Z",
+      "size": 1503927,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "人像",
+          "甜美"
+        ],
+        "description": "一个可爱的女孩躺在沙发上，享受阳光的温暖。",
+        "filenameSuggestions": [
+          "慵懒午後的可爱女孩.jpg",
+          "沙发上的阳光女孩.jpg"
+        ],
+        "displayTitle": "阳光下的午後倦怠",
+        "confidence": 0.9,
+        "reasoning": "图片中的女孩身穿校服风格的服装，躺在沙发上，表情甜美，给人一种清新、自然的感觉。根据人像分类决策树，图片符合【清新】(Fresh)的特征。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/卡通/Q版人物-佛系语录.png",
+      "category": "插画",
+      "subcategory": "卡通",
+      "filename": "Q版人物-佛系语录.png",
+      "createdAt": "2026-01-28T09:18:59.059Z",
+      "size": 472535,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "卡通",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "卡通",
+        "keywords": [
+          "禅意",
+          "卡通",
+          "微笑",
+          "生活"
+        ],
+        "description": "一张以卡通风格呈现的禅意生活插画，带有励志文字。",
+        "filenameSuggestions": [
+          "微笑生活的小禅僧.jpg",
+          "禅意卡通生活壁纸.jpg"
+        ],
+        "displayTitle": "禅意生活，微笑前行",
+        "confidence": 0.9,
+        "reasoning": "图片以卡通风格呈现，带有禅意生活主题和励志文字，人物形象呆萌且表情平和，符合插画/卡通分类特征。"
+      }
+    }
+  ]
+}
