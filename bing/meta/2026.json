@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 28,
+  "total": 29,
   "items": [
+    {
+      "date": "2026-01-29",
+      "title": "密尔沃基的传奇故事",
+      "copyright": "密尔沃基市政厅的八层开放式中庭，威斯康星州，美国 (© lavin photography/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%AF%86%E5%B0%94%E6%B2%83%E5%9F%BA%E5%B8%82&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260128_MilwaukeeHall%22&FORM=HPQUIZ",
+      "hsh": "b4bc2c5d5f50c88ed51d6392ca8d7615",
+      "urlbase": "/th?id=OHR.MilwaukeeHall_ZH-CN5779477975"
+    },
     {
       "date": "2026-01-28",
       "title": "随河而行",
@@ -255,5 +264,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-01-27T17:28:21.297Z"
+  "updatedAt": "2026-01-28T17:33:55.113Z"
 }
