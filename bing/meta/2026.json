@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 29,
+  "total": 30,
   "items": [
+    {
+      "date": "2026-01-30",
+      "title": "海潮退却之处",
+      "copyright": "马拉齐翁的圣迈克尔山, 康沃尔郡, 英格兰 (© Baxter Bradford/robertharding/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9C%A3%E8%BF%88%E5%85%8B%E5%B0%94%E5%B1%B1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260129_StMichaelsCornwall%22&FORM=HPQUIZ",
+      "hsh": "af8dcc9c03eb619b5760ce7d4e569929",
+      "urlbase": "/th?id=OHR.StMichaelsCornwall_ZH-CN5878042411"
+    },
     {
       "date": "2026-01-29",
       "title": "密尔沃基的传奇故事",
@@ -264,5 +273,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-01-28T17:33:55.113Z"
+  "updatedAt": "2026-01-29T17:43:39.825Z"
 }
