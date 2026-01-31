@@ -1,9 +1,9 @@
 {
-  "lastUpdated": 1769794573.297095,
-  "cdnTag": "v1.1.60",
+  "lastUpdated": 1769880333.130251,
+  "cdnTag": "v1.1.61",
   "series": {
     "desktop": {
-      "count": 383,
+      "count": 403,
       "categories": [
         "动漫",
         "插画",
@@ -13,7 +13,8 @@
         "政治",
         "萌宠",
         "游戏",
-        "影视"
+        "影视",
+        "未分类"
       ]
     },
     "mobile": {
@@ -44,12 +45,23 @@
     }
   },
   "total": {
-    "desktop": 383,
+    "desktop": 403,
     "mobile": 481,
     "avatar": 358,
-    "bing": 2441
+    "bing": 2442
   },
   "releases": [
+    {
+      "tag": "v1.1.61",
+      "date": "2026-02-01",
+      "added": {
+        "desktop": 20,
+        "mobile": 0,
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
+    },
     {
       "tag": "v1.1.60",
       "date": "2026-01-31",
