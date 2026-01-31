@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 31,
+  "total": 32,
   "items": [
+    {
+      "date": "2026-02-01",
+      "title": "奇迹之墙",
+      "copyright": "奥林达的彩色房子, 巴西 (© Robert Pekar/Alamy)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%B7%B4%E8%A5%BF%E5%A5%A5%E6%9E%97%E8%BE%BE&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260131_Olinda%22&FORM=HPQUIZ",
+      "hsh": "9f7d690de0b4250b21c6f86bf3776627",
+      "urlbase": "/th?id=OHR.Olinda_ZH-CN6216385346"
+    },
     {
       "date": "2026-01-31",
       "title": "一见钟情",
@@ -282,5 +291,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-01-30T17:35:47.057Z"
+  "updatedAt": "2026-01-31T17:24:36.766Z"
 }
