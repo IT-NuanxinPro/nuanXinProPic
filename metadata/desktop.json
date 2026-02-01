@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-02-01T08:58:41.955Z",
-  "count": 403,
+  "lastUpdated": "2026-02-01T17:25:41.106Z",
+  "count": 411,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -11010,6 +11010,222 @@
           "蓝粉双马尾",
           "书房",
           "游戏"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/未分类/通用/插画-创意-沉思的白色蕾丝公主.png": {
+      "category": "未分类",
+      "subcategory": "",
+      "filename": "插画-创意-沉思的白色蕾丝公主.png",
+      "createdAt": "2026-02-01T17:25:03.000Z",
+      "cdnTag": "v1.1.63",
+      "size": 6580351,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "插画",
+          "创意",
+          "沉思的白色蕾丝公主"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/未分类/通用/插画-创意-彩虹色旋律的少女.png": {
+      "category": "未分类",
+      "subcategory": "",
+      "filename": "插画-创意-彩虹色旋律的少女.png",
+      "createdAt": "2026-02-01T17:25:03.000Z",
+      "cdnTag": "v1.1.63",
+      "size": 7380892,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "插画",
+          "创意",
+          "彩虹色旋律的少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/未分类/通用/插画-创意-持剑的白发红衣少女.png": {
+      "category": "未分类",
+      "subcategory": "",
+      "filename": "插画-创意-持剑的白发红衣少女.png",
+      "createdAt": "2026-02-01T17:25:03.000Z",
+      "cdnTag": "v1.1.63",
+      "size": 7538534,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "插画",
+          "创意",
+          "持剑的白发红衣少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/未分类/通用/动漫-二次元-夕阳下的红发少女与日本刀.png": {
+      "category": "未分类",
+      "subcategory": "",
+      "filename": "动漫-二次元-夕阳下的红发少女与日本刀.png",
+      "createdAt": "2026-02-01T17:25:03.000Z",
+      "cdnTag": "v1.1.63",
+      "size": 6653328,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "动漫",
+          "二次元",
+          "夕阳下的红发少女与日本刀"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/未分类/通用/动漫-二次元-黑衣长发动漫少女.png": {
+      "category": "未分类",
+      "subcategory": "",
+      "filename": "动漫-二次元-黑衣长发动漫少女.png",
+      "createdAt": "2026-02-01T17:25:03.000Z",
+      "cdnTag": "v1.1.63",
+      "size": 4969499,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "动漫",
+          "二次元",
+          "黑衣长发动漫少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/未分类/通用/插画-国风-绿意森林中的神秘少女.png": {
+      "category": "未分类",
+      "subcategory": "",
+      "filename": "插画-国风-绿意森林中的神秘少女.png",
+      "createdAt": "2026-02-01T17:25:03.000Z",
+      "cdnTag": "v1.1.63",
+      "size": 10522580,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "插画",
+          "国风",
+          "绿意森林中的神秘少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/未分类/通用/插画-创意-花海中的优雅公主.png": {
+      "category": "未分类",
+      "subcategory": "",
+      "filename": "插画-创意-花海中的优雅公主.png",
+      "createdAt": "2026-02-01T17:25:03.000Z",
+      "cdnTag": "v1.1.63",
+      "size": 9478659,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "插画",
+          "创意",
+          "花海中的优雅公主"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/未分类/通用/动漫-二次元-仰望星空的城市夜景少女.png": {
+      "category": "未分类",
+      "subcategory": "",
+      "filename": "动漫-二次元-仰望星空的城市夜景少女.png",
+      "createdAt": "2026-02-01T17:25:03.000Z",
+      "cdnTag": "v1.1.63",
+      "size": 9728672,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "动漫",
+          "二次元",
+          "仰望星空的城市夜景少女"
         ],
         "description": "",
         "displayTitle": "",
