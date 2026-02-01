@@ -51,10 +51,21 @@
   },
   "releases": [
     {
+      "tag": "v1.1.62",
+      "date": "2026-02-01",
+      "added": {
+        "desktop": 3,
+        "mobile": 0,
+        "avatar": 0,
+        "bing": 0
+      },
+      "publisher": "IT-NuanxinPro"
+    },
+    {
       "tag": "v1.1.61",
       "date": "2026-02-01",
       "added": {
-        "desktop": 20,
+        "desktop": 17,
         "mobile": 0,
         "avatar": 0,
         "bing": 1
