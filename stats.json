@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-02-01T08:58:41.961Z",
-  "cdnTag": "--force",
+  "lastUpdated": 1769966743.603877,
+  "cdnTag": "v1.1.63",
   "series": {
     "desktop": {
-      "count": 403,
+      "count": 411,
       "categories": [
         "动漫",
         "插画",
@@ -12,6 +12,7 @@
         "IP形象",
         "政治",
         "萌宠",
+        "未分类",
         "游戏",
         "影视"
       ]
@@ -44,12 +45,23 @@
     }
   },
   "total": {
-    "desktop": 403,
+    "desktop": 411,
     "mobile": 481,
     "avatar": 358,
-    "bing": 2442
+    "bing": 2443
   },
   "releases": [
+    {
+      "tag": "v1.1.63",
+      "date": "2026-02-02",
+      "added": {
+        "desktop": 8,
+        "mobile": 0,
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
+    },
     {
       "tag": "v1.1.62",
       "date": "2026-02-01",
