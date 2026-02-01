@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-02-01T08:31:35.849Z",
-  "count": 406,
+  "lastUpdated": "2026-02-01T08:45:09.613Z",
+  "count": 403,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -10939,7 +10939,7 @@
     },
     "wallpaper/desktop/插画/通用/话--持吉他的蓝粉初音伴玫绽星夜.png": {
       "category": "插画",
-      "subcategory": "",
+      "subcategory": "通用",
       "filename": "话--持吉他的蓝粉初音伴玫绽星夜.png",
       "createdAt": "2026-01-31T17:24:36.000Z",
       "cdnTag": "v1.1.61",
@@ -10966,7 +10966,7 @@
     },
     "wallpaper/desktop/插画/通用/厅--晴空粉瓣环绕的猫耳少女.png": {
       "category": "插画",
-      "subcategory": "",
+      "subcategory": "通用",
       "filename": "厅--晴空粉瓣环绕的猫耳少女.png",
       "createdAt": "2026-01-31T17:24:36.000Z",
       "cdnTag": "v1.1.61",
@@ -10993,7 +10993,7 @@
     },
     "wallpaper/desktop/插画/通用/阿花--蓝粉双马尾书屋游戏少女.png": {
       "category": "插画",
-      "subcategory": "",
+      "subcategory": "通用",
       "filename": "阿花--蓝粉双马尾书屋游戏少女.png",
       "createdAt": "2026-01-31T17:24:36.000Z",
       "cdnTag": "v1.1.61",
@@ -11010,69 +11010,6 @@
           "蓝粉双马尾",
           "书房",
           "游戏"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/未分类/通用/话--持吉他的蓝粉初音伴玫绽星夜.png": {
-      "category": "未分类",
-      "subcategory": "",
-      "filename": "话--持吉他的蓝粉初音伴玫绽星夜.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 0,
-      "format": "png",
-      "resolution": null,
-      "ai": {
-        "keywords": [
-          "话",
-          "持吉他的蓝粉初音伴玫绽星夜"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/未分类/通用/厅--晴空粉瓣环绕的猫耳少女.png": {
-      "category": "未分类",
-      "subcategory": "",
-      "filename": "厅--晴空粉瓣环绕的猫耳少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 0,
-      "format": "png",
-      "resolution": null,
-      "ai": {
-        "keywords": [
-          "厅",
-          "晴空粉瓣环绕的猫耳少女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/未分类/通用/阿花--蓝粉双马尾书屋游戏少女.png": {
-      "category": "未分类",
-      "subcategory": "",
-      "filename": "阿花--蓝粉双马尾书屋游戏少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 0,
-      "format": "png",
-      "resolution": null,
-      "ai": {
-        "keywords": [
-          "阿花",
-          "蓝粉双马尾书屋游戏少女"
         ],
         "description": "",
         "displayTitle": "",

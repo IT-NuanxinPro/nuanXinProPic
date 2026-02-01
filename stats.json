@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-02-01T08:31:35.853Z",
+  "lastUpdated": "2026-02-01T08:45:09.619Z",
   "cdnTag": "--force",
   "series": {
     "desktop": {
-      "count": 406,
+      "count": 403,
       "categories": [
         "动漫",
         "插画",
@@ -13,8 +13,7 @@
         "政治",
         "萌宠",
         "游戏",
-        "影视",
-        "未分类"
+        "影视"
       ]
     },
     "mobile": {
@@ -45,7 +44,7 @@
     }
   },
   "total": {
-    "desktop": 406,
+    "desktop": 403,
     "mobile": 481,
     "avatar": 358,
     "bing": 2442
