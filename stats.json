@@ -1,9 +1,9 @@
 {
-  "lastUpdated": 1769880333.130251,
-  "cdnTag": "v1.1.61",
+  "lastUpdated": "2026-02-01T08:31:35.853Z",
+  "cdnTag": "--force",
   "series": {
     "desktop": {
-      "count": 403,
+      "count": 406,
       "categories": [
         "动漫",
         "插画",
@@ -45,7 +45,7 @@
     }
   },
   "total": {
-    "desktop": 403,
+    "desktop": 406,
     "mobile": 481,
     "avatar": 358,
     "bing": 2442
