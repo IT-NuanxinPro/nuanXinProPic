@@ -10479,507 +10479,544 @@
       }
     },
     "wallpaper/desktop/插画/通用/鎏金饰边黑裙的皇冠少女.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "鎏金饰边黑裙的皇冠少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 5371789,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "鎏金饰边黑裙的皇冠少女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
+    "category": "插画",
+    "subcategory": "",
+    "filename": "鎏金饰边黑裙的皇冠少女.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 5371789,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
     },
-    "wallpaper/desktop/插画/通用/晴光客厅里的魅力御姐.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "晴光客厅里的魅力御姐.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 7017619,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "晴光客厅里的魅力御姐"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/插画/通用/夜港霓虹旁的红眸光晕少女.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "夜港霓虹旁的红眸光晕少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 5587438,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "夜港霓虹旁的红眸光晕少女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/插画/通用/戴黑帽着黑裙探身墙侧的少女.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "戴黑帽着黑裙探身墙侧的少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 4948949,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "戴黑帽着黑裙探身墙侧的少女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/插画/通用/甜酷护士风二次元美少女.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "甜酷护士风二次元美少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 7302976,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "甜酷护士风二次元美少女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/插画/通用/暖灯星夜下酣眠的金发少女.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "暖灯星夜下酣眠的金发少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 7101565,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "暖灯星夜下酣眠的金发少女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/插画/通用/红纹旗袍初音夜室倚椅.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "红纹旗袍初音夜室倚椅.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 6337127,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "红纹旗袍初音夜室倚椅"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/插画/通用/暖阳街巷的银发礼服少女.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "暖阳街巷的银发礼服少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 9639631,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "暖阳街巷的银发礼服少女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/插画/通用/暖金晨光里的国风红衣仕女.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "暖金晨光里的国风红衣仕女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 7588602,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "暖金晨光里的国风红衣仕女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/插画/通用/樱瓣飘零的猫耳JK少女.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "樱瓣飘零的猫耳JK少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 6244920,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "樱瓣飘零的猫耳JK少女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/插画/通用/逆光抬眸的黑紫发御姐.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "逆光抬眸的黑紫发御姐.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 5870979,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "逆光抬眸的黑紫发御姐"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/插画/通用/穿红梅纹和服的狐耳少女.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "穿红梅纹和服的狐耳少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 5774060,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "穿红梅纹和服的狐耳少女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/插画/通用/黑板前倚课桌的二次元少女.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "黑板前倚课桌的二次元少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 6476261,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "黑板前倚课桌的二次元少女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/插画/通用/银发红眸着黑礼服的哥特少女.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "银发红眸着黑礼服的哥特少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 6683307,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "银发红眸着黑礼服的哥特少女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/插画/通用/枫红林间戏溪的国风少女.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "枫红林间戏溪的国风少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 8069709,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "枫红林间戏溪的国风少女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/插画/通用/积水室内跪坐的猫耳少女.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "积水室内跪坐的猫耳少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 6191702,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "积水室内跪坐的猫耳少女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/插画/通用/星芒环绕的露背原神宵宫.png": {
-      "category": "插画",
-      "subcategory": "",
-      "filename": "星芒环绕的露背原神宵宫.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 7091794,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "星芒环绕的露背原神宵宫"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/未分类/通用/话--持吉他的蓝粉初音伴玫绽星夜.png": {
-      "category": "未分类",
-      "subcategory": "",
-      "filename": "话--持吉他的蓝粉初音伴玫绽星夜.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 8116319,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "话",
-          "持吉他的蓝粉初音伴玫绽星夜"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/未分类/通用/厅--晴空粉瓣环绕的猫耳少女.png": {
-      "category": "未分类",
-      "subcategory": "",
-      "filename": "厅--晴空粉瓣环绕的猫耳少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 6439437,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "厅",
-          "晴空粉瓣环绕的猫耳少女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
-    "wallpaper/desktop/未分类/通用/阿花--蓝粉双马尾书屋游戏少女.png": {
-      "category": "未分类",
-      "subcategory": "",
-      "filename": "阿花--蓝粉双马尾书屋游戏少女.png",
-      "createdAt": "2026-01-31T17:24:36.000Z",
-      "cdnTag": "v1.1.61",
-      "size": 7649913,
-      "format": "png",
-      "resolution": {
-        "width": 3840,
-        "height": 2160,
-        "label": "4K",
-        "type": "success"
-      },
-      "ai": {
-        "keywords": [
-          "阿花",
-          "蓝粉双马尾书屋游戏少女"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
+    "ai": {
+      "keywords": [
+        "皇冠少女",
+        "鎏金黑裙",
+        "华丽服饰"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
     }
+  },
+  "wallpaper/desktop/插画/通用/晴光客厅里的魅力御姐.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "晴光客厅里的魅力御姐.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 7017619,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "魅力御姐",
+        "客厅",
+        "暖光氛围"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/夜港霓虹旁的红眸光晕少女.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "夜港霓虹旁的红眸光晕少女.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 5587438,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "夜港",
+        "霓虹灯",
+        "红眸少女"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/戴黑帽着黑裙探身墙侧的少女.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "戴黑帽着黑裙探身墙侧的少女.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 4948949,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "探身",
+        "黑帽",
+        "墙角"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/甜酷护士风二次元美少女.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "甜酷护士风二次元美少女.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 7302976,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "护士装",
+        "甜酷风",
+        "双马尾"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/暖灯星夜下酣眠的金发少女.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "暖灯星夜下酣眠的金发少女.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 7101565,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "酣眠",
+        "金发",
+        "暖灯"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/红纹旗袍初音夜室倚椅.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "红纹旗袍初音夜室倚椅.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 6337127,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "初音未来",
+        "旗袍",
+        "倚靠"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/暖阳街巷的银发礼服少女.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "暖阳街巷的银发礼服少女.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 9639631,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "银发",
+        "礼服",
+        "街巷"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/暖金晨光里的国风红衣仕女.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "暖金晨光里的国风红衣仕女.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 7588602,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "国风",
+        "红衣仕女",
+        "晨光"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/樱瓣飘零的猫耳JK少女.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "樱瓣飘零的猫耳JK少女.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 6244920,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "樱花",
+        "猫耳",
+        "JK制服"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/逆光抬眸的黑紫发御姐.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "逆光抬眸的黑紫发御姐.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 5870979,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "逆光",
+        "抬眸",
+        "黑紫发"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/穿红梅纹和服的狐耳少女.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "穿红梅纹和服的狐耳少女.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 5774060,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "和服",
+        "狐耳",
+        "红梅"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/黑板前倚课桌的二次元少女.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "黑板前倚课桌的二次元少女.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 6476261,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "教室",
+        "黑板",
+        "倚靠"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/银发红眸着黑礼服的哥特少女.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "银发红眸着黑礼服的哥特少女.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 6683307,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "银发红眸",
+        "哥特风",
+        "黑礼服"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/枫红林间戏溪的国风少女.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "枫红林间戏溪的国风少女.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 8069709,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "红枫",
+        "溪流",
+        "国风"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/积水室内跪坐的猫耳少女.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "积水室内跪坐的猫耳少女.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 6191702,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "积水反光",
+        "跪坐",
+        "猫耳"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/星芒环绕的露背原神宵宫.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "星芒环绕的露背原神宵宫.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 7091794,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "宵宫",
+        "星芒",
+        "露背"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/话--持吉他的蓝粉初音伴玫绽星夜.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "话--持吉他的蓝粉初音伴玫绽星夜.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 8116319,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "初音未来",
+        "吉他",
+        "星空"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/厅--晴空粉瓣环绕的猫耳少女.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "厅--晴空粉瓣环绕的猫耳少女.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 6439437,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "猫耳少女",
+        "樱花",
+        "晴天"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+  },
+  "wallpaper/desktop/插画/通用/阿花--蓝粉双马尾书屋游戏少女.png": {
+    "category": "插画",
+    "subcategory": "",
+    "filename": "阿花--蓝粉双马尾书屋游戏少女.png",
+    "createdAt": "2026-01-31T17:24:36.000Z",
+    "cdnTag": "v1.1.61",
+    "size": 7649913,
+    "format": "png",
+    "resolution": {
+      "width": 3840,
+      "height": 2160,
+      "label": "4K",
+      "type": "success"
+    },
+    "ai": {
+      "keywords": [
+        "蓝粉双马尾",
+        "书房",
+        "游戏"
+      ],
+      "description": "",
+      "displayTitle": "",
+      "confidence": 0,
+      "model": "filename-inference",
+      "analyzedAt": null
+    }
+   }
   }
 }
