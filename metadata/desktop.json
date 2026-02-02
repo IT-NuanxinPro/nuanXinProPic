@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-02-02T07:57:11.187Z",
-  "count": 411,
+  "lastUpdated": "2026-02-02T17:39:35.914Z",
+  "count": 414,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -11226,6 +11226,81 @@
           "城市夜景",
           "仰望星空",
           "高楼"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/霓虹都市里的蕾塞.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "霓虹都市里的蕾塞.png",
+      "createdAt": "2026-02-02T17:39:05.000Z",
+      "cdnTag": "v1.1.65",
+      "size": 7048469,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "霓虹都市里的蕾塞"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/窗畔暖阳下静卧的银发美人.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "窗畔暖阳下静卧的银发美人.png",
+      "createdAt": "2026-02-02T17:39:05.000Z",
+      "cdnTag": "v1.1.65",
+      "size": 6468700,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "窗畔暖阳下静卧的银发美人"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/人像/魅力/烛火氤氲中的撩人倩影.png": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "烛火氤氲中的撩人倩影.png",
+      "createdAt": "2026-02-02T17:39:05.000Z",
+      "cdnTag": "v1.1.65",
+      "size": 9420410,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "烛火氤氲中的撩人倩影"
         ],
         "description": "",
         "displayTitle": "",
