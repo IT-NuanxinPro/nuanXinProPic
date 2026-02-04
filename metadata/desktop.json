@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-02-04T13:31:21.752Z",
-  "count": 425,
+  "lastUpdated": "2026-02-04T17:47:49.576Z",
+  "count": 429,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -11707,6 +11707,106 @@
         "displayTitle": "雨中神秘女子",
         "confidence": 0.9,
         "reasoning": "图片为一位绿眼睛黑发女子的肖像，带有氛围感，背景模糊且有雨效果，根据人像分类决策树，判定为[人像/氛围感]"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/暖阳落榻伸臂相邀的红发少女.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "暖阳落榻伸臂相邀的红发少女.png",
+      "createdAt": "2026-02-04T17:46:41.000Z",
+      "cdnTag": "v1.1.69",
+      "size": 6570515,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "暖阳落榻伸臂相邀的红发少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/办公桌前的白色狐耳女孩.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "办公桌前的白色狐耳女孩.png",
+      "createdAt": "2026-02-04T17:46:41.000Z",
+      "cdnTag": "v1.1.69",
+      "size": 7285542,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "办公桌前的白色狐耳女孩"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/国风/柔光照耀的国风银发佳人.png": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "柔光照耀的国风银发佳人.png",
+      "createdAt": "2026-02-04T17:46:41.000Z",
+      "cdnTag": "v1.1.69",
+      "size": 5583727,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "柔光照耀的国风银发佳人"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/国风/身穿青衣的古典女孩.png": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "身穿青衣的古典女孩.png",
+      "createdAt": "2026-02-04T17:46:41.000Z",
+      "cdnTag": "v1.1.69",
+      "size": 7044565,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "身穿青衣的古典女孩"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
       }
     }
   }
