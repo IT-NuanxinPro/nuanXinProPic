@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "mobile",
-  "lastUpdated": "2026-02-04T09:19:42.250Z",
-  "count": 481,
+  "lastUpdated": "2026-02-04T13:31:21.754Z",
+  "count": 567,
   "images": {
     "wallpaper/mobile/IP形象/乌萨奇/乌萨奇&小八&小熊_睡衣裹被贴贴.png": {
       "category": "IP形象",
@@ -13661,6 +13661,3148 @@
         "displayTitle": "垂发掩肩的刺青JK少女",
         "confidence": 0.9,
         "reasoning": "检测到图片为绘画感强烈的插画作品，主体是带刺青的酷感JK少女，现有插画三级分类无对应子类，故判定二级分类为插画，is_perfect_match为false"
+      }
+    },
+    "wallpaper/mobile/人像/清新/微信图片_20260204204950_548_4.jpg": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_20260204204950_548_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 132142,
+      "format": "jpg",
+      "resolution": {
+        "width": 541,
+        "height": 1172,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "街头风",
+          "毛衣",
+          "微笑"
+        ],
+        "description": "阳光下的少女，穿着彩色毛衣，面带微笑。",
+        "filenameSuggestions": [
+          "穿着彩色毛衣的清新少女.jpg",
+          "微笑的街头风女孩.jpg"
+        ],
+        "displayTitle": "街头微笑的少女",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A，人像分类中，清新定义为明亮、治愈、氧气感。图片中少女面带微笑，穿着清新风格的毛衣，背景明亮，符合清新特征。"
+      }
+    },
+    "wallpaper/mobile/萌宠/IP形象/微信图片_20260204204950_549_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "IP形象",
+      "filename": "微信图片_20260204204950_549_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 351022,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2346,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "IP形象",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "IP形象",
+        "keywords": [
+          "兔子玩偶",
+          "草帽",
+          "IP形象"
+        ],
+        "description": "两只穿着草帽的兔子玩偶在树荫下微笑。",
+        "filenameSuggestions": [
+          "穿着草帽的兔子玩偶.jpg",
+          "树荫下微笑的兔耳偶像.jpg"
+        ],
+        "displayTitle": "阳光下的兔耳女孩",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，识别出图片中的兔子玩偶形象，归类为萌宠/IP形象。因现有分类体系中没有具体匹配的水豚噜噜形象，故建议新增分类。"
+      }
+    },
+    "wallpaper/mobile/萌宠/通用/微信图片_20260204204951_550_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204204951_550_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 248995,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2300,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "通用",
+        "keywords": [
+          "萌宠",
+          "小猫",
+          "治愈系"
+        ],
+        "description": "一只软萌的小猫躺在毯子上，散发着治愈的气息。",
+        "filenameSuggestions": [
+          "可爱的小猫躺在毯子上.jpg",
+          "软萌小猫的治愈瞬间.jpg"
+        ],
+        "displayTitle": "小猫的软萌瞬间",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只小猫，符合萌宠的特征，没有其他二级分类的特征，因此归类为萌宠。"
+      }
+    },
+    "wallpaper/mobile/萌宠/通用/微信图片_20260204204952_551_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204204952_551_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 271924,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2346,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "通用",
+        "keywords": [
+          "治愈系",
+          "kitty",
+          "甜品",
+          "毛绒玩具"
+        ],
+        "description": "kitty主题甜品与可爱毛绒玩具的温馨场景",
+        "filenameSuggestions": [
+          "可爱的kitty蛋糕和毛绒玩具.jpg",
+          "kitty甜品与狗厨师玩偶.jpg"
+        ],
+        "displayTitle": "治愈的kitty甜品",
+        "confidence": 0.9,
+        "reasoning": "图片主要内容是kitty主题的甜品和一个毛绒玩具狗，整体氛围治愈且可爱，根据内容和氛围，归类为'萌宠'。"
+      }
+    },
+    "wallpaper/mobile/人像/氛围感/微信图片_20260204204953_552_4.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_20260204204953_552_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 216826,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2340,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "优雅",
+          "背影"
+        ],
+        "description": "一位身穿白色长裙，头戴宽檐帽的女士，背对着观众，展现优雅的姿态。",
+        "filenameSuggestions": [
+          "身穿白色长裙的优雅女士.jpg",
+          "背影里的时尚女神.jpg"
+        ],
+        "displayTitle": "月光下的优雅女郎",
+        "confidence": 0.9,
+        "reasoning": "图片中人物未露脸，强调背影和光影效果，根据规则A5，判定为[氛围感]"
+      }
+    },
+    "wallpaper/mobile/风景/花卉/微信图片_20260204204953_553_4.jpg": {
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "微信图片_20260204204953_553_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 205085,
+      "format": "jpg",
+      "resolution": {
+        "width": 864,
+        "height": 1874,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "草莓",
+          "花卉",
+          "静物"
+        ],
+        "description": "盘中新鲜的白色草莓，甜美与宁静的视觉享受。",
+        "filenameSuggestions": [
+          "清新盘中白草莓.jpg",
+          "白色桌上的粉白草莓.jpg"
+        ],
+        "displayTitle": "静谧时光里的白色草莓",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了一盘白色草莓，归类为风景/花卉。草莓的色彩和形态展现出一种自然和清新的美感，适合作为花卉类壁纸。"
+      }
+    },
+    "wallpaper/mobile/萌宠/通用/微信图片_20260204204954_554_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204204954_554_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 134074,
+      "format": "jpg",
+      "resolution": {
+        "width": 960,
+        "height": 2086,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "通用",
+        "keywords": [
+          "萌宠",
+          "居家",
+          "治愈系"
+        ],
+        "description": "一个充满温馨与可爱的居家小角落，雪纳瑞犬抱枕和苹果帽带来无限治愈感。",
+        "filenameSuggestions": [
+          "可爱的雪纳瑞犬抱枕和苹果帽.jpg",
+          "温馨家居中的治愈小物.jpg"
+        ],
+        "displayTitle": "软萌的居家小角落",
+        "confidence": 0.9,
+        "reasoning": "图片中出现了一个雪纳瑞犬的抱枕和一个可爱的苹果帽，主体是萌宠，因此归类为萌宠。"
+      }
+    },
+    "wallpaper/mobile/风景/花卉/微信图片_20260204204955_555_4.jpg": {
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "微信图片_20260204204955_555_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 621763,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2336,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "花卉",
+          "风景",
+          "玫瑰"
+        ],
+        "description": "玫瑰花开满园，石门古朴典雅，呈现自然与宁静之美。",
+        "filenameSuggestions": [
+          "盛开玫瑰的乡村小屋门廊.jpg",
+          "覆盖玫瑰藤蔓的古朴石门.jpg"
+        ],
+        "displayTitle": "玫瑰花园的秘密入口",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了花卉和风景，重点是盛开的玫瑰和石门、古朴的建筑风格，归类为风景/花卉。"
+      }
+    },
+    "wallpaper/mobile/风景/海滨/微信图片_20260204204956_556_4.jpg": {
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "微信图片_20260204204956_556_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 304060,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2346,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "海滨",
+          "波浪",
+          "海洋"
+        ],
+        "description": "海浪撞击岸边的瞬间，波涛汹涌，气势磅礴。",
+        "filenameSuggestions": [
+          "汹涌的海浪冲击岸边.jpg",
+          "蓝色海岸的波涛壮阔.jpg"
+        ],
+        "displayTitle": "海浪滔天",
+        "confidence": 0.9,
+        "reasoning": "图片展示了海浪冲击岸边的场景，符合风景/海滨的分类。"
+      }
+    },
+    "wallpaper/mobile/风景/雪山/微信图片_20260204204957_557_4.jpg": {
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "微信图片_20260204204957_557_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 331391,
+      "format": "jpg",
+      "resolution": {
+        "width": 972,
+        "height": 2103,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "风景",
+          "山",
+          "牛",
+          "自然"
+        ],
+        "description": "山间牧场风光，牛群在绿草地上吃草，远处是巍峨的山峰。",
+        "filenameSuggestions": [
+          "山间牧场风景.jpg",
+          "牛群在绿草地上吃草.jpg"
+        ],
+        "displayTitle": "山间牧场",
+        "confidence": 0.9,
+        "reasoning": "图片展示了山间风景，有牛群在绿草地上吃草，远处是典型的雪山景观，根据现有分类体系，归类为风景/雪山。"
+      }
+    },
+    "wallpaper/mobile/风景/建筑/微信图片_20260204204958_558_4.jpg": {
+      "category": "风景",
+      "subcategory": "建筑",
+      "filename": "微信图片_20260204204958_558_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 300141,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1920,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "建筑",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "建筑",
+        "keywords": [
+          "建筑",
+          "自然光",
+          "门"
+        ],
+        "description": "现代建筑的自然光门头",
+        "filenameSuggestions": [
+          "自然光下的现代建筑入口.jpg",
+          "门头装饰独特的建筑大门.jpg"
+        ],
+        "displayTitle": "自然光下的现代建筑入口",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一栋建筑的入口，包含自然光照射下的门和建筑细节，根据风景分类下的建筑子类进行归类。"
+      }
+    },
+    "wallpaper/mobile/风景/海滨/微信图片_20260204204959_559_4.jpg": {
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "微信图片_20260204204959_559_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 208762,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2340,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "海滨",
+          "夜景",
+          "星空",
+          "发光海水"
+        ],
+        "description": "星空下海滨的璀璨夜景，发光海水与棕榈树相映成趣。",
+        "filenameSuggestions": [
+          "夜空闪耀的海滨浪潮.jpg",
+          "星空下的发光海水.jpg"
+        ],
+        "displayTitle": "夜空下的璀璨海滨",
+        "confidence": 0.9,
+        "reasoning": "图片展示了海滨夜景，星空与发光海水形成独特景观，根据现有分类体系，归入风景/海滨。"
+      }
+    },
+    "wallpaper/mobile/萌宠/通用/微信图片_20260204205000_560_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205000_560_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 152043,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2341,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "通用",
+        "keywords": [
+          "凯蒂猫",
+          "雪景",
+          "湖泊",
+          "冬日",
+          "雪山"
+        ],
+        "description": "凯蒂猫穿着红白条纹围巾坐在雪地中，背景是壮丽的雪山与湖泊。",
+        "filenameSuggestions": [
+          "雪山湖畔的凯蒂猫冬日.jpg",
+          "穿着红白条纹围巾的凯蒂猫雪景.jpg"
+        ],
+        "displayTitle": "雪山湖畔的凯蒂猫冬日",
+        "confidence": 0.9,
+        "reasoning": "图片中出现凯蒂猫，且以雪景和湖泊为背景，根据现有分类体系，凯蒂猫属于IP形象，但由于现有分类体系中没有直接匹配的选项，暂时归类为萌宠，并建议新增IP形象/凯蒂猫分类。"
+      }
+    },
+    "wallpaper/mobile/IP形象/通用/微信图片_20260204205002_561_4.jpg": {
+      "category": "IP形象",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205002_561_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 278327,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2329,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "凯蒂猫",
+          "雪景",
+          "冬季"
+        ],
+        "description": "雪中凯蒂猫，冬季的节日氛围。",
+        "filenameSuggestions": [
+          "雪中凯蒂猫.jpg",
+          "冬季的粉红兔雪景.jpg"
+        ],
+        "displayTitle": "冬季里的雪中凯蒂猫",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，识别出为凯蒂猫形象，归入IP形象类。因现有分类体系无凯蒂猫分类，提出新分类提案。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/微信图片_20260204205003_562_4.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_20260204205003_562_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 289220,
+      "format": "jpg",
+      "resolution": {
+        "width": 936,
+        "height": 2025,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "少女"
+        ],
+        "description": "两名少女在户外享受悠闲时光，充满活力与希望。",
+        "filenameSuggestions": [
+          "两位少女的户外小憩.jpg",
+          "微笑的青春岁月.jpg"
+        ],
+        "displayTitle": "阳光下的欢愉时光",
+        "confidence": 0.9,
+        "reasoning": "图片展示了两名少女在户外场景中的插画风格，充满创意且具有动画感，但未特指某一动漫IP，因此归类为插画/创意。"
+      }
+    },
+    "wallpaper/mobile/通用/微信图片_20260204205006_565_4.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_20260204205006_565_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 61279,
+      "format": "jpg",
+      "resolution": {
+        "width": 960,
+        "height": 2080,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "mobile",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/mobile/通用/微信图片_20260204205007_566_4.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_20260204205007_566_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 73840,
+      "format": "jpg",
+      "resolution": {
+        "width": 960,
+        "height": 2080,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "mobile",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/mobile/通用/微信图片_20260204205008_567_4.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_20260204205008_567_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 185993,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2773,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "mobile",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/mobile/通用/微信图片_20260204205009_568_4.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_20260204205009_568_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 480957,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2337,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "mobile",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/mobile/风景/冬日雪景/微信图片_20260204205010_569_4.jpg": {
+      "category": "风景",
+      "subcategory": "冬日雪景",
+      "filename": "微信图片_20260204205010_569_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 108863,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2338,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "冬日雪景",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "冬日雪景",
+        "keywords": [
+          "冬日雪景",
+          "梦幻",
+          "星空"
+        ],
+        "description": "雪地覆盖着星空，呈现出梦幻般的冬季风景。",
+        "filenameSuggestions": [
+          "覆盖着雪的冬季风景.jpg",
+          "梦幻星空下的雪地风景.jpg"
+        ],
+        "displayTitle": "冬日里的梦幻雪景",
+        "confidence": 0.9,
+        "reasoning": "图片显示为雪景，有星星点缀，归入风景/冬日雪景"
+      }
+    },
+    "wallpaper/mobile/通用/微信图片_20260204205011_570_4.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_20260204205011_570_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 85844,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2338,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "mobile",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/mobile/通用/微信图片_20260204205012_571_4.jpg": {
+      "category": "通用",
+      "subcategory": "",
+      "filename": "微信图片_20260204205012_571_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 312167,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2337,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "通用",
+        "subcategory": "",
+        "primary": "mobile",
+        "secondary": "通用",
+        "third": "",
+        "keywords": [],
+        "description": "",
+        "filenameSuggestions": [],
+        "displayTitle": null,
+        "confidence": 0,
+        "reasoning": null,
+        "error": "API 请求频率超限，请稍后再试。"
+      }
+    },
+    "wallpaper/mobile/风景/星空/微信图片_20260204205013_572_4.jpg": {
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "微信图片_20260204205013_572_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 210587,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2337,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "极光",
+          "星空",
+          "篝火",
+          "夜景"
+        ],
+        "description": "极光闪烁于夜空，篝火温暖相伴，静谧而神秘。",
+        "filenameSuggestions": [
+          "极光下的篝火夜.jpg",
+          "星空下的温暖篝火.jpg"
+        ],
+        "displayTitle": "极光下的篝火夜",
+        "confidence": 0.9,
+        "reasoning": "图片展示了极光在夜空中的壮丽景象，地面有篝火和椅子，符合风景类星空主题。"
+      }
+    },
+    "wallpaper/mobile/风景/建筑/微信图片_20260204205013_573_4.jpg": {
+      "category": "风景",
+      "subcategory": "建筑",
+      "filename": "微信图片_20260204205013_573_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 380299,
+      "format": "jpg",
+      "resolution": {
+        "width": 936,
+        "height": 2025,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "建筑",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "建筑",
+        "keywords": [
+          "古城",
+          "建筑",
+          "黄昏",
+          "石阶"
+        ],
+        "description": "日暮下的古城石阶，情侣漫步于历史建筑之间。",
+        "filenameSuggestions": [
+          "石阶上的恋人.jpg",
+          "黄昏下的古城风景.jpg"
+        ],
+        "displayTitle": "日暮下的古城石阶",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一幅典型的风景照，特别是其中的建筑和石阶，归入风景/建筑分类。"
+      }
+    },
+    "wallpaper/mobile/风景/花卉/微信图片_20260204205014_574_4.jpg": {
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "微信图片_20260204205014_574_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 271115,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2773,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "花卉",
+          "雨滴",
+          "玻璃",
+          "粉色"
+        ],
+        "description": "雨滴打在玻璃上，粉色花瓣轻轻摇曳。",
+        "filenameSuggestions": [
+          "雨滴玻璃上的粉色花.jpg",
+          "粉色花瓣在雨中绽放.jpg"
+        ],
+        "displayTitle": "雨滴中的粉色花瓣",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了雨滴在玻璃上的景象，结合背景中的粉色花卉，根据现有分类体系，归类为风景/花卉。"
+      }
+    },
+    "wallpaper/mobile/动漫/插画/微信图片_20260204205015_575_4.jpg": {
+      "category": "动漫",
+      "subcategory": "插画",
+      "filename": "微信图片_20260204205015_575_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 92162,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2773,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "插画",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "插画",
+        "keywords": [
+          "动漫",
+          "插画",
+          "红发",
+          "神秘"
+        ],
+        "description": "一张充满神秘感的动漫风格少女插画，带有橙色眼睛和红色长发，背景为黑色。",
+        "filenameSuggestions": [
+          "神秘的红发少女.jpg",
+          "暗影中的动漫美少女.jpg"
+        ],
+        "displayTitle": "暗影中的神秘少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片的动漫风格和插画特征，判定为动漫/插画。图片没有明确的IP特征，因此归为插画类。"
+      }
+    },
+    "wallpaper/mobile/人像/氛围感/微信图片_20260204205016_576_4.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_20260204205016_576_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 115209,
+      "format": "jpg",
+      "resolution": {
+        "width": 960,
+        "height": 2080,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "长发",
+          "氛围感",
+          "黄昏",
+          "户外"
+        ],
+        "description": "长发女孩靠在木栏上，黄昏街头氛围感十足。",
+        "filenameSuggestions": [
+          "靠在木栏上的长发少女.jpg",
+          "黄昏街头长发女孩侧颜.jpg"
+        ],
+        "displayTitle": "黄昏下的长发女孩",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树，图片中人物为长发女孩，表情和姿势营造出一种氛围感，且未露脸，归入【氛围感】分类。"
+      }
+    },
+    "wallpaper/mobile/萌宠/狗狗/微信图片_20260204205017_577_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_20260204205017_577_4.jpg",
+      "createdAt": "2026-02-04T13:04:28.909Z",
+      "cdnTag": "v1.1.68",
+      "size": 174084,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2773,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "萨摩耶",
+          "冬季",
+          "雪景",
+          "欢乐"
+        ],
+        "description": "雪天里一隻开心的萨摩耶在车内微笑。",
+        "filenameSuggestions": [
+          "冬季暖阳下的欢乐萨摩耶.jpg",
+          "车窗外的雪景与微笑的萨摩耶.jpg"
+        ],
+        "displayTitle": "冬季暖阳下的欢乐萨摩耶",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只萨摩耶，带有冬季雪景，归类为萌宠/狗狗。"
+      }
+    },
+    "wallpaper/mobile/风景/雪山/微信图片_20260204205018_578_4.jpg": {
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "微信图片_20260204205018_578_4.jpg",
+      "createdAt": "2026-02-04T13:11:42.917Z",
+      "cdnTag": "v1.1.68",
+      "size": 162275,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2773,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "雪山",
+          "月光",
+          "喜马拉雅",
+          "风景"
+        ],
+        "description": "喜马拉雅山脉在月光下的壮丽景象，雪峰闪烁，宁静而神秘。",
+        "filenameSuggestions": [
+          "月光下的喜马拉雅雪峰.jpg",
+          "喜马拉雅山脉的月夜风景.jpg"
+        ],
+        "displayTitle": "月光下的喜马拉雅雪峰",
+        "confidence": 0.9,
+        "reasoning": "图片展示了雪山在月光下的壮丽景象，带有明显的风景和雪山特征，根据现有分类体系，归类为风景/雪山。"
+      }
+    },
+    "wallpaper/mobile/人像/古装/微信图片_20260204205019_579_4.jpg": {
+      "category": "人像",
+      "subcategory": "古装",
+      "filename": "微信图片_20260204205019_579_4.jpg",
+      "createdAt": "2026-02-04T13:11:42.918Z",
+      "cdnTag": "v1.1.68",
+      "size": 163662,
+      "format": "jpg",
+      "resolution": {
+        "width": 960,
+        "height": 2080,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "古装",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "古装",
+        "keywords": [
+          "古装",
+          "人像",
+          "园林"
+        ],
+        "description": "古典美女在园林中的侧颜肖像",
+        "filenameSuggestions": [
+          "身穿牡丹花裙的古典美女.jpg",
+          "庭院中的侧颜美人.jpg"
+        ],
+        "displayTitle": "园中倩影",
+        "confidence": 0.9,
+        "reasoning": "图片中人物穿着具有传统中国风格的服装，环境为古典园林，根据决策树A1，归类为'人像/古装'。"
+      }
+    },
+    "wallpaper/mobile/人像/魅力/微信图片_20260204205020_580_4.jpg": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_20260204205020_580_4.jpg",
+      "createdAt": "2026-02-04T13:11:42.918Z",
+      "cdnTag": "v1.1.68",
+      "size": 133055,
+      "format": "jpg",
+      "resolution": {
+        "width": 919,
+        "height": 1992,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "美食",
+          "夜景",
+          "时尚"
+        ],
+        "description": "时尚女孩在夜色中享受美食，红唇白衣，神情俏皮。",
+        "filenameSuggestions": [
+          "身穿白色短袖的时尚女孩享用麦当劳.jpg",
+          "黑夜中品尝薯条的红唇少女.jpg"
+        ],
+        "displayTitle": "夜色中的美食邂逅",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，女孩身穿白色短袖，佩戴创意餐盒帽，表现出时尚和魅力的特质，夜色背景增加了氛围感，归类为'人像/魅力'。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/微信图片_20260204205020_581_4.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_20260204205020_581_4.jpg",
+      "createdAt": "2026-02-04T13:11:42.918Z",
+      "cdnTag": "v1.1.68",
+      "size": 108336,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2341,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "抽象",
+          "黑衣",
+          "红色丝带"
+        ],
+        "description": "一幅黑衣少女的抽象插画，红丝带飞扬，充满艺术感。",
+        "filenameSuggestions": [
+          "黑衣红丝少女.jpg",
+          "抽象艺术黑衣人像.jpg"
+        ],
+        "displayTitle": "黑衣飘动，红丝飞扬",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B. 动漫与插画决策树，图片具有绘画感强、抽象艺术风格，非动画截图感，归入插画/创意"
+      }
+    },
+    "wallpaper/mobile/插画/国风/微信图片_20260204205021_582_4.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "微信图片_20260204205021_582_4.jpg",
+      "createdAt": "2026-02-04T13:11:42.918Z",
+      "cdnTag": "v1.1.68",
+      "size": 230726,
+      "format": "jpg",
+      "resolution": {
+        "width": 964,
+        "height": 2090,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "仙衣",
+          "动态插画"
+        ],
+        "description": "国风插画，展现一位身穿仙衣的女子，周围环绕风云动态。",
+        "filenameSuggestions": [
+          "身披风云的仙衣少女.jpg",
+          "国风仙女动态风景.jpg"
+        ],
+        "displayTitle": "风起云涌中的仙衣女子",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一位身穿仙衣的女子，背景充满风云和水墨元素，符合国风插画的特征。根据决策树B2，判定为插画/国风。"
+      }
+    },
+    "wallpaper/mobile/人像/古装/微信图片_20260204205022_583_4.jpg": {
+      "category": "人像",
+      "subcategory": "古装",
+      "filename": "微信图片_20260204205022_583_4.jpg",
+      "createdAt": "2026-02-04T13:11:42.918Z",
+      "cdnTag": "v1.1.68",
+      "size": 105539,
+      "format": "jpg",
+      "resolution": {
+        "width": 736,
+        "height": 1595,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "古装",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "古装",
+        "keywords": [
+          "古装",
+          "红衣",
+          "折扇",
+          "夜景"
+        ],
+        "description": "一位身穿红色古装的女子，手持红色折扇，呈现出古典美与夜色氛围的结合。",
+        "filenameSuggestions": [
+          "身披红衣手持折扇的古典美人.jpg",
+          "夜幕红衣女子撑红伞.jpg"
+        ],
+        "displayTitle": "红伞轻摇，夜色中的古韵佳人",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，人物穿着明显的古装，手持红色折扇，背景为夜间，符合古装的特征，因此归类为人像/古装。"
+      }
+    },
+    "wallpaper/mobile/人像/古装/微信图片_20260204205023_584_4.jpg": {
+      "category": "人像",
+      "subcategory": "古装",
+      "filename": "微信图片_20260204205023_584_4.jpg",
+      "createdAt": "2026-02-04T13:11:42.918Z",
+      "cdnTag": "v1.1.68",
+      "size": 149923,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2341,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "古装",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "古装",
+        "keywords": [
+          "古装",
+          "侠女",
+          "长剑",
+          "白衣"
+        ],
+        "description": "一位身穿白色古装的少女，手持长剑，展现出侠女风姿。",
+        "filenameSuggestions": [
+          "身穿白色古装手持长剑的少女.jpg",
+          "白衣侠女风姿写真.jpg"
+        ],
+        "displayTitle": "白衣侠女持剑而立",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，人物穿着古装，持剑而立，符合古装主题，归入人像/古装分类。"
+      }
+    },
+    "wallpaper/mobile/萌宠/猫咪/微信图片_20260204205023_585_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_20260204205023_585_4.jpg",
+      "createdAt": "2026-02-04T13:11:42.918Z",
+      "cdnTag": "v1.1.68",
+      "size": 128285,
+      "format": "jpg",
+      "resolution": {
+        "width": 690,
+        "height": 1494,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "猫咪",
+          "雪景",
+          "亲密",
+          "萌宠"
+        ],
+        "description": "两只猫在雪中亲密接触，黑白配色温馨感人。",
+        "filenameSuggestions": [
+          "雪中亲密的黑白猫.jpg",
+          "冬季温暖的猫咪拥抱.jpg"
+        ],
+        "displayTitle": "冬日里的黑白猫情",
+        "confidence": 0.9,
+        "reasoning": "图片中两只猫，一只白色，一只黑色，坐在一起，背景是雪地，符合萌宠分类下的猫咪子类。"
+      }
+    },
+    "wallpaper/mobile/风景/海滨/微信图片_20260204205025_586_4.jpg": {
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "微信图片_20260204205025_586_4.jpg",
+      "createdAt": "2026-02-04T13:11:42.918Z",
+      "cdnTag": "v1.1.68",
+      "size": 1833085,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2337,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "海滨",
+          "阳光",
+          "树影"
+        ],
+        "description": "海水与沙滩的温柔交汇",
+        "filenameSuggestions": [
+          "阳光洒落的海滨海岸.jpg",
+          "树影婆娑的海浪轻拍.jpg"
+        ],
+        "displayTitle": "海滨晨曦",
+        "confidence": 0.9,
+        "reasoning": "图片展示了海滨的典型景象，包括海水、沙滩和树影，根据现有分类体系，归类为风景/海滨"
+      }
+    },
+    "wallpaper/mobile/人像/魅力/微信图片_20260204205025_587_4.jpg": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_20260204205025_587_4.jpg",
+      "createdAt": "2026-02-04T13:11:42.918Z",
+      "cdnTag": "v1.1.68",
+      "size": 361590,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2337,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "黑丝",
+          "剪影"
+        ],
+        "description": "黑衣短裙，神秘姿势，魅力四溢。",
+        "filenameSuggestions": [
+          "身穿黑色短衣的迷人少女.jpg",
+          "面纱下的城市夜女郎.jpg"
+        ],
+        "displayTitle": "月光下的神秘剪影",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，人物穿着暴露且姿势撩人，符合【魅力】(Glamour)的定义。图片中人物身材曲线明显，黑衣搭配有吸引力，优先归入【魅力】类。"
+      }
+    },
+    "wallpaper/mobile/风景/建筑/微信图片_20260204205027_589_4.jpg": {
+      "category": "风景",
+      "subcategory": "建筑",
+      "filename": "微信图片_20260204205027_589_4.jpg",
+      "createdAt": "2026-02-04T13:11:42.918Z",
+      "cdnTag": "v1.1.68",
+      "size": 1829069,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2341,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "建筑",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "建筑",
+        "keywords": [
+          "建筑",
+          "风景",
+          "阳光"
+        ],
+        "description": "阳光照耀下的古朴建筑，树影斑驳。",
+        "filenameSuggestions": [
+          "古朴建筑的阳光小巷.jpg",
+          "树影斑驳的乡村建筑.jpg"
+        ],
+        "displayTitle": "阳光下的古朴建筑",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了一栋建筑的外墙和树木，符合风景分类下的建筑子类。"
+      }
+    },
+    "wallpaper/mobile/萌宠/通用/微信图片_20260204205028_590_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205028_590_4.jpg",
+      "createdAt": "2026-02-04T13:11:42.918Z",
+      "cdnTag": "v1.1.68",
+      "size": 1073891,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2347,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "category": "萌宠",
+        "third": "通用",
+        "subcategory": "通用",
+        "filenameSuggestions": [
+          "乌萨奇守护人民币屋.jpg",
+          "俏皮小猪与财富的温馨瞬间.jpg"
+        ],
+        "filenames": [
+          "乌萨奇守护人民币屋.jpg",
+          "俏皮小猪与财富的温馨瞬间.jpg"
+        ],
+        "displayTitle": "乌萨奇与人民币的温暖邂逅",
+        "keywords": [
+          "萌宠",
+          "小猪",
+          "人民币"
+        ],
+        "description": "一只可爱的小猪玩偶坐在人民币中，头顶形成一个人民币小屋，场景温馨有趣。",
+        "confidence": 0.9,
+        "reasoning": "图片中主要元素是可爱的小猪玩偶和人民币，场景设计温馨且富有创意，符合萌宠类的特征。"
+      }
+    },
+    "wallpaper/mobile/动漫/插画/微信图片_20260204205029_591_4.jpg": {
+      "category": "动漫",
+      "subcategory": "插画",
+      "filename": "微信图片_20260204205029_591_4.jpg",
+      "createdAt": "2026-02-04T13:11:42.918Z",
+      "cdnTag": "v1.1.68",
+      "size": 703428,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2346,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "插画",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "插画",
+        "keywords": [
+          "动漫",
+          "插画",
+          "黑发",
+          "烟雾"
+        ],
+        "description": "一幅神秘的动漫风格插画，描绘黑发少女与烟雾的场景。",
+        "filenameSuggestions": [
+          "黑发少女与烟雾.jpg",
+          "动漫风格的黑发三人组.jpg"
+        ],
+        "displayTitle": "烟雾中的神秘少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片的动漫风格和插画特征，归入动漫/插画分类。图片展现了动漫的典型特征，如大眼睛、精致面部表情和特殊发型，同时具有较强的绘画感，符合插画的定义。"
+      }
+    },
+    "wallpaper/mobile/萌宠/狗狗/微信图片_20260204205037_600_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_20260204205037_600_4.jpg",
+      "createdAt": "2026-02-04T13:11:42.918Z",
+      "cdnTag": "v1.1.68",
+      "size": 1798439,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2343,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "泰迪熊",
+          "可爱",
+          "萌宠"
+        ],
+        "description": "一组非常可爱的泰迪熊合影，表情和姿势各不相同。",
+        "filenameSuggestions": [
+          "温馨的泰迪熊合影.jpg",
+          "软萌泰迪熊小家庭.jpg"
+        ],
+        "displayTitle": "可爱的泰迪熊家庭",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了多个泰迪熊在一起的场景，充满可爱和温馨的氛围。根据决策树，首先判断图片内容以萌宠为主，且熊的种类为狗狗，因此归类为'萌宠/狗狗'。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/微信图片_20260204205032_594_4.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_20260204205032_594_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "cdnTag": "v1.1.68",
+      "size": 815888,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2340,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "卡通"
+        ],
+        "description": "一幅充满趣味的城市插画，展现两个卡通人物在城市背景下的互动。",
+        "filenameSuggestions": [
+          "城市趣味插画.jpg",
+          "创意卡通人物.jpg"
+        ],
+        "displayTitle": "城市中的趣味对话",
+        "confidence": 0.9,
+        "reasoning": "图片具有强烈的插画风格，包含创意元素和卡通人物，但未明确对应现有二级和三级分类中的特定类别，故选择插画/创意。"
+      }
+    },
+    "wallpaper/mobile/萌宠/狗狗/微信图片_20260204205039_602_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_20260204205039_602_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "cdnTag": "v1.1.68",
+      "size": 868800,
+      "format": "jpg",
+      "resolution": {
+        "width": 886,
+        "height": 1919,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "萨摩耶",
+          "雪山",
+          "花海",
+          "狗狗"
+        ],
+        "description": "一只快乐的白色萨摩耶犬在雪山和花海中玩耍",
+        "filenameSuggestions": [
+          "阳光下的白色萨摩耶犬.jpg",
+          "雪山花海中的快乐狗狗.jpg"
+        ],
+        "displayTitle": "雪山下的欢乐白熊",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只白色萨摩耶犬，处于花海和雪山的自然环境中，根据内容符合 萌宠/狗狗 的分类"
+      }
+    },
+    "wallpaper/mobile/风景/花卉/微信图片_20260204205040_603_4.jpg": {
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "微信图片_20260204205040_603_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "cdnTag": "v1.1.68",
+      "size": 1233381,
+      "format": "jpg",
+      "resolution": {
+        "width": 690,
+        "height": 1497,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "金色秋叶",
+          "城市风景",
+          "花卉"
+        ],
+        "description": "城市中金色秋叶的美丽景象",
+        "filenameSuggestions": [
+          "城市秋色金叶.jpg",
+          "金色叶片覆盖的街道景象.jpg"
+        ],
+        "displayTitle": "金色秋叶与城市风景",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了城市中的金色秋叶和花卉，符合风景分类下的花卉子类"
+      }
+    },
+    "wallpaper/mobile/动漫/通用/微信图片_20260204205045_604_4.jpg": {
+      "category": "动漫",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205045_604_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "cdnTag": "v1.1.68",
+      "size": 758694,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1853,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "通用",
+        "keywords": [
+          "动漫",
+          "火影忍者",
+          "忍者",
+          "火焰"
+        ],
+        "description": "动漫风格插图，展现一位黑发忍者被火焰环绕的神秘形象。",
+        "filenameSuggestions": [
+          "身披火焰的黑发忍者.jpg",
+          "月光下的神秘火影.jpg"
+        ],
+        "displayTitle": "月夜下的忍者之影",
+        "confidence": 0.9,
+        "reasoning": "根据图片的动漫特征和人物与火影忍者的相似性，归类为动漫/通用，并建议新增分类动漫/火影忍者"
+      }
+    },
+    "wallpaper/mobile/动漫/通用/微信图片_20260204205045_605_4.jpg": {
+      "category": "动漫",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205045_605_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "cdnTag": "v1.1.68",
+      "size": 192819,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1919,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "通用",
+        "subcategory": "通用",
+        "filenameSuggestions": [
+          "神秘的暗影少年.jpg",
+          "黑夜中的少年侠客.jpg"
+        ],
+        "filenames": [
+          "神秘的暗影少年.jpg",
+          "黑夜中的少年侠客.jpg"
+        ],
+        "displayTitle": "暗影中的神秘少年",
+        "keywords": [
+          "动漫",
+          "神秘",
+          "少年",
+          "暗黑风格"
+        ],
+        "description": "一位神秘的少年，穿着黑色斗篷，带着暗黑面具，眼睛炯炯有神。",
+        "confidence": 0.9,
+        "reasoning": "图片中人物具有典型的动漫风格，面部和服饰特征与已知的动漫角色相符，但未识别出具体作品，因此归入动漫/通用类。"
+      }
+    },
+    "wallpaper/mobile/人像/明星/微信图片_20260204205046_606_4.jpg": {
+      "category": "人像",
+      "subcategory": "明星",
+      "filename": "微信图片_20260204205046_606_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "cdnTag": "v1.1.68",
+      "size": 458991,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1917,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "明星",
+        "subcategory": "明星",
+        "filenameSuggestions": [
+          "身穿红色西装.jpg",
+          "喜庆新年红背景.jpg"
+        ],
+        "filenames": [
+          "身穿红色西装.jpg",
+          "喜庆新年红背景.jpg"
+        ],
+        "displayTitle": "新年喜庆红装少年",
+        "keywords": [
+          "红装",
+          "新年",
+          "帅气",
+          "喜庆"
+        ],
+        "description": "一位穿着红色西装的少年，背景是喜庆的新年对联和装饰。",
+        "confidence": 0.9,
+        "reasoning": "图片中人物为明星易烊千玺，穿着红色西装，背景有新年相关元素，归类为人像/易烊千玺"
+      }
+    },
+    "wallpaper/mobile/人像/易烊千玺/微信图片_20260204205241_639_4.jpg": {
+      "category": "人像",
+      "subcategory": "易烊千玺",
+      "filename": "微信图片_20260204205241_639_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "cdnTag": "v1.1.68",
+      "size": 966102,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2336,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "易烊千玺",
+        "subcategory": "易烊千玺",
+        "filenameSuggestions": [
+          "手持相机仰望天空.jpg",
+          "摄影男孩侧脸.jpg"
+        ],
+        "filenames": [
+          "手持相机仰望天空.jpg",
+          "摄影男孩侧脸.jpg"
+        ],
+        "displayTitle": "夕阳下的摄影男孩",
+        "keywords": [
+          "清新",
+          "摄影",
+          "侧脸",
+          "夕阳"
+        ],
+        "description": "一个手持相机仰望天空的少年，夕阳下的侧脸充满了清新与向往。",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树，图片中人物面部清晰可见，无特定明星特征，非古装且无明显魅力展现，但有清新和治愈的氛围感。结合高明度、色彩自然、背景为蓝天白云，判定为【清新】。"
+      }
+    },
+    "wallpaper/mobile/人像/易烊千玺/微信图片_20260204205242_640_4.jpg": {
+      "category": "人像",
+      "subcategory": "易烊千玺",
+      "filename": "微信图片_20260204205242_640_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "cdnTag": "v1.1.68",
+      "size": 1079530,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2338,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "易烊千玺",
+        "subcategory": "易烊千玺",
+        "filenameSuggestions": [
+          "手持相机镜头.jpg",
+          "春日绿景.jpg"
+        ],
+        "filenames": [
+          "手持相机镜头.jpg",
+          "春日绿景.jpg"
+        ],
+        "displayTitle": "绿意盎然中的年轻摄影者",
+        "keywords": [
+          "清新",
+          "摄影",
+          "自然",
+          "青年"
+        ],
+        "description": "一位穿着休闲的年轻人在自然环境中专注于摄影器材。",
+        "confidence": 0.9,
+        "reasoning": "图片中的人物穿着休闲，置身于自然环境中，表情专注且神态清新自然，未见明显特定明星特征或强烈风格化倾向，根据规则A4，判定为[清新]。"
+      }
+    },
+    "wallpaper/mobile/人像/易烊千玺/微信图片_20260204205243_641_4.jpg": {
+      "category": "人像",
+      "subcategory": "易烊千玺",
+      "filename": "微信图片_20260204205243_641_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "cdnTag": "v1.1.68",
+      "size": 945035,
+      "format": "jpg",
+      "resolution": {
+        "width": 960,
+        "height": 1708,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "易烊千玺",
+        "subcategory": "易烊千玺",
+        "filenameSuggestions": [
+          "手持小花的忧郁少年.jpg",
+          "坐在草坪上的深思男孩.jpg"
+        ],
+        "filenames": [
+          "手持小花的忧郁少年.jpg",
+          "坐在草坪上的深思男孩.jpg"
+        ],
+        "displayTitle": "绿茵中的沉思者",
+        "keywords": [
+          "忧郁",
+          "清新",
+          "自然光"
+        ],
+        "description": "一个手持小花、坐在草地的少年，表情沉思。",
+        "confidence": 0.9,
+        "reasoning": "图片中是一位少年坐在草地上，手持小花，表情沉思。未识别出具体明星或古装，氛围不符魅力、日系或清新分类，暂时归为人像/氛围感。"
+      }
+    },
+    "wallpaper/mobile/人像/易烊千玺/微信图片_20260204205244_642_4.jpg": {
+      "category": "人像",
+      "subcategory": "易烊千玺",
+      "filename": "微信图片_20260204205244_642_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "cdnTag": "v1.1.68",
+      "size": 1230609,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2399,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "易烊千玺",
+        "subcategory": "易烊千玺",
+        "filenameSuggestions": [
+          "身穿闪亮紫色套装的男艺人.jpg",
+          "手握麦克风的时尚男星.jpg"
+        ],
+        "filenames": [
+          "身穿闪亮紫色套装的男艺人.jpg",
+          "手握麦克风的时尚男星.jpg"
+        ],
+        "displayTitle": "紫色魅力男神风采",
+        "keywords": [
+          "男星",
+          "紫色",
+          "时尚",
+          "魅力"
+        ],
+        "description": "一位身穿闪亮紫色套装的男艺人，手握麦克风，展现魅力风采。",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，该图片为一位男艺人的肖像，穿着时尚的紫色服装，符合人像分类下的魅力定义。"
+      }
+    },
+    "wallpaper/mobile/萌宠/通用/微信图片_20260204205244_643_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205244_643_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "cdnTag": "v1.1.68",
+      "size": 748062,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2402,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "category": "萌宠",
+        "third": "通用",
+        "subcategory": "通用",
+        "filenameSuggestions": [
+          "怀抱小猫的温暖瞬间.jpg",
+          "小猫与少年的温馨.jpg"
+        ],
+        "filenames": [
+          "怀抱小猫的温暖瞬间.jpg",
+          "小猫与少年的温馨.jpg"
+        ],
+        "displayTitle": "温暖的午後",
+        "keywords": [
+          "萌宠",
+          "少年",
+          "小猫",
+          "温馨"
+        ],
+        "description": "少年温柔地抱着小猫，画面温暖而治愈。",
+        "confidence": 0.9,
+        "reasoning": "图片中少年正在抱着小猫，充满温馨和治愈的氛围，根据内容归为萌宠类。"
+      }
+    },
+    "wallpaper/mobile/人像/易烊千玺/微信图片_20260204205245_644_4.jpg": {
+      "category": "人像",
+      "subcategory": "易烊千玺",
+      "filename": "微信图片_20260204205245_644_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "cdnTag": "v1.1.68",
+      "size": 724936,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2400,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "易烊千玺",
+        "subcategory": "易烊千玺",
+        "filenameSuggestions": [
+          "手握相机仰望天空的年轻男子.jpg",
+          "蓝天白云下的悠闲摄影师.jpg"
+        ],
+        "filenames": [
+          "手握相机仰望天空的年轻男子.jpg",
+          "蓝天白云下的悠闲摄影师.jpg"
+        ],
+        "displayTitle": "风云下的青年摄影者",
+        "keywords": [
+          "摄影师",
+          "青年",
+          "蓝天",
+          "白云"
+        ],
+        "description": "一位手握相机、仰望风云变幻的年轻男子，展现出对摄影艺术的热爱与对自然的深情。",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，人物为青年男性，背景为蓝天白云，符合人像类目下的清新风格，但现有分类体系中没有直接匹配的选项，因此选择二级分类为'人像'，并根据内容描述拟定了标题、文件名和关键词。"
+      }
+    },
+    "wallpaper/mobile/插画/萌宠/微信图片_2026-02-03_084326_620.jpg": {
+      "category": "插画",
+      "subcategory": "萌宠",
+      "filename": "微信图片_2026-02-03_084326_620.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 69389,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "萌宠",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "萌宠",
+        "keywords": [
+          "插画",
+          "萌宠",
+          "猫咪",
+          "橙色"
+        ],
+        "description": "一只穿着橙色连体衣的橘猫，举起爪子，露出俏皮的表情。",
+        "filenameSuggestions": [
+          "可爱橘猫穿橙色连体衣.jpg",
+          "俏皮小猫咪戴橙色兜帽.jpg"
+        ],
+        "displayTitle": "橙色小猫的俏皮瞬间",
+        "confidence": 0.9,
+        "reasoning": "图片是一幅插画，内容是一只穿着橙色连体衣的猫咪，符合插画和萌宠的特征。"
+      }
+    },
+    "wallpaper/mobile/插画/少女与猫/微信图片_20260204205138_607_4.jpg": {
+      "category": "插画",
+      "subcategory": "少女与猫",
+      "filename": "微信图片_20260204205138_607_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 157428,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "少女与猫",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "少女与猫",
+        "keywords": [
+          "插画",
+          "少女",
+          "黑猫",
+          "清新"
+        ],
+        "description": "一位短发少女与黑猫的夏日清新邂逅。",
+        "filenameSuggestions": [
+          "绿意盎然中的少女与黑猫.jpg",
+          "手持冰淇淋的短发女孩.jpg"
+        ],
+        "displayTitle": "夏日里的清新邂逅",
+        "confidence": 0.9,
+        "reasoning": "图片呈现出插画风格，图中少女与猫咪为常见插画主题，且具体符合‘少女与猫’分类特征。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/微信图片_20260204205139_608_4.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_20260204205139_608_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 322032,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "动漫风格",
+          "萌宠"
+        ],
+        "description": "温暖的插画风格图像，展示了一位年轻人抱着小狗使用手机。",
+        "filenameSuggestions": [
+          "手机下的温暖瞬间.jpg",
+          "拥抱小狗的年轻男孩.jpg"
+        ],
+        "displayTitle": "手机下的温暖瞬间",
+        "confidence": 0.9,
+        "reasoning": "图像具有插画风格，特征是绘画感强，非动画截图感。图像中无特定明星、古装或明显特征指向其他分类，故归入插画/创意。"
+      }
+    },
+    "wallpaper/mobile/动漫/二次元/微信图片_20260204205140_609_4.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微信图片_20260204205140_609_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 88604,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫",
+          "二次元",
+          "蓝眼睛",
+          "黑发"
+        ],
+        "description": "一位拥有蓝眼睛和黑发的动漫风格少年专注于屏幕。",
+        "filenameSuggestions": [
+          "专注于屏幕的黑发蓝眼少年.jpg",
+          "沉思中的年轻动漫男孩.jpg"
+        ],
+        "displayTitle": "屏幕前的沉思少年",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B1和B2，该图像展现出明显的动漫风格，人物特征如大眼睛、特殊发形等均符合动漫/二次元的定义。由于未识别出具体IP，归入动漫/二次元。"
+      }
+    },
+    "wallpaper/mobile/动漫/二次元/微信图片_20260204205141_610_4.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微信图片_20260204205141_610_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 142327,
+      "format": "jpg",
+      "resolution": {
+        "width": 867,
+        "height": 867,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫",
+          "二次元",
+          "武士",
+          "红色",
+          "白发"
+        ],
+        "description": "动漫中一位身穿红色武士服的白发少年，手握刀柄，蓄势待发。",
+        "filenameSuggestions": [
+          "手握刀柄的红色武士.jpg",
+          "红衣白发少年蓄势待发.jpg"
+        ],
+        "displayTitle": "月光下的赤红色武士",
+        "confidence": 0.9,
+        "reasoning": "图片显示为动漫风格，人物形象具有二次元特征，无具体IP识别，故归类为动漫/二次元。"
+      }
+    },
+    "wallpaper/mobile/动漫/通用/微信图片_20260204205141_611_4.jpg": {
+      "category": "动漫",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205141_611_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 282752,
+      "format": "jpg",
+      "resolution": {
+        "width": 1000,
+        "height": 1000,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "通用",
+        "keywords": [
+          "动漫少女",
+          "孤独",
+          "山丘",
+          "弓箭"
+        ],
+        "description": "一位背着弓箭的少女站在山丘上，表情坚毅，充满冒险精神。",
+        "filenameSuggestions": [
+          "背负梦想的少女.jpg",
+          "山丘上的孤独弓箭手.jpg"
+        ],
+        "displayTitle": "山丘上的孤独少女",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一位动漫风格的少女，带有明显的动画特征，包括大眼睛和夸张的发型。少女背着弓箭和背包，站在山丘上，表情严肃，带有一种孤独和冒险的气质。根据决策树B1，识别为动漫/通用。"
+      }
+    },
+    "wallpaper/mobile/人像/清新/微信图片_20260204205142_612_4.jpg": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_20260204205142_612_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 187174,
+      "format": "jpg",
+      "resolution": {
+        "width": 929,
+        "height": 929,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "户外",
+          "阳光",
+          "青年"
+        ],
+        "description": "阳光下的青年身穿黑色运动服，站在红色越野车旁，背景是蓝天白云与山脉。",
+        "filenameSuggestions": [
+          "身穿黑色运动服的短发青年.jpg",
+          "山野阳光下的休闲男孩.jpg"
+        ],
+        "displayTitle": "山野中的阳光少年",
+        "confidence": 0.9,
+        "reasoning": "图片中的青年穿着休闲，面带微笑，背景是自然风景，整体氛围明亮且清新。根据决策树A4，清新类定义为明亮、治愈、氧气感，与图片特征相符。"
+      }
+    },
+    "wallpaper/mobile/人像/清新/微信图片_20260204205143_613_4.jpg": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_20260204205143_613_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 410658,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "少女",
+          "牛仔裤",
+          "活力"
+        ],
+        "description": "一位穿着破洞牛仔裤的少女，展现出青春的活力与笑容。",
+        "filenameSuggestions": [
+          "穿着破洞牛仔裤的清新少女.jpg",
+          "笑容灿烂的青春女孩.jpg"
+        ],
+        "displayTitle": "阳光下的活力少女",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A4，清新类定义为明亮、治愈、氧气感。图片中少女笑容甜美、色彩鲜艳自然、背景干净，符合清新类特征。"
+      }
+    },
+    "wallpaper/mobile/人像/古装/微信图片_20260204205144_614_4.jpg": {
+      "category": "人像",
+      "subcategory": "古装",
+      "filename": "微信图片_20260204205144_614_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 387756,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "古装",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "古装",
+        "keywords": [
+          "古装",
+          "美人",
+          "中国风"
+        ],
+        "description": "一位身穿古装的美丽少女，面带微笑，展现出优雅的气质。",
+        "filenameSuggestions": [
+          "身穿古装的长发少女.jpg",
+          "古风美女在阳光下微笑.jpg"
+        ],
+        "displayTitle": "风姿绰约的古装美人",
+        "confidence": 0.9,
+        "reasoning": "图片中的少女穿着明显的古装，带有传统中国风格的服饰和饰品，符合古装分类的特征。"
+      }
+    },
+    "wallpaper/mobile/影视/海绵宝宝/微信图片_20260204205144_615_4.jpg": {
+      "category": "影视",
+      "subcategory": "海绵宝宝",
+      "filename": "微信图片_20260204205144_615_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 572442,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "影视",
+        "subcategory": "海绵宝宝",
+        "primary": "mobile",
+        "secondary": "影视",
+        "third": "海绵宝宝",
+        "keywords": [
+          "海绵宝宝",
+          "卡通",
+          "影视形象"
+        ],
+        "description": "海绵宝宝佩戴鱼缸帽子，展现惊慌失措的表情和动作。",
+        "filenameSuggestions": [
+          "惊慌失措的海绵宝宝.jpg",
+          "鱼缸里的海绵宝宝冒险.jpg"
+        ],
+        "displayTitle": "水下惊魂的海绵宝宝",
+        "confidence": 0.9,
+        "reasoning": "图片中出现海绵宝宝的典型形象，且属于知名影视IP，因此归入影视/海绵宝宝分类。"
+      }
+    },
+    "wallpaper/mobile/动漫/通用/微信图片_20260204205145_616_4.jpg": {
+      "category": "动漫",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205145_616_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 277166,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "通用",
+        "keywords": [
+          "动漫",
+          "蒙眼",
+          "耳机",
+          "黑衣"
+        ],
+        "description": "一位戴着蒙眼布和耳机的动漫少年，展现未来感与神秘氛围。",
+        "filenameSuggestions": [
+          "蒙眼少年与未来之声.jpg",
+          "黑衣蒙眼男孩戴耳机.jpg"
+        ],
+        "displayTitle": "蒙眼少年与未来之声",
+        "confidence": 0.9,
+        "reasoning": "图片呈现出典型的动漫风格，人物特征如大眼睛、面部表情及发型均符合动漫人物设定。人物未被识别为具体IP角色，因此归为动漫/通用。"
+      }
+    },
+    "wallpaper/mobile/萌宠/通用/微信图片_20260204205221_621_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205221_621_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 85095,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "通用",
+        "keywords": [
+          "仓鼠",
+          "金鱼",
+          "通话",
+          "萌宠"
+        ],
+        "description": "一只小仓鼠和金鱼通话的温馨场景。",
+        "filenameSuggestions": [
+          "小仓鼠与金鱼通话的温馨瞬间.jpg",
+          "仓鼠与鱼的奇妙对话.jpg"
+        ],
+        "displayTitle": "小仓鼠的奇幻通话",
+        "confidence": 0.9,
+        "reasoning": "图片中主要元素是仓鼠和金鱼，符合萌宠分类的特征。"
+      }
+    },
+    "wallpaper/mobile/萌宠/通用/微信图片_20260204205222_623_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205222_623_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 87817,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "通用",
+        "keywords": [
+          "萌宠",
+          "鸭子布偶",
+          "时尚"
+        ],
+        "description": "一只穿着紫色帽子戴着墨镜的鸭子布偶，正在沙发上使用手机。",
+        "filenameSuggestions": [
+          "戴墨镜的紫色鸭子布偶.jpg",
+          "沙发上的时尚小鸭手机控.jpg"
+        ],
+        "displayTitle": "时尚小鸭的悠闲时光",
+        "confidence": 0.9,
+        "reasoning": "根据决策树，该图片主要特征是可爱的鸭子布偶，符合萌宠的定义。由于没有具体到特定的萌宠子类（如狗狗、猫咪），因此归入二级分类'萌宠'。图片内容主要是布偶鸭子，没有其他二级分类的特征，因此不做新分类提案。"
+      }
+    },
+    "wallpaper/mobile/萌宠/通用/微信图片_20260204205218_617_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205218_617_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 131804,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "通用",
+        "keywords": [
+          "萌宠",
+          "企鹅",
+          "创意"
+        ],
+        "description": "一只穿着面包装饰的企鹅，戴着红框眼镜，拿着棒棒糖。",
+        "filenameSuggestions": [
+          "戴红框眼镜的企鹅吃面包和棒棒糖.jpg",
+          "可爱的企鹅穿着面包装饰.jpg"
+        ],
+        "displayTitle": "俏皮企鹅与甜蜜的邂逅",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只企鹅戴着面包装饰，拿着棒棒糖，戴着红框眼镜，非常可爱。企鹅属于萌宠类，但现有三级分类没有针对企鹅的分类，因此不选择三级分类。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/微信图片_20260204205219_618_4.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_20260204205219_618_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 115404,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "狐狸",
+          "创意",
+          "表情"
+        ],
+        "description": "一张充满俏皮感的橙色狐狸插画头像。",
+        "filenameSuggestions": [
+          "俏皮的橙色狐狸头像.jpg",
+          "橙色狐狸表情包.jpg"
+        ],
+        "displayTitle": "橙色狐狸的俏皮表情",
+        "confidence": 0.9,
+        "reasoning": "根据决策树，首先判断图片为插画风格，特征是绘画感强，非动画截图感，且具有创意性，归入插画/创意。"
+      }
+    },
+    "wallpaper/mobile/萌宠/猫咪/微信图片_20260204205219_619_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_20260204205219_619_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 153983,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "猫咪",
+          "时尚",
+          "森林"
+        ],
+        "description": "白猫戴着彩色帽子和墨镜，置身于绿色的森林中。",
+        "filenameSuggestions": [
+          "穿着彩色帽子和墨镜的白猫.jpg",
+          "森林中的时尚白猫.jpg"
+        ],
+        "displayTitle": "时尚猫咪的森林漫步",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只穿着时尚的白猫，戴着彩色帽子和墨镜，置身于森林中。根据决策树B，图片中没有出现动漫或插画特征，也没有出现人像特征，因此归入萌宠类，二级分类为萌宠，三级分类为猫咪。"
+      }
+    },
+    "wallpaper/mobile/萌宠/狗狗/微信图片_20260204205220_620_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_20260204205220_620_4.jpg",
+      "createdAt": "2026-02-04T13:26:33.363Z",
+      "cdnTag": "v1.1.68",
+      "size": 83895,
+      "format": "jpg",
+      "resolution": {
+        "width": 1024,
+        "height": 1024,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "狗狗",
+          "萌宠",
+          "搞笑",
+          "扫帚"
+        ],
+        "description": "一只可爱的小黄狗穿着黄色衣服，戴着小簸箕帽子，拿着扫帚搞笑卖萌。",
+        "filenameSuggestions": [
+          "可爱小狗拿着扫帚.jpg",
+          "黄色小狗搞怪清洁.jpg"
+        ],
+        "displayTitle": "小黄犬的扫帚魔法",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只小黄狗，穿着黄色衣服，戴着小簸箕帽子，拿着扫帚，非常可爱。根据决策树B，图片内容符合萌宠类，且具体为狗狗，因此归类为萌宠/狗狗。"
+      }
+    },
+    "wallpaper/mobile/插画/动漫/微信图片_20260204205223_624_4.jpg": {
+      "category": "插画",
+      "subcategory": "动漫",
+      "filename": "微信图片_20260204205223_624_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "cdnTag": "v1.1.68",
+      "size": 72196,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "动漫",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "动漫",
+        "keywords": [
+          "动漫",
+          "狐妖小红娘",
+          "狐耳"
+        ],
+        "description": "狐妖小红娘，白发红衣，狐耳狐尾，趴在树枝上。",
+        "filenameSuggestions": [
+          "狐妖小红娘.jpg",
+          "动漫狐妖小红娘.jpg"
+        ],
+        "displayTitle": "狐妖小红娘",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B1，识别出图片中的狐妖小红娘角色，因此归入动漫/狐妖小红娘"
+      }
+    },
+    "wallpaper/mobile/插画/国风/微信图片_20260204205224_625_4.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "微信图片_20260204205224_625_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "cdnTag": "v1.1.68",
+      "size": 61944,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "和服",
+          "国风",
+          "插画",
+          "水彩风格"
+        ],
+        "description": "一个穿着和服的少年坐在树枝上，旁边有一只黑色的蝶。",
+        "filenameSuggestions": [
+          "身穿红色和服的白发少年.jpg",
+          "月光下的和服少年与黑蝶.jpg"
+        ],
+        "displayTitle": "月夜蝶舞",
+        "confidence": 0.9,
+        "reasoning": "图片具有明显的插画风格，绘画感强，且具有国风元素，人物穿着类似和服的红色衣物，背景简洁，符合国风插画的特征。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/微信图片_20260204205225_626_4.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_20260204205225_626_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "cdnTag": "v1.1.68",
+      "size": 65796,
+      "format": "jpg",
+      "resolution": {
+        "width": 700,
+        "height": 700,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "卡通",
+          "插画",
+          "创意",
+          "惊奇"
+        ],
+        "description": "一张富有创意和惊奇感的卡通牛插画。",
+        "filenameSuggestions": [
+          "充满惊奇的卡通牛表情.jpg",
+          "创意十足的蓝色牛角色设计.jpg"
+        ],
+        "displayTitle": "创意卡通牛的惊奇瞬间",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一只具有夸张表情的卡通牛，带有创意和插画的特征，归类为插画/创意。"
+      }
+    },
+    "wallpaper/mobile/IP形象/通用/微信图片_20260204205225_627_4.jpg": {
+      "category": "IP形象",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205225_627_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "cdnTag": "v1.1.68",
+      "size": 111356,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "狐狸面具",
+          "角色扮演",
+          "餐饮场景"
+        ],
+        "description": "一位身穿黑色衣服的人戴着狐狸面具，正在品尝饮料。",
+        "filenameSuggestions": [
+          "戴狐狸面具的人.jpg",
+          "神秘的狐狸面具.jpg"
+        ],
+        "displayTitle": "神秘的狐狸面具",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，人物佩戴狐狸头套，不属于现有二级分类中的任何一类，但与IP形象相关，归为IP形象。现有三级分类中无狐狸形象，因此提出新分类建议。"
+      }
+    },
+    "wallpaper/mobile/萌宠/狗狗/微信图片_20260204205226_628_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_20260204205226_628_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "cdnTag": "v1.1.68",
+      "size": 115760,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "柴犬",
+          "萌宠",
+          "互动"
+        ],
+        "description": "一只柴犬与人亲密互动的温馨瞬间",
+        "filenameSuggestions": [
+          "俏皮柴犬与人互动.jpg",
+          "黑白条纹衫下的柴犬.jpg"
+        ],
+        "displayTitle": "柴犬的俏皮瞬间",
+        "confidence": 0.9,
+        "reasoning": "图片中主要特征是柴犬和人的互动，柴犬属于萌宠类下的狗狗子类，因此归类为萌宠/狗狗。"
+      }
+    },
+    "wallpaper/mobile/萌宠/猫咪/微信图片_20260204205227_629_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_20260204205227_629_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "cdnTag": "v1.1.68",
+      "size": 34586,
+      "format": "jpg",
+      "resolution": {
+        "width": 598,
+        "height": 598,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "猫咪",
+          "萌宠",
+          "品酒"
+        ],
+        "description": "一只可爱的猫咪被主人抱着，正在玩弄酒瓶。",
+        "filenameSuggestions": [
+          "可爱猫咪抱着酒瓶.jpg",
+          "温馨时刻的猫咪与人.jpg"
+        ],
+        "displayTitle": "猫咪的独特品酒时刻",
+        "confidence": 0.9,
+        "reasoning": "图片中主要元素是猫咪，且猫咪为主要视觉焦点，根据现有分类体系，归类为萌宠->猫咪。"
+      }
+    },
+    "wallpaper/mobile/萌宠/通用/微信图片_20260204205227_630_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205227_630_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "cdnTag": "v1.1.68",
+      "size": 141250,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "通用",
+        "keywords": [
+          "鸭子玩偶",
+          "篮子",
+          "温暖"
+        ],
+        "description": "一个黑白色的鸭子玩偶坐在编织篮子里",
+        "filenameSuggestions": [
+          "可爱的鸭子玩偶坐在篮子里.jpg",
+          "温暖的鸭子玩偶.jpg"
+        ],
+        "displayTitle": "温暖的鸭子玩偶",
+        "confidence": 0.9,
+        "reasoning": "图片中是一个鸭子玩偶，类似卡通形象，归入‘萌宠’类下的‘通用’"
+      }
+    },
+    "wallpaper/mobile/IP形象/通用/微信图片_20260204205228_631_4.jpg": {
+      "category": "IP形象",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205228_631_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "cdnTag": "v1.1.68",
+      "size": 93245,
+      "format": "jpg",
+      "resolution": {
+        "width": 1024,
+        "height": 1024,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "多啦A梦",
+          "IP形象",
+          "插画"
+        ],
+        "description": "多啦A梦抽烟表情包",
+        "filenameSuggestions": [
+          "酷炫的多啦A梦.jpg",
+          "抽烟的多啦A梦.jpg"
+        ],
+        "displayTitle": "时尚多啦A梦",
+        "confidence": 0.9,
+        "reasoning": "根据决策树，首先识别图片为IP形象，且为多啦A梦的形象。因现有分类体系未包含多啦A梦，故建议新增三级分类'多啦A梦'。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/微信图片_20260204205229_632_4.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_20260204205229_632_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "cdnTag": "v1.1.68",
+      "size": 95254,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "社会讽刺"
+        ],
+        "description": "一幅充满创意和讽刺意味的插画作品。",
+        "filenameSuggestions": [
+          "纸箱中的深思.jpg",
+          "社会的无声抗议者.jpg"
+        ],
+        "displayTitle": "社会的缩影与无奈",
+        "confidence": 0.9,
+        "reasoning": "图片以插画风格呈现，人物用纸箱盖住脸，带有明显的社会讽刺意味。画面简洁，主题突出，符合创意插画的特征。"
+      }
+    },
+    "wallpaper/mobile/萌宠/通用/微信图片_20260204205230_633_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205230_633_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "cdnTag": "v1.1.68",
+      "size": 138613,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "通用",
+        "keywords": [
+          "时尚",
+          "熊",
+          "城市夜景",
+          "心形墨镜"
+        ],
+        "description": "城市黄昏下的时尚熊",
+        "filenameSuggestions": [
+          "穿连帽衫的熊望着城市夜景.jpg",
+          "戴心形墨镜的时尚小熊.jpg"
+        ],
+        "displayTitle": "城市黄昏下的时尚熊",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只穿着连帽衫、戴着心形墨镜的熊，背景是城市的夜景。根据决策树，首先判断这是一张萌宠图片，没有特定的二级分类，因此归入二级分类下的萌宠类。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/微信图片_20260204205230_634_4.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_20260204205230_634_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "cdnTag": "v1.1.68",
+      "size": 82263,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1066,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "创意插画",
+          "立方体表情",
+          "现代艺术"
+        ],
+        "description": "这是一幅充满现代感的插画作品，立方体形状的头部配以简单的微笑表情，展现出独特的创意。",
+        "filenameSuggestions": [
+          "戴帽子方形脸微笑少年.jpg",
+          "创意立方体表情符号人物.jpg"
+        ],
+        "displayTitle": "立方体微笑的创意人物剪影",
+        "confidence": 0.9,
+        "reasoning": "根据图片的插画风格和创意元素，特别是面部设计类似表情符号，归入插画/创意分类"
+      }
+    },
+    "wallpaper/mobile/萌宠/狗狗/微信图片_20260204205231_635_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_20260204205231_635_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "cdnTag": "v1.1.68",
+      "size": 109191,
+      "format": "jpg",
+      "resolution": {
+        "width": 1078,
+        "height": 1040,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "柴犬",
+          "呆萌",
+          "镜子",
+          "宠物"
+        ],
+        "description": "两只穿着衣服的柴犬，一只面对面，一只看着镜子里的自己。",
+        "filenameSuggestions": [
+          "呆萌柴犬与镜中倒影.jpg",
+          "穿衣柴犬自照.jpg"
+        ],
+        "displayTitle": "呆萌柴犬与镜中倒影",
+        "confidence": 0.9,
+        "reasoning": "图片中两只柴犬穿着可爱的衣服，一只面对面站立，另一只看着镜子里的自己，场景温馨且充满玩趣。根据决策树B和现有分类体系，归类为萌宠/狗狗。"
+      }
+    },
+    "wallpaper/mobile/影视/海绵宝宝/微信图片_20260204205232_636_4.jpg": {
+      "category": "影视",
+      "subcategory": "海绵宝宝",
+      "filename": "微信图片_20260204205232_636_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "cdnTag": "v1.1.68",
+      "size": 86491,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "影视",
+        "subcategory": "海绵宝宝",
+        "primary": "mobile",
+        "secondary": "影视",
+        "third": "海绵宝宝",
+        "keywords": [
+          "海绵宝宝",
+          "卡通",
+          "影视形象"
+        ],
+        "description": "海绵宝宝站在绿色的草地上，面带微笑。",
+        "filenameSuggestions": [
+          "海绵宝宝微笑.jpg",
+          "绿草地上的黄色海绵.jpg"
+        ],
+        "displayTitle": "海绵宝宝的微笑时光",
+        "confidence": 0.9,
+        "reasoning": "图片中为海绵宝宝的形象，来源于知名影视作品《海绵宝宝》，因此归类为影视/海绵宝宝。"
+      }
+    },
+    "wallpaper/mobile/动漫/通用/微信图片_20260204205233_637_4.jpg": {
+      "category": "动漫",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205233_637_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "cdnTag": "v1.1.68",
+      "size": 66365,
+      "format": "jpg",
+      "resolution": {
+        "width": 800,
+        "height": 800,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "通用",
+        "keywords": [
+          "动漫",
+          "海贼王",
+          "路飞",
+          "热爱"
+        ],
+        "description": "背对观众的红衣少年带着草帽，站在蔚蓝的大海前，充满朝气。",
+        "filenameSuggestions": [
+          "海边仰望天空的少年.jpg",
+          "红衣少年与大海.jpg"
+        ],
+        "displayTitle": "向海天挥舞的少年",
+        "confidence": 0.9,
+        "reasoning": "图片为动漫角色，特征是路飞的经典造型（草帽和红色背心），归入动漫/通用"
+      }
+    },
+    "wallpaper/mobile/萌宠/狗狗/微信图片_20260204205234_638_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_20260204205234_638_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "cdnTag": "v1.1.68",
+      "size": 65928,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "金毛",
+          "狗狗",
+          "微笑",
+          "治愈系"
+        ],
+        "description": "一只金毛犬温暖而亲切的微笑",
+        "filenameSuggestions": [
+          "亲切微笑的金毛犬.jpg",
+          "温暖阳光下的金毛.jpg"
+        ],
+        "displayTitle": "温暖的金毛微笑",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只金毛犬，其特征明显符合萌宠分类下的狗狗子类。图像内容健康，积极向上，展现出宠物的可爱一面。"
       }
     }
   }
