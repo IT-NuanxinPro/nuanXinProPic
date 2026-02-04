@@ -1,0 +1,483 @@
+{
+  "version": 1,
+  "createdAt": "2026-02-04T13:29:16.453Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/动漫/微信图片_20260204205223_624_4.jpg",
+      "category": "插画",
+      "subcategory": "动漫",
+      "filename": "微信图片_20260204205223_624_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "size": 72196,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "动漫",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "动漫",
+        "keywords": [
+          "动漫",
+          "狐妖小红娘",
+          "狐耳"
+        ],
+        "description": "狐妖小红娘，白发红衣，狐耳狐尾，趴在树枝上。",
+        "filenameSuggestions": [
+          "狐妖小红娘.jpg",
+          "动漫狐妖小红娘.jpg"
+        ],
+        "displayTitle": "狐妖小红娘",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B1，识别出图片中的狐妖小红娘角色，因此归入动漫/狐妖小红娘"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/国风/微信图片_20260204205224_625_4.jpg",
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "微信图片_20260204205224_625_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "size": 61944,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "和服",
+          "国风",
+          "插画",
+          "水彩风格"
+        ],
+        "description": "一个穿着和服的少年坐在树枝上，旁边有一只黑色的蝶。",
+        "filenameSuggestions": [
+          "身穿红色和服的白发少年.jpg",
+          "月光下的和服少年与黑蝶.jpg"
+        ],
+        "displayTitle": "月夜蝶舞",
+        "confidence": 0.9,
+        "reasoning": "图片具有明显的插画风格，绘画感强，且具有国风元素，人物穿着类似和服的红色衣物，背景简洁，符合国风插画的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/微信图片_20260204205225_626_4.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_20260204205225_626_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "size": 65796,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "卡通",
+          "插画",
+          "创意",
+          "惊奇"
+        ],
+        "description": "一张富有创意和惊奇感的卡通牛插画。",
+        "filenameSuggestions": [
+          "充满惊奇的卡通牛表情.jpg",
+          "创意十足的蓝色牛角色设计.jpg"
+        ],
+        "displayTitle": "创意卡通牛的惊奇瞬间",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一只具有夸张表情的卡通牛，带有创意和插画的特征，归类为插画/创意。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/IP形象/通用/微信图片_20260204205225_627_4.jpg",
+      "category": "IP形象",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205225_627_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "size": 111356,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "狐狸面具",
+          "角色扮演",
+          "餐饮场景"
+        ],
+        "description": "一位身穿黑色衣服的人戴着狐狸面具，正在品尝饮料。",
+        "filenameSuggestions": [
+          "戴狐狸面具的人.jpg",
+          "神秘的狐狸面具.jpg"
+        ],
+        "displayTitle": "神秘的狐狸面具",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，人物佩戴狐狸头套，不属于现有二级分类中的任何一类，但与IP形象相关，归为IP形象。现有三级分类中无狐狸形象，因此提出新分类建议。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/萌宠/狗狗/微信图片_20260204205226_628_4.jpg",
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_20260204205226_628_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "size": 115760,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "柴犬",
+          "萌宠",
+          "互动"
+        ],
+        "description": "一只柴犬与人亲密互动的温馨瞬间",
+        "filenameSuggestions": [
+          "俏皮柴犬与人互动.jpg",
+          "黑白条纹衫下的柴犬.jpg"
+        ],
+        "displayTitle": "柴犬的俏皮瞬间",
+        "confidence": 0.9,
+        "reasoning": "图片中主要特征是柴犬和人的互动，柴犬属于萌宠类下的狗狗子类，因此归类为萌宠/狗狗。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/萌宠/猫咪/微信图片_20260204205227_629_4.jpg",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_20260204205227_629_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "size": 34586,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "猫咪",
+          "萌宠",
+          "品酒"
+        ],
+        "description": "一只可爱的猫咪被主人抱着，正在玩弄酒瓶。",
+        "filenameSuggestions": [
+          "可爱猫咪抱着酒瓶.jpg",
+          "温馨时刻的猫咪与人.jpg"
+        ],
+        "displayTitle": "猫咪的独特品酒时刻",
+        "confidence": 0.9,
+        "reasoning": "图片中主要元素是猫咪，且猫咪为主要视觉焦点，根据现有分类体系，归类为萌宠->猫咪。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/萌宠/通用/微信图片_20260204205227_630_4.jpg",
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205227_630_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "size": 141250,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "通用",
+        "keywords": [
+          "鸭子玩偶",
+          "篮子",
+          "温暖"
+        ],
+        "description": "一个黑白色的鸭子玩偶坐在编织篮子里",
+        "filenameSuggestions": [
+          "可爱的鸭子玩偶坐在篮子里.jpg",
+          "温暖的鸭子玩偶.jpg"
+        ],
+        "displayTitle": "温暖的鸭子玩偶",
+        "confidence": 0.9,
+        "reasoning": "图片中是一个鸭子玩偶，类似卡通形象，归入‘萌宠’类下的‘通用’"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/IP形象/通用/微信图片_20260204205228_631_4.jpg",
+      "category": "IP形象",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205228_631_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "size": 93245,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "多啦A梦",
+          "IP形象",
+          "插画"
+        ],
+        "description": "多啦A梦抽烟表情包",
+        "filenameSuggestions": [
+          "酷炫的多啦A梦.jpg",
+          "抽烟的多啦A梦.jpg"
+        ],
+        "displayTitle": "时尚多啦A梦",
+        "confidence": 0.9,
+        "reasoning": "根据决策树，首先识别图片为IP形象，且为多啦A梦的形象。因现有分类体系未包含多啦A梦，故建议新增三级分类'多啦A梦'。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/微信图片_20260204205229_632_4.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_20260204205229_632_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "size": 95254,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "社会讽刺"
+        ],
+        "description": "一幅充满创意和讽刺意味的插画作品。",
+        "filenameSuggestions": [
+          "纸箱中的深思.jpg",
+          "社会的无声抗议者.jpg"
+        ],
+        "displayTitle": "社会的缩影与无奈",
+        "confidence": 0.9,
+        "reasoning": "图片以插画风格呈现，人物用纸箱盖住脸，带有明显的社会讽刺意味。画面简洁，主题突出，符合创意插画的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/萌宠/通用/微信图片_20260204205230_633_4.jpg",
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205230_633_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "size": 138613,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "通用",
+        "keywords": [
+          "时尚",
+          "熊",
+          "城市夜景",
+          "心形墨镜"
+        ],
+        "description": "城市黄昏下的时尚熊",
+        "filenameSuggestions": [
+          "穿连帽衫的熊望着城市夜景.jpg",
+          "戴心形墨镜的时尚小熊.jpg"
+        ],
+        "displayTitle": "城市黄昏下的时尚熊",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只穿着连帽衫、戴着心形墨镜的熊，背景是城市的夜景。根据决策树，首先判断这是一张萌宠图片，没有特定的二级分类，因此归入二级分类下的萌宠类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/微信图片_20260204205230_634_4.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_20260204205230_634_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "size": 82263,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "创意插画",
+          "立方体表情",
+          "现代艺术"
+        ],
+        "description": "这是一幅充满现代感的插画作品，立方体形状的头部配以简单的微笑表情，展现出独特的创意。",
+        "filenameSuggestions": [
+          "戴帽子方形脸微笑少年.jpg",
+          "创意立方体表情符号人物.jpg"
+        ],
+        "displayTitle": "立方体微笑的创意人物剪影",
+        "confidence": 0.9,
+        "reasoning": "根据图片的插画风格和创意元素，特别是面部设计类似表情符号，归入插画/创意分类"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/萌宠/狗狗/微信图片_20260204205231_635_4.jpg",
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_20260204205231_635_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "size": 109191,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "柴犬",
+          "呆萌",
+          "镜子",
+          "宠物"
+        ],
+        "description": "两只穿着衣服的柴犬，一只面对面，一只看着镜子里的自己。",
+        "filenameSuggestions": [
+          "呆萌柴犬与镜中倒影.jpg",
+          "穿衣柴犬自照.jpg"
+        ],
+        "displayTitle": "呆萌柴犬与镜中倒影",
+        "confidence": 0.9,
+        "reasoning": "图片中两只柴犬穿着可爱的衣服，一只面对面站立，另一只看着镜子里的自己，场景温馨且充满玩趣。根据决策树B和现有分类体系，归类为萌宠/狗狗。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/影视/海绵宝宝/微信图片_20260204205232_636_4.jpg",
+      "category": "影视",
+      "subcategory": "海绵宝宝",
+      "filename": "微信图片_20260204205232_636_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "size": 86491,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "影视",
+        "subcategory": "海绵宝宝",
+        "primary": "mobile",
+        "secondary": "影视",
+        "third": "海绵宝宝",
+        "keywords": [
+          "海绵宝宝",
+          "卡通",
+          "影视形象"
+        ],
+        "description": "海绵宝宝站在绿色的草地上，面带微笑。",
+        "filenameSuggestions": [
+          "海绵宝宝微笑.jpg",
+          "绿草地上的黄色海绵.jpg"
+        ],
+        "displayTitle": "海绵宝宝的微笑时光",
+        "confidence": 0.9,
+        "reasoning": "图片中为海绵宝宝的形象，来源于知名影视作品《海绵宝宝》，因此归类为影视/海绵宝宝。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/通用/微信图片_20260204205233_637_4.jpg",
+      "category": "动漫",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205233_637_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "size": 66365,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "通用",
+        "keywords": [
+          "动漫",
+          "海贼王",
+          "路飞",
+          "热爱"
+        ],
+        "description": "背对观众的红衣少年带着草帽，站在蔚蓝的大海前，充满朝气。",
+        "filenameSuggestions": [
+          "海边仰望天空的少年.jpg",
+          "红衣少年与大海.jpg"
+        ],
+        "displayTitle": "向海天挥舞的少年",
+        "confidence": 0.9,
+        "reasoning": "图片为动漫角色，特征是路飞的经典造型（草帽和红色背心），归入动漫/通用"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/萌宠/狗狗/微信图片_20260204205234_638_4.jpg",
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_20260204205234_638_4.jpg",
+      "createdAt": "2026-02-04T13:29:16.453Z",
+      "size": 65928,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "金毛",
+          "狗狗",
+          "微笑",
+          "治愈系"
+        ],
+        "description": "一只金毛犬温暖而亲切的微笑",
+        "filenameSuggestions": [
+          "亲切微笑的金毛犬.jpg",
+          "温暖阳光下的金毛.jpg"
+        ],
+        "displayTitle": "温暖的金毛微笑",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只金毛犬，其特征明显符合萌宠分类下的狗狗子类。图像内容健康，积极向上，展现出宠物的可爱一面。"
+      }
+    }
+  ]
+}
