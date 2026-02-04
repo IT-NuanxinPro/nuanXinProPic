@@ -1251,3 +1251,14 @@ desktop|动漫/二次元/仰望星空的城市夜景少女.png|1769966703|v1.1.6
 desktop|动漫/二次元/霓虹都市里的蕾塞.png|1770053945|v1.1.65
 desktop|动漫/二次元/窗畔暖阳下静卧的银发美人.png|1770053945|v1.1.65
 desktop|人像/魅力/烛火氤氲中的撩人倩影.png|1770053945|v1.1.65
+desktop|插画/国风/wallhaven-398j69.png|1770196778|v1.1.67
+desktop|插画/创意/wallhaven-5yl7x5.jpg|1770196778|v1.1.67
+desktop|插画/创意/wallhaven-jxrxdq.jpg|1770196778|v1.1.67
+desktop|插画/场景/wallhaven-p9pro3.jpg|1770196778|v1.1.67
+desktop|插画/场景/wallhaven-1p75m3.jpg|1770196778|v1.1.67
+desktop|人像/国风/wallhaven-yxley7.jpg|1770196778|v1.1.67
+desktop|人像/氛围感/wallhaven-k8w3wd.jpg|1770196778|v1.1.67
+desktop|人像/氛围感/yande.re 529676 aeolian ghostblade wlop.jpg|1770196778|v1.1.67
+desktop|人像/氛围感/wallhaven-3lvy23.jpg|1770196778|v1.1.67
+desktop|人像/氛围感/wallhaven-kxmo67.jpg|1770196778|v1.1.67
+desktop|人像/魅力/wallhaven-5g6g33.jpg|1770196778|v1.1.67

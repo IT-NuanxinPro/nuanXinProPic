@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-02-03T17:54:54.764Z",
-  "count": 414,
+  "lastUpdated": "2026-02-04T09:19:42.247Z",
+  "count": 425,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -11307,6 +11307,406 @@
         "confidence": 0,
         "model": "filename-inference",
         "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/场景/wallhaven-1p75m3.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "wallhaven-1p75m3.jpg",
+      "createdAt": "2026-02-04T09:13:17.792Z",
+      "cdnTag": "v1.1.67",
+      "size": 7863424,
+      "format": "jpg",
+      "resolution": {
+        "width": 8500,
+        "height": 3617,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "插画",
+          "场景",
+          "黄昏",
+          "桥梁"
+        ],
+        "description": "一幅描绘年轻情侣站在桥梁上俯瞰风景的插画，背景是夕阳和飞翔的鸟儿。",
+        "filenameSuggestions": [
+          "黄昏下的桥梁与恋人.jpg",
+          "雨天桥梁上的深情对望.jpg"
+        ],
+        "displayTitle": "黄昏下的桥梁与恋人",
+        "confidence": 0.9,
+        "reasoning": "图片为一幅插画，场景以桥梁和黄昏为主，人物为情侣。根据决策树B2，判定为插画/场景。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/wallhaven-3lvy23.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "wallhaven-3lvy23.jpg",
+      "createdAt": "2026-02-04T09:13:17.792Z",
+      "cdnTag": "v1.1.67",
+      "size": 18082491,
+      "format": "jpg",
+      "resolution": {
+        "width": 9038,
+        "height": 4563,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "人像",
+          "摄影"
+        ],
+        "description": "一位白衣少女手持相机，捕捉光影瞬间。",
+        "filenameSuggestions": [
+          "手持相机拍摄的神秘少女.jpg",
+          "侧光下的白衣美女.jpg"
+        ],
+        "displayTitle": "镜头中的光影",
+        "confidence": 0.9,
+        "reasoning": "图片以人物为主，人物表情神秘且部分被相机遮挡，符合【氛围感】的特征：不露脸、重光影意境。"
+      }
+    },
+    "wallpaper/desktop/人像/魅力/wallhaven-5g6g33.jpg": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "wallhaven-5g6g33.jpg",
+      "createdAt": "2026-02-04T09:13:17.792Z",
+      "cdnTag": "v1.1.67",
+      "size": 15403966,
+      "format": "jpg",
+      "resolution": {
+        "width": 8800,
+        "height": 4950,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "霓虹",
+          "夜景",
+          "摩托车"
+        ],
+        "description": "一位穿着黑色衣服的女性坐在摩托车上，周围是城市夜景和霓虹灯。",
+        "filenameSuggestions": [
+          "都市夜色中的霓虹女郎.jpg",
+          "背影摩托车手夜景.jpg"
+        ],
+        "displayTitle": "都市夜色中的霓虹女郎",
+        "confidence": 0.9,
+        "reasoning": "图片以一位穿着黑色衣服的女性为主体，她坐在摩托车上，背景是城市夜景和霓虹灯。根据人像分类决策树中的【魅力】定义，图片中女性身穿暴露的服装，姿态撩人，背景有夜景霓虹，因此归入人像/魅力。"
+      }
+    },
+    "wallpaper/desktop/插画/创意/wallhaven-5yl7x5.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "wallhaven-5yl7x5.jpg",
+      "createdAt": "2026-02-04T09:13:17.792Z",
+      "cdnTag": "v1.1.67",
+      "size": 12856964,
+      "format": "jpg",
+      "resolution": {
+        "width": 8000,
+        "height": 4500,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "沉思",
+          "数学公式"
+        ],
+        "description": "一位女孩站在窗前，周围覆盖着数学公式，展现出一种沉思与创新的氛围。",
+        "filenameSuggestions": [
+          "窗前沉思的女孩.jpg",
+          "数学公式中的灵感瞬间.jpg"
+        ],
+        "displayTitle": "窗外远眺的沉思者",
+        "confidence": 0.9,
+        "reasoning": "图片以一位女孩站在窗前为中心，背景覆盖大量数学公式和图表，整体呈现出一种创意与沉思的氛围。根据决策树B2，图片具有强烈的绘画感和创意元素，归入插画/创意分类。"
+      }
+    },
+    "wallpaper/desktop/插画/创意/wallhaven-jxrxdq.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "wallhaven-jxrxdq.jpg",
+      "createdAt": "2026-02-04T09:13:17.792Z",
+      "cdnTag": "v1.1.67",
+      "size": 9298237,
+      "format": "jpg",
+      "resolution": {
+        "width": 9833,
+        "height": 5600,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "赛博朋克",
+          "创意插画",
+          "摩托车"
+        ],
+        "description": "一少女骑乘带有霓虹灯的摩托车，在梦幻般的水面疾驰，背景是璀璨的城市灯光。",
+        "filenameSuggestions": [
+          "水面疾驰的霓虹摩托少女.jpg",
+          "梦幻水世界的赛博风景.jpg"
+        ],
+        "displayTitle": "赛博梦境中的摩托少女",
+        "confidence": 0.9,
+        "reasoning": "图片展现出强烈的赛博朋克风格和创意插画特征：具有未来感的摩托车、霓虹灯、梦幻水面和城市灯光的背景。根据决策树B2，图片具有浓厚的绘画感和创意设计，归入插画/创意。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/wallhaven-k8w3wd.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "wallhaven-k8w3wd.jpg",
+      "createdAt": "2026-02-04T09:13:17.792Z",
+      "cdnTag": "v1.1.67",
+      "size": 12906717,
+      "format": "jpg",
+      "resolution": {
+        "width": 8000,
+        "height": 4898,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "人像",
+          "室内光影"
+        ],
+        "description": "一个充满艺术感与氛围的室内人像摄影作品，展现了光影的魅力与女孩的沉思。",
+        "filenameSuggestions": [
+          "室内沉思的年轻女孩.jpg",
+          "光影交错中的氛围美女.jpg"
+        ],
+        "displayTitle": "光影中的沉思者",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树 (Portrait Logic)，图片中以人物为主， 且具有重光影意境，看不清具体五官，归入 人像/氛围感"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/wallhaven-kxmo67.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "wallhaven-kxmo67.jpg",
+      "createdAt": "2026-02-04T09:13:17.792Z",
+      "cdnTag": "v1.1.67",
+      "size": 12112247,
+      "format": "jpg",
+      "resolution": {
+        "width": 8012,
+        "height": 5050,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "人像",
+          "城市风景"
+        ],
+        "description": "一幅描绘城市黄昏景象的插画，人物沉浸在思绪中。",
+        "filenameSuggestions": [
+          "夕阳下的桥畔沉思.jpg",
+          "城市黄昏风景插画.jpg"
+        ],
+        "displayTitle": "夕阳下的桥畔沉思",
+        "confidence": 0.9,
+        "reasoning": "图片以人物为主，展现一种氛围感，背景是城市桥梁和黄昏景色。根据决策树A4，归类为【氛围感】。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/wallhaven-p9pro3.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "wallhaven-p9pro3.jpg",
+      "createdAt": "2026-02-04T09:13:17.792Z",
+      "cdnTag": "v1.1.67",
+      "size": 8537807,
+      "format": "jpg",
+      "resolution": {
+        "width": 8882,
+        "height": 4926,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "插画",
+          "城市夜景",
+          "浪漫",
+          "场景"
+        ],
+        "description": "城市夜色下的年轻情侣在楼顶对望。",
+        "filenameSuggestions": [
+          "城市夜景中的年轻情侣.jpg",
+          "高楼大厦下的深夜漫步.jpg"
+        ],
+        "displayTitle": "城市夜色的浪漫对望",
+        "confidence": 0.9,
+        "reasoning": "图片为插画风格，场景为主，展现城市夜景和人物，判定为插画/场景。"
+      }
+    },
+    "wallpaper/desktop/人像/国风/wallhaven-yxley7.jpg": {
+      "category": "人像",
+      "subcategory": "国风",
+      "filename": "wallhaven-yxley7.jpg",
+      "createdAt": "2026-02-04T09:13:17.792Z",
+      "cdnTag": "v1.1.67",
+      "size": 8035300,
+      "format": "jpg",
+      "resolution": {
+        "width": 8200,
+        "height": 4650,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "古装",
+          "夜景"
+        ],
+        "description": "一位身穿古装的少女在冰蓝色的夜色中持杆而立，氛围感十足。",
+        "filenameSuggestions": [
+          "冰蓝夜色下的古韵佳人.jpg",
+          "手持长杆的国风少女.jpg"
+        ],
+        "displayTitle": "冰蓝夜色下的古韵佳人",
+        "confidence": 0.9,
+        "reasoning": "图片中的少女穿着具有中国传统风格的服装，背景光线营造出独特的氛围感，根据决策树A3，判定为[人像/国风]"
+      }
+    },
+    "wallpaper/desktop/插画/国风/wallhaven-398j69.png": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "wallhaven-398j69.png",
+      "createdAt": "2026-02-04T09:17:14.196Z",
+      "cdnTag": "v1.1.67",
+      "size": 2251544,
+      "format": "png",
+      "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "插画",
+          "星空"
+        ],
+        "description": "一位身穿古风长裙的少女站在阁楼上，仰望星空。",
+        "filenameSuggestions": [
+          "星空下的古韵阁楼.jpg",
+          "身披星光的国风少女.jpg"
+        ],
+        "displayTitle": "星空下的古韵阁楼",
+        "confidence": 0.9,
+        "reasoning": "图片具有明显的中国传统美学特征，包含古建筑、传统服饰和星空背景，根据规则B2，判定为[插画/国风]"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/yande.re 529676 aeolian ghostblade wlop.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "yande.re 529676 aeolian ghostblade wlop.jpg",
+      "createdAt": "2026-02-04T09:17:14.196Z",
+      "cdnTag": "v1.1.67",
+      "size": 1947068,
+      "format": "jpg",
+      "resolution": {
+        "width": 3353,
+        "height": 1588,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "绿眼睛",
+          "黑发"
+        ],
+        "description": "一位绿眼睛黑发女子在雨中的神秘肖像",
+        "filenameSuggestions": [
+          "雨中神秘绿眼睛黑发女子.jpg",
+          "绿眼睛黑发女子雨中肖像.jpg"
+        ],
+        "displayTitle": "雨中神秘女子",
+        "confidence": 0.9,
+        "reasoning": "图片为一位绿眼睛黑发女子的肖像，带有氛围感，背景模糊且有雨效果，根据人像分类决策树，判定为[人像/氛围感]"
       }
     }
   }
