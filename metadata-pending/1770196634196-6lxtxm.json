@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "createdAt": "2026-02-04T09:17:14.196Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/国风/wallhaven-398j69.png",
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "wallhaven-398j69.png",
+      "createdAt": "2026-02-04T09:17:14.196Z",
+      "size": 2251544,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "插画",
+          "星空"
+        ],
+        "description": "一位身穿古风长裙的少女站在阁楼上，仰望星空。",
+        "filenameSuggestions": [
+          "星空下的古韵阁楼.jpg",
+          "身披星光的国风少女.jpg"
+        ],
+        "displayTitle": "星空下的古韵阁楼",
+        "confidence": 0.9,
+        "reasoning": "图片具有明显的中国传统美学特征，包含古建筑、传统服饰和星空背景，根据规则B2，判定为[插画/国风]"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/氛围感/yande.re 529676 aeolian ghostblade wlop.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "yande.re 529676 aeolian ghostblade wlop.jpg",
+      "createdAt": "2026-02-04T09:17:14.196Z",
+      "size": 1947068,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "绿眼睛",
+          "黑发"
+        ],
+        "description": "一位绿眼睛黑发女子在雨中的神秘肖像",
+        "filenameSuggestions": [
+          "雨中神秘绿眼睛黑发女子.jpg",
+          "绿眼睛黑发女子雨中肖像.jpg"
+        ],
+        "displayTitle": "雨中神秘女子",
+        "confidence": 0.9,
+        "reasoning": "图片为一位绿眼睛黑发女子的肖像，带有氛围感，背景模糊且有雨效果，根据人像分类决策树，判定为[人像/氛围感]"
+      }
+    }
+  ]
+}
