@@ -1,0 +1,425 @@
+{
+  "version": 1,
+  "createdAt": "2026-02-04T13:18:26.066Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/微信图片_20260204205032_594_4.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_20260204205032_594_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "size": 815888,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "卡通"
+        ],
+        "description": "一幅充满趣味的城市插画，展现两个卡通人物在城市背景下的互动。",
+        "filenameSuggestions": [
+          "城市趣味插画.jpg",
+          "创意卡通人物.jpg"
+        ],
+        "displayTitle": "城市中的趣味对话",
+        "confidence": 0.9,
+        "reasoning": "图片具有强烈的插画风格，包含创意元素和卡通人物，但未明确对应现有二级和三级分类中的特定类别，故选择插画/创意。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/萌宠/狗狗/微信图片_20260204205039_602_4.jpg",
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_20260204205039_602_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "size": 868800,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "萨摩耶",
+          "雪山",
+          "花海",
+          "狗狗"
+        ],
+        "description": "一只快乐的白色萨摩耶犬在雪山和花海中玩耍",
+        "filenameSuggestions": [
+          "阳光下的白色萨摩耶犬.jpg",
+          "雪山花海中的快乐狗狗.jpg"
+        ],
+        "displayTitle": "雪山下的欢乐白熊",
+        "confidence": 0.9,
+        "reasoning": "图片中是一只白色萨摩耶犬，处于花海和雪山的自然环境中，根据内容符合 萌宠/狗狗 的分类"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/花卉/微信图片_20260204205040_603_4.jpg",
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "微信图片_20260204205040_603_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "size": 1233381,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "金色秋叶",
+          "城市风景",
+          "花卉"
+        ],
+        "description": "城市中金色秋叶的美丽景象",
+        "filenameSuggestions": [
+          "城市秋色金叶.jpg",
+          "金色叶片覆盖的街道景象.jpg"
+        ],
+        "displayTitle": "金色秋叶与城市风景",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了城市中的金色秋叶和花卉，符合风景分类下的花卉子类"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/通用/微信图片_20260204205045_604_4.jpg",
+      "category": "动漫",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205045_604_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "size": 758694,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "通用",
+        "keywords": [
+          "动漫",
+          "火影忍者",
+          "忍者",
+          "火焰"
+        ],
+        "description": "动漫风格插图，展现一位黑发忍者被火焰环绕的神秘形象。",
+        "filenameSuggestions": [
+          "身披火焰的黑发忍者.jpg",
+          "月光下的神秘火影.jpg"
+        ],
+        "displayTitle": "月夜下的忍者之影",
+        "confidence": 0.9,
+        "reasoning": "根据图片的动漫特征和人物与火影忍者的相似性，归类为动漫/通用，并建议新增分类动漫/火影忍者"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/通用/微信图片_20260204205045_605_4.jpg",
+      "category": "动漫",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205045_605_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "size": 192819,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "通用",
+        "subcategory": "通用",
+        "filenameSuggestions": [
+          "神秘的暗影少年.jpg",
+          "黑夜中的少年侠客.jpg"
+        ],
+        "filenames": [
+          "神秘的暗影少年.jpg",
+          "黑夜中的少年侠客.jpg"
+        ],
+        "displayTitle": "暗影中的神秘少年",
+        "keywords": [
+          "动漫",
+          "神秘",
+          "少年",
+          "暗黑风格"
+        ],
+        "description": "一位神秘的少年，穿着黑色斗篷，带着暗黑面具，眼睛炯炯有神。",
+        "confidence": 0.9,
+        "reasoning": "图片中人物具有典型的动漫风格，面部和服饰特征与已知的动漫角色相符，但未识别出具体作品，因此归入动漫/通用类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/明星/微信图片_20260204205046_606_4.jpg",
+      "category": "人像",
+      "subcategory": "明星",
+      "filename": "微信图片_20260204205046_606_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "size": 458991,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "明星",
+        "subcategory": "明星",
+        "filenameSuggestions": [
+          "身穿红色西装.jpg",
+          "喜庆新年红背景.jpg"
+        ],
+        "filenames": [
+          "身穿红色西装.jpg",
+          "喜庆新年红背景.jpg"
+        ],
+        "displayTitle": "新年喜庆红装少年",
+        "keywords": [
+          "红装",
+          "新年",
+          "帅气",
+          "喜庆"
+        ],
+        "description": "一位穿着红色西装的少年，背景是喜庆的新年对联和装饰。",
+        "confidence": 0.9,
+        "reasoning": "图片中人物为明星易烊千玺，穿着红色西装，背景有新年相关元素，归类为人像/易烊千玺"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/易烊千玺/微信图片_20260204205241_639_4.jpg",
+      "category": "人像",
+      "subcategory": "易烊千玺",
+      "filename": "微信图片_20260204205241_639_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "size": 966102,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "易烊千玺",
+        "subcategory": "易烊千玺",
+        "filenameSuggestions": [
+          "手持相机仰望天空.jpg",
+          "摄影男孩侧脸.jpg"
+        ],
+        "filenames": [
+          "手持相机仰望天空.jpg",
+          "摄影男孩侧脸.jpg"
+        ],
+        "displayTitle": "夕阳下的摄影男孩",
+        "keywords": [
+          "清新",
+          "摄影",
+          "侧脸",
+          "夕阳"
+        ],
+        "description": "一个手持相机仰望天空的少年，夕阳下的侧脸充满了清新与向往。",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树，图片中人物面部清晰可见，无特定明星特征，非古装且无明显魅力展现，但有清新和治愈的氛围感。结合高明度、色彩自然、背景为蓝天白云，判定为【清新】。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/易烊千玺/微信图片_20260204205242_640_4.jpg",
+      "category": "人像",
+      "subcategory": "易烊千玺",
+      "filename": "微信图片_20260204205242_640_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "size": 1079530,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "易烊千玺",
+        "subcategory": "易烊千玺",
+        "filenameSuggestions": [
+          "手持相机镜头.jpg",
+          "春日绿景.jpg"
+        ],
+        "filenames": [
+          "手持相机镜头.jpg",
+          "春日绿景.jpg"
+        ],
+        "displayTitle": "绿意盎然中的年轻摄影者",
+        "keywords": [
+          "清新",
+          "摄影",
+          "自然",
+          "青年"
+        ],
+        "description": "一位穿着休闲的年轻人在自然环境中专注于摄影器材。",
+        "confidence": 0.9,
+        "reasoning": "图片中的人物穿着休闲，置身于自然环境中，表情专注且神态清新自然，未见明显特定明星特征或强烈风格化倾向，根据规则A4，判定为[清新]。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/易烊千玺/微信图片_20260204205243_641_4.jpg",
+      "category": "人像",
+      "subcategory": "易烊千玺",
+      "filename": "微信图片_20260204205243_641_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "size": 945035,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "易烊千玺",
+        "subcategory": "易烊千玺",
+        "filenameSuggestions": [
+          "手持小花的忧郁少年.jpg",
+          "坐在草坪上的深思男孩.jpg"
+        ],
+        "filenames": [
+          "手持小花的忧郁少年.jpg",
+          "坐在草坪上的深思男孩.jpg"
+        ],
+        "displayTitle": "绿茵中的沉思者",
+        "keywords": [
+          "忧郁",
+          "清新",
+          "自然光"
+        ],
+        "description": "一个手持小花、坐在草地的少年，表情沉思。",
+        "confidence": 0.9,
+        "reasoning": "图片中是一位少年坐在草地上，手持小花，表情沉思。未识别出具体明星或古装，氛围不符魅力、日系或清新分类，暂时归为人像/氛围感。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/易烊千玺/微信图片_20260204205244_642_4.jpg",
+      "category": "人像",
+      "subcategory": "易烊千玺",
+      "filename": "微信图片_20260204205244_642_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "size": 1230609,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "易烊千玺",
+        "subcategory": "易烊千玺",
+        "filenameSuggestions": [
+          "身穿闪亮紫色套装的男艺人.jpg",
+          "手握麦克风的时尚男星.jpg"
+        ],
+        "filenames": [
+          "身穿闪亮紫色套装的男艺人.jpg",
+          "手握麦克风的时尚男星.jpg"
+        ],
+        "displayTitle": "紫色魅力男神风采",
+        "keywords": [
+          "男星",
+          "紫色",
+          "时尚",
+          "魅力"
+        ],
+        "description": "一位身穿闪亮紫色套装的男艺人，手握麦克风，展现魅力风采。",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，该图片为一位男艺人的肖像，穿着时尚的紫色服装，符合人像分类下的魅力定义。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/萌宠/通用/微信图片_20260204205244_643_4.jpg",
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260204205244_643_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "size": 748062,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "category": "萌宠",
+        "third": "通用",
+        "subcategory": "通用",
+        "filenameSuggestions": [
+          "怀抱小猫的温暖瞬间.jpg",
+          "小猫与少年的温馨.jpg"
+        ],
+        "filenames": [
+          "怀抱小猫的温暖瞬间.jpg",
+          "小猫与少年的温馨.jpg"
+        ],
+        "displayTitle": "温暖的午後",
+        "keywords": [
+          "萌宠",
+          "少年",
+          "小猫",
+          "温馨"
+        ],
+        "description": "少年温柔地抱着小猫，画面温暖而治愈。",
+        "confidence": 0.9,
+        "reasoning": "图片中少年正在抱着小猫，充满温馨和治愈的氛围，根据内容归为萌宠类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/易烊千玺/微信图片_20260204205245_644_4.jpg",
+      "category": "人像",
+      "subcategory": "易烊千玺",
+      "filename": "微信图片_20260204205245_644_4.jpg",
+      "createdAt": "2026-02-04T13:18:26.066Z",
+      "size": 724936,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "易烊千玺",
+        "subcategory": "易烊千玺",
+        "filenameSuggestions": [
+          "手握相机仰望天空的年轻男子.jpg",
+          "蓝天白云下的悠闲摄影师.jpg"
+        ],
+        "filenames": [
+          "手握相机仰望天空的年轻男子.jpg",
+          "蓝天白云下的悠闲摄影师.jpg"
+        ],
+        "displayTitle": "风云下的青年摄影者",
+        "keywords": [
+          "摄影师",
+          "青年",
+          "蓝天",
+          "白云"
+        ],
+        "description": "一位手握相机、仰望风云变幻的年轻男子，展现出对摄影艺术的热爱与对自然的深情。",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，人物为青年男性，背景为蓝天白云，符合人像类目下的清新风格，但现有分类体系中没有直接匹配的选项，因此选择二级分类为'人像'，并根据内容描述拟定了标题、文件名和关键词。"
+      }
+    }
+  ]
+}
