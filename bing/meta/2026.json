@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 36,
+  "total": 37,
   "items": [
+    {
+      "date": "2026-02-06",
+      "title": "拉古塞拉——奥运赛季的巅峰",
+      "copyright": "贾乌山口的拉古塞拉峰, 在科尔蒂纳丹佩佐附近, 意大利 (© Tomasz Podolski/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=2026%E5%B9%B4%E5%86%AC%E5%AD%A3%E5%A5%A5%E8%BF%90%E4%BC%9A&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260205_GiauPass%22&FORM=HPQUIZ",
+      "hsh": "511263ffb07c26955456c9a28e35a473",
+      "urlbase": "/th?id=OHR.GiauPass_ZH-CN3901214501"
+    },
     {
       "date": "2026-02-05",
       "title": "困在网格里",
@@ -327,5 +336,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-02-04T17:46:41.503Z"
+  "updatedAt": "2026-02-05T17:48:12.636Z"
 }
