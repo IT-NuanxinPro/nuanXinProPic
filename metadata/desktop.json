@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-02-05T17:48:34.513Z",
-  "count": 429,
+  "lastUpdated": "2026-02-06T17:43:46.920Z",
+  "count": 442,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -11801,6 +11801,331 @@
       "ai": {
         "keywords": [
           "身穿青衣的古典女孩"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/风景/城市/欧洲古镇黄昏景色.png": {
+      "category": "风景",
+      "subcategory": "城市",
+      "filename": "欧洲古镇黄昏景色.png",
+      "createdAt": "2026-02-06T17:42:57.000Z",
+      "cdnTag": "v1.1.71",
+      "size": 9192652,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "欧洲古镇黄昏景色"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/风景/雪山/日出时分的雪山峡谷.png": {
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "日出时分的雪山峡谷.png",
+      "createdAt": "2026-02-06T17:42:57.000Z",
+      "cdnTag": "v1.1.71",
+      "size": 10924261,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "日出时分的雪山峡谷"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/风景/海滨/日落椰林下的瀑布风景.png": {
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "日落椰林下的瀑布风景.png",
+      "createdAt": "2026-02-06T17:42:57.000Z",
+      "cdnTag": "v1.1.71",
+      "size": 10578231,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "日落椰林下的瀑布风景"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/风景/通用/紫色峡谷的黄昏美景.png": {
+      "category": "风景",
+      "subcategory": "",
+      "filename": "紫色峡谷的黄昏美景.png",
+      "createdAt": "2026-02-06T17:42:57.000Z",
+      "cdnTag": "v1.1.71",
+      "size": 9053730,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "紫色峡谷的黄昏美景"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/甜笑的二次元少女.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "甜笑的二次元少女.png",
+      "createdAt": "2026-02-06T17:42:57.000Z",
+      "cdnTag": "v1.1.71",
+      "size": 5136515,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "甜笑的二次元少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/花海中的梦幻少女.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "花海中的梦幻少女.png",
+      "createdAt": "2026-02-06T17:42:57.000Z",
+      "cdnTag": "v1.1.71",
+      "size": 8662418,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "花海中的梦幻少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/月光下的樱花少女.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "月光下的樱花少女.png",
+      "createdAt": "2026-02-06T17:42:57.000Z",
+      "cdnTag": "v1.1.71",
+      "size": 7166403,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "月光下的樱花少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/国风/樱花树下的和风少女.png": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "樱花树下的和风少女.png",
+      "createdAt": "2026-02-06T17:42:57.000Z",
+      "cdnTag": "v1.1.71",
+      "size": 7402919,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "樱花树下的和风少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/国风/红衣黑发少女的古风室内肖像.png": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "红衣黑发少女的古风室内肖像.png",
+      "createdAt": "2026-02-06T17:42:57.000Z",
+      "cdnTag": "v1.1.71",
+      "size": 7447426,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "红衣黑发少女的古风室内肖像"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/创意/光影交织下的神秘少女.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "光影交织下的神秘少女.png",
+      "createdAt": "2026-02-06T17:42:57.000Z",
+      "cdnTag": "v1.1.71",
+      "size": 6143294,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "光影交织下的神秘少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/创意/阳光下的天使少女.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "阳光下的天使少女.png",
+      "createdAt": "2026-02-06T17:42:57.000Z",
+      "cdnTag": "v1.1.71",
+      "size": 6786470,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "阳光下的天使少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/创意/柔光下的白发美人.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "柔光下的白发美人.png",
+      "createdAt": "2026-02-06T17:42:57.000Z",
+      "cdnTag": "v1.1.71",
+      "size": 5973852,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "柔光下的白发美人"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/创意/时尚的灰发眼镜女孩.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "时尚的灰发眼镜女孩.png",
+      "createdAt": "2026-02-06T17:42:57.000Z",
+      "cdnTag": "v1.1.71",
+      "size": 4928885,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "时尚的灰发眼镜女孩"
         ],
         "description": "",
         "displayTitle": "",
