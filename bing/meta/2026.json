@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 38,
+  "total": 39,
   "items": [
+    {
+      "date": "2026-02-08",
+      "title": "从宁静的夜晚到充满冒险的白天",
+      "copyright": "科孚岛的夜晚, 希腊 (© whitewizzard/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%B8%8C%E8%85%8A%E7%A7%91%E5%AD%9A%E5%B2%9B&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260207_CorfuGreece%22&FORM=HPQUIZ",
+      "hsh": "9790b1824aa9a56bb8bbeee8e35245d1",
+      "urlbase": "/th?id=OHR.CorfuGreece_ZH-CN4305970968"
+    },
     {
       "date": "2026-02-07",
       "title": "在盐沼与天空之间，万物静谧",
@@ -345,5 +354,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-02-06T17:42:57.700Z"
+  "updatedAt": "2026-02-07T17:27:07.420Z"
 }
