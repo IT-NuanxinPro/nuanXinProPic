@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 39,
+  "total": 40,
   "items": [
+    {
+      "date": "2026-02-09",
+      "title": "斑纹流转",
+      "copyright": "阿穆尔豹猫，俄罗斯 (© Valeriy Maleev/naturepl.com)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%B1%B9%E7%8C%AB&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260208_LeopardCat%22&FORM=HPQUIZ",
+      "hsh": "1d9bb3429311c1c2e04867f8a4ea7877",
+      "urlbase": "/th?id=OHR.LeopardCat_ZH-CN4431427444"
+    },
     {
       "date": "2026-02-08",
       "title": "从宁静的夜晚到充满冒险的白天",
@@ -354,5 +363,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-02-07T17:27:07.420Z"
+  "updatedAt": "2026-02-08T17:27:16.663Z"
 }
