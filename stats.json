@@ -1,6 +1,6 @@
 {
-  "lastUpdated": 1770571660.013711,
-  "cdnTag": "v1.1.73",
+  "lastUpdated": 1770627639.459299,
+  "cdnTag": "v1.1.74",
   "series": {
     "desktop": {
       "count": 442,
@@ -33,7 +33,7 @@
       ]
     },
     "avatar": {
-      "count": 358,
+      "count": 373,
       "categories": [
         "人像",
         "动漫",
@@ -47,10 +47,19 @@
   "total": {
     "desktop": 442,
     "mobile": 567,
-    "avatar": 358,
-    "bing": 2450
+    "avatar": 373
   },
   "releases": [
+    {
+      "tag": "v1.1.74",
+      "date": "2026-02-09",
+      "added": {
+        "desktop": 0,
+        "mobile": 0,
+        "avatar": 15
+      },
+      "publisher": "aSheep-yyqx"
+    },
     {
       "tag": "v1.1.73",
       "date": "2026-02-09",
