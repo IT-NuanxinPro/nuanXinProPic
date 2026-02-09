@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 40,
+  "total": 41,
   "items": [
+    {
+      "date": "2026-02-10",
+      "title": "海妖歌唱之处",
+      "copyright": "埃斯韦德拉岛和埃斯韦德拉内尔岛，伊维萨岛，西班牙 (© L. Apolli/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%BC%8A%E7%BB%B4%E8%90%A8%E5%B2%9B%E5%9F%83%E6%96%AF%E7%BB%B4%E5%BE%B7%E6%8B%89&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260209_IbizaIslets%22&FORM=HPQUIZ",
+      "hsh": "8513ec3f801aa55f944b0dc2be1aa835",
+      "urlbase": "/th?id=OHR.IbizaIslets_ZH-CN4580106286"
+    },
     {
       "date": "2026-02-09",
       "title": "斑纹流转",
@@ -363,5 +372,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-02-08T17:27:16.663Z"
+  "updatedAt": "2026-02-09T17:52:54.815Z"
 }
