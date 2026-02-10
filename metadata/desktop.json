@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-02-09T17:53:19.449Z",
-  "count": 442,
+  "lastUpdated": "2026-02-10T18:03:47.652Z",
+  "count": 444,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -12126,6 +12126,56 @@
       "ai": {
         "keywords": [
           "时尚的灰发眼镜女孩"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/女孩的微笑.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "女孩的微笑.png",
+      "createdAt": "2026-02-10T18:03:21.000Z",
+      "cdnTag": "v1.1.76",
+      "size": 6888203,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "女孩的微笑"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/微笑的粉色长发女孩.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微笑的粉色长发女孩.png",
+      "createdAt": "2026-02-10T18:03:21.000Z",
+      "cdnTag": "v1.1.76",
+      "size": 6832596,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "微笑的粉色长发女孩"
         ],
         "description": "",
         "displayTitle": "",
