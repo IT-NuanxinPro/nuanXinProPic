@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 41,
+  "total": 42,
   "items": [
+    {
+      "date": "2026-02-11",
+      "title": "对比之谷",
+      "copyright": "死亡谷国家公园恶水盆地的盐滩, 加利福尼亚州, 美国 (© Jim Patterson/TANDEM Stills + Motion)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%AD%BB%E8%B0%B7%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260210_BadwaterFlats%22&FORM=HPQUIZ",
+      "hsh": "ab527e84259a14561f0cacb39ea33764",
+      "urlbase": "/th?id=OHR.BadwaterFlats_ZH-CN4713617982"
+    },
     {
       "date": "2026-02-10",
       "title": "海妖歌唱之处",
@@ -372,5 +381,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-02-09T17:52:54.815Z"
+  "updatedAt": "2026-02-10T18:03:21.704Z"
 }
