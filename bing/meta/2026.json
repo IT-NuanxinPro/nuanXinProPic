@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 42,
+  "total": 43,
   "items": [
+    {
+      "date": "2026-02-12",
+      "title": "聚焦进化",
+      "copyright": "蓝脚鲣鸟，加拉帕戈斯群岛, 厄瓜多尔 (© Karine Aigner/TANDEM Stills + Motion)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%93%9D%E8%84%9A%E9%B2%A3%E9%B8%9F&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260211_DarwinBooby%22&FORM=HPQUIZ",
+      "hsh": "196137d1cf20534689772f22fbd8ece6",
+      "urlbase": "/th?id=OHR.DarwinBooby_ZH-CN4925779873"
+    },
     {
       "date": "2026-02-11",
       "title": "对比之谷",
@@ -381,5 +390,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-02-10T18:03:21.704Z"
+  "updatedAt": "2026-02-11T17:57:17.332Z"
 }
