@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-02-11T17:57:38.760Z",
-  "count": 444,
+  "lastUpdated": "2026-02-12T18:00:06.436Z",
+  "count": 454,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -12176,6 +12176,256 @@
       "ai": {
         "keywords": [
           "微笑的粉色长发女孩"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/场景/森林中微笑的少女.png": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "森林中微笑的少女.png",
+      "createdAt": "2026-02-12T17:59:21.000Z",
+      "cdnTag": "v1.1.78",
+      "size": 7793313,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "森林中微笑的少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/国风/樱花树下的和服少女.png": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "樱花树下的和服少女.png",
+      "createdAt": "2026-02-12T17:59:21.000Z",
+      "cdnTag": "v1.1.78",
+      "size": 8306599,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "樱花树下的和服少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/国风/国风少女坐于竹林之中.png": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "国风少女坐于竹林之中.png",
+      "createdAt": "2026-02-12T17:59:21.000Z",
+      "cdnTag": "v1.1.78",
+      "size": 8515488,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "国风少女坐于竹林之中"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/未来主义少女的璀璨之瞳.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "未来主义少女的璀璨之瞳.png",
+      "createdAt": "2026-02-12T17:59:21.000Z",
+      "cdnTag": "v1.1.78",
+      "size": 7523025,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "未来主义少女的璀璨之瞳"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/实验室里的神秘诱惑.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "实验室里的神秘诱惑.png",
+      "createdAt": "2026-02-12T17:59:21.000Z",
+      "cdnTag": "v1.1.78",
+      "size": 5535960,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "实验室里的神秘诱惑"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/侧颜的长发动漫少女.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "侧颜的长发动漫少女.png",
+      "createdAt": "2026-02-12T17:59:21.000Z",
+      "cdnTag": "v1.1.78",
+      "size": 6246339,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "侧颜的长发动漫少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/手持刀刃的二次元少女.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "手持刀刃的二次元少女.png",
+      "createdAt": "2026-02-12T17:59:21.000Z",
+      "cdnTag": "v1.1.78",
+      "size": 6031827,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "手持刀刃的二次元少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/梦幻银发少女.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "梦幻银发少女.png",
+      "createdAt": "2026-02-12T17:59:21.000Z",
+      "cdnTag": "v1.1.78",
+      "size": 6728017,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "梦幻银发少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/梦幻中的轻语少女.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "梦幻中的轻语少女.png",
+      "createdAt": "2026-02-12T17:59:21.000Z",
+      "cdnTag": "v1.1.78",
+      "size": 6174922,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "梦幻中的轻语少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/游戏/通用/丝之歌小骑士.png": {
+      "category": "游戏",
+      "subcategory": "",
+      "filename": "丝之歌小骑士.png",
+      "createdAt": "2026-02-12T17:59:21.000Z",
+      "cdnTag": "v1.1.78",
+      "size": 7108799,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "丝之歌小骑士"
         ],
         "description": "",
         "displayTitle": "",
