@@ -1,18 +1,18 @@
 {
-  "lastUpdated": 1770832663.075876,
-  "cdnTag": "v1.1.77",
+  "lastUpdated": 1770919209.462193,
+  "cdnTag": "v1.1.78",
   "series": {
     "desktop": {
-      "count": 444,
+      "count": 454,
       "categories": [
         "动漫",
         "插画",
         "人像",
         "风景",
         "IP形象",
+        "游戏",
         "政治",
         "萌宠",
-        "游戏",
         "影视"
       ]
     },
@@ -45,12 +45,23 @@
     }
   },
   "total": {
-    "desktop": 444,
+    "desktop": 454,
     "mobile": 567,
     "avatar": 373,
-    "bing": 2453
+    "bing": 2454
   },
   "releases": [
+    {
+      "tag": "v1.1.78",
+      "date": "2026-02-13",
+      "added": {
+        "desktop": 10,
+        "mobile": 0,
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
+    },
     {
       "tag": "v1.1.77",
       "date": "2026-02-12",
