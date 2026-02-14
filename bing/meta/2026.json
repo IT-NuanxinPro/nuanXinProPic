@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 45,
+  "total": 46,
   "items": [
+    {
+      "date": "2026-02-15",
+      "title": "浪涛下的歌谣",
+      "copyright": "蒙特雷湾的大翅鲸(座头鲸)，加利福尼亚州，美国 (© Kiliii Fish/Cavan Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%B2%B8%E9%B1%BC&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260214_MontereyHumpbacks%22&FORM=HPQUIZ",
+      "hsh": "e9b375bb1d202badabad4471eee4051c",
+      "urlbase": "/th?id=OHR.MontereyHumpbacks_ZH-CN5426789466"
+    },
     {
       "date": "2026-02-14",
       "title": "爱意绽放",
@@ -408,5 +417,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-02-13T17:42:15.838Z"
+  "updatedAt": "2026-02-14T17:27:57.721Z"
 }
