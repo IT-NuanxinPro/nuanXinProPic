@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 46,
+  "total": 47,
   "items": [
+    {
+      "date": "2026-02-16",
+      "title": "祝除夕团圆，新年顺遂！",
+      "copyright": "庆祝春节的龙形灯笼，中国西安 (© Pan Hong/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%99%A4%E5%A4%95%E5%A4%9C&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260215_ChineseNewYearEveY26%22&FORM=HPQUIZ",
+      "hsh": "0a92ab570edd03124a20ca3421a43ce9",
+      "urlbase": "/th?id=OHR.ChineseNewYearEveY26_ZH-CN7770318975"
+    },
     {
       "date": "2026-02-15",
       "title": "浪涛下的歌谣",
@@ -417,5 +426,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-02-14T17:27:57.721Z"
+  "updatedAt": "2026-02-15T17:27:04.798Z"
 }
