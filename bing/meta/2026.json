@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 47,
+  "total": 48,
   "items": [
+    {
+      "date": "2026-02-17",
+      "title": "福气满满，马年大吉",
+      "copyright": "中国春节传统汉字“福” (© DuKai摄影师/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=2026%E9%A9%AC%E5%B9%B4%E6%98%A5%E8%8A%82&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260216_SpringFestivalY26%22&FORM=HPQUIZ",
+      "hsh": "feb0de4c3e69a31cf594fa921b5d503e",
+      "urlbase": "/th?id=OHR.SpringFestivalY26_ZH-CN0228318064"
+    },
     {
       "date": "2026-02-16",
       "title": "祝除夕团圆，新年顺遂！",
@@ -426,5 +435,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-02-15T17:27:04.798Z"
+  "updatedAt": "2026-02-16T17:39:11.291Z"
 }
