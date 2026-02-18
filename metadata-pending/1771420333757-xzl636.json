@@ -1,0 +1,1316 @@
+{
+  "version": 1,
+  "createdAt": "2026-02-18T13:12:13.757Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._5.png",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._5.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 308539,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "喜庆",
+          "创意插画",
+          "福运"
+        ],
+        "description": "喜庆的福运双全吉祥插画，展现了两个小人物的欢乐场景。",
+        "filenameSuggestions": [
+          "福气满溢的欢乐小人.jpg",
+          "招财进宝的喜庆插画.jpg"
+        ],
+        "displayTitle": "喜庆福运双全吉祥图",
+        "confidence": 0.9,
+        "reasoning": "图片以插画风格呈现两个小人，周围有金币和福字，带有喜庆和吉祥的氛围，归类为插画/创意。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/爱国主题/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._6.png",
+      "category": "创意",
+      "subcategory": "爱国主题",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._6.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 329521,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "爱国主题",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "爱国主题",
+        "keywords": [
+          "新年快乐",
+          "红包",
+          "爱国主题",
+          "喜庆"
+        ],
+        "description": "2026年新年快乐红包贺图，充满喜庆与祝福。",
+        "filenameSuggestions": [
+          "2026年新年快乐红包.jpg",
+          "喜庆新年红包贺卡.jpg"
+        ],
+        "displayTitle": "新年喜庆红包贺图",
+        "confidence": 0.9,
+        "reasoning": "图片以红色和黄色为主，包含新年快乐字样和喜庆图案，符合爱国主题和创意分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/文字/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._3.png",
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._3.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 148109,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "文字",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "文字",
+        "keywords": [
+          "2026",
+          "新年",
+          "中国风",
+          "红色喜庆"
+        ],
+        "description": "新年祝福主题海报，以黑色为背景，搭配醒目的红色和白色文字。",
+        "filenameSuggestions": [
+          "红色和黑色新年banner设计.jpg",
+          "2026年新年祝福海报.jpg"
+        ],
+        "displayTitle": "新年展望与希望",
+        "confidence": 0.9,
+        "reasoning": "图片以黑色为背景，红色和白色文字展示了2026年新年主题，具有中国风的文字设计，归类为创意/文字。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/爱国主题/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._2.png",
+      "category": "创意",
+      "subcategory": "爱国主题",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._2.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 193418,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "爱国主题",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "爱国主题",
+        "keywords": [
+          "2026",
+          "新年",
+          "红色",
+          "中国风"
+        ],
+        "description": "2026年新年主题创意图片，充满喜庆与展望。",
+        "filenameSuggestions": [
+          "2026年红火展望.jpg",
+          "红色主题新年愿望.jpg"
+        ],
+        "displayTitle": "新年的红火展望",
+        "confidence": 0.9,
+        "reasoning": "图片具有明显的创意和爱国主题，包含红色和中国元素，归类为创意/爱国主题。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/国风/image_高级全面屏4k超清手机壁纸_景深..._13.png",
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._13.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 355706,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "书法",
+          "梅花",
+          "吉祥"
+        ],
+        "description": "国风插画，梅枝与书法卷轴，寓意吉祥平安。",
+        "filenameSuggestions": [
+          "梅语吉祥的国风书法壁画.jpg",
+          "春意盎然的瑞梅与书卷挂轴.jpg"
+        ],
+        "displayTitle": "祥瑞梅语寄相思",
+        "confidence": 0.9,
+        "reasoning": "图片具有明显的国风元素，梅花与传统书法结合，传递出吉祥的寓意，符合国风插画的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/冬日雪景/image_高级全面屏4k超清手机壁纸_景深..._12.png",
+      "category": "风景",
+      "subcategory": "冬日雪景",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._12.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 548214,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "冬日雪景",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "冬日雪景",
+        "keywords": [
+          "冬季",
+          "雪景",
+          "列车",
+          "风景"
+        ],
+        "description": "一辆红色蒸汽列车行驶在雪覆盖的桥梁上，周围是白雪皑皑的树林。",
+        "filenameSuggestions": [
+          "冬季列车与雪林.jpg",
+          "雪林中的红色蒸汽列车.jpg"
+        ],
+        "displayTitle": "冬季列车与雪林",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一幅冬季风景，重点是雪景和列车，符合风景/冬日雪景的分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/海滨/image_高级全面屏4k超清手机壁纸_景深..._15.png",
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._15.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 537422,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "海滨",
+          "风景",
+          "洞穴",
+          "花卉"
+        ],
+        "description": "海滨洞穴风景，花团锦簇，景色如画。",
+        "filenameSuggestions": [
+          "海滨洞穴风景.jpg",
+          "岩石洞口的海滩美景.jpg"
+        ],
+        "displayTitle": "海滨洞穴的秘密花园",
+        "confidence": 0.9,
+        "reasoning": "图片展示了海滨风景，包含海水、沙滩、洞穴和花卉，符合风景/海滨的分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/雪山/image_高级全面屏4k超清手机壁纸_景深..._17.png",
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._17.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 334634,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "雪山",
+          "冰川",
+          "帆船",
+          "极光"
+        ],
+        "description": "冰雪覆盖的山脉在极光下闪烁，帆船在冰冷的水面上航行。",
+        "filenameSuggestions": [
+          "冰雪浮岛上的红色帆船.jpg",
+          "极光映照下的冰山与帆船.jpg"
+        ],
+        "displayTitle": "极光下的冰雪航程",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一艘帆船在冰雪覆盖的山脉和浮冰中航行，背景是极光闪烁的景象。根据决策树，该图片符合风景分类下的雪山子类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/星空/image_高级全面屏4k超清手机壁纸_景深..._25.png",
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._25.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 580203,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "星空",
+          "日蚀",
+          "梦幻",
+          "极光"
+        ],
+        "description": "日蚀时分，极光在星空中舞动，梦幻般的景象让人叹为观止。",
+        "filenameSuggestions": [
+          "日蚀星空下的梦幻极光.jpg",
+          "极光笼罩的日落奇观.jpg"
+        ],
+        "displayTitle": "日蚀下的梦幻极光",
+        "confidence": 0.9,
+        "reasoning": "图片呈现出日蚀的壮观景象，背景是星空，带有极光元素，整体氛围梦幻。根据现有分类体系，归入风景/星空类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/image_高级全面屏4k超清手机壁纸_景深..._24.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._24.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 231359,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "阳光",
+          "少女"
+        ],
+        "description": "阳光下的少女，清新脱俗",
+        "filenameSuggestions": [
+          "清新阳光下的长发女孩.jpg",
+          "微笑的短发青春少女.jpg"
+        ],
+        "displayTitle": "阳光下的清新少女",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A4，清新风格定义为明亮、治愈、氧气感。图片中少女面带微笑，背景明亮，色彩自然，符合清新风格特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/花卉/image_高级全面屏4k超清手机壁纸_景深..._22.png",
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._22.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 739680,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "花卉",
+          "风景",
+          "自然",
+          "户外"
+        ],
+        "description": "花海与远眺的美丽瞬间",
+        "filenameSuggestions": [
+          "盛开花海中欢笑的友人.jpg",
+          "背靠花田仰望天空的青春瞬间.jpg"
+        ],
+        "displayTitle": "花海与远眺",
+        "confidence": 0.9,
+        "reasoning": "图片展示了两个人在花海中背对着镜头伸展双臂，背景是美丽的自然风景。根据决策树，首先判断图片属于风景类，再根据花卉特征归入三级分类花卉。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/image_高级全面屏4k超清手机壁纸_景深..._4.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._4.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 518612,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "海边",
+          "少女"
+        ],
+        "description": "阳光下的海边少女，充满清新与活力",
+        "filenameSuggestions": [
+          "海边阳光下的清新少女.jpg",
+          "岩石海岸的微笑姑娘.jpg"
+        ],
+        "displayTitle": "海边阳光下的清新少女",
+        "confidence": 0.9,
+        "reasoning": "图片中的少女身穿轻薄的上衣，站在海边岩石上，面带微笑，阳光照射下充满清新与自然的气息。根据决策树A4，清新定义的特征是高明度、色彩鲜艳自然、笑容甜美、背景通常是草地/蓝天/白墙，构图干净。图片中少女的笑容甜美，背景是蓝天和大海，色彩自然且明亮，符合清新风格的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/雪山/image_高级全面屏4k超清手机壁纸_景深..._5.png",
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._5.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 333021,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "雪山",
+          "日出",
+          "金色光芒"
+        ],
+        "description": "日出时分，金色阳光洒在巍峨的雪山上，山峰与湖面相映成景，呈现出一幅宁静而壮丽的自然画卷。",
+        "filenameSuggestions": [
+          "金色晨光下的雪山峰.jpg",
+          "日出照亮的雪山湖景.jpg"
+        ],
+        "displayTitle": "日出时的巍峨雪山",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一幅雪山景观，日出时金色的光芒照亮山峰，符合风景/雪山的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/image_高级全面屏4k超清手机壁纸_景深..._7.png",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._7.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 412877,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "抽象艺术",
+          "梦幻",
+          "插画风格",
+          "创意"
+        ],
+        "description": "一匹黑色骏马跃入光影，背景是色彩斑斓的抽象艺术风格。",
+        "filenameSuggestions": [
+          "飞跃在光影中的黑色骏马.jpg",
+          "奔腾于梦幻光影的黑马.jpg"
+        ],
+        "displayTitle": "跃入光影的黑色烈马",
+        "confidence": 0.9,
+        "reasoning": "根据决策树，图片具有强烈的绘画感和抽象的艺术风格，未发现明确的动漫或人像特征，因此归类为插画-创意。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/文字/image_分享你的手机壁纸_神图壁纸_壁纸..._11.png",
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "image_分享你的手机壁纸_神图壁纸_壁纸..._11.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 368143,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "文字",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "文字",
+        "keywords": [
+          "文字",
+          "激励",
+          "涂鸦",
+          "创意"
+        ],
+        "description": "充满力量与激励的文字涂鸦艺术",
+        "filenameSuggestions": [
+          "红色涂鸦上的激励文字.jpg",
+          "白色背景上的红色文字壁画.jpg"
+        ],
+        "displayTitle": "奋进的文字力量",
+        "confidence": 0.9,
+        "reasoning": "图片主要以红色涂鸦和白色文字为主要元素，文字内容为激励性语句，整体风格偏向创意和艺术。文字设计富有动感和力量感，符合创意/文字分类的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/海滨/image_高级全面屏4k超清手机壁纸_景深..._10.png",
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._10.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 385055,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "海滨",
+          "黄昏",
+          "公路",
+          "棕榈树"
+        ],
+        "description": "一条通往海边的公路，夕阳西下，棕榈树挺拔，海水波光粼粼。",
+        "filenameSuggestions": [
+          "夕阳下的海滨公路.jpg",
+          "海边公路黄昏景象.jpg"
+        ],
+        "displayTitle": "夕阳下的海滨公路",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一条通往海边的公路，背景是夕阳下的海景和棕榈树，符合风景/海滨的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/爱国主题/image_高级全面屏4k超清手机壁纸_景深..._6.png",
+      "category": "创意",
+      "subcategory": "爱国主题",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._6.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 174389,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "爱国主题",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "爱国主题",
+        "keywords": [
+          "创意",
+          "爱国",
+          "小马",
+          "吉祥"
+        ],
+        "description": "一个充满爱国情怀的创意小马吉祥物。",
+        "filenameSuggestions": [
+          "桌面上的小马吉祥物.jpg",
+          "客厅装饰小马摆件.jpg"
+        ],
+        "displayTitle": "吉祥如意小马",
+        "confidence": 0.9,
+        "reasoning": "图片中出现小马和‘马上发财’的字样，具有创意和爱国主题。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/海滨/image_高级全面屏4k超清手机壁纸_景深..._2.png",
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._2.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 489741,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "海滨",
+          "山景",
+          "水下世界",
+          "海洋生物",
+          "自然景观"
+        ],
+        "description": "一幅山脉与海洋交汇的壮丽景象，水下珊瑚礁与小丑鱼生动呈现。",
+        "filenameSuggestions": [
+          "海山相映的壮丽海滨风景.jpg",
+          "水下珊瑚礁与小丑鱼的奇幻世界.jpg"
+        ],
+        "displayTitle": "双重奇观：海陆交汇的绚丽风光",
+        "confidence": 0.9,
+        "reasoning": "图像展示了海滨风景，包含山脉、海洋、珊瑚礁和小丑鱼，符合风景/海滨分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/抽象/image_分享你的手机壁纸_神图壁纸_壁纸..._14.png",
+      "category": "创意",
+      "subcategory": "抽象",
+      "filename": "image_分享你的手机壁纸_神图壁纸_壁纸..._14.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 153681,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "抽象",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "抽象",
+        "keywords": [
+          "抽象艺术",
+          "紫色",
+          "音乐"
+        ],
+        "description": "紫色音乐界面的抽象艺术表现",
+        "filenameSuggestions": [
+          "手机中的紫色音乐界面.jpg",
+          "紫色光芒下的音乐播放器.jpg"
+        ],
+        "displayTitle": "紫色音乐的夜晚",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一个手机屏幕，背景是紫色音乐播放界面，带有抽象的艺术感，符合创意/抽象的分类特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/文字/image_分享你的手机壁纸_神图壁纸_壁纸..._15.png",
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "image_分享你的手机壁纸_神图壁纸_壁纸..._15.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 149111,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "创意",
+        "category": "创意",
+        "third": "文字",
+        "subcategory": "文字",
+        "filenameSuggestions": [
+          "屏幕上的紫色音乐界面与水杯.jpg",
+          "紫光下的玻璃杯和歌单界面.jpg"
+        ],
+        "filenames": [
+          "屏幕上的紫色音乐界面与水杯.jpg",
+          "紫光下的玻璃杯和歌单界面.jpg"
+        ],
+        "displayTitle": "紫色光影下的静谧时光",
+        "keywords": [
+          "紫色",
+          "音乐",
+          "夜晚"
+        ],
+        "description": "紫色灯光照亮的屏幕和水杯，营造出一种静谧的氛围。",
+        "confidence": 0.9,
+        "reasoning": "图片以紫色为主色调，展示了一个音乐播放界面和一个水杯，整体氛围偏向抽象和感官体验，根据主分类和二级分类规则，归类为'创意'。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/影视/猫和老鼠/image_高级全面屏4k超清手机壁纸_景深..._3.png",
+      "category": "影视",
+      "subcategory": "猫和老鼠",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._3.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 217643,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "影视",
+        "subcategory": "猫和老鼠",
+        "primary": "mobile",
+        "secondary": "影视",
+        "third": "猫和老鼠",
+        "keywords": [
+          "猫和老鼠",
+          "经典动画",
+          "影视形象"
+        ],
+        "description": "汤姆和杰瑞的经典形象，充满童年回忆的动画瞬间。",
+        "filenameSuggestions": [
+          "汤姆与杰瑞的黑白回忆.jpg",
+          "欢乐时光里的猫鼠传奇.jpg"
+        ],
+        "displayTitle": "经典动画中的永恒友谊",
+        "confidence": 0.9,
+        "reasoning": "图片中明确出现了汤姆和杰瑞的形象，属于影视类别下的经典动画IP形象。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/image_高级全面屏4k超清手机壁纸_景深..._8.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._8.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 593773,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "沙滩",
+          "长发",
+          "粉色上衣"
+        ],
+        "description": "一位长发女孩在海滩上展现魅力",
+        "filenameSuggestions": [
+          "身穿粉色上衣的长发女孩在海滩.jpg",
+          "海边沙滩上的清新女郎.jpg"
+        ],
+        "displayTitle": "海风轻抚的沙滩诱惑",
+        "confidence": 0.9,
+        "reasoning": "图片中女孩身穿粉色上衣和牛仔裤，站在海滩上，展现出成熟的魅力。根据图片内容，女孩的穿着和姿势符合魅力的定义。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/雪山/image_高级全面屏4k超清手机壁纸_景深..._9.png",
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "image_高级全面屏4k超清手机壁纸_景深..._9.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 431467,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "雪山",
+          "小镇",
+          "风景"
+        ],
+        "description": "瑞士阿尔卑斯山脚下的宁静小镇风光",
+        "filenameSuggestions": [
+          "瑞士阿尔卑斯山雪景小镇.jpg",
+          "山麓下的欧洲古镇风光.jpg"
+        ],
+        "displayTitle": "阿尔卑斯山下的宁静小镇",
+        "confidence": 0.9,
+        "reasoning": "图片展示了典型的欧洲小镇风景，背景是壮丽的阿尔卑斯雪山，符合风景分类下的雪山子类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/image_分享你的手机壁纸_神图壁纸_壁纸..._5.png",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "image_分享你的手机壁纸_神图壁纸_壁纸..._5.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 149063,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "书香",
+          "静谧"
+        ],
+        "description": "一个少年在书桌前静谧学习的场景",
+        "filenameSuggestions": [
+          "身穿白色长衫的书桌前少年.jpg",
+          "雾气背景下的书香门第.jpg"
+        ],
+        "displayTitle": "静谧时光里的书香",
+        "confidence": 0.9,
+        "reasoning": "图片具有明显的插画风格，内容创意独特，人物表情和环境氛围都体现出一种静谧和专注。根据决策树B2，判定为插画/创意。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/文字/image_分享你的手机壁纸_神图壁纸_壁纸..._6.png",
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "image_分享你的手机壁纸_神图壁纸_壁纸..._6.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 225848,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "文字",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "文字",
+        "keywords": [
+          "创意",
+          "文字",
+          "激励"
+        ],
+        "description": "这是一幅以红色为背景的创意壁画，融合了金色装饰和激励文字。",
+        "filenameSuggestions": [
+          "红背景金色装饰财富密码.jpg",
+          "激励文字海报设计.jpg"
+        ],
+        "displayTitle": "财富密码壁画",
+        "confidence": 0.9,
+        "reasoning": "图片以红色为背景，中间有金色装饰和黑色及白色文字，内容包括'GET MONEY'、'发财'、'HAPPY EVERY DAY'等激励性语言，根据现有分类体系，归类为'创意/文字'。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/image_分享你的手机壁纸_神图壁纸_壁纸..._9.png",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "image_分享你的手机壁纸_神图壁纸_壁纸..._9.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 187258,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "创意",
+          "插画",
+          "小马",
+          "喜庆"
+        ],
+        "description": "三匹小马在中国风背景下展现喜庆氛围。",
+        "filenameSuggestions": [
+          "奔腾的三匹小马.jpg",
+          "喜庆的三匹马壁画.jpg"
+        ],
+        "displayTitle": "喜庆的三匹小马",
+        "confidence": 0.9,
+        "reasoning": "图片以三匹小马和中国风文字组成，整体风格偏向插画，且具有创意和喜庆元素。根据现有分类体系，归入'插画/创意'。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/星空/img1.wallspic.com-xing_zhi-tu_biao-yu_zhou-tian_wen_xue_dui_xiang-wai_ceng_kong_jian-1179x2556.png",
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "img1.wallspic.com-xing_zhi-tu_biao-yu_zhou-tian_wen_xue_dui_xiang-wai_ceng_kong_jian-1179x2556.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 5422201,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "星空",
+          "月亮",
+          "风景"
+        ],
+        "description": "超大月亮在星空下闪耀，地面有河流和森林剪影。",
+        "filenameSuggestions": [
+          "星空下的超大月亮和森林小溪.jpg",
+          "月光照亮的夜空景象.jpg"
+        ],
+        "displayTitle": "星空下的璀璨月光",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了星空和超大月亮的景观，地面有河流和森林的剪影。根据决策树，首先判断为风景类，再根据图片中的星空细节，归入风景/星空。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/国风/img2.wallspic.com-yi_shu-shan_zi_de_yi_shu-hui_hua-zi_se_de-ka_tong-2214x4096.jpg",
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "img2.wallspic.com-yi_shu-shan_zi_de_yi_shu-hui_hua-zi_se_de-ka_tong-2214x4096.jpg",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 4872917,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "紫色",
+          "樱花"
+        ],
+        "description": "一位身穿华丽紫色国风服装的女子，站在樱花桥畔，手持红色托盘，周围飘落着樱花，氛围梦幻。",
+        "filenameSuggestions": [
+          "身穿紫色国风长裙的美丽女子.jpg",
+          "樱花飘落的古风仙女插画.jpg"
+        ],
+        "displayTitle": "樱花桥畔的紫衣仙姬",
+        "confidence": 0.9,
+        "reasoning": "图片具有浓厚的国风插画特征，人物服饰和背景都体现了传统中国风格，樱花和古桥的场景进一步强化了这一主题。根据现有分类体系，归为'插画/国风'。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/img3.wallspic.com-yi_shu-tao-ka_tong-zi_se_de-fen_hong_se-3372x5994.png",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "img3.wallspic.com-yi_shu-tao-ka_tong-zi_se_de-fen_hong_se-3372x5994.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 12288706,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "红发",
+          "星光"
+        ],
+        "description": "一幅充满幻想的插画，描绘了一位神秘的红发少女。",
+        "filenameSuggestions": [
+          "星光下的神秘红发少女.jpg",
+          "夜幕中闪耀的红发美人.jpg"
+        ],
+        "displayTitle": "星光下的神秘红发少女",
+        "confidence": 0.9,
+        "reasoning": "图片具有浓厚的插画风格，人物形象生动，背景富有创意，使用了大量星光效果，归类为插画/创意。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/海贼王/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._17.png",
+      "category": "动漫",
+      "subcategory": "海贼王",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._17.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 311178,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "海贼王",
+        "subcategory": "海贼王",
+        "filenameSuggestions": [
+          "酷酷的草帽少年.jpg",
+          "自信少年立姿.jpg"
+        ],
+        "filenames": [
+          "酷酷的草帽少年.jpg",
+          "自信少年立姿.jpg"
+        ],
+        "displayTitle": "海贼王世界里的年轻冒险者",
+        "keywords": [
+          "动漫",
+          "3D渲染",
+          "草帽少年"
+        ],
+        "description": "一位带着草帽、身穿休闲装的少年，充满自信与冒险精神。",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一位具有动漫风格的少年，特征如大眼睛、夸张发型，与海贼王主角路飞相似，但未明确指代具体IP，故归入动漫/通用。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/文字/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._14.png",
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._14.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 131880,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "文字",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "文字",
+        "keywords": [
+          "抽象",
+          "未来主义",
+          "创意设计"
+        ],
+        "description": "极简抽象的未来主义海报，强调文字与符号。",
+        "filenameSuggestions": [
+          "极简抽象的未来主义海报.jpg",
+          "富有内涵的创意设计海报2026.jpg"
+        ],
+        "displayTitle": "极简抽象的未来主义海报",
+        "confidence": 0.9,
+        "reasoning": "图片展示了抽象的未来主义风格，包含富有意义的文字排列与设计，属于创意类中的文字子类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/爱国主题/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._11.png",
+      "category": "创意",
+      "subcategory": "爱国主题",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._11.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 366164,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "爱国主题",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "爱国主题",
+        "keywords": [
+          "福气",
+          "爱国主题",
+          "新年"
+        ],
+        "description": "喜庆的福气主题海报，寓意新的一年福气满溢。",
+        "filenameSuggestions": [
+          "福气满溢迎新年.jpg",
+          "2026年福气主题海报.jpg"
+        ],
+        "displayTitle": "福气满溢迎新年",
+        "confidence": 0.9,
+        "reasoning": "图片主要以福字和吉祥图案组成，搭配2026字样，整体氛围喜庆，符合爱国主题和吉祥寓意，属于创意/爱国主题分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/国风/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._13.png",
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._13.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 183386,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "祥瑞",
+          "书法艺术"
+        ],
+        "description": "紫色渐变背景上的金色书法艺术",
+        "filenameSuggestions": [
+          "祥瑞紫气东来.jpg",
+          "国风祥瑞图案.jpg"
+        ],
+        "displayTitle": "祥瑞紫气东来",
+        "confidence": 0.9,
+        "reasoning": "图片以金色书法为中心，周围环绕着复杂的图案和文字，整体呈现出浓厚的国风艺术气息。根据现有分类体系，归入'插画/国风'。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/氛围感/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._22.png",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._22.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 219501,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "神秘",
+          "帽子",
+          "长发"
+        ],
+        "description": "一位戴着帽子的女孩，面容部分被遮挡，展现出神秘的氛围。",
+        "filenameSuggestions": [
+          "戴帽子的神秘少女.jpg",
+          "云影遮面的长发女孩.jpg"
+        ],
+        "displayTitle": "云影下的神秘女孩",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树中的【氛围感】(Atmosphere)特征：不露脸（遮挡/模糊），重光影意境，看不清具体五官，判定为[氛围感]"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/文字/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._20.png",
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._20.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 89948,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "文字",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "文字",
+        "keywords": [
+          "书法",
+          "光影",
+          "艺术"
+        ],
+        "description": "柔和的光线照亮了墙上的书法艺术品，呈现出一种宁静与文化的氛围。",
+        "filenameSuggestions": [
+          "柔和光线下的书法艺术.jpg",
+          "墙壁上的温暖书香.jpg"
+        ],
+        "displayTitle": "书香门第的温暖光芒",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了一件书法作品，被柔和的光线照亮，背景简洁，重点突出文字的艺术性。根据决策树，首先排除人像相关分类。图片不属于插画、动漫、风景、萌宠、影视、IP形象等分类，而是一件以文字艺术为主的作品，因此归类为创意/文字。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._30.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._30.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 130948,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "白发",
+          "少女",
+          "窗景"
+        ],
+        "description": "一位白发少女在窗边享受悠闲时光，穿着天蓝色毛衣，戴着耳机，背景是明亮的蓝天白云。",
+        "filenameSuggestions": [
+          "穿着天蓝色毛衣的长发少女.jpg",
+          "对着窗外微笑的白发女孩.jpg"
+        ],
+        "displayTitle": "窗外云天与少女的悠闲时光",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A4，清新类定义为明亮、治愈、氧气感。图片中少女面带微笑，穿着明亮的天蓝色毛衣，背景是蓝天白云，整体色彩明亮且自然，符合清新类特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/文字/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._19.png",
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._19.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 113924,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "文字",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "文字",
+        "keywords": [
+          "书法",
+          "励志",
+          "艺术",
+          "文字"
+        ],
+        "description": "一幅充满艺术气息的书法作品，表达了对自由与自律的深刻理解。",
+        "filenameSuggestions": [
+          "橙色书法艺术品.jpg",
+          "墙上悬挂的励志书法.jpg"
+        ],
+        "displayTitle": "书香中的自由宣言",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了一幅书法作品，内容为黑色字体在橙色背景上，强调了文字艺术和励志主题。根据决策树，归入创意/文字分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/爱国主题/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._33.png",
+      "category": "创意",
+      "subcategory": "爱国主题",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._33.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 278416,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "爱国主题",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "爱国主题",
+        "keywords": [
+          "爱国主题",
+          "中国风",
+          "创意"
+        ],
+        "description": "展现中国风情与建筑美景的创意设计",
+        "filenameSuggestions": [
+          "龙腾中国风景.jpg",
+          "中国风格建筑剪影.jpg"
+        ],
+        "displayTitle": "中国风韵，龙腾九州",
+        "confidence": 0.9,
+        "reasoning": "图片中包含中国传统建筑、龙元素和爱国标语，符合爱国主题创意风格"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/插画/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._27.png",
+      "category": "人像",
+      "subcategory": "插画",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._27.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 134540,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "插画",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "插画",
+        "keywords": [
+          "插画",
+          "人像",
+          "粉色帽子",
+          "长发"
+        ],
+        "description": "一位戴着粉色帽子的美丽少女。",
+        "filenameSuggestions": [
+          "戴粉色棒球帽的长发少女.jpg",
+          "粉色帽子下的美丽.jpg"
+        ],
+        "displayTitle": "帽檐下的微笑",
+        "confidence": 0.9,
+        "reasoning": "根据图像特征，识别为插画风格的人像图片，人物戴着粉色帽子，展现出美丽与时尚。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/蜡笔小新/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._8.png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._8.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 436136,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动漫",
+          "秋景",
+          "童真"
+        ],
+        "description": "小新与白狗在秋色中骑行，另一图小新手提灯笼喜迎节日氛围。",
+        "filenameSuggestions": [
+          "秋日骑行中的小新.jpg",
+          "提灯小新与秋色.jpg"
+        ],
+        "displayTitle": "秋日里的童真",
+        "confidence": 0.9,
+        "reasoning": "图片中出现蜡笔小新和其宠物狗，场景和角色均符合蜡笔小新IP特征，归入动漫/蜡笔小新分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/风景/image_神图壁纸_锁屏壁纸_壁纸_该换壁..._9.png",
+      "category": "插画",
+      "subcategory": "风景",
+      "filename": "image_神图壁纸_锁屏壁纸_壁纸_该换壁..._9.png",
+      "createdAt": "2026-02-18T13:12:13.757Z",
+      "size": 370128,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "风景",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "风景",
+        "keywords": [
+          "插画",
+          "风景",
+          "星空",
+          "月亮"
+        ],
+        "description": "一幅梦幻的星空与月亮的插画，充满金色光芒与神秘感。",
+        "filenameSuggestions": [
+          "梦幻星空下的满月.jpg",
+          "金色星辰与月亮的夜空.jpg"
+        ],
+        "displayTitle": "月光下的星空幻境",
+        "confidence": 0.9,
+        "reasoning": "根据决策树，首先判断图片为插画类，场景以风景（星空和月亮）为主，因此归类为插画/风景。"
+      }
+    }
+  ]
+}
