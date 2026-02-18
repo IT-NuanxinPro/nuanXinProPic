@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 49,
+  "total": 50,
   "items": [
+    {
+      "date": "2026-02-19",
+      "title": "大地凝视着我们",
+      "copyright": "乌塔克莱夫海滩的“龙之眼”岩层，挪威 (© reisegraf/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B9%8C%E5%A1%94%E5%85%8B%E8%8E%B1%E5%A4%AB%E6%B5%B7%E6%BB%A9&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260218_DragonsEyeRock%22&FORM=HPQUIZ",
+      "hsh": "5de53f6693a0f2eb903060b7e2f83838",
+      "urlbase": "/th?id=OHR.DragonsEyeRock_ZH-CN6164478776"
+    },
     {
       "date": "2026-02-18",
       "title": "生而自由，永不驯服",
@@ -444,5 +453,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-02-17T17:56:49.346Z"
+  "updatedAt": "2026-02-18T17:54:27.259Z"
 }
