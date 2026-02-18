@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "createdAt": "2026-02-18T14:21:46.277Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/蜡笔小新/image_蜡笔小新话题_流浪春天话题_情头..._0.png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "image_蜡笔小新话题_流浪春天话题_情头..._0.png",
+      "createdAt": "2026-02-18T14:21:46.277Z",
+      "size": 172797,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动漫",
+          "卡通"
+        ],
+        "description": "蜡笔小新在花园中送花的场景，充满童趣和活力。",
+        "filenameSuggestions": [
+          "可爱蜡笔小新送花.jpg",
+          "蜡笔小新花园惊喜.jpg"
+        ],
+        "displayTitle": "蜡笔小新送花",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，识别出为蜡笔小新角色，归类为动漫/蜡笔小新。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/蜡笔小新/image_蜡笔小新话题_流浪春天话题_情头..._1.png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "image_蜡笔小新话题_流浪春天话题_情头..._1.png",
+      "createdAt": "2026-02-18T14:21:46.277Z",
+      "size": 154204,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动漫",
+          "户外",
+          "野餐"
+        ],
+        "description": "蜡笔小新在户外野餐的场景，充满童真和趣味。",
+        "filenameSuggestions": [
+          "绿野仙踪中的蜡笔小新.jpg",
+          "公园野餐的蜡笔小新插图.jpg"
+        ],
+        "displayTitle": "户外野餐的快乐时光",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，识别出为蜡笔小新角色，因此归类为动漫/蜡笔小新。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/蜡笔小新/image_蜡笔小新话题_流浪春天话题_情头..._2.png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "image_蜡笔小新话题_流浪春天话题_情头..._2.png",
+      "createdAt": "2026-02-18T14:21:46.277Z",
+      "size": 147113,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动漫",
+          "卡通",
+          "花园"
+        ],
+        "description": "蜡笔小新在花园中骑着滑板，惊喜地持着一束鲜花。",
+        "filenameSuggestions": [
+          "春日蜡笔小新花园骑行.jpg",
+          "可爱蜡笔小新持花束动态.jpg"
+        ],
+        "displayTitle": "蜡笔小新花园邂逅",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，识别出为蜡笔小新角色，归类为动漫/蜡笔小新。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/蜡笔小新/image_蜡笔小新话题_流浪春天话题_情头..._3.png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "image_蜡笔小新话题_流浪春天话题_情头..._3.png",
+      "createdAt": "2026-02-18T14:21:46.277Z",
+      "size": 176453,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动漫",
+          "滑板",
+          "花海"
+        ],
+        "description": "蜡笔小新在花海中滑板的场景，充满童趣和春天的气息。",
+        "filenameSuggestions": [
+          "蓝色滑板小新花丛嬉戏.jpg",
+          "蜡笔小新春季花海滑板场景.jpg"
+        ],
+        "displayTitle": "花季的惊喜",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A2，识别出图片中的角色为蜡笔小新，因此归类为动漫/蜡笔小新。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/蜡笔小新/image_蜡笔小新话题_流浪春天话题_情头..._4.png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "image_蜡笔小新话题_流浪春天话题_情头..._4.png",
+      "createdAt": "2026-02-18T14:21:46.277Z",
+      "size": 192842,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动漫",
+          "春日",
+          "花"
+        ],
+        "description": "蜡笔小新在春日花园中送花的温馨场景。",
+        "filenameSuggestions": [
+          "春日小新送花.jpg",
+          "蜡笔小新花园漫步.jpg"
+        ],
+        "displayTitle": "小新与春日花瓣",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，识别出是动漫角色蜡笔小新，归入动漫/蜡笔小新"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/蜡笔小新/image_蜡笔小新话题_流浪春天话题_情头..._5.png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "image_蜡笔小新话题_流浪春天话题_情头..._5.png",
+      "createdAt": "2026-02-18T14:21:46.277Z",
+      "size": 185828,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "蜡笔小新",
+        "subcategory": "蜡笔小新",
+        "filenameSuggestions": [
+          "蜡笔小新与小狗花田嬉戏.jpg"
+        ],
+        "filenames": [
+          "蜡笔小新与小狗花田嬉戏.jpg"
+        ],
+        "displayTitle": "春日花田童趣",
+        "keywords": [
+          "动漫",
+          "蜡笔小新",
+          "春日",
+          "花田"
+        ],
+        "description": "蜡笔小新与小狗在花田中嬉戏，阳光灿烂，春意盎然。",
+        "confidence": 0.9,
+        "reasoning": "图片中出现蜡笔小新和其宠物狗，场景为花田，符合动漫风格。根据决策树A2，判定为动漫/通用。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/蜡笔小新/image_蜡笔小新话题_流浪春天话题_情头..._6.png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "image_蜡笔小新话题_流浪春天话题_情头..._6.png",
+      "createdAt": "2026-02-18T14:21:46.277Z",
+      "size": 170247,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "蜡笔小新",
+        "subcategory": "蜡笔小新",
+        "filenameSuggestions": [
+          "可爱卡通人物夏日清新.jpg",
+          "动漫风格小男孩拿饮料.jpg"
+        ],
+        "filenames": [
+          "可爱卡通人物夏日清新.jpg",
+          "动漫风格小男孩拿饮料.jpg"
+        ],
+        "displayTitle": "可爱卡通人物夏日清新",
+        "keywords": [
+          "动漫",
+          "卡通",
+          "清新"
+        ],
+        "description": "一个可爱的卡通小男孩，拿着饮料，穿着休闲装，站在花田里。",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A2，图片为动漫风格但无法识别具体作品，归类为动漫/通用。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/蜡笔小新/image_蜡笔小新话题_流浪春天话题_情头..._7.png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "image_蜡笔小新话题_流浪春天话题_情头..._7.png",
+      "createdAt": "2026-02-18T14:21:46.277Z",
+      "size": 172186,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "蜡笔小新",
+        "subcategory": "蜡笔小新",
+        "filenameSuggestions": [
+          "春日樱花小男孩与小白狗.jpg",
+          "好奇小子与忠诚小狗.jpg"
+        ],
+        "filenames": [
+          "春日樱花小男孩与小白狗.jpg",
+          "好奇小子与忠诚小狗.jpg"
+        ],
+        "displayTitle": "樱花下的好奇时刻",
+        "keywords": [
+          "动漫",
+          "樱花",
+          "蜡笔小新",
+          "小狗"
+        ],
+        "description": "小男孩和白色小狗在樱花树下玩耍。",
+        "confidence": 0.9,
+        "reasoning": "图片中出现了一个小男孩和一只白色小狗，场景是樱花树下的草地，符合动漫风格。男孩的形象和狗的形象都不是特定IP形象，但整体风格符合动漫/通用的特征。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/蜡笔小新/image_蜡笔小新话题_流浪春天话题_情头..._8.png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "image_蜡笔小新话题_流浪春天话题_情头..._8.png",
+      "createdAt": "2026-02-18T14:21:46.277Z",
+      "size": 144917,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动漫",
+          "卡通"
+        ],
+        "description": "蜡笔小新在花园中持花惊喜表情",
+        "filenameSuggestions": [
+          "可爱蜡笔小新花园惊喜.jpg",
+          "蜡笔小新持花微笑插图.jpg"
+        ],
+        "displayTitle": "阳光下的蜡笔小新",
+        "confidence": 0.9,
+        "reasoning": "根据图像特征，识别出为蜡笔小新角色，因此归类为动漫/蜡笔小新"
+      }
+    }
+  ]
+}
