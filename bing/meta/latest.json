@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-02-18T17:54:27.273Z",
+  "generatedAt": "2026-02-19T17:51:33.072Z",
   "total": 7,
   "items": [
+    {
+      "date": "2026-02-20",
+      "title": "光照之处",
+      "copyright": "约塞米蒂国家公园里的火瀑布，加利福尼亚州，美国 (© Jorge Villalba/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%BA%A6%E5%A1%9E%E7%B1%B3%E8%92%82%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD%E9%87%8C%E7%9A%84%E7%81%AB%E7%80%91%E5%B8%83&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260219_AdamsFirefall%22&FORM=HPQUIZ",
+      "hsh": "d7e6513e69e4fde1fe73f72be0618640",
+      "urlbase": "/th?id=OHR.AdamsFirefall_ZH-CN9409143565"
+    },
     {
       "date": "2026-02-19",
       "title": "大地凝视着我们",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260213_ValentineHearts%22&FORM=HPQUIZ",
       "hsh": "12f4f733d7a10cad65a150cffd972d85",
       "urlbase": "/th?id=OHR.ValentineHearts_ZH-CN5332774664"
-    },
-    {
-      "date": "2026-02-13",
-      "title": "为拉近距离而建",
-      "copyright": "连接老挝和泰国的第三座泰老友谊大桥 (© chaiyut samsuk/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E7%AC%AC%E4%B8%89%E5%BA%A7%E6%B3%B0%E8%80%81%E5%8F%8B%E8%B0%8A%E5%A4%A7%E6%A1%A5&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260212_FriendshipBridge%22&FORM=HPQUIZ",
-      "hsh": "8b8996dc66e890d23857e90d02e56fa9",
-      "urlbase": "/th?id=OHR.FriendshipBridge_ZH-CN5199165736"
     }
   ]
 }
