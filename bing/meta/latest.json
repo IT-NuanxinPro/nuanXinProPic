@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-02-20T17:38:57.092Z",
+  "generatedAt": "2026-02-21T17:26:49.381Z",
   "total": 7,
   "items": [
+    {
+      "date": "2026-02-22",
+      "title": "群山的母亲",
+      "copyright": "马姆托尔山，德比郡，英格兰 (© john finney photography/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%A9%AC%E5%A7%86%E6%89%98%E5%B0%94%E5%B1%B1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260221_MamTorSunrise%22&FORM=HPQUIZ",
+      "hsh": "de10e0ef0ec7299ec3d1c6c5ad7cdb6d",
+      "urlbase": "/th?id=OHR.MamTorSunrise_ZH-CN9698497298"
+    },
     {
       "date": "2026-02-21",
       "title": "冬日的低语",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260215_ChineseNewYearEveY26%22&FORM=HPQUIZ",
       "hsh": "0a92ab570edd03124a20ca3421a43ce9",
       "urlbase": "/th?id=OHR.ChineseNewYearEveY26_ZH-CN7770318975"
-    },
-    {
-      "date": "2026-02-15",
-      "title": "浪涛下的歌谣",
-      "copyright": "蒙特雷湾的大翅鲸(座头鲸)，加利福尼亚州，美国 (© Kiliii Fish/Cavan Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E9%B2%B8%E9%B1%BC&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260214_MontereyHumpbacks%22&FORM=HPQUIZ",
-      "hsh": "e9b375bb1d202badabad4471eee4051c",
-      "urlbase": "/th?id=OHR.MontereyHumpbacks_ZH-CN5426789466"
     }
   ]
 }
