@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-02-21T17:26:49.381Z",
+  "generatedAt": "2026-02-22T17:26:57.477Z",
   "total": 7,
   "items": [
+    {
+      "date": "2026-02-23",
+      "title": "雪原之王",
+      "copyright": "大白鹭，上巴伐利亚州，德国 (© Konrad Wothe/naturepl.com)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%A4%A7%E7%99%BD%E9%B9%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260222_BavariaEgret%22&FORM=HPQUIZ",
+      "hsh": "3352b36eb4d52279c23a648fef52a9c3",
+      "urlbase": "/th?id=OHR.BavariaEgret_ZH-CN0521643213"
+    },
     {
       "date": "2026-02-22",
       "title": "群山的母亲",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260216_SpringFestivalY26%22&FORM=HPQUIZ",
       "hsh": "feb0de4c3e69a31cf594fa921b5d503e",
       "urlbase": "/th?id=OHR.SpringFestivalY26_ZH-CN0228318064"
-    },
-    {
-      "date": "2026-02-16",
-      "title": "祝除夕团圆，新年顺遂！",
-      "copyright": "庆祝春节的龙形灯笼，中国西安 (© Pan Hong/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E9%99%A4%E5%A4%95%E5%A4%9C&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260215_ChineseNewYearEveY26%22&FORM=HPQUIZ",
-      "hsh": "0a92ab570edd03124a20ca3421a43ce9",
-      "urlbase": "/th?id=OHR.ChineseNewYearEveY26_ZH-CN7770318975"
     }
   ]
 }

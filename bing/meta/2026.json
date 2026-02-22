@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 53,
+  "total": 54,
   "items": [
+    {
+      "date": "2026-02-23",
+      "title": "雪原之王",
+      "copyright": "大白鹭，上巴伐利亚州，德国 (© Konrad Wothe/naturepl.com)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%A4%A7%E7%99%BD%E9%B9%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260222_BavariaEgret%22&FORM=HPQUIZ",
+      "hsh": "3352b36eb4d52279c23a648fef52a9c3",
+      "urlbase": "/th?id=OHR.BavariaEgret_ZH-CN0521643213"
+    },
     {
       "date": "2026-02-22",
       "title": "群山的母亲",
@@ -480,5 +489,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-02-21T17:26:49.367Z"
+  "updatedAt": "2026-02-22T17:26:57.457Z"
 }
