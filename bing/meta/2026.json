@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 54,
+  "total": 55,
   "items": [
+    {
+      "date": "2026-02-24",
+      "title": "池底的生命律动",
+      "copyright": "大天坑里的睡莲，图卢姆，墨西哥 (© Christian Vizl/Tandem Stills + Motion)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9B%BE%E5%8D%A2%E5%A7%86%E5%A4%A7%E5%A4%A9%E5%9D%91&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260223_TulumLilies%22&FORM=HPQUIZ",
+      "hsh": "57ce15bd062f387bf4a3392fd5231460",
+      "urlbase": "/th?id=OHR.TulumLilies_ZH-CN0959403613"
+    },
     {
       "date": "2026-02-23",
       "title": "雪原之王",
@@ -489,5 +498,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-02-22T17:26:57.457Z"
+  "updatedAt": "2026-02-23T18:04:00.301Z"
 }
