@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 56,
+  "total": 57,
   "items": [
+    {
+      "date": "2026-02-26",
+      "title": "一幅壮丽的景象",
+      "copyright": "大峡谷和科罗拉多河，亚利桑那州，美国 (© Matt Anderson Photography/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%BE%8E%E5%9B%BD%E5%A4%A7%E5%B3%A1%E8%B0%B7%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260225_GrandSunset%22&FORM=HPQUIZ",
+      "hsh": "8b5e695b3eb4caf2a66b15b3c1d0040a",
+      "urlbase": "/th?id=OHR.GrandSunset_ZH-CN1905986519"
+    },
     {
       "date": "2026-02-25",
       "title": "冰，由内而外透出光芒",
@@ -507,5 +516,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-02-24T18:44:27.815Z"
+  "updatedAt": "2026-02-25T17:58:16.593Z"
 }
