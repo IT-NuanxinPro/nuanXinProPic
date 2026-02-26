@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-02-25T17:58:44.929Z",
-  "count": 462,
+  "lastUpdated": "2026-02-26T17:59:44.418Z",
+  "count": 465,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -12733,6 +12733,81 @@
         "displayTitle": "云海之上，雪峰辉映的日出美景",
         "confidence": 0.9,
         "reasoning": "图片展示了壮丽的雪山景观，山峰高耸入云，云海覆盖在山谷中，日出时分天空呈现出金色光芒。根据决策树C1，具体场景优先，判定为风景/雪山。"
+      }
+    },
+    "wallpaper/desktop/插画/创意/黑发女孩的诱惑姿势.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "黑发女孩的诱惑姿势.png",
+      "createdAt": "2026-02-26T17:58:53.000Z",
+      "cdnTag": "v1.1.94",
+      "size": 5651963,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "黑发女孩的诱惑姿势"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/创意/梦幻中的白衣少女.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "梦幻中的白衣少女.png",
+      "createdAt": "2026-02-26T17:58:53.000Z",
+      "cdnTag": "v1.1.94",
+      "size": 8306289,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "梦幻中的白衣少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/梦幻短发的二次元少女.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "梦幻短发的二次元少女.png",
+      "createdAt": "2026-02-26T17:58:53.000Z",
+      "cdnTag": "v1.1.94",
+      "size": 6457697,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "梦幻短发的二次元少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
       }
     }
   }
