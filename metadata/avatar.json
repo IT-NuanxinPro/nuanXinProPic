@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "avatar",
-  "lastUpdated": "2026-02-27T17:37:00.000Z",
-  "count": 382,
+  "lastUpdated": "2026-02-28T09:30:47.561Z",
+  "count": 408,
   "images": {
     "wallpaper/avatar/IP形象/Hello Kitty/HelloKitty_好运.png": {
       "category": "IP形象",
@@ -10885,6 +10885,946 @@
         "displayTitle": "阳光下的蜡笔小新",
         "confidence": 0.9,
         "reasoning": "根据图像特征，识别出为蜡笔小新角色，因此归类为动漫/蜡笔小新"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/640.webp": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "640.webp",
+      "createdAt": "2026-02-28T09:15:41.224Z",
+      "cdnTag": "v1.1.96",
+      "size": 91826,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "少女",
+          "清新"
+        ],
+        "description": "一位戴着蓝色毛线帽和白色毛衣的清新少女。",
+        "filenameSuggestions": [
+          "清新风格少女头像.jpg",
+          "甜美女孩戴帽子写真.jpg"
+        ],
+        "displayTitle": "清新少女风采",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，人物形象甜美可爱，展现出少女的清新风格，归类为人像/甜妹。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/641.webp": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "641.webp",
+      "createdAt": "2026-02-28T09:16:43.760Z",
+      "cdnTag": "v1.1.96",
+      "size": 98336,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "冬季",
+          "雪景"
+        ],
+        "description": "一位穿着白色外套和紫色帽子的少女，在雪景前展现甜美微笑。",
+        "filenameSuggestions": [
+          "冬季甜美少女雪景.jpg",
+          "可爱女孩雪天温暖瞬间.jpg"
+        ],
+        "displayTitle": "冬季里的甜美少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，少女的穿着打扮和表情符合甜妹的特征，因此归类为人像/甜妹。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/642.webp": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "642.webp",
+      "createdAt": "2026-02-28T09:16:43.760Z",
+      "cdnTag": "v1.1.96",
+      "size": 201862,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "少女",
+          "可爱"
+        ],
+        "description": "一个穿着黄色毛衣的少女，蹲在楼梯下，拿着手机自拍，散发着青春的活力。",
+        "filenameSuggestions": [
+          "可爱少女黄色系穿搭.jpg",
+          "甜美风格手机自拍.jpg"
+        ],
+        "displayTitle": "阳光下的甜美少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，少女穿着甜美可爱的服装，面带微笑，整体氛围感偏向甜美风格，因此归类为 人像/甜妹。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/643.webp": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "643.webp",
+      "createdAt": "2026-02-28T09:16:43.760Z",
+      "cdnTag": "v1.1.96",
+      "size": 95406,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "少女",
+          "长发",
+          "咖啡馆"
+        ],
+        "description": "一位甜美可爱的长发少女在咖啡馆中微笑的瞬间。",
+        "filenameSuggestions": [
+          "清新甜美女孩在咖啡馆.jpg",
+          "长发少女微笑瞬间.jpg"
+        ],
+        "displayTitle": "甜美少女的悠闲时光",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，少女具有甜美可爱、清新风格的面貌和长发，符合人像/甜妹的分类特征。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/644.webp": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "644.webp",
+      "createdAt": "2026-02-28T09:20:31.196Z",
+      "cdnTag": "v1.1.96",
+      "size": 152678,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "少女",
+          "户外",
+          "长发"
+        ],
+        "description": "阳光下展现甜美笑容的长发少女，充满青春活力。",
+        "filenameSuggestions": [
+          "清新自然黑发少女户外写真.jpg",
+          "甜美风格长发女孩微笑.jpg"
+        ],
+        "displayTitle": "阳光下的甜美少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，女孩面带微笑，展现甜美气质，归类为人像/甜妹。"
+      }
+    },
+    "wallpaper/avatar/人像/背影/645.webp": {
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "645.webp",
+      "createdAt": "2026-02-28T09:20:31.196Z",
+      "cdnTag": "v1.1.96",
+      "size": 158524,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "背影",
+          "时尚",
+          "都市"
+        ],
+        "description": "一个时尚女孩在都市电梯中的背影。",
+        "filenameSuggestions": [
+          "时尚女孩电梯背影.jpg",
+          "都市轻旅女孩.jpg"
+        ],
+        "displayTitle": "都市轻旅背影",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B. 人像分类决策树，图片主要展示了女孩的背影，没有露脸，符合人像/背影的特征。"
+      }
+    },
+    "wallpaper/avatar/人像/背影/646.webp": {
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "646.webp",
+      "createdAt": "2026-02-28T09:20:31.196Z",
+      "cdnTag": "v1.1.96",
+      "size": 46768,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "侧脸",
+          "微笑",
+          "少年"
+        ],
+        "description": "一个侧颜微笑的少年在阳光下的温柔瞬间",
+        "filenameSuggestions": [
+          "清新风格侧脸微笑少年.jpg",
+          "阳光下的侧颜美.jpg"
+        ],
+        "displayTitle": "侧颜微笑的少年",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一个少年的侧脸，他带有微笑，手持物品，沐浴在阳光下。根据决策树B1，图片主要展示侧脸，但不完全符合背影的定义，更倾向于人像/氛围感，但现有分类没有氛围感的子类完全匹配，因此选择人像/背影"
+      }
+    },
+    "wallpaper/avatar/人像/背影/647.webp": {
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "647.webp",
+      "createdAt": "2026-02-28T09:20:31.196Z",
+      "cdnTag": "v1.1.96",
+      "size": 43808,
+      "format": "webp",
+      "resolution": {
+        "width": 987,
+        "height": 988,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "人像",
+          "侧卧",
+          "沉思"
+        ],
+        "description": "一位少年侧卧在床上，表情沉思。",
+        "filenameSuggestions": [
+          "清新风格侧卧少年.jpg",
+          "沉思中的年轻男孩.jpg"
+        ],
+        "displayTitle": "侧卧沉思的少年",
+        "confidence": 0.9,
+        "reasoning": "图片展示一位少年侧卧在床上，表情沉思，没有露出正脸，主要展示背影和侧面，归类为'人像/背影'。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/648.webp": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "648.webp",
+      "createdAt": "2026-02-28T09:20:31.196Z",
+      "cdnTag": "v1.1.96",
+      "size": 28236,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "微笑",
+          "年轻"
+        ],
+        "description": "一个带着神秘微笑的年轻男孩，充满魅力与深思。",
+        "filenameSuggestions": [
+          "黑衣少年深思.jpg",
+          "神秘微笑的年轻男孩.jpg"
+        ],
+        "displayTitle": "神秘的微笑",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，判定为人物肖像，且具有甜美、微笑的特征，归类为[人像/甜妹]"
+      }
+    },
+    "wallpaper/avatar/人像/氛围感/649.webp": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "649.webp",
+      "createdAt": "2026-02-28T09:20:31.196Z",
+      "cdnTag": "v1.1.96",
+      "size": 62354,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "人像",
+          "侧脸"
+        ],
+        "description": "照片捕捉到一位少年站在玻璃门前，部分脸庞被玻璃上的文字覆盖。他带着一种随意的表情，黑色T恤为他增添了几分休闲的气息。",
+        "filenameSuggestions": [
+          "清新氛围感男生侧脸.jpg",
+          "玻璃门后的少年.jpg"
+        ],
+        "displayTitle": "窗影中的清新少年",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B，人像分类中，图片主要展示侧脸且有氛围感，归类为 人像/氛围感。"
+      }
+    },
+    "wallpaper/avatar/人像/氛围感/650.webp": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "650.webp",
+      "createdAt": "2026-02-28T09:21:07.695Z",
+      "cdnTag": "v1.1.96",
+      "size": 83750,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1052,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "人像",
+          "倦意"
+        ],
+        "description": "一个年轻人趴在桌子上休息，捕捉午后短暂的倦意。",
+        "filenameSuggestions": [
+          "慵懒午后倦意.jpg",
+          "桌上短暂的休息.jpg"
+        ],
+        "displayTitle": "午后倦意",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B，人像分类决策树中，图片主要展示人物的背部和侧面，强调光影和氛围，符合特征：不露脸（背影/遮挡/模糊）、重光影意境。因此归类为：人像/氛围感。"
+      }
+    },
+    "wallpaper/avatar/人像/氛围感/651.webp": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "651.webp",
+      "createdAt": "2026-02-28T09:21:07.695Z",
+      "cdnTag": "v1.1.96",
+      "size": 37884,
+      "format": "webp",
+      "resolution": {
+        "width": 1072,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "人像",
+          "侧脸"
+        ],
+        "description": "一个身穿白色长袖衫的年轻男子在深夜里看着手机，侧脸轮廓分明，周围环境光线昏暗。",
+        "filenameSuggestions": [
+          "深夜沉思的年轻男子.jpg",
+          "氛围感男生侧脸.jpg"
+        ],
+        "displayTitle": "夜深人静时的沉思",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B. 人像分类决策树，图片中的人物主要展示了侧脸且环境光影氛围感强烈，符合人像/氛围感的特征。"
+      }
+    },
+    "wallpaper/avatar/人像/背影/652.webp": {
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "652.webp",
+      "createdAt": "2026-02-28T09:21:07.695Z",
+      "cdnTag": "v1.1.96",
+      "size": 29238,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "侧颜",
+          "少年",
+          "电梯"
+        ],
+        "description": "一位面带微笑的少年侧身站在电梯间里",
+        "filenameSuggestions": [
+          "侧颜少年在电梯间.jpg",
+          "电梯里的侧脸少年.jpg"
+        ],
+        "displayTitle": "侧颜少年在电梯间",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一位少年侧身站在电梯间的场景，主要特征是其侧颜和背部，根据人像分类决策树中的背影特征，判定为 人像/背影。"
+      }
+    },
+    "wallpaper/avatar/人像/背影/653.webp": {
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "653.webp",
+      "createdAt": "2026-02-28T09:21:07.695Z",
+      "cdnTag": "v1.1.96",
+      "size": 34246,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "人像",
+          "侧脸",
+          "清新风格"
+        ],
+        "description": "清晨的少年，侧脸清新脱俗，黑色T恤与白色背景相映成趣。",
+        "filenameSuggestions": [
+          "清晨少年侧颜.jpg",
+          "背影清新少年.jpg"
+        ],
+        "displayTitle": "少年清晨",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一名少年的侧脸和正面，带有清新、自然的氛围，归类为人像/背影。"
+      }
+    },
+    "wallpaper/avatar/萌宠/狗狗/654.webp": {
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "654.webp",
+      "createdAt": "2026-02-28T09:21:07.695Z",
+      "cdnTag": "v1.1.96",
+      "size": 56794,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1092,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "金毛犬",
+          "少年",
+          "温馨"
+        ],
+        "description": "一个少年与金毛犬的温馨互动瞬间。",
+        "filenameSuggestions": [
+          "金毛犬与少年的温馨时刻.jpg",
+          "少年与金毛犬的快乐瞬间.jpg"
+        ],
+        "displayTitle": "温暖的午後时光",
+        "confidence": 0.9,
+        "reasoning": "图片中主要特征是金毛犬和少年，根据决策树C.萌宠与表情包决策树，直接归类为萌宠/狗狗。"
+      }
+    },
+    "wallpaper/avatar/萌宠/狗狗/655.webp": {
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "655.webp",
+      "createdAt": "2026-02-28T09:21:07.695Z",
+      "cdnTag": "v1.1.96",
+      "size": 75052,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "萌宠",
+          "狗狗",
+          "女孩",
+          "自拍"
+        ],
+        "description": "一个女孩与她的金毛猎犬在户外花丛中自拍，展现出欢乐和温馨的氛围。",
+        "filenameSuggestions": [
+          "美丽女孩与金毛猎犬的户外自拍.jpg",
+          "金毛猎犬与少女的阳光笑容.jpg"
+        ],
+        "displayTitle": "阳光下的欢乐瞬间",
+        "confidence": 0.9,
+        "reasoning": "图片中主要是一只金毛猎犬和一个女孩的自拍照，根据决策树C.萌宠与表情包决策树，归类为萌宠/狗狗。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/656.webp": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "656.webp",
+      "createdAt": "2026-02-28T09:23:22.351Z",
+      "cdnTag": "v1.1.96",
+      "size": 40012,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "清新",
+          "黑衣"
+        ],
+        "description": "一位穿着黑色上衣的清新少女，散发着甜美的气质。",
+        "filenameSuggestions": [
+          "清新黑衣少女.jpg",
+          "甜美黑衣女孩.jpg"
+        ],
+        "displayTitle": "黑衣清新少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，识别出人物形象为甜美可爱、少女感、清新风格的女性，因此归类为 人像/甜妹。"
+      }
+    },
+    "wallpaper/avatar/人像/氛围感/657.webp": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "657.webp",
+      "createdAt": "2026-02-28T09:23:22.351Z",
+      "cdnTag": "v1.1.96",
+      "size": 108274,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "人像",
+          "冬季"
+        ],
+        "description": "冬季傍晚，户外氛围感人像，展现沉思与静谧之美。",
+        "filenameSuggestions": [
+          "冬季氛围感人像.jpg",
+          "户外沉思低头美.jpg"
+        ],
+        "displayTitle": "冬日傍晚的低头沉思",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B2，图片主要展示人像且有重光影意境，归类为：人像/氛围感"
+      }
+    },
+    "wallpaper/avatar/人像/氛围感/658.webp": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "658.webp",
+      "createdAt": "2026-02-28T09:23:22.351Z",
+      "cdnTag": "v1.1.96",
+      "size": 48774,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "primary": "avatar",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "氛围感",
+        "subcategory": "氛围感",
+        "filenameSuggestions": [
+          "春日里的微笑.jpg"
+        ],
+        "filenames": [
+          "春日里的微笑.jpg"
+        ],
+        "displayTitle": "花瓣飞舞的瞬间",
+        "keywords": [
+          "花瓣",
+          "微笑"
+        ],
+        "description": "在花瓣飞舞中微笑的瞬间，充满了春日生机。",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，人物表情甜美，充满少女感，且场景中有花瓣飞舞，归类为人像/甜妹。"
+      }
+    },
+    "wallpaper/avatar/人像/氛围感/659.webp": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "659.webp",
+      "createdAt": "2026-02-28T09:23:22.351Z",
+      "cdnTag": "v1.1.96",
+      "size": 38432,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "人像",
+          "侧脸"
+        ],
+        "description": "户外放松时刻，侧脸戴耳机，享受宁静的傍晚时光。",
+        "filenameSuggestions": [
+          "温暖日落人物侧脸.jpg",
+          "户外放松戴耳机剪影.jpg"
+        ],
+        "displayTitle": "夕阳下的宁静时刻",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B，人像分类决策树中，图片主要展示人物侧脸，背景有光影意境，符合人像/氛围感的特征。"
+      }
+    },
+    "wallpaper/avatar/人像/氛围感/660.webp": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "660.webp",
+      "createdAt": "2026-02-28T09:23:22.351Z",
+      "cdnTag": "v1.1.96",
+      "size": 26508,
+      "format": "webp",
+      "resolution": {
+        "width": 1000,
+        "height": 1000,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "人像",
+          "侧脸"
+        ],
+        "description": "夕阳下的侧脸沉思者，温暖光影中的人像剪影。",
+        "filenameSuggestions": [
+          "温暖光影中的侧脸沉思.jpg",
+          "夕阳下背影微笑的剪影.jpg"
+        ],
+        "displayTitle": "夕阳下的沉思者",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，人物主要展示侧脸，背部和侧面轮廓分明，有较强的光影效果，符合人像/氛围感的分类特征。"
+      }
+    },
+    "wallpaper/avatar/人像/氛围感/661.webp": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "661.webp",
+      "createdAt": "2026-02-28T09:23:22.351Z",
+      "cdnTag": "v1.1.96",
+      "size": 42934,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "人像",
+          "日落"
+        ],
+        "description": "夕阳下的青年沉思侧影，氛围感十足。",
+        "filenameSuggestions": [
+          "温暖日落氛围感人像.jpg",
+          "沉思青年背影日落风景.jpg"
+        ],
+        "displayTitle": "日落下的沉思",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B2，图片主要展示人物的背影和侧面，且有重光影意境，归类为'人像/氛围感'。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/662.webp": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "662.webp",
+      "createdAt": "2026-02-28T09:23:22.351Z",
+      "cdnTag": "v1.1.96",
+      "size": 209942,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "少女",
+          "长发"
+        ],
+        "description": "一位长发黑发少女在阳光下微笑，手抚头发，展现甜美气质。",
+        "filenameSuggestions": [
+          "清新甜美女孩户外写真.jpg",
+          "长发少女阳光下的微笑.jpg"
+        ],
+        "displayTitle": "阳光下的甜美少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，少女具有甜美可爱、清新风格的特征，符合人像/甜妹的分类。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/663.webp": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "663.webp",
+      "createdAt": "2026-02-28T09:23:47.418Z",
+      "cdnTag": "v1.1.96",
+      "size": 144444,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "少女",
+          "长发"
+        ],
+        "description": "一位穿着蓝色毛衣的长发少女侧坐在椅子上，享受阳光的温暖",
+        "filenameSuggestions": [
+          "温暖阳光下甜美长发女孩.jpg",
+          "蓝衣少女侧颜.jpg"
+        ],
+        "displayTitle": "阳光下的甜美少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，少女具有甜美可爱、清新风格的特征，归类为人像/甜妹"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/664.webp": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "664.webp",
+      "createdAt": "2026-02-28T09:23:47.418Z",
+      "cdnTag": "v1.1.96",
+      "size": 175218,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "冬季",
+          "雪景"
+        ],
+        "description": "雪花纷飞的冬季，女孩甜美可爱的瞬间。",
+        "filenameSuggestions": [
+          "雪中甜美少女.jpg",
+          "冬季可爱女孩雪景.jpg"
+        ],
+        "displayTitle": "冬季里的甜美邂逅",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，女孩表情甜美，环境为冬季雪景，符合人像/甜妹分类。"
+      }
+    },
+    "wallpaper/avatar/人像/甜妹/665.webp": {
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "665.webp",
+      "createdAt": "2026-02-28T09:23:47.418Z",
+      "cdnTag": "v1.1.96",
+      "size": 50232,
+      "format": "webp",
+      "resolution": {
+        "width": 1080,
+        "height": 1080,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "可爱",
+          "女孩"
+        ],
+        "description": "一个带着微笑和亲吻手势的甜美女孩。",
+        "filenameSuggestions": [
+          "可爱女孩亲吻的手势.jpg",
+          "甜美风格的年轻女孩.jpg"
+        ],
+        "displayTitle": "甜美女孩的微笑瞬间",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，女孩带有甜美微笑和亲吻手势，穿着休闲，整体呈现甜妹风格，因此归类为人像/甜妹。"
       }
     }
   }

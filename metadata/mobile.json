@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "mobile",
-  "lastUpdated": "2026-02-27T17:36:59.996Z",
-  "count": 608,
+  "lastUpdated": "2026-02-28T09:30:47.557Z",
+  "count": 633,
   "images": {
     "wallpaper/mobile/IP形象/乌萨奇/乌萨奇&小八&小熊_睡衣裹被贴贴.png": {
       "category": "IP形象",
@@ -18312,6 +18312,925 @@
         "displayTitle": "月光下的星空幻境",
         "confidence": 0.9,
         "reasoning": "根据决策树，首先判断图片为插画类，场景以风景（星空和月亮）为主，因此归类为插画/风景。"
+      }
+    },
+    "wallpaper/mobile/人像/氛围感/image_神图壁纸_该换壁纸了_壁纸_手机..._3.png": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "image_神图壁纸_该换壁纸了_壁纸_手机..._3.png",
+      "createdAt": "2026-02-28T09:25:15.902Z",
+      "cdnTag": "v1.1.96",
+      "size": 244664,
+      "format": "png",
+      "resolution": {
+        "width": 1280,
+        "height": 2780,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "夜景",
+          "长发"
+        ],
+        "description": "夜色中少女的梦幻沉思",
+        "filenameSuggestions": [
+          "灯光下的沉思少女.jpg",
+          "夜色梦幻长发女孩.jpg"
+        ],
+        "displayTitle": "月光下的沉思",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树 (Portrait Logic)，由于图片中人物未露脸且重光影意境，归入【氛围感】(Atmosphere)分类"
+      }
+    },
+    "wallpaper/mobile/人像/氛围感/image_神图壁纸_锁屏壁纸_该换壁纸了_..._3.png": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "image_神图壁纸_锁屏壁纸_该换壁纸了_..._3.png",
+      "createdAt": "2026-02-28T09:25:15.902Z",
+      "cdnTag": "v1.1.96",
+      "size": 418413,
+      "format": "png",
+      "resolution": {
+        "width": 1440,
+        "height": 3134,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "光影",
+          "长发"
+        ],
+        "description": "长发少女在蓝黄光影下沉思，氛围感十足。",
+        "filenameSuggestions": [
+          "蓝黄光影下的沉思少女.jpg",
+          "侧脸微光倾斜长发美女.jpg"
+        ],
+        "displayTitle": "蓝黄光影下的沉思少女",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树中的【氛围感】(Atmosphere)特征：不露脸（背影/遮挡/模糊）、重光影意境、看不清具体五官，判定为[氛围感]。"
+      }
+    },
+    "wallpaper/mobile/人像/清新/image_神图壁纸_锁屏壁纸_该换壁纸了_..._5.png": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_神图壁纸_锁屏壁纸_该换壁纸了_..._5.png",
+      "createdAt": "2026-02-28T09:25:15.902Z",
+      "cdnTag": "v1.1.96",
+      "size": 210609,
+      "format": "png",
+      "resolution": {
+        "width": 1080,
+        "height": 2413,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "海岸风光",
+          "长发",
+          "日落"
+        ],
+        "description": "一位长发少女站在海边，面对夕阳，穿着白色连衣裙，表情宁静。",
+        "filenameSuggestions": [
+          "海边夕阳下的长发少女.jpg",
+          "白色连衣裙女孩在日落时分.jpg"
+        ],
+        "displayTitle": "夕阳下的海岸女神",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A，人像分类中，清新定义为明亮、治愈、氧气感。图片中少女面带微笑，背景为明亮的夕阳和海景，色彩鲜艳自然，符合清新特征。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/image_神图壁纸_锁屏壁纸_该换壁纸了_..._6.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "image_神图壁纸_锁屏壁纸_该换壁纸了_..._6.png",
+      "createdAt": "2026-02-28T09:25:15.902Z",
+      "cdnTag": "v1.1.96",
+      "size": 172288,
+      "format": "png",
+      "resolution": {
+        "width": 1080,
+        "height": 2411,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "创意插画",
+          "诗意",
+          "自由",
+          "云端"
+        ],
+        "description": "一少女站在山巅，伸手指向云端，背后是绵延的云海和诗意的文字。",
+        "filenameSuggestions": [
+          "手臂伸向云端的背影少女.jpg",
+          "山巅云海间的诗意瞬间.jpg"
+        ],
+        "displayTitle": "云端之上，心向自由",
+        "confidence": 0.9,
+        "reasoning": "图片具有强烈的绘画感和创意，包含诗意的文字和独特的意境，归入插画/创意分类。"
+      }
+    },
+    "wallpaper/mobile/人像/魅力/image_神图壁纸_锁屏壁纸_该换壁纸了_..._8.png": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "image_神图壁纸_锁屏壁纸_该换壁纸了_..._8.png",
+      "createdAt": "2026-02-28T09:25:15.902Z",
+      "cdnTag": "v1.1.96",
+      "size": 254885,
+      "format": "png",
+      "resolution": {
+        "width": 862,
+        "height": 1920,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "雨夜",
+          "黑丝",
+          "霓虹"
+        ],
+        "description": "在雨夜的城市街头，一位时尚女孩手持透明雨伞，展现出成熟的魅力。",
+        "filenameSuggestions": [
+          "黑夜雨中持伞的时尚女孩.jpg",
+          "身穿黑色长裙的卷发港风少女雨夜漫步.jpg"
+        ],
+        "displayTitle": "雨夜里的黑夜女神",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树中的【魅力】(Glamour)定义和特征，图片中女孩穿着黑色短裙和长靴，展现身材曲线，且在夜景霓虹下拍照，姿态撩人，因此判定为[魅力]。"
+      }
+    },
+    "wallpaper/mobile/人像/清新/image_神图壁纸_锁屏壁纸_该换壁纸了_..._11.png": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_神图壁纸_锁屏壁纸_该换壁纸了_..._11.png",
+      "createdAt": "2026-02-28T09:25:15.902Z",
+      "cdnTag": "v1.1.96",
+      "size": 243351,
+      "format": "png",
+      "resolution": {
+        "width": 1080,
+        "height": 2412,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "户外",
+          "少女",
+          "郁金香"
+        ],
+        "description": "山间清晨，少女手持郁金香，洋溢着青春的活力与美丽。",
+        "filenameSuggestions": [
+          "手持郁金香的户外少女.jpg",
+          "山间微风中的青春瞬间.jpg"
+        ],
+        "displayTitle": "山间清晨的遇见",
+        "confidence": 0.9,
+        "reasoning": "图片中少女穿着休闲，面带微笑，手持郁金香，背景是自然风光，整体呈现出清新、自然的氛围。根据决策树A4，清新类定义为明亮、治愈、氧气感，特征包括高明度、色彩鲜艳自然、笑容甜美、背景通常是草地/蓝天/白墙等，构图干净，给予人初恋感。图片符合这些特征，因此归类为【清新】。"
+      }
+    },
+    "wallpaper/mobile/创意/抽象/image_神图壁纸_锁屏壁纸_该换壁纸了_..._12.png": {
+      "category": "创意",
+      "subcategory": "抽象",
+      "filename": "image_神图壁纸_锁屏壁纸_该换壁纸了_..._12.png",
+      "createdAt": "2026-02-28T09:25:15.902Z",
+      "cdnTag": "v1.1.96",
+      "size": 185437,
+      "format": "png",
+      "resolution": {
+        "width": 862,
+        "height": 1920,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "抽象",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "抽象",
+        "keywords": [
+          "抽象艺术",
+          "创意设计",
+          "梦幻微笑"
+        ],
+        "description": "这是一幅充满幻想的抽象艺术作品，展示了一个微笑表情符号与彩色球体和梦幻文字的结合。",
+        "filenameSuggestions": [
+          "色彩斑斓的抽象微笑.jpg",
+          "梦幻微笑的创意艺术.jpg"
+        ],
+        "displayTitle": "梦幻微笑的抽象艺术",
+        "confidence": 0.9,
+        "reasoning": "图片以抽象的艺术形式呈现，包含梦幻的色彩和形状，符合创意/抽象的分类特征。"
+      }
+    },
+    "wallpaper/mobile/人像/魅力/image_神图壁纸_锁屏壁纸_该换壁纸了_..._15.png": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "image_神图壁纸_锁屏壁纸_该换壁纸了_..._15.png",
+      "createdAt": "2026-02-28T09:26:41.681Z",
+      "cdnTag": "v1.1.96",
+      "size": 251371,
+      "format": "png",
+      "resolution": {
+        "width": 1439,
+        "height": 3128,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "人像",
+          "礼服"
+        ],
+        "description": "一位穿着白色礼服的少女在昏暗的房间中低语。",
+        "filenameSuggestions": [
+          "身穿白色礼服的魅力少女.jpg",
+          "低语的美丽.jpg"
+        ],
+        "displayTitle": "月光下的低语",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树 (Portrait Logic)，图片中的人物穿着暴露的礼服，姿势撩人，符合【魅力】(Glamour)的特征。"
+      }
+    },
+    "wallpaper/mobile/IP形象/通用/image_神图壁纸_锁屏壁纸_该换壁纸了_..._17.png": {
+      "category": "IP形象",
+      "subcategory": "通用",
+      "filename": "image_神图壁纸_锁屏壁纸_该换壁纸了_..._17.png",
+      "createdAt": "2026-02-28T09:26:41.681Z",
+      "cdnTag": "v1.1.96",
+      "size": 168168,
+      "format": "png",
+      "resolution": {
+        "width": 862,
+        "height": 1920,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "卡通",
+          "IP形象",
+          "时尚",
+          "狮子"
+        ],
+        "description": "一个穿着时尚的卡通狮子形象，戴着耳机和帽子。",
+        "filenameSuggestions": [
+          "可爱的时尚小狮子.jpg",
+          "戴耳机的小狮子.jpg"
+        ],
+        "displayTitle": "时尚小狮子",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，判断为IP形象/卡通角色，因为它具有明显的卡通风格和特定的设计。"
+      }
+    },
+    "wallpaper/mobile/动漫/七龙珠/image_神图壁纸_锁屏壁纸_该换壁纸了_..._18.png": {
+      "category": "动漫",
+      "subcategory": "七龙珠",
+      "filename": "image_神图壁纸_锁屏壁纸_该换壁纸了_..._18.png",
+      "createdAt": "2026-02-28T09:26:41.681Z",
+      "cdnTag": "v1.1.96",
+      "size": 113950,
+      "format": "png",
+      "resolution": {
+        "width": 862,
+        "height": 1920,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "七龙珠",
+        "subcategory": "七龙珠",
+        "filenameSuggestions": [
+          "蓝天白云下的悟空少年.jpg",
+          "悟空在云端展示拳劲.jpg"
+        ],
+        "filenames": [
+          "蓝天白云下的悟空少年.jpg",
+          "悟空在云端展示拳劲.jpg"
+        ],
+        "displayTitle": "悟空在云端轻舞",
+        "keywords": [
+          "悟空",
+          "动漫",
+          "3D插画"
+        ],
+        "description": "悟空少年站在云端，展现拳劲，背景是蓝天白云。",
+        "confidence": 0.9,
+        "reasoning": "图片中人物具有典型的动漫特征，无法识别为具体作品，归为动漫/通用。"
+      }
+    },
+    "wallpaper/mobile/人像/清新/image_神图壁纸_锁屏壁纸_该换壁纸了_..._20.png": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_神图壁纸_锁屏壁纸_该换壁纸了_..._20.png",
+      "createdAt": "2026-02-28T09:26:41.681Z",
+      "cdnTag": "v1.1.96",
+      "size": 329416,
+      "format": "png",
+      "resolution": {
+        "width": 1440,
+        "height": 3122,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "短发",
+          "微笑",
+          "户外"
+        ],
+        "description": "一个短发少女在户外微笑的清新画面",
+        "filenameSuggestions": [
+          "户外短发少女的温暖微笑.jpg",
+          "清新短发女孩在街头.jpg"
+        ],
+        "displayTitle": "夏日微笑的短发少女",
+        "confidence": 0.9,
+        "reasoning": "根据人物形象和风格，判定为清新类人像"
+      }
+    },
+    "wallpaper/mobile/人像/清新/image_神图壁纸_锁屏壁纸_该换壁纸了_..._26.png": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_神图壁纸_锁屏壁纸_该换壁纸了_..._26.png",
+      "createdAt": "2026-02-28T09:26:41.681Z",
+      "cdnTag": "v1.1.96",
+      "size": 105049,
+      "format": "png",
+      "resolution": {
+        "width": 710,
+        "height": 1543,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "长发",
+          "少女"
+        ],
+        "description": "阳光下的少女沉思表情",
+        "filenameSuggestions": [
+          "沉思的长发少女.jpg",
+          "阳光下微笑的女孩.jpg"
+        ],
+        "displayTitle": "阳光下的少女沉思",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树，图片中少女面带微笑，表情清新自然，背景明亮，符合【清新】(Fresh)的定义。"
+      }
+    },
+    "wallpaper/mobile/人像/清新/image_神图壁纸_锁屏壁纸_该换壁纸了_..._27.png": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_神图壁纸_锁屏壁纸_该换壁纸了_..._27.png",
+      "createdAt": "2026-02-28T09:26:41.681Z",
+      "cdnTag": "v1.1.96",
+      "size": 327258,
+      "format": "png",
+      "resolution": {
+        "width": 1440,
+        "height": 3200,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "少女",
+          "日常"
+        ],
+        "description": "一位穿着白色背心和牛仔外套的少女，坐在木凳上，侧颜微笑，表情甜美。",
+        "filenameSuggestions": [
+          "侧颜少女与熊仔.jpg",
+          "白衣蓝 jeans 的清新女孩.jpg"
+        ],
+        "displayTitle": "白墙下的清新少女",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A4，清新风格定义为明亮、治愈、氧气感。图片中少女面带微笑，穿着清新，背景简洁，色彩明亮，符合清新风格特征。"
+      }
+    },
+    "wallpaper/mobile/人像/清新/image_神图壁纸_锁屏壁纸_手机壁纸_壁..._2.png": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "image_神图壁纸_锁屏壁纸_手机壁纸_壁..._2.png",
+      "createdAt": "2026-02-28T09:26:41.681Z",
+      "cdnTag": "v1.1.96",
+      "size": 214997,
+      "format": "png",
+      "resolution": {
+        "width": 1240,
+        "height": 2772,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "城市风光",
+          "黄昏"
+        ],
+        "description": "城市黄昏下，少女漫步，展现清新气质。",
+        "filenameSuggestions": [
+          "城市黄昏下的清新少女.jpg",
+          "夜色中漫步的长发女孩.jpg"
+        ],
+        "displayTitle": "城市黄昏下的清新少女",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A，图片中少女面容清新，笑容甜美，背景为城市黄昏景象，色彩明亮自然，判定为[清新]。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/image_神图壁纸_锁屏壁纸_手机壁纸_壁..._5.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "image_神图壁纸_锁屏壁纸_手机壁纸_壁..._5.png",
+      "createdAt": "2026-02-28T09:28:04.877Z",
+      "cdnTag": "v1.1.96",
+      "size": 161028,
+      "format": "png",
+      "resolution": {
+        "width": 1240,
+        "height": 2772,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "插画",
+        "category": "插画",
+        "third": "创意",
+        "subcategory": "创意",
+        "filenameSuggestions": [
+          "可爱兔子玩积木.jpg",
+          "软萌兔子拼图.jpg"
+        ],
+        "filenames": [
+          "可爱兔子玩积木.jpg",
+          "软萌兔子拼图.jpg"
+        ],
+        "displayTitle": "软萌兔形象",
+        "keywords": [
+          "兔子",
+          "积木"
+        ],
+        "description": "软萌的兔子形象，正在玩积木。",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，识别出图片是一个类似IP形象的兔子角色，现有分类中没有完全匹配的选项，因此归类为IP形象。"
+      }
+    },
+    "wallpaper/mobile/动漫/蜡笔小新/image_神图壁纸_锁屏壁纸_手机壁纸_壁..._6.png": {
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "image_神图壁纸_锁屏壁纸_手机壁纸_壁..._6.png",
+      "createdAt": "2026-02-28T09:28:04.877Z",
+      "cdnTag": "v1.1.96",
+      "size": 253813,
+      "format": "png",
+      "resolution": {
+        "width": 1240,
+        "height": 2772,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动漫",
+          "骑行"
+        ],
+        "description": "蜡笔小新骑着白自行车，表情好奇，充满童趣。",
+        "filenameSuggestions": [
+          "骑白自行车的蜡笔小新.jpg",
+          "背着书包的蜡笔小新.jpg"
+        ],
+        "displayTitle": "童年骑行趣事",
+        "confidence": 0.9,
+        "reasoning": "图片中的角色具有典型的蜡笔小新特征，如大眼睛、脸颊红晕、发型等，骑着自行车，符合蜡笔小新系列动漫的风格。"
+      }
+    },
+    "wallpaper/mobile/插画/国风/image_神图壁纸_锁屏壁纸_手机壁纸_壁..._8.png": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "image_神图壁纸_锁屏壁纸_手机壁纸_壁..._8.png",
+      "createdAt": "2026-02-28T09:28:04.877Z",
+      "cdnTag": "v1.1.96",
+      "size": 154026,
+      "format": "png",
+      "resolution": {
+        "width": 1240,
+        "height": 2772,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "花卉",
+          "诗意"
+        ],
+        "description": "一张融合国风与花卉元素的诗意插画，传递着等待与希望。",
+        "filenameSuggestions": [
+          "绿意诗风中的等待.jpg",
+          "古风花卉与诗句的交织.jpg"
+        ],
+        "displayTitle": "风中等待的花语",
+        "confidence": 0.9,
+        "reasoning": "图片具有明显的国风插画特征，包含花卉、诗句和独特的字体设计，归入插画/国风分类。"
+      }
+    },
+    "wallpaper/mobile/创意/文字/image_神图壁纸_锁屏壁纸_手机壁纸_壁..._9.png": {
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "image_神图壁纸_锁屏壁纸_手机壁纸_壁..._9.png",
+      "createdAt": "2026-02-28T09:28:04.877Z",
+      "cdnTag": "v1.1.96",
+      "size": 324637,
+      "format": "png",
+      "resolution": {
+        "width": 1240,
+        "height": 2772,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "文字",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "文字",
+        "keywords": [
+          "文字艺术",
+          "创意设计",
+          "抽象表达"
+        ],
+        "description": "这是一幅富有现代感的文字艺术作品，通过简洁而有力的文字表达了内心的情感。",
+        "filenameSuggestions": [
+          "现代感文字设计海报.jpg",
+          "富有内涵的抽象文字艺术.jpg"
+        ],
+        "displayTitle": "文字艺术的现代表达",
+        "confidence": 0.9,
+        "reasoning": "根据图像特征，包含大量创意文字设计，且文字内容富有抽象表达意义，因此归类为'创意/文字'。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/image_神图壁纸_锁屏壁纸_手机壁纸_壁..._14.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "image_神图壁纸_锁屏壁纸_手机壁纸_壁..._14.png",
+      "createdAt": "2026-02-28T09:28:04.877Z",
+      "cdnTag": "v1.1.96",
+      "size": 75034,
+      "format": "png",
+      "resolution": {
+        "width": 500,
+        "height": 1084,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "梦幻",
+          "丝线",
+          "蝴蝶"
+        ],
+        "description": "一幅梦幻的插画，描绘双手被丝线牵引，飞出美丽的蝴蝶。",
+        "filenameSuggestions": [
+          "丝线连接的双手与飞舞的蝴蝶.jpg",
+          "黑夜中的梦幻牵引.jpg"
+        ],
+        "displayTitle": "丝线牵引的蝴蝶梦想",
+        "confidence": 0.9,
+        "reasoning": "根据图像内容，识别为插画，且具有创意元素。图像中双手被丝线连接，飞出许多蝴蝶，整体呈现梦幻与艺术的结合，符合插画/创意的分类。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/image_神图壁纸_锁屏壁纸_手机壁纸_壁..._17.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "image_神图壁纸_锁屏壁纸_手机壁纸_壁..._17.png",
+      "createdAt": "2026-02-28T09:28:04.877Z",
+      "cdnTag": "v1.1.96",
+      "size": 104172,
+      "format": "png",
+      "resolution": {
+        "width": 690,
+        "height": 1495,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "漫画风格",
+          "暗黑系"
+        ],
+        "description": "一幅展现神秘与诱惑的暗黑风格插画。",
+        "filenameSuggestions": [
+          "黑色诱惑的漫画少女.jpg",
+          "暗黑系的时尚插画.jpg"
+        ],
+        "displayTitle": "暗影中的诱惑",
+        "confidence": 0.9,
+        "reasoning": "图片具有插画的绘画感和创意元素，展现了独特的艺术风格和主题。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/image_神图壁纸_锁屏壁纸_手机壁纸_壁..._18.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "image_神图壁纸_锁屏壁纸_手机壁纸_壁..._18.png",
+      "createdAt": "2026-02-28T09:28:04.877Z",
+      "cdnTag": "v1.1.96",
+      "size": 107697,
+      "format": "png",
+      "resolution": {
+        "width": 884,
+        "height": 1644,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "抽象艺术",
+          "文字创意",
+          "艺术手绘"
+        ],
+        "description": "手持艺术品，展现创意与艺术的结合。",
+        "filenameSuggestions": [
+          "手握艺术品的创意瞬间.jpg",
+          "抽象艺术与书法的完美结合.jpg"
+        ],
+        "displayTitle": "艺术之手",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了一只手持艺术品的画面，具有较强的绘画感和艺术性。画面中包含抽象的艺术元素和文字，符合插画-创意的分类特征。"
+      }
+    },
+    "wallpaper/mobile/风景/星空/image_神图壁纸_锁屏壁纸_手机壁纸_壁..._20.png": {
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "image_神图壁纸_锁屏壁纸_手机壁纸_壁..._20.png",
+      "createdAt": "2026-02-28T09:28:35.289Z",
+      "cdnTag": "v1.1.96",
+      "size": 115264,
+      "format": "png",
+      "resolution": {
+        "width": 800,
+        "height": 1422,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "星空",
+          "黄昏",
+          "风景"
+        ],
+        "description": "星光闪烁的黄昏山景，梦幻而神秘。",
+        "filenameSuggestions": [
+          "梦幻星空与黄昏山景.jpg",
+          "星光闪烁的傍晚天空.jpg"
+        ],
+        "displayTitle": "星空下的璀璨黄昏",
+        "confidence": 0.9,
+        "reasoning": "图片展示了星空和黄昏的美丽景象，属于风景类别下的星空子类。"
+      }
+    },
+    "wallpaper/mobile/风景/星空/image_神图壁纸_锁屏壁纸_手机壁纸_壁..._21.png": {
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "image_神图壁纸_锁屏壁纸_手机壁纸_壁..._21.png",
+      "createdAt": "2026-02-28T09:28:35.289Z",
+      "cdnTag": "v1.1.96",
+      "size": 190569,
+      "format": "png",
+      "resolution": {
+        "width": 690,
+        "height": 1496,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "星空",
+          "日出",
+          "云海",
+          "风景"
+        ],
+        "description": "日出时分，星空与云海交汇的壮丽景象。",
+        "filenameSuggestions": [
+          "红橙色日出云海星空.jpg",
+          "日出时的星空云层景观.jpg"
+        ],
+        "displayTitle": "日出星空云海",
+        "confidence": 0.9,
+        "reasoning": "图片展示了日出时星空与云海的交汇，具有明显的星空和云层特征，根据现有分类体系，归类为风景/星空。"
+      }
+    },
+    "wallpaper/mobile/风景/星空/image_神图壁纸_锁屏壁纸_手机壁纸_壁..._23.png": {
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "image_神图壁纸_锁屏壁纸_手机壁纸_壁..._23.png",
+      "createdAt": "2026-02-28T09:28:35.289Z",
+      "cdnTag": "v1.1.96",
+      "size": 205043,
+      "format": "png",
+      "resolution": {
+        "width": 690,
+        "height": 1499,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "星空",
+          "月亮",
+          "紫色",
+          "黄昏"
+        ],
+        "description": "城市黄昏的美丽景色，月亮高悬在紫色的天空下。",
+        "filenameSuggestions": [
+          "树影婆娑的月夜风景.jpg",
+          "紫色天空下的城市黄昏.jpg"
+        ],
+        "displayTitle": "月光下的紫色黄昏",
+        "confidence": 0.9,
+        "reasoning": "图片展示了城市黄昏的景色，月亮高悬，紫色天空，树影婆娑，根据风景分类决策树，归入风景/星空。"
+      }
+    },
+    "wallpaper/mobile/风景/日落/image_神图壁纸_锁屏壁纸_手机壁纸_壁..._26.png": {
+      "category": "风景",
+      "subcategory": "日落",
+      "filename": "image_神图壁纸_锁屏壁纸_手机壁纸_壁..._26.png",
+      "createdAt": "2026-02-28T09:28:35.289Z",
+      "cdnTag": "v1.1.96",
+      "size": 111046,
+      "format": "png",
+      "resolution": {
+        "width": 862,
+        "height": 1920,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "日落",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "日落",
+        "keywords": [
+          "跑车",
+          "日落",
+          "公路",
+          "风景"
+        ],
+        "description": "夕阳下的公路，一辆黑色跑车静止在路中央，红色的尾灯在渐暗的光线中尤为醒目。",
+        "filenameSuggestions": [
+          "日落公路上的黑色跑车.jpg",
+          "夕阳下的摩托车剪影.jpg"
+        ],
+        "displayTitle": "夕阳下的疾驰者",
+        "confidence": 0.9,
+        "reasoning": "图片以摩托车为主体，但核心是日落风景，符合风景分类下的日落子类"
       }
     }
   }
