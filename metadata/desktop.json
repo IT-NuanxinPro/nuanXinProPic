@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-02-28T09:30:47.554Z",
-  "count": 465,
+  "lastUpdated": "2026-02-28T17:22:24.964Z",
+  "count": 470,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -12802,6 +12802,131 @@
       "ai": {
         "keywords": [
           "梦幻短发的二次元少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/场景/城市巷道里的女孩与黑猫.png": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "城市巷道里的女孩与黑猫.png",
+      "createdAt": "2026-02-28T17:21:47.000Z",
+      "cdnTag": "v1.1.97",
+      "size": 8512728,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "城市巷道里的女孩与黑猫"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/创意/粉发少女与月光.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "粉发少女与月光.png",
+      "createdAt": "2026-02-28T17:21:47.000Z",
+      "cdnTag": "v1.1.97",
+      "size": 6641887,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "粉发少女与月光"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/创意/黑白光影下的玫瑰少女.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "黑白光影下的玫瑰少女.png",
+      "createdAt": "2026-02-28T17:21:47.000Z",
+      "cdnTag": "v1.1.97",
+      "size": 6284125,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "黑白光影下的玫瑰少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/微笑的二次元美少女.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微笑的二次元美少女.png",
+      "createdAt": "2026-02-28T17:21:47.000Z",
+      "cdnTag": "v1.1.97",
+      "size": 5800176,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "微笑的二次元美少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/梦幻天使的微笑.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "梦幻天使的微笑.png",
+      "createdAt": "2026-02-28T17:21:47.000Z",
+      "cdnTag": "v1.1.97",
+      "size": 6063129,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "梦幻天使的微笑"
         ],
         "description": "",
         "displayTitle": "",
