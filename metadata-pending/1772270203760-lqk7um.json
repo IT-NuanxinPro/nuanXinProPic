@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "createdAt": "2026-02-28T09:16:43.760Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/641.webp",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "641.webp",
+      "createdAt": "2026-02-28T09:16:43.760Z",
+      "size": 98336,
+      "format": "webp",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "冬季",
+          "雪景"
+        ],
+        "description": "一位穿着白色外套和紫色帽子的少女，在雪景前展现甜美微笑。",
+        "filenameSuggestions": [
+          "冬季甜美少女雪景.jpg",
+          "可爱女孩雪天温暖瞬间.jpg"
+        ],
+        "displayTitle": "冬季里的甜美少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，少女的穿着打扮和表情符合甜妹的特征，因此归类为人像/甜妹。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/642.webp",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "642.webp",
+      "createdAt": "2026-02-28T09:16:43.760Z",
+      "size": 201862,
+      "format": "webp",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "少女",
+          "可爱"
+        ],
+        "description": "一个穿着黄色毛衣的少女，蹲在楼梯下，拿着手机自拍，散发着青春的活力。",
+        "filenameSuggestions": [
+          "可爱少女黄色系穿搭.jpg",
+          "甜美风格手机自拍.jpg"
+        ],
+        "displayTitle": "阳光下的甜美少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，少女穿着甜美可爱的服装，面带微笑，整体氛围感偏向甜美风格，因此归类为 人像/甜妹。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/643.webp",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "643.webp",
+      "createdAt": "2026-02-28T09:16:43.760Z",
+      "size": 95406,
+      "format": "webp",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "少女",
+          "长发",
+          "咖啡馆"
+        ],
+        "description": "一位甜美可爱的长发少女在咖啡馆中微笑的瞬间。",
+        "filenameSuggestions": [
+          "清新甜美女孩在咖啡馆.jpg",
+          "长发少女微笑瞬间.jpg"
+        ],
+        "displayTitle": "甜美少女的悠闲时光",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，少女具有甜美可爱、清新风格的面貌和长发，符合人像/甜妹的分类特征。"
+      }
+    }
+  ]
+}
