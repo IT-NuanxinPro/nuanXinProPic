@@ -1,9 +1,9 @@
 {
-  "lastUpdated": 1772271047.996712,
-  "cdnTag": "v1.1.96",
+  "lastUpdated": 1772299348.162415,
+  "cdnTag": "v1.1.97",
   "series": {
     "desktop": {
-      "count": 465,
+      "count": 470,
       "categories": [
         "动漫",
         "插画",
@@ -45,11 +45,23 @@
     }
   },
   "total": {
-    "desktop": 465,
+    "desktop": 470,
     "mobile": 633,
-    "avatar": 382
+    "avatar": 382,
+    "bing": 2470
   },
   "releases": [
+    {
+      "tag": "v1.1.97",
+      "date": "2026-03-01",
+      "added": {
+        "desktop": 5,
+        "mobile": 0,
+        "avatar": 0,
+        "bing": 1
+      },
+      "publisher": "github-actions[bot]"
+    },
     {
       "tag": "v1.1.96",
       "date": "2026-02-28",
