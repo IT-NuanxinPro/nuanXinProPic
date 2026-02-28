@@ -140,13 +140,21 @@ jobs:
         id: version
         if: steps.check.outputs.has_changes == 'true'
         run: |
-          LATEST_TAG=$(git tag -l 'v1.*' --sort=-version:refname | head -1)
+          LATEST_TAG=$(git tag -l 'v*' --sort=-version:refname | head -1)
           if [ -z "$LATEST_TAG" ]; then
             NEW_TAG="v1.0.1"
           else
             VERSION=${LATEST_TAG#v}
             IFS='.' read -r MAJOR MINOR PATCH <<< "$VERSION"
             NEW_PATCH=$((PATCH + 1))
+            if [ "$NEW_PATCH" -ge 100 ]; then
+              NEW_PATCH=0
+              MINOR=$((MINOR + 1))
+            fi
+            if [ "$MINOR" -ge 10 ]; then
+              MINOR=0
+              MAJOR=$((MAJOR + 1))
+            fi
             NEW_TAG="v${MAJOR}.${MINOR}.${NEW_PATCH}"
           fi
           echo "new_tag=$NEW_TAG" >> $GITHUB_OUTPUT
