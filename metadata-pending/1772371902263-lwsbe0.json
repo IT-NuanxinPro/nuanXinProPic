@@ -1,0 +1,458 @@
+{
+  "version": 1,
+  "createdAt": "2026-03-01T13:31:42.263Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/创意/丝带-二次元.png",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "丝带-二次元.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "size": 1398507,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "梦幻",
+          "双重人物"
+        ],
+        "description": "两名少女在梦幻的纸舞中起舞，玻璃背景折射出奇幻的光彩。",
+        "filenameSuggestions": [
+          "玻璃梦境中的双重花瓣舞者.jpg",
+          "纸舞轻扬的双美.jpg"
+        ],
+        "displayTitle": "梦幻双姬与纸舞",
+        "confidence": 0.9,
+        "reasoning": "图片为插画风格，人物设计精致，背景富有创意，归入插画/创意。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/雪山/严寒-冬日-冰挂.png",
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "严寒-冬日-冰挂.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "size": 2013945,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "雪山",
+          "冰冻景观",
+          "晨曦"
+        ],
+        "description": "雪山脚下的冰封道路，晨光透过雪幕，树挂冰凌，景色壮丽。",
+        "filenameSuggestions": [
+          "雪山下的冰冻小径.jpg",
+          "晨光穿透雪幕的山路.jpg"
+        ],
+        "displayTitle": "雪山晨曦下的冰封之路",
+        "confidence": 0.9,
+        "reasoning": "图片展示了雪覆盖的山脉、道路和树木，符合风景/雪山的特征。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/场景/二次元湖边小镇.png",
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "二次元湖边小镇.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "size": 1130750,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "插画",
+          "场景",
+          "城市景观",
+          "建筑"
+        ],
+        "description": "一幅展现未来城市独特建筑风格的插画，立体层叠的建筑结构与自然景观交融。",
+        "filenameSuggestions": [
+          "层叠建筑的海滨风景.jpg",
+          "城市立体结构的未来感插画.jpg"
+        ],
+        "displayTitle": "未来都市的立体迷宫",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一幅具有未来感的城市插画，建筑结构复杂层叠，具有强烈的绘画风格和场景感，根据决策树B2，判定为插画/场景。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/日落/云彩-倒影-光影.png",
+      "category": "风景",
+      "subcategory": "日落",
+      "filename": "云彩-倒影-光影.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "size": 2477916,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "日落",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "日落",
+        "keywords": [
+          "日落",
+          "山景",
+          "湖泊",
+          "自然风光"
+        ],
+        "description": "日落时分，山峰与湖泊交映成景，呈现出一幅自然的美丽画卷。",
+        "filenameSuggestions": [
+          "夕阳下的湖泊与山峰.jpg",
+          "日落时分的宁静湖景.jpg"
+        ],
+        "displayTitle": "夕阳下的山湖交映",
+        "confidence": 0.9,
+        "reasoning": "图片展示了日落时分山峰与湖泊的美丽景色，根据决策树C1，判定为风景/日落。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/湖泊/倒影-天空-山川湖泊.png",
+      "category": "风景",
+      "subcategory": "湖泊",
+      "filename": "倒影-天空-山川湖泊.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "size": 2559055,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "湖泊",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "湖泊",
+        "keywords": [
+          "湖泊",
+          "雪山",
+          "日落",
+          "自然风光"
+        ],
+        "description": "湖泊与雪山交映，夕阳西下，景色宁静祥和。",
+        "filenameSuggestions": [
+          "宁静湖泊与远山夕照.jpg",
+          "湖光山色映夕阳.jpg"
+        ],
+        "displayTitle": "静谧的湖泊与雪山日落",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，显示为湖泊与雪山，结合决策树C1，判定为[风景/湖泊]"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/雪山/冬日-列车-火车.png",
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "冬日-列车-火车.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "size": 996664,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "雪山",
+          "列车",
+          "风景"
+        ],
+        "description": "雪夜中一辆绿色的列车缓缓驶过，远处的城市建筑闪烁着温暖的灯光。",
+        "filenameSuggestions": [
+          "雪夜中的复古绿皮列车.jpg",
+          "静谧雪景中的铁路风景.jpg"
+        ],
+        "displayTitle": "雪夜列车下的静谧时光",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一个雪覆盖的城市景观，列车行驶在雪景中。根据决策树C1，图片中有明显的雪景且带有城市元素，因此判定为风景/雪山。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/魅力/夕阳-暮色-棕榈叶.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "夕阳-暮色-棕榈叶.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "size": 599710,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "人像",
+          "魅力",
+          "海边",
+          "夕阳"
+        ],
+        "description": "夕阳海边，一位长发少女穿着粉色花朵裙，静坐海滩，呈现优雅姿态。",
+        "filenameSuggestions": [
+          "夕阳海边风情少女.jpg",
+          "海滩边柔和光影人像.jpg"
+        ],
+        "displayTitle": "海边夕阳下的优雅少女",
+        "confidence": 0.9,
+        "reasoning": "图片以人物为主，展现出成熟优雅的魅力，背景为海边夕阳景象。根据人像分类决策树，图片强调身材曲线和优雅姿态，归入【魅力】。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/8k-人物.png",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "8k-人物.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "size": 3846144,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "水下",
+          "艺术"
+        ],
+        "description": "一幅描绘少女面部被水波遮挡的插画，富有创意和艺术性。",
+        "filenameSuggestions": [
+          "水面下的神秘少女.jpg",
+          "半面隐于水中的少女肖像.jpg"
+        ],
+        "displayTitle": "水下的秘密",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B2，图片具有明显的插画特征，绘画感强，非动画截图感，强调艺术创作而非动画风格，归入插画/创意。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/影视/海绵宝宝/Spongbob-海绵宝宝.png",
+      "category": "影视",
+      "subcategory": "海绵宝宝",
+      "filename": "Spongbob-海绵宝宝.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "size": 477556,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "影视",
+        "subcategory": "海绵宝宝",
+        "primary": "mobile",
+        "secondary": "影视",
+        "third": "海绵宝宝",
+        "keywords": [
+          "海绵宝宝",
+          "卡通",
+          "泡泡",
+          "海洋"
+        ],
+        "description": "海绵宝宝和朋友们在海底吹泡泡，享受欢乐时光。",
+        "filenameSuggestions": [
+          "海绵宝宝和朋友们的海底冒险.jpg",
+          "吹泡泡的海绵宝宝与帕夫.jpg"
+        ],
+        "displayTitle": "海底欢乐时光",
+        "confidence": 0.9,
+        "reasoning": "图片中出现了海绵宝宝、帕夫、章鱼哥等知名角色，背景为海洋场景，符合影视-IP-海绵宝宝的分类特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/插画/三月七-个性穿搭.png",
+      "category": "动漫",
+      "subcategory": "插画",
+      "filename": "三月七-个性穿搭.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "size": 636873,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "插画",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "插画",
+        "keywords": [
+          "动漫",
+          "插画",
+          "雨夜",
+          "粉色头发"
+        ],
+        "description": "动漫风格插画，表现一位粉色头发的少女在雨夜沉思。",
+        "filenameSuggestions": [
+          "粉色头发的少女在雨夜沉思.jpg",
+          "城市雨景中的动漫女孩.jpg"
+        ],
+        "displayTitle": "雨夜中的神秘少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片的动漫风格和插画特征，判定为动漫/插画。图片具有典型的日式动画风格和绘画感强的特点，但无法识别为具体IP，因此归入动漫/插画。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/二次元-动漫女孩.png",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "二次元-动漫女孩.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "size": 1872869,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "梦幻",
+          "紫色瞳孔",
+          "水下",
+          "插画"
+        ],
+        "description": "梦幻紫瞳少女沉浸在水下世界，紫色长发与水流交织。",
+        "filenameSuggestions": [
+          "沉浸在水下的梦幻紫瞳少女.jpg",
+          "梦幻紫色瞳孔的微笑少女.jpg"
+        ],
+        "displayTitle": "水下的梦幻紫瞳少女",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一位具有梦幻紫色瞳孔的少女头像，带有插画风格的水下效果，根据特征判定为插画/创意。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/风景/动漫化-街景.png",
+      "category": "插画",
+      "subcategory": "风景",
+      "filename": "动漫化-街景.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "size": 440770,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "风景",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "风景",
+        "keywords": [
+          "插画",
+          "风景",
+          "樱花",
+          "小巷"
+        ],
+        "description": "一条充满生机的日式风格小巷，樱花盛开，绿意盎然。",
+        "filenameSuggestions": [
+          "樱花小巷的日常风光.jpg",
+          "日式小巷风景.jpg"
+        ],
+        "displayTitle": "樱花小巷的日常风光",
+        "confidence": 0.9,
+        "reasoning": "图片具有浓厚的插画风格，展现了一条日式风格的小巷，道路两旁有绿植和樱花，符合风景插画的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/原画艺术-插画艺术.png",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "原画艺术-插画艺术.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "size": 2397447,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "水下",
+          "少女"
+        ],
+        "description": "一幅描绘少女沉浸在水中的插画，富有创意和艺术感。",
+        "filenameSuggestions": [
+          "沉浸在水下的神秘少女.jpg",
+          "水面下的诱惑.jpg"
+        ],
+        "displayTitle": "水下之吻",
+        "confidence": 0.9,
+        "reasoning": "根据图片的绘画风格和水下场景，判定为插画/创意"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/影视/海绵宝宝/海绵宝宝比个耶.png",
+      "category": "影视",
+      "subcategory": "海绵宝宝",
+      "filename": "海绵宝宝比个耶.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "size": 1835552,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "影视",
+        "subcategory": "海绵宝宝",
+        "primary": "mobile",
+        "secondary": "影视",
+        "third": "海绵宝宝",
+        "keywords": [
+          "海绵宝宝",
+          "海滨",
+          "冒险",
+          "卡通"
+        ],
+        "description": "海绵宝宝站在海滨建筑前，展现冒险精神。",
+        "filenameSuggestions": [
+          "海绵宝宝在海滨冒险.jpg",
+          "快乐的海绵宝宝在海边.jpg"
+        ],
+        "displayTitle": "海绵宝宝的海滨冒险",
+        "confidence": 0.9,
+        "reasoning": "图片中明确出现了海绵宝宝这一知名IP形象，根据现有分类体系，归入影视/海绵宝宝。"
+      }
+    }
+  ]
+}
