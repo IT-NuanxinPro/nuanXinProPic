@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-02-28T17:22:24.964Z",
-  "count": 470,
+  "lastUpdated": "2026-03-01T13:33:02.747Z",
+  "count": 477,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -12933,6 +12933,263 @@
         "confidence": 0,
         "model": "filename-inference",
         "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/创意/丝带-二次元.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "丝带-二次元.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "cdnTag": "v1.1.98",
+      "size": 1398507,
+      "format": "png",
+      "resolution": {
+        "width": 2500,
+        "height": 1406,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "梦幻",
+          "双重人物"
+        ],
+        "description": "两名少女在梦幻的纸舞中起舞，玻璃背景折射出奇幻的光彩。",
+        "filenameSuggestions": [
+          "玻璃梦境中的双重花瓣舞者.jpg",
+          "纸舞轻扬的双美.jpg"
+        ],
+        "displayTitle": "梦幻双姬与纸舞",
+        "confidence": 0.9,
+        "reasoning": "图片为插画风格，人物设计精致，背景富有创意，归入插画/创意。"
+      }
+    },
+    "wallpaper/desktop/风景/雪山/严寒-冬日-冰挂.png": {
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "严寒-冬日-冰挂.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "cdnTag": "v1.1.98",
+      "size": 2013945,
+      "format": "png",
+      "resolution": {
+        "width": 5472,
+        "height": 3072,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "雪山",
+          "冰冻景观",
+          "晨曦"
+        ],
+        "description": "雪山脚下的冰封道路，晨光透过雪幕，树挂冰凌，景色壮丽。",
+        "filenameSuggestions": [
+          "雪山下的冰冻小径.jpg",
+          "晨光穿透雪幕的山路.jpg"
+        ],
+        "displayTitle": "雪山晨曦下的冰封之路",
+        "confidence": 0.9,
+        "reasoning": "图片展示了雪覆盖的山脉、道路和树木，符合风景/雪山的特征。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/二次元湖边小镇.png": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "二次元湖边小镇.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "cdnTag": "v1.1.98",
+      "size": 1130750,
+      "format": "png",
+      "resolution": {
+        "width": 2200,
+        "height": 1233,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "插画",
+          "场景",
+          "城市景观",
+          "建筑"
+        ],
+        "description": "一幅展现未来城市独特建筑风格的插画，立体层叠的建筑结构与自然景观交融。",
+        "filenameSuggestions": [
+          "层叠建筑的海滨风景.jpg",
+          "城市立体结构的未来感插画.jpg"
+        ],
+        "displayTitle": "未来都市的立体迷宫",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一幅具有未来感的城市插画，建筑结构复杂层叠，具有强烈的绘画风格和场景感，根据决策树B2，判定为插画/场景。"
+      }
+    },
+    "wallpaper/desktop/风景/日落/云彩-倒影-光影.png": {
+      "category": "风景",
+      "subcategory": "日落",
+      "filename": "云彩-倒影-光影.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "cdnTag": "v1.1.98",
+      "size": 2477916,
+      "format": "png",
+      "resolution": {
+        "width": 5120,
+        "height": 2880,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "日落",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "日落",
+        "keywords": [
+          "日落",
+          "山景",
+          "湖泊",
+          "自然风光"
+        ],
+        "description": "日落时分，山峰与湖泊交映成景，呈现出一幅自然的美丽画卷。",
+        "filenameSuggestions": [
+          "夕阳下的湖泊与山峰.jpg",
+          "日落时分的宁静湖景.jpg"
+        ],
+        "displayTitle": "夕阳下的山湖交映",
+        "confidence": 0.9,
+        "reasoning": "图片展示了日落时分山峰与湖泊的美丽景色，根据决策树C1，判定为风景/日落。"
+      }
+    },
+    "wallpaper/desktop/风景/湖泊/倒影-天空-山川湖泊.png": {
+      "category": "风景",
+      "subcategory": "湖泊",
+      "filename": "倒影-天空-山川湖泊.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "cdnTag": "v1.1.98",
+      "size": 2559055,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "湖泊",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "湖泊",
+        "keywords": [
+          "湖泊",
+          "雪山",
+          "日落",
+          "自然风光"
+        ],
+        "description": "湖泊与雪山交映，夕阳西下，景色宁静祥和。",
+        "filenameSuggestions": [
+          "宁静湖泊与远山夕照.jpg",
+          "湖光山色映夕阳.jpg"
+        ],
+        "displayTitle": "静谧的湖泊与雪山日落",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，显示为湖泊与雪山，结合决策树C1，判定为[风景/湖泊]"
+      }
+    },
+    "wallpaper/desktop/风景/雪山/冬日-列车-火车.png": {
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "冬日-列车-火车.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "cdnTag": "v1.1.98",
+      "size": 996664,
+      "format": "png",
+      "resolution": {
+        "width": 4096,
+        "height": 3070,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "雪山",
+          "列车",
+          "风景"
+        ],
+        "description": "雪夜中一辆绿色的列车缓缓驶过，远处的城市建筑闪烁着温暖的灯光。",
+        "filenameSuggestions": [
+          "雪夜中的复古绿皮列车.jpg",
+          "静谧雪景中的铁路风景.jpg"
+        ],
+        "displayTitle": "雪夜列车下的静谧时光",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一个雪覆盖的城市景观，列车行驶在雪景中。根据决策树C1，图片中有明显的雪景且带有城市元素，因此判定为风景/雪山。"
+      }
+    },
+    "wallpaper/desktop/人像/魅力/夕阳-暮色-棕榈叶.png": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "夕阳-暮色-棕榈叶.png",
+      "createdAt": "2026-03-01T13:31:42.263Z",
+      "cdnTag": "v1.1.98",
+      "size": 599710,
+      "format": "png",
+      "resolution": {
+        "width": 2360,
+        "height": 1321,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "人像",
+          "魅力",
+          "海边",
+          "夕阳"
+        ],
+        "description": "夕阳海边，一位长发少女穿着粉色花朵裙，静坐海滩，呈现优雅姿态。",
+        "filenameSuggestions": [
+          "夕阳海边风情少女.jpg",
+          "海滩边柔和光影人像.jpg"
+        ],
+        "displayTitle": "海边夕阳下的优雅少女",
+        "confidence": 0.9,
+        "reasoning": "图片以人物为主，展现出成熟优雅的魅力，背景为海边夕阳景象。根据人像分类决策树，图片强调身材曲线和优雅姿态，归入【魅力】。"
       }
     }
   }
