@@ -47,7 +47,7 @@
   "total": {
     "desktop": 470,
     "mobile": 633,
-    "avatar": 382,
+    "avatar": 408,
     "bing": 2470
   },
   "releases": [
@@ -68,7 +68,7 @@
       "added": {
         "desktop": 0,
         "mobile": 25,
-        "avatar": 0
+        "avatar": 26
       },
       "publisher": "IT-NuanxinPro"
     },
