@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-02-28T17:21:47.559Z",
+  "generatedAt": "2026-03-01T17:23:55.175Z",
   "total": 7,
   "items": [
+    {
+      "date": "2026-03-02",
+      "title": "漂浮的传承",
+      "copyright": "苏梅岛的港口和长尾船, 泰国 (© Foto2rich/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%B3%B0%E5%9B%BD%E8%8B%8F%E6%A2%85%E5%B2%9B&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260301_SamuiThailand%22&FORM=HPQUIZ",
+      "hsh": "8d030509b56f36f3e2849c2f3170cc8b",
+      "urlbase": "/th?id=OHR.SamuiThailand_ZH-CN3323790951"
+    },
     {
       "date": "2026-03-01",
       "title": "每一步，都是传承",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260223_TulumLilies%22&FORM=HPQUIZ",
       "hsh": "57ce15bd062f387bf4a3392fd5231460",
       "urlbase": "/th?id=OHR.TulumLilies_ZH-CN0959403613"
-    },
-    {
-      "date": "2026-02-23",
-      "title": "雪原之王",
-      "copyright": "大白鹭，上巴伐利亚州，德国 (© Konrad Wothe/naturepl.com)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%A4%A7%E7%99%BD%E9%B9%AD&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260222_BavariaEgret%22&FORM=HPQUIZ",
-      "hsh": "3352b36eb4d52279c23a648fef52a9c3",
-      "urlbase": "/th?id=OHR.BavariaEgret_ZH-CN0521643213"
     }
   ]
 }
