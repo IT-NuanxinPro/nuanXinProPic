@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 61,
+  "total": 62,
   "items": [
+    {
+      "date": "2026-03-03",
+      "title": "花灯映月，团圆吉祥",
+      "copyright": "元宵节期间悬挂的宫灯，北京自贡灯会现场，北京，中国 (© Grisha Bruev/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%85%83%E5%AE%B5%E8%8A%82&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260302_LanternFestivalY26%22&FORM=HPQUIZ",
+      "hsh": "0fefbde539d29d484bcc791468b2b859",
+      "urlbase": "/th?id=OHR.LanternFestivalY26_ZH-CN9186685796"
+    },
     {
       "date": "2026-03-02",
       "title": "漂浮的传承",
@@ -552,5 +561,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-03-01T17:23:55.161Z"
+  "updatedAt": "2026-03-02T17:46:01.817Z"
 }
