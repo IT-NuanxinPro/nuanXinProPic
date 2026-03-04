@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-03-03T17:47:28.848Z",
+  "generatedAt": "2026-03-04T17:40:00.558Z",
   "total": 7,
   "items": [
+    {
+      "date": "2026-03-05",
+      "title": "古老岩石，现代灯光",
+      "copyright": "格雷梅的傍晚, 卡帕多西亚, 土耳其 (© ONNAJA/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9C%9F%E8%80%B3%E5%85%B6%E6%A0%BC%E9%9B%B7%E6%A2%85&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260304_GoremeTwilight%22&FORM=HPQUIZ",
+      "hsh": "50cee4f1967854fa4b55b1fc45fb10cc",
+      "urlbase": "/th?id=OHR.GoremeTwilight_ZH-CN3731931947"
+    },
     {
       "date": "2026-03-04",
       "title": "聚光灯下的番红花",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260226_ArcitcCub%22&FORM=HPQUIZ",
       "hsh": "d25364b6b8a38d9291bad838e0c4abfe",
       "urlbase": "/th?id=OHR.ArcitcCub_ZH-CN2725049760"
-    },
-    {
-      "date": "2026-02-26",
-      "title": "一幅壮丽的景象",
-      "copyright": "大峡谷和科罗拉多河，亚利桑那州，美国 (© Matt Anderson Photography/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E7%BE%8E%E5%9B%BD%E5%A4%A7%E5%B3%A1%E8%B0%B7%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260225_GrandSunset%22&FORM=HPQUIZ",
-      "hsh": "8b5e695b3eb4caf2a66b15b3c1d0040a",
-      "urlbase": "/th?id=OHR.GrandSunset_ZH-CN1905986519"
     }
   ]
 }
