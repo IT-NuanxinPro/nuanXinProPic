@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-03-04T17:40:26.555Z",
-  "count": 477,
+  "lastUpdated": "2026-03-05T18:51:11.293Z",
+  "count": 485,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -13190,6 +13190,206 @@
         "displayTitle": "海边夕阳下的优雅少女",
         "confidence": 0.9,
         "reasoning": "图片以人物为主，展现出成熟优雅的魅力，背景为海边夕阳景象。根据人像分类决策树，图片强调身材曲线和优雅姿态，归入【魅力】。"
+      }
+    },
+    "wallpaper/desktop/插画/创意/光芒中的神秘少女.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "光芒中的神秘少女.png",
+      "createdAt": "2026-03-05T18:50:30.000Z",
+      "cdnTag": "v1.2.3",
+      "size": 7159257,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "光芒中的神秘少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/国风/雨中持伞的绝美佳人.png": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "雨中持伞的绝美佳人.png",
+      "createdAt": "2026-03-05T18:50:30.000Z",
+      "cdnTag": "v1.2.3",
+      "size": 9789092,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "雨中持伞的绝美佳人"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/插画/国风/樱花树下的少女.png.png": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "樱花树下的少女.png.png",
+      "createdAt": "2026-03-05T18:50:30.000Z",
+      "cdnTag": "v1.2.3",
+      "size": 8602978,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "樱花树下的少女.png"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/凯特雷拉侧颜.png.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "凯特雷拉侧颜.png.png",
+      "createdAt": "2026-03-05T18:50:30.000Z",
+      "cdnTag": "v1.2.3",
+      "size": 6219358,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "凯特雷拉侧颜.png"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/红色星光幻想插画.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "红色星光幻想插画.png",
+      "createdAt": "2026-03-05T18:50:30.000Z",
+      "cdnTag": "v1.2.3",
+      "size": 7992125,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "红色星光幻想插画"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/海边微笑的二次元少女.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "海边微笑的二次元少女.png",
+      "createdAt": "2026-03-05T18:50:30.000Z",
+      "cdnTag": "v1.2.3",
+      "size": 7290516,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "海边微笑的二次元少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/二次元风格的未来感少女形象.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "二次元风格的未来感少女形象.png",
+      "createdAt": "2026-03-05T18:50:30.000Z",
+      "cdnTag": "v1.2.3",
+      "size": 4844953,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "二次元风格的未来感少女形象"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/人像/国风/身穿粉色华服的古典美人.png": {
+      "category": "人像",
+      "subcategory": "国风",
+      "filename": "身穿粉色华服的古典美人.png",
+      "createdAt": "2026-03-05T18:50:30.000Z",
+      "cdnTag": "v1.2.3",
+      "size": 7212378,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "身穿粉色华服的古典美人"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
       }
     }
   }
