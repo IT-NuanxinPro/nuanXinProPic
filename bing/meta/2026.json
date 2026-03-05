@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 64,
+  "total": 65,
   "items": [
+    {
+      "date": "2026-03-06",
+      "title": "混凝土中铸造的波浪",
+      "copyright": "波浪住宅楼, 瓦埃勒, 丹麦 (© Frank Bach/Alamy)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%B9%E9%BA%A6%E7%93%A6%E5%9F%83%E5%8B%92%E6%B3%A2%E6%B5%AA%E5%A4%A7%E5%8E%A6&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260305_WaveDenmark%22&FORM=HPQUIZ",
+      "hsh": "49c94e3b8c596ef869996e38a818919d",
+      "urlbase": "/th?id=OHR.WaveDenmark_ZH-CN8825888678"
+    },
     {
       "date": "2026-03-05",
       "title": "古老岩石，现代灯光",
@@ -579,5 +588,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-03-04T17:40:00.543Z"
+  "updatedAt": "2026-03-05T18:50:30.559Z"
 }
