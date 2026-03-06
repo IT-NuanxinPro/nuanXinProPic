@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 65,
+  "total": 66,
   "items": [
+    {
+      "date": "2026-03-07",
+      "title": "治愈、宁静且充满希望",
+      "copyright": "布罗肯峰的日出, 哈尔茨国家公园, 德国 (© imageBROKER/AVTG/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%93%88%E5%B0%94%E8%8C%A8%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260306_BrockenSunrise%22&FORM=HPQUIZ",
+      "hsh": "fcff782cc7738724f7a5a4038360f609",
+      "urlbase": "/th?id=OHR.BrockenSunrise_ZH-CN4930790850"
+    },
     {
       "date": "2026-03-06",
       "title": "混凝土中铸造的波浪",
@@ -588,5 +597,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-03-05T18:50:30.559Z"
+  "updatedAt": "2026-03-06T17:58:40.544Z"
 }
