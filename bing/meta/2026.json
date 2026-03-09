@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 68,
+  "total": 69,
   "items": [
+    {
+      "date": "2026-03-10",
+      "title": "霜下之火",
+      "copyright": "赫韦拉韦利尔的布拉赫维尔地热池, 冰岛 (© Juan Maria Coy Vergara/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%86%B0%E5%B2%9B%E5%B8%83%E6%8B%89%E8%B5%AB%E7%BB%B4%E5%B0%94%E5%9C%B0%E7%83%AD%E6%B1%A0&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260309_SpringIceland%22&FORM=HPQUIZ",
+      "hsh": "2908ad1a294abab7b16f88ee5620d64c",
+      "urlbase": "/th?id=OHR.SpringIceland_ZH-CN9545282898"
+    },
     {
       "date": "2026-03-09",
       "title": "一次恰到好处的午睡",
@@ -615,5 +624,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-03-08T17:23:37.756Z"
+  "updatedAt": "2026-03-09T18:02:36.634Z"
 }
