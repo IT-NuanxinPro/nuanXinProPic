@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 69,
+  "total": 70,
   "items": [
+    {
+      "date": "2026-03-11",
+      "title": "一个美好的春天",
+      "copyright": "盛开的桃树, 谢萨, 穆尔西亚, 西班牙 (© Juan Maria Coy Vergara/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E8%B0%A2%E8%90%A8&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260310_PeachBloom%22&FORM=HPQUIZ",
+      "hsh": "fe67d7060091493ff9158fc488560519",
+      "urlbase": "/th?id=OHR.PeachBloom_ZH-CN9660251274"
+    },
     {
       "date": "2026-03-10",
       "title": "霜下之火",
@@ -624,5 +633,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-03-09T18:02:36.634Z"
+  "updatedAt": "2026-03-10T17:46:36.706Z"
 }
