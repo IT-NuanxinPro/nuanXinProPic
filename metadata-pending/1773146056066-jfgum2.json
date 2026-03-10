@@ -1,0 +1,293 @@
+{
+  "version": 1,
+  "createdAt": "2026-03-10T12:34:16.066Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/表情包/搞怪/微信图片_20260310202243_645_4.jpg",
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "微信图片_20260310202243_645_4.jpg",
+      "createdAt": "2026-03-10T12:34:16.066Z",
+      "size": 189520,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "搞怪",
+          "表情包",
+          "小孩"
+        ],
+        "description": "一个戴着薯条帽子、眼镜上贴着薯条表情的小孩，正在吃薯条，表情搞笑。",
+        "filenameSuggestions": [
+          "可爱小孩搞怪吃薯条表情包.jpg",
+          "搞怪儿童薯条帽子表情图.jpg"
+        ],
+        "displayTitle": "搞怪小神童吃薯条",
+        "confidence": 0.9,
+        "reasoning": "根据决策树C1，图片中孩子的表情和装扮（戴薯条帽子、眼镜上贴薯条表情）具有搞怪特征，因此归类为表情包/搞怪。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/表情包/搞怪/微信图片_20260310202244_646_4.jpg",
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "微信图片_20260310202244_646_4.jpg",
+      "createdAt": "2026-03-10T12:34:16.066Z",
+      "size": 141394,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "搞怪",
+          "表情包",
+          "麦当劳"
+        ],
+        "description": "小女孩戴着麦当劳袋子搞怪吃冰淇淋",
+        "filenameSuggestions": [
+          "搞怪小女孩吃冰淇淋.jpg",
+          "麦当劳搞怪表情包.jpg"
+        ],
+        "displayTitle": "搞怪小麦君的快乐日常",
+        "confidence": 0.9,
+        "reasoning": "图片中女孩戴着麦当劳袋子做成帽子，并画上搞怪表情，表情夸张，用于表达情绪，符合表情包/搞怪分类特征。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_20260310202245_647_4.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_20260310202245_647_4.jpg",
+      "createdAt": "2026-03-10T12:34:16.066Z",
+      "size": 145687,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "少年",
+          "粉色玫瑰"
+        ],
+        "description": "一个清新少年手持粉色玫瑰的侧颜瞬间。",
+        "filenameSuggestions": [
+          "清新少年捧着粉色玫瑰.jpg",
+          "甜美男孩侧颜微笑.jpg"
+        ],
+        "displayTitle": "粉色玫瑰的纯真瞬间",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B，图片展示的是一个人的侧颜，面容甜美，氛围清新，归类为‘人像/甜妹’。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/背影/微信图片_20260310202246_648_4.jpg",
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "微信图片_20260310202246_648_4.jpg",
+      "createdAt": "2026-03-10T12:34:16.066Z",
+      "size": 148384,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "背影",
+          "奔跑",
+          "少年",
+          "户外"
+        ],
+        "description": "一个穿着白色T恤和红色帽子的少年在草地上奔跑。",
+        "filenameSuggestions": [
+          "快乐少年奔跑在草原.jpg",
+          "红色帽子男孩的背影.jpg"
+        ],
+        "displayTitle": "少年自由奔跑",
+        "confidence": 0.9,
+        "reasoning": "图片展示一个少年的背影，正在草地上奔跑。根据决策树B. 人像分类决策树中的特征，主要展示背影，看不到正面，归类为：人像/背影。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/背影/微信图片_20260310202247_649_4.jpg",
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "微信图片_20260310202247_649_4.jpg",
+      "createdAt": "2026-03-10T12:34:16.066Z",
+      "size": 183467,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "背影",
+          "户外",
+          "阳光"
+        ],
+        "description": "一个快乐的女孩在户外奔跑，阳光洒在她身上，树木和建筑物在背景中。",
+        "filenameSuggestions": [
+          "快乐女孩奔跑的背影.jpg",
+          "户外阳光女孩侧背影.jpg"
+        ],
+        "displayTitle": "阳光下的快乐背影",
+        "confidence": 0.9,
+        "reasoning": "图片展示一个女孩的背影，她穿着休闲的衣服，正在户外奔跑。根据决策树B.1，人像分类决策树中的背影特征，判定为：人像/背影"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/背影/微信图片_20260310202247_650_4.jpg",
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "微信图片_20260310202247_650_4.jpg",
+      "createdAt": "2026-03-10T12:34:16.066Z",
+      "size": 466104,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "背影",
+          "小女孩",
+          "自然风光"
+        ],
+        "description": "小女孩坐在玩具车上，远眺湖泊，旁边伴随几只小鸭子，享受自然的宁静与美丽。",
+        "filenameSuggestions": [
+          "绿意盎然小女孩背影.jpg",
+          "公园小女孩与小鸭子.jpg"
+        ],
+        "displayTitle": "绿意盎然中的小女孩",
+        "confidence": 0.9,
+        "reasoning": "图片中主要元素为一位小女孩的背影，她坐在玩具车上，面对湖泊，旁边有几只鸭子。根据决策树B.1，人像分类决策树，首先判定为背影特征，归类为：人像/背影"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/背影/微信图片_20260310202248_651_4.jpg",
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "微信图片_20260310202248_651_4.jpg",
+      "createdAt": "2026-03-10T12:34:16.066Z",
+      "size": 151813,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "背影",
+          "骑行",
+          "童年"
+        ],
+        "description": "小男孩骑着童车在绿草地上，旁边伴随着几只鸭子，享受着童年的乐趣。",
+        "filenameSuggestions": [
+          "绿草地骑行小男孩背影.jpg",
+          "快乐童年小男孩骑车.jpg"
+        ],
+        "displayTitle": "童年乐趣骑行",
+        "confidence": 0.9,
+        "reasoning": "图片中是一个小男孩的背影，他正在骑着童车，场景是户外绿草地，有鸭子陪伴。根据决策树B1，图片主要展示背影，看不到正面，因此归类为：人像/背影。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_20260310202249_652_4.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_20260310202249_652_4.jpg",
+      "createdAt": "2026-03-10T12:34:16.066Z",
+      "size": 223168,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜妹",
+          "少女",
+          "玫瑰"
+        ],
+        "description": "一个甜美可爱的女孩，微笑着举着一束粉色玫瑰花。",
+        "filenameSuggestions": [
+          "清新甜美女孩与粉色玫瑰.jpg",
+          "微笑少女与花束风景照.jpg"
+        ],
+        "displayTitle": "甜美少女与玫瑰",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B3，人像分类决策树中特征为甜美可爱、少女感、清新风格，归类为：人像/甜妹"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/IP形象/通用/微信图片_20260310202252_657_4.jpg",
+      "category": "IP形象",
+      "subcategory": "通用",
+      "filename": "微信图片_20260310202252_657_4.jpg",
+      "createdAt": "2026-03-10T12:34:16.066Z",
+      "size": 434010,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "avatar",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "水豚噜噜",
+          "IP形象",
+          "可爱",
+          "创意"
+        ],
+        "description": "水豚噜噜穿着白菜裙，头戴塑料袋，表情可爱。",
+        "filenameSuggestions": [
+          "可爱水豚噜噜穿白菜裙.jpg",
+          "水豚噜噜趣味生活照.jpg"
+        ],
+        "displayTitle": "可爱的水豚噜噜穿白菜裙",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，识别出是水豚噜噜的形象，归入IP形象类。因现有分类体系无水豚噜噜子类，提出新分类提案。"
+      }
+    }
+  ]
+}
