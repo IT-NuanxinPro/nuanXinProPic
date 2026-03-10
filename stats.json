@@ -1,6 +1,6 @@
 {
-  "lastUpdated": 1773146226.629283,
-  "cdnTag": "v1.2.8",
+  "lastUpdated": 1773146514.696845,
+  "cdnTag": "v1.2.9",
   "series": {
     "desktop": {
       "count": 485,
@@ -17,7 +17,7 @@
       ]
     },
     "mobile": {
-      "count": 640,
+      "count": 649,
       "categories": [
         "人像",
         "风景",
@@ -46,10 +46,20 @@
   },
   "total": {
     "desktop": 485,
-    "mobile": 640,
+    "mobile": 649,
     "avatar": 399
   },
   "releases": [
+    {
+      "tag": "v1.2.9",
+      "date": "2026-03-10",
+      "added": {
+        "desktop": 0,
+        "mobile": 9,
+        "avatar": 0
+      },
+      "publisher": "aSheep-yyqx"
+    },
     {
       "tag": "v1.2.8",
       "date": "2026-03-10",

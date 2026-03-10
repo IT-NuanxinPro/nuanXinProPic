@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "mobile",
-  "lastUpdated": "2026-03-10T12:37:06.147Z",
-  "count": 640,
+  "lastUpdated": "2026-03-10T12:41:54.231Z",
+  "count": 649,
   "images": {
     "wallpaper/mobile/IP形象/乌萨奇/乌萨奇&小八&小熊_睡衣裹被贴贴.png": {
       "category": "IP形象",
@@ -19490,6 +19490,336 @@
         "displayTitle": "海绵宝宝的海滨冒险",
         "confidence": 0.9,
         "reasoning": "图片中明确出现了海绵宝宝这一知名IP形象，根据现有分类体系，归入影视/海绵宝宝。"
+      }
+    },
+    "wallpaper/mobile/插画/通用/微信图片_20260310202250_653_4.jpg": {
+      "category": "插画",
+      "subcategory": "通用",
+      "filename": "微信图片_20260310202250_653_4.jpg",
+      "createdAt": "2026-03-10T12:40:15.820Z",
+      "cdnTag": "v1.2.9",
+      "size": 80985,
+      "format": "jpg",
+      "resolution": {
+        "width": 863,
+        "height": 1920,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "通用",
+        "keywords": [
+          "插画",
+          "创意",
+          "独角兽",
+          "彩虹"
+        ],
+        "description": "一幅充满幻想的插画，描绘了一只白色的独角兽喷吐出鲜艳的彩虹。",
+        "filenameSuggestions": [
+          "色彩丰富的独角兽喷吐彩虹.jpg",
+          "梦幻彩虹独角兽.jpg"
+        ],
+        "displayTitle": "彩虹独角兽的奇幻吐息",
+        "confidence": 0.9,
+        "reasoning": "根据决策树，该图像具有强烈的绘画感和创意，归入插画类。图像中没有明确的动漫或特定IP特征，因此选择插画/创意。"
+      }
+    },
+    "wallpaper/mobile/影视/海绵宝宝/微信图片_20260310202250_654_4.jpg": {
+      "category": "影视",
+      "subcategory": "海绵宝宝",
+      "filename": "微信图片_20260310202250_654_4.jpg",
+      "createdAt": "2026-03-10T12:40:15.820Z",
+      "cdnTag": "v1.2.9",
+      "size": 70390,
+      "format": "jpg",
+      "resolution": {
+        "width": 892,
+        "height": 1920,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "影视",
+        "subcategory": "海绵宝宝",
+        "primary": "mobile",
+        "secondary": "影视",
+        "third": "海绵宝宝",
+        "keywords": [
+          "海绵宝宝",
+          "派大星",
+          "卡通",
+          "影视形象"
+        ],
+        "description": "海绵宝宝和派大星在进行金钱交易，场景充满趣味和动漫感。",
+        "filenameSuggestions": [
+          "持钱交易的海绵宝宝和派大星.jpg",
+          "海绵宝宝与派大星的金钱往来.jpg"
+        ],
+        "displayTitle": "海绵宝宝世界的金钱诱惑",
+        "confidence": 0.9,
+        "reasoning": "图片中出现海绵宝宝和派大星，这是典型的影视IP形象，属于影视类下的海绵宝宝分类。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/微信图片_20260310202251_655_4.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_20260310202251_655_4.jpg",
+      "createdAt": "2026-03-10T12:40:15.820Z",
+      "cdnTag": "v1.2.9",
+      "size": 163384,
+      "format": "jpg",
+      "resolution": {
+        "width": 863,
+        "height": 1920,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "幻想生物",
+          "创意"
+        ],
+        "description": "一幅充满奇幻色彩的插画，展现多个色彩丰富的怪物。",
+        "filenameSuggestions": [
+          "色彩丰富的幻想生物插画.jpg",
+          "充满想象力的怪物世界.jpg"
+        ],
+        "displayTitle": "梦幻中的奇幻生物",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B. 动漫与插画决策树，图片具有强烈的绘画感和非动画截图特征，归入插画类。创意和绘画风格明显，归入插画/创意子类。"
+      }
+    },
+    "wallpaper/mobile/影视/猫和老鼠/微信图片_20260310202252_656_4.jpg": {
+      "category": "影视",
+      "subcategory": "猫和老鼠",
+      "filename": "微信图片_20260310202252_656_4.jpg",
+      "createdAt": "2026-03-10T12:40:15.820Z",
+      "cdnTag": "v1.2.9",
+      "size": 131470,
+      "format": "jpg",
+      "resolution": {
+        "width": 863,
+        "height": 1920,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "影视",
+        "subcategory": "猫和老鼠",
+        "primary": "mobile",
+        "secondary": "影视",
+        "third": "猫和老鼠",
+        "keywords": [
+          "猫和老鼠",
+          "动画经典",
+          "童年回忆"
+        ],
+        "description": "汤姆、杰瑞和朋友们欢乐合影，经典动画场景。",
+        "filenameSuggestions": [
+          "快乐的三人组.jpg",
+          "经典动画角色合影.jpg"
+        ],
+        "displayTitle": "欢乐的童年回忆",
+        "confidence": 0.9,
+        "reasoning": "图片中出现经典动画角色汤姆和杰瑞，归入影视-猫和老鼠分类。"
+      }
+    },
+    "wallpaper/mobile/插画/通用/微信图片_20260310202259_666_4.jpg": {
+      "category": "插画",
+      "subcategory": "通用",
+      "filename": "微信图片_20260310202259_666_4.jpg",
+      "createdAt": "2026-03-10T12:40:15.820Z",
+      "cdnTag": "v1.2.9",
+      "size": 70905,
+      "format": "jpg",
+      "resolution": {
+        "width": 750,
+        "height": 1624,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "通用",
+        "keywords": [
+          "插画",
+          "卡通",
+          "萌宠",
+          "爱心"
+        ],
+        "description": "一张充满爱意的卡通小狗插画，背景是橙色圆形图案，周围有水果和汉字。",
+        "filenameSuggestions": [
+          "可爱小狗抱着心形气球的插画.jpg",
+          "充满爱意的卡通小狗形象.jpg"
+        ],
+        "displayTitle": "橙意绵绵的甜蜜时刻",
+        "confidence": 0.9,
+        "reasoning": "图片为插画风格，主体是卡通小狗，背景有明显的橙色圆形图案和汉字，符合插画分类的特征。"
+      }
+    },
+    "wallpaper/mobile/人像/清新/微信图片_20260310202300_667_4.jpg": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_20260310202300_667_4.jpg",
+      "createdAt": "2026-03-10T12:40:15.820Z",
+      "cdnTag": "v1.2.9",
+      "size": 132142,
+      "format": "jpg",
+      "resolution": {
+        "width": 541,
+        "height": 1172,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "长发",
+          "微笑",
+          "街头风格"
+        ],
+        "description": "阳光洒在她的长发和温暖的微笑上，展现出一种清新自然的美。",
+        "filenameSuggestions": [
+          "街头微笑的长发女孩.jpg",
+          "温暖阳光下的清新少女.jpg"
+        ],
+        "displayTitle": "阳光下的温暖微笑",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A，人像分类中，清新风格定义为明亮、治愈、氧气感。图片中女孩面带甜美微笑，背景干净且明亮，色彩自然，符合清新风格特征。"
+      }
+    },
+    "wallpaper/mobile/萌宠/通用/微信图片_20260310202301_668_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260310202301_668_4.jpg",
+      "createdAt": "2026-03-10T12:40:15.821Z",
+      "cdnTag": "v1.2.9",
+      "size": 347683,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2346,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "通用",
+        "keywords": [
+          "毛绒玩具",
+          "兔耳朵",
+          "草帽",
+          "可爱"
+        ],
+        "description": "两只穿着兔耳朵和草帽的毛绒玩具在树荫下嬉戏",
+        "filenameSuggestions": [
+          "穿着兔耳朵和草帽的毛绒玩具.jpg",
+          "树荫下的可爱毛绒小动物.jpg"
+        ],
+        "displayTitle": "阳光下快乐的毛绒朋友们",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，两只毛绒玩具穿着兔耳朵和草帽，背景是树和蓝天，符合萌宠的特征，特别是毛绒玩具的可爱和拟人化特征"
+      }
+    },
+    "wallpaper/mobile/萌宠/通用/微信图片_20260310202302_669_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260310202302_669_4.jpg",
+      "createdAt": "2026-03-10T12:40:15.821Z",
+      "cdnTag": "v1.2.9",
+      "size": 246651,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2300,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "通用",
+        "keywords": [
+          "萌宠",
+          "猫咪",
+          "鼓励",
+          "舒适"
+        ],
+        "description": "一只小猫在舒适的环境中享受鼓励的话语",
+        "filenameSuggestions": [
+          "鼓励与舒适的猫咪.jpg",
+          "窗边小猫的惬意时刻.jpg"
+        ],
+        "displayTitle": "温暖的鼓励与小猫的舒适时光",
+        "confidence": 0.9,
+        "reasoning": "图片中主要元素是猫咪，且猫咪为主要视觉中心，因此归类为萌宠。"
+      }
+    },
+    "wallpaper/mobile/萌宠/通用/微信图片_20260310202303_670_4.jpg": {
+      "category": "萌宠",
+      "subcategory": "通用",
+      "filename": "微信图片_20260310202303_670_4.jpg",
+      "createdAt": "2026-03-10T12:40:15.821Z",
+      "cdnTag": "v1.2.9",
+      "size": 271924,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2346,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "通用",
+        "keywords": [
+          "治愈系",
+          "萌宠",
+          "甜点"
+        ],
+        "description": "kitty主题甜点与可爱毛绒玩具的温馨场景",
+        "filenameSuggestions": [
+          "可爱的kitty蛋糕和毛绒玩具.jpg",
+          "kitty猫主题甜点与小狗玩偶.jpg"
+        ],
+        "displayTitle": "治愈的kitty甜点",
+        "confidence": 0.9,
+        "reasoning": "图片中出现了萌宠（毛绒玩具）和可爱的kitty主题甜点，主要表达了一种治愈和可爱的氛围，因此归类为萌宠。"
       }
     }
   }
