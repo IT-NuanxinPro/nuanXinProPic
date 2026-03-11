@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 70,
+  "total": 71,
   "items": [
+    {
+      "date": "2026-03-12",
+      "title": "排练中的翅膀",
+      "copyright": "幼年日鳽在巢穴附近展示求偶行为, 厄瓜多尔 (© Andy Rouse/naturepl.com)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%97%A5%E9%B3%BD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260311_SunbitternEcuador%22&FORM=HPQUIZ",
+      "hsh": "5fdc3e8711be01afcbc15fb4eae42d02",
+      "urlbase": "/th?id=OHR.SunbitternEcuador_ZH-CN9772788253"
+    },
     {
       "date": "2026-03-11",
       "title": "一个美好的春天",
@@ -633,5 +642,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-03-10T17:46:36.706Z"
+  "updatedAt": "2026-03-11T17:56:57.463Z"
 }
