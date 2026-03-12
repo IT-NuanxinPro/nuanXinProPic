@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-03-11T17:56:57.478Z",
+  "generatedAt": "2026-03-12T17:50:53.460Z",
   "total": 7,
   "items": [
+    {
+      "date": "2026-03-13",
+      "title": "静谧的石之杰作",
+      "copyright": "邦港圣母教堂拱顶，莱萨布勒多洛讷，法国 (© Helmut Meyer zur Capellen/Alamy)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%B3%95%E5%9B%BD%E8%8E%B1%E8%90%A8%E5%B8%83%E5%8B%92%E5%A4%9A%E6%B4%9B%E8%AE%B7&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260312_VendeeVaults%22&FORM=HPQUIZ",
+      "hsh": "15fbf262d37038db89355d481974f5cc",
+      "urlbase": "/th?id=OHR.VendeeVaults_ZH-CN9885568795"
+    },
     {
       "date": "2026-03-12",
       "title": "排练中的翅膀",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260306_BrockenSunrise%22&FORM=HPQUIZ",
       "hsh": "fcff782cc7738724f7a5a4038360f609",
       "urlbase": "/th?id=OHR.BrockenSunrise_ZH-CN4930790850"
-    },
-    {
-      "date": "2026-03-06",
-      "title": "混凝土中铸造的波浪",
-      "copyright": "波浪住宅楼, 瓦埃勒, 丹麦 (© Frank Bach/Alamy)",
-      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%B9%E9%BA%A6%E7%93%A6%E5%9F%83%E5%8B%92%E6%B3%A2%E6%B5%AA%E5%A4%A7%E5%8E%A6&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260305_WaveDenmark%22&FORM=HPQUIZ",
-      "hsh": "49c94e3b8c596ef869996e38a818919d",
-      "urlbase": "/th?id=OHR.WaveDenmark_ZH-CN8825888678"
     }
   ]
 }
