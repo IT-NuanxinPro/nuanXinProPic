@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-03-12T17:50:53.460Z",
+  "generatedAt": "2026-03-13T17:36:09.739Z",
   "total": 7,
   "items": [
+    {
+      "date": "2026-03-14",
+      "title": "圆周率的古老启示",
+      "copyright": "兰扬石门，位于英格兰康沃尔郡的一座兰扬新石器时代石棚墓，英国 (© Helen Hotson/Alamy)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9C%86%E5%91%A8%E7%8E%87%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260313_CornwallDolmen%22&FORM=HPQUIZ",
+      "hsh": "37c5afc54db3dfb8b84b67261908baa1",
+      "urlbase": "/th?id=OHR.CornwallDolmen_ZH-CN0045468799"
+    },
     {
       "date": "2026-03-13",
       "title": "静谧的石之杰作",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260307_UlmClock%22&FORM=HPQUIZ",
       "hsh": "ef9625d0f8ac8b638ffce30159d6a4ce",
       "urlbase": "/th?id=OHR.UlmClock_ZH-CN9282560066"
-    },
-    {
-      "date": "2026-03-07",
-      "title": "治愈、宁静且充满希望",
-      "copyright": "布罗肯峰的日出, 哈尔茨国家公园, 德国 (© imageBROKER/AVTG/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%93%88%E5%B0%94%E8%8C%A8%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260306_BrockenSunrise%22&FORM=HPQUIZ",
-      "hsh": "fcff782cc7738724f7a5a4038360f609",
-      "urlbase": "/th?id=OHR.BrockenSunrise_ZH-CN4930790850"
     }
   ]
 }

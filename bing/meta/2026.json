@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 72,
+  "total": 73,
   "items": [
+    {
+      "date": "2026-03-14",
+      "title": "圆周率的古老启示",
+      "copyright": "兰扬石门，位于英格兰康沃尔郡的一座兰扬新石器时代石棚墓，英国 (© Helen Hotson/Alamy)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9C%86%E5%91%A8%E7%8E%87%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260313_CornwallDolmen%22&FORM=HPQUIZ",
+      "hsh": "37c5afc54db3dfb8b84b67261908baa1",
+      "urlbase": "/th?id=OHR.CornwallDolmen_ZH-CN0045468799"
+    },
     {
       "date": "2026-03-13",
       "title": "静谧的石之杰作",
@@ -651,5 +660,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-03-12T17:50:53.443Z"
+  "updatedAt": "2026-03-13T17:36:09.725Z"
 }
