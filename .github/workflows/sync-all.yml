@@ -65,9 +65,9 @@ jobs:
         id: prev_count
         run: |
           # 记录同步前的数量
-          DESKTOP_PREV=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
-          MOBILE_PREV=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
-          AVATAR_PREV=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
+          DESKTOP_PREV=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
+          MOBILE_PREV=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
+          AVATAR_PREV=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
           BING_PREV=$(if [ -f bing/meta/index.json ]; then jq -r '.total' bing/meta/index.json; else echo 0; fi)
           
           echo "desktop=$DESKTOP_PREV" >> $GITHUB_OUTPUT
@@ -274,27 +274,27 @@ jobs:
           TODAY=$(TZ='Asia/Shanghai' date +'%Y-%m-%d')
           
           # 计算当前数量
-          DESKTOP_NOW=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
-          MOBILE_NOW=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
-          AVATAR_NOW=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
+          DESKTOP_NOW=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
+          MOBILE_NOW=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
+          AVATAR_NOW=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
           BING_NOW=$(if [ -f bing/meta/index.json ]; then jq -r '.total' bing/meta/index.json; else echo 0; fi)
-          
+
           # 计算增量
           DESKTOP_PREV=${{ steps.prev_count.outputs.desktop }}
           MOBILE_PREV=${{ steps.prev_count.outputs.mobile }}
           AVATAR_PREV=${{ steps.prev_count.outputs.avatar }}
           BING_PREV=${{ steps.prev_count.outputs.bing }}
-          
+
           DESKTOP_DIFF=$((DESKTOP_NOW - DESKTOP_PREV))
           MOBILE_DIFF=$((MOBILE_NOW - MOBILE_PREV))
           AVATAR_DIFF=$((AVATAR_NOW - AVATAR_PREV))
           BING_DIFF=$((BING_NOW - BING_PREV))
-          
+
           # 格式化增量显示（正数加+号）
           format_diff() {
             if [ "$1" -gt 0 ]; then echo "+$1"; elif [ "$1" -lt 0 ]; then echo "$1"; else echo "-"; fi
           }
-          
+
           DESKTOP_DIFF_STR=$(format_diff $DESKTOP_DIFF)
           MOBILE_DIFF_STR=$(format_diff $MOBILE_DIFF)
           AVATAR_DIFF_STR=$(format_diff $AVATAR_DIFF)
@@ -466,22 +466,22 @@ jobs:
       - name: Generate summary
         run: |
           # 计算当前数量
-          DESKTOP_NOW=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
-          MOBILE_NOW=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
-          AVATAR_NOW=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 2>/dev/null | wc -l | tr -d ' ')
+          DESKTOP_NOW=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
+          MOBILE_NOW=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
+          AVATAR_NOW=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
           BING_NOW=$(if [ -f bing/meta/index.json ]; then jq -r '.total' bing/meta/index.json; else echo 0; fi)
-          
+
           # 计算增量
           DESKTOP_PREV=${{ steps.prev_count.outputs.desktop }}
           MOBILE_PREV=${{ steps.prev_count.outputs.mobile }}
           AVATAR_PREV=${{ steps.prev_count.outputs.avatar }}
           BING_PREV=${{ steps.prev_count.outputs.bing }}
-          
+
           DESKTOP_DIFF=$((DESKTOP_NOW - DESKTOP_PREV))
           MOBILE_DIFF=$((MOBILE_NOW - MOBILE_PREV))
           AVATAR_DIFF=$((AVATAR_NOW - AVATAR_PREV))
           BING_DIFF=$((BING_NOW - BING_PREV))
-          
+
           # 格式化增量显示
           format_diff() {
             if [ "$1" -gt 0 ]; then echo "+$1"; elif [ "$1" -lt 0 ]; then echo "$1"; else echo "-"; fi
