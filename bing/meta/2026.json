@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 73,
+  "total": 74,
   "items": [
+    {
+      "date": "2026-03-15",
+      "title": "掠海而过",
+      "copyright": "太平洋沿岸国家公园保护区，温哥华岛，加拿大 (© EmilyNorton/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%8E%AF%E5%A4%AA%E5%B9%B3%E6%B4%8B%E9%B2%B8%E9%B1%BC%E8%8A%82&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260314_PacificRimNP%22&FORM=HPQUIZ",
+      "hsh": "edb88080b4966fd040169e3ceaddf3af",
+      "urlbase": "/th?id=OHR.PacificRimNP_ZH-CN0350089584"
+    },
     {
       "date": "2026-03-14",
       "title": "圆周率的古老启示",
@@ -660,5 +669,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-03-13T17:36:09.725Z"
+  "updatedAt": "2026-03-14T17:27:47.588Z"
 }
