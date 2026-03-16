@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 75,
+  "total": 76,
   "items": [
+    {
+      "date": "2026-03-17",
+      "title": "爱尔兰的精神十字路口",
+      "copyright": "艾利赫格里安南环形堡，多内加尔，爱尔兰 (© Lukassek/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9C%A3%E5%B8%95%E7%89%B9%E9%87%8C%E5%85%8B%E8%8A%82&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260316_DonegalFort%22&FORM=HPQUIZ",
+      "hsh": "d57e4f597f7ebdb75b72fe8a5f533131",
+      "urlbase": "/th?id=OHR.DonegalFort_ZH-CN0718842170"
+    },
     {
       "date": "2026-03-16",
       "title": "走进熊猫世界",
@@ -678,5 +687,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-03-15T17:28:42.346Z"
+  "updatedAt": "2026-03-16T18:01:25.850Z"
 }
