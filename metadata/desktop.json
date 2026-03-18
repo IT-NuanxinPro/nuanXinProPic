@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-03-17T18:26:21.668Z",
-  "count": 485,
+  "lastUpdated": "2026-03-18T18:03:57.055Z",
+  "count": 493,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -13384,6 +13384,206 @@
       "ai": {
         "keywords": [
           "身穿粉色华服的古典美人"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/风景/星空/月光下的锈蚀灯塔与暖屋.png": {
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "月光下的锈蚀灯塔与暖屋.png",
+      "createdAt": "2026-03-18T18:03:22.000Z",
+      "cdnTag": "v1.2.18",
+      "size": 9205764,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "月光下的锈蚀灯塔与暖屋"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/戴巫师帽的少女坐于钟楼俯瞰古城.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "戴巫师帽的少女坐于钟楼俯瞰古城.png",
+      "createdAt": "2026-03-18T18:03:22.000Z",
+      "cdnTag": "v1.2.18",
+      "size": 9936708,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "戴巫师帽的少女坐于钟楼俯瞰古城"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/窗边光影下的黑发少女.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "窗边光影下的黑发少女.png",
+      "createdAt": "2026-03-18T18:03:22.000Z",
+      "cdnTag": "v1.2.18",
+      "size": 6087020,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "窗边光影下的黑发少女"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/彩虹发色的梦幻少女仰望星空.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "彩虹发色的梦幻少女仰望星空.png",
+      "createdAt": "2026-03-18T18:03:22.000Z",
+      "cdnTag": "v1.2.18",
+      "size": 7829596,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "彩虹发色的梦幻少女仰望星空"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/紫发少女置身霓虹泼墨幻境.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "紫发少女置身霓虹泼墨幻境.png",
+      "createdAt": "2026-03-18T18:03:22.000Z",
+      "cdnTag": "v1.2.18",
+      "size": 9217902,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "紫发少女置身霓虹泼墨幻境"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/紫藤垂落水边的哥伦比娅.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "紫藤垂落水边的哥伦比娅.png",
+      "createdAt": "2026-03-18T18:03:22.000Z",
+      "cdnTag": "v1.2.18",
+      "size": 8293619,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "紫藤垂落水边的哥伦比娅"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/人像/魅力/身着蓝缎旗袍的国风美人.png": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "身着蓝缎旗袍的国风美人.png",
+      "createdAt": "2026-03-18T18:03:22.000Z",
+      "cdnTag": "v1.2.18",
+      "size": 8051256,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "身着蓝缎旗袍的国风美人"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/人像/国风/身着刺绣华服的古典美人立于暖阳中.png": {
+      "category": "人像",
+      "subcategory": "国风",
+      "filename": "身着刺绣华服的古典美人立于暖阳中.png",
+      "createdAt": "2026-03-18T18:03:22.000Z",
+      "cdnTag": "v1.2.18",
+      "size": 8451403,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "keywords": [
+          "身着刺绣华服的古典美人立于暖阳中"
         ],
         "description": "",
         "displayTitle": "",
