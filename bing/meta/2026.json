@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 77,
+  "total": 78,
   "items": [
+    {
+      "date": "2026-03-19",
+      "title": "激发你的好奇心",
+      "copyright": "澳洲针鼹，阿德莱德山，澳大利亚 (© Etienne Littlefair/naturepl.com)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%BE%B3%E6%B4%B2%E9%92%88%E9%BC%B9&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260318_EchidnaAustralia%22&FORM=HPQUIZ",
+      "hsh": "b7c74c637ed98ed5badb475339a04481",
+      "urlbase": "/th?id=OHR.EchidnaAustralia_ZH-CN0913792118"
+    },
     {
       "date": "2026-03-18",
       "title": "城市花开",
@@ -696,5 +705,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-03-17T18:26:00.224Z"
+  "updatedAt": "2026-03-18T18:03:22.286Z"
 }
