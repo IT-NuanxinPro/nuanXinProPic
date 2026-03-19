@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 78,
+  "total": 79,
   "items": [
+    {
+      "date": "2026-03-20",
+      "title": "春日绯梦",
+      "copyright": "春日樱花，上海，中国 (© junyyeung/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%AD%E5%9B%BD%E7%9A%84%E6%A8%B1%E8%8A%B1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260319_SpringEquinoxY26%22&FORM=HPQUIZ",
+      "hsh": "618b53bda23146a4a8fca3f23674ea5a",
+      "urlbase": "/th?id=OHR.SpringEquinoxY26_ZH-CN7450181382"
+    },
     {
       "date": "2026-03-19",
       "title": "激发你的好奇心",
@@ -705,5 +714,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-03-18T18:03:22.286Z"
+  "updatedAt": "2026-03-19T17:55:28.337Z"
 }
