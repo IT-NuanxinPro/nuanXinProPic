@@ -42,6 +42,16 @@ const colors = {
   cyan: text => `\x1b[36m${text}\x1b[0m`,
 }
 
+function formatDateTime(date = new Date()) {
+  const pad = value => String(value).padStart(2, '0')
+
+  return [
+    date.getFullYear(),
+    pad(date.getMonth() + 1),
+    pad(date.getDate()),
+  ].join('-') + ` ${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`
+}
+
 /**
  * HTTP GET 请求
  */
@@ -155,12 +165,12 @@ function saveToYearFile(year, item) {
     // 排序（日期降序）
     yearData.items.sort((a, b) => b.date.localeCompare(a.date))
     yearData.total = yearData.items.length
-    yearData.updatedAt = new Date().toISOString()
+    yearData.updatedAt = formatDateTime()
   } else {
     yearData = {
       year: parseInt(year),
       total: 1,
-      updatedAt: new Date().toISOString(),
+      updatedAt: formatDateTime(),
       items: [item],
     }
   }
@@ -194,7 +204,7 @@ function updateIndexJson() {
   years.sort((a, b) => b.year - a.year)
 
   const indexData = {
-    generatedAt: new Date().toISOString(),
+    generatedAt: formatDateTime(),
     series: 'bing',
     seriesName: 'Bing 每日',
     total,
@@ -226,7 +236,7 @@ function updateLatestJson() {
   const items = allItems.slice(0, 7)
 
   const latestData = {
-    generatedAt: new Date().toISOString(),
+    generatedAt: formatDateTime(),
     total: items.length,
     items,
   }

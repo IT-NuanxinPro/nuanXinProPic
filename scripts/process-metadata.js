@@ -43,6 +43,16 @@ const CHAR_MAP_ENCODE = {
 
 const VERSION_PREFIX = 'v1.'
 
+function formatDateTime(date = new Date()) {
+  const pad = value => String(value).padStart(2, '0')
+
+  return [
+    date.getFullYear(),
+    pad(date.getMonth() + 1),
+    pad(date.getDate()),
+  ].join('-') + ` ${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`
+}
+
 // 编码函数（与前端一致）
 function encodeData(data) {
   const jsonStr = typeof data === 'string' ? data : JSON.stringify(data)
@@ -154,7 +164,7 @@ function loadMetadata(filePath) {
   return {
     version: 2,
     series: path.basename(filePath, '.json'),
-    lastUpdated: new Date().toISOString(),
+    lastUpdated: formatDateTime(),
     count: 0,
     images: {}
   }
@@ -162,7 +172,7 @@ function loadMetadata(filePath) {
 
 // 保存 metadata JSON
 function saveMetadata(filePath, data) {
-  data.lastUpdated = new Date().toISOString()
+  data.lastUpdated = formatDateTime()
   data.count = Object.keys(data.images).length
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8')
 }
@@ -291,7 +301,7 @@ function processPendingFile(pendingFile, metadataMap, newTag) {
 // 生成前端数据文件（与 generate-data.js 格式兼容）
 function generateFrontendData(metadataMap, dataDir, newTag) {
   const stats = {
-    lastUpdated: new Date().toISOString(),
+    lastUpdated: formatDateTime(),
     cdnTag: newTag,
     series: {}
   }
@@ -421,7 +431,7 @@ function generateFrontendData(metadataMap, dataDir, newTag) {
 
     // 写入分类索引文件
     const indexData = {
-      generatedAt: new Date().toISOString(),
+      generatedAt: formatDateTime(),
       series: series,
       seriesName: metadata.series || series,
       total: wallpapers.length,
@@ -438,7 +448,7 @@ function generateFrontendData(metadataMap, dataDir, newTag) {
     // 为每个分类生成独立的 JSON 文件
     Object.entries(categoryGroups).forEach(([categoryName, items]) => {
       const categoryData = {
-        generatedAt: new Date().toISOString(),
+        generatedAt: formatDateTime(),
         series: series,
         category: categoryName,
         total: items.length,
@@ -453,7 +463,7 @@ function generateFrontendData(metadataMap, dataDir, newTag) {
 
     // 同时生成传统单文件格式（向后兼容）
     const legacyData = {
-      generatedAt: new Date().toISOString(),
+      generatedAt: formatDateTime(),
       series: series,
       seriesName: metadata.series || series,
       total: wallpapers.length,
@@ -686,7 +696,7 @@ function syncFromTimestamps(timestampsFile, metadataMap, defaultTag) {
       category: category,
       subcategory: finalSubcategory,
       filename: filename,
-      createdAt: new Date(parseInt(timestamp) * 1000).toISOString(),
+      createdAt: formatDateTime(new Date(parseInt(timestamp) * 1000)),
       cdnTag: cdnTag || defaultTag,
       size: imageInfo.size,
       format: filename.split('.').pop()?.toLowerCase() || 'jpg',

@@ -32,13 +32,16 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 /**
- * 获取上海时区的 ISO 时间字符串
+ * 格式化时间为 YYYY-MM-DD HH:mm:ss
  */
-function getShanghaiISOString(date = new Date()) {
-  // 上海时区 UTC+8
-  const shanghaiOffset = 8 * 60 * 60 * 1000
-  const shanghaiTime = new Date(date.getTime() + shanghaiOffset)
-  return shanghaiTime.toISOString().replace('Z', '+08:00')
+function formatDateTime(date = new Date()) {
+  const pad = value => String(value).padStart(2, '0')
+
+  return [
+    date.getFullYear(),
+    pad(date.getMonth() + 1),
+    pad(date.getDate()),
+  ].join('-') + ` ${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`
 }
 
 /**
@@ -417,13 +420,13 @@ function generateWallpaperData(files, seriesConfig) {
     if (backupTimestamp) {
       // 使用备份的时间戳（上海时区）
       timestampMs = backupTimestamp
-      createdAt = getShanghaiISOString(new Date(backupTimestamp))
+      createdAt = formatDateTime(new Date(backupTimestamp))
       // 使用备份的 first_tag
       cdnTag = backupTag || 'v1.0.0'
     } else {
       // 新文件使用当前时间（上海时区），并记录到新时间戳 Map
       timestampMs = currentTime
-      createdAt = getShanghaiISOString(new Date(currentTime))
+      createdAt = formatDateTime(new Date(currentTime))
       newTimestamps.set(timestampKey, timestampMs)
       // 新文件使用当前最新 tag
       cdnTag = getCurrentTag()
@@ -527,7 +530,7 @@ function generateCategorySplitData(wallpapers, seriesId, seriesConfig) {
 
   // index.json 格式与前端完全一致
   const indexData = {
-    generatedAt: getShanghaiISOString(),
+    generatedAt: formatDateTime(),
     series: seriesId,
     seriesName: seriesConfig.name,
     total: wallpapers.length,
@@ -545,7 +548,7 @@ function generateCategorySplitData(wallpapers, seriesId, seriesConfig) {
   Object.entries(categoryGroups).forEach(([categoryName, items]) => {
     const blob = encodeData(JSON.stringify(items))
     const encryptedData = {
-      generatedAt: getShanghaiISOString(),
+      generatedAt: formatDateTime(),
       series: seriesId,
       category: categoryName,
       total: items.length,
@@ -568,7 +571,7 @@ function generateLegacyFile(wallpapers, seriesId, seriesConfig) {
   const blob = encodeData(JSON.stringify(wallpapers))
 
   const outputData = {
-    generatedAt: getShanghaiISOString(),
+    generatedAt: formatDateTime(),
     series: seriesId,
     seriesName: seriesConfig.name,
     total: wallpapers.length,
@@ -735,7 +738,7 @@ async function main() {
   }
   
   console.log(`Timezone: Asia/Shanghai (UTC+8)`)
-  console.log(`Generated At: ${getShanghaiISOString()}`)
+  console.log(`Generated At: ${formatDateTime()}`)
 
   // 加载时间戳备份文件
   console.log('')

@@ -7,6 +7,16 @@ const fs = require('fs')
 const path = require('path')
 const { execSync } = require('child_process')
 
+function formatDateTime(date = new Date()) {
+  const pad = value => String(value).padStart(2, '0')
+
+  return [
+    date.getFullYear(),
+    pad(date.getMonth() + 1),
+    pad(date.getDate()),
+  ].join('-') + ` ${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`
+}
+
 // 要添加的 6 张图片信息
 const missingImages = [
   {
@@ -199,7 +209,7 @@ function main() {
       category: '插画',
       subcategory: '',
       filename: img.filename,
-      createdAt: new Date(img.timestamp * 1000).toISOString(),
+      createdAt: formatDateTime(new Date(img.timestamp * 1000)),
       cdnTag: img.tag,
       size: size,
       format: 'png',
@@ -210,7 +220,7 @@ function main() {
         displayTitle: displayTitle,
         confidence: 0.8,
         model: 'manual-annotation',
-        analyzedAt: new Date().toISOString()
+        analyzedAt: formatDateTime()
       }
     }
 
@@ -221,7 +231,7 @@ function main() {
 
   // 更新 count 和 lastUpdated
   metadata.count = Object.keys(metadata.images).length
-  metadata.lastUpdated = new Date().toISOString()
+  metadata.lastUpdated = formatDateTime()
 
   // 保存 metadata
   fs.writeFileSync(metadataFile, JSON.stringify(metadata, null, 2), 'utf-8')
