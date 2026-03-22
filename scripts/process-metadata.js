@@ -42,6 +42,16 @@ const CHAR_MAP_ENCODE = {
 }
 
 const VERSION_PREFIX = 'v1.'
+const LATEST_SLICE_SIZE = 40
+
+function compareWallpapers(a, b) {
+  const dateDiff = new Date(b.createdAt || 0) - new Date(a.createdAt || 0)
+  if (dateDiff !== 0) {
+    return dateDiff
+  }
+
+  return String(a.filename || '').localeCompare(String(b.filename || ''))
+}
 
 function formatDateTime(date = new Date()) {
   const pad = value => String(value).padStart(2, '0')
@@ -388,8 +398,8 @@ function generateFrontendData(metadataMap, dataDir, newTag) {
       wallpapers.push(wallpaperData)
     }
 
-    // 按时间倒序排列
-    wallpapers.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
+    // 全局稳定排序：先按最新，再按文件名，避免首屏顺序抖动
+    wallpapers.sort(compareWallpapers)
 
     // 按分类分组
     const categoryGroups = {}
@@ -444,6 +454,21 @@ function generateFrontendData(metadataMap, dataDir, newTag) {
     const indexPath = path.join(seriesDir, 'index.json')
     fs.writeFileSync(indexPath, JSON.stringify(indexData, null, 2))
     console.log(`  生成 ${series}/index.json`)
+
+    // 生成全局最新切片，专门服务首屏稳定预热
+    const latestItems = wallpapers.slice(0, LATEST_SLICE_SIZE)
+    const latestData = {
+      generatedAt: formatDateTime(),
+      series: series,
+      category: 'latest',
+      total: latestItems.length,
+      blob: encodeData(JSON.stringify(latestItems)),
+      schema: 2
+    }
+
+    const latestPath = path.join(seriesDir, 'latest.json')
+    fs.writeFileSync(latestPath, JSON.stringify(latestData, null, 2))
+    console.log(`  生成 ${series}/latest.json (${latestItems.length} 张)`)
 
     // 为每个分类生成独立的 JSON 文件
     Object.entries(categoryGroups).forEach(([categoryName, items]) => {
