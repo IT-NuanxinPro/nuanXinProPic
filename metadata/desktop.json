@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-03-21 17:27:16",
-  "count": 493,
+  "lastUpdated": "2026-03-22 14:26:12",
+  "count": 507,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -47,15 +47,28 @@
       },
       "ai": {
         "keywords": [
-          "粉樱",
-          "少女",
-          "甜美"
+          "凯蒂猫",
+          "卡通插画",
+          "花卉背景",
+          "治愈系",
+          "紫色蝴蝶结"
         ],
-        "description": "粉樱色梦境里，甜美如初见时光",
-        "displayTitle": "",
-        "confidence": 0.95,
+        "description": "凯蒂猫以淡雅水彩风格呈现，头戴紫色蝴蝶结，被粉色与淡紫花朵温柔环绕，散发出梦幻而治愈的少女气息。",
+        "displayTitle": "花海中的温柔凯蒂",
+        "confidence": 0.9,
         "model": "enhanced-keywords",
-        "analyzedAt": "2026-01-20T13:07:32.537Z"
+        "analyzedAt": "2026-01-20T13:07:32.537Z",
+        "series": "desktop",
+        "category": "IP形象",
+        "subcategory": "凯蒂猫",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "third": "凯蒂猫",
+        "filenameSuggestions": [
+          "紫蝴蝶结的凯蒂猫花环.jpg",
+          "樱花簇拥的可爱凯蒂脸庞.jpg"
+        ],
+        "reasoning": "图片主体为知名IP角色Hello Kitty（凯蒂猫），佩戴标志性蝴蝶结，背景为花卉装饰，符合‘IP形象/凯蒂猫’分类。根据决策树B1，特定IP优先归入对应子类，无需提案新分类。"
       }
     },
     "wallpaper/desktop/IP形象/凯蒂猫/HelloKitty-凯蒂猫聚餐.png": {
@@ -3881,14 +3894,26 @@
       },
       "ai": {
         "keywords": [
+          "蜡笔小新",
           "动漫",
-          "蜡笔小新"
+          "卡通"
         ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
+        "description": "蜡笔小新骑着大鱼，表情可爱",
+        "displayTitle": "摸鱼小新",
+        "confidence": 0.9,
         "model": "filename-inference",
-        "analyzedAt": null
+        "analyzedAt": null,
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "filenameSuggestions": [
+          "蜡笔小新骑着大鱼.jpg",
+          "摸鱼小新.jpg"
+        ],
+        "reasoning": "图片为蜡笔小新角色形象，符合动漫/蜡笔小新分类"
       }
     },
     "wallpaper/desktop/动漫/蜡笔小新/动漫场景-小新-小白.png": {
@@ -13590,6 +13615,539 @@
         "confidence": 0,
         "model": "filename-inference",
         "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/IP形象/乌萨奇/Chiikawa-乌萨奇.png": {
+      "category": "IP形象",
+      "subcategory": "乌萨奇",
+      "filename": "Chiikawa-乌萨奇.png",
+      "createdAt": "2026-03-22T13:59:41.740Z",
+      "cdnTag": "v1.2.23",
+      "size": 441067,
+      "format": "png",
+      "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "IP形象",
+        "subcategory": "乌萨奇",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "third": "乌萨奇",
+        "keywords": [
+          "乌萨奇",
+          "樱花",
+          "治愈系",
+          "萌宠",
+          "春日"
+        ],
+        "description": "粉樱如云，花瓣轻舞，乌萨奇与小伙伴在树下享受宁静春日，画面温柔治愈，充满童话般的浪漫气息。",
+        "filenameSuggestions": [
+          "樱花树下休憩的乌萨奇与伙伴.jpg",
+          "粉瓣飘落时的萌趣午后.jpg"
+        ],
+        "displayTitle": "樱雨纷飞下的治愈时光",
+        "confidence": 0.9,
+        "reasoning": "图片主角为知名IP角色‘乌萨奇’，其形象特征（圆润白兔、表情呆萌）与‘IP形象/乌萨奇’完全匹配，根据决策树B1，优先归入特定IP分类。"
+      }
+    },
+    "wallpaper/desktop/IP形象/乌萨奇/Chiikawa.png": {
+      "category": "IP形象",
+      "subcategory": "乌萨奇",
+      "filename": "Chiikawa.png",
+      "createdAt": "2026-03-22T14:00:04.028Z",
+      "cdnTag": "v1.2.23",
+      "size": 472033,
+      "format": "png",
+      "resolution": {
+        "width": 1920,
+        "height": 1323,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "IP形象",
+        "subcategory": "乌萨奇",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "third": "乌萨奇",
+        "keywords": [
+          "乌萨奇",
+          "樱花",
+          "萌系插画",
+          "春日场景",
+          "治愈系"
+        ],
+        "description": "粉樱如云，花瓣轻舞，几只乌萨奇在草地上嬉戏，树梢上还有小伙伴探头张望，满是春日的温柔与童趣。",
+        "filenameSuggestions": [
+          "樱花树下嬉戏的乌萨奇们.jpg",
+          "粉瓣飘落中的可爱小动物们.jpg"
+        ],
+        "displayTitle": "樱雨纷飞下的萌趣时光",
+        "confidence": 0.9,
+        "reasoning": "图片中角色为知名IP‘乌萨奇’，其标志性圆润造型、表情及互动场景清晰可辨，根据决策树B1，应归入IP形象/乌萨奇。画面风格虽具插画感，但因明确归属特定IP，优先按IP分类处理。"
+      }
+    },
+    "wallpaper/desktop/IP形象/酷洛米/卡通-可爱-酷洛米.png": {
+      "category": "IP形象",
+      "subcategory": "酷洛米",
+      "filename": "卡通-可爱-酷洛米.png",
+      "createdAt": "2026-03-22T14:08:35.013Z",
+      "cdnTag": "v1.2.23",
+      "size": 199739,
+      "format": "png",
+      "resolution": {
+        "width": 2160,
+        "height": 1212,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "category": "IP形象",
+        "third": "酷洛米",
+        "subcategory": "酷洛米",
+        "filenameSuggestions": [
+          "戴骷髅发饰的酷洛米萌颜.jpg",
+          "粉紫背景下的可爱酷洛米特写.jpg"
+        ],
+        "filenames": [
+          "戴骷髅发饰的酷洛米萌颜.jpg",
+          "粉紫背景下的可爱酷洛米特写.jpg"
+        ],
+        "displayTitle": "粉紫梦境中的甜酷少女",
+        "keywords": [
+          "酷洛米",
+          "三丽鸥",
+          "甜酷风",
+          "卡通插画",
+          "萌系壁纸"
+        ],
+        "description": "粉紫梦幻背景下，酷洛米以标志性的甜美微笑与骷髅装饰展现独特甜酷魅力，治愈又个性。",
+        "confidence": 0.9,
+        "reasoning": "图片主体为三丽鸥IP角色酷洛米，具有明确的商业形象特征（黑头巾、骷髅、兔耳），符合IP形象定义；但现有三级分类无‘酷洛米’选项，故暂归‘通用’，并提案新增该IP子类。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/休闲-室内-居家.png": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "休闲-室内-居家.png",
+      "createdAt": "2026-03-22T14:14:09.217Z",
+      "cdnTag": "v1.2.23",
+      "size": 884646,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "氛围感",
+        "subcategory": "氛围感",
+        "filenameSuggestions": [
+          "黑发少女倚沙发用笔记本电脑.jpg",
+          "白猫静卧沙发后方的温馨场景.jpg"
+        ],
+        "filenames": [
+          "笔记本前的小姑娘与沙发上的白猫.jpg",
+          "惬意午后猫和女孩.jpg"
+        ],
+        "displayTitle": "猫伴书窗夜未央",
+        "keywords": [
+          "氛围感",
+          "居家风",
+          "猫咪陪伴",
+          "黑长直",
+          "笔记本电脑"
+        ],
+        "description": "黑发少女专注操作笔记本，身后白猫安卧沙发，光影柔和，营造出宁静而富有生活气息的居家氛围。",
+        "confidence": 0.9,
+        "reasoning": "图片主体为女性人像，符合人像分类。虽有清晰面部，但整体构图强调环境与情绪氛围（柔和光线、猫咪陪伴、居家场景），符合【氛围感】定义，故归入人像/氛围感。无明星或特定IP，无需提案新类。"
+      }
+    },
+    "wallpaper/desktop/萌宠/狗狗/卡通-卡通小狗-可爱.png": {
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "卡通-卡通小狗-可爱.png",
+      "createdAt": "2026-03-22T14:14:09.217Z",
+      "cdnTag": "v1.2.23",
+      "size": 709908,
+      "format": "png",
+      "resolution": {
+        "width": 2358,
+        "height": 1634,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "desktop",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "萌宠插画",
+          "卡通狗狗",
+          "治愈系",
+          "花丛场景",
+          "手绘风格"
+        ],
+        "description": "多只憨态可掬的小狗在繁花似锦的蓝天下欢聚，水彩笔触温柔细腻，洋溢着童真与治愈的氛围。",
+        "filenameSuggestions": [
+          "花海中嬉戏的可爱小狗群像.jpg",
+          "蓝天白云下绽放笑容的毛孩们.jpg"
+        ],
+        "displayTitle": "花丛中的萌犬派对",
+        "confidence": 0.9,
+        "reasoning": "图片主体为多只卡通风格的狗狗，围绕花卉与蓝天构成温馨场景。根据分类体系，优先归入'萌宠/狗狗'。虽具插画感，但因内容明确为宠物主题，不适用插画类。无特定IP或明星，无需提案新类。"
+      }
+    },
+    "wallpaper/desktop/人像/清新/吊带-美女.png": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "吊带-美女.png",
+      "createdAt": "2026-03-22T14:16:41.000Z",
+      "cdnTag": "v1.2.23",
+      "size": 1104069,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "人像",
+          "沙发",
+          "长发"
+        ],
+        "description": "一个长发女孩悠闲地躺在沙发上的清新画面。",
+        "filenameSuggestions": [
+          "白色衣裙的女孩在沙发上休闲.jpg",
+          "长发女孩的清新日常.jpg"
+        ],
+        "displayTitle": "阳光下的悠闲时光",
+        "confidence": 0.9,
+        "reasoning": "图片中为一位女性，表情轻松，环境整洁明亮，根据人像分类决策树中的【清新】(Fresh)定义，判定为[人像/清新]"
+      }
+    },
+    "wallpaper/desktop/动漫/蜡笔小新/动漫-卡通-蜡笔小新.png": {
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "动漫-卡通-蜡笔小新.png",
+      "createdAt": "2026-03-22T14:16:41.000Z",
+      "cdnTag": "v1.2.23",
+      "size": 1412574,
+      "format": "png",
+      "resolution": {
+        "width": 4000,
+        "height": 2250,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动漫",
+          "搞笑"
+        ],
+        "description": "蜡笔小新带给你无忧无虑的快乐",
+        "filenameSuggestions": [
+          "心情自由的蜡笔小新.jpg",
+          "快乐的蜡笔小新.jpg"
+        ],
+        "displayTitle": "自由之心",
+        "confidence": 0.9,
+        "reasoning": "图片为蜡笔小新角色形象，具有明显的动漫风格，符合特定IP特征"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/二次元-动漫角色.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "二次元-动漫角色.png",
+      "createdAt": "2026-03-22T14:16:41.000Z",
+      "cdnTag": "v1.2.23",
+      "size": 908565,
+      "format": "png",
+      "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫",
+          "二次元",
+          "蓝发少女"
+        ],
+        "description": "动漫风格蓝发双色瞳少女侧颜头像",
+        "filenameSuggestions": [
+          "梦幻双色瞳少女.jpg",
+          "清新双色瞳少女侧颜.jpg"
+        ],
+        "displayTitle": "梦幻双色瞳少女",
+        "confidence": 0.9,
+        "reasoning": "图片具有典型的日式动画风格，大眼睛，蓝白色渐变长发，判定为动漫/二次元"
+      }
+    },
+    "wallpaper/desktop/插画/国风/二次元-光影-唯美.png": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "二次元-光影-唯美.png",
+      "createdAt": "2026-03-22T14:16:41.000Z",
+      "cdnTag": "v1.2.23",
+      "size": 1403128,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "梦幻",
+          "机械时钟",
+          "仙气"
+        ],
+        "description": "一位长发女子手持机械时钟，穿着带有金色装饰的国风服装，氛围梦幻神秘。",
+        "filenameSuggestions": [
+          "手持机械时钟的梦幻长发少女.jpg",
+          "穿着国风服装的优雅女子凝视时钟.jpg"
+        ],
+        "displayTitle": "时光中的绝美仙姬",
+        "confidence": 0.9,
+        "reasoning": "图片以一位长发女子为主体，她穿着具有国风元素的服装，手持机械时钟，整体具有梦幻、神秘的氛围。根据决策树B2，图片具有明显的绘画感和国风元素，因此归入插画/国风。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/呵欠-夏日-小猫.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "呵欠-夏日-小猫.png",
+      "createdAt": "2026-03-22T14:16:41.000Z",
+      "cdnTag": "v1.2.23",
+      "size": 5015494,
+      "format": "png",
+      "resolution": {
+        "width": 4200,
+        "height": 2800,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫",
+          "二次元",
+          "少女",
+          "猫"
+        ],
+        "description": "二次元风格的少女与猫咪在公园的惬意场景",
+        "filenameSuggestions": [
+          "阳光下的欢笑与惬意.jpg",
+          "公园里的二次元少女与猫.jpg"
+        ],
+        "displayTitle": "阳光下的欢笑与惬意",
+        "confidence": 0.9,
+        "reasoning": "图片呈现出典型的二次元动漫风格，人物表情生动，场景细腻。根据决策树B2，判定为动漫/二次元。"
+      }
+    },
+    "wallpaper/desktop/动漫/鬼灭之刃/蝴蝶忍-鬼灭之刃.png": {
+      "category": "动漫",
+      "subcategory": "鬼灭之刃",
+      "filename": "蝴蝶忍-鬼灭之刃.png",
+      "createdAt": "2026-03-22T14:18:13.507Z",
+      "cdnTag": "v1.2.23",
+      "size": 139818,
+      "format": "png",
+      "resolution": {
+        "width": 1920,
+        "height": 1078,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "鬼灭之刃",
+        "subcategory": "鬼灭之刃",
+        "filenameSuggestions": [
+          "月光下的和服美少女.jpg",
+          "持伞赏蝶的梦幻少女.jpg"
+        ],
+        "filenames": [
+          "月光下的和服美少女.jpg",
+          "持伞赏蝶的梦幻少女.jpg"
+        ],
+        "displayTitle": "和风蝶舞夜微凉",
+        "keywords": [
+          "和服",
+          "鬼灭之刃",
+          "蝶",
+          "夜景"
+        ],
+        "description": "和服少女在夜晚持伞赏蝶，周围点缀着灯笼和飞舞的蝴蝶。",
+        "confidence": 0.9,
+        "reasoning": "图片以和服少女为主题，背景充满和风元素，如灯笼和蝴蝶，整体呈现出浓厚的日本传统美学。根据决策树B2，图片具有国风元素且以插画形式呈现，因此归类为插画/国风。"
+      }
+    },
+    "wallpaper/desktop/插画/卡通/卡通-喜羊羊和灰太狼.png": {
+      "category": "插画",
+      "subcategory": "卡通",
+      "filename": "卡通-喜羊羊和灰太狼.png",
+      "createdAt": "2026-03-22T14:18:13.507Z",
+      "cdnTag": "v1.2.23",
+      "size": 526464,
+      "format": "png",
+      "resolution": {
+        "width": 2358,
+        "height": 1302,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "卡通",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "卡通",
+        "keywords": [
+          "卡通",
+          "插画",
+          "梦幻",
+          "星光"
+        ],
+        "description": "一幅充满梦幻与奇幻元素的卡通插画，展现了两个可爱角色与星光的互动。",
+        "filenameSuggestions": [
+          "梦幻星光下的奇幻邂逅.jpg",
+          "卡通风格的梦幻小屋.jpg"
+        ],
+        "displayTitle": "梦幻星光下的奇幻邂逅",
+        "confidence": 0.9,
+        "reasoning": "图片具有典型的卡通风格，人物形象夸张且充满梦幻色彩。根据决策树B2，判定为插画/卡通。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/原神-甘雨.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "原神-甘雨.png",
+      "createdAt": "2026-03-22T14:18:13.507Z",
+      "cdnTag": "v1.2.23",
+      "size": 215319,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫",
+          "二次元",
+          "星空",
+          "梦幻"
+        ],
+        "description": "动漫风格的二次元少女，置身于梦幻星空背景中。",
+        "filenameSuggestions": [
+          "梦幻星空下的长发少女.jpg",
+          "蓝色光芒中的二次元美少女.jpg"
+        ],
+        "displayTitle": "星空下的梦幻少女",
+        "confidence": 0.9,
+        "reasoning": "图片具有典型的动漫风格，人物为二次元角色，背景为星空，根据决策树B1和B2，判定为动漫/二次元。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/云层飞行-天空背景.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "云层飞行-天空背景.png",
+      "createdAt": "2026-03-22T14:18:13.507Z",
+      "cdnTag": "v1.2.23",
+      "size": 2572792,
+      "format": "png",
+      "resolution": {
+        "width": 4500,
+        "height": 2800,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫",
+          "二次元",
+          "飞行",
+          "云"
+        ],
+        "description": "少年在云端飞翔，自由与梦想的象征",
+        "filenameSuggestions": [
+          "飞翔的少年与白云.jpg",
+          "仰望天空的自由之魂.jpg"
+        ],
+        "displayTitle": "飞翔在云端的少年梦想",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一名少年在云端飞翔的场景，具有典型的动漫风格，且未识别出具体IP，归类为动漫/二次元"
       }
     }
   }
