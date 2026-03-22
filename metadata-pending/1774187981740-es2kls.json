@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "createdAt": "2026-03-22T13:59:41.740Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/IP形象/乌萨奇/Chiikawa-乌萨奇.png",
+      "category": "IP形象",
+      "subcategory": "乌萨奇",
+      "filename": "Chiikawa-乌萨奇.png",
+      "createdAt": "2026-03-22T13:59:41.740Z",
+      "size": 441067,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "IP形象",
+        "subcategory": "乌萨奇",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "third": "乌萨奇",
+        "keywords": [
+          "乌萨奇",
+          "樱花",
+          "治愈系",
+          "萌宠",
+          "春日"
+        ],
+        "description": "粉樱如云，花瓣轻舞，乌萨奇与小伙伴在树下享受宁静春日，画面温柔治愈，充满童话般的浪漫气息。",
+        "filenameSuggestions": [
+          "樱花树下休憩的乌萨奇与伙伴.jpg",
+          "粉瓣飘落时的萌趣午后.jpg"
+        ],
+        "displayTitle": "樱雨纷飞下的治愈时光",
+        "confidence": 0.9,
+        "reasoning": "图片主角为知名IP角色‘乌萨奇’，其形象特征（圆润白兔、表情呆萌）与‘IP形象/乌萨奇’完全匹配，根据决策树B1，优先归入特定IP分类。"
+      }
+    }
+  ]
+}
