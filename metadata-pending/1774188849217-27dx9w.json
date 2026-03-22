@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "createdAt": "2026-03-22T14:14:09.217Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/氛围感/休闲-室内-居家.png",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "休闲-室内-居家.png",
+      "createdAt": "2026-03-22T14:14:09.217Z",
+      "size": 884646,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "氛围感",
+        "subcategory": "氛围感",
+        "filenameSuggestions": [
+          "笔记本前的小姑娘与沙发上的白猫.jpg",
+          "惬意午后猫和女孩.jpg"
+        ],
+        "filenames": [
+          "笔记本前的小姑娘与沙发上的白猫.jpg",
+          "惬意午后猫和女孩.jpg"
+        ],
+        "displayTitle": "温馨时光里的少女与猫",
+        "keywords": [
+          "萌宠",
+          "猫咪",
+          "少女"
+        ],
+        "description": "一个长发少女在笔记本电脑前，背后沙发上有一只白猫。",
+        "confidence": 0.9,
+        "reasoning": "图片中主要元素是少女和猫，符合萌宠分类下的猫咪子类。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/萌宠/狗狗/卡通-卡通小狗-可爱.png",
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "卡通-卡通小狗-可爱.png",
+      "createdAt": "2026-03-22T14:14:09.217Z",
+      "size": 709908,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "desktop",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "萌宠",
+          "狗狗",
+          "花海"
+        ],
+        "description": "一组可爱的小狗在花海中玩耍的插画",
+        "filenameSuggestions": [
+          "花海中的快乐小狗们.jpg",
+          "草地上欢快玩耍的狗狗们.jpg"
+        ],
+        "displayTitle": "花海中的快乐小狗们",
+        "confidence": 0.9,
+        "reasoning": "图片以多只小狗为主体，周围环绕着花朵，展现出一种欢乐的氛围。根据内容，归类为萌宠/狗狗。"
+      }
+    }
+  ]
+}
