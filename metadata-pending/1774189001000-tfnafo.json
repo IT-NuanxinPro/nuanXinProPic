@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "createdAt": "2026-03-22T14:16:41.000Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/清新/吊带-美女.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "吊带-美女.png",
+      "createdAt": "2026-03-22T14:16:41.000Z",
+      "size": 1104069,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "人像",
+          "沙发",
+          "长发"
+        ],
+        "description": "一个长发女孩悠闲地躺在沙发上的清新画面。",
+        "filenameSuggestions": [
+          "白色衣裙的女孩在沙发上休闲.jpg",
+          "长发女孩的清新日常.jpg"
+        ],
+        "displayTitle": "阳光下的悠闲时光",
+        "confidence": 0.9,
+        "reasoning": "图片中为一位女性，表情轻松，环境整洁明亮，根据人像分类决策树中的【清新】(Fresh)定义，判定为[人像/清新]"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/蜡笔小新/动漫-卡通-蜡笔小新.png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "动漫-卡通-蜡笔小新.png",
+      "createdAt": "2026-03-22T14:16:41.000Z",
+      "size": 1412574,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动漫",
+          "搞笑"
+        ],
+        "description": "蜡笔小新带给你无忧无虑的快乐",
+        "filenameSuggestions": [
+          "心情自由的蜡笔小新.jpg",
+          "快乐的蜡笔小新.jpg"
+        ],
+        "displayTitle": "自由之心",
+        "confidence": 0.9,
+        "reasoning": "图片为蜡笔小新角色形象，具有明显的动漫风格，符合特定IP特征"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/蜡笔小新/动漫-蜡笔小新.png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "动漫-蜡笔小新.png",
+      "createdAt": "2026-03-22T14:16:41.000Z",
+      "size": 1147638,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动漫",
+          "卡通"
+        ],
+        "description": "蜡笔小新骑着大鱼，表情可爱",
+        "filenameSuggestions": [
+          "蜡笔小新骑着大鱼.jpg",
+          "摸鱼小新.jpg"
+        ],
+        "displayTitle": "摸鱼小新",
+        "confidence": 0.9,
+        "reasoning": "图片为蜡笔小新角色形象，符合动漫/蜡笔小新分类"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/二次元-动漫角色.png",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "二次元-动漫角色.png",
+      "createdAt": "2026-03-22T14:16:41.000Z",
+      "size": 908565,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫",
+          "二次元",
+          "蓝发少女"
+        ],
+        "description": "动漫风格蓝发双色瞳少女侧颜头像",
+        "filenameSuggestions": [
+          "梦幻双色瞳少女.jpg",
+          "清新双色瞳少女侧颜.jpg"
+        ],
+        "displayTitle": "梦幻双色瞳少女",
+        "confidence": 0.9,
+        "reasoning": "图片具有典型的日式动画风格，大眼睛，蓝白色渐变长发，判定为动漫/二次元"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/国风/二次元-光影-唯美.png",
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "二次元-光影-唯美.png",
+      "createdAt": "2026-03-22T14:16:41.000Z",
+      "size": 1403128,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "梦幻",
+          "机械时钟",
+          "仙气"
+        ],
+        "description": "一位长发女子手持机械时钟，穿着带有金色装饰的国风服装，氛围梦幻神秘。",
+        "filenameSuggestions": [
+          "手持机械时钟的梦幻长发少女.jpg",
+          "穿着国风服装的优雅女子凝视时钟.jpg"
+        ],
+        "displayTitle": "时光中的绝美仙姬",
+        "confidence": 0.9,
+        "reasoning": "图片以一位长发女子为主体，她穿着具有国风元素的服装，手持机械时钟，整体具有梦幻、神秘的氛围。根据决策树B2，图片具有明显的绘画感和国风元素，因此归入插画/国风。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/呵欠-夏日-小猫.png",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "呵欠-夏日-小猫.png",
+      "createdAt": "2026-03-22T14:16:41.000Z",
+      "size": 5015494,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫",
+          "二次元",
+          "少女",
+          "猫"
+        ],
+        "description": "二次元风格的少女与猫咪在公园的惬意场景",
+        "filenameSuggestions": [
+          "阳光下的欢笑与惬意.jpg",
+          "公园里的二次元少女与猫.jpg"
+        ],
+        "displayTitle": "阳光下的欢笑与惬意",
+        "confidence": 0.9,
+        "reasoning": "图片呈现出典型的二次元动漫风格，人物表情生动，场景细腻。根据决策树B2，判定为动漫/二次元。"
+      }
+    }
+  ]
+}
