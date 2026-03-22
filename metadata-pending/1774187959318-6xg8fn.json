@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "createdAt": "2026-03-22T13:59:19.318Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/IP形象/凯蒂猫/HelloKitty-凯蒂猫.png",
+      "category": "IP形象",
+      "subcategory": "凯蒂猫",
+      "filename": "HelloKitty-凯蒂猫.png",
+      "createdAt": "2026-03-22T13:59:19.318Z",
+      "size": 269461,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "IP形象",
+        "subcategory": "凯蒂猫",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "third": "凯蒂猫",
+        "keywords": [
+          "凯蒂猫",
+          "卡通插画",
+          "花卉背景",
+          "治愈系",
+          "紫色蝴蝶结"
+        ],
+        "description": "凯蒂猫以淡雅水彩风格呈现，头戴紫色蝴蝶结，被粉色与淡紫花朵温柔环绕，散发出梦幻而治愈的少女气息。",
+        "filenameSuggestions": [
+          "紫蝴蝶结的凯蒂猫花环.jpg",
+          "樱花簇拥的可爱凯蒂脸庞.jpg"
+        ],
+        "displayTitle": "花海中的温柔凯蒂",
+        "confidence": 0.9,
+        "reasoning": "图片主体为知名IP角色Hello Kitty（凯蒂猫），佩戴标志性蝴蝶结，背景为花卉装饰，符合‘IP形象/凯蒂猫’分类。根据决策树B1，特定IP优先归入对应子类，无需提案新分类。"
+      }
+    }
+  ]
+}
