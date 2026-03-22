@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "createdAt": "2026-03-22T14:00:04.028Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/IP形象/乌萨奇/Chiikawa.png",
+      "category": "IP形象",
+      "subcategory": "乌萨奇",
+      "filename": "Chiikawa.png",
+      "createdAt": "2026-03-22T14:00:04.028Z",
+      "size": 472033,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "IP形象",
+        "subcategory": "乌萨奇",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "third": "乌萨奇",
+        "keywords": [
+          "乌萨奇",
+          "樱花",
+          "萌系插画",
+          "春日场景",
+          "治愈系"
+        ],
+        "description": "粉樱如云，花瓣轻舞，几只乌萨奇在草地上嬉戏，树梢上还有小伙伴探头张望，满是春日的温柔与童趣。",
+        "filenameSuggestions": [
+          "樱花树下嬉戏的乌萨奇们.jpg",
+          "粉瓣飘落中的可爱小动物们.jpg"
+        ],
+        "displayTitle": "樱雨纷飞下的萌趣时光",
+        "confidence": 0.9,
+        "reasoning": "图片中角色为知名IP‘乌萨奇’，其标志性圆润造型、表情及互动场景清晰可辨，根据决策树B1，应归入IP形象/乌萨奇。画面风格虽具插画感，但因明确归属特定IP，优先按IP分类处理。"
+      }
+    }
+  ]
+}
