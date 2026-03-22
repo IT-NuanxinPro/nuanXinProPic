@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "createdAt": "2026-03-22T14:21:29.618Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/萌宠/狗狗/卡通-卡通小狗-可爱.png",
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "卡通-卡通小狗-可爱.png",
+      "createdAt": "2026-03-22T14:21:29.618Z",
+      "size": 709908,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "desktop",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "萌宠插画",
+          "卡通狗狗",
+          "治愈系",
+          "花丛场景",
+          "手绘风格"
+        ],
+        "description": "多只憨态可掬的小狗在繁花似锦的蓝天下欢聚，水彩笔触温柔细腻，洋溢着童真与治愈的氛围。",
+        "filenameSuggestions": [
+          "花海中嬉戏的可爱小狗群像.jpg",
+          "蓝天白云下绽放笑容的毛孩们.jpg"
+        ],
+        "displayTitle": "花丛中的萌犬派对",
+        "confidence": 0.9,
+        "reasoning": "图片主体为多只卡通风格的狗狗，围绕花卉与蓝天构成温馨场景。根据分类体系，优先归入'萌宠/狗狗'。虽具插画感，但因内容明确为宠物主题，不适用插画类。无特定IP或明星，无需提案新类。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/氛围感/休闲-室内-居家.png",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "休闲-室内-居家.png",
+      "createdAt": "2026-03-22T14:21:29.618Z",
+      "size": 884646,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "居家风",
+          "猫咪陪伴",
+          "黑长直",
+          "笔记本电脑"
+        ],
+        "description": "黑发少女专注操作笔记本，身后白猫安卧沙发，光影柔和，营造出宁静而富有生活气息的居家氛围。",
+        "filenameSuggestions": [
+          "黑发少女倚沙发用笔记本电脑.jpg",
+          "白猫静卧沙发后方的温馨场景.jpg"
+        ],
+        "displayTitle": "猫伴书窗夜未央",
+        "confidence": 0.9,
+        "reasoning": "图片主体为女性人像，符合人像分类。虽有清晰面部，但整体构图强调环境与情绪氛围（柔和光线、猫咪陪伴、居家场景），符合【氛围感】定义，故归入人像/氛围感。无明星或特定IP，无需提案新类。"
+      }
+    }
+  ]
+}
