@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 109,
+  "total": 110,
   "items": [
+    {
+      "date": "2026-04-20",
+      "title": "日落之后，探索仍在继续",
+      "copyright": "夕阳下的峡谷地国家公园，莫阿布，犹他州，美国 (© Jason Hatfield/Tandem Stills + Motion)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%B3%A1%E8%B0%B7%E5%9C%B0%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260419_SunsetKiva%22&FORM=HPQUIZ",
+      "hsh": "c31b2f7290db6bb794f41483d67d466c",
+      "urlbase": "/th?id=OHR.SunsetKiva_ZH-CN3978606378"
+    },
     {
       "date": "2026-04-19",
       "title": "潮汐留下的印记",
@@ -984,5 +993,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-04-18 17:38:11"
+  "updatedAt": "2026-04-19 17:37:24"
 }

@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-04-18 17:38:11",
+  "generatedAt": "2026-04-19 17:37:24",
   "total": 7,
   "items": [
+    {
+      "date": "2026-04-20",
+      "title": "日落之后，探索仍在继续",
+      "copyright": "夕阳下的峡谷地国家公园，莫阿布，犹他州，美国 (© Jason Hatfield/Tandem Stills + Motion)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%B3%A1%E8%B0%B7%E5%9C%B0%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260419_SunsetKiva%22&FORM=HPQUIZ",
+      "hsh": "c31b2f7290db6bb794f41483d67d466c",
+      "urlbase": "/th?id=OHR.SunsetKiva_ZH-CN3978606378"
+    },
     {
       "date": "2026-04-19",
       "title": "潮汐留下的印记",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260413_OcellarisClownfish%22&FORM=HPQUIZ",
       "hsh": "4d79350d53fb05c623317d9c094de2cd",
       "urlbase": "/th?id=OHR.OcellarisClownfish_ZH-CN9362948727"
-    },
-    {
-      "date": "2026-04-13",
-      "title": "当灯光熄灭之后",
-      "copyright": "安扎-博雷戈沙漠州立公园上空的银河, 加利福尼亚州, 美国 (© Kevin Key/Slworking)/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E9%93%B6%E6%B2%B3&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260412_BorregoStars%22&FORM=HPQUIZ",
-      "hsh": "821e32f99e638492aacc75da27ee5279",
-      "urlbase": "/th?id=OHR.BorregoStars_ZH-CN8915519147"
     }
   ]
 }
