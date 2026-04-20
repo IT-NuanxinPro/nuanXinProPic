@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "createdAt": "2026-04-20T13:07:35.400Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/氛围感/20260408170413.jpeg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "20260408170413.jpeg",
+      "createdAt": "2026-04-20T13:07:35.400Z",
+      "size": 366337,
+      "format": "jpeg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "星光",
+          "少女"
+        ],
+        "description": "窗边星光下的少女沉思，手持小球，桌面上的书和玩偶增添了一丝童趣。",
+        "filenameSuggestions": [
+          "窗边沉思的长发少女.jpg",
+          "星光梦幻中的书桌一隅.jpg"
+        ],
+        "displayTitle": "窗外星光下的少女沉思",
+        "confidence": 0.9,
+        "reasoning": "图片以人物为主，氛围感强烈，人物表情和光线营造出一种梦幻而深思的氛围，根据规则A5，判定为[氛围感]。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/包臀裙-壁纸-室内.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "包臀裙-壁纸-室内.png",
+      "createdAt": "2026-04-20T13:07:35.400Z",
+      "size": 166209,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "黑丝",
+          "蕾丝短裙",
+          "魅力"
+        ],
+        "description": "一位穿着蓝色蕾丝短裙和黑丝的长发女孩，展现成熟魅力。",
+        "filenameSuggestions": [
+          "身穿蓝色蕾丝短裙的黑丝美腿女孩.jpg",
+          "夜色中优雅的黑丝长发美人.jpg"
+        ],
+        "displayTitle": "月光下的曼陀罗花",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女孩穿着蕾丝短裙，黑丝，高跟鞋，姿势撩人，符合【魅力】的定义。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/壁纸-夜景-御姐.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "壁纸-夜景-御姐.png",
+      "createdAt": "2026-04-20T13:07:35.400Z",
+      "size": 415449,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "夜景",
+          "长发",
+          "吊带裙"
+        ],
+        "description": "长发女子在紫色夜晚展现成熟魅力",
+        "filenameSuggestions": [
+          "身穿黑色吊带裙的长发女孩.jpg",
+          "紫色光影下的优雅女郎.jpg"
+        ],
+        "displayTitle": "紫色夜晚的神秘女郎",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树，图片中的女性展现出成熟魅力，穿着黑色吊带裙，环境为夜景，有霓虹光线照射，因此归类为【魅力】"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/氛围感/侧颜-壁纸-女性.png",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "侧颜-壁纸-女性.png",
+      "createdAt": "2026-04-20T13:07:35.400Z",
+      "size": 252159,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "人像摄影",
+          "侧颜"
+        ],
+        "description": "光影交错中展现的柔和曲线与温柔神情。",
+        "filenameSuggestions": [
+          "光影下的温柔侧颜.jpg",
+          "黑发下的柔和曲线.jpg"
+        ],
+        "displayTitle": "侧颜的温柔光影",
+        "confidence": 0.9,
+        "reasoning": "图片为近距离人像摄影，聚焦于女性的侧颜，强调光影效果与氛围感，不露脸且重光影意境，根据规则A5，判定为[氛围感]。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/建筑/创意设计-商业空间.png",
+      "category": "风景",
+      "subcategory": "建筑",
+      "filename": "创意设计-商业空间.png",
+      "createdAt": "2026-04-20T13:07:35.400Z",
+      "size": 5390994,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "建筑",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "建筑",
+        "keywords": [
+          "城市绿化",
+          "现代建筑",
+          "室内景观"
+        ],
+        "description": "这张图片展现了一个现代城市中的室内绿化空间，内部有大量的植物和现代建筑结构。",
+        "filenameSuggestions": [
+          "现代都市中的室内园林.jpg",
+          "充满绿意的城市建筑内部.jpg"
+        ],
+        "displayTitle": "城市绿洲中的自然与人文交融",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了室内的建筑结构和自然景观的结合，包括大量的绿植和现代感的建筑设计，属于风景/建筑分类"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/城市/品红色-城市-天空.png",
+      "category": "风景",
+      "subcategory": "城市",
+      "filename": "品红色-城市-天空.png",
+      "createdAt": "2026-04-20T13:07:35.400Z",
+      "size": 10498132,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "城市",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "城市",
+        "keywords": [
+          "城市夜景",
+          "霓虹灯",
+          "夜巷"
+        ],
+        "description": "城市夜间的巷道，挂满了色彩斑斓的灯笼，呈现出一幅现代都市的夜生活景象。",
+        "filenameSuggestions": [
+          "霓虹灯下的城市夜巷.jpg",
+          "夜色中的彩色灯笼街头.jpg"
+        ],
+        "displayTitle": "霓虹灯下的城市夜巷",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了一条城市夜间的巷道，挂满了色彩斑斓的灯笼，符合风景分类下的城市子类特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/花卉/手捧花-暖调-清新.png",
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "手捧花-暖调-清新.png",
+      "createdAt": "2026-04-20T13:07:35.400Z",
+      "size": 855370,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "花卉",
+          "玫瑰",
+          "阳光"
+        ],
+        "description": "一个美丽的黄色玫瑰花束，充满阳光和生机。",
+        "filenameSuggestions": [
+          "温暖的黄色玫瑰花束.jpg",
+          "美丽的混色花束.jpg"
+        ],
+        "displayTitle": "阳光下的花束",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了一束美丽的黄色玫瑰花束，带有绿植和少量蓝色及白色小花，整体色调明亮温暖，符合风景/花卉的分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/斗破苍穹/薰儿.jpg",
+      "category": "动漫",
+      "subcategory": "斗破苍穹",
+      "filename": "薰儿.jpg",
+      "createdAt": "2026-04-20T13:07:35.400Z",
+      "size": 943355,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "斗破苍穹",
+        "subcategory": "斗破苍穹",
+        "filenameSuggestions": [
+          "身穿金绿色古装的长发萧薰儿.jpg",
+          "秋叶纷飞中的萧薰儿.jpg"
+        ],
+        "filenames": [
+          "身穿金绿色古装的长发萧薰儿.jpg",
+          "秋叶纷飞中的萧薰儿.jpg"
+        ],
+        "displayTitle": "秋意盎然的古装美人萧薰儿",
+        "keywords": [
+          "古装",
+          "萧薰儿",
+          "秋天",
+          "长发"
+        ],
+        "description": "一位穿着华丽古装的美丽女子萧薰儿，在秋叶纷飞的背景下展现出优雅的气质。",
+        "confidence": 0.9,
+        "reasoning": "根据图片中的古装特征和优雅姿势，判定为'人像/古装'分类。图片中的女子穿着具有中国传统风格的服装，配以精致的发饰，背景是秋天的景色，符合古装的特征。"
+      }
+    }
+  ]
+}
