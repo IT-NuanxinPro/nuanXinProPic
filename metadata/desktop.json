@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-04-20 13:20:09",
-  "count": 618,
+  "lastUpdated": "2026-04-20 17:59:03",
+  "count": 619,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -18334,6 +18334,45 @@
         "description": "一个充满节日气氛的雪天小镇，色彩缤纷，充满童趣。",
         "confidence": 0.9,
         "reasoning": "图片具有明显的卡通风格，场景包括雪天小镇和节日元素，根据决策树B2，判定为插画/卡通。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/海-行李箱.png": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "海-行李箱.png",
+      "createdAt": "2026-04-20T13:21:15.840Z",
+      "cdnTag": "v1.2.69",
+      "size": 11222068,
+      "format": "png",
+      "resolution": {
+        "width": 4368,
+        "height": 2448,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "duration": null,
+      "mediaType": "image",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "插画",
+          "场景",
+          "樱花",
+          "旅行"
+        ],
+        "description": "粉色调的旅行场景，樱花盛开，水面光影交错。",
+        "filenameSuggestions": [
+          "樱花水边的粉色旅行梦.jpg",
+          "粉色行李箱与樱花水景.jpg"
+        ],
+        "displayTitle": "樱花水边的粉色旅行梦",
+        "confidence": 0.9,
+        "reasoning": "图片以粉色樱花、行李箱和水面为主要元素，具有浓厚的插画风格且以场景为主，符合插画/场景的分类特征。"
       }
     }
   }
