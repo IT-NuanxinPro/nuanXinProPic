@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "createdAt": "2026-04-20T13:03:35.238Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/日落/20260420203706.jpeg",
+      "category": "风景",
+      "subcategory": "日落",
+      "filename": "20260420203706.jpeg",
+      "createdAt": "2026-04-20T13:03:35.238Z",
+      "size": 3586095,
+      "format": "jpeg",
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "风景",
+        "category": "风景",
+        "third": "日落",
+        "subcategory": "日落",
+        "filenameSuggestions": [
+          "夕阳下的田野与花海.jpg",
+          "花海与远山的日落景象.jpg"
+        ],
+        "filenames": [
+          "夕阳下的田野与花海.jpg",
+          "花海与远山的日落景象.jpg"
+        ],
+        "displayTitle": "夕阳下的田野与花海",
+        "keywords": [
+          "风景",
+          "日落",
+          "花海"
+        ],
+        "description": "一片美丽的田野在日落时分，点缀着白色野花，远处是渐渐隐没的夕阳。",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一幅自然风景，包含田野、花朵、日落和远处的城市剪影，根据规则C1，判定为风景/通用。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/国风/20260420203805.png",
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "20260420203805.png",
+      "createdAt": "2026-04-20T13:03:35.238Z",
+      "size": 20315533,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "插画",
+          "花瓣",
+          "夜景"
+        ],
+        "description": "一位身穿国风服饰的女子，在花瓣飞舞的夜空中起舞。",
+        "filenameSuggestions": [
+          "花瓣飞舞的夜之舞者.jpg",
+          "身披花瓣的神秘女子.jpg"
+        ],
+        "displayTitle": "花瓣飞舞的夜之舞者",
+        "confidence": 0.9,
+        "reasoning": "图片呈现出明显的国风元素，女子穿着具有传统中国风格的服饰，周围环绕着飞舞的花瓣和飘动的头发，整体具有浓厚的插画风格和中国传统美学韵味。根据决策树B2，插画/国风特征明显，归类为插画/国风。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/IP形象/乌萨奇/20260420203833.jpeg",
+      "category": "IP形象",
+      "subcategory": "乌萨奇",
+      "filename": "20260420203833.jpeg",
+      "createdAt": "2026-04-20T13:03:35.238Z",
+      "size": 2968027,
+      "format": "jpeg",
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "category": "IP形象",
+        "third": "乌萨奇",
+        "subcategory": "乌萨奇",
+        "filenameSuggestions": [
+          "雪天小镇的节日氛围.jpg",
+          "卡通雪景小镇.jpg"
+        ],
+        "filenames": [
+          "雪天小镇的节日氛围.jpg",
+          "卡通雪景小镇.jpg"
+        ],
+        "displayTitle": "冬日里的节日小镇",
+        "keywords": [
+          "乌萨奇",
+          "插画",
+          "雪景",
+          "节日气氛"
+        ],
+        "description": "一个充满节日气氛的雪天小镇，色彩缤纷，充满童趣。",
+        "confidence": 0.9,
+        "reasoning": "图片具有明显的卡通风格，场景包括雪天小镇和节日元素，根据决策树B2，判定为插画/卡通。"
+      }
+    }
+  ]
+}
