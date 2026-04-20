@@ -1,0 +1,263 @@
+{
+  "version": 1,
+  "createdAt": "2026-04-20T13:00:27.062Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/动漫角色-眼睛特写.png",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "动漫角色-眼睛特写.png",
+      "createdAt": "2026-04-20T13:00:27.062Z",
+      "size": 4642017,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫",
+          "二次元",
+          "红眼睛"
+        ],
+        "description": "一张神秘的动漫风格少女图像，拥有红色的眼睛和黑色的头发。",
+        "filenameSuggestions": [
+          "神秘的红眸少女.jpg",
+          "黑发红眼的二次元少女.jpg"
+        ],
+        "displayTitle": "神秘的红眸少女",
+        "confidence": 0.9,
+        "reasoning": "图片显示了一张动漫风格的少女图像，具有典型的二次元特征：大眼睛、鲜艳的红色瞳孔、黑发和明显的动漫绘画风格。根据决策树B1和B2，此图像应归类为动漫/二次元。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/花卉/天空-晴空-树.png",
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "天空-晴空-树.png",
+      "createdAt": "2026-04-20T13:00:27.062Z",
+      "size": 1434825,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "花卉",
+          "树木",
+          "春日"
+        ],
+        "description": "一棵开满白花的树枝繁叶茂伸向天空，树干粗壮，树枝交错，树花白绿相间，蓝天为背景。",
+        "filenameSuggestions": [
+          "盛开的白花树枝.jpg",
+          "蓝天下的花树风景.jpg"
+        ],
+        "displayTitle": "春日花开，枝繁叶茂",
+        "confidence": 0.9,
+        "reasoning": "图片以一棵开满白花的树为中心，树枝向上伸展，树干粗壮，树枝交错。背景为蓝天，符合风景/花卉的特征。根据决策树C1，直接判定为风景/花卉。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/花卉/云层-春花-暖色调.png",
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "云层-春花-暖色调.png",
+      "createdAt": "2026-04-20T13:00:27.063Z",
+      "size": 648893,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "花卉",
+          "月光",
+          "夜景"
+        ],
+        "description": "花朵在月光照耀下盛开，美丽而宁静。",
+        "filenameSuggestions": [
+          "月光下的粉色花朵.jpg",
+          "夜空下的花海.jpg"
+        ],
+        "displayTitle": "月光下的盛开花瓣",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了花卉在月光下的美丽景象，属于风景分类下的花卉子类。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/创意/Chris插画-插画.png",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "Chris插画-插画.png",
+      "createdAt": "2026-04-20T13:00:27.063Z",
+      "size": 658086,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "创意插画",
+          "蓝发少女",
+          "抽象艺术"
+        ],
+        "description": "这是一幅充满创意和梦幻色彩的插画，展现了一位蓝发少女在抽象色彩中的形象。",
+        "filenameSuggestions": [
+          "色彩斑斓中的神秘少女.jpg",
+          "创意插画中的蓝发女孩.jpg"
+        ],
+        "displayTitle": "梦幻中的少女",
+        "confidence": 0.9,
+        "reasoning": "图片具有强烈的绘画感和创意，色彩抽象且梦幻，人物特征明显但融入了大量艺术化处理，符合插画/创意的分类。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/通用/文字/Chris插画-文字.png",
+      "category": "通用",
+      "subcategory": "文字",
+      "filename": "Chris插画-文字.png",
+      "createdAt": "2026-04-20T13:00:27.063Z",
+      "size": 2928552,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "通用",
+        "subcategory": "文字",
+        "primary": "desktop",
+        "secondary": "通用",
+        "third": "文字",
+        "keywords": [
+          "周末",
+          "轻松",
+          "办公室"
+        ],
+        "description": "周五的办公室插图，表达了对周末的向往。",
+        "filenameSuggestions": [
+          "周五的惬意时光.jpg",
+          "逃离周一的办公室.jpg"
+        ],
+        "displayTitle": "周末的轻松态度",
+        "confidence": 0.9,
+        "reasoning": "图片内容是一张带有文字的插图，表达了对周末的向往和轻松态度。根据决策树B2插画逻辑，归类为插画/文字。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/文字/Chris插画.png",
+      "category": "插画",
+      "subcategory": "文字",
+      "filename": "Chris插画.png",
+      "createdAt": "2026-04-20T13:00:27.063Z",
+      "size": 2839075,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "文字",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "文字",
+        "keywords": [
+          "壁纸",
+          "文字",
+          "励志",
+          "哲学",
+          "简约"
+        ],
+        "description": "一句充满生活哲理的文字壁纸，简洁而深刻，适合作为桌面壁纸激励人心。",
+        "filenameSuggestions": [
+          "充满人生哲理的黑色文字壁纸.jpg",
+          "简洁大气的人生选择名言壁纸.jpg"
+        ],
+        "displayTitle": "生活感悟的艺术表达",
+        "confidence": 0.9,
+        "reasoning": "图片主要由几行汉字组成，整体风格简洁大气。内容富有哲理和励志意味，但没有具体的绘画元素或图像，因此判断为插画/文字。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/国风/20260420203634.jpeg",
+      "category": "人像",
+      "subcategory": "国风",
+      "filename": "20260420203634.jpeg",
+      "createdAt": "2026-04-20T13:00:27.063Z",
+      "size": 5214769,
+      "format": "jpeg",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "仙气",
+          "长发",
+          "白衣"
+        ],
+        "description": "一位身穿白色国风长裙的美丽女子，黑发如瀑，飘逸出尘。",
+        "filenameSuggestions": [
+          "身穿白色飘逸长裙的美丽女子.jpg",
+          "长发如瀑的古典美人.jpg"
+        ],
+        "displayTitle": "白衣飘飘的绝美仙子",
+        "confidence": 0.9,
+        "reasoning": "图片展示一位身穿白色国风服装的女子，黑发飘逸，仙气十足。根据决策树A. 人像分类决策树 (Portrait Logic)中的【国风】(Chinese Style)定义，特征包括中国传统美学、古典韵味、汉服等，判定为 人像/国风。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/国风/20260420203750.png",
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "20260420203750.png",
+      "createdAt": "2026-04-20T13:00:27.063Z",
+      "size": 19095522,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "梦幻",
+          "星空"
+        ],
+        "description": "一位长发绿衣少女在星空下与飞蛾互动，周围环绕着梦幻般的光辉粒子。",
+        "filenameSuggestions": [
+          "星空下的梦幻少女.jpg",
+          "梦幻星空绿衣少女.jpg"
+        ],
+        "displayTitle": "星空下的梦幻少女",
+        "confidence": 0.9,
+        "reasoning": "图片具有明显的国风插画特征，少女的服饰和环境充满中国传统美学意境，根据决策树B2，判定为插画/国风。"
+      }
+    }
+  ]
+}
