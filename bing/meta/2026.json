@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 111,
+  "total": 112,
   "items": [
+    {
+      "date": "2026-04-22",
+      "title": "行动的力量",
+      "copyright": "阿拉姆-佩德亚自然保护区，塔尔图县，爱沙尼亚 (© Sven Zacek/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%83%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260421_TartuEstonia%22&FORM=HPQUIZ",
+      "hsh": "b577193097a00d8d96893b91297a79b7",
+      "urlbase": "/th?id=OHR.TartuEstonia_ZH-CN5477370206"
+    },
     {
       "date": "2026-04-21",
       "title": "春季的“带刺巡逻兵”",
@@ -1002,5 +1011,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-04-20 17:58:27"
+  "updatedAt": "2026-04-21 18:01:12"
 }
