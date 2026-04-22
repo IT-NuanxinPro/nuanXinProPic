@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-04-21 18:01:12",
+  "generatedAt": "2026-04-22 18:03:05",
   "total": 7,
   "items": [
+    {
+      "date": "2026-04-23",
+      "title": "一座充满故事的小屋",
+      "copyright": "安妮·海瑟薇的小屋与花园，埃文河畔斯特拉特，英格兰 (© David Steele/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%8E%8E%E5%A3%AB%E6%AF%94%E4%BA%9A%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260422_HathawayCottage%22&FORM=HPQUIZ",
+      "hsh": "c542103ca1339625e1e689153ab24520",
+      "urlbase": "/th?id=OHR.HathawayCottage_ZH-CN5558945636"
+    },
     {
       "date": "2026-04-22",
       "title": "行动的力量",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260416_FlyingFoxMom%22&FORM=HPQUIZ",
       "hsh": "043f29f910dede498ae0d959767e3cba",
       "urlbase": "/th?id=OHR.FlyingFoxMom_ZH-CN2913012516"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "花瓣巡游",
-      "copyright": "斯卡吉特谷地郁金香花田, 华盛顿, 美国 (© Alan Majchrowicz/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%8D%8E%E7%9B%9B%E9%A1%BF%E5%B7%9E%E6%96%AF%E5%8D%A1%E5%90%89%E7%89%B9%E8%B0%B7&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260415_SkagitTulips%22&FORM=HPQUIZ",
-      "hsh": "8c8d09f483afa126ec0b35f48f180049",
-      "urlbase": "/th?id=OHR.SkagitTulips_ZH-CN4234324174"
     }
   ]
 }
