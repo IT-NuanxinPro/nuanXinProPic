@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "createdAt": "2026-04-24T09:10:35.464Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/花卉/20260424165234.jpeg",
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "20260424165234.jpeg",
+      "createdAt": "2026-04-24T09:10:35.464Z",
+      "size": 2477461,
+      "format": "jpeg",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "莲叶",
+          "雨景",
+          "花卉",
+          "清新"
+        ],
+        "description": "雨后莲池，绿意盎然，清新雅致。",
+        "filenameSuggestions": [
+          "雨后莲池清新雅景.jpg",
+          "绿意盎然的莲叶雨景.jpg"
+        ],
+        "displayTitle": "雨后莲池清新雅景",
+        "confidence": 0.9,
+        "reasoning": "图片展示了雨后莲池的景象，主要以莲叶和莲花为主，色彩清新自然。根据决策树C2，归类为风景/花卉。"
+      }
+    }
+  ]
+}
