@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "mobile",
-  "lastUpdated": "2026-04-23 18:08:29",
-  "count": 747,
+  "lastUpdated": "2026-04-24 09:12:38",
+  "count": 753,
   "images": {
     "wallpaper/mobile/IP形象/乌萨奇/乌萨奇&小八&小熊_睡衣裹被贴贴.png": {
       "category": "IP形象",
@@ -23556,6 +23556,225 @@
         "description": "一位穿着华丽古装的美丽女子萧薰儿，在秋叶纷飞的背景下展现出优雅的气质。",
         "confidence": 0.9,
         "reasoning": "根据图片中的古装特征和优雅姿势，判定为'人像/古装'分类。图片中的女子穿着具有中国传统风格的服装，配以精致的发饰，背景是秋天的景色，符合古装的特征。"
+      }
+    },
+    "wallpaper/mobile/人像/清新/20260424_165548.png": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "20260424_165548.png",
+      "createdAt": "2026-04-24T09:09:56.924Z",
+      "cdnTag": "v1.2.73",
+      "size": 3713610,
+      "format": "png",
+      "resolution": {
+        "width": 1600,
+        "height": 3413,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "长发",
+          "甜美",
+          "写真"
+        ],
+        "description": "清晨柔和光线下的少女，宁静而美好。",
+        "filenameSuggestions": [
+          "柔和光线下的长发女孩.jpg",
+          "白色系清新写真.jpg"
+        ],
+        "displayTitle": "清晨的宁静时刻",
+        "confidence": 0.9,
+        "reasoning": "图片中少女面容清新，表情甜美，穿着简洁，背景干净，整体氛围明亮且治愈，符合【清新】(Fresh)的定义。"
+      }
+    },
+    "wallpaper/mobile/人像/氛围感/20260424_165556.jpeg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "20260424_165556.jpeg",
+      "createdAt": "2026-04-24T09:09:56.924Z",
+      "cdnTag": "v1.2.73",
+      "size": 1087315,
+      "format": "jpeg",
+      "resolution": {
+        "width": 2400,
+        "height": 5120,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "背影",
+          "长发",
+          "室内"
+        ],
+        "description": "一位长发女孩背对窗帘沉思的氛围感人像。",
+        "filenameSuggestions": [
+          "背对窗帘的长发女孩.jpg",
+          "侧颜神秘的室内少女.jpg"
+        ],
+        "displayTitle": "窗帘后的沉思",
+        "confidence": 0.9,
+        "reasoning": "图片展示一位长发女孩背对着窗帘，面部被遮挡，主要突出背部和侧脸的轮廓，整体氛围感十足。根据决策树A. 人像分类决策树中的【氛围感】(Atmosphere)特征：不露脸（背影/遮挡/模糊）、重光影意境、看不清具体五官，因此归类为 人像/氛围感。"
+      }
+    },
+    "wallpaper/mobile/人像/清新/20260424_165615.png": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "20260424_165615.png",
+      "createdAt": "2026-04-24T09:09:56.924Z",
+      "cdnTag": "v1.2.73",
+      "size": 4419556,
+      "format": "png",
+      "resolution": {
+        "width": 1600,
+        "height": 3413,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "湖边",
+          "少女"
+        ],
+        "description": "阳光下的湖边少女，穿着白色上衣和牛仔裤，充满活力与清新感。",
+        "filenameSuggestions": [
+          "身穿白色上衣和牛仔裤的湖边少女.jpg",
+          "湖边阳光女孩.jpg"
+        ],
+        "displayTitle": "阳光下的湖边少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，人物穿着休闲，背景是湖边且阳光明媚，符合清新风格的定义。"
+      }
+    },
+    "wallpaper/mobile/人像/魅力/20260424165339.png": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "20260424165339.png",
+      "createdAt": "2026-04-24T09:09:56.924Z",
+      "cdnTag": "v1.2.73",
+      "size": 3663764,
+      "format": "png",
+      "resolution": {
+        "width": 1600,
+        "height": 3413,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "身材曲线",
+          "蓝天"
+        ],
+        "description": "阳光下的少女，充满活力和俏皮感。",
+        "filenameSuggestions": [
+          "身穿白色短衣的靛蓝短裙少女.jpg",
+          "背对蔚蓝天空的长黑发女孩.jpg"
+        ],
+        "displayTitle": "蓝天下的俏皮身影",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，人物穿着短衣和短裙，姿势展现身材曲线，背景为蓝天，符合【魅力】类定义。"
+      }
+    },
+    "wallpaper/mobile/风景/星空/20260424170100.png": {
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "20260424170100.png",
+      "createdAt": "2026-04-24T09:09:56.924Z",
+      "cdnTag": "v1.2.73",
+      "size": 12328883,
+      "format": "png",
+      "resolution": {
+        "width": 2752,
+        "height": 4960,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "星空",
+          "梦幻",
+          "云彩",
+          "阳光"
+        ],
+        "description": "一张充满梦幻色彩的星空云彩图，阳光透过云层，呈现出绚丽的色彩。",
+        "filenameSuggestions": [
+          "绚丽星空下的云彩.jpg",
+          "太阳下的梦幻云朵.jpg"
+        ],
+        "displayTitle": "梦幻星云下的璀璨天空",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了星空和云彩的景象，属于风景类别下的星空子类。"
+      }
+    },
+    "wallpaper/mobile/插画/爱国主题/20260424170135.png": {
+      "category": "插画",
+      "subcategory": "爱国主题",
+      "filename": "20260424170135.png",
+      "createdAt": "2026-04-24T09:09:56.924Z",
+      "cdnTag": "v1.2.73",
+      "size": 2810933,
+      "format": "png",
+      "resolution": {
+        "width": 1500,
+        "height": 3189,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "爱国主题",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "爱国主题",
+        "keywords": [
+          "爱国主题",
+          "中国风",
+          "插画"
+        ],
+        "description": "长城与红旗的壮丽景象，充满爱国情怀。",
+        "filenameSuggestions": [
+          "雄伟长城上的爱国情怀.jpg",
+          "中国长城与五星红旗的梦幻之境.jpg"
+        ],
+        "displayTitle": "长城飞虹耀五洲",
+        "confidence": 0.9,
+        "reasoning": "图片中出现了长城、五星红旗和五颗金星，充满爱国主题元素，根据现有分类体系，归类为'插画/爱国主题'。"
       }
     }
   }
