@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-04-23 18:08:03",
+  "generatedAt": "2026-04-24 17:53:03",
   "total": 7,
   "items": [
+    {
+      "date": "2026-04-25",
+      "title": "打破企鹅规则",
+      "copyright": "加拉帕戈斯企鹅游泳, 加拉帕戈斯群岛, 厄瓜多尔 (© Henley Spiers/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E4%BC%81%E9%B9%85%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260424_GalapagosPenguins%22&FORM=HPQUIZ",
+      "hsh": "306268210b2abf65393cc64a8304a80d",
+      "urlbase": "/th?id=OHR.GalapagosPenguins_ZH-CN5791845489"
+    },
     {
       "date": "2026-04-24",
       "title": "向树木致敬",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260418_TranBA%22&FORM=HPQUIZ",
       "hsh": "cae9ebaf7277159fcab1dd417b7c58fb",
       "urlbase": "/th?id=OHR.TranBA_ZH-CN3467060262"
-    },
-    {
-      "date": "2026-04-18",
-      "title": "未完成巨像的静默",
-      "copyright": "摩艾石像采石场，拉诺拉拉库，复活节岛，智利 (© Gavin Hellier/Alamy)",
-      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E9%81%97%E4%BA%A7%E6%97%A5&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260417_MaoiStatues%22&FORM=HPQUIZ",
-      "hsh": "c707952097721367ddb1ab8b6d323373",
-      "urlbase": "/th?id=OHR.MaoiStatues_ZH-CN3219447748"
     }
   ]
 }

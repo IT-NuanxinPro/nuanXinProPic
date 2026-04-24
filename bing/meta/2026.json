@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 114,
+  "total": 115,
   "items": [
+    {
+      "date": "2026-04-25",
+      "title": "打破企鹅规则",
+      "copyright": "加拉帕戈斯企鹅游泳, 加拉帕戈斯群岛, 厄瓜多尔 (© Henley Spiers/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E4%BC%81%E9%B9%85%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260424_GalapagosPenguins%22&FORM=HPQUIZ",
+      "hsh": "306268210b2abf65393cc64a8304a80d",
+      "urlbase": "/th?id=OHR.GalapagosPenguins_ZH-CN5791845489"
+    },
     {
       "date": "2026-04-24",
       "title": "向树木致敬",
@@ -1029,5 +1038,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-04-23 18:08:03"
+  "updatedAt": "2026-04-24 17:53:03"
 }
