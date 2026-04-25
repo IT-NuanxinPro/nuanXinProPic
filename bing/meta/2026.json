@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 115,
+  "total": 116,
   "items": [
+    {
+      "date": "2026-04-26",
+      "title": "繁花盛放",
+      "copyright": "粉红色的苹果花, 阿维拉海滩, 加利福尼亚州, 美国 (© Mimi Ditchie Photography/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%8B%B9%E6%9E%9C%E6%A0%91&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260425_AppleBlossoms%22&FORM=HPQUIZ",
+      "hsh": "dc9f1a884768d8a34a8f40c728127f8c",
+      "urlbase": "/th?id=OHR.AppleBlossoms_ZH-CN5887711928"
+    },
     {
       "date": "2026-04-25",
       "title": "打破企鹅规则",
@@ -1038,5 +1047,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-04-24 17:53:03"
+  "updatedAt": "2026-04-25 17:39:16"
 }
