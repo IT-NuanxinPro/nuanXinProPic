@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 116,
+  "total": 117,
   "items": [
+    {
+      "date": "2026-04-27",
+      "title": "有格调的玻璃",
+      "copyright": "维托里奥·埃马努埃莱二世拱廊的玻璃穹顶, 米兰, 意大利 (© PhillipMinnis/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9F%83%E9%A9%AC%E5%8A%AA%E5%9F%83%E8%8E%B1%E4%BA%8C%E4%B8%96%E6%8B%B1%E5%BB%8A&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260426_MilanGalleria%22&FORM=HPQUIZ",
+      "hsh": "9b5ecf4970bd0ec199bb9fec96d3ad66",
+      "urlbase": "/th?id=OHR.MilanGalleria_ZH-CN6060869879"
+    },
     {
       "date": "2026-04-26",
       "title": "繁花盛放",
@@ -1047,5 +1056,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-04-25 17:39:16"
+  "updatedAt": "2026-04-26 17:39:42"
 }
