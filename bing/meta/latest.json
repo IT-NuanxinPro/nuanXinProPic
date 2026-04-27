@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-04-26 17:39:42",
+  "generatedAt": "2026-04-27 18:06:05",
   "total": 7,
   "items": [
+    {
+      "date": "2026-04-28",
+      "title": "野外奇观",
+      "copyright": "眼镜熊在树上休息, 厄瓜多尔 (© Andy Rouse/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%9C%BC%E9%95%9C%E7%86%8A&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260427_AndeanBear%22&FORM=HPQUIZ",
+      "hsh": "ccece70c4b5b5c837ade6eb9af6c09f4",
+      "urlbase": "/th?id=OHR.AndeanBear_ZH-CN6152330738"
+    },
     {
       "date": "2026-04-27",
       "title": "有格调的玻璃",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260421_TartuEstonia%22&FORM=HPQUIZ",
       "hsh": "b577193097a00d8d96893b91297a79b7",
       "urlbase": "/th?id=OHR.TartuEstonia_ZH-CN5477370206"
-    },
-    {
-      "date": "2026-04-21",
-      "title": "春季的“带刺巡逻兵”",
-      "copyright": "西欧刺猬，法国 (© Klein & Hubert/Nature Picture Library)",
-      "copyrightlink": "https://www.bing.com/search?q=%E8%A5%BF%E6%AC%A7%E5%88%BA%E7%8C%AC&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260420_SpringHedgehog%22&FORM=HPQUIZ",
-      "hsh": "b6a40c116fc61ef7d4c33a45e0afe870",
-      "urlbase": "/th?id=OHR.SpringHedgehog_ZH-CN5232922916"
     }
   ]
 }

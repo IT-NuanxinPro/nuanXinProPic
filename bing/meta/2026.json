@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 117,
+  "total": 118,
   "items": [
+    {
+      "date": "2026-04-28",
+      "title": "野外奇观",
+      "copyright": "眼镜熊在树上休息, 厄瓜多尔 (© Andy Rouse/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%9C%BC%E9%95%9C%E7%86%8A&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260427_AndeanBear%22&FORM=HPQUIZ",
+      "hsh": "ccece70c4b5b5c837ade6eb9af6c09f4",
+      "urlbase": "/th?id=OHR.AndeanBear_ZH-CN6152330738"
+    },
     {
       "date": "2026-04-27",
       "title": "有格调的玻璃",
@@ -1056,5 +1065,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-04-26 17:39:42"
+  "updatedAt": "2026-04-27 18:06:05"
 }
