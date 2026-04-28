@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-04-27 18:06:05",
+  "generatedAt": "2026-04-28 18:18:25",
   "total": 7,
   "items": [
+    {
+      "date": "2026-04-29",
+      "title": "历史镌刻于石上",
+      "copyright": "塔霍河岸边的贝伦塔, 里斯本, 葡萄牙 (© f9photos/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%B4%9D%E4%BC%A6%E5%A1%94&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260428_BelemTowerBank%22&FORM=HPQUIZ",
+      "hsh": "9064fde134056043c4a22d6daab05dd8",
+      "urlbase": "/th?id=OHR.BelemTowerBank_ZH-CN6235906597"
+    },
     {
       "date": "2026-04-28",
       "title": "野外奇观",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260422_HathawayCottage%22&FORM=HPQUIZ",
       "hsh": "c542103ca1339625e1e689153ab24520",
       "urlbase": "/th?id=OHR.HathawayCottage_ZH-CN5558945636"
-    },
-    {
-      "date": "2026-04-22",
-      "title": "行动的力量",
-      "copyright": "阿拉姆-佩德亚自然保护区，塔尔图县，爱沙尼亚 (© Sven Zacek/Nature Picture Library)",
-      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%83%E6%97%A5&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260421_TartuEstonia%22&FORM=HPQUIZ",
-      "hsh": "b577193097a00d8d96893b91297a79b7",
-      "urlbase": "/th?id=OHR.TartuEstonia_ZH-CN5477370206"
     }
   ]
 }

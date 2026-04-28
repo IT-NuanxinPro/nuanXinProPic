@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 118,
+  "total": 119,
   "items": [
+    {
+      "date": "2026-04-29",
+      "title": "历史镌刻于石上",
+      "copyright": "塔霍河岸边的贝伦塔, 里斯本, 葡萄牙 (© f9photos/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%B4%9D%E4%BC%A6%E5%A1%94&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260428_BelemTowerBank%22&FORM=HPQUIZ",
+      "hsh": "9064fde134056043c4a22d6daab05dd8",
+      "urlbase": "/th?id=OHR.BelemTowerBank_ZH-CN6235906597"
+    },
     {
       "date": "2026-04-28",
       "title": "野外奇观",
@@ -1065,5 +1074,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-04-27 18:06:05"
+  "updatedAt": "2026-04-28 18:18:25"
 }
