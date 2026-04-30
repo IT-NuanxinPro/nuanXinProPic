@@ -105,7 +105,7 @@ nuanXinProPic/
 说明：
 
 - `wallpaper/video/` 保存原始视频
-- `preview/video/` 保存视频首帧预览
+- `preview/video/` 保存 1080p 预览视频
 - `thumbnail/video/` 保存视频列表缩略图
 - 前端动态壁纸视频资源默认从 `https://img.061129.xyz` 读取
 

@@ -398,7 +398,10 @@ function buildImageUrl(relativePath, baseDir) {
 }
 
 function resolveDerivedAssetPath(rootDir, baseDir, relativeDir, filenameNoExt, preferredExt = '.webp') {
-  const extensionCandidates = [preferredExt, '.png', '.jpg', '.jpeg']
+  const isVideoPreview = baseDir === 'preview/video'
+  const extensionCandidates = isVideoPreview
+    ? ['.mp4', '.webm', '.mov', '.m4v']
+    : [preferredExt, '.png', '.jpg', '.jpeg']
 
   for (const ext of extensionCandidates) {
     const relativeAssetPath = relativeDir
@@ -413,8 +416,8 @@ function resolveDerivedAssetPath(rootDir, baseDir, relativeDir, filenameNoExt, p
 
   return buildImageUrl(
     relativeDir
-      ? `${relativeDir}/${filenameNoExt}${preferredExt}`
-      : `${filenameNoExt}${preferredExt}`,
+      ? `${relativeDir}/${filenameNoExt}${extensionCandidates[0]}`
+      : `${filenameNoExt}${extensionCandidates[0]}`,
     baseDir,
   )
 }

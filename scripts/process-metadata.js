@@ -272,7 +272,9 @@ function reconcileMetadataImagePath(relativePath, imageData) {
 }
 
 function resolveDerivedAssetPath(projectRoot, series, subdir, filenameNoExt, type) {
-  const extensionCandidates = ['.webp', '.png', '.jpg', '.jpeg']
+  const extensionCandidates = type === 'preview' && series === 'video'
+    ? ['.mp4', '.webm', '.mov', '.m4v']
+    : ['.webp', '.png', '.jpg', '.jpeg']
 
   for (const ext of extensionCandidates) {
     const relativeAssetPath = subdir
@@ -286,8 +288,8 @@ function resolveDerivedAssetPath(projectRoot, series, subdir, filenameNoExt, typ
   }
 
   const fallbackPath = subdir
-    ? `${type}/${series}/${subdir}/${filenameNoExt}.webp`
-    : `${type}/${series}/${filenameNoExt}.webp`
+    ? `${type}/${series}/${subdir}/${filenameNoExt}${extensionCandidates[0]}`
+    : `${type}/${series}/${filenameNoExt}${extensionCandidates[0]}`
 
   return `/${fallbackPath}`.replace(/\\/g, '/')
 }
