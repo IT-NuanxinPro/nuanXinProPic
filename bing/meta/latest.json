@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-05-01 18:00:39",
+  "generatedAt": "2026-05-02 17:45:00",
   "total": 7,
   "items": [
+    {
+      "date": "2026-05-03",
+      "title": "萨瓦纳的晚霞",
+      "copyright": "萨瓦纳草原的树上睡觉的豹子，马赛马拉国家保护区，肯尼亚 (© Klein & Hubert/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E8%B1%B9%E7%B1%BB%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260502_MasaiLeopard%22&FORM=HPQUIZ",
+      "hsh": "4d0423e632ce156c7ed347d96d1b56c5",
+      "urlbase": "/th?id=OHR.MasaiLeopard_ZH-CN3406483238"
+    },
     {
       "date": "2026-05-02",
       "title": "贾斯珀的自然魅力",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260426_MilanGalleria%22&FORM=HPQUIZ",
       "hsh": "9b5ecf4970bd0ec199bb9fec96d3ad66",
       "urlbase": "/th?id=OHR.MilanGalleria_ZH-CN6060869879"
-    },
-    {
-      "date": "2026-04-26",
-      "title": "繁花盛放",
-      "copyright": "粉红色的苹果花, 阿维拉海滩, 加利福尼亚州, 美国 (© Mimi Ditchie Photography/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E8%8B%B9%E6%9E%9C%E6%A0%91&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260425_AppleBlossoms%22&FORM=HPQUIZ",
-      "hsh": "dc9f1a884768d8a34a8f40c728127f8c",
-      "urlbase": "/th?id=OHR.AppleBlossoms_ZH-CN5887711928"
     }
   ]
 }
