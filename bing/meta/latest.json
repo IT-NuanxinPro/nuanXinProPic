@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-05-02 17:45:00",
+  "generatedAt": "2026-05-03 17:47:10",
   "total": 7,
   "items": [
+    {
+      "date": "2026-05-04",
+      "title": "科幻源于现实",
+      "copyright": "乌莱德·索尔坦克萨尔，塔塔温区，突尼斯南部 (© Dark_Eni/Getty Images Plus)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260503_KsarOuledSoltane%22&FORM=HPQUIZ",
+      "hsh": "9c487d353c55368118a693a36a945691",
+      "urlbase": "/th?id=OHR.KsarOuledSoltane_ZH-CN3569810663"
+    },
     {
       "date": "2026-05-03",
       "title": "萨瓦纳的晚霞",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260427_AndeanBear%22&FORM=HPQUIZ",
       "hsh": "ccece70c4b5b5c837ade6eb9af6c09f4",
       "urlbase": "/th?id=OHR.AndeanBear_ZH-CN6152330738"
-    },
-    {
-      "date": "2026-04-27",
-      "title": "有格调的玻璃",
-      "copyright": "维托里奥·埃马努埃莱二世拱廊的玻璃穹顶, 米兰, 意大利 (© PhillipMinnis/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%9F%83%E9%A9%AC%E5%8A%AA%E5%9F%83%E8%8E%B1%E4%BA%8C%E4%B8%96%E6%8B%B1%E5%BB%8A&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260426_MilanGalleria%22&FORM=HPQUIZ",
-      "hsh": "9b5ecf4970bd0ec199bb9fec96d3ad66",
-      "urlbase": "/th?id=OHR.MilanGalleria_ZH-CN6060869879"
     }
   ]
 }
