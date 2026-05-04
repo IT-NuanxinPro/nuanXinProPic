@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 124,
+  "total": 125,
   "items": [
+    {
+      "date": "2026-05-05",
+      "title": "藕花风起，首夏清和",
+      "copyright": "莲花与莲花植株 (© real444/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%AD%E5%9B%BD%E7%9A%84%E8%8D%B7%E8%8A%B1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260504_BeginningofSummerY26%22&FORM=HPQUIZ",
+      "hsh": "4a9aeb0faa7a50a3d3fa6762692d37eb",
+      "urlbase": "/th?id=OHR.BeginningofSummerY26_ZH-CN7628545617"
+    },
     {
       "date": "2026-05-04",
       "title": "科幻源于现实",
@@ -1119,5 +1128,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-05-03 17:47:10"
+  "updatedAt": "2026-05-04 18:15:29"
 }
