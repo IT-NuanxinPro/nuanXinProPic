@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-05-04 18:15:29",
+  "generatedAt": "2026-05-05 18:12:43",
   "total": 7,
   "items": [
+    {
+      "date": "2026-05-06",
+      "title": "承受压力之下的平原",
+      "copyright": "平原上空的雷暴，保加利亚 (© Revolu7ion93/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260505_BulgariaPlains%22&FORM=HPQUIZ",
+      "hsh": "2739f0f40598d8865abd872d85fa9d92",
+      "urlbase": "/th?id=OHR.BulgariaPlains_ZH-CN3853985252"
+    },
     {
       "date": "2026-05-05",
       "title": "藕花风起，首夏清和",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260429_DutchTulips%22&FORM=HPQUIZ",
       "hsh": "70593522ef4663156d9acee44cf64fa6",
       "urlbase": "/th?id=OHR.DutchTulips_ZH-CN6394892537"
-    },
-    {
-      "date": "2026-04-29",
-      "title": "历史镌刻于石上",
-      "copyright": "塔霍河岸边的贝伦塔, 里斯本, 葡萄牙 (© f9photos/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E8%B4%9D%E4%BC%A6%E5%A1%94&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260428_BelemTowerBank%22&FORM=HPQUIZ",
-      "hsh": "9064fde134056043c4a22d6daab05dd8",
-      "urlbase": "/th?id=OHR.BelemTowerBank_ZH-CN6235906597"
     }
   ]
 }
