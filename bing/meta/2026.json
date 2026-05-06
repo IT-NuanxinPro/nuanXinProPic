@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 126,
+  "total": 127,
   "items": [
+    {
+      "date": "2026-05-07",
+      "title": "广袤铺展的沙漠",
+      "copyright": "科法国家野生动物保护区，亚利桑那州，美国 (© Denis Tangney Jr/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%A7%91%E6%B3%95%E5%9B%BD%E5%AE%B6%E9%87%8E%E7%94%9F%E5%8A%A8%E7%89%A9%E4%BF%9D%E6%8A%A4%E5%8C%BA&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260506_Kofa%22&FORM=HPQUIZ",
+      "hsh": "d91d9990e0f7060ab63f08eb699aab6e",
+      "urlbase": "/th?id=OHR.Kofa_ZH-CN0584573563"
+    },
     {
       "date": "2026-05-06",
       "title": "承受压力之下的平原",
@@ -1137,5 +1146,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-05-05 18:12:43"
+  "updatedAt": "2026-05-06 18:17:17"
 }

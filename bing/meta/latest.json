@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-05-05 18:12:43",
+  "generatedAt": "2026-05-06 18:17:17",
   "total": 7,
   "items": [
+    {
+      "date": "2026-05-07",
+      "title": "广袤铺展的沙漠",
+      "copyright": "科法国家野生动物保护区，亚利桑那州，美国 (© Denis Tangney Jr/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%A7%91%E6%B3%95%E5%9B%BD%E5%AE%B6%E9%87%8E%E7%94%9F%E5%8A%A8%E7%89%A9%E4%BF%9D%E6%8A%A4%E5%8C%BA&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260506_Kofa%22&FORM=HPQUIZ",
+      "hsh": "d91d9990e0f7060ab63f08eb699aab6e",
+      "urlbase": "/th?id=OHR.Kofa_ZH-CN0584573563"
+    },
     {
       "date": "2026-05-06",
       "title": "承受压力之下的平原",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260430_MayLaborDayY26%22&FORM=HPQUIZ",
       "hsh": "ea9d4b25feff00f4531b00da118e104a",
       "urlbase": "/th?id=OHR.MayLaborDayY26_ZH-CN7554485395"
-    },
-    {
-      "date": "2026-04-30",
-      "title": "郁金香是这里的主角",
-      "copyright": "葡萄风信子和郁金香, 库肯霍夫花园, 利塞, 荷兰 (© Martin Ruegner/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%BA%93%E8%82%AF%E9%9C%8D%E5%A4%AB%E8%8A%B1%E5%9B%AD&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260429_DutchTulips%22&FORM=HPQUIZ",
-      "hsh": "70593522ef4663156d9acee44cf64fa6",
-      "urlbase": "/th?id=OHR.DutchTulips_ZH-CN6394892537"
     }
   ]
 }
