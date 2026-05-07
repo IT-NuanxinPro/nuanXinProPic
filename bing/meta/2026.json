@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 127,
+  "total": 128,
   "items": [
+    {
+      "date": "2026-05-08",
+      "title": "不仅仅是一声咿呀学语",
+      "copyright": "撒丁岛母驴和幼崽, 法国 (© Klein & Hubert/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%A9%B4&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260507_SardinianDonkey%22&FORM=HPQUIZ",
+      "hsh": "70583bce665feeb764b442065dd9089e",
+      "urlbase": "/th?id=OHR.SardinianDonkey_ZH-CN0758031524"
+    },
     {
       "date": "2026-05-07",
       "title": "广袤铺展的沙漠",
@@ -1146,5 +1155,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-05-06 18:17:17"
+  "updatedAt": "2026-05-07 18:25:51"
 }
