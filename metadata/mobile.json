@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "mobile",
-  "lastUpdated": "2026-05-06 18:17:42",
-  "count": 753,
+  "lastUpdated": "2026-05-07 12:41:53",
+  "count": 757,
   "images": {
     "wallpaper/mobile/IP形象/乌萨奇/乌萨奇&小八&小熊_睡衣裹被贴贴.png": {
       "category": "IP形象",
@@ -23775,6 +23775,154 @@
         "displayTitle": "长城飞虹耀五洲",
         "confidence": 0.9,
         "reasoning": "图片中出现了长城、五星红旗和五颗金星，充满爱国主题元素，根据现有分类体系，归类为'插画/爱国主题'。"
+      }
+    },
+    "wallpaper/mobile/人像/清新/壁纸-室内-手机.png": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "壁纸-室内-手机.png",
+      "createdAt": "2026-05-07T12:38:52.620Z",
+      "cdnTag": "v1.2.87",
+      "size": 970119,
+      "format": "png",
+      "resolution": {
+        "width": 1728,
+        "height": 2304,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "自拍",
+          "长发",
+          "少女"
+        ],
+        "description": "一位长发少女在室内自拍，穿着白色长袖衫和牛仔裤，姿势优雅自然。",
+        "filenameSuggestions": [
+          "自拍姿势的长发少女.jpg",
+          "白色长袖衫与牛仔裤的清新搭配.jpg"
+        ],
+        "displayTitle": "阳光下的少女自拍",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树，图片中人物面容清晰，表情甜美，穿着清新自然，无特定明星或古装特征，也无明显丝袜或身材展示，不属于【魅力】类。光线明亮，色彩自然，背景简洁，符合【清新】(Fresh)的特征。"
+      }
+    },
+    "wallpaper/mobile/插画/氛围感/候车-公交车-公路.png": {
+      "category": "插画",
+      "subcategory": "氛围感",
+      "filename": "候车-公交车-公路.png",
+      "createdAt": "2026-05-07T12:38:52.620Z",
+      "cdnTag": "v1.2.87",
+      "size": 769229,
+      "format": "png",
+      "resolution": {
+        "width": 1285,
+        "height": 2781,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "氛围感",
+        "keywords": [
+          "插画",
+          "氛围感",
+          "流星雨",
+          "孤独"
+        ],
+        "description": "一位背包少年在星空下仰望流星雨，氛围感十足",
+        "filenameSuggestions": [
+          "流星雨下的孤独旅行者.jpg",
+          "背包少年仰望流星雨.jpg"
+        ],
+        "displayTitle": "流星雨下的孤独旅行者",
+        "confidence": 0.9,
+        "reasoning": "图片具有强烈的绘画感和梦幻色彩，人物背对观众，强调光影意境，符合插画/氛围感的特征"
+      }
+    },
+    "wallpaper/mobile/风景/花卉/休闲-庭院-木屋.png": {
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "休闲-庭院-木屋.png",
+      "createdAt": "2026-05-07T12:38:52.620Z",
+      "cdnTag": "v1.2.87",
+      "size": 1407446,
+      "format": "png",
+      "resolution": {
+        "width": 1285,
+        "height": 2781,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "花卉",
+          "绿植",
+          "户外",
+          "庭院"
+        ],
+        "description": "户外雅座，绿意盎然，充满生机。",
+        "filenameSuggestions": [
+          "绿意盎然的户外雅座.jpg",
+          "阳光下的庭院餐厅.jpg"
+        ],
+        "displayTitle": "绿意盎然的户外雅座",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一个户外庭院的场景，主要以花卉和绿植为主，桌椅布置在树荫下，符合风景/花卉的分类。"
+      }
+    },
+    "wallpaper/mobile/人像/清新/休闲穿搭-包臀裙.png": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "休闲穿搭-包臀裙.png",
+      "createdAt": "2026-05-07T12:38:52.620Z",
+      "cdnTag": "v1.2.87",
+      "size": 1002470,
+      "format": "png",
+      "resolution": {
+        "width": 1920,
+        "height": 3413,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "少女",
+          "阳光",
+          "帽子"
+        ],
+        "description": "阳光下的清新少女，戴着黑色棒球帽，穿着灰色运动套衫，短裙。",
+        "filenameSuggestions": [
+          "身穿灰色运动套衫的清新少女.jpg",
+          "戴黑色棒球帽的阳光女孩.jpg"
+        ],
+        "displayTitle": "阳光下的清新少女",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A4，清新风格定义为明亮、治愈、氧气感。图片中少女面带微笑，背景为明亮的蓝天，色彩鲜艳自然，构图干净，给人清新感觉。因此归类为人像/清新。"
       }
     }
   }
