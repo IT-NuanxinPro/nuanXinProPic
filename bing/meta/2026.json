@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 132,
+  "total": 133,
   "items": [
+    {
+      "date": "2026-05-13",
+      "title": "银河系，摇滚吧！",
+      "copyright": "拱门与银河, 阿拉巴马山, 内华达山脉, 加利福尼亚州, 美国 (© Tim Fitzharris/Minden Pictures)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%98%BF%E6%8B%89%E5%B7%B4%E9%A9%AC%E5%B1%B1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260512_AlabamaHills%22&FORM=HPQUIZ",
+      "hsh": "abe3fdbc9d5da72fed5f115264cf2635",
+      "urlbase": "/th?id=OHR.AlabamaHills_ZH-CN1387018045"
+    },
     {
       "date": "2026-05-12",
       "title": "振翅, 潜水, 生存",
@@ -1191,5 +1200,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-05-11 18:59:29"
+  "updatedAt": "2026-05-12 18:57:54"
 }
