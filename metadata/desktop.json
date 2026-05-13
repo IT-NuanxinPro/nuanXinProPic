@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-05-12 18:58:20",
-  "count": 638,
+  "lastUpdated": "2026-05-13 02:52:38",
+  "count": 642,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -19073,6 +19073,152 @@
         "displayTitle": "日落时分的城市列车之旅",
         "confidence": 0.9,
         "reasoning": "图片为动漫风格插画，展示一位粉发少女在列车上看着城市日落景象。根据决策树B2，判定为动漫/插画。"
+      }
+    },
+    "wallpaper/desktop/人像/魅力/big_00001_.png": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "big_00001_.png",
+      "createdAt": "2026-05-13T02:50:42.142Z",
+      "cdnTag": "v1.2.94",
+      "size": 10829330,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "漫画",
+          "女孩",
+          "魅力",
+          "壁画"
+        ],
+        "description": "一位穿着粉色裙子的长发女孩站在色彩丰富的漫画壁画前，自拍并展现俏皮姿势。",
+        "filenameSuggestions": [
+          "漫画墙前俏皮的长发女孩.jpg",
+          "粉色裙子女孩与漫画壁画.jpg"
+        ],
+        "displayTitle": "漫画墙前俏皮的长发女孩",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女孩的穿着具有魅力，壁画为漫画风格，因此归类为'人像/魅力'。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/big_00002_.png": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "big_00002_.png",
+      "createdAt": "2026-05-13T02:50:42.142Z",
+      "cdnTag": "v1.2.94",
+      "size": 6382041,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "背影",
+          "诱惑"
+        ],
+        "description": "一个背对着的女人站在窗边，穿着暴露的衣服。",
+        "filenameSuggestions": [
+          "窗边背影的诱惑.jpg",
+          "沙发上的神秘女人.jpg"
+        ],
+        "displayTitle": "窗边背影的诱惑",
+        "confidence": 0.9,
+        "reasoning": "图片为一位女性背对着坐在沙发上，面对窗户，穿着暴露的衣服。根据人像分类决策树A4，图片不露脸且重光影意境，判定为[人像/氛围感]"
+      }
+    },
+    "wallpaper/desktop/人像/魅力/big_00003_.png": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "big_00003_.png",
+      "createdAt": "2026-05-13T02:50:42.142Z",
+      "cdnTag": "v1.2.94",
+      "size": 9572719,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "漫画背景",
+          "都市丽人",
+          "魅力"
+        ],
+        "description": "一位时尚少女站在黑白漫画人物背景前，自信展现魅力。",
+        "filenameSuggestions": [
+          "黑白漫画背景下的时尚少女.jpg",
+          "漫画世界中的现实美女.jpg"
+        ],
+        "displayTitle": "黑白漫画中的都市丽人",
+        "confidence": 0.9,
+        "reasoning": "图片中为主体为一位现实中的女性，穿着时尚，背景是黑白漫画风格的人物，根据人像分类决策树，强调身材曲线、成熟美、吸引力，优先选为【魅力】。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/big_00004_.png": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "big_00004_.png",
+      "createdAt": "2026-05-13T02:50:42.142Z",
+      "cdnTag": "v1.2.94",
+      "size": 11122563,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "插画",
+          "场景",
+          "日式风格",
+          "风景"
+        ],
+        "description": "图为一段宁静的郊区公路，两旁绿意盎然，房屋错落有致。",
+        "filenameSuggestions": [
+          "郊区公路上的温暖日光.jpg",
+          "日式房屋与花园风景.jpg"
+        ],
+        "displayTitle": "日式风景中的宁静时刻",
+        "confidence": 0.9,
+        "reasoning": "图片为插画风格，展现了典型的日式房屋和自然景观。根据决策树B2，判定为插画/场景。"
       }
     }
   }
