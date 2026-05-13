@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-05-13 02:52:38",
-  "count": 642,
+  "lastUpdated": "2026-05-13 18:59:23",
+  "count": 643,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -19219,6 +19219,33 @@
         "displayTitle": "日式风景中的宁静时刻",
         "confidence": 0.9,
         "reasoning": "图片为插画风格，展现了典型的日式房屋和自然景观。根据决策树B2，判定为插画/场景。"
+      }
+    },
+    "wallpaper/desktop/人像/国风/白色国风美人侧颜.png": {
+      "category": "人像",
+      "subcategory": "国风",
+      "filename": "白色国风美人侧颜.png",
+      "createdAt": "2026-05-13 18:58:52",
+      "cdnTag": "v1.2.95",
+      "size": 9232655,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "duration": null,
+      "mediaType": "image",
+      "ai": {
+        "keywords": [
+          "白色国风美人侧颜"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
       }
     }
   }
