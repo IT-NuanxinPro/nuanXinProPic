@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 136,
+  "total": 137,
   "items": [
+    {
+      "date": "2026-05-17",
+      "title": "静谧之巅，喧嚣之景",
+      "copyright": "仙纳度国家公园的玳瑁峰, 弗吉尼亚州, 美国 (© John Baggaley/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%BB%99%E7%BA%B3%E5%BA%A6%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260516_ShenandoahSunset%22&FORM=HPQUIZ",
+      "hsh": "1892c6e4088f18f0f98eece0efda3870",
+      "urlbase": "/th?id=OHR.ShenandoahSunset_ZH-CN4399136794"
+    },
     {
       "date": "2026-05-16",
       "title": "跌到谷底？这里可不是。",
@@ -1227,5 +1236,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-05-15 18:24:29"
+  "updatedAt": "2026-05-16 17:57:24"
 }
