@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 138,
+  "total": 139,
   "items": [
+    {
+      "date": "2026-05-19",
+      "title": "马略卡岛的边缘",
+      "copyright": "福门托尔灯塔, 马略卡, 巴利阿里群岛, 西班牙 (© Allard Schager/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E7%A6%8F%E9%97%A8%E6%89%98%E5%B0%94%E7%81%AF%E5%A1%94&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260518_SpainLighthouse%22&FORM=HPQUIZ",
+      "hsh": "be050ced5872dfbf41c4d4f6593fac1d",
+      "urlbase": "/th?id=OHR.SpainLighthouse_ZH-CN6024263415"
+    },
     {
       "date": "2026-05-18",
       "title": "大厅里的希望",
@@ -1245,5 +1254,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-05-17 18:13:07"
+  "updatedAt": "2026-05-18 18:53:26"
 }
