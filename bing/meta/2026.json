@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 139,
+  "total": 140,
   "items": [
+    {
+      "date": "2026-05-20",
+      "title": "喧闹从这里开始",
+      "copyright": "熊蜂在授粉, 伍斯特, 英格兰 (© SimonEastwood87/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E8%9C%9C%E8%9C%82%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260519_BumbleBee%22&FORM=HPQUIZ",
+      "hsh": "5711268ab575c3f170c4fe3ade53cde0",
+      "urlbase": "/th?id=OHR.BumbleBee_ZH-CN6429376340"
+    },
     {
       "date": "2026-05-19",
       "title": "马略卡岛的边缘",
@@ -1254,5 +1263,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-05-18 18:53:26"
+  "updatedAt": "2026-05-19 19:01:28"
 }
