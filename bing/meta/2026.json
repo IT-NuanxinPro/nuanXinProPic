@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 140,
+  "total": 141,
   "items": [
+    {
+      "date": "2026-05-21",
+      "title": "酿造传承",
+      "copyright": "四川省的茶梯田, 中国 (© lzf/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E8%8C%B6%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260520_SichuanTea%22&FORM=HPQUIZ",
+      "hsh": "20af72b77eb186ffc1fa5f4968a73061",
+      "urlbase": "/th?id=OHR.SichuanTea_ZH-CN6703437873"
+    },
     {
       "date": "2026-05-20",
       "title": "喧闹从这里开始",
@@ -1263,5 +1272,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-05-19 19:01:28"
+  "updatedAt": "2026-05-20 19:26:37"
 }
