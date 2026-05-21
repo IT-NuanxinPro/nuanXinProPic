@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 141,
+  "total": 142,
   "items": [
+    {
+      "date": "2026-05-22",
+      "title": "海洋生命的律动",
+      "copyright": "埃希环礁，土阿莫土群岛，法属波利尼西亚 (© WaterFrame_dpr/Alamy)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A0%B7%E6%80%A7%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260521_KauehiAtollLagoon%22&FORM=HPQUIZ",
+      "hsh": "aa8f61e248dfb0b6f5fe9dc17806ffba",
+      "urlbase": "/th?id=OHR.KauehiAtollLagoon_ZH-CN9552036080"
+    },
     {
       "date": "2026-05-21",
       "title": "酿造传承",
@@ -1272,5 +1281,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-05-20 19:26:37"
+  "updatedAt": "2026-05-21 19:06:02"
 }
