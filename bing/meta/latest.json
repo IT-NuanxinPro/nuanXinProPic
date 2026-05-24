@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-05-23 18:02:06",
+  "generatedAt": "2026-05-24 18:01:02",
   "total": 7,
   "items": [
+    {
+      "date": "2026-05-25",
+      "title": "石间的清风",
+      "copyright": "从风之宫殿俯瞰斋浦尔市景，拉贾斯坦邦，印度 (© byheaven/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%A3%8E%E4%B9%8B%E5%AE%AB&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260524_HawaMahal2026%22&FORM=HPQUIZ",
+      "hsh": "d0c730fb1efb37e5b163b0ced40eae96",
+      "urlbase": "/th?id=OHR.HawaMahal2026_ZH-CN7233246545"
+    },
     {
       "date": "2026-05-24",
       "title": "守护欧洲的自然净土",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260518_SpainLighthouse%22&FORM=HPQUIZ",
       "hsh": "be050ced5872dfbf41c4d4f6593fac1d",
       "urlbase": "/th?id=OHR.SpainLighthouse_ZH-CN6024263415"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "大厅里的希望",
-      "copyright": "伦敦自然历史博物馆, 英格兰 (© Colm Keating/Tandem Stills + Motion)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E5%8D%9A%E7%89%A9%E9%A6%86%E6%97%A5&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260517_MuseumLondon%22&FORM=HPQUIZ",
-      "hsh": "55b0b974b7b1e281a206bfa9acc2e09d",
-      "urlbase": "/th?id=OHR.MuseumLondon_ZH-CN5602977820"
     }
   ]
 }
