@@ -1,0 +1,1002 @@
+{
+  "version": 1,
+  "createdAt": "2026-05-26T09:01:39.819Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/花卉/0 (1).jpg",
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "0 (1).jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 416532,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "花卉",
+          "风景",
+          "花海",
+          "蓝天白云"
+        ],
+        "description": "美丽的花海和蓝天白云",
+        "filenameSuggestions": [
+          "绽放的粉色花海下的蓝天白云.jpg",
+          "晴天花园里的粉白花朵.jpg"
+        ],
+        "displayTitle": "云间花海",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了花卉和自然景观，符合风景/花卉分类"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/二次元/0 (2).jpg",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "0 (2).jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 294885,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "二次元",
+        "subcategory": "二次元",
+        "filenameSuggestions": [
+          "星空下的孤独漫步者.jpg",
+          "雪地里的背影.jpg"
+        ],
+        "filenames": [
+          "星空下的孤独漫步者.jpg",
+          "雪地里的背影.jpg"
+        ],
+        "displayTitle": "星空下的孤独漫步",
+        "keywords": [
+          "插画",
+          "氛围感",
+          "星空",
+          "雪景"
+        ],
+        "description": "星空下雪坡上孤独的背影",
+        "confidence": 0.9,
+        "reasoning": "图片具有浓厚的插画风格，展现了雪地、星空和一个背对观众的人物剪影，符合氛围感插画的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/0 (3).jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "0 (3).jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 159001,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "婚纱",
+          "成熟",
+          "诱惑"
+        ],
+        "description": "一位穿着白色婚纱的成熟女性，散发着优雅与魅力。",
+        "filenameSuggestions": [
+          "身穿白色婚纱的成熟美丽女子.jpg",
+          "夜色中优雅的短发新娘.jpg"
+        ],
+        "displayTitle": "月光下的婚纱诱惑",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树，图片中人物穿着婚纱，姿态撩人，展现出成熟美和吸引力，符合【魅力】(Glamour)的定义。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/文字/0 (4).jpg",
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "0 (4).jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 321219,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "文字",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "文字",
+        "keywords": [
+          "创意",
+          "文字",
+          "绿意"
+        ],
+        "description": "一张充满绿意的创意文字海报",
+        "filenameSuggestions": [
+          "绿意盎然的清新标语.jpg",
+          "清新绿意海报.jpg"
+        ],
+        "displayTitle": "绿意盎然的清新标语",
+        "confidence": 0.9,
+        "reasoning": "图片主要由绿色文字组成，并带有黄色装饰，整体风格偏向创意和文字设计，无具体人物或景象，符合创意-文字分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/0 (5).jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "0 (5).jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 152369,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "吊带裙",
+          "长发"
+        ],
+        "description": "一位穿着白色吊带裙的长发女孩。",
+        "filenameSuggestions": [
+          "身穿白色吊带裙的长发女孩.jpg",
+          "夜色中优雅漫步的长发女孩.jpg"
+        ],
+        "displayTitle": "月光下的曼陀罗花",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树 (Portrait Logic)，图片中的女孩身穿吊带裙，展现身材曲线，姿态撩人，符合【魅力】(Glamour)的特征，因此归入人像/魅力。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/二次元/0 (6).jpg",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "0 (6).jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 205926,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "二次元",
+        "subcategory": "二次元",
+        "filenameSuggestions": [
+          "清晨的温暖邂逅.jpg",
+          "背着书包的少女与咖啡.jpg"
+        ],
+        "filenames": [
+          "清晨的温暖邂逅.jpg",
+          "背着书包的少女与咖啡.jpg"
+        ],
+        "displayTitle": "清晨的温暖邂逅",
+        "keywords": [
+          "插画",
+          "氛围感",
+          "咖啡",
+          "少女"
+        ],
+        "description": "一位背着书包的少女，手持咖啡杯，面带微笑，散发着清新与活力。",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B. 动漫与插画决策树 (Anime Logic)，图片具有绘画感强、非动画截图感的特征，归入插画类。根据图片的特征，不露脸（背影/遮挡/模糊）、重光影意境，看不清具体五官，归入插画/氛围感。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/0 (7).jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "0 (7).jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 135816,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "街头风格",
+          "年轻"
+        ],
+        "description": "阳光下的年轻女孩展现活力四溢的姿态。",
+        "filenameSuggestions": [
+          "张扬姿态的年轻女孩.jpg",
+          "街角的活力瞬间.jpg"
+        ],
+        "displayTitle": "街头风情的年轻姿态",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树中的魅力定义，图片中女孩展示了身材曲线，姿态撩人，符合魅力特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/0 (8).jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "0 (8).jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 294833,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "日系",
+          "少女"
+        ],
+        "description": "一位甜美清新的少女在咖啡馆中微笑。",
+        "filenameSuggestions": [
+          "清新少女在咖啡馆.jpg",
+          "笑容甜美的日系女孩.jpg"
+        ],
+        "displayTitle": "阳光下的清新少女",
+        "confidence": 0.9,
+        "reasoning": "图片中的少女面带微笑，穿着清新风格的服装，背景是咖啡馆的自然光环境，整体氛围明亮且治愈，符合【清新】(Fresh)的定义。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/0 (9).jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "0 (9).jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 172934,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "插画",
+        "category": "插画",
+        "third": "创意",
+        "subcategory": "创意",
+        "filenameSuggestions": [
+          "甜美少女与趣味便签.jpg",
+          "充满希望的少女与心愿.jpg"
+        ],
+        "filenames": [
+          "甜美少女与趣味便签.jpg",
+          "充满希望的少女与心愿.jpg"
+        ],
+        "displayTitle": "治愈系少女的梦幻日常",
+        "keywords": [
+          "治愈系",
+          "少女",
+          "插画",
+          "梦幻"
+        ],
+        "description": "这是一幅充满治愈感的少女插画，带有趣味的便签和心愿，展现了积极的生活态度。",
+        "confidence": 0.9,
+        "reasoning": "图片以插画风格呈现，主体是少女和趣味的便签条，整体氛围轻松愉快，带有治愈系和梦幻感。根据决策树B2，判定为插画/少女与猫。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/0 (10).jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "0 (10).jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 280413,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "插画",
+        "category": "插画",
+        "third": "创意",
+        "subcategory": "创意",
+        "filenameSuggestions": [
+          "山间投掷帽子的少年与小狗.jpg",
+          "绿草地上的帽子飞跃瞬间.jpg"
+        ],
+        "filenames": [
+          "山间投掷帽子的少年与小狗.jpg",
+          "绿草地上的帽子飞跃瞬间.jpg"
+        ],
+        "displayTitle": "山间悠闲时光",
+        "keywords": [
+          "插画",
+          "山景",
+          "少年",
+          "小狗"
+        ],
+        "description": "插画风格的山间生活场景，展现少年与小狗的互动。",
+        "confidence": 0.9,
+        "reasoning": "图片以插画风格呈现，内容为少年在山间草地与小狗互动，帽子飞起的动态场景充满生活气息。画面色彩自然，风格接近插画中的通用分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/动漫/0 (11).jpg",
+      "category": "插画",
+      "subcategory": "动漫",
+      "filename": "0 (11).jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 332146,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "动漫",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "动漫",
+        "keywords": [
+          "樱桃小丸子",
+          "动漫",
+          "插画",
+          "水果摊"
+        ],
+        "description": "绿树成荫下的水果摊，樱桃小丸子一家人在此悠闲相聚。",
+        "filenameSuggestions": [
+          "绿荫下的水果摊.jpg",
+          "樱桃小丸子一家人.jpg"
+        ],
+        "displayTitle": "樱桃小丸子的绿荫水果摊",
+        "confidence": 0.9,
+        "reasoning": "根据图片的动漫风格和人物特征，识别出是《樱桃小丸子》相关插画，归类为动漫/樱桃小丸子。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/雪山/0.jpg",
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "0.jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 180290,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "雪山",
+          "日落",
+          "山脉",
+          "风景"
+        ],
+        "description": "雪山在夕阳的照耀下显得格外壮丽，山峰高耸入云。",
+        "filenameSuggestions": [
+          "渐变天空下的雪山峰.jpg",
+          "日落时分的冰川.jpg"
+        ],
+        "displayTitle": "夕阳下的雪山峰峦",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一幅雪山风景，山峰高耸，夕阳与云朵的色彩交融，符合风景/雪山的分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/张真源/640 (1).jpg",
+      "category": "人像",
+      "subcategory": "张真源",
+      "filename": "640 (1).jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 177797,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "张真源",
+        "subcategory": "张真源",
+        "filenameSuggestions": [
+          "白色西装特写.jpg",
+          "舞台上闪耀的歌星.jpg"
+        ],
+        "filenames": [
+          "白色西装特写.jpg",
+          "舞台上闪耀的歌星.jpg"
+        ],
+        "displayTitle": "星光下的白色曼陀罗",
+        "keywords": [
+          "魅力",
+          "明星",
+          "白色西装",
+          "闪光"
+        ],
+        "description": "明星穿着白色西装在舞台上表演，闪光灯下的瞬间。",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A2，图片中人物穿着白色西装，带有装饰且姿态吸引人，背景有明显的舞台灯光效果，符合【魅力】分类的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/张真源/640 (2).jpg",
+      "category": "人像",
+      "subcategory": "张真源",
+      "filename": "640 (2).jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 262478,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "张真源",
+        "subcategory": "张真源",
+        "filenameSuggestions": [
+          "漫雪街头的微笑少年.jpg"
+        ],
+        "filenames": [
+          "漫雪街头的微笑少年.jpg"
+        ],
+        "displayTitle": "漫天飞雪中的温暖瞬间",
+        "keywords": [
+          "氛围感",
+          "雪天",
+          "少年"
+        ],
+        "description": "雪花纷飞，少年低头微笑，温暖的氛围感画面。",
+        "confidence": 0.9,
+        "reasoning": "图片中少年被雪花环绕，表情温暖，整体氛围感强烈，根据决策树A5，归入人像/氛围感。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/氛围感/640 (3).jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "640 (3).jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 150009,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "海岸风光",
+          "少女"
+        ],
+        "description": "阳光下的海岸边，少女带着俏皮的笑容伸出手指指向远方，背后是蔚蓝的天空与海滨风景。",
+        "filenameSuggestions": [
+          "海风拂面的少女笑颜.jpg",
+          "阳光海岸边的俏皮女孩.jpg"
+        ],
+        "displayTitle": "风吹浪漫海岸边",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树 (Portrait Logic)，图片中人物未露脸且有重光影意境，判定为【氛围感】。图片背景为海岸风光，且人物动作充满活力，符合氛围感的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/花卉/640 (4).jpg",
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "640 (4).jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 264927,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "风景",
+          "自然",
+          "阳光"
+        ],
+        "description": "一片绿意盎然的草地在晴天阳光的照耀下显得生机勃勃。",
+        "filenameSuggestions": [
+          "绿意盎然的自然风光.jpg",
+          "晴天下的草原美景.jpg"
+        ],
+        "displayTitle": "阳光下的绿草地",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示了一幅自然风景，包含绿色的草地和蓝天白云，符合风景分类下的花卉子类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/张真源/640.jpg",
+      "category": "人像",
+      "subcategory": "张真源",
+      "filename": "640.jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 125115,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "张真源",
+        "subcategory": "张真源",
+        "filenameSuggestions": [
+          "身穿蓝色外套的温暖少年.jpg"
+        ],
+        "filenames": [
+          "身穿蓝色外套的温暖少年.jpg"
+        ],
+        "displayTitle": "帽子下的温暖微笑",
+        "keywords": [
+          "清新",
+          "少年",
+          "微笑",
+          "帽子"
+        ],
+        "description": "一个戴着帽子，穿着蓝色外套的少年，微笑着看着镜头。",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A的人像分类决策树，图片中少年面带微笑，表情清新自然，背景干净，符合【清新】(Fresh)的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/640.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "640.png",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 3043565,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "甜美",
+          "长发",
+          "微笑"
+        ],
+        "description": "一个面带微笑的少女侧卧在柔和的光线下，表现出清新甜美的气质。",
+        "filenameSuggestions": [
+          "侧卧微笑的长发女孩.jpg",
+          "温暖光线中的清新少女.jpg"
+        ],
+        "displayTitle": "柔和光线下的甜美少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，人物面带微笑，表情甜美，背景简洁光线柔和，整体呈现出清新、治愈的氛围。根据决策树A4，清新定义为明亮、治愈、氧气感，特征包括高明度、色彩鲜艳自然、笑容甜美、背景通常是草地/蓝天/白墙、构图干净，给人初恋感。图片符合这些特征，因此归类为【清新】。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/张真源/微信图片_2026-03-27_140825_352.jpg",
+      "category": "人像",
+      "subcategory": "张真源",
+      "filename": "微信图片_2026-03-27_140825_352.jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 223858,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "张真源",
+        "subcategory": "张真源",
+        "filenameSuggestions": [
+          "穿着粉色格子衬衫的短发男生自拍.jpg",
+          "对着镜子拍照的清新少年.jpg"
+        ],
+        "filenames": [
+          "穿着粉色格子衬衫的短发男生自拍.jpg",
+          "对着镜子拍照的清新少年.jpg"
+        ],
+        "displayTitle": "清新自拍中的年轻男孩",
+        "keywords": [
+          "清新",
+          "男生",
+          "自拍",
+          "短发"
+        ],
+        "description": "一位短发男生在室内自拍，清新自然，展现年轻活力。",
+        "confidence": 0.9,
+        "reasoning": "图片中是一位短发男生在自拍，穿着 casual 服装，表情自然，整体氛围清新，根据决策树规则 A，归入【人像】>【清新】"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-05-26_164236_393.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-05-26_164236_393.jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 302577,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "少女",
+          "白色长裙",
+          "微笑"
+        ],
+        "description": "一位穿着白色长裙的少女靠在楼梯上，面带微笑，展现出清新自然的气质。",
+        "filenameSuggestions": [
+          "身穿白色长裙的微笑少女.jpg",
+          "靠在楼梯上的清新女孩.jpg"
+        ],
+        "displayTitle": "阳光下的优雅少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，少女穿着白色长裙，面带微笑，背景简洁自然，符合【清新】(Fresh)的特征：明亮、治愈、氧气感。图片中少女的服装和表情都非常清新自然，没有其他风格的特征，如丝袜、成熟美、胶片感等，因此归类为【人像/清新】。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-05-26_164303_453.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-05-26_164303_453.jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 341819,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "背影",
+          "丝袜",
+          "海景"
+        ],
+        "description": "一位长发女子在船上背对着观众，海风吹拂着她的长发，展现出优雅与魅力。",
+        "filenameSuggestions": [
+          "身穿白色长裙的背影美人.jpg",
+          "海风吹拂长发的优雅女子.jpg"
+        ],
+        "displayTitle": "海上丝语",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树中的【魅力】(Glamour)定义，该图片中女子身穿白色长裙，黑发被海风吹起，展现出成熟美与吸引力，符合【魅力】的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-05-26_164326_139.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-05-26_164326_139.jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 461382,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "魅力",
+        "subcategory": "魅力",
+        "filenameSuggestions": [
+          "穿白色背心和牛仔裤的长发女孩.jpg",
+          "户外阳光下的微笑少女.jpg"
+        ],
+        "filenames": [
+          "穿白色背心和牛仔裤的长发女孩.jpg",
+          "户外阳光下的微笑少女.jpg"
+        ],
+        "displayTitle": "阳光下的青春少女",
+        "keywords": [
+          "清新",
+          "长发",
+          "户外",
+          "阳光"
+        ],
+        "description": "一位穿着白色背心和牛仔裤的长发少女，在户外阳光下微笑。",
+        "confidence": 0.9,
+        "reasoning": "图片中少女穿着休闲，面带微笑，背景是户外阳光充足的场景，整体给人一种清新、自然的感觉。根据规则A4【清新】(Fresh)的定义和特征，如高明度、色彩鲜艳自然、笑容甜美、背景通常是草地/蓝天/白墙等，判定为【清新】。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/抽象/微信图片_2026-05-26_164344_274.jpg",
+      "category": "创意",
+      "subcategory": "抽象",
+      "filename": "微信图片_2026-05-26_164344_274.jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 85509,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "创意",
+        "category": "创意",
+        "third": "抽象",
+        "subcategory": "抽象",
+        "filenameSuggestions": [
+          "纸袋上的忙碌文字设计.jpg",
+          "VERY BUSY 生活态度.jpg"
+        ],
+        "filenames": [
+          "纸袋上的忙碌文字设计.jpg",
+          "VERY BUSY 生活态度.jpg"
+        ],
+        "displayTitle": "忙碌的日常",
+        "keywords": [
+          "创意设计",
+          "文字排版",
+          "纸袋",
+          "BUSY"
+        ],
+        "description": "一个创意设计图片，展示了忙碌的都市生活态度。",
+        "confidence": 0.9,
+        "reasoning": "图片主要以黑色文字和简约设计为主，强调'busy'主题，归类为创意/通用。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/氛围感/微信图片_2026-05-26_164359_246.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-05-26_164359_246.jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 544207,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "人像摄影",
+          "孤寂美"
+        ],
+        "description": "一位身穿白色长裙的少女坐在岩石上，低头凝视着海水，氛围感十足。",
+        "filenameSuggestions": [
+          "白色长裙少女坐在岩石上凝视大海.jpg",
+          "海边岩石上的沉思.jpg"
+        ],
+        "displayTitle": "月光下的孤寂之美",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A，人像分类中氛围感的特征是不露脸、重光影意境、看不清具体五官。该图片中少女低头、面部被遮挡，符合氛围感的定义，因此归类为人像/氛围感。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-05-26_164406_777.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-05-26_164406_777.jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 343786,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "绿衣",
+          "背心长裙",
+          "优雅"
+        ],
+        "description": "一位穿着绿色背心长裙的女性，站立在木门前，展现优雅姿态。",
+        "filenameSuggestions": [
+          "身穿绿色背心长裙的优雅女人.jpg",
+          "站立在木门前的时尚女性.jpg"
+        ],
+        "displayTitle": "绿衣背影的优雅女人",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，人物穿着暴露的绿色长裙，姿态优雅，背景为木门和花卉，符合【魅力】(Glamour)的定义。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/微信图片_2026-05-26_164413_766.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_2026-05-26_164413_766.jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 221018,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "插画",
+        "category": "插画",
+        "third": "创意",
+        "subcategory": "创意",
+        "filenameSuggestions": [
+          "身穿白色宇宙服的宇航员站在绿草中.jpg",
+          "绿草地上的白色宇航服小人.jpg"
+        ],
+        "filenames": [
+          "身穿白色宇宙服的宇航员站在绿草中.jpg",
+          "绿草地上的白色宇航服小人.jpg"
+        ],
+        "displayTitle": "宇宙中的一抹绿意",
+        "keywords": [
+          "插画",
+          "宇航员",
+          "绿草",
+          "科幻"
+        ],
+        "description": "一位身穿白色宇宙服的宇航员站在茂盛的绿草中，充满未来感和探索精神。",
+        "confidence": 0.9,
+        "reasoning": "图片中出现了一个身穿白色宇宙服的宇航员站在绿草中的场景，整体风格偏向插画且没有明确的IP或具体分类，因此归类为插画/通用。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-05-26_164453_192.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-05-26_164453_192.jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 391434,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "花裙",
+          "阳光",
+          "少女"
+        ],
+        "description": "一位穿着白色花裙的少女在阳光下微笑。",
+        "filenameSuggestions": [
+          "穿着白色花裙的清新少女.jpg",
+          "微笑的红玫瑰女孩.jpg"
+        ],
+        "displayTitle": "阳光下的花瓣女孩",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，少女穿着清新风格的白色花裙，背景明亮且有自然光照射，符合【清新】(Fresh)的定义。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-05-26_164459_125.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-05-26_164459_125.jpg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 364926,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "长发",
+          "帽子",
+          "耳机"
+        ],
+        "description": "一位戴着蓝色棒球帽和耳机的清新少女，展现休闲时尚。",
+        "filenameSuggestions": [
+          "身穿休闲装的长发女孩.jpg",
+          "戴耳机和棒球帽的微笑少女.jpg"
+        ],
+        "displayTitle": "帽檐下的清新少女",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A，人像分类中，清新定义为明亮、治愈、氧气感。图片中少女面带微笑，背景简洁明亮，色彩自然，符合清新特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/IP形象/Hello Kitty/微信图片_20260520083658.jpeg",
+      "category": "IP形象",
+      "subcategory": "Hello Kitty",
+      "filename": "微信图片_20260520083658.jpeg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 149513,
+      "format": "jpeg",
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "Hello Kitty",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "Hello Kitty",
+        "keywords": [
+          "Hello Kitty",
+          "粉色",
+          "幸运"
+        ],
+        "description": "Hello Kitty身穿粉色裙子，周围环绕着彩虹和幸运符号。",
+        "filenameSuggestions": [
+          "穿着粉色裙子的凯蒂猫.jpg",
+          "粉色魔法下的凯蒂猫.jpg"
+        ],
+        "displayTitle": "幸运之吻Hello Kitty",
+        "confidence": 0.9,
+        "reasoning": "图片中为Hello Kitty的插画，带有明显的IP形象特征，归入IP形象/Hello Kitty分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/Hello Kitty/微信图片_20260520083743.jpeg",
+      "category": "插画",
+      "subcategory": "Hello Kitty",
+      "filename": "微信图片_20260520083743.jpeg",
+      "createdAt": "2026-05-26T09:01:39.819Z",
+      "size": 115948,
+      "format": "jpeg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "Hello Kitty",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "Hello Kitty",
+        "keywords": [
+          "Hello Kitty",
+          "插画",
+          "粉色"
+        ],
+        "description": "凯蒂猫在粉色魔法时刻的浪漫插画",
+        "filenameSuggestions": [
+          "凯蒂猫的粉色魔法时刻.jpg",
+          "粉色魔法下的凯蒂猫.jpg"
+        ],
+        "displayTitle": "凯蒂猫的粉色魔法时刻",
+        "confidence": 0.9,
+        "reasoning": "图片中为凯蒂猫的插画，背景是粉色且有明显的Hello Kitty元素，根据现有分类体系，归入插画/Hello Kitty"
+      }
+    }
+  ]
+}
