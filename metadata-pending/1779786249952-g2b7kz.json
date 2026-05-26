@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "createdAt": "2026-05-26T09:04:09.952Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/Hello Kitty/微信图片_20260520083748.jpeg",
+      "category": "插画",
+      "subcategory": "Hello Kitty",
+      "filename": "微信图片_20260520083748.jpeg",
+      "createdAt": "2026-05-26T09:04:09.952Z",
+      "size": 240179,
+      "format": "jpeg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "Hello Kitty",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "Hello Kitty",
+        "keywords": [
+          "Hello Kitty",
+          "插画",
+          "甜品",
+          "可爱"
+        ],
+        "description": "Hello Kitty与各种甜点一起享受甜蜜时光的幻想插图",
+        "filenameSuggestions": [
+          "可爱的Hello Kitty甜品派对.jpg",
+          "Hello Kitty与蓝莓甜点世界的梦幻邂逅.jpg"
+        ],
+        "displayTitle": "甜蜜时光的卡通幻想",
+        "confidence": 0.9,
+        "reasoning": "图片中出现了多个Hello Kitty形象，搭配各种甜点和蛋糕，背景为浅蓝色且有' Sweet Time'字样，整体具有强烈的插画风格和可爱氛围。根据现有分类体系，图片中的Hello Kitty形象直接匹配到三级分类'Hello Kitty'。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/Hello Kitty/微信图片_20260520083752.jpeg",
+      "category": "插画",
+      "subcategory": "Hello Kitty",
+      "filename": "微信图片_20260520083752.jpeg",
+      "createdAt": "2026-05-26T09:04:09.952Z",
+      "size": 110891,
+      "format": "jpeg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "Hello Kitty",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "Hello Kitty",
+        "keywords": [
+          "Hello Kitty",
+          "插画",
+          "甜品",
+          "可爱"
+        ],
+        "description": "Hello Kitty 与各种甜品的组合，传递享受当下的美好寓意。",
+        "filenameSuggestions": [
+          "可爱的多啦A梦甜品壁画.jpg",
+          "蓝色背景的凯蒂猫甜点插图.jpg"
+        ],
+        "displayTitle": "享受当下的甜蜜时光",
+        "confidence": 0.9,
+        "reasoning": "图片中出现Hello Kitty和各种甜品，符合Hello Kitty的特征，归入插画/Hello Kitty。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/IP形象/Hello Kitty/微信图片_20260520083758.jpeg",
+      "category": "IP形象",
+      "subcategory": "Hello Kitty",
+      "filename": "微信图片_20260520083758.jpeg",
+      "createdAt": "2026-05-26T09:04:09.952Z",
+      "size": 60443,
+      "format": "jpeg",
+      "ai": {
+        "series": "mobile",
+        "category": "IP形象",
+        "subcategory": "Hello Kitty",
+        "primary": "mobile",
+        "secondary": "IP形象",
+        "third": "Hello Kitty",
+        "keywords": [
+          "Hello Kitty",
+          "粉色",
+          "幸运"
+        ],
+        "description": "凯蒂猫带来幸运的粉红魔法世界",
+        "filenameSuggestions": [
+          "可爱的凯蒂猫与幸运符.jpg",
+          "粉红魔法下的凯蒂猫.jpg"
+        ],
+        "displayTitle": "幸运的粉红魔法",
+        "confidence": 0.9,
+        "reasoning": "图片中出现了Hello Kitty形象，符合现有分类体系中的IP形象- Hello Kitty"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/Hello Kitty/微信图片_20260520083803.jpeg",
+      "category": "插画",
+      "subcategory": "Hello Kitty",
+      "filename": "微信图片_20260520083803.jpeg",
+      "createdAt": "2026-05-26T09:04:09.952Z",
+      "size": 147261,
+      "format": "jpeg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "Hello Kitty",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "Hello Kitty",
+        "keywords": [
+          "Hello Kitty",
+          "财运",
+          "幸运",
+          "插画"
+        ],
+        "description": "一张以Hello Kitty为主角的财运主题插画壁纸，带有吉祥寓意。",
+        "filenameSuggestions": [
+          "Hello Kitty财运壁纸.jpg",
+          "幸运财运Hello Kitty桌面壁纸.jpg"
+        ],
+        "displayTitle": "Hello Kitty的幸运财运壁纸",
+        "confidence": 0.9,
+        "reasoning": "图片中明显以Hello Kitty为主题，并带有财运和幸运的寓意，符合现有分类体系中的插画- Hello Kitty子类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/Hello Kitty/微信图片_20260520083808.jpeg",
+      "category": "插画",
+      "subcategory": "Hello Kitty",
+      "filename": "微信图片_20260520083808.jpeg",
+      "createdAt": "2026-05-26T09:04:09.952Z",
+      "size": 214044,
+      "format": "jpeg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "Hello Kitty",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "Hello Kitty",
+        "keywords": [
+          "Hello Kitty",
+          "插画",
+          "可爱",
+          "梦幻"
+        ],
+        "description": "Hello Kitty在梦幻乐园中欢乐嬉戏",
+        "filenameSuggestions": [
+          "甜蜜Hello Kitty的夏日物语.jpg",
+          "Hello Kitty的梦幻小屋.jpg"
+        ],
+        "displayTitle": "可爱Hello Kitty的梦幻乐园",
+        "confidence": 0.9,
+        "reasoning": "图片以Hello Kitty为主体，包含多个Hello Kitty形象和相关元素，符合Hello Kitty的IP特征，因此归类为插画/Hello Kitty。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/Hello Kitty/微信图片_20260520083812.jpeg",
+      "category": "插画",
+      "subcategory": "Hello Kitty",
+      "filename": "微信图片_20260520083812.jpeg",
+      "createdAt": "2026-05-26T09:04:09.952Z",
+      "size": 108058,
+      "format": "jpeg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "Hello Kitty",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "Hello Kitty",
+        "keywords": [
+          "Hello Kitty",
+          "卡通",
+          "可爱",
+          "派对"
+        ],
+        "description": "Hello Kitty 生日派对",
+        "filenameSuggestions": [
+          "穿着生日帽子的白色凯蒂猫.jpg",
+          "凯蒂猫和朋友们在星空下的派对.jpg"
+        ],
+        "displayTitle": "可爱Hello Kitty生日派对",
+        "confidence": 0.9,
+        "reasoning": "图片中出现了多个Hello Kitty的形象，包括戴生日帽的Hello Kitty、拿着小熊的Hello Kitty以及使用电话的Hello Kitty。根据现有分类体系，Hello Kitty属于IP形象，因此归类为插画/Hello Kitty。"
+      }
+    }
+  ]
+}
