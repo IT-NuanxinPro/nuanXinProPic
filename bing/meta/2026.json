@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 146,
+  "total": 147,
   "items": [
+    {
+      "date": "2026-05-27",
+      "title": "它们“獭”独一无二",
+      "copyright": "海獭，霍默卡奇马克湾，阿拉斯加州，美国 (© roclwyr/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%B0%B4%E7%8D%AD%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260526_OtterDay%22&FORM=HPQUIZ",
+      "hsh": "04a0aa164be39041de12e6521f9518e9",
+      "urlbase": "/th?id=OHR.OtterDay_ZH-CN7735013625"
+    },
     {
       "date": "2026-05-26",
       "title": "羽扇豆书写的季节",
@@ -1317,5 +1326,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-05-25 18:27:19"
+  "updatedAt": "2026-05-26 19:23:15"
 }
