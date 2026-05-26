@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "mobile",
-  "lastUpdated": "2026-05-26 09:15:48",
-  "count": 793,
+  "lastUpdated": "2026-05-26 09:30:33",
+  "count": 796,
   "images": {
     "wallpaper/mobile/IP形象/乌萨奇/乌萨奇&小八&小熊_睡衣裹被贴贴.png": {
       "category": "IP形象",
@@ -25284,6 +25284,124 @@
         "displayTitle": "可爱Hello Kitty生日派对",
         "confidence": 0.9,
         "reasoning": "图片中出现了多个Hello Kitty的形象，包括戴生日帽的Hello Kitty、拿着小熊的Hello Kitty以及使用电话的Hello Kitty。根据现有分类体系，Hello Kitty属于IP形象，因此归类为插画/Hello Kitty。"
+      }
+    },
+    "wallpaper/mobile/动漫/斗破苍穹/35eb77ee9d422c67dd34bc3a7804da9b.jpg": {
+      "category": "动漫",
+      "subcategory": "斗破苍穹",
+      "filename": "35eb77ee9d422c67dd34bc3a7804da9b.jpg",
+      "createdAt": "2026-05-26T09:27:47.377Z",
+      "cdnTag": "v1.3.9",
+      "size": 321152,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 1920,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "斗破苍穹",
+        "subcategory": "斗破苍穹",
+        "filenameSuggestions": [
+          "身穿白色金边仙服的美杜莎.jpg",
+          "梦幻光环下的绝美仙子.jpg"
+        ],
+        "filenames": [
+          "身穿白色金边仙服的美杜莎.jpg",
+          "梦幻光环下的绝美仙子.jpg"
+        ],
+        "displayTitle": "仙幻美杜莎：金色华服与梦幻光环",
+        "keywords": [
+          "斗破",
+          "仙女",
+          "美杜莎",
+          "金色装饰"
+        ],
+        "description": "一位身穿白色金边仙服的美杜莎，坐于梦幻光环之中，散发着仙气。",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树，首先判断为人物图片，再根据图片的插画风格和仙女的特征，归类为人像/插画。"
+      }
+    },
+    "wallpaper/mobile/动漫/斗破苍穹/1682d693686f0bb765422cb36b6245a8.jpg": {
+      "category": "动漫",
+      "subcategory": "斗破苍穹",
+      "filename": "1682d693686f0bb765422cb36b6245a8.jpg",
+      "createdAt": "2026-05-26T09:27:47.377Z",
+      "cdnTag": "v1.3.9",
+      "size": 388454,
+      "format": "jpg",
+      "resolution": {
+        "width": 1240,
+        "height": 1920,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "斗破苍穹",
+        "subcategory": "斗破苍穹",
+        "filenameSuggestions": [
+          "身穿白色国风仙服的美杜莎.jpg",
+          "月光树下的国风少女.jpg"
+        ],
+        "filenames": [
+          "身穿白色国风仙服的美杜莎.jpg",
+          "月光树下的国风少女.jpg"
+        ],
+        "displayTitle": "月光下的仙裔风华",
+        "keywords": [
+          "国风",
+          "美杜莎",
+          "斗破"
+        ],
+        "description": "一幅描绘国风仙女在月光下与自然融为一体的画面。",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B. 动漫与插画决策树 (Anime Logic)，图片具有强烈的插画风格，且具备国风元素，归入插画/国风分类"
+      }
+    },
+    "wallpaper/mobile/插画/国风/b3919940b31dbe3b287185211943e5b0.png": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "b3919940b31dbe3b287185211943e5b0.png",
+      "createdAt": "2026-05-26T09:27:47.377Z",
+      "cdnTag": "v1.3.9",
+      "size": 6540815,
+      "format": "png",
+      "resolution": {
+        "width": 1661,
+        "height": 2956,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "插画",
+          "红纱",
+          "珠饰"
+        ],
+        "description": "一位身披红纱、佩戴华丽珠饰的东方美人，展现神秘与高贵的气质。",
+        "filenameSuggestions": [
+          "身披红纱的紫发东方美人.jpg",
+          "华丽珠饰下的国风少女.jpg"
+        ],
+        "displayTitle": "红纱下的神秘东方美人",
+        "confidence": 0.9,
+        "reasoning": "图片以插画形式呈现一位身穿红衣、头披红纱、佩戴复杂珠饰的女性，具有浓厚的东方古风韵味。根据决策树B2，图片具有绘画感强、非动画截图感的特征，归为插画类。同时，图片中的服饰、珠饰以及整体氛围符合国风特征，因此归类为插画/国风。"
       }
     }
   }

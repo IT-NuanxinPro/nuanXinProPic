@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-05-26 09:15:48",
-  "count": 643,
+  "lastUpdated": "2026-05-26 09:30:33",
+  "count": 646,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -19246,6 +19246,126 @@
         "confidence": 0,
         "model": "filename-inference",
         "analyzedAt": null
+      }
+    },
+    "wallpaper/desktop/动漫/斗破苍穹/39d184099614c9ee23b9198e1d3618c3.png": {
+      "category": "动漫",
+      "subcategory": "斗破苍穹",
+      "filename": "39d184099614c9ee23b9198e1d3618c3.png",
+      "createdAt": "2026-05-26T09:27:47.377Z",
+      "cdnTag": "v1.3.9",
+      "size": 2390196,
+      "format": "png",
+      "resolution": {
+        "width": 2260,
+        "height": 1068,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "斗破苍穹",
+        "subcategory": "斗破苍穹",
+        "filenameSuggestions": [
+          "斗圣美杜莎.jpg",
+          "金色光芒美杜莎.jpg"
+        ],
+        "filenames": [
+          "斗圣美杜莎.jpg",
+          "金色光芒美杜莎.jpg"
+        ],
+        "displayTitle": null,
+        "keywords": [
+          "斗破苍穹",
+          "美杜莎"
+        ],
+        "description": "一位身穿华丽金色服装的美杜莎，背后有梦幻光翼，散发着神秘与光芒。",
+        "confidence": 0.9,
+        "reasoning": "根据决策树B2，图片具有典型的插画风格，人物与场景设计富有创意和奇幻色彩，归类为插画/创意"
+      }
+    },
+    "wallpaper/desktop/动漫/斗破苍穹/aa9fd50972f6e6ae02c317a24fbb64aa.png": {
+      "category": "动漫",
+      "subcategory": "斗破苍穹",
+      "filename": "aa9fd50972f6e6ae02c317a24fbb64aa.png",
+      "createdAt": "2026-05-26T09:27:47.377Z",
+      "cdnTag": "v1.3.9",
+      "size": 2192081,
+      "format": "png",
+      "resolution": {
+        "width": 2267,
+        "height": 1076,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "斗破苍穹",
+        "subcategory": "斗破苍穹",
+        "filenameSuggestions": [
+          "身披光翼的美杜莎.jpg",
+          "金色光辉下的羽翼美杜莎.jpg"
+        ],
+        "filenames": [
+          "身披光翼的美杜莎.jpg",
+          "金色光辉下的羽翼美杜莎.jpg"
+        ],
+        "displayTitle": "光翼天使的黄昏之舞",
+        "keywords": [
+          "美杜莎",
+          "创意",
+          "斗破",
+          "光翼"
+        ],
+        "description": "一位身披光翼的美丽天使美杜莎，站立于黄昏的温暖光芒中。",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一位具有奇幻风格的女性角色，拥有光翼和华丽的服装，背景是黄昏的景色。根据决策树B2，图片具有浓厚的绘画感和创意设计，且不属于特定IP或动漫分类，故归类为插画/创意。"
+      }
+    },
+    "wallpaper/desktop/动漫/仙武传/XWZ173 无损 横.png": {
+      "category": "动漫",
+      "subcategory": "仙武传",
+      "filename": "XWZ173 无损 横.png",
+      "createdAt": "2026-05-26T09:27:47.377Z",
+      "cdnTag": "v1.3.9",
+      "size": 21751084,
+      "format": "png",
+      "resolution": {
+        "width": 6826,
+        "height": 3840,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "仙武传",
+        "subcategory": "仙武传",
+        "filenameSuggestions": [
+          "身穿冰蓝色国风服饰的姬凝霜.jpg",
+          "光芒四射的仙女姬凝霜.jpg"
+        ],
+        "filenames": [
+          "身穿冰蓝色国风服饰的姬凝霜.jpg",
+          "光芒四射的仙女姬凝霜.jpg"
+        ],
+        "displayTitle": "仙气飘渺的姬凝霜",
+        "keywords": [
+          "国风",
+          "仙武传",
+          "姬凝霜"
+        ],
+        "description": "一位身穿冰蓝色国风服饰的姬凝霜，背景充满神秘的仙气。",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一位身穿国风服饰的女子，带有仙气，背景有明显的中国传统元素，根据决策树B2，判定为插画/国风。"
       }
     }
   }
