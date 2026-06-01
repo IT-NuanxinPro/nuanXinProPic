@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-05-31 18:02:48",
+  "generatedAt": "2026-06-01 20:56:44",
   "total": 7,
   "items": [
+    {
+      "date": "2026-06-02",
+      "title": "穿行于蓝色之间",
+      "copyright": "穿越西台吉乃尔湖的公路，青海省，中国 (© Kaicheng Xu/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%AD%E5%9B%BD%E6%9F%B4%E8%BE%BE%E6%9C%A8%E7%9B%86%E5%9C%B0&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260601_Qinghai%22&FORM=HPQUIZ",
+      "hsh": "517ab01bc515a94d6619be1259b11e38",
+      "urlbase": "/th?id=OHR.Qinghai_ZH-CN9899656327"
+    },
     {
       "date": "2026-06-01",
       "title": "历史的况味",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260526_OtterDay%22&FORM=HPQUIZ",
       "hsh": "04a0aa164be39041de12e6521f9518e9",
       "urlbase": "/th?id=OHR.OtterDay_ZH-CN7735013625"
-    },
-    {
-      "date": "2026-05-26",
-      "title": "羽扇豆书写的季节",
-      "copyright": "盛开的羽扇豆，北加利福尼亚州，美国 (© Jeffrey Lewis/Tandem Stills + Motion)",
-      "copyrightlink": "https://www.bing.com/search?q=%E7%BE%BD%E6%89%87%E8%B1%86&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260525_LupineBloom%22&FORM=HPQUIZ",
-      "hsh": "4fa4bf57e48565ea815525261dae4db0",
-      "urlbase": "/th?id=OHR.LupineBloom_ZH-CN7639721663"
     }
   ]
 }

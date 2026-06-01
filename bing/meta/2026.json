@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 152,
+  "total": 153,
   "items": [
+    {
+      "date": "2026-06-02",
+      "title": "穿行于蓝色之间",
+      "copyright": "穿越西台吉乃尔湖的公路，青海省，中国 (© Kaicheng Xu/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%AD%E5%9B%BD%E6%9F%B4%E8%BE%BE%E6%9C%A8%E7%9B%86%E5%9C%B0&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260601_Qinghai%22&FORM=HPQUIZ",
+      "hsh": "517ab01bc515a94d6619be1259b11e38",
+      "urlbase": "/th?id=OHR.Qinghai_ZH-CN9899656327"
+    },
     {
       "date": "2026-06-01",
       "title": "历史的况味",
@@ -1371,5 +1380,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-05-31 18:02:48"
+  "updatedAt": "2026-06-01 20:56:44"
 }
