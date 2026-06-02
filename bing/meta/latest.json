@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-06-01 20:56:44",
+  "generatedAt": "2026-06-02 20:09:02",
   "total": 7,
   "items": [
+    {
+      "date": "2026-06-03",
+      "title": "路之所止，行之所启",
+      "copyright": "骑行者，巴德纳斯雷亚莱斯自然公园与生物圈保护区，纳瓦拉，西班牙 (© Artur Debat/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E8%87%AA%E8%A1%8C%E8%BD%A6%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260602_BardenasReales%22&FORM=HPQUIZ",
+      "hsh": "6700d2f2ffa10195590cff04ff0037e9",
+      "urlbase": "/th?id=OHR.BardenasReales_ZH-CN0480548935"
+    },
     {
       "date": "2026-06-02",
       "title": "穿行于蓝色之间",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260527_HwaesongFortress%22&FORM=HPQUIZ",
       "hsh": "8ff2b24c1b28a41e1223d650cce731af",
       "urlbase": "/th?id=OHR.HwaesongFortress_ZH-CN8225341972"
-    },
-    {
-      "date": "2026-05-27",
-      "title": "它们“獭”独一无二",
-      "copyright": "海獭，霍默卡奇马克湾，阿拉斯加州，美国 (© roclwyr/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%B0%B4%E7%8D%AD%E6%97%A5&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260526_OtterDay%22&FORM=HPQUIZ",
-      "hsh": "04a0aa164be39041de12e6521f9518e9",
-      "urlbase": "/th?id=OHR.OtterDay_ZH-CN7735013625"
     }
   ]
 }

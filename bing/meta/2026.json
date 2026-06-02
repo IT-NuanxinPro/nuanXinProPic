@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 153,
+  "total": 154,
   "items": [
+    {
+      "date": "2026-06-03",
+      "title": "路之所止，行之所启",
+      "copyright": "骑行者，巴德纳斯雷亚莱斯自然公园与生物圈保护区，纳瓦拉，西班牙 (© Artur Debat/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E8%87%AA%E8%A1%8C%E8%BD%A6%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260602_BardenasReales%22&FORM=HPQUIZ",
+      "hsh": "6700d2f2ffa10195590cff04ff0037e9",
+      "urlbase": "/th?id=OHR.BardenasReales_ZH-CN0480548935"
+    },
     {
       "date": "2026-06-02",
       "title": "穿行于蓝色之间",
@@ -1380,5 +1389,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-06-01 20:56:44"
+  "updatedAt": "2026-06-02 20:09:02"
 }
