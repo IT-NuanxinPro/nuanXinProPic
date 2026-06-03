@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 154,
+  "total": 155,
   "items": [
+    {
+      "date": "2026-06-04",
+      "title": "优雅羽饰",
+      "copyright": "梳理羽毛的雪鹭，佛罗里达州中部，美国 (© Donald M. Jones/Minden Pictures)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%9B%AA%E9%B9%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260603_PreeningEgret%22&FORM=HPQUIZ",
+      "hsh": "c3191cd2ed2f1b16bbc3dbaa07b7e74d",
+      "urlbase": "/th?id=OHR.PreeningEgret_ZH-CN2216012708"
+    },
     {
       "date": "2026-06-03",
       "title": "路之所止，行之所启",
@@ -1389,5 +1398,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-06-02 20:09:02"
+  "updatedAt": "2026-06-03 20:20:25"
 }

@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-06-02 20:09:02",
+  "generatedAt": "2026-06-03 20:20:25",
   "total": 7,
   "items": [
+    {
+      "date": "2026-06-04",
+      "title": "优雅羽饰",
+      "copyright": "梳理羽毛的雪鹭，佛罗里达州中部，美国 (© Donald M. Jones/Minden Pictures)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%9B%AA%E9%B9%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260603_PreeningEgret%22&FORM=HPQUIZ",
+      "hsh": "c3191cd2ed2f1b16bbc3dbaa07b7e74d",
+      "urlbase": "/th?id=OHR.PreeningEgret_ZH-CN2216012708"
+    },
     {
       "date": "2026-06-03",
       "title": "路之所止，行之所启",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260528_SummitEverest%22&FORM=HPQUIZ",
       "hsh": "c194a1eb3e29dcec9cf21bfc5c3c3f33",
       "urlbase": "/th?id=OHR.SummitEverest_ZH-CN9252833251"
-    },
-    {
-      "date": "2026-05-28",
-      "title": "设计与秩序相结合",
-      "copyright": "华城堡的古城墙，水原，韩国 (© aomam/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E9%9F%A9%E5%9B%BD%E6%B0%B4%E5%8E%9F%E7%9A%84%E5%8D%8E%E5%9F%8E%E5%A0%A1&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260527_HwaesongFortress%22&FORM=HPQUIZ",
-      "hsh": "8ff2b24c1b28a41e1223d650cce731af",
-      "urlbase": "/th?id=OHR.HwaesongFortress_ZH-CN8225341972"
     }
   ]
 }
