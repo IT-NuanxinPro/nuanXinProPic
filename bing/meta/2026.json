@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 157,
+  "total": 158,
   "items": [
+    {
+      "date": "2026-06-07",
+      "title": "最后一堵墙矗立着",
+      "copyright": "邓塞弗里克城堡遗址, 安特里姆郡, 北爱尔兰 (© Krzysztof Rogalski/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%82%93%E5%A1%9E%E5%BC%97%E9%87%8C%E5%85%8B%E5%9F%8E%E5%A0%A1++&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260606_DunseverickCastle2026%22&FORM=HPQUIZ",
+      "hsh": "6ddd129f06e2cfb60ebf7e0e82edcb54",
+      "urlbase": "/th?id=OHR.DunseverickCastle2026_ZH-CN3036266326"
+    },
     {
       "date": "2026-06-06",
       "title": "多走走，多思考",
@@ -1416,5 +1425,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-06-05 18:59:19"
+  "updatedAt": "2026-06-06 18:07:10"
 }
