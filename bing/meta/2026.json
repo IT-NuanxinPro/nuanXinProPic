@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 158,
+  "total": 159,
   "items": [
+    {
+      "date": "2026-06-08",
+      "title": "随波逐流",
+      "copyright": "在海洋中游动的狮鬃水母 (© Alexander Semenov Images/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%B5%B7%E6%B4%8B%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260607_Cyanea%22&FORM=HPQUIZ",
+      "hsh": "ecf6633a13686783188e9f1a3960d01e",
+      "urlbase": "/th?id=OHR.Cyanea_ZH-CN3858079050"
+    },
     {
       "date": "2026-06-07",
       "title": "最后一堵墙矗立着",
@@ -1425,5 +1434,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-06-06 18:07:10"
+  "updatedAt": "2026-06-07 18:05:40"
 }
