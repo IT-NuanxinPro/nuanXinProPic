@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-06-07 18:05:40",
+  "generatedAt": "2026-06-08 19:23:57",
   "total": 7,
   "items": [
+    {
+      "date": "2026-06-09",
+      "title": "品尝日落",
+      "copyright": "韦尔纳扎, 五渔村, 利古里亚, 意大利 (© Kelly Cheng/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%84%8F%E5%A4%A7%E5%88%A9%E9%9F%A6%E5%B0%94%E7%BA%B3%E6%89%8E%E4%BA%94%E6%B8%94%E6%9D%91&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260608_CTNPVernazza%22&FORM=HPQUIZ",
+      "hsh": "0fc624f21993d2cb7a97b39fe721e2c1",
+      "urlbase": "/th?id=OHR.CTNPVernazza_ZH-CN3971102271"
+    },
     {
       "date": "2026-06-08",
       "title": "随波逐流",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260602_BardenasReales%22&FORM=HPQUIZ",
       "hsh": "6700d2f2ffa10195590cff04ff0037e9",
       "urlbase": "/th?id=OHR.BardenasReales_ZH-CN0480548935"
-    },
-    {
-      "date": "2026-06-02",
-      "title": "穿行于蓝色之间",
-      "copyright": "穿越西台吉乃尔湖的公路，青海省，中国 (© Kaicheng Xu/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%AD%E5%9B%BD%E6%9F%B4%E8%BE%BE%E6%9C%A8%E7%9B%86%E5%9C%B0&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260601_Qinghai%22&FORM=HPQUIZ",
-      "hsh": "517ab01bc515a94d6619be1259b11e38",
-      "urlbase": "/th?id=OHR.Qinghai_ZH-CN9899656327"
     }
   ]
 }
