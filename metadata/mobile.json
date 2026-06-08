@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "mobile",
-  "lastUpdated": "2026-06-07 18:06:06",
-  "count": 796,
+  "lastUpdated": "2026-06-08 09:17:21",
+  "count": 797,
   "images": {
     "wallpaper/mobile/IP形象/乌萨奇/乌萨奇&小八&小熊_睡衣裹被贴贴.png": {
       "category": "IP形象",
@@ -25402,6 +25402,47 @@
         "displayTitle": "红纱下的神秘东方美人",
         "confidence": 0.9,
         "reasoning": "图片以插画形式呈现一位身穿红衣、头披红纱、佩戴复杂珠饰的女性，具有浓厚的东方古风韵味。根据决策树B2，图片具有绘画感强、非动画截图感的特征，归为插画类。同时，图片中的服饰、珠饰以及整体氛围符合国风特征，因此归类为插画/国风。"
+      }
+    },
+    "wallpaper/mobile/人像/魅力/image_AI潮流角色海报_抖音ai创作_..._0.png": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "image_AI潮流角色海报_抖音ai创作_..._0.png",
+      "createdAt": "2026-06-08T09:15:17.308Z",
+      "cdnTag": "v1.3.23",
+      "size": 569191,
+      "format": "png",
+      "resolution": {
+        "width": 1376,
+        "height": 2682,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "魅力",
+        "subcategory": "魅力",
+        "filenameSuggestions": [
+          "酷酷的黑白搭配潮流男孩.jpg",
+          "霓虹灯下的时尚少年写真.jpg"
+        ],
+        "filenames": [
+          "酷酷的黑白搭配潮流男孩.jpg",
+          "霓虹灯下的时尚少年写真.jpg"
+        ],
+        "displayTitle": "霓虹夜下的酷帅少年",
+        "keywords": [
+          "魅力",
+          "霓虹风",
+          "酷帅",
+          "潮流"
+        ],
+        "description": "这是一张充满魅力与时尚的少年写真，背景充满霓虹灯光，突出了一种前卫与酷炫的风格。",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树 (Portrait Logic) 中的【魅力】(Glamour)定义和特征，图片中少年穿着具有时尚感的服装，背景有明显的霓虹灯光，姿势展现出酷炫魅力，因此判定为 人像/魅力。"
       }
     }
   }

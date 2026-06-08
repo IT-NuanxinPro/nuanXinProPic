@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-06-07 18:06:06",
-  "count": 646,
+  "lastUpdated": "2026-06-08 09:17:21",
+  "count": 649,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -19366,6 +19366,127 @@
         "description": "一位身穿冰蓝色国风服饰的姬凝霜，背景充满神秘的仙气。",
         "confidence": 0.9,
         "reasoning": "图片展示了一位身穿国风服饰的女子，带有仙气，背景有明显的中国传统元素，根据决策树B2，判定为插画/国风。"
+      }
+    },
+    "wallpaper/desktop/IP形象/水豚噜噜/6be95ac1-1447-4242-899b-c79c885bd47f.jpeg": {
+      "category": "IP形象",
+      "subcategory": "水豚噜噜",
+      "filename": "6be95ac1-1447-4242-899b-c79c885bd47f.jpeg",
+      "createdAt": "2026-06-08T09:15:17.308Z",
+      "cdnTag": "v1.3.23",
+      "size": 1932146,
+      "format": "jpeg",
+      "resolution": {
+        "width": 3200,
+        "height": 1800,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "category": "IP形象",
+        "third": "水豚噜噜",
+        "subcategory": "水豚噜噜",
+        "filenameSuggestions": [
+          "云端漫游的微笑噜噜.jpg",
+          "乘坐热气球的幸福噜噜.jpg"
+        ],
+        "filenames": [
+          "云端漫游的微笑噜噜.jpg",
+          "乘坐热气球的幸福噜噜.jpg"
+        ],
+        "displayTitle": "云端漫游的微笑噜噜",
+        "keywords": [
+          "萌宠",
+          "热气球",
+          "噜噜"
+        ],
+        "description": "噜噜乘坐热气球在云端漫游，享受着美丽的风景。",
+        "confidence": 0.9,
+        "reasoning": "图片中出现了一个类似猪的卡通形象，且带有明显的Q版、拟人化特征，归类为萌宠/通用。同时，画面中出现了热气球和云朵，但并未具体到某一特定种类的萌宠，因此选择通用子类。"
+      }
+    },
+    "wallpaper/desktop/IP形象/水豚噜噜/80bc622f-b641-4bf5-a1f9-3b6cdfadfd6a.jpeg": {
+      "category": "IP形象",
+      "subcategory": "水豚噜噜",
+      "filename": "80bc622f-b641-4bf5-a1f9-3b6cdfadfd6a.jpeg",
+      "createdAt": "2026-06-08T09:15:17.308Z",
+      "cdnTag": "v1.3.23",
+      "size": 2397216,
+      "format": "jpeg",
+      "resolution": {
+        "width": 3200,
+        "height": 1800,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "category": "IP形象",
+        "third": "水豚噜噜",
+        "subcategory": "水豚噜噜",
+        "filenameSuggestions": [
+          "草原上的卡通噜噜.jpg",
+          "彩虹噜噜梦幻场景.jpg"
+        ],
+        "filenames": [
+          "草原上的卡通噜噜.jpg",
+          "彩虹噜噜梦幻场景.jpg"
+        ],
+        "displayTitle": "彩虹下的噜噜朋友",
+        "keywords": [
+          "卡通",
+          "噜噜",
+          "彩虹",
+          "花草"
+        ],
+        "description": "一只可爱的卡通噜噜躺在花田中，背后是美丽的彩虹。",
+        "confidence": 0.9,
+        "reasoning": "图片以卡通河马为主体，场景为花草和彩虹，不属于现有二级分类中的插画、动漫、风景、人像、通用、影视、游戏、政治、IP形象，故归类为萌宠/通用。"
+      }
+    },
+    "wallpaper/desktop/IP形象/水豚噜噜/image_水豚噜噜高清电脑桌面壁纸手机车机..._1-4k.png": {
+      "category": "IP形象",
+      "subcategory": "水豚噜噜",
+      "filename": "image_水豚噜噜高清电脑桌面壁纸手机车机..._1-4k.png",
+      "createdAt": "2026-06-08T09:15:17.308Z",
+      "cdnTag": "v1.3.23",
+      "size": 16230357,
+      "format": "png",
+      "resolution": {
+        "width": 7680,
+        "height": 4320,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "category": "IP形象",
+        "third": "水豚噜噜",
+        "subcategory": "水豚噜噜",
+        "filenameSuggestions": [
+          "梦幻房间里的憨态卡通噜噜.jpg",
+          "房间角落的快乐卡通形象.jpg"
+        ],
+        "filenames": [
+          "梦幻房间里的憨态卡通噜噜.jpg",
+          "房间角落的快乐卡通形象.jpg"
+        ],
+        "displayTitle": "梦幻房间里的憨态卡通噜噜",
+        "keywords": [
+          "卡通",
+          "噜噜",
+          "梦幻房间"
+        ],
+        "description": "房间里憨态可掬的卡通噜噜，周围是五彩斑斓的绘画作品。",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一个梦幻房间，房间内有一憨态的卡通河豚形象，墙上有许多风格相似的卡通绘画作品。根据决策树B2插画与动漫的判定，图片具有强烈的绘画感和卡通风格且非特定IP，故归类为插画/卡通。"
       }
     }
   }
