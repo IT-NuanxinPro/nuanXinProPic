@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 161,
+  "total": 162,
   "items": [
+    {
+      "date": "2026-06-11",
+      "title": "沉静的力量",
+      "copyright": "退潮时裸露在乌尔萨海滩海岸上的帽贝, 葡萄牙 (© Theo Bosboom/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%91%A1%E8%90%84%E7%89%99%E4%B9%8C%E5%B0%94%E8%90%A8%E6%B5%B7%E6%BB%A9&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260610_Limpets%22&FORM=HPQUIZ",
+      "hsh": "8decfbedfd8b4d8d5927fc0707260454",
+      "urlbase": "/th?id=OHR.Limpets_ZH-CN4991771513"
+    },
     {
       "date": "2026-06-10",
       "title": "一抹蓝色",
@@ -1452,5 +1461,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-06-09 19:14:46"
+  "updatedAt": "2026-06-10 19:39:49"
 }
