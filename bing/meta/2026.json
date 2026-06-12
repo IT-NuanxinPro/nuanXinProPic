@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 163,
+  "total": 164,
   "items": [
+    {
+      "date": "2026-06-13",
+      "title": "岁月的层峦",
+      "copyright": "落日，恶地国家公园，南达科他州，美国 (© Troy Harrison/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%81%B6%E5%9C%B0%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260612_BadSunset%22&FORM=HPQUIZ",
+      "hsh": "bf12af6a788b4374eb75b0a576f9b7a0",
+      "urlbase": "/th?id=OHR.BadSunset_ZH-CN9050997938"
+    },
     {
       "date": "2026-06-12",
       "title": "惊鸿一瞥",
@@ -1470,5 +1479,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-06-11 19:37:56"
+  "updatedAt": "2026-06-12 19:06:41"
 }
