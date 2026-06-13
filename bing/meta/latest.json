@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-06-12 19:06:41",
+  "generatedAt": "2026-06-13 18:08:56",
   "total": 7,
   "items": [
+    {
+      "date": "2026-06-14",
+      "title": "潜羽探清波",
+      "copyright": "绿头鸭 (© Philippe Paternolli/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%BB%BF%E5%A4%B4%E9%B8%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260613_DuckPond%22&FORM=HPQUIZ",
+      "hsh": "a2cf6fd7cf0233478012725fb5b7c610",
+      "urlbase": "/th?id=OHR.DuckPond_ZH-CN1683101997"
+    },
     {
       "date": "2026-06-13",
       "title": "岁月的层峦",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260607_Cyanea%22&FORM=HPQUIZ",
       "hsh": "ecf6633a13686783188e9f1a3960d01e",
       "urlbase": "/th?id=OHR.Cyanea_ZH-CN3858079050"
-    },
-    {
-      "date": "2026-06-07",
-      "title": "最后一堵墙矗立着",
-      "copyright": "邓塞弗里克城堡遗址, 安特里姆郡, 北爱尔兰 (© Krzysztof Rogalski/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E9%82%93%E5%A1%9E%E5%BC%97%E9%87%8C%E5%85%8B%E5%9F%8E%E5%A0%A1++&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260606_DunseverickCastle2026%22&FORM=HPQUIZ",
-      "hsh": "6ddd129f06e2cfb60ebf7e0e82edcb54",
-      "urlbase": "/th?id=OHR.DunseverickCastle2026_ZH-CN3036266326"
     }
   ]
 }
