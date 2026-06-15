@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 166,
+  "total": 167,
   "items": [
+    {
+      "date": "2026-06-16",
+      "title": "蔚蓝海礁的守护者",
+      "copyright": "七英里海滩附近的玳瑁海龟伴侣，大开曼岛，开曼群岛 (© Alex Mustard/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%B5%B7%E9%BE%9F%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260615_SevenMileTurtle%22&FORM=HPQUIZ",
+      "hsh": "9ee387a7e6da153b239862a768876cde",
+      "urlbase": "/th?id=OHR.SevenMileTurtle_ZH-CN4346512721"
+    },
     {
       "date": "2026-06-15",
       "title": "岁月雕琢，风景始成",
@@ -1497,5 +1506,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-06-14 18:14:12"
+  "updatedAt": "2026-06-15 20:27:28"
 }
