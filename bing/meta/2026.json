@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 168,
+  "total": 169,
   "items": [
+    {
+      "date": "2026-06-18",
+      "title": "坚如磐石的奇观",
+      "copyright": "萨克赛瓦曼遗址俯瞰图，库斯科，秘鲁 (© Creative-Family/Getty Images Plus)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%A7%98%E9%B2%81%E8%90%A8%E5%85%8B%E5%A1%9E%E5%8D%8E%E6%9B%BC&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260617_Saqsaywaman%22&FORM=HPQUIZ",
+      "hsh": "1af11bfb02f2265892aa166f39fb4c35",
+      "urlbase": "/th?id=OHR.Saqsaywaman_ZH-CN2584038469"
+    },
     {
       "date": "2026-06-17",
       "title": "蜿蜒而上",
@@ -1515,5 +1524,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-06-16 20:14:32"
+  "updatedAt": "2026-06-17 20:36:45"
 }
