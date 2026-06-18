@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 169,
+  "total": 170,
   "items": [
+    {
+      "date": "2026-06-19",
+      "title": "龙吟古韵",
+      "copyright": "湖中的龙舟，中国 (©  Zhonghui Bao/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%AB%AF%E5%8D%88%E8%8A%82&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260618_DragonBoatFestivalY26%22&FORM=HPQUIZ",
+      "hsh": "bdc5eebdc6dcf00bbeeefcb4144d54eb",
+      "urlbase": "/th?id=OHR.DragonBoatFestivalY26_ZH-CN3070279417"
+    },
     {
       "date": "2026-06-18",
       "title": "坚如磐石的奇观",
@@ -1524,5 +1533,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-06-17 20:36:45"
+  "updatedAt": "2026-06-18 19:29:58"
 }
