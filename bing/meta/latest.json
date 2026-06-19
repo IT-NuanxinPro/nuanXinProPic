@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-06-18 19:29:58",
+  "generatedAt": "2026-06-19 18:55:56",
   "total": 7,
   "items": [
+    {
+      "date": "2026-06-20",
+      "title": "海洋中冰封的大教堂",
+      "copyright": "漂浮在南极半岛西部海域的拱形冰山, 南大洋 (© Steven Kazlowski/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%86%B0%E5%B1%B1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260619_ArchedIceberg%22&FORM=HPQUIZ",
+      "hsh": "626556ae8a7c43c8db6642478c21b7b4",
+      "urlbase": "/th?id=OHR.ArchedIceberg_ZH-CN2698040371"
+    },
     {
       "date": "2026-06-19",
       "title": "龙吟古韵",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260613_DuckPond%22&FORM=HPQUIZ",
       "hsh": "a2cf6fd7cf0233478012725fb5b7c610",
       "urlbase": "/th?id=OHR.DuckPond_ZH-CN1683101997"
-    },
-    {
-      "date": "2026-06-13",
-      "title": "岁月的层峦",
-      "copyright": "落日，恶地国家公园，南达科他州，美国 (© Troy Harrison/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E6%81%B6%E5%9C%B0%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260612_BadSunset%22&FORM=HPQUIZ",
-      "hsh": "bf12af6a788b4374eb75b0a576f9b7a0",
-      "urlbase": "/th?id=OHR.BadSunset_ZH-CN9050997938"
     }
   ]
 }

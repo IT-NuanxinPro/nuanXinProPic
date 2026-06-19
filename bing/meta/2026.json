@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 170,
+  "total": 171,
   "items": [
+    {
+      "date": "2026-06-20",
+      "title": "海洋中冰封的大教堂",
+      "copyright": "漂浮在南极半岛西部海域的拱形冰山, 南大洋 (© Steven Kazlowski/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%86%B0%E5%B1%B1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260619_ArchedIceberg%22&FORM=HPQUIZ",
+      "hsh": "626556ae8a7c43c8db6642478c21b7b4",
+      "urlbase": "/th?id=OHR.ArchedIceberg_ZH-CN2698040371"
+    },
     {
       "date": "2026-06-19",
       "title": "龙吟古韵",
@@ -1533,5 +1542,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-06-18 19:29:58"
+  "updatedAt": "2026-06-19 18:55:55"
 }
