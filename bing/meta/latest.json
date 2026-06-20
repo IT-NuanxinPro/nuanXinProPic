@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-06-19 18:55:56",
+  "generatedAt": "2026-06-20 18:12:05",
   "total": 7,
   "items": [
+    {
+      "date": "2026-06-21",
+      "title": "鸟类好爸爸",
+      "copyright": "企鹅爸爸正在检查蛋的情况 (© McDonald Wildlife Photography Inc./Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%88%B6%E4%BA%B2%E8%8A%82&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260620_EggDad%22&FORM=HPQUIZ",
+      "hsh": "8c0046fe3016ee1fb579730a3079ee72",
+      "urlbase": "/th?id=OHR.EggDad_ZH-CN6045387630"
+    },
     {
       "date": "2026-06-20",
       "title": "海洋中冰封的大教堂",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260614_ParkEstd%22&FORM=HPQUIZ",
       "hsh": "ed734be8f459949c040bf05b4d33fcd3",
       "urlbase": "/th?id=OHR.ParkEstd_ZH-CN3419035151"
-    },
-    {
-      "date": "2026-06-14",
-      "title": "潜羽探清波",
-      "copyright": "绿头鸭 (© Philippe Paternolli/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E7%BB%BF%E5%A4%B4%E9%B8%AD&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260613_DuckPond%22&FORM=HPQUIZ",
-      "hsh": "a2cf6fd7cf0233478012725fb5b7c610",
-      "urlbase": "/th?id=OHR.DuckPond_ZH-CN1683101997"
     }
   ]
 }

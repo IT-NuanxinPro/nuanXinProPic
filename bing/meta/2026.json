@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 171,
+  "total": 172,
   "items": [
+    {
+      "date": "2026-06-21",
+      "title": "鸟类好爸爸",
+      "copyright": "企鹅爸爸正在检查蛋的情况 (© McDonald Wildlife Photography Inc./Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%88%B6%E4%BA%B2%E8%8A%82&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260620_EggDad%22&FORM=HPQUIZ",
+      "hsh": "8c0046fe3016ee1fb579730a3079ee72",
+      "urlbase": "/th?id=OHR.EggDad_ZH-CN6045387630"
+    },
     {
       "date": "2026-06-20",
       "title": "海洋中冰封的大教堂",
@@ -1542,5 +1551,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-06-19 18:55:55"
+  "updatedAt": "2026-06-20 18:12:05"
 }
