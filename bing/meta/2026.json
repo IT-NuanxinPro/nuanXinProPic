@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 172,
+  "total": 173,
   "items": [
+    {
+      "date": "2026-06-22",
+      "title": "一个郁郁葱葱的王国",
+      "copyright": "奎诺尔特雨林, 奥林匹克国家公园, 华盛顿州, 美国 (© Chris Moore/Tandem Stills + Motion)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E9%9B%A8%E6%9E%97%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260621_QuinaultFerns%22&FORM=HPQUIZ",
+      "hsh": "ca38d7053e41c9f40d5e0bd510ebf152",
+      "urlbase": "/th?id=OHR.QuinaultFerns_ZH-CN6696428927"
+    },
     {
       "date": "2026-06-21",
       "title": "鸟类好爸爸",
@@ -1551,5 +1560,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-06-20 18:12:05"
+  "updatedAt": "2026-06-21 18:21:49"
 }
