@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-06-21 18:21:49",
+  "generatedAt": "2026-06-22 20:10:48",
   "total": 7,
   "items": [
+    {
+      "date": "2026-06-23",
+      "title": "天际线上的印记",
+      "copyright": "本州岛上的富士山, 日本 (© phutthiseth thongtae/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%AF%8C%E5%A3%AB%E5%B1%B1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260622_Fujisan%22&FORM=HPQUIZ",
+      "hsh": "6b06bae5372406012a27a9185c430395",
+      "urlbase": "/th?id=OHR.Fujisan_ZH-CN7203975085"
+    },
     {
       "date": "2026-06-22",
       "title": "一个郁郁葱葱的王国",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260616_TremolaRoad%22&FORM=HPQUIZ",
       "hsh": "0b83ed4346a23d626a5d9cafe7091075",
       "urlbase": "/th?id=OHR.TremolaRoad_ZH-CN8810749250"
-    },
-    {
-      "date": "2026-06-16",
-      "title": "蔚蓝海礁的守护者",
-      "copyright": "七英里海滩附近的玳瑁海龟伴侣，大开曼岛，开曼群岛 (© Alex Mustard/Nature Picture Library)",
-      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%B5%B7%E9%BE%9F%E6%97%A5&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260615_SevenMileTurtle%22&FORM=HPQUIZ",
-      "hsh": "9ee387a7e6da153b239862a768876cde",
-      "urlbase": "/th?id=OHR.SevenMileTurtle_ZH-CN4346512721"
     }
   ]
 }
