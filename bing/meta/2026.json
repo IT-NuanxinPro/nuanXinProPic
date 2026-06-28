@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 179,
+  "total": 180,
   "items": [
+    {
+      "date": "2026-06-29",
+      "title": "生于烈火，拥于碧水",
+      "copyright": "波拉波拉岛及其泻湖, 南太平洋, 法属波利尼西亚 (© Frederick Millett/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E7%83%AD%E5%B8%A6%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260628_BoraBoraLagoon%22&FORM=HPQUIZ",
+      "hsh": "70b8afa9d4f99eb628cd672f73f9b199",
+      "urlbase": "/th?id=OHR.BoraBoraLagoon_ZH-CN9234363590"
+    },
     {
       "date": "2026-06-28",
       "title": "看起来很精神",
@@ -1614,5 +1623,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-06-27 18:03:50"
+  "updatedAt": "2026-06-28 18:06:04"
 }

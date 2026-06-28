@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-06-27 18:03:50",
+  "generatedAt": "2026-06-28 18:06:04",
   "total": 7,
   "items": [
+    {
+      "date": "2026-06-29",
+      "title": "生于烈火，拥于碧水",
+      "copyright": "波拉波拉岛及其泻湖, 南太平洋, 法属波利尼西亚 (© Frederick Millett/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E7%83%AD%E5%B8%A6%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260628_BoraBoraLagoon%22&FORM=HPQUIZ",
+      "hsh": "70b8afa9d4f99eb628cd672f73f9b199",
+      "urlbase": "/th?id=OHR.BoraBoraLagoon_ZH-CN9234363590"
+    },
     {
       "date": "2026-06-28",
       "title": "看起来很精神",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260622_Fujisan%22&FORM=HPQUIZ",
       "hsh": "6b06bae5372406012a27a9185c430395",
       "urlbase": "/th?id=OHR.Fujisan_ZH-CN7203975085"
-    },
-    {
-      "date": "2026-06-22",
-      "title": "一个郁郁葱葱的王国",
-      "copyright": "奎诺尔特雨林, 奥林匹克国家公园, 华盛顿州, 美国 (© Chris Moore/Tandem Stills + Motion)",
-      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E9%9B%A8%E6%9E%97%E6%97%A5&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260621_QuinaultFerns%22&FORM=HPQUIZ",
-      "hsh": "ca38d7053e41c9f40d5e0bd510ebf152",
-      "urlbase": "/th?id=OHR.QuinaultFerns_ZH-CN6696428927"
     }
   ]
 }
