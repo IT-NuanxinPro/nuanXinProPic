@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-06-28 18:06:04",
+  "generatedAt": "2026-06-29 19:04:41",
   "total": 7,
   "items": [
+    {
+      "date": "2026-06-30",
+      "title": "阴影被拉得修长之处",
+      "copyright": "马赛马拉国家保护区日落时分的长颈鹿, 肯尼亚 (© danm/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%A9%AC%E8%B5%9B%E9%A9%AC%E6%8B%89%E5%9B%BD%E5%AE%B6%E4%BF%9D%E6%8A%A4%E5%8C%BA&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260629_MasaiGiraffe%22&FORM=HPQUIZ",
+      "hsh": "aca70b7d55613edb6596e4ed418b03a4",
+      "urlbase": "/th?id=OHR.MasaiGiraffe_ZH-CN1665123897"
+    },
     {
       "date": "2026-06-29",
       "title": "生于烈火，拥于碧水",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260623_BFPollin%22&FORM=HPQUIZ",
       "hsh": "f81a80bb2aaf929ae31a0e4c16207c75",
       "urlbase": "/th?id=OHR.BFPollin_ZH-CN7654067396"
-    },
-    {
-      "date": "2026-06-23",
-      "title": "天际线上的印记",
-      "copyright": "本州岛上的富士山, 日本 (© phutthiseth thongtae/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%AF%8C%E5%A3%AB%E5%B1%B1&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260622_Fujisan%22&FORM=HPQUIZ",
-      "hsh": "6b06bae5372406012a27a9185c430395",
-      "urlbase": "/th?id=OHR.Fujisan_ZH-CN7203975085"
     }
   ]
 }
