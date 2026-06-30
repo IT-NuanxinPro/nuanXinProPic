@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 181,
+  "total": 182,
   "items": [
+    {
+      "date": "2026-07-01",
+      "title": "大西洋雕琢而成的加拿大",
+      "copyright": "地牢省立公园, 纽芬兰和拉布拉多省, 加拿大 (© Kaitlyn McLachlan/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9C%B0%E7%89%A2%E7%9C%81%E7%AB%8B%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260630_DungeonPark%22&FORM=HPQUIZ",
+      "hsh": "f62b9b3a63257a6066fec82f3c5eef25",
+      "urlbase": "/th?id=OHR.DungeonPark_ZH-CN9544093701"
+    },
     {
       "date": "2026-06-30",
       "title": "阴影被拉得修长之处",
@@ -1632,5 +1641,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-06-29 19:04:41"
+  "updatedAt": "2026-06-30 19:11:49"
 }
