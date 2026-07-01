@@ -1113,37 +1113,6 @@
         "analyzedAt": null
       }
     },
-    "wallpaper/video/social-cover/节日/国庆专属动态背景视频_朋友圈背景_我在这里告白祖国.mp4": {
-      "category": "social-cover",
-      "subcategory": "节日",
-      "filename": "国庆专属动态背景视频_朋友圈背景_我在这里告白祖国.mp4",
-      "createdAt": "2026-04-30 14:16:04",
-      "cdnTag": "v1.3.47",
-      "size": 4682621,
-      "format": "mp4",
-      "resolution": {
-        "width": 1920,
-        "height": 1080,
-        "label": "超清",
-        "type": "primary"
-      },
-      "duration": 7.8,
-      "mediaType": "video",
-      "usage": "social-cover",
-      "topic": "节日",
-      "ai": {
-        "keywords": [
-          "国庆专属动态背景视频",
-          "朋友圈背景",
-          "我在这里告白祖国"
-        ],
-        "description": "",
-        "displayTitle": "",
-        "confidence": 0,
-        "model": "filename-inference",
-        "analyzedAt": null
-      }
-    },
     "wallpaper/video/social-cover/节日/绚烂烟花_夜空绽放.mp4": {
       "category": "social-cover",
       "subcategory": "节日",
