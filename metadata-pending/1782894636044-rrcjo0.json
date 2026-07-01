@@ -1,0 +1,321 @@
+{
+  "version": 1,
+  "createdAt": "2026-07-01T08:30:36.044Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/花卉/壁纸-夏日-水面.png",
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "壁纸-夏日-水面.png",
+      "createdAt": "2026-07-01T08:30:36.044Z",
+      "size": 1371749,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "荷叶",
+          "荷塘",
+          "绿意",
+          "自然"
+        ],
+        "description": "荷叶在阳光下绿意盎然，倒影清晰可见。",
+        "filenameSuggestions": [
+          "阳光下的荷叶绿波.jpg",
+          "清新荷塘风光.jpg"
+        ],
+        "displayTitle": "夏日荷塘绿意盎然",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示荷叶和荷塘，符合风景/花卉的分类特征。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/花卉/图片-夏日-好看.png",
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "图片-夏日-好看.png",
+      "createdAt": "2026-07-01T08:30:36.044Z",
+      "size": 1886024,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "花卉",
+          "风景",
+          "蓝花"
+        ],
+        "description": "一辆蓝色自行车停靠在开满蓝花的树下，树后是白色墙壁。",
+        "filenameSuggestions": [
+          "蓝花树下的静谧时刻.jpg",
+          "白墙蓝花与单车.jpg"
+        ],
+        "displayTitle": "蓝花盛开的惬意时光",
+        "confidence": 0.9,
+        "reasoning": "图片以花卉和自然景观为主，蓝花树为主要视觉元素，根据规则C1，判定为[风景/花卉]"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/IP形象/水豚噜噜/3D卡通-动画角色.png",
+      "category": "IP形象",
+      "subcategory": "水豚噜噜",
+      "filename": "3D卡通-动画角色.png",
+      "createdAt": "2026-07-01T08:30:36.044Z",
+      "size": 868720,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "category": "IP形象",
+        "third": "水豚噜噜",
+        "subcategory": "水豚噜噜",
+        "filenameSuggestions": [
+          "可爱噜噜窥视户外风景.jpg",
+          "房间门后偷看的噜噜卡通形象.jpg"
+        ],
+        "filenames": [
+          "可爱噜噜窥视户外风景.jpg",
+          "房间门后偷看的噜噜卡通形象.jpg"
+        ],
+        "displayTitle": "窥探室外的好奇噜噜",
+        "keywords": [
+          "卡通",
+          "水豚噜噜",
+          "插画",
+          "好奇"
+        ],
+        "description": "卡通噜噜在门后窥视室外风景的场景。",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一只卡通河豚在门后窥视室外的场景，具有强烈的绘画感和卡通风格。根据决策树B2，图片具有典型的插画特征，且风格偏向卡通，因此归类为插画/卡通。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/城市/中国联通天津行销能力渗透测试报告-20260629(1).png",
+      "category": "风景",
+      "subcategory": "城市",
+      "filename": "中国联通天津行销能力渗透测试报告-20260629(1).png",
+      "createdAt": "2026-07-01T08:30:36.044Z",
+      "size": 2304220,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "城市",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "城市",
+        "keywords": [
+          "城市",
+          "秋天",
+          "黄叶",
+          "雨"
+        ],
+        "description": "城市夜晚的雨中，一片红色的枫叶在城市灯光下闪烁。",
+        "filenameSuggestions": [
+          "城市秋雨中的红叶.jpg",
+          "黄叶映衬的城市夜景.jpg"
+        ],
+        "displayTitle": "城市秋雨黄叶",
+        "confidence": 0.9,
+        "reasoning": "图片背景是城市夜景，前景是黄叶，根据规则C1，判定为风景/城市。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/影视/海绵宝宝/动画角色-搞怪-橙色.png",
+      "category": "影视",
+      "subcategory": "海绵宝宝",
+      "filename": "动画角色-搞怪-橙色.png",
+      "createdAt": "2026-07-01T08:30:36.044Z",
+      "size": 2795696,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "影视",
+        "category": "影视",
+        "third": "海绵宝宝",
+        "subcategory": "海绵宝宝",
+        "filenameSuggestions": [
+          "海绵宝宝与朋友们在海中.jpg",
+          "海中嬉戏的海绵宝宝群像.jpg"
+        ],
+        "filenames": [
+          "海绵宝宝与朋友们在海中.jpg",
+          "海中嬉戏的海绵宝宝群像.jpg"
+        ],
+        "displayTitle": "海绵宝宝与朋友们的海中趣事",
+        "keywords": [
+          "海绵宝宝",
+          "动漫",
+          "海洋",
+          "喜剧"
+        ],
+        "description": "海绵宝宝和他的朋友们在海洋中的快乐瞬间",
+        "confidence": 0.9,
+        "reasoning": "图片中角色出自海绵宝宝，具备典型的动漫风格和海洋背景，根据动漫决策树和现有分类体系，归类为动漫/影视，并建议新增三级分类动漫/海绵宝宝"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/斗破苍穹/image_斗破苍穹小医仙这个形态的最好看_..._5.png",
+      "category": "动漫",
+      "subcategory": "斗破苍穹",
+      "filename": "image_斗破苍穹小医仙这个形态的最好看_..._5.png",
+      "createdAt": "2026-07-01T08:30:36.044Z",
+      "size": 524965,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "斗破苍穹",
+        "subcategory": "斗破苍穹",
+        "filenameSuggestions": [
+          "身穿梦幻紫衣的微笑少女.jpg",
+          "卧室里的紫衣美丽少女.jpg"
+        ],
+        "filenames": [
+          "身穿梦幻紫衣的微笑少女.jpg",
+          "卧室里的紫衣美丽少女.jpg"
+        ],
+        "displayTitle": "梦幻紫衣少女",
+        "keywords": [
+          "紫色",
+          "小医仙",
+          "少女"
+        ],
+        "description": "一位身穿梦幻紫衣的少女坐在床上微笑，周围摆放着复古的电视和吉他。",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容和现有分类体系，图片中的少女具有明显的插画风格，穿着梦幻紫衣，带有紫色角状装饰，整体氛围梦幻唯美。图片不属于任何特定的二级分类下的三级分类，但可以归类为二级分类中的人像-插画类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/斗破苍穹/image_斗破苍穹小医仙这个形态的最好看_..._7.png",
+      "category": "动漫",
+      "subcategory": "斗破苍穹",
+      "filename": "image_斗破苍穹小医仙这个形态的最好看_..._7.png",
+      "createdAt": "2026-07-01T08:30:36.044Z",
+      "size": 397846,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "斗破苍穹",
+        "subcategory": "斗破苍穹",
+        "filenameSuggestions": [
+          "身穿紫色仙衣的长发少女.jpg",
+          "树影婆娑中舞动的梦幻少女.jpg"
+        ],
+        "filenames": [
+          "身穿紫色仙衣的长发少女.jpg",
+          "树影婆娑中舞动的梦幻少女.jpg"
+        ],
+        "displayTitle": "紫色仙幻下的少女低语",
+        "keywords": [
+          "氛围感",
+          "小医仙",
+          "紫色系",
+          "长发"
+        ],
+        "description": "一位身穿紫色仙衣的少女，置身于树影婆娑的自然环境中，散发着梦幻与神秘的气息。",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树 (Portrait Logic)，由于图片中少女未露脸且重光影意境，符合【氛围感】(Atmosphere)的特征，因此归入人像/氛围感。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/斗破苍穹/image_斗破苍穹小医仙这个形态的最好看_..._2.png",
+      "category": "动漫",
+      "subcategory": "斗破苍穹",
+      "filename": "image_斗破苍穹小医仙这个形态的最好看_..._2.png",
+      "createdAt": "2026-07-01T08:30:36.044Z",
+      "size": 536458,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "斗破苍穹",
+        "subcategory": "斗破苍穹",
+        "filenameSuggestions": [
+          "身穿紫色仙衣的户外少女.jpg",
+          "指尖轻触天空的梦幻少女.jpg"
+        ],
+        "filenames": [
+          "身穿紫色仙衣的户外少女.jpg",
+          "指尖轻触天空的梦幻少女.jpg"
+        ],
+        "displayTitle": "紫色仙衣少女的户外奇幻",
+        "keywords": [
+          "插画",
+          "国风",
+          "仙衣",
+          "小医仙"
+        ],
+        "description": "一位穿着紫色仙衣的少女在户外摆姿势，充满奇幻与梦幻感。",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树，图片中人物为插画风格，且具有国风仙衣元素，因此归入人像/插画。同时，考虑到其国风和仙衣特征，提出了三级分类新提案插画/国风。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/斗破苍穹/image_斗破苍穹小医仙这个形态的最好看_..._8.png",
+      "category": "动漫",
+      "subcategory": "斗破苍穹",
+      "filename": "image_斗破苍穹小医仙这个形态的最好看_..._8.png",
+      "createdAt": "2026-07-01T08:30:36.044Z",
+      "size": 254950,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "斗破苍穹",
+        "subcategory": "斗破苍穹",
+        "filenameSuggestions": [
+          "白色衣裙的长发女孩在车顶舞动.jpg",
+          "蓝天白车上的优雅舞者.jpg"
+        ],
+        "filenames": [
+          "白色衣裙的长发女孩在车顶舞动.jpg",
+          "蓝天白车上的优雅舞者.jpg"
+        ],
+        "displayTitle": "云端舞者",
+        "keywords": [
+          "氛围感",
+          "小医仙",
+          "白衣"
+        ],
+        "description": "一位长发女孩在白色的旧车顶上舞动，蓝天为幕，衣裙飘逸。",
+        "confidence": 0.9,
+        "reasoning": "图片中人物未露脸，但有明显的姿势和光影效果，符合【氛围感】的特征。"
+      }
+    }
+  ]
+}
