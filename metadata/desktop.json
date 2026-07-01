@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-06-30 19:12:12",
-  "count": 649,
+  "lastUpdated": "2026-07-01 08:32:34",
+  "count": 654,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -19487,6 +19487,198 @@
         "description": "房间里憨态可掬的卡通噜噜，周围是五彩斑斓的绘画作品。",
         "confidence": 0.9,
         "reasoning": "图片展示了一个梦幻房间，房间内有一憨态的卡通河豚形象，墙上有许多风格相似的卡通绘画作品。根据决策树B2插画与动漫的判定，图片具有强烈的绘画感和卡通风格且非特定IP，故归类为插画/卡通。"
+      }
+    },
+    "wallpaper/desktop/风景/花卉/壁纸-夏日-水面.png": {
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "壁纸-夏日-水面.png",
+      "createdAt": "2026-07-01T08:30:36.044Z",
+      "cdnTag": "v1.3.47",
+      "size": 1371749,
+      "format": "png",
+      "resolution": {
+        "width": 2732,
+        "height": 1534,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "荷叶",
+          "荷塘",
+          "绿意",
+          "自然"
+        ],
+        "description": "荷叶在阳光下绿意盎然，倒影清晰可见。",
+        "filenameSuggestions": [
+          "阳光下的荷叶绿波.jpg",
+          "清新荷塘风光.jpg"
+        ],
+        "displayTitle": "夏日荷塘绿意盎然",
+        "confidence": 0.9,
+        "reasoning": "图片主要展示荷叶和荷塘，符合风景/花卉的分类特征。"
+      }
+    },
+    "wallpaper/desktop/风景/花卉/图片-夏日-好看.png": {
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "图片-夏日-好看.png",
+      "createdAt": "2026-07-01T08:30:36.044Z",
+      "cdnTag": "v1.3.47",
+      "size": 1886024,
+      "format": "png",
+      "resolution": {
+        "width": 2732,
+        "height": 1534,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "花卉",
+          "风景",
+          "蓝花"
+        ],
+        "description": "一辆蓝色自行车停靠在开满蓝花的树下，树后是白色墙壁。",
+        "filenameSuggestions": [
+          "蓝花树下的静谧时刻.jpg",
+          "白墙蓝花与单车.jpg"
+        ],
+        "displayTitle": "蓝花盛开的惬意时光",
+        "confidence": 0.9,
+        "reasoning": "图片以花卉和自然景观为主，蓝花树为主要视觉元素，根据规则C1，判定为[风景/花卉]"
+      }
+    },
+    "wallpaper/desktop/IP形象/水豚噜噜/3D卡通-动画角色.png": {
+      "category": "IP形象",
+      "subcategory": "水豚噜噜",
+      "filename": "3D卡通-动画角色.png",
+      "createdAt": "2026-07-01T08:30:36.044Z",
+      "cdnTag": "v1.3.47",
+      "size": 868720,
+      "format": "png",
+      "resolution": {
+        "width": 4720,
+        "height": 2638,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "category": "IP形象",
+        "third": "水豚噜噜",
+        "subcategory": "水豚噜噜",
+        "filenameSuggestions": [
+          "可爱噜噜窥视户外风景.jpg",
+          "房间门后偷看的噜噜卡通形象.jpg"
+        ],
+        "filenames": [
+          "可爱噜噜窥视户外风景.jpg",
+          "房间门后偷看的噜噜卡通形象.jpg"
+        ],
+        "displayTitle": "窥探室外的好奇噜噜",
+        "keywords": [
+          "卡通",
+          "水豚噜噜",
+          "插画",
+          "好奇"
+        ],
+        "description": "卡通噜噜在门后窥视室外风景的场景。",
+        "confidence": 0.9,
+        "reasoning": "图片展示了一只卡通河豚在门后窥视室外的场景，具有强烈的绘画感和卡通风格。根据决策树B2，图片具有典型的插画特征，且风格偏向卡通，因此归类为插画/卡通。"
+      }
+    },
+    "wallpaper/desktop/风景/城市/中国联通天津行销能力渗透测试报告-20260629(1).png": {
+      "category": "风景",
+      "subcategory": "城市",
+      "filename": "中国联通天津行销能力渗透测试报告-20260629(1).png",
+      "createdAt": "2026-07-01T08:30:36.044Z",
+      "cdnTag": "v1.3.47",
+      "size": 2304220,
+      "format": "png",
+      "resolution": {
+        "width": 2912,
+        "height": 1632,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "城市",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "城市",
+        "keywords": [
+          "城市",
+          "秋天",
+          "黄叶",
+          "雨"
+        ],
+        "description": "城市夜晚的雨中，一片红色的枫叶在城市灯光下闪烁。",
+        "filenameSuggestions": [
+          "城市秋雨中的红叶.jpg",
+          "黄叶映衬的城市夜景.jpg"
+        ],
+        "displayTitle": "城市秋雨黄叶",
+        "confidence": 0.9,
+        "reasoning": "图片背景是城市夜景，前景是黄叶，根据规则C1，判定为风景/城市。"
+      }
+    },
+    "wallpaper/desktop/影视/海绵宝宝/动画角色-搞怪-橙色.png": {
+      "category": "影视",
+      "subcategory": "海绵宝宝",
+      "filename": "动画角色-搞怪-橙色.png",
+      "createdAt": "2026-07-01T08:30:36.044Z",
+      "cdnTag": "v1.3.47",
+      "size": 2795696,
+      "format": "png",
+      "resolution": {
+        "width": 4552,
+        "height": 2560,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "影视",
+        "category": "影视",
+        "third": "海绵宝宝",
+        "subcategory": "海绵宝宝",
+        "filenameSuggestions": [
+          "海绵宝宝与朋友们在海中.jpg",
+          "海中嬉戏的海绵宝宝群像.jpg"
+        ],
+        "filenames": [
+          "海绵宝宝与朋友们在海中.jpg",
+          "海中嬉戏的海绵宝宝群像.jpg"
+        ],
+        "displayTitle": "海绵宝宝与朋友们的海中趣事",
+        "keywords": [
+          "海绵宝宝",
+          "动漫",
+          "海洋",
+          "喜剧"
+        ],
+        "description": "海绵宝宝和他的朋友们在海洋中的快乐瞬间",
+        "confidence": 0.9,
+        "reasoning": "图片中角色出自海绵宝宝，具备典型的动漫风格和海洋背景，根据动漫决策树和现有分类体系，归类为动漫/影视，并建议新增三级分类动漫/海绵宝宝"
       }
     }
   }
