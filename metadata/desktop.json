@@ -1,7 +1,7 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-07-01 08:46:39",
+  "lastUpdated": "2026-07-01 17:51:48",
   "count": 660,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
@@ -19686,15 +19686,12 @@
       "subcategory": "清新",
       "filename": "图片-好看-室内.png",
       "createdAt": "2026-07-01T08:42:50.744Z",
-      "cdnTag": "v1.3.48",
+      "cdnTag": "v1782899506685",
       "size": 850951,
       "format": "png",
-      "resolution": {
-        "width": 2732,
-        "height": 1534,
-        "label": "2K",
-        "type": "info"
-      },
+      "resolution": null,
+      "duration": null,
+      "mediaType": "image",
       "ai": {
         "series": "desktop",
         "category": "人像",

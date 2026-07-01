@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "video",
-  "lastUpdated": "2026-06-30 19:12:12",
-  "count": 8,
+  "lastUpdated": "2026-07-01 17:51:48",
+  "count": 49,
   "images": {
     "wallpaper/video/desktop/IP形象/HelloKitty_秋日秋千.mp4": {
       "category": "desktop",
@@ -237,6 +237,1235 @@
           "国庆专属动态背景视频",
           "朋友圈背景",
           "我在这里告白祖国"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/IP形象/蜡笔小新_树屋吊床.mp4": {
+      "category": "social-cover",
+      "subcategory": "IP形象",
+      "filename": "蜡笔小新_树屋吊床.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 2127368,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 19.1,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "IP形象",
+      "ai": {
+        "keywords": [
+          "蜡笔小新",
+          "树屋吊床"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/IP形象/蜡笔小新_神社祈福.mp4": {
+      "category": "social-cover",
+      "subcategory": "IP形象",
+      "filename": "蜡笔小新_神社祈福.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 643722,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 3.9,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "IP形象",
+      "ai": {
+        "keywords": [
+          "蜡笔小新",
+          "神社祈福"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/IP形象/蜡笔小新_绣球花午睡.mp4": {
+      "category": "social-cover",
+      "subcategory": "IP形象",
+      "filename": "蜡笔小新_绣球花午睡.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 2008091,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 10.1,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "IP形象",
+      "ai": {
+        "keywords": [
+          "蜡笔小新",
+          "绣球花午睡"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/创意/天空花海_蝴蝶飞舞.mp4": {
+      "category": "social-cover",
+      "subcategory": "创意",
+      "filename": "天空花海_蝴蝶飞舞.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 1057849,
+      "format": "mp4",
+      "resolution": {
+        "width": 1270,
+        "height": 720,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "duration": 5.9,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "创意",
+      "ai": {
+        "keywords": [
+          "天空花海",
+          "蝴蝶飞舞"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/创意/极简留白.mp4": {
+      "category": "social-cover",
+      "subcategory": "创意",
+      "filename": "极简留白.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 588154,
+      "format": "mp4",
+      "resolution": {
+        "width": 1028,
+        "height": 720,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "duration": 11.7,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "创意",
+      "ai": {
+        "keywords": [
+          "极简留白"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/创意/飘雪夜空.mp4": {
+      "category": "social-cover",
+      "subcategory": "创意",
+      "filename": "飘雪夜空.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 6873190,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 12.5,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "创意",
+      "ai": {
+        "keywords": [
+          "飘雪夜空"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/动漫/异色瞳少女_梦幻眼眸.mp4": {
+      "category": "social-cover",
+      "subcategory": "动漫",
+      "filename": "异色瞳少女_梦幻眼眸.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 1234923,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 10.1,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "动漫",
+      "ai": {
+        "keywords": [
+          "异色瞳少女",
+          "梦幻眼眸"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/动漫/柯南小兰_默契手势.mp4": {
+      "category": "social-cover",
+      "subcategory": "动漫",
+      "filename": "柯南小兰_默契手势.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 964929,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 10.1,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "动漫",
+      "ai": {
+        "keywords": [
+          "柯南小兰",
+          "默契手势"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/动漫/紫瞳少女_剑光特效.mp4": {
+      "category": "social-cover",
+      "subcategory": "动漫",
+      "filename": "紫瞳少女_剑光特效.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 1020649,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 5.1,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "动漫",
+      "ai": {
+        "keywords": [
+          "紫瞳少女",
+          "剑光特效"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/动漫/线条少年_携猫漫步.mp4": {
+      "category": "social-cover",
+      "subcategory": "动漫",
+      "filename": "线条少年_携猫漫步.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 657114,
+      "format": "mp4",
+      "resolution": {
+        "width": 1288,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 5.2,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "动漫",
+      "ai": {
+        "keywords": [
+          "线条少年",
+          "携猫漫步"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/动漫/飞翔少年_山野逐梦.mp4": {
+      "category": "social-cover",
+      "subcategory": "动漫",
+      "filename": "飞翔少年_山野逐梦.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 1925107,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 10.6,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "动漫",
+      "ai": {
+        "keywords": [
+          "飞翔少年",
+          "山野逐梦"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/国风/红枫庭院_秋日黄昏.mp4": {
+      "category": "social-cover",
+      "subcategory": "国风",
+      "filename": "红枫庭院_秋日黄昏.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 11327775,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 23.6,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "国风",
+      "ai": {
+        "keywords": [
+          "红枫庭院",
+          "秋日黄昏"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/夜景/星空摩天轮_浪漫夜色.mp4": {
+      "category": "social-cover",
+      "subcategory": "夜景",
+      "filename": "星空摩天轮_浪漫夜色.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 2738663,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 7.5,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "夜景",
+      "ai": {
+        "keywords": [
+          "星空摩天轮",
+          "浪漫夜色"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/夜景/树影星河_银河仰拍.mp4": {
+      "category": "social-cover",
+      "subcategory": "夜景",
+      "filename": "树影星河_银河仰拍.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 2936265,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 8.1,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "夜景",
+      "ai": {
+        "keywords": [
+          "树影星河",
+          "银河仰拍"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/夜景/海上列车_暮色黄昏.mp4": {
+      "category": "social-cover",
+      "subcategory": "夜景",
+      "filename": "海上列车_暮色黄昏.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 907097,
+      "format": "mp4",
+      "resolution": {
+        "width": 1250,
+        "height": 720,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "duration": 4.9,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "夜景",
+      "ai": {
+        "keywords": [
+          "海上列车",
+          "暮色黄昏"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/海洋/玫瑰花拱_海天一色.mp4": {
+      "category": "social-cover",
+      "subcategory": "海洋",
+      "filename": "玫瑰花拱_海天一色.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 760976,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 4.7,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "海洋",
+      "ai": {
+        "keywords": [
+          "玫瑰花拱",
+          "海天一色"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/海洋/航行碧海_海鸥伴飞.mp4": {
+      "category": "social-cover",
+      "subcategory": "海洋",
+      "filename": "航行碧海_海鸥伴飞.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 887567,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 3.7,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "海洋",
+      "ai": {
+        "keywords": [
+          "航行碧海",
+          "海鸥伴飞"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/自然/古树参天_野花草甸.mp4": {
+      "category": "social-cover",
+      "subcategory": "自然",
+      "filename": "古树参天_野花草甸.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 2903526,
+      "format": "mp4",
+      "resolution": {
+        "width": 1100,
+        "height": 720,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "duration": 7.5,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "自然",
+      "ai": {
+        "keywords": [
+          "古树参天",
+          "野花草甸"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/自然/富士山夕照_玫瑰花园.mp4": {
+      "category": "social-cover",
+      "subcategory": "自然",
+      "filename": "富士山夕照_玫瑰花园.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 982104,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 5.1,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "自然",
+      "ai": {
+        "keywords": [
+          "富士山夕照",
+          "玫瑰花园"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/自然/山涧清溪_绿林穿行.mp4": {
+      "category": "social-cover",
+      "subcategory": "自然",
+      "filename": "山涧清溪_绿林穿行.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 3293128,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 7.7,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "自然",
+      "ai": {
+        "keywords": [
+          "山涧清溪",
+          "绿林穿行"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/自然/拾阶而上_林间光束.mp4": {
+      "category": "social-cover",
+      "subcategory": "自然",
+      "filename": "拾阶而上_林间光束.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 1136399,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 6.8,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "自然",
+      "ai": {
+        "keywords": [
+          "拾阶而上",
+          "林间光束"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/自然/星空森林_超级月亮.mp4": {
+      "category": "social-cover",
+      "subcategory": "自然",
+      "filename": "星空森林_超级月亮.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 855507,
+      "format": "mp4",
+      "resolution": {
+        "width": 1152,
+        "height": 720,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "duration": 8,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "自然",
+      "ai": {
+        "keywords": [
+          "星空森林",
+          "超级月亮"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/自然/柳岸湖光_飞鸟掠影.mp4": {
+      "category": "social-cover",
+      "subcategory": "自然",
+      "filename": "柳岸湖光_飞鸟掠影.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 4620563,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 9,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "自然",
+      "ai": {
+        "keywords": [
+          "柳岸湖光",
+          "飞鸟掠影"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/自然/海边列车_白玫瑰花海.mp4": {
+      "category": "social-cover",
+      "subcategory": "自然",
+      "filename": "海边列车_白玫瑰花海.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 2228271,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 5.2,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "自然",
+      "ai": {
+        "keywords": [
+          "海边列车",
+          "白玫瑰花海"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/自然/湖畔长椅_碧水青山.mp4": {
+      "category": "social-cover",
+      "subcategory": "自然",
+      "filename": "湖畔长椅_碧水青山.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 7063456,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 16.3,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "自然",
+      "ai": {
+        "keywords": [
+          "湖畔长椅",
+          "碧水青山"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/自然/玫瑰天窗_飞机划过.mp4": {
+      "category": "social-cover",
+      "subcategory": "自然",
+      "filename": "玫瑰天窗_飞机划过.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 1623611,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 6.5,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "自然",
+      "ai": {
+        "keywords": [
+          "玫瑰天窗",
+          "飞机划过"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/自然/花架仰望_蓝天大树.mp4": {
+      "category": "social-cover",
+      "subcategory": "自然",
+      "filename": "花架仰望_蓝天大树.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 2404664,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 5.9,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "自然",
+      "ai": {
+        "keywords": [
+          "花架仰望",
+          "蓝天大树"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/自然/花海列车_蓝天白云.mp4": {
+      "category": "social-cover",
+      "subcategory": "自然",
+      "filename": "花海列车_蓝天白云.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 1695922,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 6.3,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "自然",
+      "ai": {
+        "keywords": [
+          "花海列车",
+          "蓝天白云"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/自然/车窗海景_玫瑰夕阳.mp4": {
+      "category": "social-cover",
+      "subcategory": "自然",
+      "filename": "车窗海景_玫瑰夕阳.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 775946,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 5.1,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "自然",
+      "ai": {
+        "keywords": [
+          "车窗海景",
+          "玫瑰夕阳"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/节日/国庆专属动态背景视频_朋友圈背景_我在这里告白祖国.mp4": {
+      "category": "social-cover",
+      "subcategory": "节日",
+      "filename": "国庆专属动态背景视频_朋友圈背景_我在这里告白祖国.mp4",
+      "createdAt": "2026-04-30 14:16:04",
+      "cdnTag": "v1.3.47",
+      "size": 4682621,
+      "format": "mp4",
+      "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "超清",
+        "type": "primary"
+      },
+      "duration": 7.8,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "节日",
+      "ai": {
+        "keywords": [
+          "国庆专属动态背景视频",
+          "朋友圈背景",
+          "我在这里告白祖国"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/节日/绚烂烟花_夜空绽放.mp4": {
+      "category": "social-cover",
+      "subcategory": "节日",
+      "filename": "绚烂烟花_夜空绽放.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 6666698,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 22.9,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "节日",
+      "ai": {
+        "keywords": [
+          "绚烂烟花",
+          "夜空绽放"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/花卉/夜色玫瑰_露珠微光.mp4": {
+      "category": "social-cover",
+      "subcategory": "花卉",
+      "filename": "夜色玫瑰_露珠微光.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 1182985,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 7.7,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "花卉",
+      "ai": {
+        "keywords": [
+          "夜色玫瑰",
+          "露珠微光"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/花卉/彩色玫瑰_镜面倒影.mp4": {
+      "category": "social-cover",
+      "subcategory": "花卉",
+      "filename": "彩色玫瑰_镜面倒影.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 1412497,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 5.8,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "花卉",
+      "ai": {
+        "keywords": [
+          "彩色玫瑰",
+          "镜面倒影"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/花卉/星光野花_暗夜绽放.mp4": {
+      "category": "social-cover",
+      "subcategory": "花卉",
+      "filename": "星光野花_暗夜绽放.mp4",
+      "createdAt": "2026-07-01 17:22:14",
+      "cdnTag": "v1.3.47",
+      "size": 993942,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 7.1,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "花卉",
+      "ai": {
+        "keywords": [
+          "星光野花",
+          "暗夜绽放"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/花卉/栀子花露_星夜黑白.mp4": {
+      "category": "social-cover",
+      "subcategory": "花卉",
+      "filename": "栀子花露_星夜黑白.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 3829542,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 19.4,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "花卉",
+      "ai": {
+        "keywords": [
+          "栀子花露",
+          "星夜黑白"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/花卉/樱花盛放_春日阳光.mp4": {
+      "category": "social-cover",
+      "subcategory": "花卉",
+      "filename": "樱花盛放_春日阳光.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 1895501,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 7.9,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "花卉",
+      "ai": {
+        "keywords": [
+          "樱花盛放",
+          "春日阳光"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/花卉/白花飘落_黑白意境.mp4": {
+      "category": "social-cover",
+      "subcategory": "花卉",
+      "filename": "白花飘落_黑白意境.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 2673694,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 9.6,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "花卉",
+      "ai": {
+        "keywords": [
+          "白花飘落",
+          "黑白意境"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/花卉/花瓣漂浮_水面倒影.mp4": {
+      "category": "social-cover",
+      "subcategory": "花卉",
+      "filename": "花瓣漂浮_水面倒影.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 2258340,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 8.6,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "花卉",
+      "ai": {
+        "keywords": [
+          "花瓣漂浮",
+          "水面倒影"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/花卉/蓝色绣球_梦幻花海.mp4": {
+      "category": "social-cover",
+      "subcategory": "花卉",
+      "filename": "蓝色绣球_梦幻花海.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 350820,
+      "format": "mp4",
+      "resolution": {
+        "width": 1280,
+        "height": 720,
+        "label": "高清",
+        "type": "secondary"
+      },
+      "duration": 4,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "花卉",
+      "ai": {
+        "keywords": [
+          "蓝色绣球",
+          "梦幻花海"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/萌宠/双猫对视_雪地初遇.mp4": {
+      "category": "social-cover",
+      "subcategory": "萌宠",
+      "filename": "双猫对视_雪地初遇.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 288938,
+      "format": "mp4",
+      "resolution": {
+        "width": 1098,
+        "height": 720,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "duration": 3.9,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "萌宠",
+      "ai": {
+        "keywords": [
+          "双猫对视",
+          "雪地初遇"
+        ],
+        "description": "",
+        "displayTitle": "",
+        "confidence": 0,
+        "model": "filename-inference",
+        "analyzedAt": null
+      }
+    },
+    "wallpaper/video/social-cover/萌宠/双猫赏雪_依偎看雪.mp4": {
+      "category": "social-cover",
+      "subcategory": "萌宠",
+      "filename": "双猫赏雪_依偎看雪.mp4",
+      "createdAt": "2026-07-01 17:22:13",
+      "cdnTag": "v1.3.47",
+      "size": 446568,
+      "format": "mp4",
+      "resolution": {
+        "width": 708,
+        "height": 758,
+        "label": "标清",
+        "type": "secondary"
+      },
+      "duration": 4,
+      "mediaType": "video",
+      "usage": "social-cover",
+      "topic": "萌宠",
+      "ai": {
+        "keywords": [
+          "双猫赏雪",
+          "依偎看雪"
         ],
         "description": "",
         "displayTitle": "",

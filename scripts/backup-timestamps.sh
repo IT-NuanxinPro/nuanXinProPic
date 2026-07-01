@@ -117,9 +117,10 @@ count=0
 series_count_desktop=0
 series_count_mobile=0
 series_count_avatar=0
+series_count_video=0
 
-# 遍历三个系列
-for series in desktop mobile avatar; do
+# 遍历四个系列 (desktop/mobile/avatar/video)
+for series in desktop mobile avatar video; do
     series_dir="$WALLPAPER_DIR/$series"
 
     if [ ! -d "$series_dir" ]; then
@@ -179,6 +180,7 @@ for series in desktop mobile avatar; do
             desktop) series_count_desktop=$((series_count_desktop + 1)) ;;
             mobile) series_count_mobile=$((series_count_mobile + 1)) ;;
             avatar) series_count_avatar=$((series_count_avatar + 1)) ;;
+            video) series_count_video=$((series_count_video + 1)) ;;
         esac
 
     done < <(find "$series_dir" -type f \( \
@@ -186,7 +188,11 @@ for series in desktop mobile avatar; do
         -iname "*.jpeg" -o \
         -iname "*.png" -o \
         -iname "*.gif" -o \
-        -iname "*.webp" \
+        -iname "*.webp" -o \
+        -iname "*.mp4" -o \
+        -iname "*.webm" -o \
+        -iname "*.mov" -o \
+        -iname "*.m4v" \
     \) | sort)
 
     echo "   找到 $series_files 个文件"
@@ -214,6 +220,7 @@ echo "========================================"
 echo "Desktop: $series_count_desktop 个文件"
 echo "Mobile:  $series_count_mobile 个文件"
 echo "Avatar:  $series_count_avatar 个文件"
+echo "Video:   $series_count_video 个文件"
 echo "总计:    $count 个文件"
 echo ""
 echo "备份文件: $BACKUP_FILE"
