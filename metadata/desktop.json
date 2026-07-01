@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-07-01 08:32:34",
-  "count": 654,
+  "lastUpdated": "2026-07-01 08:46:39",
+  "count": 660,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -19679,6 +19679,223 @@
         "description": "海绵宝宝和他的朋友们在海洋中的快乐瞬间",
         "confidence": 0.9,
         "reasoning": "图片中角色出自海绵宝宝，具备典型的动漫风格和海洋背景，根据动漫决策树和现有分类体系，归类为动漫/影视，并建议新增三级分类动漫/海绵宝宝"
+      }
+    },
+    "wallpaper/desktop/人像/清新/图片-好看-室内.png": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "图片-好看-室内.png",
+      "createdAt": "2026-07-01T08:42:50.744Z",
+      "cdnTag": "v1.3.48",
+      "size": 850951,
+      "format": "png",
+      "resolution": {
+        "width": 2732,
+        "height": 1534,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "少女",
+          "微笑"
+        ],
+        "description": "一位穿着黄色上衣的长发少女，坐在咖啡馆中微笑。",
+        "filenameSuggestions": [
+          "甜美微笑的年轻女孩.jpg",
+          "黄色连衣裙的清新少女.jpg"
+        ],
+        "displayTitle": "清新少女的微笑",
+        "confidence": 0.9,
+        "reasoning": "图片为一位清新、甜美的年轻女性，符合人像/清新分类的特征。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/中式建筑-二次元美女.png": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "中式建筑-二次元美女.png",
+      "createdAt": "2026-07-01T08:42:50.744Z",
+      "cdnTag": "v1.3.48",
+      "size": 2026360,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风",
+          "插画",
+          "古典美女"
+        ],
+        "description": "一位穿着白色旗袍的古典美女，手持扇子，站在窗前，周围是绿植和传统家具。",
+        "filenameSuggestions": [
+          "身穿白色旗袍的古典仕女.jpg",
+          "手持扇子的中国风美女.jpg"
+        ],
+        "displayTitle": "窗前仕女图",
+        "confidence": 0.9,
+        "reasoning": "图片以一位穿着白色旗袍的古典美女为主体，背景是传统中国风格的室内和室外景色。根据决策树B2，图片具有明显的国风元素，因此判定为插画/国风。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/jk制服-JK背影.png": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "jk制服-JK背影.png",
+      "createdAt": "2026-07-01T08:42:50.744Z",
+      "cdnTag": "v1.3.48",
+      "size": 1530291,
+      "format": "png",
+      "resolution": {
+        "width": 4000,
+        "height": 2250,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "人像",
+          "海边"
+        ],
+        "description": "海边少女与飞鸥，氛围感十足",
+        "filenameSuggestions": [
+          "海边背影少女与飞鸥.jpg",
+          "飞鸥环绕的海岸风光.jpg"
+        ],
+        "displayTitle": "海边少女与飞鸥",
+        "confidence": 0.9,
+        "reasoning": "图片以人物背影为主，展现海边景色与飞鸥，符合氛围感人像的特征"
+      }
+    },
+    "wallpaper/desktop/风景/雪山/4K画质-冬季-夜空.png": {
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "4K画质-冬季-夜空.png",
+      "createdAt": "2026-07-01T08:42:50.744Z",
+      "cdnTag": "v1.3.48",
+      "size": 4714634,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "雪山",
+          "月光",
+          "夜景",
+          "树林"
+        ],
+        "description": "月光下的雪林夜景，树木被雪覆盖，显得格外宁静和美丽。",
+        "filenameSuggestions": [
+          "月光下的雪林夜景.jpg",
+          "雪覆盖的树林在月光下的宁静夜晚.jpg"
+        ],
+        "displayTitle": "月光下的雪林夜景",
+        "confidence": 0.9,
+        "reasoning": "图片展示了雪覆盖的树林在月光下的夜景，根据规则C1，判定为风景/雪山。"
+      }
+    },
+    "wallpaper/desktop/人像/清新/休闲-夏季戏水-夏日.png": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "休闲-夏季戏水-夏日.png",
+      "createdAt": "2026-07-01T08:42:50.744Z",
+      "cdnTag": "v1.3.48",
+      "size": 1510123,
+      "format": "png",
+      "resolution": {
+        "width": 4000,
+        "height": 2250,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "少女",
+          "泳池"
+        ],
+        "description": "一个清新少女在泳池中玩耍的场景。",
+        "filenameSuggestions": [
+          "水中的少女玩耍.jpg",
+          "清新少女在泳池.jpg"
+        ],
+        "displayTitle": "夏日清凉",
+        "confidence": 0.9,
+        "reasoning": "图片中是一位年轻的女性，在泳池中玩水，表情甜美，整体氛围明亮清新。根据人像分类决策树，图片符合【清新】(Fresh)的特征：明亮、治愈、氧气感。 "
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/侧脸-光影-图片.png": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "侧脸-光影-图片.png",
+      "createdAt": "2026-07-01T08:42:50.744Z",
+      "cdnTag": "v1.3.48",
+      "size": 1366104,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "人像",
+          "氛围感",
+          "暗黑风格"
+        ],
+        "description": "一个沉思的女子在暗影中展现出独特的魅力。",
+        "filenameSuggestions": [
+          "暗影中的沉思.jpg",
+          "光影交错的美丽瞬间.jpg"
+        ],
+        "displayTitle": "暗影中的沉思",
+        "confidence": 0.9,
+        "reasoning": "图片为一位女性的肖像，强调光影效果和氛围感，根据人像分类决策树，判定为[人像/氛围感]"
       }
     }
   }

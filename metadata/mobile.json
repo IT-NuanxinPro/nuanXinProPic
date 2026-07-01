@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "mobile",
-  "lastUpdated": "2026-07-01 08:32:34",
-  "count": 801,
+  "lastUpdated": "2026-07-01 08:46:39",
+  "count": 804,
   "images": {
     "wallpaper/mobile/IP形象/乌萨奇/乌萨奇&小八&小熊_睡衣裹被贴贴.png": {
       "category": "IP形象",
@@ -25605,6 +25605,115 @@
         "description": "一位长发女孩在白色的旧车顶上舞动，蓝天为幕，衣裙飘逸。",
         "confidence": 0.9,
         "reasoning": "图片中人物未露脸，但有明显的姿势和光影效果，符合【氛围感】的特征。"
+      }
+    },
+    "wallpaper/mobile/人像/氛围感/光影-白衣-真人美女.png": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "光影-白衣-真人美女.png",
+      "createdAt": "2026-07-01T08:42:50.744Z",
+      "cdnTag": "v1.3.48",
+      "size": 351817,
+      "format": "png",
+      "resolution": {
+        "width": 988,
+        "height": 1933,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "人像",
+          "长发",
+          "光影"
+        ],
+        "description": "长发少女在光影中沉思。",
+        "filenameSuggestions": [
+          "微风拂面的长发少女.jpg",
+          "阳光下的沉思者.jpg"
+        ],
+        "displayTitle": "光影中的沉思",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A. 人像分类决策树中的【氛围感】(Atmosphere)特征：不露脸（背影/遮挡/模糊）、重光影意境、看不清具体五官，判定为[氛围感]。"
+      }
+    },
+    "wallpaper/mobile/插画/氛围感/动漫-励志-夕阳.png": {
+      "category": "插画",
+      "subcategory": "氛围感",
+      "filename": "动漫-励志-夕阳.png",
+      "createdAt": "2026-07-01T08:42:50.744Z",
+      "cdnTag": "v1.3.48",
+      "size": 1523231,
+      "format": "png",
+      "resolution": {
+        "width": 1320,
+        "height": 2868,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "氛围感",
+        "keywords": [
+          "插画",
+          "氛围感",
+          "风景"
+        ],
+        "description": "夕阳下的山坡上，少年沉思人生。",
+        "filenameSuggestions": [
+          "日暮沉思的少年.jpg",
+          "人生不逾三万天的风景.jpg"
+        ],
+        "displayTitle": "日暮下的哲思",
+        "confidence": 0.9,
+        "reasoning": "图片具有插画风格，展现了自然风景和人物，氛围感强烈。根据决策树B2，图片绘画感强且非动画截图感，归入插画类；根据插画的三级分类规则，图片更倾向于氛围感。"
+      }
+    },
+    "wallpaper/mobile/人像/氛围感/御姐-手机高清.png": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "御姐-手机高清.png",
+      "createdAt": "2026-07-01T08:42:50.744Z",
+      "cdnTag": "v1.3.48",
+      "size": 293363,
+      "format": "png",
+      "resolution": {
+        "width": 1024,
+        "height": 2218,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "低调光影",
+          "长发"
+        ],
+        "description": "光影交错下少女沉思的表情，氛围感十足。",
+        "filenameSuggestions": [
+          "光影交错下的长发女孩.jpg",
+          "黑夜中的低头沉思少女.jpg"
+        ],
+        "displayTitle": "暗影中的神秘少女",
+        "confidence": 0.9,
+        "reasoning": "图片中少女面部部分被阴影遮挡，仅有部分被光线照亮，表现出强烈的氛围感。根据决策树A. 人像分类决策树中的【氛围感】(Atmosphere)特征，判定为 人像/氛围感。"
       }
     }
   }
