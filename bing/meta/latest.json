@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-07-03 18:14:21",
+  "generatedAt": "2026-07-04 18:03:09",
   "total": 7,
   "items": [
+    {
+      "date": "2026-07-05",
+      "title": "紫色花海",
+      "copyright": "瓦朗索勒高原的薰衣草行，普罗旺斯，法国 (© Robert Harding/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%96%B0%E8%A1%A3%E8%8D%89%E5%B1%9E&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260704_LavenderRows%22&FORM=HPQUIZ",
+      "hsh": "490c9611f01ef2aaa93c8291872d30a4",
+      "urlbase": "/th?id=OHR.LavenderRows_ZH-CN0676810895"
+    },
     {
       "date": "2026-07-04",
       "title": "此行，不虚绕道",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260628_BoraBoraLagoon%22&FORM=HPQUIZ",
       "hsh": "70b8afa9d4f99eb628cd672f73f9b199",
       "urlbase": "/th?id=OHR.BoraBoraLagoon_ZH-CN9234363590"
-    },
-    {
-      "date": "2026-06-28",
-      "title": "看起来很精神",
-      "copyright": "温德盖特山口附近的巨柱仙人掌, 麦克道尔山脉, 亚利桑那州, 美国 (© Eric Mischke/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%B7%A8%E4%BA%BA%E6%9F%B1%E4%BB%99%E4%BA%BA%E6%8E%8C&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260627_SaguaroSun%22&FORM=HPQUIZ",
-      "hsh": "4f35aa0cbdbf480e6f052920a29d947e",
-      "urlbase": "/th?id=OHR.SaguaroSun_ZH-CN5820504732"
     }
   ]
 }
