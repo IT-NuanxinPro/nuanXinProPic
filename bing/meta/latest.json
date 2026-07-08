@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-07-07 19:03:36",
+  "generatedAt": "2026-07-08 18:19:57",
   "total": 7,
   "items": [
+    {
+      "date": "2026-07-09",
+      "title": "步步传承",
+      "copyright": "在沙巴的水稻田，老街，越南 (© Anujak Jaimook/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%B6%8A%E5%8D%97%E8%80%81%E8%A1%97&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260708_SapaVietnam%22&FORM=HPQUIZ",
+      "hsh": "9842a3d030dca94cc6b0839e5df38e05",
+      "urlbase": "/th?id=OHR.SapaVietnam_ZH-CN2178893672"
+    },
     {
       "date": "2026-07-08",
       "title": "远古火山的回响",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260702_FirefliesJapan%22&FORM=HPQUIZ",
       "hsh": "bc00032bb7f67febb7a74b19bf07b167",
       "urlbase": "/th?id=OHR.FirefliesJapan_ZH-CN0071253415"
-    },
-    {
-      "date": "2026-07-02",
-      "title": "走进埃斯纳神圣的世界",
-      "copyright": "埃斯纳神庙穹顶天花板, 埃及 (© Nick Brundle Photography/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%9F%83%E5%8F%8A%E5%9F%83%E6%96%AF%E7%BA%B3%E7%A5%9E%E5%BA%99&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260701_TempleEsna%22&FORM=HPQUIZ",
-      "hsh": "f65ddd6a84f4c169a15d0c462c0b3498",
-      "urlbase": "/th?id=OHR.TempleEsna_ZH-CN9834689523"
     }
   ]
 }

@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 189,
+  "total": 190,
   "items": [
+    {
+      "date": "2026-07-09",
+      "title": "步步传承",
+      "copyright": "在沙巴的水稻田，老街，越南 (© Anujak Jaimook/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%B6%8A%E5%8D%97%E8%80%81%E8%A1%97&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260708_SapaVietnam%22&FORM=HPQUIZ",
+      "hsh": "9842a3d030dca94cc6b0839e5df38e05",
+      "urlbase": "/th?id=OHR.SapaVietnam_ZH-CN2178893672"
+    },
     {
       "date": "2026-07-08",
       "title": "远古火山的回响",
@@ -1704,5 +1713,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-07-07 19:03:35"
+  "updatedAt": "2026-07-08 18:19:57"
 }
