@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 196,
+  "total": 197,
   "items": [
+    {
+      "date": "2026-07-16",
+      "title": "滨水变色龙",
+      "copyright": "海军码头，芝加哥，伊利诺伊州，美国 (© Christopher.F Photography/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%8A%9D%E5%8A%A0%E5%93%A5%E6%B5%B7%E5%86%9B%E7%A0%81%E5%A4%B4&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260715_NavyPier%22&FORM=HPQUIZ",
+      "hsh": "8d375d366c3d1e97bda4d6a1711fba19",
+      "urlbase": "/th?id=OHR.NavyPier_ZH-CN4649271588"
+    },
     {
       "date": "2026-07-15",
       "title": "攀登后的奖励",
@@ -1767,5 +1776,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-07-14 18:03:16"
+  "updatedAt": "2026-07-15 18:07:24"
 }
