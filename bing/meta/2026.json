@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 201,
+  "total": 202,
   "items": [
+    {
+      "date": "2026-07-21",
+      "title": "拱影寻踪",
+      "copyright": "圣卡塔琳娜拱门，安提瓜，危地马拉 (© Filippo Maria Bianchi/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%8D%B1%E5%9C%B0%E9%A9%AC%E6%8B%89%E5%9C%A3%E5%8D%A1%E5%A1%94%E7%90%B3%E5%A8%9C%E6%8B%B1%E9%97%A8&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260720_SantaCatalina%22&FORM=HPQUIZ",
+      "hsh": "b9b7a1c3213a57697445d9dfff794c91",
+      "urlbase": "/th?id=OHR.SantaCatalina_ZH-CN6223370790"
+    },
     {
       "date": "2026-07-20",
       "title": "月瞰寰宇",
@@ -1812,5 +1821,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-07-19 17:59:30"
+  "updatedAt": "2026-07-20 18:54:00"
 }
