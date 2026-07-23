@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 204,
+  "total": 205,
   "items": [
+    {
+      "date": "2026-07-24",
+      "title": "缤纷多彩的一家人",
+      "copyright": "美洲红鹳群在伊莎贝拉岛，加拉帕戈斯群岛，厄瓜多尔 (© Tui De Roy/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%BE%8E%E6%B4%B2%E7%BA%A2%E9%B9%B3&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260723_GalapagosFlamingos%22&FORM=HPQUIZ",
+      "hsh": "5a32ad74ca0aeb6982ba6bf3ccdfaae3",
+      "urlbase": "/th?id=OHR.GalapagosFlamingos_ZH-CN1152519387"
+    },
     {
       "date": "2026-07-23",
       "title": "瓣叠交响",
@@ -1839,5 +1848,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-07-22 18:09:59"
+  "updatedAt": "2026-07-23 18:27:35"
 }
