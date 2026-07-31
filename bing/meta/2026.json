@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 212,
+  "total": 213,
   "items": [
+    {
+      "date": "2026-08-01",
+      "title": "基拉韦厄火山的威力",
+      "copyright": "大批熔岩流涌入大洋，大岛，夏威夷州，美国 (© Ken McCurdy/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%A4%8F%E5%A8%81%E5%A4%B7%E7%81%AB%E5%B1%B1%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260731_HawaiiLava%22&FORM=HPQUIZ",
+      "hsh": "c786310bb64e713bbbd82cf5fbe45ec5",
+      "urlbase": "/th?id=OHR.HawaiiLava_ZH-CN3257621771"
+    },
     {
       "date": "2026-07-31",
       "title": "穿越时光的足迹",
@@ -1911,5 +1920,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-07-30 18:16:09"
+  "updatedAt": "2026-07-31 18:22:02"
 }

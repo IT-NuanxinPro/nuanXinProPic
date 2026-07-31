@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-07-30 18:16:09",
+  "generatedAt": "2026-07-31 18:22:02",
   "total": 7,
   "items": [
+    {
+      "date": "2026-08-01",
+      "title": "基拉韦厄火山的威力",
+      "copyright": "大批熔岩流涌入大洋，大岛，夏威夷州，美国 (© Ken McCurdy/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%A4%8F%E5%A8%81%E5%A4%B7%E7%81%AB%E5%B1%B1%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260731_HawaiiLava%22&FORM=HPQUIZ",
+      "hsh": "c786310bb64e713bbbd82cf5fbe45ec5",
+      "urlbase": "/th?id=OHR.HawaiiLava_ZH-CN3257621771"
+    },
     {
       "date": "2026-07-31",
       "title": "穿越时光的足迹",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260725_RedMangroveSunrise%22&FORM=HPQUIZ",
       "hsh": "74586614148879a7d235577d774dd612",
       "urlbase": "/th?id=OHR.RedMangroveSunrise_ZH-CN7940335392"
-    },
-    {
-      "date": "2026-07-25",
-      "title": "加境幽廊",
-      "copyright": "大教堂海滩，加利西亚，西班牙 (© Tui De Roy/Amazing Aerial Agency/Abobe Stock)",
-      "copyrightlink": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E5%8A%A0%E5%88%A9%E8%A5%BF%E4%BA%9A&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260724_GaliciaBeach%22&FORM=HPQUIZ",
-      "hsh": "f4ba97314f4205bee03cf9294bcddaea",
-      "urlbase": "/th?id=OHR.GaliciaBeach_ZH-CN1246611659"
     }
   ]
 }
