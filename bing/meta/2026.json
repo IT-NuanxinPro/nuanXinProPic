@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 213,
+  "total": 214,
   "items": [
+    {
+      "date": "2026-08-02",
+      "title": "色彩鲜艳的船只，历久弥新的传统",
+      "copyright": "马尔萨什洛克港口五彩斑斓的渔船，马耳他 (© Klubovy/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%A9%AC%E8%80%B3%E4%BB%96%E9%A9%AC%E5%B0%94%E8%90%A8%E4%BB%80%E6%B4%9B%E5%85%8B&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260801_HelsinkiBlue%22&FORM=HPQUIZ",
+      "hsh": "58ac11ebbc0e79cfb9dc32db1fce6a85",
+      "urlbase": "/th?id=OHR.HelsinkiBlue_ZH-CN3961551568"
+    },
     {
       "date": "2026-08-01",
       "title": "基拉韦厄火山的威力",
@@ -1920,5 +1929,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-07-31 18:22:02"
+  "updatedAt": "2026-08-01 18:01:24"
 }
