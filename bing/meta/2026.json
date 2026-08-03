@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 215,
+  "total": 216,
   "items": [
+    {
+      "date": "2026-08-04",
+      "title": "呼呼，太棒了！",
+      "copyright": "佛罗里达穴鸮幼鸟，开普科拉尔，佛罗里达州，美国 (© mlorenzphotography/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%8C%AB%E5%A4%B4%E9%B9%B0&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260803_AdorableOwlet%22&FORM=HPQUIZ",
+      "hsh": "ceec1e17bd5453e6b8f1c763c4336483",
+      "urlbase": "/th?id=OHR.AdorableOwlet_ZH-CN6929234033"
+    },
     {
       "date": "2026-08-03",
       "title": "色彩鲜艳的船只，历久弥新的传统",
@@ -1938,5 +1947,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-08-02 18:02:29"
+  "updatedAt": "2026-08-03 18:52:02"
 }
