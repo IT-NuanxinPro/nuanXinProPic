@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 216,
+  "total": 217,
   "items": [
+    {
+      "date": "2026-08-05",
+      "title": "秘境之门，匠心传世",
+      "copyright": "非斯皇宫装饰华丽的大门，摩洛哥 (© cgst26/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%9D%9E%E6%96%AF%E7%9A%87%E5%AE%AB&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260804_FezMorocco%22&FORM=HPQUIZ",
+      "hsh": "2650e556e305b7ed29572d4cfc73108d",
+      "urlbase": "/th?id=OHR.FezMorocco_ZH-CN7662339428"
+    },
     {
       "date": "2026-08-04",
       "title": "呼呼，太棒了！",
@@ -1947,5 +1956,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-08-03 18:52:02"
+  "updatedAt": "2026-08-04 18:28:52"
 }
