@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-08-04 18:28:52",
+  "generatedAt": "2026-08-05 18:25:34",
   "total": 7,
   "items": [
+    {
+      "date": "2026-08-06",
+      "title": "生死渡口，勇者的史诗",
+      "copyright": "马赛马拉迁徙的角马群横渡马拉河, 肯尼亚 (© Manoj Shah/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%A7%92%E9%A9%AC&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260805_MaraCrossing%22&FORM=HPQUIZ",
+      "hsh": "1ca04759f20874cbd7d3dcd91be4b3a8",
+      "urlbase": "/th?id=OHR.MaraCrossing_ZH-CN8816902094"
+    },
     {
       "date": "2026-08-05",
       "title": "秘境之门，匠心传世",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260730_VirginiaTrail%22&FORM=HPQUIZ",
       "hsh": "60750f8b6dc2e76b7384ab59cb824277",
       "urlbase": "/th?id=OHR.VirginiaTrail_ZH-CN2299501599"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "旷野无声，活态传承之境",
-      "copyright": "在纳瓦霍族保留地的纪念碑谷，亚利桑那州，美国 (© Westend61/Adobe Stock)",
-      "copyrightlink": "https://www.bing.com/search?q=%E7%BA%AA%E5%BF%B5%E7%A2%91%E8%B0%B7&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260729_NavajoNation%22&FORM=HPQUIZ",
-      "hsh": "e8f02210ba6e0a2dccd53375f097adbe",
-      "urlbase": "/th?id=OHR.NavajoNation_ZH-CN9274387505"
     }
   ]
 }

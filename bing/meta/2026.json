@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 217,
+  "total": 218,
   "items": [
+    {
+      "date": "2026-08-06",
+      "title": "生死渡口，勇者的史诗",
+      "copyright": "马赛马拉迁徙的角马群横渡马拉河, 肯尼亚 (© Manoj Shah/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%A7%92%E9%A9%AC&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260805_MaraCrossing%22&FORM=HPQUIZ",
+      "hsh": "1ca04759f20874cbd7d3dcd91be4b3a8",
+      "urlbase": "/th?id=OHR.MaraCrossing_ZH-CN8816902094"
+    },
     {
       "date": "2026-08-05",
       "title": "秘境之门，匠心传世",
@@ -1956,5 +1965,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-08-04 18:28:52"
+  "updatedAt": "2026-08-05 18:25:34"
 }
