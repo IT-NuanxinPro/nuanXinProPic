@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 218,
+  "total": 219,
   "items": [
+    {
+      "date": "2026-08-08",
+      "title": "迈向无限",
+      "copyright": "蒂斯河畔斯托克顿无限桥，英格兰 (© Bahadir Yeniceri/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E6%97%A0%E9%99%90%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260807_StocktonInfinity%22&FORM=HPQUIZ",
+      "hsh": "5a41c3c666cdf4a74055fa03598ad720",
+      "urlbase": "/th?id=OHR.StocktonInfinity_ZH-CN5941379745"
+    },
     {
       "date": "2026-08-06",
       "title": "生死渡口，勇者的史诗",
@@ -1965,5 +1974,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-08-05 18:25:34"
+  "updatedAt": "2026-08-07 17:50:25"
 }
