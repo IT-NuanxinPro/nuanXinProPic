@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-08-08 17:30:12",
+  "generatedAt": "2026-08-09 17:31:08",
   "total": 7,
   "items": [
+    {
+      "date": "2026-08-10",
+      "title": "两片沙漠交汇之地",
+      "copyright": "约书亚树国家公园，加利福尼亚州，美国 (© JJ Landscapes/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%BA%A6%E4%B9%A6%E4%BA%9A%E6%A0%91%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260809_SandPath%22&FORM=HPQUIZ",
+      "hsh": "b9b17059d70786c24109988b6885a0e6",
+      "urlbase": "/th?id=OHR.SandPath_ZH-CN7820825668"
+    },
     {
       "date": "2026-08-09",
       "title": "身份认同的建筑表达",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260802_BoatsMalta%22&FORM=HPQUIZ",
       "hsh": "cc354c45f6be094235b25668b82a7a02",
       "urlbase": "/th?id=OHR.BoatsMalta_ZH-CN4708255775"
-    },
-    {
-      "date": "2026-08-02",
-      "title": "色彩鲜艳的船只，历久弥新的传统",
-      "copyright": "马尔萨什洛克港口五彩斑斓的渔船，马耳他 (© Klubovy/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E9%A9%AC%E8%80%B3%E4%BB%96%E9%A9%AC%E5%B0%94%E8%90%A8%E4%BB%80%E6%B4%9B%E5%85%8B&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260801_HelsinkiBlue%22&FORM=HPQUIZ",
-      "hsh": "58ac11ebbc0e79cfb9dc32db1fce6a85",
-      "urlbase": "/th?id=OHR.HelsinkiBlue_ZH-CN3961551568"
     }
   ]
 }

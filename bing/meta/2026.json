@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 220,
+  "total": 221,
   "items": [
+    {
+      "date": "2026-08-10",
+      "title": "两片沙漠交汇之地",
+      "copyright": "约书亚树国家公园，加利福尼亚州，美国 (© JJ Landscapes/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%BA%A6%E4%B9%A6%E4%BA%9A%E6%A0%91%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260809_SandPath%22&FORM=HPQUIZ",
+      "hsh": "b9b17059d70786c24109988b6885a0e6",
+      "urlbase": "/th?id=OHR.SandPath_ZH-CN7820825668"
+    },
     {
       "date": "2026-08-09",
       "title": "身份认同的建筑表达",
@@ -1983,5 +1992,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-08-08 17:30:12"
+  "updatedAt": "2026-08-09 17:31:08"
 }
