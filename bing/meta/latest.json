@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-08-14 17:53:03",
+  "generatedAt": "2026-08-15 17:20:22",
   "total": 7,
   "items": [
+    {
+      "date": "2026-08-16",
+      "title": "天鹅开启传奇之处",
+      "copyright": "戈尔韦郡罗斯埃里利方济各会修道院遗址，康诺特省，爱尔兰 (© Maria Janus/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%88%B1%E5%B0%94%E5%85%B0%E7%BD%97%E6%96%AF%C2%B7%E5%9F%83%E9%87%8C%E5%88%A9%E4%BF%AE%E9%81%93%E9%99%A2&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260815_RossErrillyRuins%22&FORM=HPQUIZ",
+      "hsh": "17f57d89dabd81d98589605df4615513",
+      "urlbase": "/th?id=OHR.RossErrillyRuins_ZH-CN9986322001"
+    },
     {
       "date": "2026-08-15",
       "title": "绝妙的平衡术",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260809_SandPath%22&FORM=HPQUIZ",
       "hsh": "b9b17059d70786c24109988b6885a0e6",
       "urlbase": "/th?id=OHR.SandPath_ZH-CN7820825668"
-    },
-    {
-      "date": "2026-08-09",
-      "title": "身份认同的建筑表达",
-      "copyright": "让-马里·吉巴乌文化中心，新喀里多尼亚 (© Fabien Astre/Alamy)",
-      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E5%9C%9F%E8%91%97%E4%BA%BA%E6%B0%91%E5%9B%BD%E9%99%85%E6%97%A5&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260808_JMTjibaou%22&FORM=HPQUIZ",
-      "hsh": "989a3bfad9502e5f8318b04220acdb43",
-      "urlbase": "/th?id=OHR.JMTjibaou_ZH-CN6992670356"
     }
   ]
 }
