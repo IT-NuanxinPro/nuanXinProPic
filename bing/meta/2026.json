@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 227,
+  "total": 228,
   "items": [
+    {
+      "date": "2026-08-17",
+      "title": "珊瑚礁上的黄金地段",
+      "copyright": "海葵中的三条眼斑双锯鱼，卡比劳岛，薄荷省，菲律宾 (© Franco Banfi/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%9C%BC%E6%96%91%E5%8F%8C%E9%94%AF%E9%B1%BC&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260816_CabilaoClowns%22&FORM=HPQUIZ",
+      "hsh": "6cc04d34456d5ae48f6f3939ad45af3c",
+      "urlbase": "/th?id=OHR.CabilaoClowns_ZH-CN0147033898"
+    },
     {
       "date": "2026-08-16",
       "title": "天鹅开启传奇之处",
@@ -2046,5 +2055,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-08-15 17:20:22"
+  "updatedAt": "2026-08-16 17:19:40"
 }
