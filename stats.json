@@ -1,9 +1,9 @@
 {
-  "lastUpdated": 1787075351.943627,
-  "cdnTag": "v1.3.96",
+  "lastUpdated": "2026-08-19 08:55:12",
+  "cdnTag": "v1.3.97",
   "series": {
     "desktop": {
-      "count": 660,
+      "count": 669,
       "categories": [
         "动漫",
         "插画",
@@ -18,7 +18,7 @@
       ]
     },
     "mobile": {
-      "count": 804,
+      "count": 810,
       "categories": [
         "人像",
         "插画",
@@ -43,24 +43,24 @@
         "萌宠",
         "表情包"
       ]
-    },
-    "video": {
-      "count": 49,
-      "categories": [
-        "social-cover",
-        "desktop",
-        "mobile"
-      ]
     }
   },
   "total": {
-    "desktop": 660,
-    "mobile": 804,
-    "avatar": 525,
-    "video": 49,
-    "bing": 2640
+    "desktop": 669,
+    "mobile": 810,
+    "avatar": 525
   },
   "releases": [
+    {
+      "tag": "v1.3.97",
+      "date": "2026-08-19",
+      "added": {
+        "desktop": 9,
+        "mobile": 6,
+        "avatar": 0
+      },
+      "publisher": ""
+    },
     {
       "tag": "v1.3.96",
       "date": "2026-08-19",
