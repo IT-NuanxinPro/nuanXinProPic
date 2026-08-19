@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "createdAt": "2026-08-19T08:22:06.801Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/城市/【恋风】20260819161145.jpeg",
+      "category": "风景",
+      "subcategory": "城市",
+      "filename": "【恋风】20260819161145.jpeg",
+      "createdAt": "2026-08-19T08:22:06.801Z",
+      "size": 4038439,
+      "format": "jpeg",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "城市",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "城市",
+        "keywords": [
+          "富士山",
+          "街景",
+          "夜景",
+          "街灯",
+          "城市"
+        ],
+        "description": "宁静街道在富士山的壮丽映照下，路灯洒下柔和光晕，夜色渐浓，带来一份安宁与诗意的城市氛围。",
+        "filenameSuggestions": [
+          "富士山映照的宁静街巷夜景.jpg",
+          "路灯点点的城市街景夜景.jpg"
+        ],
+        "displayTitle": "富士山映照的宁静街巷夜景",
+        "confidence": 0.9,
+        "reasoning": "图片包含街道、建筑等城市元素，背景雪山富士山清晰可见，根据规则C1具体场景优先判定为风景/城市"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/清新/【恋风】20260819161644.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "【恋风】20260819161644.png",
+      "createdAt": "2026-08-19T08:22:06.801Z",
+      "size": 3783932,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新少女",
+          "银框眼镜",
+          "温柔气质",
+          "柔和光影",
+          "治愈氛围"
+        ],
+        "description": "一位戴着银框眼镜的黑发少女，在柔和的光线下微微微笑，散发着清新的气息与治愈的氛围，眼神温柔而专注。",
+        "filenameSuggestions": [
+          "柔和光影下微笑的黑发眼镜少女.jpg",
+          "戴银框眼镜温柔微笑的少女.jpg"
+        ],
+        "displayTitle": "柔和光影下微笑的黑发眼镜少女",
+        "confidence": 0.9,
+        "reasoning": "图片为戴眼镜的人像，根据人像分类决策树，魅力无（无丝袜或身体曲线展示），国风无，氛围感特征为不露脸，此为正面露脸，优先匹配清新类"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/【恋风】20260819161119.jpeg",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "【恋风】20260819161119.jpeg",
+      "createdAt": "2026-08-19T08:22:06.801Z",
+      "size": 5379955,
+      "format": "jpeg",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫少女",
+          "星空巨环",
+          "霓虹都市",
+          "赛博风格",
+          "氛围感"
+        ],
+        "description": "紫蓝天空下，动漫少女眺望巨大星环都市。柔光洒落，梦幻科幻氛围。",
+        "filenameSuggestions": [
+          "紫蓝天际下动漫少女凝望星环巨塔.jpg",
+          "夕阳余晖下动漫少女遥望都市星球.jpg"
+        ],
+        "displayTitle": "紫蓝天际下动漫少女凝望星环巨塔",
+        "confidence": 0.9,
+        "reasoning": "图片为典型动漫风格插图，包含动漫少女形象且无匹配具体IP，故归入动漫/二次元。根据B.动漫决策树，典型日式动画风格（大眼动漫感、赛璐璐涂色）优先匹配，无需向下细分国风或创意。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/魅力/【恋风】20260819161247.jpeg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "【恋风】20260819161247.jpeg",
+      "createdAt": "2026-08-19T08:22:06.801Z",
+      "size": 12072121,
+      "format": "jpeg",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "丝袜",
+          "御姐风",
+          "蓝沙发",
+          "氛围感"
+        ],
+        "description": "柔和暖光洒在蓝绒沙发上，一位优雅女子慵懒倚靠，黑色吊带裙勾勒出曼妙曲线，薄纱黑丝包裹修长双腿，扇子轻摇间散发着成熟迷人的魅力。",
+        "filenameSuggestions": [
+          "蓝沙发上黑裙翩然的丝袜魅影.jpg",
+          "柔光下优雅黑丝佳人的姿态.jpg"
+        ],
+        "displayTitle": "蓝沙发上黑裙翩然的丝袜魅影",
+        "confidence": 0.9,
+        "reasoning": "图片为真实女性人像照片，包含丝袜、紧身衣与撩人姿态，符合人像魅力分类特征（丝袜+身材曲线+成熟吸引力），优先级高于氛围感与清新，故归入人像/魅力；非动漫风格、非风景、非萌宠，非特定明星或IP，现有分类覆盖。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/魅力/【恋风】20260819161625.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "【恋风】20260819161625.png",
+      "createdAt": "2026-08-19T08:22:06.801Z",
+      "size": 14698831,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "猫耳少女",
+          "浴缸姿势",
+          "丝袜魅力",
+          "柔光氛围",
+          "人像摄影"
+        ],
+        "description": "一位黑长直猫耳少女躺在柔软白色浴缸中，身穿米白蕾丝连衣裙，戴猫耳白手套与丝袜，眼神迷人，在柔和光线下散发成熟优雅魅力。",
+        "filenameSuggestions": [
+          "柔光浴缸中优雅撩人的猫耳少女.jpg",
+          "白色丝袜下曲线曼妙的猫耳女孩.jpg"
+        ],
+        "displayTitle": "柔光浴缸中优雅撩人的猫耳少女",
+        "confidence": 0.9,
+        "reasoning": "图片为女性人像，优先匹配魅力决策树（丝袜+紧身衣+撩人姿态），归类人像/魅力。非特定明星或知名IP，故is_perfect_match为false。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/日落/20260819160139.png",
+      "category": "风景",
+      "subcategory": "日落",
+      "filename": "20260819160139.png",
+      "createdAt": "2026-08-19T08:22:06.801Z",
+      "size": 22206826,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "日落",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "日落",
+        "keywords": [
+          "都市日落",
+          "城市景观",
+          "红霞天空",
+          "摩天大楼",
+          "黄昏氛围"
+        ],
+        "description": "夕阳余晖洒在城市天台，红云漫漫的天空映照着高耸的摩天大楼，营造出壮丽的都市黄昏景象。",
+        "filenameSuggestions": [
+          "夕阳余晖下的城市摩天楼天台.jpg",
+          "红云漫天的摩天大楼黄昏余晖.jpg"
+        ],
+        "displayTitle": "红霞映照的都市天台夕阳景观",
+        "confidence": 0.9,
+        "reasoning": "图片呈现夕阳下的城市天台场景，符合风景分类决策树中的日落场景特征，根据规则C1判定为风景/日落。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/场景/【恋风】20260819161049.jpeg",
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "【恋风】20260819161049.jpeg",
+      "createdAt": "2026-08-19T08:22:06.801Z",
+      "size": 1720706,
+      "format": "jpeg",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "插画",
+          "动漫风格",
+          "山景",
+          "蓝天",
+          "长发"
+        ],
+        "description": "一位长发女子背对山川静坐山巅，蓝天白云环绕，远处河流蜿蜒，鸟儿飞翔，氛围宁静而广阔。",
+        "filenameSuggestions": [
+          "风拂长发静坐的宁静山巅.jpg",
+          "蓝天白云下的广阔原野.jpg"
+        ],
+        "displayTitle": "风拂长发静坐的宁静山巅",
+        "confidence": 0.9,
+        "reasoning": "图片为动漫风格插画，主体为自然山景与背影人物，根据规则B动漫与插画决策树，此为插画/场景而非动漫IP或风景纯景，符合现有分类。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/氛围感/【恋风】20260819161700.jpeg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "【恋风】20260819161700.jpeg",
+      "createdAt": "2026-08-19T08:22:06.801Z",
+      "size": 1076878,
+      "format": "jpeg",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "柔光镜面",
+          "散乱发丝",
+          "唇色",
+          "神秘温柔"
+        ],
+        "description": "柔和自然光线笼罩镜面，反射中女子下巴与唇部若隐若现，棕色发丝轻柔垂落，营造出宁静而富有哲理的氛围。",
+        "filenameSuggestions": [
+          "柔光镜面下的慵懒唇色女子.jpg",
+          "镜前散乱发丝的温柔脸庞.jpg"
+        ],
+        "displayTitle": "柔光镜面下的慵懒唇色女子",
+        "confidence": 0.9,
+        "reasoning": "图片为女性脸部特写，低角度视角下五官部分可见但整体氛围柔和。根据人像决策树，未识别特定明星，未见丝袜或明显身材展示，不符魅力项；无汉服、古建筑等国风元素；非动漫风格，也非风景分支。具有重光影意境和模糊氛围，符合氛围感判定标准。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/魅力/【恋风】20260819161002.jpeg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "【恋风】20260819161002.jpeg",
+      "createdAt": "2026-08-19T08:22:06.801Z",
+      "size": 8964015,
+      "format": "jpeg",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "夜间人像",
+          "柔软浴袍",
+          "长发少女",
+          "魅力人像",
+          "夜景氛围"
+        ],
+        "description": "柔软白色浴袍包裹的长发少女，躺在床上喝水，眼神柔和注视镜头，夜色中带来温暖私密感。",
+        "filenameSuggestions": [
+          "柔软白色浴袍的夜色慵懒美人.jpg",
+          "躺在床上的长发女孩喝水.jpg"
+        ],
+        "displayTitle": "柔软浴袍的夜色慵懒美人",
+        "confidence": 0.9,
+        "reasoning": "图片为现实风格人像照片，面部清晰可见，属于魅力类：姿态优雅，身材展示明显。根据A.1非特定明星，A.3无国风元素，A.4面部可见非氛围感，高明度但夜间场景更偏魅力，符合人像/魅力分类。"
+      }
+    }
+  ]
+}
