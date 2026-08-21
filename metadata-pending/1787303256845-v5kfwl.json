@@ -1,0 +1,444 @@
+{
+  "version": 1,
+  "createdAt": "2026-08-21T09:07:36.845Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/明星/d3SQzZgvcqXb5W2.jpeg",
+      "category": "人像",
+      "subcategory": "明星",
+      "filename": "d3SQzZgvcqXb5W2.jpeg",
+      "createdAt": "2026-08-21T09:07:36.845Z",
+      "size": 4010688,
+      "format": "jpeg",
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "明星",
+        "subcategory": "明星",
+        "filenameSuggestions": [
+          "碧空如洗下长发女孩的清新自拍.jpg",
+          "格纹外套清新少女在蓝天白云下撅嘴.jpg"
+        ],
+        "filenames": [
+          "碧空如洗下长发女孩的清新自拍.jpg",
+          "格纹外套清新少女在蓝天白云下撅嘴.jpg"
+        ],
+        "displayTitle": "碧空如洗下长发女孩的清新自拍",
+        "keywords": [
+          "章若楠",
+          "蓝天白云",
+          "长发自拍",
+          "格纹外套",
+          "治愈氛围"
+        ],
+        "description": "湛蓝天空映照下，长发飘逸的少女在微风中轻轻撅嘴，格纹外套轻盈披肩，纯净蓝天白云营造出明亮治愈的清新氛围。",
+        "confidence": 0.9,
+        "reasoning": "图片为露脸人像，符合清新系特征（高明度、自然色彩、构图干净），未匹配明星/魅力/国风等更高优先级选项。根据人像决策树，归类为人像清新。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/自然/2024-10-30_15184.jpg",
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "2024-10-30_15184.jpg",
+      "createdAt": "2026-08-21T09:07:36.845Z",
+      "size": 1991430,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "金秋山景",
+          "自然山林",
+          "金黄秋叶",
+          "巍峨山峰",
+          "壮丽风景"
+        ],
+        "description": "金秋时节的巍峨山峰被金黄的秋叶环绕，壮丽的自然景色令人心旷神怡。",
+        "filenameSuggestions": [
+          "金秋山林映照的巍峨山峰.jpg",
+          "金黄树叶环绕的壮丽山景.jpg"
+        ],
+        "displayTitle": "金秋山林映照的巍峨山峰",
+        "confidence": 0.9,
+        "reasoning": "图片展示金黄秋林环绕的山峰景观，根据景观分类决策树，无法匹配具体场景如雪山、城市或日落，因此归类为风景/自然"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/雪山/2024-10-31_15185.jpg",
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "2024-10-31_15185.jpg",
+      "createdAt": "2026-08-21T09:07:36.845Z",
+      "size": 2920287,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "雪鸮",
+          "雪景",
+          "飞翔",
+          "雪山",
+          "自然风光"
+        ],
+        "description": "皑皑白雪覆盖的原野上，一只雪白如玉的猫头鹰振翅高飞，身后是朦胧的雪树林，营造出冬日宁静而壮丽的诗意境界。",
+        "filenameSuggestions": [
+          "雪原之上振翅飞翔的雪白猫头鹰.jpg",
+          "冬季雪林中优雅飞舞的雪鸮.jpg"
+        ],
+        "displayTitle": "雪原之上翩翩飞舞的雪白猫头鹰",
+        "confidence": 0.9,
+        "reasoning": "图片主体为雪鸮飞翔，背景为雪山雪地，根据规则C1，判定为[风景/雪山]"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/国风/2024-10-31_15186.jpg",
+      "category": "人像",
+      "subcategory": "国风",
+      "filename": "2024-10-31_15186.jpg",
+      "createdAt": "2026-08-21T09:07:36.845Z",
+      "size": 962965,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "国风",
+        "keywords": [
+          "国风汉服",
+          "女子持灯",
+          "古风池塘",
+          "氛围感",
+          "宁静浪漫"
+        ],
+        "description": "身穿翠绿汉服的古风女子，坐在池塘边，手中持着古灯，静静赏月。月色洒在长发上，营造宁静浪漫氛围。",
+        "filenameSuggestions": [
+          "古风汉服女子池畔持灯.jpg",
+          "月光洒在汉服女子手中的古灯.jpg"
+        ],
+        "displayTitle": "古风汉服女子灯下赏月",
+        "confidence": 0.9,
+        "reasoning": "图片为女子穿着汉服的肖像，符合人像分类决策树中的国风特征（汉服、传统服饰），并有池塘等氛围元素，判定为人像/国风"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/2024-11-02_15196.jpg",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2024-11-02_15196.jpg",
+      "createdAt": "2026-08-21T09:07:36.845Z",
+      "size": 3044503,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫二次元",
+          "魅力人像",
+          "粉发少女",
+          "性感姿态",
+          "都市夜景"
+        ],
+        "description": "粉嫩长发在微风中轻舞，性感的身姿与都市霓虹交相辉映，勾勒出浪漫而魅惑的都市夜晚。",
+        "filenameSuggestions": [
+          "都市霓虹下粉发动漫少女的撩人魅力.jpg",
+          "粉色长发女孩坐在车旁的御姐风姿.jpg"
+        ],
+        "displayTitle": "霓虹都市中粉发魅影的性感姿态",
+        "confidence": 0.9,
+        "reasoning": "图片为日式动漫风格角色，根据B动漫决策树，典型赛璐璐涂色与大眼睛动画感，优先归入动漫/二次元；人像部分虽符合魅力特征（身材曲线、紧身衣、撩人姿态），但整体优先动漫分类，无具体IP匹配，故提案为空。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/游戏/崩坏/2024-11-02_15198.jpg",
+      "category": "游戏",
+      "subcategory": "崩坏",
+      "filename": "2024-11-02_15198.jpg",
+      "createdAt": "2026-08-21T09:07:36.845Z",
+      "size": 6958279,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "游戏",
+        "subcategory": "崩坏",
+        "primary": "desktop",
+        "secondary": "游戏",
+        "third": "崩坏",
+        "keywords": [
+          "赛博朋克",
+          "盟军少女",
+          "动漫风格",
+          "都市霓虹",
+          "雨夜"
+        ],
+        "description": "赛博朋克都市雨夜中盟军少女们伫立街头霓虹灯下尽显英姿飒爽。",
+        "filenameSuggestions": [
+          "雨夜霓虹中银发盟军少女群像.jpg",
+          "蓝发军装少女在都市雨中持枪.jpg"
+        ],
+        "displayTitle": "雨夜霓虹中盟军少女群像",
+        "confidence": 0.9,
+        "reasoning": "图片为崩坏系列动漫风格少女群像，根据决策树B1识别特定IP'崩坏'，匹配现有子类，判定为[游戏/崩坏]"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/创意/2024-11-03_15201.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "2024-11-03_15201.jpg",
+      "createdAt": "2026-08-21T09:07:36.845Z",
+      "size": 910454,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "流动波浪",
+          "紫粉渐变",
+          "抽象创意",
+          "梦幻光影",
+          "艺术插画"
+        ],
+        "description": "梦幻的紫粉渐变光影中，流畅的波浪曲线如丝绸般流动，营造出梦幻宁静的抽象美景。",
+        "filenameSuggestions": [
+          "梦幻紫调流动的抽象波浪.jpg",
+          "柔美光影下的流动曲线艺术.jpg"
+        ],
+        "displayTitle": "梦幻紫调流动的抽象波浪曲线",
+        "confidence": 0.9,
+        "reasoning": "图片呈现抽象流动波浪，无人物、无IP、无具体实景，根据规则B3判定为插画/创意，符合现有分类体系"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/2024-11-04_15207.jpg",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2024-11-04_15207.jpg",
+      "createdAt": "2026-08-21T09:07:36.845Z",
+      "size": 2919124,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫女孩",
+          "姐妹拥抱",
+          "蓝天海景",
+          "校服氛围",
+          "春日花瓣"
+        ],
+        "description": "在蓝天碧水间，两个动漫女孩相拥而立，微风吹拂花瓣飞舞，尽显治愈浪漫氛围。",
+        "filenameSuggestions": [
+          "蓝天碧水间姐妹花的温柔拥抱.jpg",
+          "微风吹拂下的两个动漫女孩海边散步.jpg"
+        ],
+        "displayTitle": "蓝天碧水间姐妹花的温柔拥抱",
+        "confidence": 0.9,
+        "reasoning": "图片呈现典型日式动漫风格，包含大眼睛、流畅发丝飘动和学校制服等特征，根据动漫决策树B，优先归入动漫/二次元；非特定IP，故is_perfect_match为false，无需新提案"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/清新/2024-11-04_15210.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "2024-11-04_15210.jpg",
+      "createdAt": "2026-08-21T09:07:36.845Z",
+      "size": 1128523,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "猫耳少女",
+          "清新治愈",
+          "柔光氛围",
+          "白色毛衣",
+          "温暖沙发"
+        ],
+        "description": "柔和的白光洒在白色沙发上，一位少女戴着毛茸茸的猫耳帽，穿着柔软白色毛衣，微微侧身靠在扶手上，眼神温柔清澈，窗外雪景隐约可见，整幅画面散发着治愈治愈的日常氛围。",
+        "filenameSuggestions": [
+          "柔光沙发中温柔微笑的猫耳少女.jpg",
+          "温暖白色毛衣里的治愈系猫耳女孩.jpg"
+        ],
+        "displayTitle": "柔光沙发中温柔微笑的猫耳少女",
+        "confidence": 0.9,
+        "reasoning": "图片为真人人像照片，少女脸部可见但眼神柔和明亮，风格明快治愈，符合人像清新类决策树（高明度、笑容甜美、构图干净、无特定明星），无动漫或插画特征，归入人像清新，无需提案"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/场景/2024-11-06_15217.jpg",
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2024-11-06_15217.jpg",
+      "createdAt": "2026-08-21T09:07:36.845Z",
+      "size": 692668,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "日落",
+          "雪原",
+          "鸟居",
+          "动漫插画",
+          "风景场景"
+        ],
+        "description": "落日的余晖洒在雪原之上，古朴的鸟居静静伫立于原野中央。橙红色的云朵在天空缓缓飘荡，营造出宁静而梦幻的诗意氛围。",
+        "filenameSuggestions": [
+          "落日余晖下的宁静雪原鸟居.jpg",
+          "橙红余晖映照的雪原古朴鸟居.jpg"
+        ],
+        "displayTitle": "落日余晖下的宁静雪原鸟居",
+        "confidence": 0.9,
+        "reasoning": "图片为典型动漫风格插画，主体为雪原日落场景，无人物、无具体IP。根据A人像逻辑不适用；B动漫插画逻辑下判定为插画风格（非动画截图），子类选择场景；C风景逻辑虽有日落元素但整体为艺术插画而非真实风景，故优先归类插画/场景。图片完美匹配现有分类体系，无需新提案。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/日落/2025-06-15_15575.jpg",
+      "category": "风景",
+      "subcategory": "日落",
+      "filename": "2025-06-15_15575.jpg",
+      "createdAt": "2026-08-21T09:07:36.845Z",
+      "size": 7512978,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "日落",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "日落",
+        "keywords": [
+          "海滨日落",
+          "橙色光线反射",
+          "平静海面",
+          "夕阳余晖"
+        ],
+        "description": "一轮夕阳缓缓升起，海面如镜面般反射出柔和橙光，划出金色光带，小船静静漂浮在辽阔海天之间，营造出宁静而诗意的永恒美景。",
+        "filenameSuggestions": [
+          "海上金色夕阳光束划破海面的宁静航行.jpg",
+          "海面反射橙红余晖的平静日落风景.jpg"
+        ],
+        "displayTitle": "海面映照金色夕阳的宁静时刻",
+        "confidence": 0.9,
+        "reasoning": "图片为海上日落景观，海面广阔且有清晰日落特征，符合决策树C1中的日落黄昏场景，根据规则C1判定为[风景/日落]"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/2025-06-16_15254.jpg",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2025-06-16_15254.jpg",
+      "createdAt": "2026-08-21T09:07:36.845Z",
+      "size": 3075329,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "动漫眼睛",
+          "梦幻花朵",
+          "紫色氛围",
+          "插画风格"
+        ],
+        "description": "梦幻蓝天之下，紫色花海中一双梦幻蓝眸静静注视。柔和光影与精致花瓣营造出治愈神秘的二次元氛围，宛如一幅会呼吸的梦境画卷。",
+        "filenameSuggestions": [
+          "梦幻紫花海中注视的蓝眸.jpg",
+          "花瓣轻舞的梦幻之眸.jpg"
+        ],
+        "displayTitle": "梦幻紫花海中注视的蓝眸",
+        "confidence": 0.9,
+        "reasoning": "图片为典型日式动漫风格（大眼睛、赛璐璐涂色、动画感），无具体IP或明星，故优先归入动漫/二次元。根据规则B2，停止向下匹配；非人像、无特定风景元素，is_perfect_match设为false。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/2025-06-20_15261.jpg",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2025-06-20_15261.jpg",
+      "createdAt": "2026-08-21T09:07:36.845Z",
+      "size": 2012747,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "圣诞动漫",
+          "二次元",
+          "银发少女",
+          "圣诞插画",
+          "温馨氛围"
+        ],
+        "description": "圣诞节暖冬夜晚，银发少女优雅坐在窗边，手中握着精致圣诞礼物，身边摇曳圣诞树与忠实小狗伙伴，营造温馨诗意氛围。",
+        "filenameSuggestions": [
+          "圣诞暖灯下银发少女抱膝休息.jpg",
+          "与雪地柴犬一起的圣诞可爱少女.jpg"
+        ],
+        "displayTitle": "圣诞夜灯下银发少女的温柔闲暇",
+        "confidence": 0.9,
+        "reasoning": "图片为典型日式动画风格插画（大眼睛、赛璐璐涂色），人物为银发动漫少女，非明星/国风/氛围感/清新，优先匹配动漫决策树B2；无具体IP作品，故归入动漫/二次元。无需人像或风景分类。"
+      }
+    }
+  ]
+}
