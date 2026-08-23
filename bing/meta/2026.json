@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 234,
+  "total": 235,
   "items": [
+    {
+      "date": "2026-08-24",
+      "title": "跨越历史",
+      "copyright": "布鲁克林大桥，纽约市，美国 (© shayes17/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%B8%83%E9%B2%81%E5%85%8B%E6%9E%97%E5%A4%A7%E6%A1%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260823_BKBridge%22&FORM=HPQUIZ",
+      "hsh": "2e184557aadccc1145246c9a0102e950",
+      "urlbase": "/th?id=OHR.BKBridge_ZH-CN3870511222"
+    },
     {
       "date": "2026-08-23",
       "title": "暑气渐消，金秋已至",
@@ -2109,5 +2118,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-08-22 17:21:13"
+  "updatedAt": "2026-08-23 17:20:23"
 }
