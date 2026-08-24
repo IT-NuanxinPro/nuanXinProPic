@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 235,
+  "total": 236,
   "items": [
+    {
+      "date": "2026-08-25",
+      "title": "守护美国瑰宝",
+      "copyright": "红木国家与州立公园的日出，加利福尼亚州，美国 (© HadelProductions/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%BA%A2%E6%9D%89%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD%E4%B8%8E%E5%B7%9E%E7%AB%8B%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260824_RedwoodPark%22&FORM=HPQUIZ",
+      "hsh": "5695a0157a92fd7388c87fc97da7d3e1",
+      "urlbase": "/th?id=OHR.RedwoodPark_ZH-CN9513051062"
+    },
     {
       "date": "2026-08-24",
       "title": "跨越历史",
@@ -2118,5 +2127,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-08-23 17:20:23"
+  "updatedAt": "2026-08-24 17:31:25"
 }
