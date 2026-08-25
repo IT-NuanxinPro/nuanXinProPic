@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 236,
+  "total": 237,
   "items": [
+    {
+      "date": "2026-08-26",
+      "title": "流光溢彩的天空",
+      "copyright": "基尔丘山上空的极光，冰岛 (© Cavan Images/Alamy)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%8C%97%E6%9E%81%E5%85%89&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260825_AurorasIceland%22&FORM=HPQUIZ",
+      "hsh": "3b620c7399820c5bdb0a11f6100d3ebe",
+      "urlbase": "/th?id=OHR.AurorasIceland_ZH-CN9781322454"
+    },
     {
       "date": "2026-08-25",
       "title": "守护美国瑰宝",
@@ -2127,5 +2136,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-08-24 17:31:25"
+  "updatedAt": "2026-08-25 17:31:44"
 }
