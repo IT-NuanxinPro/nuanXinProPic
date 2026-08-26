@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 237,
+  "total": 238,
   "items": [
+    {
+      "date": "2026-08-27",
+      "title": "湖水、野生动物与奇景",
+      "copyright": "日出时的小红鹳群，马加迪湖，肯尼亚 (© Denis-Huot/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%B9%96%E6%B3%8A%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260826_LakeMagadi%22&FORM=HPQUIZ",
+      "hsh": "10d60cf76cca639372535997c3c54ddf",
+      "urlbase": "/th?id=OHR.LakeMagadi_ZH-CN0601527009"
+    },
     {
       "date": "2026-08-26",
       "title": "流光溢彩的天空",
@@ -2136,5 +2145,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-08-25 17:31:44"
+  "updatedAt": "2026-08-26 19:01:49"
 }
