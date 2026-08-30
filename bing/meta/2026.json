@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 241,
+  "total": 242,
   "items": [
+    {
+      "date": "2026-08-31",
+      "title": "图案艺术的典范",
+      "copyright": "雷吉斯坦广场的建筑细节，撒马尔罕，乌兹别克斯坦 (© Piero M. Bianchi/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%92%92%E9%A9%AC%E5%B0%94%E7%BD%95&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260830_SamarkandCeiling%22&FORM=HPQUIZ",
+      "hsh": "13b00f4b5c95c67b066596d1da1d0c9f",
+      "urlbase": "/th?id=OHR.SamarkandCeiling_ZH-CN1818913296"
+    },
     {
       "date": "2026-08-30",
       "title": "名为鲨鱼的巨型鱼类",
@@ -2172,5 +2181,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-08-29 19:38:49"
+  "updatedAt": "2026-08-30 19:41:07"
 }
