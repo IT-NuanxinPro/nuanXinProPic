@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "createdAt": "2026-09-02T15:05:46.468Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/城市/7713_wallhaven壁纸_#7753.jpeg",
+      "category": "风景",
+      "subcategory": "城市",
+      "filename": "7713_wallhaven壁纸_#7753.jpeg",
+      "createdAt": "2026-09-02T15:05:46.468Z",
+      "size": 4577349,
+      "format": "jpeg",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "城市",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "城市",
+        "keywords": [
+          "城市",
+          "日落",
+          "东京塔"
+        ],
+        "description": "这是一幅描绘了东京塔在日落时分的美景的图片。",
+        "filenameSuggestions": [
+          "暮光之城下的东京塔.jpg",
+          "橙黄渐变的天空下的东京塔.jpg"
+        ],
+        "displayTitle": "暮光之城",
+        "confidence": 0.9,
+        "reasoning": "'图片展示了城市的全景，可以看到许多建筑物和灯光，符合风景/城市的分类标准。'"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/城市/7714_wallhaven壁纸_#7751.jpeg",
+      "category": "风景",
+      "subcategory": "城市",
+      "filename": "7714_wallhaven壁纸_#7751.jpeg",
+      "createdAt": "2026-09-02T15:05:46.468Z",
+      "size": 6761733,
+      "format": "jpeg",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "城市",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "城市",
+        "keywords": [
+          "现代城市",
+          "高楼大厦",
+          "河流",
+          "交通"
+        ],
+        "description": "这幅图展示了现代化城市的壮丽景象，包括摩天大楼、繁忙的交通和蜿蜒的河流。",
+        "filenameSuggestions": [
+          "现代都市风光.jpg",
+          "繁华都市景观.jpg"
+        ],
+        "displayTitle": "现代都市风光",
+        "confidence": 0.9,
+        "reasoning": "图片主要描绘了一个现代化的城市景观，符合风景分类中的城市类别。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/创意/7717_wallhaven壁纸_#7750.jpeg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "7717_wallhaven壁纸_#7750.jpeg",
+      "createdAt": "2026-09-02T15:05:46.468Z",
+      "size": 2113070,
+      "format": "jpeg",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "数字雨",
+          "代码",
+          "三角形",
+          "科技感"
+        ],
+        "description": "画面中央有一个黑色的三角形，背景是绿色的数字雨，营造出一种高科技的氛围。",
+        "filenameSuggestions": [
+          "数字雨中的神秘三角形.jpg",
+          "绿色代码流中的暗黑三角形.jpg"
+        ],
+        "displayTitle": "数字雨中的神秘三角形",
+        "confidence": 0.9,
+        "reasoning": "'图片中没有可识别的人物或IP形象，因此不能归入人像分类。图片的风格属于插画类别，具有创意性，因此可以归入插画/创意。'"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/城市/141647_星形城市的几何之美.jpg",
+      "category": "风景",
+      "subcategory": "城市",
+      "filename": "141647_星形城市的几何之美.jpg",
+      "createdAt": "2026-09-02T15:05:46.468Z",
+      "size": 382882,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "城市",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "城市",
+        "keywords": [
+          "城市",
+          "建筑",
+          "屋顶",
+          "街道"
+        ],
+        "description": "这是一幅城市的鸟瞰图，展示了密集的建筑群和错综复杂的街道布局。",
+        "filenameSuggestions": [
+          "城市风光.jpg",
+          "城市全景图.jpg"
+        ],
+        "displayTitle": "城市风光",
+        "confidence": 0.9,
+        "reasoning": "'图片为城市景观，建筑物密集排列，根据规则C1，判定为[风景/城市]'"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/自然/141648_浪潮间的通道.jpg",
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "141648_浪潮间的通道.jpg",
+      "createdAt": "2026-09-02T15:05:46.468Z",
+      "size": 203152,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "自然风光",
+          "日落",
+          "海岸线"
+        ],
+        "description": "一幅美丽的自然风景图，展现了日落时分的海岸线和岩石。",
+        "filenameSuggestions": [
+          "宁静的海岸线.jpg",
+          "夕阳下的岩石海岸.jpg"
+        ],
+        "displayTitle": "海天一色",
+        "confidence": 0.9,
+        "reasoning": "这是一幅以自然景观为主的图片，没有特定的动漫、插画或其他主题元素，因此属于风景分类中的自然类别。"
+      }
+    }
+  ]
+}
