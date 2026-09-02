@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-09-01 19:48:07",
-  "count": 695,
+  "lastUpdated": "2026-09-02 15:09:38",
+  "count": 697,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -21233,6 +21233,79 @@
         "description": "一位身材修长的女子倚靠栏杆，黑色吊带裙在微风中轻盈飘动，长发随风翩然，眼神深邃温柔，散发着成熟迷人的魅力。",
         "confidence": 0.9,
         "reasoning": "图片为特定明星张凌赫，根据人像决策树A.1特定明星优先归入对应分类。图片中可见身材曲线及优雅姿态，符合魅力特征，但因目录已存在明星子类，故优先匹配人像/张凌赫而非通用魅力。"
+      }
+    },
+    "wallpaper/desktop/风景/城市/141647_星形城市的几何之美.jpg": {
+      "category": "风景",
+      "subcategory": "城市",
+      "filename": "141647_星形城市的几何之美.jpg",
+      "createdAt": "2026-09-02T15:05:46.468Z",
+      "cdnTag": "v1.4.13",
+      "size": 382882,
+      "format": "jpg",
+      "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "城市",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "城市",
+        "keywords": [
+          "城市",
+          "建筑",
+          "屋顶",
+          "街道"
+        ],
+        "description": "这是一幅城市的鸟瞰图，展示了密集的建筑群和错综复杂的街道布局。",
+        "filenameSuggestions": [
+          "城市风光.jpg",
+          "城市全景图.jpg"
+        ],
+        "displayTitle": "城市风光",
+        "confidence": 0.9,
+        "reasoning": "'图片为城市景观，建筑物密集排列，根据规则C1，判定为[风景/城市]'"
+      }
+    },
+    "wallpaper/desktop/风景/自然/141648_浪潮间的通道.jpg": {
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "141648_浪潮间的通道.jpg",
+      "createdAt": "2026-09-02T15:05:46.468Z",
+      "cdnTag": "v1.4.13",
+      "size": 203152,
+      "format": "jpg",
+      "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "自然风光",
+          "日落",
+          "海岸线"
+        ],
+        "description": "一幅美丽的自然风景图，展现了日落时分的海岸线和岩石。",
+        "filenameSuggestions": [
+          "宁静的海岸线.jpg",
+          "夕阳下的岩石海岸.jpg"
+        ],
+        "displayTitle": "海天一色",
+        "confidence": 0.9,
+        "reasoning": "这是一幅以自然景观为主的图片，没有特定的动漫、插画或其他主题元素，因此属于风景分类中的自然类别。"
       }
     }
   }
