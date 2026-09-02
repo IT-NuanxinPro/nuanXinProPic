@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-09-01 19:47:40",
+  "generatedAt": "2026-09-02 19:38:49",
   "total": 7,
   "items": [
+    {
+      "date": "2026-09-03",
+      "title": "一部守护荒野的法案",
+      "copyright": "郊狼丘，朱红悬崖国家纪念区，亚利桑那州，美国 (© James Hager/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%9C%B1%E7%BA%A2%E6%82%AC%E5%B4%96%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E5%8C%BA&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260902_AZWilderness%22&FORM=HPQUIZ",
+      "hsh": "5cb4a97f01d7c77a6be4b06bf1cd6f14",
+      "urlbase": "/th?id=OHR.AZWilderness_ZH-CN2664566131"
+    },
     {
       "date": "2026-09-02",
       "title": "海岸边的缤纷色彩",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260827_MichelSunset%22&FORM=HPQUIZ",
       "hsh": "7aa5a23b456f86a7fb6822722a7aea1d",
       "urlbase": "/th?id=OHR.MichelSunset_ZH-CN0822968543"
-    },
-    {
-      "date": "2026-08-27",
-      "title": "湖水、野生动物与奇景",
-      "copyright": "日出时的小红鹳群，马加迪湖，肯尼亚 (© Denis-Huot/Nature Picture Library)",
-      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%B9%96%E6%B3%8A%E6%97%A5&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260826_LakeMagadi%22&FORM=HPQUIZ",
-      "hsh": "10d60cf76cca639372535997c3c54ddf",
-      "urlbase": "/th?id=OHR.LakeMagadi_ZH-CN0601527009"
     }
   ]
 }
