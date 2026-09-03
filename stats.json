@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-09-03 04:47:55",
-  "cdnTag": "v1.4.18",
+  "lastUpdated": "2026-09-03 06:06:56",
+  "cdnTag": "v1.4.19",
   "series": {
     "desktop": {
-      "count": 722,
+      "count": 752,
       "categories": [
-        "动漫",
         "插画",
+        "动漫",
         "人像",
         "风景",
         "IP形象",
         "萌宠",
-        "政治",
         "游戏",
+        "政治",
         "影视",
         "通用"
       ]
@@ -46,11 +46,21 @@
     }
   },
   "total": {
-    "desktop": 722,
+    "desktop": 752,
     "mobile": 810,
     "avatar": 550
   },
   "releases": [
+    {
+      "tag": "v1.4.19",
+      "date": "2026-09-03",
+      "added": {
+        "desktop": 30,
+        "mobile": 0,
+        "avatar": 0
+      },
+      "publisher": "IT-NuanxinPro"
+    },
     {
       "tag": "v1.4.18",
       "date": "2026-09-03",
