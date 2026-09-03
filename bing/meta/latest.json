@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-09-02 19:38:49",
+  "generatedAt": "2026-09-03 19:41:48",
   "total": 7,
   "items": [
+    {
+      "date": "2026-09-04",
+      "title": "地平线上的红与白",
+      "copyright": "韦斯特黑弗的韦斯特黑弗桑德灯塔，石勒苏益格-荷尔斯泰因州，德国 (© bluejayphoto/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%9F%A6%E6%96%AF%E7%89%B9%E9%BB%91%E5%BC%97%E6%A1%91%E5%BE%B7%E7%81%AF%E5%A1%94&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260903_Westerheversand%22&FORM=HPQUIZ",
+      "hsh": "cb2031c3d38d3ae2d3a20b103d18f191",
+      "urlbase": "/th?id=OHR.Westerheversand_ZH-CN0517707643"
+    },
     {
       "date": "2026-09-03",
       "title": "一部守护荒野的法案",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260828_SantaCatarina%22&FORM=HPQUIZ",
       "hsh": "871d8e1084e913759131033b33852883",
       "urlbase": "/th?id=OHR.SantaCatarina_ZH-CN4170292043"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "潮汐塑造的传奇",
-      "copyright": "涨潮时的圣米歇尔山，芒什省，诺曼底，法国 (© Clement LEONARD/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%9C%A3%E7%B1%B3%E6%AD%87%E5%B0%94%E5%B1%B1&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260827_MichelSunset%22&FORM=HPQUIZ",
-      "hsh": "7aa5a23b456f86a7fb6822722a7aea1d",
-      "urlbase": "/th?id=OHR.MichelSunset_ZH-CN0822968543"
     }
   ]
 }
