@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-03 06:15:25",
-  "cdnTag": "v1.4.20",
+  "lastUpdated": "2026-09-03 08:31:07",
+  "cdnTag": "v1.4.21",
   "series": {
     "desktop": {
-      "count": 773,
+      "count": 793,
       "categories": [
         "插画",
         "动漫",
@@ -14,6 +14,7 @@
         "游戏",
         "政治",
         "影视",
+        "汽车",
         "通用"
       ]
     },
@@ -46,11 +47,21 @@
     }
   },
   "total": {
-    "desktop": 773,
+    "desktop": 793,
     "mobile": 810,
     "avatar": 550
   },
   "releases": [
+    {
+      "tag": "v1.4.21",
+      "date": "2026-09-03",
+      "added": {
+        "desktop": 20,
+        "mobile": 0,
+        "avatar": 0
+      },
+      "publisher": "IT-NuanxinPro"
+    },
     {
       "tag": "v1.4.20",
       "date": "2026-09-03",
