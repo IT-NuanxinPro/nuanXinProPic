@@ -1,9 +1,9 @@
 {
-  "lastUpdated": 1788377971.627035,
-  "cdnTag": "v1.4.16",
+  "lastUpdated": "2026-09-03 02:26:30",
+  "cdnTag": "v1.4.17",
   "series": {
     "desktop": {
-      "count": 712,
+      "count": 722,
       "categories": [
         "动漫",
         "插画",
@@ -43,24 +43,24 @@
         "萌宠",
         "表情包"
       ]
-    },
-    "video": {
-      "count": 49,
-      "categories": [
-        "social-cover",
-        "desktop",
-        "mobile"
-      ]
     }
   },
   "total": {
-    "desktop": 712,
+    "desktop": 722,
     "mobile": 810,
-    "avatar": 525,
-    "video": 49,
-    "bing": 2655
+    "avatar": 525
   },
   "releases": [
+    {
+      "tag": "v1.4.17",
+      "date": "2026-09-03",
+      "added": {
+        "desktop": 10,
+        "mobile": 0,
+        "avatar": 0
+      },
+      "publisher": "IT-NuanxinPro"
+    },
     {
       "tag": "v1.4.16",
       "date": "2026-09-03",

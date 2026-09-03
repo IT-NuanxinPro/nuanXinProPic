@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-09-02 19:39:22",
-  "count": 712,
+  "lastUpdated": "2026-09-03 02:26:30",
+  "count": 722,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -21858,6 +21858,375 @@
         "displayTitle": "宇宙中的孤独身影",
         "confidence": 0.9,
         "reasoning": "图片展示了宇航员在太空中的情景，属于风景类的星空主题。"
+      }
+    },
+    "wallpaper/desktop/风景/花卉/7749_wallhaven壁纸_#7716.jpeg": {
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "7749_wallhaven壁纸_#7716.jpeg",
+      "createdAt": "2026-09-03T02:24:32.933Z",
+      "cdnTag": "v1.4.17",
+      "size": 4870049,
+      "format": "jpeg",
+      "resolution": {
+        "width": 6144,
+        "height": 3472,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "日落",
+          "薰衣草",
+          "向日葵",
+          "花海"
+        ],
+        "description": "这幅图展现了一片美丽的花海，在夕阳下显得格外迷人。",
+        "filenameSuggestions": [
+          "夕阳下的紫色花海.jpg",
+          "盛开的薰衣草与向日葵.jpg"
+        ],
+        "displayTitle": "花海日落",
+        "confidence": 0.9,
+        "reasoning": "'图片中没有人物，排除A系列；没有特定的动漫角色或插画风格，排除B系列；根据C系列的规则1，这是一幅以花卉为主的风景照片，因此属于风景/花卉。'"
+      }
+    },
+    "wallpaper/desktop/风景/城市/7750_wallhaven壁纸_#7715.jpeg": {
+      "category": "风景",
+      "subcategory": "城市",
+      "filename": "7750_wallhaven壁纸_#7715.jpeg",
+      "createdAt": "2026-09-03T02:24:32.933Z",
+      "cdnTag": "v1.4.17",
+      "size": 3539314,
+      "format": "jpeg",
+      "resolution": {
+        "width": 6143,
+        "height": 3468,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "城市",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "城市",
+        "keywords": [
+          "城市",
+          "夜景",
+          "灯光",
+          "桥梁"
+        ],
+        "description": "这张照片展示了城市的夜景，高楼大厦林立，道路交错纵横，车流不息。",
+        "filenameSuggestions": [
+          "城市的夜晚.jpg",
+          "灯火阑珊的城市.jpg"
+        ],
+        "displayTitle": "城市的夜晚",
+        "confidence": 0.9,
+        "reasoning": "图片主要描绘了现代城市的夜景，高楼大厦和繁忙的道路构成了城市的轮廓，因此可以归类为风景/城市类别。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/7751_wallhaven壁纸_#7714.jpeg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "7751_wallhaven壁纸_#7714.jpeg",
+      "createdAt": "2026-09-03T02:24:32.933Z",
+      "cdnTag": "v1.4.17",
+      "size": 7347468,
+      "format": "jpeg",
+      "resolution": {
+        "width": 6000,
+        "height": 2500,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫",
+          "草原",
+          "黄发少年"
+        ],
+        "description": "一位黄发少年站在广阔的草原上，背景是连绵的山脉和云雾缭绕的天空。",
+        "filenameSuggestions": [
+          "黄发少年漫步草原.jpg",
+          "草原上的黄发少年.jpg"
+        ],
+        "displayTitle": "黄发少年漫步草原",
+        "confidence": 0.9,
+        "reasoning": "图片中的角色具有动漫风格的特征，如夸张的表情和大大的眼睛，因此可以归类为动漫类别。由于无法确定具体的动漫作品或角色，所以将其归类为动漫/二次元。"
+      }
+    },
+    "wallpaper/desktop/风景/天空/7755_wallhaven壁纸_#7710.jpeg": {
+      "category": "风景",
+      "subcategory": "天空",
+      "filename": "7755_wallhaven壁纸_#7710.jpeg",
+      "createdAt": "2026-09-03T02:24:32.933Z",
+      "cdnTag": "v1.4.17",
+      "size": 1907510,
+      "format": "jpeg",
+      "resolution": {
+        "width": 3070,
+        "height": 1278,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "天空",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "天空",
+        "keywords": [
+          "蓝天",
+          "白云",
+          "飞行器",
+          "天空"
+        ],
+        "description": "一片湛蓝的天空下，一架飞行器划过，留下了白色的尾迹。",
+        "filenameSuggestions": [
+          "蓝天白云下的飞行器.jpg",
+          "晴朗天空中翱翔的飞机.jpg"
+        ],
+        "displayTitle": "蓝天白云下的飞行器",
+        "confidence": 0.9,
+        "reasoning": "图片展示了广阔的天空背景，以及飞行器的飞行轨迹，符合风景中的天空类别。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/7757_wallhaven壁纸_#7708.jpeg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "7757_wallhaven壁纸_#7708.jpeg",
+      "createdAt": "2026-09-03T02:24:32.933Z",
+      "cdnTag": "v1.4.17",
+      "size": 1753938,
+      "format": "jpeg",
+      "resolution": {
+        "width": 5255,
+        "height": 2688,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫",
+          "二次元",
+          "水下",
+          "粉色头发"
+        ],
+        "description": "这是一幅描绘一个粉色头发的女孩在水下漂浮的动漫画面。",
+        "filenameSuggestions": [
+          "在水下漂浮的女孩.jpg",
+          "梦幻水中的粉色头发女孩.jpg"
+        ],
+        "displayTitle": "水下梦境",
+        "confidence": 0.9,
+        "reasoning": "图片中的人物具有典型的动漫风格，特别是她的发型和服装，符合动漫的分类标准。由于无法确定具体的动漫作品或角色，因此将其归类为‘动漫/二次元’类别。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/7770_wallhaven壁纸_#7695.jpeg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "7770_wallhaven壁纸_#7695.jpeg",
+      "createdAt": "2026-09-03T02:24:32.933Z",
+      "cdnTag": "v1.4.17",
+      "size": 3741893,
+      "format": "jpeg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "插画",
+          "场景",
+          "日落",
+          "海洋",
+          "城堡"
+        ],
+        "description": "一幅描绘了在海天交接处矗立着一座古老城堡的插画。",
+        "filenameSuggestions": [
+          "海天一色下的神秘城堡.jpg",
+          "夕阳映照下的孤岛城堡.jpg"
+        ],
+        "displayTitle": "海天一色下的神秘城堡",
+        "confidence": 0.9,
+        "reasoning": "这是一幅具有明显插画风格的图片，画面中的城堡和周围的自然景观都是通过绘画手法呈现出来的，因此可以归类为插画类别。由于图片中没有明确的场景主题，所以将其归入插画的通用场景类别。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/7774_wallhaven壁纸_#7691.jpeg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "7774_wallhaven壁纸_#7691.jpeg",
+      "createdAt": "2026-09-03T02:24:32.933Z",
+      "cdnTag": "v1.4.17",
+      "size": 252195,
+      "format": "jpeg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "插画",
+          "帆船",
+          "海洋",
+          "阳光"
+        ],
+        "description": "一幅描绘了宁静海面的插画，一艘红色的帆船在阳光下航行。",
+        "filenameSuggestions": [
+          "宁静的海面与帆船.jpg",
+          "阳光下的海岸线.jpg"
+        ],
+        "displayTitle": "海天一色",
+        "confidence": 0.9,
+        "reasoning": "这是一幅插画作品，画面中有帆船和海洋的场景，因此可以归类为插画/场景。"
+      }
+    },
+    "wallpaper/desktop/插画/创意/7775_wallhaven壁纸_#7690.jpeg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "7775_wallhaven壁纸_#7690.jpeg",
+      "createdAt": "2026-09-03T02:24:32.933Z",
+      "cdnTag": "v1.4.17",
+      "size": 81946,
+      "format": "jpeg",
+      "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "咖啡杯",
+          "松鼠",
+          "幽默",
+          "创意"
+        ],
+        "description": "一只可爱的松鼠正拿着一个巨大的咖啡杯，周围散落着几个较小的咖啡杯，似乎在寻找更多的咖啡。",
+        "filenameSuggestions": [
+          "咖啡因的诱惑.jpg",
+          "渴望更多能量.jpg"
+        ],
+        "displayTitle": "咖啡因的诱惑",
+        "confidence": 0.9,
+        "reasoning": "'图片为插画风格，具有创意性，根据规则B3，判定为[插画/创意]。'"
+      }
+    },
+    "wallpaper/desktop/风景/自然/7776_wallhaven壁纸_#7689.jpeg": {
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "7776_wallhaven壁纸_#7689.jpeg",
+      "createdAt": "2026-09-03T02:24:32.933Z",
+      "cdnTag": "v1.4.17",
+      "size": 1183627,
+      "format": "jpeg",
+      "resolution": {
+        "width": 2560,
+        "height": 1600,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "火车",
+          "沙漠",
+          "铁轨",
+          "旅行"
+        ],
+        "description": "这张照片展示了在广阔的沙漠中一条长长的火车轨道，周围是稀疏的植被和蓝天。",
+        "filenameSuggestions": [
+          "沙漠中的火车轨道.jpg",
+          "行驶在荒野的铁轨.jpg"
+        ],
+        "displayTitle": "铁轨上的列车",
+        "confidence": 0.9,
+        "reasoning": "这是一张自然风景的照片，主要描绘了火车在沙漠中的景象，因此被归类为风景/自然类别。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/7779_wallhaven壁纸_#7686.jpeg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "7779_wallhaven壁纸_#7686.jpeg",
+      "createdAt": "2026-09-03T02:24:32.933Z",
+      "cdnTag": "v1.4.17",
+      "size": 3964375,
+      "format": "jpeg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "冒险者",
+          "森林",
+          "夜晚"
+        ],
+        "description": "三个冒险者在夜晚的森林里准备战斗，背景中有古老的遗迹和神秘的生物。",
+        "filenameSuggestions": [
+          "森林中的冒险者.jpg",
+          "夜晚森林里的三位冒险者.jpg"
+        ],
+        "displayTitle": "森林中的冒险者",
+        "confidence": 0.9,
+        "reasoning": "这是一幅插画风格的图片，描绘了三个冒险者在森林中的情景，属于插画/场景类别。"
       }
     }
   }
