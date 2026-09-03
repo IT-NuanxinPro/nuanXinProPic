@@ -1,0 +1,835 @@
+{
+  "version": 1,
+  "createdAt": "2026-09-03T04:45:32.068Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/表情包/搞怪/640 (1).jpg",
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "640 (1).jpg",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 59408,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "搞怪猫咪",
+          "缝合伤口",
+          "汉堡头饰",
+          "卡通风格",
+          "表情包"
+        ],
+        "description": "一只戴着缝合汉堡头饰的灰色卡通猫咪，脸上有几道缝合线，露出顽强的微笑，散发着可爱又搞怪的氛围。",
+        "filenameSuggestions": [
+          "头顶汉堡头饰的缝合卡通猫咪.jpg",
+          "顽皮微笑缝合伤口搞怪猫咪.jpg"
+        ],
+        "displayTitle": "头顶汉堡头饰的缝合卡通猫咪",
+        "confidence": 0.9,
+        "reasoning": "根据图片，猫咪头顶戴有缝合伤口和汉堡造型头饰，表现出夸张搞怪的表情，符合表情包的定义。根据规则C1，判定为表情包/搞怪。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/蜡笔小新/640 (1).png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "640 (1).png",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 1453801,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "毛绒玩具",
+          "俏皮眨眼",
+          "动漫卡通",
+          "可爱公仔"
+        ],
+        "description": "这只蜡笔小新毛绒公仔生动再现了动漫中顽皮男孩的标志性一侧闭眼表情与活泼奔跑姿态，毛绒质感带来温馨治愈感，仿佛在邀请我们一同踏上冒险之旅。",
+        "filenameSuggestions": [
+          "蜡笔小新毛绒公仔俏皮眨眼奔跑.jpg",
+          "可爱蜡笔小新彩色补丁服饰毛绒玩偶.jpg"
+        ],
+        "displayTitle": "蜡笔小新毛绒公仔俏皮眨眼奔跑",
+        "confidence": 0.9,
+        "reasoning": "图片中认出蜡笔小新动漫角色特征，根据规则A2，判定为动漫/蜡笔小新"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/喜羊羊与灰太狼/640 (2).jpg",
+      "category": "动漫",
+      "subcategory": "喜羊羊与灰太狼",
+      "filename": "640 (2).jpg",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 63951,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "avatar",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "灰猫",
+          "捧心",
+          "拉祖莉",
+          "二次元",
+          "萌系"
+        ],
+        "description": "拉祖莉是一只毛茸茸的灰猫，他调皮眨眼吐舌捧着粉心，营造出温暖治愈的氛围。明亮色彩与可爱线条，传递正能量与陪伴感。",
+        "filenameSuggestions": [
+          "粉心捧抱灰猫拉祖莉温馨插画.jpg",
+          "毛茸茸灰猫捧粉心治愈二次元插画.jpg"
+        ],
+        "displayTitle": "温柔捧心灰猫拉祖莉的治愈瞬间",
+        "confidence": 0.9,
+        "reasoning": "根据决策树A，识别出图片中的角色为拉祖莉，虽非现有特定动漫或IP，但属于IP形象范畴，判定为IP形象/通用。非卡通简笔画、非氛围感人像、非甜妹或背影。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/蜡笔小新/640 (2).png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "640 (2).png",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 1157451,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动漫角色",
+          "呆萌表情",
+          "卡通萌娃",
+          "滑稽姿态"
+        ],
+        "description": "呆萌滑稽的蜡笔小新以思考状姿态展现顽皮可爱，3D渲染下童真活力十足。",
+        "filenameSuggestions": [
+          "呆萌滑稽蜡笔小新卡通形象.jpg",
+          "三维风格蜡笔小新思考萌系角色.jpg"
+        ],
+        "displayTitle": "沉思中的呆萌蜡笔小新卡通角色",
+        "confidence": 0.9,
+        "reasoning": "识别出蜡笔小新动漫角色特征，根据规则A2判定为动漫/蜡笔小新"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/喜羊羊与灰太狼/640 (3).jpg",
+      "category": "动漫",
+      "subcategory": "喜羊羊与灰太狼",
+      "filename": "640 (3).jpg",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 96110,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "喜羊羊与灰太狼",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "喜羊羊与灰太狼",
+        "keywords": [
+          "喜羊羊与灰太狼",
+          "动漫卡通",
+          "梦幻可爱",
+          "羊羊闭眼",
+          "灰太狼小憩"
+        ],
+        "description": "灰太狼愉快地坐在喜羊羊的头顶，喜羊羊闭眼休息，绿色背景营造出梦幻氛围，充满活泼可爱的卡通气息。",
+        "filenameSuggestions": [
+          "灰太狼小憩喜羊羊梦境依偎.jpg",
+          "羊羊闭眼灰太狼梦中相伴.jpg"
+        ],
+        "displayTitle": "灰太狼喜羊羊梦境共眠",
+        "confidence": 0.9,
+        "reasoning": "识别出图片中的灰太狼和喜羊羊角色特征，根据规则A2，判定为动漫/喜羊羊与灰太狼"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/蜡笔小新/640 (3).png",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "640 (3).png",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 1061122,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "卡通动漫",
+          "俏皮活力",
+          "彩色服饰",
+          "动态姿势"
+        ],
+        "description": "蜡笔小新以俏皮姿态奔跑，黑色短发配上彩色服饰，充满童真活力，展现动漫角色的可爱模样。",
+        "filenameSuggestions": [
+          "蜡笔小新俏皮活力动态卡通形象.jpg",
+          "蜡笔小新彩色服饰俏皮侧脸.jpg"
+        ],
+        "displayTitle": "蜡笔小新俏皮活力动态卡通形象",
+        "confidence": 0.9,
+        "reasoning": "图片识别为蜡笔小新动漫角色，根据规则A2，判定为动漫/蜡笔小新，is_perfect_match为true"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/表情包/搞怪/640 (4).jpg",
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "640 (4).jpg",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 107770,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "搞怪表情",
+          "卡通猫咪",
+          "云朵背景",
+          "祈祷姿势",
+          "Q版风格"
+        ],
+        "description": "置身于彩色云朵中的小灰猫，橙色帽子搭配粉嫩脸颊，双手合十的祈祷姿势却透出调皮搞怪，眼睛弯弯却有十字，尽显可爱与幽默。",
+        "filenameSuggestions": [
+          "云朵上的可爱灰猫祈祷表情.jpg",
+          "橙色帽子下的小灰猫搞怪脸.jpg"
+        ],
+        "displayTitle": "云朵上的可爱灰猫祈祷表情",
+        "confidence": 0.9,
+        "reasoning": "根据规则C，图片为卡通猫咪，带有夸张搞怪表情（双手合十、眼睛眯起），判定为表情包/搞怪，而非萌宠（非真实照片），非IP或动漫具体角色，符合分类体系。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/表情包/搞怪/640 (4).png",
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "640 (4).png",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 175331,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "毛茸茸猫咪",
+          "捧西瓜",
+          "搞怪表情",
+          "萌趣",
+          "可爱瞬间"
+        ],
+        "description": "毛茸茸的小猫咪圆睁着水汪汪的大眼睛，捧着鲜红欲滴的西瓜片，口水微微滑落，尾巴轻轻卷起，展现出夸张而搞怪的萌态，仿佛在邀请你一起分享夏日的美味。",
+        "filenameSuggestions": [
+          "毛茸茸小猫咪捧西瓜逗趣萌态.jpg",
+          "小猫咪手持西瓜片的萌趣瞬间.jpg"
+        ],
+        "displayTitle": "毛茸茸小猫咪捧西瓜逗趣萌态",
+        "confidence": 0.9,
+        "reasoning": "图片为真实猫咪照片，表现出夸张搞怪的表情并手持西瓜，符合表情包/搞怪的特征，根据决策树C判定为表情包/搞怪"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/喜羊羊与灰太狼/640 (5).jpg",
+      "category": "动漫",
+      "subcategory": "喜羊羊与灰太狼",
+      "filename": "640 (5).jpg",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 63919,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "喜羊羊与灰太狼",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "喜羊羊与灰太狼",
+        "keywords": [
+          "搞怪表情",
+          "灰太狼",
+          "喜羊羊与灰太狼",
+          "动漫角色",
+          "捧书卡通"
+        ],
+        "description": "灰太狼捧书沉思，眼神闪烁星光，嘴角微扬嘴角勾起神秘笑意，切片面包稳稳压顶，营造出日常却又魔幻的奇妙氛围。",
+        "filenameSuggestions": [
+          "灰太狼捧书沉思的奇妙一刻.jpg",
+          "喜羊羊灰太狼手持书本的幽默瞬间.jpg"
+        ],
+        "displayTitle": "灰太狼捧书沉思的魔幻一刻",
+        "confidence": 0.9,
+        "reasoning": "图片识别出喜羊羊与灰太狼具体动漫角色特征，根据规则A2，判定为动漫/喜羊羊与灰太狼"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/卡通简笔画/640 (5).png",
+      "category": "人像",
+      "subcategory": "卡通简笔画",
+      "filename": "640 (5).png",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 263488,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "卡通简笔画",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "卡通简笔画",
+        "keywords": [
+          "Q版卡通",
+          "甜美少女",
+          "金币堆",
+          "卡通简笔画",
+          "治愈氛围"
+        ],
+        "description": "Q版少女躺在金币堆上，红色毛衣搭配金色项链，甜美笑容下是幸福的午睡时光，充满童真与治愈感。",
+        "filenameSuggestions": [
+          "金币堆中甜笑的Q版少女.jpg",
+          "红衣少女金币堆中甜蜜笑容.jpg"
+        ],
+        "displayTitle": "金币堆中甜笑的卡通少女",
+        "confidence": 0.9,
+        "reasoning": "识别出图片为Q版卡通简笔画风格的少女，符合规则B.1卡通简笔画特征（线条简单、Q版、可爱风格），归类为人像/卡通简笔画"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/IP形象/Hello Kitty/640 (6).jpg",
+      "category": "IP形象",
+      "subcategory": "Hello Kitty",
+      "filename": "640 (6).jpg",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 74587,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "IP形象",
+        "subcategory": "Hello Kitty",
+        "primary": "avatar",
+        "secondary": "IP形象",
+        "third": "Hello Kitty",
+        "keywords": [
+          "凯蒂猫",
+          "捧碗进食",
+          "卡通萌系",
+          "搞怪表情",
+          "温馨氛围"
+        ],
+        "description": "粉嫩的凯蒂猫正温柔捧起热气腾腾的米饭碗，夹起一勺送入口中，享受着美食的瞬间，脸颊微红，眼神满足又可爱，尽显生活中的小确幸。",
+        "filenameSuggestions": [
+          "粉嫩凯蒂猫捧米饭的逗趣表情.jpg",
+          "温馨凯蒂猫捧碗微笑的治愈瞬间.jpg"
+        ],
+        "displayTitle": "温馨凯蒂猫捧碗进食的甜蜜一刻",
+        "confidence": 0.9,
+        "reasoning": "识别出图片中为Hello Kitty的IP形象，根据规则A1，必须归类为IP形象/Hello Kitty，完美匹配现有分类。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/萌宠/猫咪/640 (6).png",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "640 (6).png",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 239143,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "毛茸茸橘猫",
+          "酣睡",
+          "宁静氛围",
+          "治愈系"
+        ],
+        "description": "毛茸茸的米色橘猫在柔软布料上闭眼沉睡，嘴角微张，带来纯净的宁静与治愈。",
+        "filenameSuggestions": [
+          "毛茸茸闭眼酣睡的米色橘猫.jpg",
+          "温柔午睡中毛茸茸的橘猫.jpg"
+        ],
+        "displayTitle": "宁静酣睡的毛茸茸橘猫",
+        "confidence": 0.9,
+        "reasoning": "图片为真实毛茸茸橘猫闭眼酣睡的照片，根据萌宠决策树C2，判定为萌宠/猫咪"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/表情包/搞怪/640 (7).jpg",
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "640 (7).jpg",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 164217,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "搞怪",
+          "卡通狐狸",
+          "表情包",
+          "二次元",
+          "可爱"
+        ],
+        "description": "灰色狐狸戴橙色帽子，瞪大眼睛露出夸张搞怪表情，粉嫩脸颊点缀十字标记，顽皮中透着萌意，打造出聊天表情包的生动趣味。",
+        "filenameSuggestions": [
+          "顽皮灰狐搞怪表情包可爱特写.jpg",
+          "橙帽卡通狐狸搞怪形象.jpg"
+        ],
+        "displayTitle": "顽皮灰狐搞怪表情包可爱特写",
+        "confidence": 0.9,
+        "reasoning": "根据图片夸张眼睛与嘴巴的搞怪特征，优先匹配规则C表情包/搞怪，无特定IP或动漫角色匹配，归类表情包/搞怪"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/猫和老鼠/640 (7).png",
+      "category": "动漫",
+      "subcategory": "猫和老鼠",
+      "filename": "640 (7).png",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 1087705,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "毛绒狗狗",
+          "绿毯帽子",
+          "窗台萌宠",
+          "棕色玩具狗",
+          "治愈闲适"
+        ],
+        "description": "一只棕色毛绒小狗静静趴在窗户上，戴着一顶蓬松的绿毯帽子，营造出柔和的窗台氛围。它的黑眼睛和粉嫩小鼻子透露出天然的萌态，让人忍不住想靠近感受那份治愈。",
+        "filenameSuggestions": [
+          "窗台绿毯小狗的午后闲适.jpg",
+          "棕色毛绒狗狗戴绿毯帽子的优雅姿态.jpg"
+        ],
+        "displayTitle": "窗台绿毯帽下的棕犬闲适时光",
+        "confidence": 0.9,
+        "reasoning": "图片为棕色毛绒狗狗形象，戴绿色地毯帽，趴在窗台上。根据规则C萌宠决策树，匹配真实狗狗特征，判定为萌宠/狗狗，无需IP或动漫匹配。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/喜羊羊与灰太狼/640 (8).jpg",
+      "category": "动漫",
+      "subcategory": "喜羊羊与灰太狼",
+      "filename": "640 (8).jpg",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 79794,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "喜羊羊与灰太狼",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "喜羊羊与灰太狼",
+        "keywords": [
+          "灰太狼",
+          "喜羊羊与灰太狼",
+          "Q版动漫",
+          "卡通狼",
+          "俏皮表情"
+        ],
+        "description": "夕阳下城堡前的灰太狼俏皮眨眼，脸红红的，调皮地眯起眼睛，充满童趣的动漫形象。",
+        "filenameSuggestions": [
+          "黄昏城堡旁灰太狼俏皮模样.jpg",
+          "夕阳余晖中灰太狼憨笑表情.jpg"
+        ],
+        "displayTitle": "黄昏城堡旁灰太狼的俏皮模样",
+        "confidence": 0.9,
+        "reasoning": "图片识别为喜羊羊与灰太狼系列的动漫角色灰太狼，符合动漫角色决策树，归类为动漫/喜羊羊与灰太狼"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/表情包/搞怪/640 (8).png",
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "640 (8).png",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 1028708,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "南瓜帽企鹅",
+          "招财",
+          "萌系",
+          "搞怪",
+          "可爱"
+        ],
+        "description": "一只南瓜帽企鹅抱着招财牌子，可爱十足，毛绒绒的触感带来招财进宝的温暖祝福。",
+        "filenameSuggestions": [
+          "南瓜帽招财小企鹅萌系形象.jpg",
+          "橙色南瓜头招财企鹅可爱造型.jpg"
+        ],
+        "displayTitle": "南瓜帽招财小企鹅萌系可爱形象",
+        "confidence": 0.9,
+        "reasoning": "图片展示一只穿着南瓜帽的企鹅玩偶，头部有招财牌子，根据表情包决策树，判定为表情包/搞怪，因为具有搞怪表情和可用于聊天表达情绪的特征。非特定IP，故无提案。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/喜羊羊与灰太狼/640 (9).jpg",
+      "category": "动漫",
+      "subcategory": "喜羊羊与灰太狼",
+      "filename": "640 (9).jpg",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 116571,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "avatar",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "商战狼人",
+          "金融插画",
+          "都市卡通",
+          "灰色猎手",
+          "股票主题"
+        ],
+        "description": "都市摩天楼中，一只灰色狼人穿着西装，手持金融图表，露出得意的笑容。背景是高楼与波动曲线，商战与成功的氛围浓郁。",
+        "filenameSuggestions": [
+          "都市金融街头商战灰衣狼人.jpg",
+          "摩天都市中灰狼商海得意图.jpg"
+        ],
+        "displayTitle": "都市金融街头商战灰衣狼人",
+        "confidence": 0.9,
+        "reasoning": "图片为特定IP形象的卡通狼人，穿着西装手持金融图表，根据规则A1，判定为IP形象/通用，未匹配现有列表，故is_perfect_match为false，提案为IP形象/股票大灰狼"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/表情包/搞怪/640 (9).png",
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "640 (9).png",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 770321,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "通用",
+        "subcategory": "通用",
+        "primary": "avatar",
+        "secondary": "通用",
+        "third": "通用",
+        "keywords": [
+          "企鹅玩偶",
+          "抱钱",
+          "搞怪",
+          "金钱",
+          "可爱"
+        ],
+        "description": "可爱的黑白黄企鹅正手捧百元钞票，毛茸茸的质感与夸张动作带来无限欢乐。",
+        "filenameSuggestions": [
+          "手捧百元钞票的幽默企鹅.jpg",
+          "可爱的抱钱企鹅玩偶特写.jpg"
+        ],
+        "displayTitle": "手捧百元钞票的幽默企鹅",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，企鹅玩偶手持卷起百元钞票的夸张抱钱姿势，未识别出特定IP形象或动漫角色（无匹配列表）。非人像类别（非背影/氛围感等），非萌宠（非真实猫狗照片），非插画（为照片而非插画）。因此归类为通用。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/喜羊羊与灰太狼/640 (10).jpg",
+      "category": "动漫",
+      "subcategory": "喜羊羊与灰太狼",
+      "filename": "640 (10).jpg",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 172105,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "插画",
+        "subcategory": "二次元",
+        "primary": "avatar",
+        "secondary": "插画",
+        "third": "二次元",
+        "keywords": [
+          "二次元卡通",
+          "工厂工匠",
+          "黄帽狼",
+          "蓝工装",
+          "幽默表情"
+        ],
+        "description": "一位灰色小狼头戴黄色安全帽，穿着蓝色工装裤，手持扳手站在热闹的工厂流水线上，表情生动有趣。",
+        "filenameSuggestions": [
+          "黄色安全帽下的幽默工狼.jpg",
+          "蓝工装手握扳手的卡通灰狼.jpg"
+        ],
+        "displayTitle": "黄色安全帽下的幽默工狼",
+        "confidence": 0.9,
+        "reasoning": "图片为动漫风格的通用卡通插画，角色无匹配具体IP或动漫子类，根据规则A2和D1判定为插画/二次元"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/表情包/搞怪/640 (10).png",
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "640 (10).png",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 1246856,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "IP形象",
+        "subcategory": "Hello Kitty",
+        "primary": "avatar",
+        "secondary": "IP形象",
+        "third": "Hello Kitty",
+        "keywords": [
+          "粉嫩Hello Kitty羊咩咩",
+          "卡通萌系",
+          "粉色太阳镜",
+          "和平手势",
+          "郁金香背景"
+        ],
+        "description": "蓝天之下，粉嫩羊咩咩头戴Hello Kitty贴纸与发饰，戴粉色太阳镜，身穿粉色背带裤，手持粉色郁金香，做出和平手势，甜美可爱充满春日氛围。",
+        "filenameSuggestions": [
+          "粉嫩Hello Kitty羊咩咩卡通形象.jpg",
+          "春日蓝天粉色Hello Kitty羊咩咩萌系.jpg"
+        ],
+        "displayTitle": "粉嫩Hello Kitty羊咩咩的春日邂逅",
+        "confidence": 0.9,
+        "reasoning": "图片头部明确贴有Hello Kitty贴纸和发夹，认出具体IP角色Hello Kitty，根据规则A1，必须归入IP形象/Hello Kitty。主体为卡通羊，风格可爱萌系，符合IP形象特征。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/喜羊羊与灰太狼/640 (11).jpg",
+      "category": "动漫",
+      "subcategory": "喜羊羊与灰太狼",
+      "filename": "640 (11).jpg",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 125204,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "喜羊羊与灰太狼",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "喜羊羊与灰太狼",
+        "keywords": [
+          "喜羊羊与灰太狼",
+          "摄影师",
+          "Q版卡通",
+          "萌系灰太狼",
+          "卡通摄影"
+        ],
+        "description": "灰太狼头戴摄影师帽，肩背相机挎包，手持专业摄影器材，背景散落胶片和镜头，展现出活泼的卡通摄影师生活。",
+        "filenameSuggestions": [
+          "喜羊羊与灰太狼摄影师Q版萌系卡通形象.jpg",
+          "灰太狼摄影趣事卡通可爱形象.jpg"
+        ],
+        "displayTitle": "灰太狼摄影师Q版萌系卡通形象",
+        "confidence": 0.9,
+        "reasoning": "图片中灰太狼为喜羊羊与灰太狼的角色，根据动漫决策树，识别出具体动漫角色，现有目录包含喜羊羊与灰太狼，归类为动漫/喜羊羊与灰太狼"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/表情包/搞怪/640 (11).png",
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "640 (11).png",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 1177146,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "Q版毛绒",
+          "粉色搞怪",
+          "纳财表情",
+          "花头巾玩偶"
+        ],
+        "description": "粉嫩Q版毛绒小企戴着鲜艳花头巾，眨着俏皮眼睛，手捧成叠美元钞票，调皮笑容仿佛在低语财富秘密，尽显调皮搞怪的魅力。",
+        "filenameSuggestions": [
+          "粉嫩Q版毛绒小企戴花头巾纳财.jpg",
+          "毛绒粉企眨眼花巾拿钱搞怪.jpg"
+        ],
+        "displayTitle": "粉嫩Q版毛绒小企戴花头巾纳财搞怪",
+        "confidence": 0.9,
+        "reasoning": "图片为粉色毛绒玩具Q版，戴红白花头巾，眨眼，拿着钱，符合表情包搞怪表情特征（夸张动作+调皮神态），根据规则C判定为表情包/搞怪；未识别出任何现有IP或动漫角色，故is_perfect_match=false，新分类提案为通用毛绒玩偶。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/喜羊羊与灰太狼/640 (12).jpg",
+      "category": "动漫",
+      "subcategory": "喜羊羊与灰太狼",
+      "filename": "640 (12).jpg",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 88738,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "IP形象",
+        "subcategory": "牛牛黎深&噜噜",
+        "primary": "avatar",
+        "secondary": "IP形象",
+        "third": "牛牛黎深&噜噜",
+        "keywords": [
+          "商界小狼",
+          "手持计划书",
+          "卡通灰狼",
+          "西装商战",
+          "搞怪IP"
+        ],
+        "description": "一位灰色小狼身着西装，手持计划书，脸上有补丁纹路，笑容灿烂自信，背景简洁，传达出商海搏击与创意梦想的活力。",
+        "filenameSuggestions": [
+          "商海逐浪的灰色小狼手持计划书.jpg",
+          "西装革履的卡通灰狼插画.jpg"
+        ],
+        "displayTitle": "商海逐浪的灰色小狼",
+        "confidence": 0.9,
+        "reasoning": "根据图片特征，识别出IP形象牛牛黎深&噜噜的角色，符合规则A1，判定为IP形象/牛牛黎深&噜噜"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/喜羊羊与灰太狼/640 (13).jpg",
+      "category": "动漫",
+      "subcategory": "喜羊羊与灰太狼",
+      "filename": "640 (13).jpg",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 179228,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "卡通简笔画",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "卡通简笔画",
+        "keywords": [
+          "黑喵",
+          "Q版卡通",
+          "黑客风格",
+          "动漫插画",
+          "可爱形象"
+        ],
+        "description": "黑喵黑客戴眼镜耳机坐在电脑前思考代码。Q版卡通风格，科技与萌系融合。",
+        "filenameSuggestions": [
+          "黑喵黑客沉思于代码世界.jpg",
+          "黑猫戴眼镜戴耳机思考形象.jpg"
+        ],
+        "displayTitle": "黑喵黑客沉思于代码世界",
+        "confidence": 0.9,
+        "reasoning": "图片为卡通简笔画风格的猫咪形象，符合规则B1卡通简笔画特征：线条简单、Q版可爱、非写实。根据决策树优先级B，判定为[人像/卡通简笔画]。非特定IP形象也非动漫角色。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/喜羊羊与灰太狼/640 (14).jpg",
+      "category": "动漫",
+      "subcategory": "喜羊羊与灰太狼",
+      "filename": "640 (14).jpg",
+      "createdAt": "2026-09-03T04:45:32.071Z",
+      "size": 144506,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "喜羊羊与灰太狼",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "喜羊羊与灰太狼",
+        "keywords": [
+          "灰太狼",
+          "厨师",
+          "惊喜",
+          "羊头",
+          "搞怪"
+        ],
+        "description": "在明亮的厨房中，灰太狼身穿白色厨师服，双手紧握锅铲，嘴巴大张露出惊喜的表情，两个小羊头在脸颊圆圈中跳动。",
+        "filenameSuggestions": [
+          "厨艺高超的灰太狼惊喜大餐.jpg",
+          "喜羊羊与灰太狼厨师羊趣大餐.jpg"
+        ],
+        "displayTitle": "厨艺高超的灰太狼惊喜大餐",
+        "confidence": 0.9,
+        "reasoning": "根据动漫决策树，识别出《喜羊羊与灰太狼》系列的灰太狼角色特征，归类为动漫/喜羊羊与灰太狼"
+      }
+    }
+  ]
+}
