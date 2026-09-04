@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 246,
+  "total": 247,
   "items": [
+    {
+      "date": "2026-09-05",
+      "title": "小小鸟儿，巨大影响",
+      "copyright": "龙虾爪花上取食的绿顶辉蜂鸟，哥斯达黎加 (© Paul Hobson/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%85%A8%E5%9B%BD%E8%9C%82%E9%B8%9F%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260904_GreenCrowned%22&FORM=HPQUIZ",
+      "hsh": "1b023726072d70d58ee0d8ed6eb7a984",
+      "urlbase": "/th?id=OHR.GreenCrowned_ZH-CN0697075036"
+    },
     {
       "date": "2026-09-04",
       "title": "地平线上的红与白",
@@ -2217,5 +2226,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-09-03 19:41:47"
+  "updatedAt": "2026-09-04 19:19:46"
 }
