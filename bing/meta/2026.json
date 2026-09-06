@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 248,
+  "total": 249,
   "items": [
+    {
+      "date": "2026-09-07",
+      "title": "历史沿运河流淌之地",
+      "copyright": "老市政厅，班贝格，德国 (© SCStock/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%8F%AD%E8%B4%9D%E6%A0%BC&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260906_BambergTownhall%22&FORM=HPQUIZ",
+      "hsh": "e69410a15294f0c5ae7890d3892aa658",
+      "urlbase": "/th?id=OHR.BambergTownhall_ZH-CN1407954732"
+    },
     {
       "date": "2026-09-06",
       "title": "倒影满湖的水库",
@@ -2235,5 +2244,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-09-05 18:47:38"
+  "updatedAt": "2026-09-06 18:51:25"
 }

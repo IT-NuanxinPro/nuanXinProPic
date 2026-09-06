@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-09-05 18:47:38",
+  "generatedAt": "2026-09-06 18:51:25",
   "total": 7,
   "items": [
+    {
+      "date": "2026-09-07",
+      "title": "历史沿运河流淌之地",
+      "copyright": "老市政厅，班贝格，德国 (© SCStock/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%8F%AD%E8%B4%9D%E6%A0%BC&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260906_BambergTownhall%22&FORM=HPQUIZ",
+      "hsh": "e69410a15294f0c5ae7890d3892aa658",
+      "urlbase": "/th?id=OHR.BambergTownhall_ZH-CN1407954732"
+    },
     {
       "date": "2026-09-06",
       "title": "倒影满湖的水库",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260831_HorseHairShroom%22&FORM=HPQUIZ",
       "hsh": "80bd16afd680a7243bea59f86ad765c4",
       "urlbase": "/th?id=OHR.HorseHairShroom_ZH-CN2241458451"
-    },
-    {
-      "date": "2026-08-31",
-      "title": "图案艺术的典范",
-      "copyright": "雷吉斯坦广场的建筑细节，撒马尔罕，乌兹别克斯坦 (© Piero M. Bianchi/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E6%92%92%E9%A9%AC%E5%B0%94%E7%BD%95&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260830_SamarkandCeiling%22&FORM=HPQUIZ",
-      "hsh": "13b00f4b5c95c67b066596d1da1d0c9f",
-      "urlbase": "/th?id=OHR.SamarkandCeiling_ZH-CN1818913296"
     }
   ]
 }
