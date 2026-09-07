@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-09-06 18:51:25",
+  "generatedAt": "2026-09-07 20:23:46",
   "total": 7,
   "items": [
+    {
+      "date": "2026-09-08",
+      "title": "金色田野",
+      "copyright": "东米恩南唐斯国家公园谷物田中的山毛榉树，汉普郡，英格兰 (© Guy Edwardes/Minden Pictures)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%8B%B1%E6%A0%BC%E5%85%B0%E6%B1%89%E6%99%AE%E9%83%A1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260907_BeechEngland%22&FORM=HPQUIZ",
+      "hsh": "a18e0e490a887155b8a95dc0ad42f6e6",
+      "urlbase": "/th?id=OHR.BeechEngland_ZH-CN1807343872"
+    },
     {
       "date": "2026-09-07",
       "title": "历史沿运河流淌之地",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260901_SuffolkHuts%22&FORM=HPQUIZ",
       "hsh": "4c30a579696ff056c05f3de37c4b9b49",
       "urlbase": "/th?id=OHR.SuffolkHuts_ZH-CN2463818981"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "脚下的世界",
-      "copyright": "马鬃小皮伞，白俄罗斯 (© Máté/Nature Picture Library)",
-      "copyrightlink": "https://www.bing.com/search?q=%E9%A9%AC%E9%AC%83%E5%B0%8F%E7%9A%AE%E4%BC%9E&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260831_HorseHairShroom%22&FORM=HPQUIZ",
-      "hsh": "80bd16afd680a7243bea59f86ad765c4",
-      "urlbase": "/th?id=OHR.HorseHairShroom_ZH-CN2241458451"
     }
   ]
 }
