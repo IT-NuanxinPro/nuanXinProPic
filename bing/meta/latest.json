@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-09-07 20:23:46",
+  "generatedAt": "2026-09-08 19:57:15",
   "total": 7,
   "items": [
+    {
+      "date": "2026-09-09",
+      "title": "印度西海岸的生活",
+      "copyright": "安科拉附近的加比特凯尼海滩，卡纳塔克邦，印度 (© Amith Nag Photography/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%8D%B0%E5%BA%A6%E5%8D%A1%E7%BA%B3%E5%A1%94%E5%85%8B%E9%82%A6%E5%AE%89%E7%A7%91%E6%8B%89&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260908_GabitKeni%22&FORM=HPQUIZ",
+      "hsh": "37e5ee2d15a851deffffc80576d12412",
+      "urlbase": "/th?id=OHR.GabitKeni_ZH-CN2314122948"
+    },
     {
       "date": "2026-09-08",
       "title": "金色田野",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260902_AZWilderness%22&FORM=HPQUIZ",
       "hsh": "5cb4a97f01d7c77a6be4b06bf1cd6f14",
       "urlbase": "/th?id=OHR.AZWilderness_ZH-CN2664566131"
-    },
-    {
-      "date": "2026-09-02",
-      "title": "海岸边的缤纷色彩",
-      "copyright": "传统海滩小屋，索思沃尔德，萨福克遗产海岸，英格兰 (© stevendocwra/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E8%90%A8%E7%A6%8F%E5%85%8B%E9%83%A1%E7%B4%A2%E6%96%AF%E6%B2%83%E5%B0%94%E5%BE%B7&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260901_SuffolkHuts%22&FORM=HPQUIZ",
-      "hsh": "4c30a579696ff056c05f3de37c4b9b49",
-      "urlbase": "/th?id=OHR.SuffolkHuts_ZH-CN2463818981"
     }
   ]
 }

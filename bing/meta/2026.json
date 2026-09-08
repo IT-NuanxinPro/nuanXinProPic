@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 250,
+  "total": 251,
   "items": [
+    {
+      "date": "2026-09-09",
+      "title": "印度西海岸的生活",
+      "copyright": "安科拉附近的加比特凯尼海滩，卡纳塔克邦，印度 (© Amith Nag Photography/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%8D%B0%E5%BA%A6%E5%8D%A1%E7%BA%B3%E5%A1%94%E5%85%8B%E9%82%A6%E5%AE%89%E7%A7%91%E6%8B%89&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260908_GabitKeni%22&FORM=HPQUIZ",
+      "hsh": "37e5ee2d15a851deffffc80576d12412",
+      "urlbase": "/th?id=OHR.GabitKeni_ZH-CN2314122948"
+    },
     {
       "date": "2026-09-08",
       "title": "金色田野",
@@ -2253,5 +2262,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-09-07 20:23:46"
+  "updatedAt": "2026-09-08 19:57:15"
 }
