@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 251,
+  "total": 252,
   "items": [
+    {
+      "date": "2026-09-10",
+      "title": "俯瞰大地拼图",
+      "copyright": "奥尔韦拉航拍图，安达卢西亚，西班牙 (© Marco Bottigelli/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E5%AE%89%E8%BE%BE%E5%8D%A2%E8%A5%BF%E4%BA%9A%E5%A4%A7%E5%8C%BA%E5%A5%A5%E5%B0%94%E9%9F%A6%E6%8B%89&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260909_Olvera%22&FORM=HPQUIZ",
+      "hsh": "4cafeb1bdbc558bf597c98b1996562dd",
+      "urlbase": "/th?id=OHR.Olvera_ZH-CN2727093856"
+    },
     {
       "date": "2026-09-09",
       "title": "印度西海岸的生活",
@@ -2262,5 +2271,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-09-08 19:57:15"
+  "updatedAt": "2026-09-09 19:38:15"
 }
