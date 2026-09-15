@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 257,
+  "total": 258,
   "items": [
+    {
+      "date": "2026-09-16",
+      "title": "北极的新晋探索者",
+      "copyright": "斯瓦尔巴群岛玩耍的北极熊幼崽，挪威 (© Danny Green/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%8C%97%E6%9E%81%E7%86%8A&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260915_IcyCubs%22&FORM=HPQUIZ",
+      "hsh": "3464e2609dc4cc5a425308f4e13b7ea0",
+      "urlbase": "/th?id=OHR.IcyCubs_ZH-CN5287408951"
+    },
     {
       "date": "2026-09-15",
       "title": "最炫者生存",
@@ -2316,5 +2325,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-09-14 20:46:42"
+  "updatedAt": "2026-09-15 20:03:41"
 }
