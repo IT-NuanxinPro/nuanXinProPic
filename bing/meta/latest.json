@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-09-15 20:03:41",
+  "generatedAt": "2026-09-16 19:53:45",
   "total": 7,
   "items": [
+    {
+      "date": "2026-09-17",
+      "title": "为丰收举杯",
+      "copyright": "桑特奈葡萄酒产区葡萄园中的索林风车，伯恩丘，勃艮第，法国 (© Marco Bottigelli/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%A1%91%E7%89%B9%E5%A5%88%E8%91%A1%E8%90%84%E9%85%92%E4%BA%A7%E5%8C%BA&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260916_Santenay%22&FORM=HPQUIZ",
+      "hsh": "afeed251674a914c13e0ae88bc065242",
+      "urlbase": "/th?id=OHR.Santenay_ZH-CN5676942384"
+    },
     {
       "date": "2026-09-16",
       "title": "北极的新晋探索者",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260910_FrenchRivieraVillage%22&FORM=HPQUIZ",
       "hsh": "7870e23785fa736c7fe2424fa3bdc743",
       "urlbase": "/th?id=OHR.FrenchRivieraVillage_ZH-CN2888811422"
-    },
-    {
-      "date": "2026-09-10",
-      "title": "俯瞰大地拼图",
-      "copyright": "奥尔韦拉航拍图，安达卢西亚，西班牙 (© Marco Bottigelli/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E5%AE%89%E8%BE%BE%E5%8D%A2%E8%A5%BF%E4%BA%9A%E5%A4%A7%E5%8C%BA%E5%A5%A5%E5%B0%94%E9%9F%A6%E6%8B%89&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260909_Olvera%22&FORM=HPQUIZ",
-      "hsh": "4cafeb1bdbc558bf597c98b1996562dd",
-      "urlbase": "/th?id=OHR.Olvera_ZH-CN2727093856"
     }
   ]
 }
