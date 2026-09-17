@@ -1,0 +1,177 @@
+{
+  "version": 1,
+  "createdAt": "2026-09-17T17:35:04.762Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/2026-09-04_38304.jpg",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2026-09-04_38304.jpg",
+      "createdAt": "2026-09-17T17:35:04.763Z",
+      "size": 3332991,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "银发少年",
+          "蓝眸凝视",
+          "动漫风格",
+          "神秘氛围",
+          "日系画风"
+        ],
+        "description": "银发覆盖的少年用炯炯有神的蓝眸凝视着前方，手指轻触衣领，散发着神秘而深邃的魅力。",
+        "filenameSuggestions": [
+          "银发蓝眸少年动漫神秘凝视.jpg",
+          "银发少年蓝眸神秘注视的动漫艺术.jpg"
+        ],
+        "displayTitle": "银发蓝眸少年神秘凝视的动漫特写",
+        "confidence": 0.9,
+        "reasoning": "图片为典型动漫风格的银发少年肖像，根据B动漫决策树，未识别出具体IP，因此归类为动漫/二次元。图片具有大眼睛、精致线条和动画感，符合动漫特征。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/影视/海绵宝宝/2026-09-18_43431.jpg",
+      "category": "影视",
+      "subcategory": "海绵宝宝",
+      "filename": "2026-09-18_43431.jpg",
+      "createdAt": "2026-09-17T17:35:04.763Z",
+      "size": 5486893,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "影视",
+        "subcategory": "海绵宝宝",
+        "primary": "desktop",
+        "secondary": "影视",
+        "third": "海绵宝宝",
+        "keywords": [
+          "海绵宝宝",
+          "蟹老板",
+          "财富办公室",
+          "卡通风格",
+          "海底世界"
+        ],
+        "description": "广阔的海面上，蟹老板办公室堆满财富，电视里海绵宝宝的趣事上演。",
+        "filenameSuggestions": [
+          "蟹老板的财富堆叠办公室.jpg",
+          "海绵宝宝船长室的财富宝藏.jpg"
+        ],
+        "displayTitle": "蟹老板的财富堆叠办公室",
+        "confidence": 0.9,
+        "reasoning": "图片为海绵宝宝动画场景， featuring Mr. Krabs在船长室堆积财富，符合规则B特定IP判定逻辑，影视分类下直接对应海绵宝宝子类，属于完美匹配。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/文字/2026-08-15_40931.jpg",
+      "category": "插画",
+      "subcategory": "文字",
+      "filename": "2026-08-15_40931.jpg",
+      "createdAt": "2026-09-17T17:35:04.763Z",
+      "size": 712806,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "文字",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "文字",
+        "keywords": [
+          "大吉大利",
+          "金橘",
+          "插画",
+          "祝福",
+          "吉祥如意"
+        ],
+        "description": "一枝金橘挂满枝头，枝叶间点缀大吉大利的吉祥文字，带来满满喜气与好运，传递春意盎然的祝福。",
+        "filenameSuggestions": [
+          "枝头金橘挂满枝的大吉大利.jpg",
+          "金橘枝头吉祥如意的插画.jpg"
+        ],
+        "displayTitle": "枝头金橘的大吉大利祝福",
+        "confidence": 0.9,
+        "reasoning": "图片核心为枝头金橘插画与中心大吉大利文字，根据插画三级分类中的文字子类判定，归类为插画/文字。非动漫IP、非人像、非风景，仅为现代数字插画风格。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/卡通/2026-08-07_43556.jpg",
+      "category": "插画",
+      "subcategory": "卡通",
+      "filename": "2026-08-07_43556.jpg",
+      "createdAt": "2026-09-17T17:35:04.763Z",
+      "size": 4610207,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "卡通",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "卡通",
+        "keywords": [
+          "治愈系企鹅",
+          "河畔漂浮",
+          "动漫插画",
+          "卡通风格",
+          "金色光影"
+        ],
+        "description": "可爱的小企鹅在宁静的河水中安然漂浮，金色阳光照耀着水面，映衬出治愈的自然风景。",
+        "filenameSuggestions": [
+          "河畔安睡的治愈系小企鹅.jpg",
+          "金色河水中漂浮的治愈企鹅.jpg"
+        ],
+        "displayTitle": "河畔安睡的治愈系小企鹅",
+        "confidence": 0.9,
+        "reasoning": "图片为卡通风格的企鹅角色在河水中漂浮的场景，符合插画类卡通子类特征，背景为自然河畔风景，整体呈现治愈氛围，匹配插画/卡通分类体系。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/自然/2026-09-09_25178.jpg",
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "2026-09-09_25178.jpg",
+      "createdAt": "2026-09-17T17:35:04.763Z",
+      "size": 6262292,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "夜景",
+          "星空",
+          "岩石海岸",
+          "海滨",
+          "氛围感"
+        ],
+        "description": "夜色中巍峨的岩石海岸静静矗立，星光洒落海面，波涛轻抚礁石，尽显大自然的壮丽宁静。",
+        "filenameSuggestions": [
+          "夜色下的巍峨岩石海岸.jpg",
+          "星光下的幽暗岩岸.jpg"
+        ],
+        "displayTitle": "夜色下的巍峨岩石海岸",
+        "confidence": 0.9,
+        "reasoning": "图片为自然风景，岩石海岸清晰可见，根据规则C1，判定为[风景/自然]"
+      }
+    }
+  ]
+}
