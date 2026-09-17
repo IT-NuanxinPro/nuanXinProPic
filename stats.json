@@ -1,9 +1,9 @@
 {
-  "lastUpdated": 1789588462.647933,
-  "cdnTag": "v1.4.35",
+  "lastUpdated": "2026-09-17 17:40:06",
+  "cdnTag": "v1.4.36",
   "series": {
     "desktop": {
-      "count": 793,
+      "count": 821,
       "categories": [
         "插画",
         "动漫",
@@ -14,8 +14,8 @@
         "游戏",
         "政治",
         "影视",
-        "汽车",
-        "通用"
+        "通用",
+        "汽车"
       ]
     },
     "mobile": {
@@ -44,24 +44,24 @@
         "表情包",
         "萌宠"
       ]
-    },
-    "video": {
-      "count": 49,
-      "categories": [
-        "social-cover",
-        "desktop",
-        "mobile"
-      ]
     }
   },
   "total": {
-    "desktop": 793,
+    "desktop": 821,
     "mobile": 810,
-    "avatar": 550,
-    "video": 49,
-    "bing": 2669
+    "avatar": 550
   },
   "releases": [
+    {
+      "tag": "v1.4.36",
+      "date": "2026-09-18",
+      "added": {
+        "desktop": 28,
+        "mobile": 0,
+        "avatar": 0
+      },
+      "publisher": "IT-NuanxinPro"
+    },
     {
       "tag": "v1.4.35",
       "date": "2026-09-17",
