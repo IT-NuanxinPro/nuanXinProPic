@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 260,
+  "total": 261,
   "items": [
+    {
+      "date": "2026-09-19",
+      "title": "慕尼黑啤酒节的阿尔卑斯之声",
+      "copyright": "阿尔卑斯长号演奏者，巴伐利亚州，德国 (© U. J. Alexander/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%85%95%E5%B0%BC%E9%BB%91%E5%95%A4%E9%85%92%E8%8A%82&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260918_AlphornBavaria%22&FORM=HPQUIZ",
+      "hsh": "aa60b4eff899d1166af4abf256daaa9f",
+      "urlbase": "/th?id=OHR.AlphornBavaria_ZH-CN5896237112"
+    },
     {
       "date": "2026-09-18",
       "title": "穿越山口腹地",
@@ -2343,5 +2352,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-09-17 20:02:15"
+  "updatedAt": "2026-09-18 19:29:05"
 }
