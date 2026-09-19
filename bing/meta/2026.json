@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 261,
+  "total": 262,
   "items": [
+    {
+      "date": "2026-09-20",
+      "title": "终获巴黎青睐的铁塔",
+      "copyright": "日落时分的埃菲尔铁塔，巴黎，法国 (© Alexander Spatari/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%B7%B4%E9%BB%8E&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260919_ParisSunset%22&FORM=HPQUIZ",
+      "hsh": "223a4f5afd837772060bf1f172590482",
+      "urlbase": "/th?id=OHR.ParisSunset_ZH-CN6050686638"
+    },
     {
       "date": "2026-09-19",
       "title": "慕尼黑啤酒节的阿尔卑斯之声",
@@ -2352,5 +2361,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-09-18 19:29:05"
+  "updatedAt": "2026-09-19 19:11:56"
 }
