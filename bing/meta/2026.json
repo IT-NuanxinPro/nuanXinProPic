@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 263,
+  "total": 264,
   "items": [
+    {
+      "date": "2026-09-22",
+      "title": "金色时节",
+      "copyright": "瓜兹曼山口附近的秋日山杨林，犹他州，美国 (© Danita Delimont/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%93%9C%E5%85%B9%E6%9B%BC%E5%B1%B1%E5%8F%A3%E9%99%84%E8%BF%91%E7%9A%84%E7%A7%8B%E6%97%A5%E5%B1%B1%E6%9D%A8%E6%9E%97&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260921_FallAspens%22&FORM=HPQUIZ",
+      "hsh": "80574239946b5ff91d19e3d3b047dad5",
+      "urlbase": "/th?id=OHR.FallAspens_ZH-CN7235054933"
+    },
     {
       "date": "2026-09-21",
       "title": "皮毛与海洋之间的生命",
@@ -2370,5 +2379,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-09-20 19:18:37"
+  "updatedAt": "2026-09-21 20:49:42"
 }
