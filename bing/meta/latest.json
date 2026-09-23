@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-09-22 20:03:11",
+  "generatedAt": "2026-09-23 20:00:38",
   "total": 7,
   "items": [
+    {
+      "date": "2026-09-24",
+      "title": "火山灰与浪花相遇",
+      "copyright": "黑色熔岩海滩鸟瞰图，埃尔戈尔福，兰萨罗特岛，加那利群岛，西班牙 (© Westend61/Adobe Stock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E5%85%B0%E8%90%A8%E7%BD%97%E7%89%B9%E5%B2%9B&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260923_ElGolfo%22&FORM=HPQUIZ",
+      "hsh": "efdc696cf07a8c8b2f32f60605f6eb68",
+      "urlbase": "/th?id=OHR.ElGolfo_ZH-CN8329995759"
+    },
     {
       "date": "2026-09-23",
       "title": "金秋平分，地坛染黄",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260917_WinnatsPassPeak%22&FORM=HPQUIZ",
       "hsh": "d427660ce0d0a746d4918781cdf36250",
       "urlbase": "/th?id=OHR.WinnatsPassPeak_ZH-CN4443458412"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "为丰收举杯",
-      "copyright": "桑特奈葡萄酒产区葡萄园中的索林风车，伯恩丘，勃艮第，法国 (© Marco Bottigelli/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E6%A1%91%E7%89%B9%E5%A5%88%E8%91%A1%E8%90%84%E9%85%92%E4%BA%A7%E5%8C%BA&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260916_Santenay%22&FORM=HPQUIZ",
-      "hsh": "afeed251674a914c13e0ae88bc065242",
-      "urlbase": "/th?id=OHR.Santenay_ZH-CN5676942384"
     }
   ]
 }
