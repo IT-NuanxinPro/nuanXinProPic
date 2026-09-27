@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 269,
+  "total": 270,
   "items": [
+    {
+      "date": "2026-09-28",
+      "title": "可览美景的历史胜地",
+      "copyright": "斋浦尔附近琥珀堡内的 Sattais Katcheri 大厅，拉贾斯坦邦，印度 (© R.M. Nunes/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%8D%B0%E5%BA%A6%E6%8B%89%E8%B4%BE%E6%96%AF%E5%9D%A6%E9%82%A6%E6%96%8B%E6%B5%A6%E5%B0%94%E7%90%A5%E7%8F%80%E5%A0%A1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260927_AmberHall%22&FORM=HPQUIZ",
+      "hsh": "924cf3bd5c06e1af66dec84b7bc2f927",
+      "urlbase": "/th?id=OHR.AmberHall_ZH-CN1223127100"
+    },
     {
       "date": "2026-09-27",
       "title": "深海夜花园",
@@ -2424,5 +2433,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-09-26 19:34:36"
+  "updatedAt": "2026-09-27 20:00:17"
 }
