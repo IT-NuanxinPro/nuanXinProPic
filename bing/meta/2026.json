@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 270,
+  "total": 271,
   "items": [
+    {
+      "date": "2026-09-29",
+      "title": "冰川孕育之河",
+      "copyright": "卡西洛夫河冰川融水滋养的湛蓝河水，阿拉斯加州，美国 (© jared lloyd/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%BE%8E%E5%9B%BD%E9%98%BF%E6%8B%89%E6%96%AF%E5%8A%A0%E5%B7%9E%E5%8D%A1%E8%A5%BF%E6%B4%9B%E5%A4%AB%E6%B2%B3&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260928_KasilofRiver%22&FORM=HPQUIZ",
+      "hsh": "21c8b7b4811054a5f3a012dadc4ce016",
+      "urlbase": "/th?id=OHR.KasilofRiver_ZH-CN2394091052"
+    },
     {
       "date": "2026-09-28",
       "title": "可览美景的历史胜地",
@@ -2433,5 +2442,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-09-27 20:00:17"
+  "updatedAt": "2026-09-28 22:26:21"
 }
