@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-09-29 21:19:39",
+  "generatedAt": "2026-09-30 21:14:41",
   "total": 7,
   "items": [
+    {
+      "date": "2026-10-01",
+      "title": "在花岗岩中读懂时间",
+      "copyright": "奥姆斯特德观景点的日落，优胜美地国家公园，加利福尼亚州，美国 (© Robb Hirsch/Tandem Stills + Motion)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%BC%98%E8%83%9C%E7%BE%8E%E5%9C%B0%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260930_OlmstedPoint%22&FORM=HPQUIZ",
+      "hsh": "39d1cffb9c16d06cb14e65b0d89264d0",
+      "urlbase": "/th?id=OHR.OlmstedPoint_ZH-CN4182671075"
+    },
     {
       "date": "2026-09-30",
       "title": "一张令人过目难忘的脸",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260924_MidAutumn2026%22&FORM=HPQUIZ",
       "hsh": "7343d22d2316a5ea34e9dace7c61cd12",
       "urlbase": "/th?id=OHR.MidAutumn2026_ZH-CN8947536773"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "火山灰与浪花相遇",
-      "copyright": "黑色熔岩海滩鸟瞰图，埃尔戈尔福，兰萨罗特岛，加那利群岛，西班牙 (© Westend61/Adobe Stock)",
-      "copyrightlink": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E5%85%B0%E8%90%A8%E7%BD%97%E7%89%B9%E5%B2%9B&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260923_ElGolfo%22&FORM=HPQUIZ",
-      "hsh": "efdc696cf07a8c8b2f32f60605f6eb68",
-      "urlbase": "/th?id=OHR.ElGolfo_ZH-CN8329995759"
     }
   ]
 }
