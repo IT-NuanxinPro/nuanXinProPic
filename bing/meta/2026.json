@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 274,
+  "total": 275,
   "items": [
+    {
+      "date": "2026-10-03",
+      "title": "捕捉、进食、重复",
+      "copyright": "美国阿拉斯加州克拉克湖国家公园和自然保护区银鲑溪中的棕熊 (© Danny Green/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%A3%95%E7%86%8A&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261002_GrizzlySwim%22&FORM=HPQUIZ",
+      "hsh": "9ed9a42beee43d28f667ab6b68b9e800",
+      "urlbase": "/th?id=OHR.GrizzlySwim_ZH-CN1005455737"
+    },
     {
       "date": "2026-10-02",
       "title": "一条值得保护的河流",
@@ -2469,5 +2478,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-10-01 21:36:03"
+  "updatedAt": "2026-10-02 21:34:35"
 }

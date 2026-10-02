@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-10-01 21:36:03",
+  "generatedAt": "2026-10-02 21:34:35",
   "total": 7,
   "items": [
+    {
+      "date": "2026-10-03",
+      "title": "捕捉、进食、重复",
+      "copyright": "美国阿拉斯加州克拉克湖国家公园和自然保护区银鲑溪中的棕熊 (© Danny Green/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%A3%95%E7%86%8A&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261002_GrizzlySwim%22&FORM=HPQUIZ",
+      "hsh": "9ed9a42beee43d28f667ab6b68b9e800",
+      "urlbase": "/th?id=OHR.GrizzlySwim_ZH-CN1005455737"
+    },
     {
       "date": "2026-10-02",
       "title": "一条值得保护的河流",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260926_DecoCrab%22&FORM=HPQUIZ",
       "hsh": "5416e5933b1618bc1ec5bdbab6cf700e",
       "urlbase": "/th?id=OHR.DecoCrab_ZH-CN0973306994"
-    },
-    {
-      "date": "2026-09-26",
-      "title": "写在大地上的故事",
-      "copyright": "熊耳国家纪念区附近的雪松台地和骡子角，犹他州，美国 (© Jeff Clay/Tandem Stills + Motion)",
-      "copyrightlink": "https://www.bing.com/search?q=%E7%86%8A%E8%80%B3%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E5%8C%BA&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260925_BearsEars%22&FORM=HPQUIZ",
-      "hsh": "7a4d16f38937f039b7f262834caa5b40",
-      "urlbase": "/th?id=OHR.BearsEars_ZH-CN0496897450"
     }
   ]
 }
