@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 275,
+  "total": 276,
   "items": [
+    {
+      "date": "2026-10-04",
+      "title": "宇宙在召唤",
+      "copyright": "阿尔忒弥斯1号月球火箭，39B发射台，肯尼迪航天中心，佛罗里达州，2022年6月15日 (© EVA MARIE UZCATEGUI/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E7%A9%BA%E9%97%B4%E5%91%A8&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261003_ArtemisRocket%22&FORM=HPQUIZ",
+      "hsh": "29bcf53aa5de2328f7af4f284b108f24",
+      "urlbase": "/th?id=OHR.ArtemisRocket_ZH-CN1768541365"
+    },
     {
       "date": "2026-10-03",
       "title": "捕捉、进食、重复",
@@ -2478,5 +2487,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-10-02 21:34:35"
+  "updatedAt": "2026-10-03 19:43:24"
 }
