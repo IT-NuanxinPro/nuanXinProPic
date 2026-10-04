@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-10-03 19:43:24",
+  "generatedAt": "2026-10-04 19:56:46",
   "total": 7,
   "items": [
+    {
+      "date": "2026-10-05",
+      "title": "纵身一跃，一次一课",
+      "copyright": "南极洲的阿德利企鹅 (© Otto Plantema/Minden Pictures)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%95%99%E5%B8%88%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261004_AdelieTeacher%22&FORM=HPQUIZ",
+      "hsh": "70a754d46405850799ade2d1da5d4856",
+      "urlbase": "/th?id=OHR.AdelieTeacher_ZH-CN2201820679"
+    },
     {
       "date": "2026-10-04",
       "title": "宇宙在召唤",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260928_KasilofRiver%22&FORM=HPQUIZ",
       "hsh": "21c8b7b4811054a5f3a012dadc4ce016",
       "urlbase": "/th?id=OHR.KasilofRiver_ZH-CN2394091052"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "可览美景的历史胜地",
-      "copyright": "斋浦尔附近琥珀堡内的 Sattais Katcheri 大厅，拉贾斯坦邦，印度 (© R.M. Nunes/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%8D%B0%E5%BA%A6%E6%8B%89%E8%B4%BE%E6%96%AF%E5%9D%A6%E9%82%A6%E6%96%8B%E6%B5%A6%E5%B0%94%E7%90%A5%E7%8F%80%E5%A0%A1&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260927_AmberHall%22&FORM=HPQUIZ",
-      "hsh": "924cf3bd5c06e1af66dec84b7bc2f927",
-      "urlbase": "/th?id=OHR.AmberHall_ZH-CN1223127100"
     }
   ]
 }
