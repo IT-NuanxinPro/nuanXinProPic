@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 277,
+  "total": 278,
   "items": [
+    {
+      "date": "2026-10-06",
+      "title": "条纹中的地球故事",
+      "copyright": "丹霞地貌，张掖国家地质公园，甘肃省，中国 (© Weiquan Lin/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E5%9C%B0%E8%B4%A8%E5%A4%9A%E6%A0%B7%E6%80%A7%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261005_DanxiaLandform%22&FORM=HPQUIZ",
+      "hsh": "e9709af86328b2bb435f7f583234829d",
+      "urlbase": "/th?id=OHR.DanxiaLandform_ZH-CN2386060246"
+    },
     {
       "date": "2026-10-05",
       "title": "纵身一跃，一次一课",
@@ -2496,5 +2505,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-10-04 19:56:46"
+  "updatedAt": "2026-10-05 23:05:33"
 }

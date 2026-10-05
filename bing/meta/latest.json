@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-10-04 19:56:46",
+  "generatedAt": "2026-10-05 23:05:33",
   "total": 7,
   "items": [
+    {
+      "date": "2026-10-06",
+      "title": "条纹中的地球故事",
+      "copyright": "丹霞地貌，张掖国家地质公园，甘肃省，中国 (© Weiquan Lin/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E5%9C%B0%E8%B4%A8%E5%A4%9A%E6%A0%B7%E6%80%A7%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261005_DanxiaLandform%22&FORM=HPQUIZ",
+      "hsh": "e9709af86328b2bb435f7f583234829d",
+      "urlbase": "/th?id=OHR.DanxiaLandform_ZH-CN2386060246"
+    },
     {
       "date": "2026-10-05",
       "title": "纵身一跃，一次一课",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260929_BeardReedling%22&FORM=HPQUIZ",
       "hsh": "08c9d44018a5e6dfbf3458fa28265d74",
       "urlbase": "/th?id=OHR.BeardReedling_ZH-CN2750632320"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "冰川孕育之河",
-      "copyright": "卡西洛夫河冰川融水滋养的湛蓝河水，阿拉斯加州，美国 (© jared lloyd/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E7%BE%8E%E5%9B%BD%E9%98%BF%E6%8B%89%E6%96%AF%E5%8A%A0%E5%B7%9E%E5%8D%A1%E8%A5%BF%E6%B4%9B%E5%A4%AB%E6%B2%B3&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260928_KasilofRiver%22&FORM=HPQUIZ",
-      "hsh": "21c8b7b4811054a5f3a012dadc4ce016",
-      "urlbase": "/th?id=OHR.KasilofRiver_ZH-CN2394091052"
     }
   ]
 }
