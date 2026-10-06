@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 278,
+  "total": 279,
   "items": [
+    {
+      "date": "2026-10-07",
+      "title": "迷惑不解？沿着小径走",
+      "copyright": "覆满苔藓的岩石，英国格洛斯特郡谜林，迪恩森林，格洛斯特郡，英格兰 (© Fulcanelli_AOS/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%8B%B1%E5%9B%BD%E6%A0%BC%E6%B4%9B%E6%96%AF%E7%89%B9%E9%83%A1%E8%B0%9C%E6%9E%97&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261006_ForestofDean%22&FORM=HPQUIZ",
+      "hsh": "a1d23cf68b668a311237ebdb46f12180",
+      "urlbase": "/th?id=OHR.ForestofDean_ZH-CN2654753621"
+    },
     {
       "date": "2026-10-06",
       "title": "条纹中的地球故事",
@@ -2505,5 +2514,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-10-05 23:05:33"
+  "updatedAt": "2026-10-06 21:31:03"
 }
