@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-10-06 21:31:03",
+  "generatedAt": "2026-10-07 21:57:18",
   "total": 7,
   "items": [
+    {
+      "date": "2026-10-08",
+      "title": "现在你“海”能看见我……",
+      "copyright": "印度洋马约特岛，一只呈防御姿态的章鱼 (© Gabriel Barathieu/Minden Pictures)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E7%AB%A0%E9%B1%BC%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261007_MayotteOctopus%22&FORM=HPQUIZ",
+      "hsh": "331520d87b4d7e5a28772c33351d7153",
+      "urlbase": "/th?id=OHR.MayotteOctopus_ZH-CN2837659998"
+    },
     {
       "date": "2026-10-07",
       "title": "迷惑不解？沿着小径走",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261001_ChattoogaRiver%22&FORM=HPQUIZ",
       "hsh": "ad02460978ae06c7c7d8d53dadaa94bf",
       "urlbase": "/th?id=OHR.ChattoogaRiver_ZH-CN9453791496"
-    },
-    {
-      "date": "2026-10-01",
-      "title": "在花岗岩中读懂时间",
-      "copyright": "奥姆斯特德观景点的日落，优胜美地国家公园，加利福尼亚州，美国 (© Robb Hirsch/Tandem Stills + Motion)",
-      "copyrightlink": "https://www.bing.com/search?q=%E4%BC%98%E8%83%9C%E7%BE%8E%E5%9C%B0%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20260930_OlmstedPoint%22&FORM=HPQUIZ",
-      "hsh": "39d1cffb9c16d06cb14e65b0d89264d0",
-      "urlbase": "/th?id=OHR.OlmstedPoint_ZH-CN4182671075"
     }
   ]
 }

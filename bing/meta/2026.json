@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 279,
+  "total": 280,
   "items": [
+    {
+      "date": "2026-10-08",
+      "title": "现在你“海”能看见我……",
+      "copyright": "印度洋马约特岛，一只呈防御姿态的章鱼 (© Gabriel Barathieu/Minden Pictures)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E7%AB%A0%E9%B1%BC%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261007_MayotteOctopus%22&FORM=HPQUIZ",
+      "hsh": "331520d87b4d7e5a28772c33351d7153",
+      "urlbase": "/th?id=OHR.MayotteOctopus_ZH-CN2837659998"
+    },
     {
       "date": "2026-10-07",
       "title": "迷惑不解？沿着小径走",
@@ -2514,5 +2523,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-10-06 21:31:03"
+  "updatedAt": "2026-10-07 21:57:18"
 }
