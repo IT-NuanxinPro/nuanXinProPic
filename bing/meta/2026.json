@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 280,
+  "total": 281,
   "items": [
+    {
+      "date": "2026-10-09",
+      "title": "科西嘉岛的岩石前哨",
+      "copyright": "桑吉奈尔群岛景观，摄自科西嘉岛，法国 (© Francesco Riccardo Iacomino/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%A7%91%E8%A5%BF%E5%98%89%E5%B2%9B%E6%A1%91%E5%90%89%E5%A5%88%E5%B0%94%E7%BE%A4%E5%B2%9B&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261008_IlesSanguinaires%22&FORM=HPQUIZ",
+      "hsh": "e324aa5d2988404657fe38261700de65",
+      "urlbase": "/th?id=OHR.IlesSanguinaires_ZH-CN3149346035"
+    },
     {
       "date": "2026-10-08",
       "title": "现在你“海”能看见我……",
@@ -2523,5 +2532,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-10-07 21:57:18"
+  "updatedAt": "2026-10-08 21:52:32"
 }
