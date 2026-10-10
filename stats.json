@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-10-10 03:05:28",
-  "cdnTag": "v1.4.60",
+  "lastUpdated": "2026-10-10 03:23:35",
+  "cdnTag": "v1.4.61",
   "series": {
     "desktop": {
-      "count": 841,
+      "count": 856,
       "categories": [
         "插画",
         "动漫",
@@ -15,6 +15,7 @@
         "政治",
         "影视",
         "通用",
+        "科技",
         "汽车"
       ]
     },
@@ -47,11 +48,21 @@
     }
   },
   "total": {
-    "desktop": 841,
+    "desktop": 856,
     "mobile": 810,
     "avatar": 550
   },
   "releases": [
+    {
+      "tag": "v1.4.61",
+      "date": "2026-10-10",
+      "added": {
+        "desktop": 15,
+        "mobile": 0,
+        "avatar": 0
+      },
+      "publisher": "IT-NuanxinPro"
+    },
     {
       "tag": "v1.4.60",
       "date": "2026-10-10",
