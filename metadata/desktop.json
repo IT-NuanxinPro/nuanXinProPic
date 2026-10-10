@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-10-09 21:31:27",
-  "count": 821,
+  "lastUpdated": "2026-10-10 03:05:28",
+  "count": 841,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -25948,6 +25948,746 @@
         "displayTitle": "国风青衫男子，守得初心正当时",
         "confidence": 0.9,
         "reasoning": "图片为插画风格的国风男性角色，符合插画的国风子类。根据规则B3，判定为插画/国风。图片含有文字元素，符合插画/文字，但主视觉为角色形象，未匹配具体IP或明星。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2026-09-09_9594.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-09-09_9594.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 3393727,
+      "format": "jpg",
+      "resolution": {
+        "width": 4259,
+        "height": 2478,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "秋日",
+          "阳光",
+          "树荫",
+          "宁静"
+        ],
+        "description": "画面中央是一棵枝繁叶茂的大树，树叶在阳光的照射下闪烁着金色的光芒，树下是一片翠绿的草地。",
+        "filenameSuggestions": [
+          "秋日暖阳下的静谧时光.jpg",
+          "阳光照耀下的秋日树荫.jpg"
+        ],
+        "displayTitle": "秋日暖阳下的静谧时光",
+        "confidence": 0.9,
+        "reasoning": "'插画'因为图片具有浓厚的绘画风格，而非动画截图；'场景'因为图片描绘了一个具体的自然环境。"
+      }
+    },
+    "wallpaper/desktop/人像/魅力/2026-03-18_4841.jpg": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "2026-03-18_4841.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 13104053,
+      "format": "jpg",
+      "resolution": {
+        "width": 9010,
+        "height": 5631,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "夜晚",
+          "霓虹",
+          "长发",
+          "魅力"
+        ],
+        "description": "一位长发女子坐在屋顶上，背景是繁华的城市夜景。",
+        "filenameSuggestions": [
+          "夜幕下的魅影.jpg",
+          "霓虹中的诱惑.jpg"
+        ],
+        "displayTitle": "夜幕下的魅影",
+        "confidence": 0.9,
+        "reasoning": "'图片中人物穿着暴露，符合魅力类的特征，因此判定为人像/魅力。'"
+      }
+    },
+    "wallpaper/desktop/风景/自然/2026-02-21_1.jpg": {
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "2026-02-21_1.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 9047626,
+      "format": "jpg",
+      "resolution": {
+        "width": 5120,
+        "height": 2880,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "沙漠",
+          "沙丘",
+          "星空",
+          "夜晚",
+          "自然景观"
+        ],
+        "description": "这张图片展现了一片宁静的夜晚沙漠景色，沙丘在微弱的星光下显得格外静谧。",
+        "filenameSuggestions": [
+          "宁静的夜晚沙丘.jpg",
+          "星空下的沙漠风光.jpg"
+        ],
+        "displayTitle": "夜幕下的沙丘",
+        "confidence": 0.9,
+        "reasoning": "图片中没有人物或动物，因此排除与人像相关的分类。图片中的主要元素是自然景观中的沙丘和星空，符合风景分类中的自然类别。"
+      }
+    },
+    "wallpaper/desktop/插画/创意/2026-01-16_317.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "2026-01-16_317.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 12515728,
+      "format": "jpg",
+      "resolution": {
+        "width": 7680,
+        "height": 4320,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "抽象艺术",
+          "彩色粒子",
+          "创意插画"
+        ],
+        "description": "这幅图展现了一幅充满活力的抽象艺术作品，五彩斑斓的粒子在空中飞舞，形成了一个动态而美丽的图案。",
+        "filenameSuggestions": [
+          "五彩斑斓的艺术风暴.jpg",
+          "抽象艺术的色彩盛宴.jpg"
+        ],
+        "displayTitle": "五彩斑斓的艺术风暴",
+        "confidence": 0.9,
+        "reasoning": "这是一幅具有强烈创意感的插画作品，没有特定的主题或人物，因此被归类为插画中的创意类别。"
+      }
+    },
+    "wallpaper/desktop/风景/自然/2026-03-12_5109.jpg": {
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "2026-03-12_5109.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 11714267,
+      "format": "jpg",
+      "resolution": {
+        "width": 5120,
+        "height": 2880,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "蓝天",
+          "白云",
+          "绿地",
+          "自然风光",
+          "宁静"
+        ],
+        "description": "一片广阔的绿色草地，在晴朗的蓝天下显得格外生机勃勃。",
+        "filenameSuggestions": [
+          "蓝天白云下的绿茵草地.jpg",
+          "晴朗天气中的翠绿草原.jpg"
+        ],
+        "displayTitle": "碧蓝天空下的绿色草地",
+        "confidence": 0.9,
+        "reasoning": "'图片中没有人物或动物，排除A和B分支。根据C分支，这是一片自然的风景，没有具体的城市、海滨、湖泊等特定场景，因此归入风景/自然。'"
+      }
+    },
+    "wallpaper/desktop/插画/卡通/2026-10-05_514.jpg": {
+      "category": "插画",
+      "subcategory": "卡通",
+      "filename": "2026-10-05_514.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 4752267,
+      "format": "jpg",
+      "resolution": {
+        "width": 5120,
+        "height": 3615,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "卡通",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "卡通",
+        "keywords": [
+          "夏日",
+          "海边",
+          "黑猫",
+          "女孩"
+        ],
+        "description": "一位戴着宽檐帽的女孩在海边的某个下午蹲着看着一只黑色的猫。",
+        "filenameSuggestions": [
+          "夏日午后与黑猫.jpg",
+          "海边漫步的女孩.jpg"
+        ],
+        "displayTitle": "夏日午后",
+        "confidence": 0.9,
+        "reasoning": "这是一幅插画风格的图片，画面中有女孩和黑猫，符合插画/卡通的分类标准。"
+      }
+    },
+    "wallpaper/desktop/人像/清新/2026-09-02_382.jpg": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "2026-09-02_382.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 764014,
+      "format": "jpg",
+      "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "阳光",
+          "眼镜",
+          "白衬衫"
+        ],
+        "description": "一位戴着眼镜的年轻女性，穿着白色衬衫，展现出清新自然的气质。",
+        "filenameSuggestions": [
+          "阳光下戴眼镜的清新少女.jpg",
+          "白衬衫眼镜女生头像.jpg"
+        ],
+        "displayTitle": "阳光下的清新少女",
+        "confidence": 0.9,
+        "reasoning": "'图片中没有显示任何特定的明星，因此排除A1。图片中的女性没有表现出明显的身材展示，不符合A2的定义。图片中的女性穿着现代服装，不符合A3的国风特征。图片中的女性面部被部分遮挡，但整体光线柔和，符合B4的特征。图片中没有明显的动漫风格特征，因此排除B2和B3。图片中没有显示出具体的风景场景，因此排除C1。综合以上分析，该图片最符合人像分类中的清新类别。'"
+      }
+    },
+    "wallpaper/desktop/人像/清新/2026-09-04_9964.jpg": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "2026-09-04_9964.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 3485891,
+      "format": "jpg",
+      "resolution": {
+        "width": 4096,
+        "height": 2560,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "阳光",
+          "少女",
+          "风景"
+        ],
+        "description": "一位穿着黄色连衣裙的年轻女子站在窗前，背景是一片美丽的乡村景色。",
+        "filenameSuggestions": [
+          "阳光下的清新少女.jpg",
+          "黄色连衣裙的清新少女.jpg"
+        ],
+        "displayTitle": "阳光下的清新少女",
+        "confidence": 0.9,
+        "reasoning": "图片中的女子没有特定的明星身份，因此不属于特定明星类别。她的着装和环境都给人一种清新脱俗的感觉，符合‘清新’的风格特点。根据决策树的逻辑，这张图片应该被归类为人像分类中的‘清新’类别。"
+      }
+    },
+    "wallpaper/desktop/风景/自然/2026-02-25_8009.jpg": {
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "2026-02-25_8009.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 2693476,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "自然风光",
+          "日落",
+          "湖水",
+          "山脉"
+        ],
+        "description": "这幅图展现了一幅美丽的自然景色，夕阳西下，阳光洒在平静的湖面上，远处的群山若隐若现。",
+        "filenameSuggestions": [
+          "宁静的湖畔风光.jpg",
+          "夕阳下的山水画卷.jpg"
+        ],
+        "displayTitle": "湖光山色",
+        "confidence": 0.9,
+        "reasoning": "'图片中没有人物或动物，排除其他分类。根据规则C1，图片中的主要元素是自然景观，因此判定为[风景/自然]。'"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2026-01-11_4912.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-01-11_4912.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 2765358,
+      "format": "jpg",
+      "resolution": {
+        "width": 5200,
+        "height": 2926,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "海滨",
+          "小镇",
+          "绿色植被",
+          "蓝天白云"
+        ],
+        "description": "这幅插画描绘了一个坐落在海边的小镇，周围环绕着郁郁葱葱的树木和植被，远处是蔚蓝的大海和晴朗的天空。",
+        "filenameSuggestions": [
+          "阳光下的海滨小镇.jpg",
+          "绿意盎然的海滨风光.jpg"
+        ],
+        "displayTitle": "海岸线上的宁静小镇",
+        "confidence": 0.9,
+        "reasoning": "'图片为海滨风景，有小镇和植被等元素，根据规则C1，判定为插画/场景。'"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/2026-02-24_2863.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2026-02-24_2863.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 5197977,
+      "format": "jpg",
+      "resolution": {
+        "width": 4093,
+        "height": 2600,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫",
+          "眼神",
+          "温柔",
+          "手指"
+        ],
+        "description": "这是一幅描绘动漫角色的图片，角色通过手指形成的心形图案展现出温柔的眼神。",
+        "filenameSuggestions": [
+          "温柔的眼神.jpg",
+          "透过手指缝隙的视线.jpg"
+        ],
+        "displayTitle": "温柔的眼神",
+        "confidence": 0.9,
+        "reasoning": "'图片为动漫风格的角色，根据规则B1，判定为[动漫/二次元]。'"
+      }
+    },
+    "wallpaper/desktop/萌宠/狗狗/2026-08-03_2831.jpg": {
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "2026-08-03_2831.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 1204102,
+      "format": "jpg",
+      "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "desktop",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "狗狗",
+          "车窗",
+          "快乐",
+          "微风"
+        ],
+        "description": "一只白色的小狗伸出爪子，享受着风吹拂的感觉。",
+        "filenameSuggestions": [
+          "阳光下摇着尾巴的可爱狗狗.jpg",
+          "车里探出头来的开心小白狗.jpg"
+        ],
+        "displayTitle": "车窗边的快乐小狗",
+        "confidence": 0.9,
+        "reasoning": "'图片中的小狗明显属于宠物类别，符合'萌宠'二级分类和'狗狗'三级分类的标准。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/2026-10-06_3959.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2026-10-06_3959.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 753802,
+      "format": "jpg",
+      "resolution": {
+        "width": 4639,
+        "height": 2160,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "暮光",
+          "城市景观",
+          "持枪少女"
+        ],
+        "description": "一位拥有猫耳和蓝色头发的二次元少女站在天台之上，手持武器，背景是美丽的城市黄昏景色。",
+        "filenameSuggestions": [
+          "暮光中的二次元少女.jpg",
+          "夕阳下持枪的二次元少女.jpg"
+        ],
+        "displayTitle": "暮光下的守护者",
+        "confidence": 0.9,
+        "reasoning": "图片为二次元风格的角色，根据规则B1，判定为[动漫/二次元]。"
+      }
+    },
+    "wallpaper/desktop/人像/清新/2026-04-04_2500.jpg": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "2026-04-04_2500.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 363767,
+      "format": "jpg",
+      "resolution": {
+        "width": 2560,
+        "height": 1440,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "夏日",
+          "清新",
+          "柠檬"
+        ],
+        "description": "一位年轻女性手持柠檬片，背景温馨，充满夏日的清新气息。",
+        "filenameSuggestions": [
+          "夏日清新女孩.jpg",
+          "手持柠檬的女孩.jpg"
+        ],
+        "displayTitle": "夏日清新",
+        "confidence": 0.9,
+        "reasoning": "'图片中没有显示任何特定的明星，因此排除A1。图片中的女性没有穿着暴露的服装，也没有展现身材曲线，不符合A2的定义。图片中的女性穿着现代服饰，不符合A3的定义。图片中的女性面部被部分遮挡，但仍然可以辨认出她的五官，因此不属于A4。图片中的女性展现出一种清新自然的气质，符合B5的定义。因此，最终分类为人像/清新。'"
+      }
+    },
+    "wallpaper/desktop/风景/自然/2026-01-19_3622.jpg": {
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "2026-01-19_3622.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 6826725,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "山谷",
+          "绿野",
+          "自然风光",
+          "宁静"
+        ],
+        "description": "一片广袤的山谷，四周环绕着郁郁葱葱的树木，远处连绵起伏的山脉上覆盖着白雪。",
+        "filenameSuggestions": [
+          "山谷中的绿色田野.jpg",
+          "宁静的山谷风光.jpg"
+        ],
+        "displayTitle": "山谷绿野",
+        "confidence": 0.9,
+        "reasoning": "'图片为山谷风景，山脉清晰可见，根据规则C1，判定为[风景/自然]。'"
+      }
+    },
+    "wallpaper/desktop/风景/自然/2026-02-20_8049.jpg": {
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "2026-02-20_8049.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 5860034,
+      "format": "jpg",
+      "resolution": {
+        "width": 7680,
+        "height": 4320,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "自然风光",
+          "日出",
+          "山脉",
+          "湖水倒影"
+        ],
+        "description": "一幅宁静的自然景观图，展现了清晨时分阳光洒在积雪覆盖的山峰上，湖水清澈见底，倒映着壮丽的景色。",
+        "filenameSuggestions": [
+          "湖畔晨曦.jpg",
+          "日出映照的山脉.jpg"
+        ],
+        "displayTitle": "湖畔晨曦",
+        "confidence": 0.9,
+        "reasoning": "图片展示了自然的美丽景象，没有人物或特定的动漫元素，因此属于风景类别中的自然风景。"
+      }
+    },
+    "wallpaper/desktop/风景/海滨/2026-10-02_5363.jpg": {
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "2026-10-02_5363.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 3890379,
+      "format": "jpg",
+      "resolution": {
+        "width": 4579,
+        "height": 2616,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "海洋",
+          "悬崖",
+          "日落",
+          "自然风光"
+        ],
+        "description": "这幅图展示了壮丽的海洋景观，夕阳映照下，海水呈现出深蓝色调，而天空中的云层则被染成了橙红色。",
+        "filenameSuggestions": [
+          "海天一线的壮丽海岸线.jpg",
+          "夕阳下的十二门徒岩.jpg"
+        ],
+        "displayTitle": "海天一线",
+        "confidence": 0.9,
+        "reasoning": "图片中没有人物或动物，因此不属于人像或萌宠类别。同时，它也不是插画或动漫风格的作品，而是真实世界的自然景观。根据风景分类决策树的规则，由于这是一幅海滨风景图，所以将其归类为‘风景/海滨’类别。"
+      }
+    },
+    "wallpaper/desktop/风景/自然/2026-02-18_3806.jpg": {
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "2026-02-18_3806.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 939318,
+      "format": "jpg",
+      "resolution": {
+        "width": 5356,
+        "height": 3570,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "雪山",
+          "日出",
+          "自然景观",
+          "宁静"
+        ],
+        "description": "这幅图展现了一座被晨曦映照的雪山，山顶覆盖着白雪，阳光洒在山脊上，形成金色的光芒。前景是一片平静的水面，反射着山的倒影，周围是开阔的草地。",
+        "filenameSuggestions": [
+          "晨曦映照下的雪山.jpg",
+          "宁静的自然风光.jpg"
+        ],
+        "displayTitle": "晨曦中的雪山美景",
+        "confidence": 0.9,
+        "reasoning": "'图片为雪山风景，山峰清晰可见，根据规则C1，判定为[风景/自然]'"
+      }
+    },
+    "wallpaper/desktop/插画/创意/2026-02-23_5105.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "2026-02-23_5105.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 2941862,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "银发",
+          "精灵",
+          "面具"
+        ],
+        "description": "这是一幅描绘一位拥有银白色长发和尖耳朵的精灵的艺术插画。",
+        "filenameSuggestions": [
+          "神秘银发精灵.jpg",
+          "戴着面具的银发精灵.jpg"
+        ],
+        "displayTitle": "神秘银发精灵",
+        "confidence": 0.9,
+        "reasoning": "'图片中没有可识别的具体明星，因此排除A1分支。图片没有明显的身材展示，不符合A2魅力分类。图片中的服饰和背景没有明显的中式元素，不符合A3国风分类。图片虽然有一定的氛围感，但面部特征较为清晰，不完全符合A4氛围感分类。图片的风格属于插画，而非动漫，因此排除B1和B2分支。图片不是风景照片，因此排除C分支。综上所述，该图片最合适的分类是插画/创意。'"
+      }
+    },
+    "wallpaper/desktop/风景/自然/2026-01-20_10225.jpg": {
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "2026-01-20_10225.jpg",
+      "createdAt": "2026-10-10T03:01:54.110Z",
+      "cdnTag": "v1.4.60",
+      "size": 374931,
+      "format": "jpg",
+      "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "霞光",
+          "山脉",
+          "自然景观",
+          "日落"
+        ],
+        "description": "这幅图展示了壮丽的山脉景色，夕阳西下，天边的云彩被染成了绚丽的橙红色。",
+        "filenameSuggestions": [
+          "霞光映照的山脉.jpg",
+          "晚霞下的山脉风光.jpg"
+        ],
+        "displayTitle": "霞光映照的山脉",
+        "confidence": 0.9,
+        "reasoning": "图片中没有人物或特定的动漫角色，因此排除A和B分支。根据C分支的逻辑，这是一幅自然风景照片，没有具体的城市、海滨、湖泊等特定场景，所以归入风景/自然的通用类别。"
       }
     }
   }
