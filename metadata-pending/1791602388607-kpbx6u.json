@@ -1,0 +1,499 @@
+{
+  "version": 1,
+  "createdAt": "2026-10-10T03:19:48.607Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/日落/2023-12-29_10460.jpg",
+      "category": "风景",
+      "subcategory": "日落",
+      "filename": "2023-12-29_10460.jpg",
+      "createdAt": "2026-10-10T03:19:48.607Z",
+      "size": 1038549,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "日落",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "日落",
+        "keywords": [
+          "日落",
+          "山脉",
+          "自然风光",
+          "金黄色调"
+        ],
+        "description": "这幅图展示了夕阳下壮丽的山脉景色，阳光洒在山脊上，呈现出金色的光辉。",
+        "filenameSuggestions": [
+          "夕阳映照的山脉.jpg",
+          "金色光芒中的巍峨山峦.jpg"
+        ],
+        "displayTitle": "夕阳下的壮丽山脉",
+        "confidence": 0.9,
+        "reasoning": "图片中没有人物或动物，因此排除所有与人相关的分类。图片主要展示的是自然景观，特别是山脉和日落时分的光线效果，符合风景分类中的日落子类别。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/科技/抽象/2024-01-05_10529.jpg",
+      "category": "科技",
+      "subcategory": "抽象",
+      "filename": "2024-01-05_10529.jpg",
+      "createdAt": "2026-10-10T03:19:48.607Z",
+      "size": 2594161,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "科技",
+        "category": "科技",
+        "third": "抽象",
+        "subcategory": "抽象",
+        "filenameSuggestions": [
+          "神秘的光环.jpg",
+          "夜间的光晕效果.jpg"
+        ],
+        "filenames": [
+          "神秘的光环.jpg",
+          "夜间的光晕效果.jpg"
+        ],
+        "displayTitle": "神秘的光环",
+        "keywords": [
+          "光环",
+          "光线",
+          "抽象",
+          "科技感"
+        ],
+        "description": "这是一幅抽象的艺术作品，展示了蓝色和紫色光线交织形成的光环效果。",
+        "confidence": 0.9,
+        "reasoning": "由于图片没有明确的主题或人物，因此被归类为通用类别。虽然它具有科技感和抽象性，但没有足够的信息来确定一个具体的二级或三级分类。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/创意/2025-09-26_3522.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "2025-09-26_3522.jpg",
+      "createdAt": "2026-10-10T03:19:48.607Z",
+      "size": 415968,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "孤独",
+          "地球",
+          "创意",
+          "蓝色调"
+        ],
+        "description": "画面中央有一个孤独的人影站在平静的水面上，背景是深蓝色的夜空和发光的地球。",
+        "filenameSuggestions": [
+          "孤独的身影映照着地球.jpg",
+          "蓝色星球下的沉思者.jpg"
+        ],
+        "displayTitle": "宇宙中的孤独身影",
+        "confidence": 0.9,
+        "reasoning": "'图片为插画风格，具有创意性，没有特定的IP或人物，因此归入插画/创意类别。'"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/自然/2025-11-01_3625.jpg",
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "2025-11-01_3625.jpg",
+      "createdAt": "2026-10-10T03:19:48.607Z",
+      "size": 6595060,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "山水",
+          "自然景观",
+          "宁静"
+        ],
+        "description": "这幅图展现了一片美丽的自然景色，清澈的湖水倒映着周围的树木和远处的山脉。",
+        "filenameSuggestions": [
+          "碧波荡漾的湖水.jpg",
+          "群山环绕的自然风光.jpg"
+        ],
+        "displayTitle": "湖光山色",
+        "confidence": 0.9,
+        "reasoning": "'图片为自然风景，有湖泊和山脉，根据规则C1，判定为[风景/自然]'"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/雪山/2024-04-11_10816.jpg",
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "2024-04-11_10816.jpg",
+      "createdAt": "2026-10-10T03:19:48.607Z",
+      "size": 2941326,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "雪山",
+          "夜晚",
+          "灯光",
+          "村庄"
+        ],
+        "description": "这幅图描绘了一个被白雪覆盖的山谷，山谷中有几座木屋，屋顶上积满了厚厚的积雪。远处的山脉巍峨耸立，山顶也覆盖着白雪。夜空中繁星点点，给这个寒冷的场景增添了一丝温暖。",
+        "filenameSuggestions": [
+          "冰雪覆盖的山谷.jpg",
+          "宁静的雪山村庄.jpg"
+        ],
+        "displayTitle": "冰雪覆盖的山谷",
+        "confidence": 0.9,
+        "reasoning": "'图片为雪山风景，山峰清晰可见，根据规则C1，判定为[风景/雪山]。'"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/创意/2024-01-20_190.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "2024-01-20_190.jpg",
+      "createdAt": "2026-10-10T03:19:48.607Z",
+      "size": 4796571,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "熔岩",
+          "樱花",
+          "火山",
+          "创意"
+        ],
+        "description": "这幅图描绘了一棵生长在火山口悬崖上的樱花树，背景是壮观的熔岩瀑布和绚丽的日落。",
+        "filenameSuggestions": [
+          "熔岩之巅的樱花树.jpg",
+          "火山口的粉色樱花.jpg"
+        ],
+        "displayTitle": "熔岩之巅的樱花树",
+        "confidence": 0.9,
+        "reasoning": "图片是一幅具有强烈艺术感的插画作品，没有特定的IP或人物形象，因此属于插画中的创意类别。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/创意/2024-03-31_10709.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "2024-03-31_10709.jpg",
+      "createdAt": "2026-10-10T03:19:48.607Z",
+      "size": 8196141,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "奇幻",
+          "战斗",
+          "冰雪",
+          "勇士"
+        ],
+        "description": "画面中有三个穿着盔甲的勇士，背景是冰雪覆盖的山脉。",
+        "filenameSuggestions": [
+          "冰封战魂的守护者.jpg",
+          "冰雪中的勇士们.jpg"
+        ],
+        "displayTitle": "冰封战魂",
+        "confidence": 0.9,
+        "reasoning": "'图片为插画风格，人物穿着盔甲，手持武器，符合插画/创意的分类标准。'"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/自然/2025-09-24_188.jpg",
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "2025-09-24_188.jpg",
+      "createdAt": "2026-10-10T03:19:48.607Z",
+      "size": 4834440,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "山谷",
+          "山脉",
+          "森林",
+          "河流",
+          "晨光"
+        ],
+        "description": "这幅图描绘了一个被群山环绕的山谷，阳光透过云层洒在绿色的植被上，显得格外宁静而美丽。",
+        "filenameSuggestions": [
+          "晨曦中的宁静山谷.jpg",
+          "山谷中的清晨美景.jpg"
+        ],
+        "displayTitle": "晨曦中的宁静山谷",
+        "confidence": 0.9,
+        "reasoning": "图片中没有人物或动物，因此不属于人像分类。画面以自然景观为主，符合风景分类的逻辑。由于没有具体的城市、海滨、湖泊等特定场景，所以选择风景/自然作为三级分类。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/创意/2024-01-05_10541.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "2024-01-05_10541.jpg",
+      "createdAt": "2026-10-10T03:19:48.607Z",
+      "size": 2957482,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "科幻",
+          "星球",
+          "宇宙"
+        ],
+        "description": "一幅充满科幻色彩的插画，展现了璀璨的星河和神秘的星球。",
+        "filenameSuggestions": [
+          "星际幻境.jpg",
+          "宇宙星辰.jpg"
+        ],
+        "displayTitle": "星际幻境",
+        "confidence": 0.9,
+        "reasoning": "'图片为插画风格，具有强烈的创意元素，根据B3，判定为插画/创意。'"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/创意/2023-12-31_10485.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "2023-12-31_10485.jpg",
+      "createdAt": "2026-10-10T03:19:48.607Z",
+      "size": 2464059,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "抽象",
+          "夜晚",
+          "光线",
+          "流动"
+        ],
+        "description": "这幅图展现了一个充满梦幻色彩的夜晚景象，红色的光线在黑色的背景上形成了波浪状的图案，仿佛是夜空中闪烁的光芒。",
+        "filenameSuggestions": [
+          "波光粼粼的夜空.jpg",
+          "梦幻般的夜空.jpg"
+        ],
+        "displayTitle": "波光粼粼的夜空",
+        "confidence": 0.9,
+        "reasoning": "'图片为抽象的艺术作品，没有明确的场景或人物，属于插画中的创意类别。'"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/场景/2025-09-04_4041.jpg",
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2025-09-04_4041.jpg",
+      "createdAt": "2026-10-10T03:19:48.607Z",
+      "size": 4900758,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "插画",
+          "云海",
+          "电线杆",
+          "黄昏"
+        ],
+        "description": "这幅插画展现了一片壮丽的云海景象，夕阳余晖映照在云层上，呈现出柔和的金黄色调。前景中的电线杆延伸至远方，与平静的海面形成鲜明对比。",
+        "filenameSuggestions": [
+          "云海漫步.jpg",
+          "电线杆下的宁静时光.jpg"
+        ],
+        "displayTitle": "云海漫步",
+        "confidence": 0.9,
+        "reasoning": "'图片为插画风格，画面中有云海和电线杆等元素，根据规则B3，判定为插画/场景。'"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/魅力/2025-09-05_1649.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "2025-09-05_1649.jpg",
+      "createdAt": "2026-10-10T03:19:48.607Z",
+      "size": 586561,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "清晨",
+          "优雅",
+          "魅力",
+          "时尚"
+        ],
+        "description": "一位长发女子在晨光中展现迷人的身体曲线，背景是宁静的室内环境。",
+        "filenameSuggestions": [
+          "晨光中的优雅身影.jpg",
+          "阳光下的迷人曲线.jpg"
+        ],
+        "displayTitle": "晨光中的优雅身影",
+        "confidence": 0.9,
+        "reasoning": "图片中的人物没有露出面部，但通过她的姿势和穿着展现出一种成熟的魅力，符合‘魅力’类别。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/创意/2024-01-05_10537.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "2024-01-05_10537.jpg",
+      "createdAt": "2026-10-10T03:19:48.607Z",
+      "size": 2530818,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "科技感",
+          "六边形",
+          "发光",
+          "未来风"
+        ],
+        "description": "图片展示了具有科技感的紫色和蓝色发光六边形图案。",
+        "filenameSuggestions": [
+          "科技感的紫色六边形图案.jpg",
+          "未来风的蓝色发光六边形.jpg"
+        ],
+        "displayTitle": "科技感六边形图案",
+        "confidence": 0.9,
+        "reasoning": "'图片为抽象图案，符合插画/创意的分类标准。'"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/创意/2023-12-21_10265.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "2023-12-21_10265.jpg",
+      "createdAt": "2026-10-10T03:19:48.607Z",
+      "size": 1183758,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "夕阳",
+          "荒野",
+          "枯树",
+          "天空"
+        ],
+        "description": "夕阳西下，天边的云霞映照着这片荒野，一棵孤独的枯树矗立在画面中央。",
+        "filenameSuggestions": [
+          "夕阳下的荒野.jpg",
+          "橙黄的天空下的枯树.jpg"
+        ],
+        "displayTitle": "夕阳下的荒野",
+        "confidence": 0.9,
+        "reasoning": "'图片是一幅具有创意风格的插画，没有特定的IP或人物形象，因此属于插画/创意类别。'"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/场景/2025-09-03_10289.jpg",
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2025-09-03_10289.jpg",
+      "createdAt": "2026-10-10T03:19:48.607Z",
+      "size": 3362922,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "插画",
+        "category": "插画",
+        "third": "场景",
+        "subcategory": "场景",
+        "filenameSuggestions": [
+          "阳光洒进的教室.jpg",
+          "教室里的学习氛围.jpg"
+        ],
+        "filenames": [
+          "阳光洒进的教室.jpg",
+          "教室里的学习氛围.jpg"
+        ],
+        "displayTitle": "教室里的宁静时光",
+        "keywords": [
+          "教室",
+          "学习",
+          "阳光",
+          "黑板"
+        ],
+        "description": "教室里整齐排列着课桌椅，阳光透过窗户洒进来，营造出一种安静的学习氛围。",
+        "confidence": 0.9,
+        "reasoning": "'图片中没有特定的人物或角色，因此无法归类为人像分类。同时，图片也没有明显的动漫、插画或其他特定主题的风格，所以无法归类为动漫或插画分类。根据风景分类决策树，图片没有明确的自然景观，因此选择通用分类。'"
+      }
+    }
+  ]
+}
