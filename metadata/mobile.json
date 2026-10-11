@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "mobile",
-  "lastUpdated": "2026-10-10 20:32:06",
-  "count": 810,
+  "lastUpdated": "2026-10-11 00:30:37",
+  "count": 824,
   "images": {
     "wallpaper/mobile/IP形象/乌萨奇/乌萨奇&小八&小熊_睡衣裹被贴贴.png": {
       "category": "IP形象",
@@ -24593,19 +24593,18 @@
         "secondary": "人像",
         "third": "清新",
         "keywords": [
-          "清新",
-          "甜美",
-          "长发",
-          "微笑"
+          "清晨",
+          "柔和的光线",
+          "温柔的氛围"
         ],
-        "description": "一个面带微笑的少女侧卧在柔和的光线下，表现出清新甜美的气质。",
+        "description": "一位年轻女性在清晨柔和的光线下展现出的温柔气质。",
         "filenameSuggestions": [
-          "侧卧微笑的长发女孩.jpg",
-          "温暖光线中的清新少女.jpg"
+          "晨曦里微笑的女孩.jpg",
+          "阳光下的温柔梦境.jpg"
         ],
-        "displayTitle": "柔和光线下的甜美少女",
+        "displayTitle": "晨光中的温柔梦境",
         "confidence": 0.9,
-        "reasoning": "根据图片特征，人物面带微笑，表情甜美，背景简洁光线柔和，整体呈现出清新、治愈的氛围。根据决策树A4，清新定义为明亮、治愈、氧气感，特征包括高明度、色彩鲜艳自然、笑容甜美、背景通常是草地/蓝天/白墙、构图干净，给人初恋感。图片符合这些特征，因此归类为【清新】。"
+        "reasoning": "图中人物没有特定的明星或古装元素，因此排除A1和A2。图片中没有明显的丝袜、紧身衣等元素，不符合A2的定义。虽然有一定的光影效果，但没有强烈的氛围感，因此选择B4的清新类别。"
       }
     },
     "wallpaper/mobile/人像/张真源/微信图片_2026-03-27_140825_352.jpg": {
@@ -25942,6 +25941,526 @@
         "displayTitle": "窗光柔和映照的温柔长发少女",
         "confidence": 0.9,
         "reasoning": "检测到面部特征清晰可见，排除氛围感；无丝袜等魅力元素，排除魅力；无日系胶片感或低调氛围，排除日系；符合高明度、柔和色彩、清新感，根据规则A4，判定为[清新]而非[日系]或其他。"
+      }
+    },
+    "wallpaper/mobile/插画/风景/0 (11).jpg": {
+      "category": "插画",
+      "subcategory": "风景",
+      "filename": "0 (11).jpg",
+      "createdAt": "2026-10-11T00:28:10.089Z",
+      "cdnTag": "v1.4.63",
+      "size": 332146,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2781,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "通用",
+        "keywords": [
+          "夏日",
+          "水果摊",
+          "孩子们",
+          "插画"
+        ],
+        "description": "一幅描绘夏日里一个充满活力的水果摊的插画。",
+        "filenameSuggestions": [
+          "热闹的夏日水果摊.jpg",
+          "孩子们的水果摊体验.jpg"
+        ],
+        "displayTitle": "夏日的水果摊",
+        "confidence": 0.9,
+        "reasoning": "这是一幅插画作品，没有特定的IP或明星元素，因此选择插画类的通用分类。"
+      }
+    },
+    "wallpaper/mobile/动漫/海绵宝宝/640 (1).png": {
+      "category": "动漫",
+      "subcategory": "海绵宝宝",
+      "filename": "640 (1).png",
+      "createdAt": "2026-10-11T00:28:10.089Z",
+      "cdnTag": "v1.4.63",
+      "size": 824332,
+      "format": "png",
+      "resolution": {
+        "width": 1080,
+        "height": 2337,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "海绵宝宝",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "海绵宝宝",
+        "keywords": [
+          "海绵宝宝",
+          "派大星",
+          "友谊",
+          "冒险"
+        ],
+        "description": "海绵宝宝和派大星一起走在岩石上，展现出他们的友谊和冒险精神。",
+        "filenameSuggestions": [
+          "海绵宝宝与派大星携手前行.jpg",
+          "友谊万岁的海绵宝宝与派大星.jpg"
+        ],
+        "displayTitle": "海绵宝宝与派大星携手前行",
+        "confidence": 0.9,
+        "reasoning": "'检测到图中角色为海绵宝宝和派大星，这是《海绵宝宝》这部动画中的经典角色组合，因此直接归类为动漫/海绵宝宝。'"
+      }
+    },
+    "wallpaper/mobile/动漫/海绵宝宝/640 (2).png": {
+      "category": "动漫",
+      "subcategory": "海绵宝宝",
+      "filename": "640 (2).png",
+      "createdAt": "2026-10-11T00:28:10.089Z",
+      "cdnTag": "v1.4.63",
+      "size": 645667,
+      "format": "png",
+      "resolution": {
+        "width": 1080,
+        "height": 2337,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "海绵宝宝",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "海绵宝宝",
+        "keywords": [
+          "夏日",
+          "海滩",
+          "海绵宝宝",
+          "派大星",
+          "友谊"
+        ],
+        "description": "海绵宝宝和派大星在阳光明媚的海滩上尽情玩耍，享受夏日的乐趣。",
+        "filenameSuggestions": [
+          "海绵宝宝和派大星在水中玩耍.jpg",
+          "阳光明媚的海滩冒险.jpg"
+        ],
+        "displayTitle": "夏日海滩上的欢乐时光",
+        "confidence": 0.9,
+        "reasoning": "'检测到图中角色为《海绵宝宝》中的主角，根据规则B1，判定为[动漫/海绵宝宝]。'"
+      }
+    },
+    "wallpaper/mobile/动漫/海绵宝宝/640 (3).png": {
+      "category": "动漫",
+      "subcategory": "海绵宝宝",
+      "filename": "640 (3).png",
+      "createdAt": "2026-10-11T00:28:10.089Z",
+      "cdnTag": "v1.4.63",
+      "size": 798236,
+      "format": "png",
+      "resolution": {
+        "width": 1080,
+        "height": 2337,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "海绵宝宝",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "海绵宝宝",
+        "keywords": [
+          "夏日",
+          "欢乐",
+          "海绵宝宝",
+          "派大星",
+          "秋千"
+        ],
+        "description": "阳光明媚的日子里，海绵宝宝坐在秋千上，派大星在一旁推着秋千，享受着夏日的快乐时光。",
+        "filenameSuggestions": [
+          "夏日欢乐时光之海绵宝宝荡秋千.jpg",
+          "夏日欢乐时光之派大星推秋千.jpg"
+        ],
+        "displayTitle": "夏日欢乐时光",
+        "confidence": 0.9,
+        "reasoning": "这是一幅来自《海绵宝宝》的插图，展示了海绵宝宝和派大星在公园里玩耍的场景。"
+      }
+    },
+    "wallpaper/mobile/动漫/海绵宝宝/640 (7).png": {
+      "category": "动漫",
+      "subcategory": "海绵宝宝",
+      "filename": "640 (7).png",
+      "createdAt": "2026-10-11T00:28:10.089Z",
+      "cdnTag": "v1.4.63",
+      "size": 724698,
+      "format": "png",
+      "resolution": {
+        "width": 1080,
+        "height": 2337,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "海绵宝宝",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "海绵宝宝",
+        "keywords": [
+          "夏日",
+          "海滩",
+          "海绵宝宝",
+          "快乐"
+        ],
+        "description": "这是一幅描绘了海绵宝宝在夏日海滩上玩耍的插图。",
+        "filenameSuggestions": [
+          "夏日海滩的海绵宝宝.jpg",
+          "欢乐的海绵宝宝.jpg"
+        ],
+        "displayTitle": "夏日海滩上的海绵宝宝",
+        "confidence": 0.9,
+        "reasoning": "图片中展示了海绵宝宝这个经典动漫角色，因此可以归类为动漫类别。由于这是海绵宝宝的特写图，所以进一步归类为海绵宝宝这一子类别。"
+      }
+    },
+    "wallpaper/mobile/人像/清新/微信图片_2026-05-26_164326_139.jpg": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-05-26_164326_139.jpg",
+      "createdAt": "2026-10-11T00:28:10.089Z",
+      "cdnTag": "v1.4.63",
+      "size": 461382,
+      "format": "jpg",
+      "resolution": {
+        "width": 1280,
+        "height": 2777,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "阳光",
+          "清新",
+          "长发",
+          "户外"
+        ],
+        "description": "一位年轻女性在阳光明媚的日子里，穿着白色上衣和牛仔裤，展现出清新自然的气息。",
+        "filenameSuggestions": [
+          "阳光下的清新少女.jpg",
+          "长发女孩在户外摆姿势.jpg"
+        ],
+        "displayTitle": "阳光下的清新少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，人物没有特定的明星或古装元素，因此排除A1和A2。图片中没有明显的丝袜、紧身衣等元素，不符合A2的定义。虽然有一定的动态感和抓拍感，但没有明显的日系风格特征，因此选择B4的清新类别。"
+      }
+    },
+    "wallpaper/mobile/创意/通用/微信图片_2026-07-21_190403_422.jpg": {
+      "category": "创意",
+      "subcategory": "通用",
+      "filename": "微信图片_2026-07-21_190403_422.jpg",
+      "createdAt": "2026-10-11T00:28:10.089Z",
+      "cdnTag": "v1.4.63",
+      "size": 160824,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2400,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "通用",
+        "keywords": [
+          "清晨",
+          "蓝花",
+          "露珠",
+          "宁静",
+          "美丽"
+        ],
+        "description": "三朵淡蓝色的花朵上挂着晶莹的露珠，仿佛在晨光中轻轻摇曳。",
+        "filenameSuggestions": [
+          "晨曦中的蓝花.jpg",
+          "露珠点缀的淡雅花朵.jpg"
+        ],
+        "displayTitle": "晨曦中的蓝花",
+        "confidence": 0.9,
+        "reasoning": "图片中没有特定的明星或动漫角色，也没有明确的动漫风格元素，因此无法精确归类到特定IP或动漫类别。根据图片的风格和内容，它最符合插画类的通用分类。"
+      }
+    },
+    "wallpaper/mobile/风景/花卉/微信图片_2026-07-21_190627_807.jpg": {
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "微信图片_2026-07-21_190627_807.jpg",
+      "createdAt": "2026-10-11T00:28:10.089Z",
+      "cdnTag": "v1.4.63",
+      "size": 242629,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2400,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "通用",
+        "keywords": [
+          "淡雅蓝花",
+          "蝴蝶",
+          "珍珠",
+          "金色点缀"
+        ],
+        "description": "一朵淡雅的蓝色花朵，旁边有一只黄色蝴蝶和几颗珍珠，周围散布着金色的碎屑。",
+        "filenameSuggestions": [
+          "淡雅蓝花蝶舞.jpg",
+          "宁静蓝花轻舞弄影.jpg"
+        ],
+        "displayTitle": "淡雅蓝花蝶舞",
+        "confidence": 0.9,
+        "reasoning": "这是一幅具有艺术感的插画，没有特定的明星或动漫角色，因此无法精确归类到现有的二级或三级分类中。"
+      }
+    },
+    "wallpaper/mobile/插画/创意/微信图片_2026-07-21_190635_463.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_2026-07-21_190635_463.jpg",
+      "createdAt": "2026-10-11T00:28:10.089Z",
+      "cdnTag": "v1.4.63",
+      "size": 269656,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2400,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "创意",
+          "花朵",
+          "蝴蝶",
+          "珍珠"
+        ],
+        "description": "这是一幅充满创意的插画作品，以蓝色为主题，描绘了一颗被花朵环绕的心形图案。",
+        "filenameSuggestions": [
+          "蓝色花语之心.jpg",
+          "梦幻蓝心.jpg"
+        ],
+        "displayTitle": "蓝色花语之心",
+        "confidence": 0.9,
+        "reasoning": "'这幅图没有特定的明星或动漫角色，因此无法直接归类为人像或动漫类别。它具有独特的创意元素，如蓝色的花朵、蝴蝶和珍珠，这些元素共同构成了一个梦幻而浪漫的场景。根据现有的分类体系，最适合将其归类为'插画'下的'创意'类别。'"
+      }
+    },
+    "wallpaper/mobile/萌宠/IP形象/微信图片_2026-07-21_190928_664.jpg": {
+      "category": "萌宠",
+      "subcategory": "IP形象",
+      "filename": "微信图片_2026-07-21_190928_664.jpg",
+      "createdAt": "2026-10-11T00:28:10.089Z",
+      "cdnTag": "v1.4.63",
+      "size": 196166,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2400,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "IP形象",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "IP形象",
+        "keywords": [
+          "萌宠",
+          "可爱",
+          "小熊"
+        ],
+        "description": "一只戴着黄色帽子和围裙的小熊，带着眼镜，微笑着举起双手。",
+        "filenameSuggestions": [
+          "阳光下的快乐小熊.jpg",
+          "戴着眼镜的小熊.jpg"
+        ],
+        "displayTitle": "阳光下的快乐小熊",
+        "confidence": 0.9,
+        "reasoning": "这是一只卡通小熊，符合萌宠类别，并且带有特定的装饰和表情，因此被归类为IP形象。"
+      }
+    },
+    "wallpaper/mobile/插画/通用/微信图片_2026-07-21_190933_150.jpg": {
+      "category": "插画",
+      "subcategory": "通用",
+      "filename": "微信图片_2026-07-21_190933_150.jpg",
+      "createdAt": "2026-10-11T00:28:10.089Z",
+      "cdnTag": "v1.4.63",
+      "size": 223575,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2400,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "通用",
+        "keywords": [
+          "阳光",
+          "花朵",
+          "水滴",
+          "清新"
+        ],
+        "description": "阳光照耀下，黄色的花朵在水中绽放。",
+        "filenameSuggestions": [
+          "阳光下的黄色花朵.jpg",
+          "水中的黄色花朵.jpg"
+        ],
+        "displayTitle": "阳光下的黄色花朵",
+        "confidence": 0.9,
+        "reasoning": "'检测到没有特定的人物或角色，也没有明确的动漫风格元素，因此无法精确匹配到现有的二级或三级分类。根据规则B3，判定为插画/通用。'"
+      }
+    },
+    "wallpaper/mobile/插画/萌宠/微信图片_2026-07-21_190942_775.jpg": {
+      "category": "插画",
+      "subcategory": "萌宠",
+      "filename": "微信图片_2026-07-21_190942_775.jpg",
+      "createdAt": "2026-10-11T00:28:10.089Z",
+      "cdnTag": "v1.4.63",
+      "size": 236670,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2400,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "萌宠",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "萌宠",
+        "keywords": [
+          "阳光",
+          "可爱",
+          "萌宠",
+          "绿色背景"
+        ],
+        "description": "一只可爱的白色兔子躺在绿色的毛毯上，周围环绕着美丽的花朵。",
+        "filenameSuggestions": [
+          "阳光下可爱的白色兔子.jpg",
+          "绿毯上的萌宠小白兔.jpg"
+        ],
+        "displayTitle": "阳光下的可爱兔子",
+        "confidence": 0.9,
+        "reasoning": "'根据图片内容，这是一幅以萌宠为主题的插画，因此选择插画/萌宠作为分类。'"
+      }
+    },
+    "wallpaper/mobile/创意/文字/微信图片_2026-07-21_190947_521.jpg": {
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "微信图片_2026-07-21_190947_521.jpg",
+      "createdAt": "2026-10-11T00:28:10.089Z",
+      "cdnTag": "v1.4.63",
+      "size": 129180,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2400,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "创意",
+        "subcategory": "文字",
+        "primary": "mobile",
+        "secondary": "创意",
+        "third": "文字",
+        "keywords": [
+          "正能量",
+          "积极向上",
+          "好运气",
+          "好运"
+        ],
+        "description": "这是一幅以绿色为主色调的插画，传达了快乐、美好和好运的情感。",
+        "filenameSuggestions": [
+          "充满正能量的绿色心情.jpg",
+          "积极向上的绿色心情.jpg"
+        ],
+        "displayTitle": "绿色心情",
+        "confidence": 0.9,
+        "reasoning": "'happy', 'nice', 'luck', 'good' 这些词语都带有积极的含义，符合创意类中的文字主题。"
+      }
+    },
+    "wallpaper/mobile/插画/通用/微信图片_2026-07-21_190952_533.jpg": {
+      "category": "插画",
+      "subcategory": "通用",
+      "filename": "微信图片_2026-07-21_190952_533.jpg",
+      "createdAt": "2026-10-11T00:28:10.089Z",
+      "cdnTag": "v1.4.63",
+      "size": 342075,
+      "format": "jpg",
+      "resolution": {
+        "width": 1080,
+        "height": 2400,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "通用",
+        "keywords": [
+          "夏日",
+          "音乐",
+          "耳机",
+          "绿植"
+        ],
+        "description": "一位戴着耳机享受音乐的年轻女孩，周围环绕着绿色的植物。",
+        "filenameSuggestions": [
+          "戴着耳机听音乐的夏日女孩.jpg",
+          "绿植环绕的音乐爱好者.jpg"
+        ],
+        "displayTitle": "夏日清凉音乐时光",
+        "confidence": 0.9,
+        "reasoning": "图片中没有特定的明星或古装元素，因此不符合人像分类决策树的特定明星/古装分支。图片也没有表现出明确的魅力、日系或清新等风格特征，因此也不符合人像分类决策树的这些分支。虽然图片中有动漫风格的元素，但由于没有特定的IP角色，所以无法归入动漫与插画决策树的特定IP分支。最终，由于图片既不是插画也不是动漫的风格，并且没有特定的IP角色，因此被归类为通用的插画类别。"
       }
     }
   }
