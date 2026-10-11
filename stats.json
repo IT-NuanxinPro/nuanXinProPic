@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-11 00:30:37",
-  "cdnTag": "v1.4.63",
+  "lastUpdated": "2026-10-11 01:56:37",
+  "cdnTag": "v1.4.64",
   "series": {
     "desktop": {
       "count": 856,
@@ -20,12 +20,12 @@
       ]
     },
     "mobile": {
-      "count": 824,
+      "count": 913,
       "categories": [
         "人像",
         "插画",
-        "风景",
         "动漫",
+        "风景",
         "影视",
         "萌宠",
         "创意",
@@ -49,10 +49,20 @@
   },
   "total": {
     "desktop": 856,
-    "mobile": 824,
+    "mobile": 913,
     "avatar": 550
   },
   "releases": [
+    {
+      "tag": "v1.4.64",
+      "date": "2026-10-11",
+      "added": {
+        "desktop": 0,
+        "mobile": 89,
+        "avatar": 0
+      },
+      "publisher": "aSheep-yyqx"
+    },
     {
       "tag": "v1.4.63",
       "date": "2026-10-11",
