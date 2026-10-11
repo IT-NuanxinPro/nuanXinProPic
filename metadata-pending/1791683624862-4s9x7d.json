@@ -1,0 +1,2841 @@
+{
+  "version": 1,
+  "createdAt": "2026-10-11T01:53:44.857Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/氛围感/微信图片_2026-10-11_084805_407.png",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_084805_407.png",
+      "createdAt": "2026-10-11T01:53:44.859Z",
+      "size": 522195,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感",
+          "情侣",
+          "日落",
+          "沙滩"
+        ],
+        "description": "一对情侣在沙滩上撑着一把黑色的伞，享受着夕阳下的浪漫时光。",
+        "filenameSuggestions": [
+          "伞下相拥的恋人.jpg",
+          "夕阳下的浪漫时刻.jpg"
+        ],
+        "displayTitle": "伞下相拥",
+        "confidence": 0.9,
+        "reasoning": "'检测到人物没有穿特定的服装或饰品，无法识别出具体的明星，因此排除A1和A2。图片中没有明显的动漫元素，排除B1和B2。图片具有强烈的氛围感和情感表达，符合A5的定义。'"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_084903_832.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_084903_832.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 196731,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "夜晚",
+          "黑色长袖上衣",
+          "牛仔短裤",
+          "长发",
+          "黑色手链"
+        ],
+        "description": "一位身着白色上衣和深色牛仔短裤的女性，站在夜晚的城市街头，她的长发随风飘动，展现出一种迷人的魅力。",
+        "filenameSuggestions": [
+          "月下魅影.jpg",
+          "夜色中优雅漫步的长发女孩.jpg"
+        ],
+        "displayTitle": "月下魅影",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女性穿着时尚，突出身材曲线，符合‘魅力’类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_085119_767.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_085119_767.png",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 1757288,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "夜景",
+          "优雅"
+        ],
+        "description": "夜晚街头，一对情侣并肩而行，女子身着白色连衣裙，长发飘逸，高跟鞋优雅地踩在地面上，展现出一种清新脱俗的气质。男子则穿着深色衣服，两人似乎正在享受这美好的时光。背景是一座宏伟的建筑，灯光照亮了他们的身影，营造出一种浪漫的氛围。",
+        "filenameSuggestions": [
+          "月下漫步的清新佳人.jpg",
+          "夜晚街头的优雅身影.jpg"
+        ],
+        "displayTitle": "月下漫步的清新佳人",
+        "confidence": 0.9,
+        "reasoning": null
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_085240_644.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_085240_644.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 192294,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "夜晚",
+          "黑色",
+          "长发",
+          "诱惑",
+          "时尚"
+        ],
+        "description": "一位长发女子站在街头，身着白色上衣和深色短裤，展现出迷人的曲线。",
+        "filenameSuggestions": [
+          "夜晚街头的黑色诱惑.jpg",
+          "长发女孩的迷人风采.jpg"
+        ],
+        "displayTitle": "夜色中的黑色诱惑",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，该图片符合‘魅力’类别，因为人物展示了明确的身材曲线和成熟的气质。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_085255_437.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_085255_437.png",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 2764694,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "阳光",
+          "青春",
+          "休闲",
+          "时尚"
+        ],
+        "description": "一对年轻情侣在阳光明媚的日子里享受美好时光。",
+        "filenameSuggestions": [
+          "阳光下的青春情侣.jpg",
+          "活力四射的校园时光.jpg"
+        ],
+        "displayTitle": "阳光下的青春气息",
+        "confidence": 0.9,
+        "reasoning": "图中人物穿着休闲服装，背景为现代建筑，整体感觉充满青春活力和清新气息，符合‘清新’的分类标准。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_085317_278.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_085317_278.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 160761,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "夏日风情",
+          "泳装诱惑",
+          "性感时尚"
+        ],
+        "description": "夏日气息扑面而来，身着红色、白色与深蓝色相间泳装的女子，头戴黄色花朵，展现出独特的魅力。",
+        "filenameSuggestions": [
+          "夏日花漾魅影.jpg",
+          "夏日花漾美人.jpg"
+        ],
+        "displayTitle": "夏日花漾魅影",
+        "confidence": 0.9,
+        "reasoning": "'检测到人物穿着暴露的泳装，突出身材曲线，符合规则B2的定义，判定为[魅力]。'"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_085402_092.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_085402_092.png",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 1721961,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "岁月静好",
+          "温馨",
+          "老夫妇",
+          "和谐"
+        ],
+        "description": "一对年长的夫妇手牵手散步，享受着彼此的陪伴和宁静的生活。",
+        "filenameSuggestions": [
+          "岁月静好的老夫妇.jpg",
+          "温馨相伴的老夫妻.jpg"
+        ],
+        "displayTitle": "岁月静好，温馨相伴",
+        "confidence": 0.9,
+        "reasoning": "图中是一对年长的夫妇，他们手牵手散步，背景是宁静的城市街道，整体给人一种温暖、和谐的感觉。根据规则B4，可以判断这是一幅清新风格的人像照片。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_085433_645.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_085433_645.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 169101,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "夏日",
+          "花漾",
+          "魅力",
+          "泳装"
+        ],
+        "description": "夏日气息扑面而来，身着时尚泳装的女子散发着无尽的魅力。",
+        "filenameSuggestions": [
+          "夏日花漾魅影.jpg",
+          "夏日花漾佳人.jpg"
+        ],
+        "displayTitle": "夏日花漾魅影",
+        "confidence": 0.9,
+        "reasoning": "图中人物着装时尚，展现出成熟女性的魅力，符合‘魅力’的分类标准。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_085530_928.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_085530_928.png",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 1524709,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "浪漫",
+          "篝火",
+          "海滩",
+          "夜晚",
+          "拥抱"
+        ],
+        "description": "一对情侣在海边的篝火旁深情相拥，享受着温馨而浪漫的时刻。",
+        "filenameSuggestions": [
+          "火光中的浪漫拥吻.jpg",
+          "海边篝火旁的黑衣情侣.jpg"
+        ],
+        "displayTitle": "火光中的浪漫拥吻",
+        "confidence": 0.9,
+        "reasoning": "'检测到人物穿着正式服装，男士手持鲜花，女士长发飘逸，两人亲密互动，符合规则A1，判定为[魅力]。'"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_085542_663.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_085542_663.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 149393,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "黑色长裙",
+          "红酒杯",
+          "优雅"
+        ],
+        "description": "两位身着白色衬衫和黑色短裙的女性坐在沙发上，手持红酒杯，展现出一种时尚而优雅的氛围。",
+        "filenameSuggestions": [
+          "黑色长裙下的优雅身影.jpg",
+          "夜晚品酒的女孩.jpg"
+        ],
+        "displayTitle": "黑色长裙下的优雅身影",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女性穿着时尚且具有诱惑力的服装，符合‘魅力’这一类别。没有特定的明星或动漫元素，因此直接归类为人像分类中的魅力类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_085557_839.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_085557_839.png",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 1595963,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "新娘",
+          "雨中",
+          "婚纱"
+        ],
+        "description": "一对新人撑着透明的雨伞在雨中漫步，新娘穿着洁白的婚纱，新郎穿着黑色的西装。",
+        "filenameSuggestions": [
+          "雨中漫步的新娘.jpg",
+          "撑伞新娘.jpg"
+        ],
+        "displayTitle": "雨中漫步的新娘",
+        "confidence": 0.9,
+        "reasoning": "图中人物穿着婚纱，符合人像分类。由于照片整体色调较为明亮，且人物表情自然，因此被判定为清新风格。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_085610_803.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_085610_803.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 158432,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "黑丝",
+          "夜晚"
+        ],
+        "description": "两位身着白色衬衫和黑色短裙的女性在月光下翩翩起舞，展现出迷人的魅力。",
+        "filenameSuggestions": [
+          "月下黑白舞者.jpg",
+          "月光下的黑白舞者.jpg"
+        ],
+        "displayTitle": "月下舞动的黑白旋律",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，两位女性穿着时尚的服装，并伴有丝袜等元素，符合魅力类的特点。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_085701_138.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_085701_138.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 270781,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "长发",
+          "花朵",
+          "湖泊"
+        ],
+        "description": "一位长发女孩手持鲜花，面带微笑，背景是宁静的湖泊。",
+        "filenameSuggestions": [
+          "湖畔花语-长发女孩.jpg",
+          "湖畔花语-微笑女孩.jpg"
+        ],
+        "displayTitle": "湖畔花语",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女孩穿着休闲服装，手持鲜花，背景是自然风光，符合清新风格的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_085728_467.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_085728_467.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 312397,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "阳光",
+          "花朵",
+          "清新"
+        ],
+        "description": "一位长发女孩手持鲜花，面带微笑，背景阳光明媚。",
+        "filenameSuggestions": [
+          "阳光下的花仙子.jpg",
+          "长发女孩与鲜花.jpg"
+        ],
+        "displayTitle": "阳光下的花仙子",
+        "confidence": 0.9,
+        "reasoning": "图中人物面容清晰可见，符合人像分类。人物穿着清新，背景阳光明媚，符合清新风格的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_085746_880.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_085746_880.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 229961,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "长发",
+          "车内",
+          "摆拍"
+        ],
+        "description": "长发女孩在车内摆拍的清新照片。",
+        "filenameSuggestions": [
+          "长发女孩车内自拍.jpg",
+          "长发女孩车内摆拍.jpg"
+        ],
+        "displayTitle": "长发女孩",
+        "confidence": 0.9,
+        "reasoning": "图中人物没有特定的明星或古装元素，不属于魅力类别，也没有明确的动漫风格，因此可以初步判断为人像分类。根据图片内容，人物坐在车内，头发散开，表情自然，符合清新风格的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_090154_014.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_090154_014.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 194279,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "夜晚",
+          "黑色翅膀",
+          "白色礼服",
+          "长发",
+          "优雅"
+        ],
+        "description": "一位身着白色礼服的黑发女孩，她拥有黑色的天使翅膀，在夜晚的背景下展现出优雅的气质。",
+        "filenameSuggestions": [
+          "身穿白色礼服的黑发女孩.jpg",
+          "夜色中优雅漫步的长发女孩.jpg"
+        ],
+        "displayTitle": "夜色中优雅漫步的长发女孩",
+        "confidence": 0.9,
+        "reasoning": "'检测到人物穿着白色礼服，搭配黑色翅膀，符合规则B3中提到的'魅力'类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_090210_040.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_090210_040.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 259114,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "阳光",
+          "清新",
+          "粉色开衫",
+          "格子裙"
+        ],
+        "description": "一位穿着粉色开衫和棕色格子裙的女孩站在厨房里，背景是白色的瓷砖墙和窗户，窗外是绿色的植物。她的头发披散着，看起来很温柔。",
+        "filenameSuggestions": [
+          "阳光午后温柔微笑的女孩.jpg",
+          "粉色开衫搭配格子裙的清新女孩.jpg"
+        ],
+        "displayTitle": "阳光午后",
+        "confidence": 0.9,
+        "reasoning": null
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_090310_466.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_090310_466.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 233446,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "长发女孩",
+          "宠物狗",
+          "清新",
+          "自然光"
+        ],
+        "description": "一位长发女孩坐在户外，温柔地抚摸着她的宠物狗。",
+        "filenameSuggestions": [
+          "长发女孩与宠物狗.jpg",
+          "长发女孩与爱犬.jpg"
+        ],
+        "displayTitle": "长发女孩与宠物狗",
+        "confidence": 0.9,
+        "reasoning": "图中人物没有特定的明星或古装元素，因此排除A1和A2。图片中没有明显的丝袜等元素，不符合A2的定义。虽然有一定的光影效果，但没有强烈的氛围感，因此不属于A5。图片的风格自然清新，符合B4的特征，因此选择'B. 清新'作为最终分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_090440_128.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_090440_128.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 150983,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "夏日",
+          "泳池",
+          "清新",
+          "阳光"
+        ],
+        "description": "一位年轻女性在游泳池边享受夏日的清凉，她的头发湿漉漉地贴在头上，穿着白色的泳衣，背景是晴朗的天空和远处的建筑物。",
+        "filenameSuggestions": [
+          "夏日泳池边的清新时光.jpg",
+          "阳光下的泳池女孩.jpg"
+        ],
+        "displayTitle": "夏日泳池边的清新时光",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这位女性的着装和环境都符合‘清新’的风格特点，因此被归类为人像分类中的‘清新’类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/二次元/微信图片_2026-10-11_090542_911.jpg",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微信图片_2026-10-11_090542_911.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 274886,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "阳光",
+          "樱花",
+          "宁静",
+          "二次元",
+          "动漫"
+        ],
+        "description": "三个动漫角色在樱花树下享受阳光明媚的一天。",
+        "filenameSuggestions": [
+          "阳光下的宁静时光.jpg",
+          "樱花树下的小憩时光.jpg"
+        ],
+        "displayTitle": "阳光下的宁静时光",
+        "confidence": 0.9,
+        "reasoning": "'检测到人物穿着动漫服饰，具有典型的日式动画风格，根据规则B2，判定为[动漫]类。无法识别具体作品，因此归入[动漫/二次元]。'"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/七龙珠/微信图片_2026-10-11_090559_508.jpg",
+      "category": "动漫",
+      "subcategory": "七龙珠",
+      "filename": "微信图片_2026-10-11_090559_508.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 302479,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "七龙珠",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "七龙珠",
+        "keywords": [
+          "动漫",
+          "冒险",
+          "机械装置",
+          "紫色头发"
+        ],
+        "description": "一个紫发少年坐在绿色的机械装置上，似乎正在准备一场冒险。",
+        "filenameSuggestions": [
+          "紫发少年在机械装置上的冒险.jpg",
+          "紫色头发男孩坐在绿色机械装置上.jpg"
+        ],
+        "displayTitle": "紫发少年的冒险之旅",
+        "confidence": 0.9,
+        "reasoning": "图中人物明显是动漫角色，且具有《七龙珠》的风格特点。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/二次元/微信图片_2026-10-11_090634_004.jpg",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微信图片_2026-10-11_090634_004.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 166768,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "冬日",
+          "暖阳",
+          "少女",
+          "二次元",
+          "动漫"
+        ],
+        "description": "一位戴着围巾的棕色头发二次元少女站在雪地中。",
+        "filenameSuggestions": [
+          "冬日暖阳下的少女.jpg",
+          "阳光照耀下的长发女孩.jpg"
+        ],
+        "displayTitle": "冬日暖阳下的少女",
+        "confidence": 0.9,
+        "reasoning": "图片中的人物具有典型的动漫风格特征，如大眼睛、夸张的表情等，因此可以确定这是一幅动漫风格的插画。由于无法识别具体的动漫角色或系列，所以将其归类为‘动漫/二次元’类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_090704_384.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_090704_384.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 252404,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "长发",
+          "花朵"
+        ],
+        "description": "一位长发女孩坐在户外椅子上，她穿着白色上衣，头上戴着粉色花朵，双手做出可爱的手势。",
+        "filenameSuggestions": [
+          "花影轻舞的清新少女.jpg",
+          "夜晚花园里的长发女孩.jpg"
+        ],
+        "displayTitle": "花影轻舞",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女孩穿着休闲服装，没有明显的性感元素，表情可爱，符合清新风格的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/二次元/微信图片_2026-10-11_090737_062.jpg",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微信图片_2026-10-11_090737_062.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 254723,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "夏日",
+          "阳光",
+          "可爱",
+          "玩偶"
+        ],
+        "description": "一个戴着黄色帽子、穿着蓝绿色条纹衣服的可爱玩偶站在木制椅子上，背景是白色的墙壁和一些装饰星星图案。",
+        "filenameSuggestions": [
+          "夏日阳光下的可爱玩偶.jpg",
+          "戴着黄色帽子的玩偶.jpg"
+        ],
+        "displayTitle": "夏日阳光下的可爱玩偶",
+        "confidence": 0.9,
+        "reasoning": "图片中的玩偶具有典型的动漫风格，特别是其夸张的大眼睛和可爱的造型。根据动漫与插画决策树的B部分，可以将其归类为动漫/二次元。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/明星/微信图片_2026-10-11_090822_146.jpg",
+      "category": "人像",
+      "subcategory": "明星",
+      "filename": "微信图片_2026-10-11_090822_146.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 152217,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "明星",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "明星",
+        "keywords": [
+          "海边",
+          "夕阳",
+          "银发",
+          "思考"
+        ],
+        "description": "一位银发少年站在海边，沐浴在夕阳的金色光芒中，他似乎陷入了深思。",
+        "filenameSuggestions": [
+          "海边沉思的少年.jpg",
+          "夕阳下银发少年的思考时光.jpg"
+        ],
+        "displayTitle": "海边沉思的少年",
+        "confidence": 0.9,
+        "reasoning": "'检测到人物穿着现代服装，背景是自然风光的海边日落，根据规则A1，判定为[明星]'"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_091209_406.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_091209_406.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 179328,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "微风",
+          "夏日",
+          "青春",
+          "活力"
+        ],
+        "description": "两位年轻女性在夕阳下享受着微风的轻抚，她们的笑容洋溢着青春的气息。",
+        "filenameSuggestions": [
+          "微风拂面的夏日午后.jpg",
+          "青春洋溢的活力瞬间.jpg"
+        ],
+        "displayTitle": "微风拂面下的青春时光",
+        "confidence": 0.9,
+        "reasoning": "图中人物没有特定的明星或古装元素，因此排除A1。虽然人物的姿势和表情展现出一定的魅力，但没有明确的丝袜或其他性感元素，所以不属于A2。图中有明显的阳光和蓝天，符合B4的特征，因此被归类为人像/清新。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_091222_090.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_091222_090.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 117794,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "月光",
+          "优雅",
+          "长发",
+          "少女"
+        ],
+        "description": "一位优雅的少女在月光的照耀下漫步，她的身影显得格外迷人。",
+        "filenameSuggestions": [
+          "月光下漫步的优雅少女.jpg",
+          "夜晚中漫步的女孩.jpg"
+        ],
+        "displayTitle": "月光下漫步的优雅少女",
+        "confidence": 0.9,
+        "reasoning": "图中人物没有特定的明星或古装元素，因此排除A1。图片中没有明显的丝袜等元素，不符合A2的定义。虽然有一定的氛围感，但人物面部清晰可见，排除A5。图片具有清晰的细节和较高的亮度，符合B4的特征，因此判定为清新风格。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/Hello Kitty/微信图片_2026-10-11_091236_057.jpg",
+      "category": "动漫",
+      "subcategory": "Hello Kitty",
+      "filename": "微信图片_2026-10-11_091236_057.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 182518,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "Hello Kitty",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "Hello Kitty",
+        "keywords": [
+          "Hello Kitty",
+          "冰淇淋",
+          "夏日"
+        ],
+        "description": "一只可爱的Hello Kitty玩偶拿着冰淇淋，站在绿油油的草地上，享受着夏日的美好时光。",
+        "filenameSuggestions": [
+          "Hello Kitty 拿着冰淇淋.jpg",
+          "阳光下的Hello Kitty.jpg"
+        ],
+        "displayTitle": "夏日里的甜蜜时光",
+        "confidence": 0.9,
+        "reasoning": null
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/海绵宝宝/微信图片_2026-10-11_091249_137.jpg",
+      "category": "动漫",
+      "subcategory": "海绵宝宝",
+      "filename": "微信图片_2026-10-11_091249_137.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 219440,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "海绵宝宝",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "海绵宝宝",
+        "keywords": [
+          "动漫",
+          "海绵宝宝",
+          "阳光"
+        ],
+        "description": "一个可爱的海绵宝宝在阳光下拿着奖杯，周围有许多其他海绵宝宝。",
+        "filenameSuggestions": [
+          "阳光下的海绵宝宝.jpg",
+          "快乐的海绵宝宝.jpg"
+        ],
+        "displayTitle": "阳光下的海绵宝宝",
+        "confidence": 0.9,
+        "reasoning": "图中显示的是海绵宝宝这一经典动漫角色，因此可以完美匹配到现有的动漫分类体系中。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_091310_304.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_091310_304.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 227009,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "月光",
+          "白色连衣裙",
+          "背影",
+          "优雅"
+        ],
+        "description": "一位身着白色连衣裙的女性背对镜头坐在地板上，她黑色的头发垂落在背部，展现出一种优雅而神秘的气质。",
+        "filenameSuggestions": [
+          "月光下穿白色连衣裙的女孩.jpg",
+          "白色连衣裙背影照.jpg"
+        ],
+        "displayTitle": "月光下的白色舞者",
+        "confidence": 0.9,
+        "reasoning": "'检测到人物穿着 JK 制服但光线明亮笑容甜美，无胶片感，根据规则 A4，判定为 [清新] 而非 [日系]。'"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_091331_580.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_091331_580.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 118524,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "长发",
+          "夜色",
+          "优雅"
+        ],
+        "description": "一位戴着眼镜的长发女孩在夜晚的街道上漫步，展现出她的优雅气质。",
+        "filenameSuggestions": [
+          "夜晚漫步的女孩.jpg",
+          "长发女孩的魅力瞬间.jpg"
+        ],
+        "displayTitle": "夜色中优雅漫步的长发女孩",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女孩穿着时尚，长发披肩，符合魅力类的特点。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/萌宠/猫咪/微信图片_2026-10-11_091341_642.jpg",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_2026-10-11_091341_642.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 165626,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "猫咪",
+          "帽子",
+          "可爱",
+          "橘猫"
+        ],
+        "description": "一只可爱的橘猫坐在黑色的椅子上，头上戴着灰色的毛线帽。",
+        "filenameSuggestions": [
+          "戴着灰色毛线帽的橘猫.jpg",
+          "可爱橘猫坐姿照.jpg"
+        ],
+        "displayTitle": "橘猫戴帽",
+        "confidence": 0.9,
+        "reasoning": "'检测到人物穿着JK制服但光线明亮笑容甜美，无胶片感，根据规则A4，判定为[清新]而非[日系]'"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_091352_731.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_091352_731.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 258788,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "星光",
+          "夜晚",
+          "草地",
+          "清新"
+        ],
+        "description": "一个穿着粉色连衣裙的小女孩在草地上旋转，周围是闪烁的星星和树木。",
+        "filenameSuggestions": [
+          "星光下旋转的女孩.jpg",
+          "夜晚草地上的小女孩.jpg"
+        ],
+        "displayTitle": "星光下的粉色梦境",
+        "confidence": 0.9,
+        "reasoning": "图片中没有特定的明星或古装元素，也没有明显的身材展示，因此排除魅力类别。虽然有一定的动态感和光影效果，但不属于典型的日系风格，因为整体色调较为明亮自然，符合清新的定义。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/萌宠/微信图片_2026-10-11_091404_874.jpg",
+      "category": "插画",
+      "subcategory": "萌宠",
+      "filename": "微信图片_2026-10-11_091404_874.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 229937,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "萌宠",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "萌宠",
+        "keywords": [
+          "玩具熊",
+          "小狗",
+          "草地",
+          "蓝天"
+        ],
+        "description": "一只可爱的玩具熊和一只白色的小狗在蓝天下绿色的草地上玩耍。",
+        "filenameSuggestions": [
+          "草地上的可爱熊玩偶和小狗.jpg",
+          "蓝天下的玩具熊与小狗.jpg"
+        ],
+        "displayTitle": "草地上的可爱熊玩偶和小狗",
+        "confidence": 0.9,
+        "reasoning": "这是一幅插画风格的图片，主要描绘了玩具熊和小狗的形象，符合插画和萌宠的分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/通用/微信图片_2026-10-11_091424_583.jpg",
+      "category": "插画",
+      "subcategory": "通用",
+      "filename": "微信图片_2026-10-11_091424_583.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 71015,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "通用",
+        "keywords": [
+          "插画",
+          "粉色花瓣",
+          "书页",
+          "静谧"
+        ],
+        "description": "一张展现了一朵粉色花瓣轻轻放在打开的书页上的照片。",
+        "filenameSuggestions": [
+          "书页间轻舞的粉色花瓣.jpg",
+          "静谧时光里的书香与花影.jpg"
+        ],
+        "displayTitle": "书页间的粉色花瓣",
+        "confidence": 0.9,
+        "reasoning": "这是一幅插画风格的图片，没有特定的明星或动漫角色，因此无法精确归类到具体的二级或三级分类中。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_091453_101.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_091453_101.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 187626,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "宁静",
+          "优雅",
+          "蓝裙",
+          "夜晚"
+        ],
+        "description": "一位身着蓝色长裙的女性坐在椅子上，手中拿着一朵粉色花朵，背景简洁而温馨。",
+        "filenameSuggestions": [
+          "静谧时光中的蓝裙女子.jpg",
+          "宁静夜晚中的优雅身影.jpg"
+        ],
+        "displayTitle": "静谧时光",
+        "confidence": 0.9,
+        "reasoning": "图片中没有特定的明星或古装元素，因此排除A1和A2。图片中的女性没有展现出明确的身材曲线或御姐风，因此排除A2。图片具有明亮的光线和自然的色彩，符合清新的特点，因此选择B5。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/Hello Kitty/微信图片_2026-10-11_091503_701.jpg",
+      "category": "动漫",
+      "subcategory": "Hello Kitty",
+      "filename": "微信图片_2026-10-11_091503_701.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 178983,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "Hello Kitty",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "Hello Kitty",
+        "keywords": [
+          "Hello Kitty",
+          "蓝色蝴蝶结",
+          "可爱猫咪",
+          "卡通角色"
+        ],
+        "description": "一只可爱的白色猫咪，戴着蓝色的蝴蝶结，穿着蓝色的连衣裙。",
+        "filenameSuggestions": [
+          "蓝色蝴蝶结的可爱猫咪.jpg",
+          "Hello Kitty的蓝色装扮.jpg"
+        ],
+        "displayTitle": "蓝色蝴蝶结的可爱猫咪",
+        "confidence": 0.9,
+        "reasoning": "'检测到Hello Kitty这一特定IP角色，根据规则B1，必须优先归入对应的Hello Kitty子类。'"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_091512_796.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_091512_796.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 472492,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "樱花",
+          "清新",
+          "校园",
+          "微笑"
+        ],
+        "description": "一位年轻女子站在盛开的樱花树下，她穿着白色上衣和浅色百褶裙，面带微笑，双手伸展开来，仿佛在享受春天的美好时光。花瓣飘落，为她增添了一抹浪漫的气息。",
+        "filenameSuggestions": [
+          "樱花树下微笑的女孩.jpg",
+          "阳光明媚的校园时光.jpg"
+        ],
+        "displayTitle": "樱花树下微笑的女孩",
+        "confidence": 0.9,
+        "reasoning": null
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_091538_965.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_091538_965.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 155241,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "春日",
+          "花朵",
+          "清新"
+        ],
+        "description": "两双手轻轻托起两朵洁白的樱花，阳光洒下，花瓣显得更加娇嫩。",
+        "filenameSuggestions": [
+          "春日花语之淡雅芬芳.jpg",
+          "阳光下的粉色花瓣.jpg"
+        ],
+        "displayTitle": "春日花语",
+        "confidence": 0.9,
+        "reasoning": "图中人物没有特定的明星或古装元素，排除A1；图片中没有明显的身材展示，排除A2；图片具有明亮的光线和柔和的色彩，符合清新风格的定义，因此选择人像/清新。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_091545_996.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_091545_996.jpg",
+      "createdAt": "2026-10-11T01:53:44.860Z",
+      "size": 399635,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "夏日",
+          "沙滩",
+          "清新"
+        ],
+        "description": "一位年轻女性躺在沙滩上，享受着温暖的阳光，展现出一种轻松愉快的氛围。",
+        "filenameSuggestions": [
+          "阳光下的夏日风情.jpg",
+          "沙滩上的悠闲时光.jpg"
+        ],
+        "displayTitle": "阳光下的夏日风情",
+        "confidence": 0.9,
+        "reasoning": "图片中没有特定的明星或古装元素，因此排除'A. 人像分类决策树'中的特定明星/古装类别。虽然图片中有丝袜等元素，但由于没有明确的身材展示和夜景霓虹等特征，所以不属于'B. 动漫与插画决策树'中的'魅力'类别。考虑到图片的整体感觉和氛围，以及女性的表情和姿势，可以将其归类为'C. 其他'类别中的'清新'子类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_091602_333.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_091602_333.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 192488,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "阳光",
+          "白色公主裙",
+          "花朵",
+          "台阶"
+        ],
+        "description": "一个穿着白色公主裙的小女孩坐在木制楼梯上，手里拿着一束黄色和白色的花。",
+        "filenameSuggestions": [
+          "坐在楼梯上的小女孩.jpg",
+          "拿着花束的小女孩.jpg"
+        ],
+        "displayTitle": "阳光下的白色公主裙",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，小女孩穿着白色公主裙，手中拿着花束，整体给人一种清新、明亮的感觉，符合‘清新’的分类标准。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_091608_286.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_091608_286.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 177921,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "夏日",
+          "海边",
+          "清新",
+          "少女",
+          "JK制服"
+        ],
+        "description": "一位穿着校服的年轻女性站在海滩上，背景是晴朗的天空和海水。",
+        "filenameSuggestions": [
+          "夏日海边清新少女.jpg",
+          "阳光下的校园女生.jpg"
+        ],
+        "displayTitle": "夏日海边清新少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这位女性的服装和整体氛围符合‘清新’的风格，因此被归类为人像分类中的‘清新’子类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/二次元/微信图片_2026-10-11_091654_921.jpg",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微信图片_2026-10-11_091654_921.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 289636,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "黑白条纹",
+          "可爱玩偶",
+          "动漫风格"
+        ],
+        "description": "一个穿着黑白条纹衣服的可爱玩偶，戴着墨镜和兔子耳朵帽子，坐在桌子上。",
+        "filenameSuggestions": [
+          "黑白条纹的可爱玩偶.jpg",
+          "戴着眼镜的黑白条纹玩偶.jpg"
+        ],
+        "displayTitle": "黑白条纹的可爱玩偶",
+        "confidence": 0.9,
+        "reasoning": null
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/IP形象/微信图片_2026-10-11_091705_806.jpg",
+      "category": "动漫",
+      "subcategory": "IP形象",
+      "filename": "微信图片_2026-10-11_091705_806.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 149642,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "IP形象",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "IP形象",
+        "keywords": [
+          "长发公主",
+          "夜晚",
+          "沉思",
+          "童话"
+        ],
+        "description": "一位金发碧眼的年轻女性，身着白色连衣裙，站在一片绿色的藤蔓前，表情平静而专注。",
+        "filenameSuggestions": [
+          "长发公主的夜晚沉思.jpg",
+          "长发公主的宁静之夜.jpg"
+        ],
+        "displayTitle": "长发公主的夜晚沉思",
+        "confidence": 0.9,
+        "reasoning": "图中人物为迪士尼经典动画《长发公主》中的主角，符合动漫/IP形象的分类标准。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_091717_711.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_091717_711.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 181733,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "地铁",
+          "时尚",
+          "魅力"
+        ],
+        "description": "一位穿着时尚的女性在地铁站内展现她的独特魅力。",
+        "filenameSuggestions": [
+          "暗夜里微光中的迷人身影.jpg",
+          "地铁里的时尚女神.jpg"
+        ],
+        "displayTitle": "暗夜里微光中的迷人身影",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这位女性的着装和姿态都展现出一种成熟的魅力，符合‘魅力’的分类标准。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/创意/微信图片_2026-10-11_091728_983.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_2026-10-11_091728_983.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 113683,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "通用",
+        "keywords": [
+          "可爱",
+          "友谊",
+          "梦幻",
+          "粉色"
+        ],
+        "description": "两个可爱的卡通女孩在充满星星和甜点的梦幻世界中享受着美好的时光。",
+        "filenameSuggestions": [
+          "粉色梦境中的友谊.jpg",
+          "梦幻友谊时光.jpg"
+        ],
+        "displayTitle": "粉色梦境中的友谊",
+        "confidence": 0.9,
+        "reasoning": "这是一幅具有梦幻色彩的插画，主要描绘了两个卡通女孩之间的友谊。虽然图中没有特定的IP形象，但整体风格温馨可爱，适合归类为通用的插画类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_091735_332.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_091735_332.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 204209,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "月夜",
+          "温柔",
+          "微笑"
+        ],
+        "description": "一位年轻女性在月夜下展现温柔的微笑，背景简约而温馨。",
+        "filenameSuggestions": [
+          "月夜下的温柔微笑.jpg",
+          "夜晚的温馨微笑.jpg"
+        ],
+        "displayTitle": "月夜下的温柔微笑",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这位女性的表情温和，背景简洁，符合‘清新’的风格特点。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/文字/微信图片_2026-10-11_091740_236.jpg",
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "微信图片_2026-10-11_091740_236.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 232718,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "通用",
+        "keywords": [
+          "粉色漩涡",
+          "白色星星",
+          "好磁场"
+        ],
+        "description": "这是一幅以粉色为主色调的插画，中心有一个白色的原子结构图案，周围环绕着五颗大小不一的白色星星。",
+        "filenameSuggestions": [
+          "好的磁场.jpg",
+          "粉色漩涡中的美好.jpg"
+        ],
+        "displayTitle": "好的磁场",
+        "confidence": 0.9,
+        "reasoning": "这幅图没有特定的明星或动漫角色，也没有明确的场景或动作，因此无法精确归类到现有的二级或三级分类中。它更像是一幅具有创意和抽象风格的插画，适合放在‘通用’类别下。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/通用/微信图片_2026-10-11_091748_679.jpg",
+      "category": "插画",
+      "subcategory": "通用",
+      "filename": "微信图片_2026-10-11_091748_679.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 161577,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "通用",
+        "keywords": [
+          "可爱",
+          "温馨",
+          "插画",
+          "情感"
+        ],
+        "description": "这是一组描绘了各种温馨情感的可爱插画。",
+        "filenameSuggestions": [
+          "可爱女孩的温馨时刻.jpg",
+          "充满爱意的插图系列.jpg"
+        ],
+        "displayTitle": "温馨可爱的插画集",
+        "confidence": 0.9,
+        "reasoning": "这些插画没有特定的IP或明星，因此无法精确归类到某个具体的IP形象或明星类别。它们更多地体现了插画的艺术性和情感表达，适合归类为通用的插画类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_091755_370.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_091755_370.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 326667,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "阳光",
+          "长发",
+          "绿色植物"
+        ],
+        "description": "一位年轻女性站在绿色的树木前，她的头发随风飘动，脸上带着微笑，看起来非常开心和放松。她穿着一件白色的上衣，背景是郁郁葱葱的树叶。",
+        "filenameSuggestions": [
+          "阳光下的清新少女.jpg",
+          "绿树丛中的长发女孩.jpg"
+        ],
+        "displayTitle": "阳光下的清新少女",
+        "confidence": 0.9,
+        "reasoning": null
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/二次元/微信图片_2026-10-11_091812_486.jpg",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微信图片_2026-10-11_091812_486.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 98806,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "月光",
+          "浪漫",
+          "情侣"
+        ],
+        "description": "一对情侣在月光下散步，享受温馨时刻。",
+        "filenameSuggestions": [
+          "月光下相拥的情侣.jpg",
+          "夜晚散步的恋人.jpg"
+        ],
+        "displayTitle": "月光下的温柔时光",
+        "confidence": 0.9,
+        "reasoning": "这是一幅动漫风格的插图，描绘了一对情侣在月光下散步的场景。根据决策树，这幅图应被归类为‘动漫/二次元’类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_091818_244.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_091818_244.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 325452,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "湖边",
+          "微笑",
+          "夏日"
+        ],
+        "description": "一位面带微笑的年轻女子坐在湖边的草地上，享受着宁静的自然风光。她的白色上衣和蓝色格子裙显得清新脱俗，周围的花朵和水果增添了生活的气息。",
+        "filenameSuggestions": [
+          "湖畔微笑少女.jpg",
+          "阳光下的清新少女.jpg"
+        ],
+        "displayTitle": "湖畔的微笑少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这位年轻女子的装扮和环境都给人一种清新、自然的感觉，符合‘清新’的风格特点。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_091830_480.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_091830_480.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 452479,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "樱花",
+          "清新",
+          "长发"
+        ],
+        "description": "一位长发女孩站在盛开的樱花树下，面容清新自然，仿佛融入了春天的美景。",
+        "filenameSuggestions": [
+          "樱花树下清新少女.jpg",
+          "长发女孩在花丛中漫步.jpg"
+        ],
+        "displayTitle": "樱花树下清新少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女孩穿着现代服装，没有特定的明星或古装元素，因此排除'A.1'和'A.2'。她的表情平静，背景是充满生机的樱花，符合'B.4'的特征，因此被归类为'清新'风格。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/文字/微信图片_2026-10-11_091845_758.jpg",
+      "category": "创意",
+      "subcategory": "文字",
+      "filename": "微信图片_2026-10-11_091845_758.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 110376,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "通用",
+        "keywords": [
+          "可爱",
+          "粉色背景",
+          "加油手势"
+        ],
+        "description": "一个可爱的女孩站在粉色的背景前，她的右手做出加油的手势，脸上洋溢着自信的笑容。",
+        "filenameSuggestions": [
+          "粉色背景上的可爱女孩.jpg",
+          "粉色背景上的加油女孩.jpg"
+        ],
+        "displayTitle": "粉色背景上的可爱女孩",
+        "confidence": 0.9,
+        "reasoning": "'插画'因为图片的风格是卡通化的，不是现实照片；'通用'是因为图片没有特定的主题或风格，无法归类到其他具体的类别中。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/海滨/微信图片_2026-10-11_091901_947.jpg",
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "微信图片_2026-10-11_091901_947.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 396446,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "海滨",
+          "阳光",
+          "海洋"
+        ],
+        "description": "这幅图展示了阳光照耀下的海滨景色，海水波光粼粼，沙滩金黄，远处连绵起伏的山丘郁郁葱葱。",
+        "filenameSuggestions": [
+          "金色沙滩上的宁静海洋.jpg",
+          "山丘下的碧蓝大海.jpg"
+        ],
+        "displayTitle": "阳光海岸风光",
+        "confidence": 0.9,
+        "reasoning": "这是一幅以海滨为主题的图片，没有特定的动漫或插画元素，也没有出现任何人物，因此直接归类为风景类的海滨。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_091920_824.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_091920_824.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 202217,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "阳光",
+          "微笑",
+          "少女",
+          "玩偶"
+        ],
+        "description": "一位面带微笑的年轻女性在户外享受阳光，手中拿着一个可爱的玩偶。",
+        "filenameSuggestions": [
+          "阳光下的微笑少女.jpg",
+          "手持玩偶的女孩.jpg"
+        ],
+        "displayTitle": "阳光下的微笑少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这位女性的表情温和，背景是晴朗的天空和绿地，符合‘清新’的风格特点。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/星空/微信图片_2026-10-11_091928_356.jpg",
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "微信图片_2026-10-11_091928_356.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 229744,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "月亮",
+          "树木",
+          "夜晚",
+          "宁静",
+          "自然"
+        ],
+        "description": "一轮皎洁的弯月悬挂在深蓝色的天空中，周围环绕着茂密的绿色树叶。",
+        "filenameSuggestions": [
+          "月下绿荫.jpg",
+          "弯月映照绿树.jpg"
+        ],
+        "displayTitle": "月下绿荫",
+        "confidence": 0.9,
+        "reasoning": "这是一幅描绘夜晚自然景观的图片，没有特定的明星或动漫角色，因此直接归类为风景类的星空子类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/插画/风景/微信图片_2026-10-11_091959_798.jpg",
+      "category": "插画",
+      "subcategory": "风景",
+      "filename": "微信图片_2026-10-11_091959_798.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 335561,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "插画",
+        "subcategory": "风景",
+        "primary": "mobile",
+        "secondary": "插画",
+        "third": "风景",
+        "keywords": [
+          "乡村",
+          "木屋",
+          "田园风光",
+          "蓝天白云"
+        ],
+        "description": "这幅图展现了一幅宁静的乡村风光，蓝天白云下有一座古朴的木屋，周围绿草如茵。",
+        "filenameSuggestions": [
+          "宁静乡村风光.jpg",
+          "蓝天白云下的木屋.jpg"
+        ],
+        "displayTitle": "宁静乡村风光",
+        "confidence": 0.9,
+        "reasoning": "'插画'因为这是一幅具有绘画感的作品，'风景'因为图中主要描绘了乡村的自然景色。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_092027_670.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_092027_670.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 205336,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "夏日风情",
+          "时尚女神",
+          "阳光下的美丽",
+          "牛仔装束"
+        ],
+        "description": "一位身着粉色抹胸上衣和牛仔裤的女性，在阳光明媚的日子里展现她的时尚风采。",
+        "filenameSuggestions": [
+          "夏日微风中的时尚女神.jpg",
+          "阳光下的时尚女神.jpg"
+        ],
+        "displayTitle": "夏日微风中的时尚女神",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这位女性穿着时尚，展现出一种成熟的魅力，符合‘魅力’的分类标准。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/创意/抽象/微信图片_2026-10-11_092041_686.jpg",
+      "category": "创意",
+      "subcategory": "抽象",
+      "filename": "微信图片_2026-10-11_092041_686.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 195061,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "通用",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "通用",
+        "third": "通用",
+        "keywords": [
+          "浴缸",
+          "桃子",
+          "水果"
+        ],
+        "description": "图片展示了几个桃子在浴缸里漂浮的场景。",
+        "filenameSuggestions": [
+          "浴缸里的桃子.jpg",
+          "水中浮桃图.jpg"
+        ],
+        "displayTitle": "桃之夭夭，灼灼其华",
+        "confidence": 0.9,
+        "reasoning": "'桃之夭夭，灼灼其华' 是对图中桃子的诗意描绘，符合高雅、富有诗意的标题要求。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_092103_596.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_092103_596.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 589338,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "樱花",
+          "春日",
+          "清新",
+          "散步",
+          "花朵"
+        ],
+        "description": "一位穿着粉色裙子的女孩在盛开的樱花树下悠闲地走着，手中提着花篮，仿佛置身于春天的画卷之中。",
+        "filenameSuggestions": [
+          "樱花树下漫步的女孩.jpg",
+          "阳光明媚的春日散步.jpg"
+        ],
+        "displayTitle": "樱花树下漫步的女孩",
+        "confidence": 0.9,
+        "reasoning": "图中人物没有特定的明星或古装元素，因此排除A1和A2。图片整体色调明亮，充满春天的气息，符合B4的定义，判定为清新风格。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/二次元/微信图片_2026-10-11_092333_289.jpg",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微信图片_2026-10-11_092333_289.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 162076,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "动漫",
+          "二次元",
+          "蓝天",
+          "白云",
+          "友谊"
+        ],
+        "description": "三个穿着校服的小女孩在蓝天下仰望天空，展现出童年的无忧无虑和纯真。",
+        "filenameSuggestions": [
+          "阳光下的三个小女孩.jpg",
+          "蓝天白云下的快乐童年.jpg"
+        ],
+        "displayTitle": "阳光下的友谊时光",
+        "confidence": 0.9,
+        "reasoning": "'根据图片内容，这是典型的动漫风格，角色为大眼睛、可爱的小女孩，符合动漫/二次元的特征。'"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/花卉/微信图片_2026-10-11_092349_780.jpg",
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "微信图片_2026-10-11_092349_780.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 501922,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "樱花",
+          "浪漫",
+          "巴士",
+          "夜景"
+        ],
+        "description": "这张照片捕捉了夜晚时分，一辆公交车行驶在盛开的樱花树下，花瓣随风飘落，营造出一种宁静而浪漫的氛围。",
+        "filenameSuggestions": [
+          "樱花树下浪漫巴士.jpg",
+          "夜晚灯光下的樱花美景.jpg"
+        ],
+        "displayTitle": "樱花树下浪漫巴士",
+        "confidence": 0.9,
+        "reasoning": "图片中没有出现任何特定的人物或角色，因此无法归类为人像分类。图片的主要元素是盛开的樱花和夜晚的公交车站，这符合风景分类中的花卉类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/海滨/微信图片_2026-10-11_092403_936.jpg",
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "微信图片_2026-10-11_092403_936.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 300956,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "海滨",
+          "渔船",
+          "小镇",
+          "山脉",
+          "云雾"
+        ],
+        "description": "这张照片捕捉了一个宁静的海滨小镇，几艘渔船停泊在码头边，背后是被云雾缭绕的山脉。",
+        "filenameSuggestions": [
+          "海边小镇的渔船.jpg",
+          "山脚下的小镇风光.jpg"
+        ],
+        "displayTitle": "海岸边的宁静小镇",
+        "confidence": 0.9,
+        "reasoning": "'风景'类下最符合的是'海滨'，因为图中展示了海滨景观和渔船。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/氛围感/微信图片_2026-10-11_092411_546.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_092411_546.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 109279,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "通用",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "通用",
+        "third": "通用",
+        "keywords": [
+          "咖啡杯",
+          "车内",
+          "神秘",
+          "饮品"
+        ],
+        "description": "一个人坐在车内，手持一杯印有可爱熊图案的咖啡。",
+        "filenameSuggestions": [
+          "手持咖啡杯的神秘身影.jpg",
+          "车内静谧时刻.jpg"
+        ],
+        "displayTitle": "手持咖啡杯的神秘身影",
+        "confidence": 0.9,
+        "reasoning": "'根据图片内容，没有特定的明星或动漫角色，也没有明显的插画元素，因此无法精确归类到现有的二级或三级分类中。'"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/海绵宝宝/微信图片_2026-10-11_092422_650.jpg",
+      "category": "动漫",
+      "subcategory": "海绵宝宝",
+      "filename": "微信图片_2026-10-11_092422_650.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 112883,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "海绵宝宝",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "海绵宝宝",
+        "keywords": [
+          "懒洋洋",
+          "办公室",
+          "耳机"
+        ],
+        "description": "一个戴着耳机的懒洋洋的海绵宝宝坐在电脑前工作",
+        "filenameSuggestions": [
+          "懒洋洋的海绵宝宝.jpg",
+          "办公室里的海绵宝宝.jpg"
+        ],
+        "displayTitle": "懒洋洋的海绵宝宝",
+        "confidence": 0.9,
+        "reasoning": "图中角色为《海绵宝宝》中的主角海绵宝宝，他戴着耳机，表情疲惫，符合动漫风格。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/萌宠/猫咪/微信图片_2026-10-11_092429_867.jpg",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_2026-10-11_092429_867.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 231312,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "猫咪",
+          "创意美食",
+          "可爱"
+        ],
+        "description": "一只可爱的橘猫叼着一条鱼形状的面包，旁边还有两块装饰成熊和兔子面孔的吐司。",
+        "filenameSuggestions": [
+          "可爱猫咪与创意美食1.jpg",
+          "猫咪与创意食物组合.jpg"
+        ],
+        "displayTitle": "可爱猫咪与创意美食",
+        "confidence": 0.9,
+        "reasoning": "图片中有一只可爱的橘猫叼着一条鱼形状的面包，这表明这是一张关于猫咪的照片。同时，照片中还展示了创意美食，因此可以将其归类为‘萌宠’类别下的‘猫咪’子类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_092505_926.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_092505_926.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 163173,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "阳光",
+          "清新",
+          "长发",
+          "海滩"
+        ],
+        "description": "一位年轻女性站在海边，沐浴在温暖的阳光下，她的头发随风飘动，展现出一种清新自然的美丽。",
+        "filenameSuggestions": [
+          "阳光下的清新少女.jpg",
+          "海边微风中的长发女孩.jpg"
+        ],
+        "displayTitle": "阳光下的清新少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这位女性的着装和环境都给人一种清新自然的感觉，符合‘清新’的分类标准。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/冬日雪景/微信图片_2026-10-11_092534_448.jpg",
+      "category": "风景",
+      "subcategory": "冬日雪景",
+      "filename": "微信图片_2026-10-11_092534_448.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 235576,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "风景",
+        "subcategory": "冬日雪景",
+        "primary": "mobile",
+        "secondary": "风景",
+        "third": "冬日雪景",
+        "keywords": [
+          "冬日雪景",
+          "海岸线",
+          "黄昏",
+          "雪地公路"
+        ],
+        "description": "这是一幅描绘冬日黄昏时分的雪景照片，展现了一条被积雪覆盖的道路和远处的海岸线。",
+        "filenameSuggestions": [
+          "冬日雪景的海岸线.jpg",
+          "黄昏时分雪地公路.jpg"
+        ],
+        "displayTitle": "冬日的宁静海岸线",
+        "confidence": 0.9,
+        "reasoning": "'冬日雪景'符合现有的三级分类，无需新增分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/动漫/海绵宝宝/微信图片_2026-10-11_092611_282.jpg",
+      "category": "动漫",
+      "subcategory": "海绵宝宝",
+      "filename": "微信图片_2026-10-11_092611_282.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 312190,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "动漫",
+        "subcategory": "海绵宝宝",
+        "primary": "mobile",
+        "secondary": "动漫",
+        "third": "海绵宝宝",
+        "keywords": [
+          "阳光",
+          "可爱",
+          "玩偶"
+        ],
+        "description": "图片中有两个黄色的玩偶，一个戴着蓝色的帽子，另一个戴着橙色的太阳帽，它们看起来非常可爱。",
+        "filenameSuggestions": [
+          "阳光下可爱的黄色玩偶.jpg",
+          "床上的两只黄色玩偶.jpg"
+        ],
+        "displayTitle": "阳光下的可爱玩偶",
+        "confidence": 0.9,
+        "reasoning": "图片中的玩偶具有明显的动漫风格，特别是它们的表情和造型都类似于《海绵宝宝》中的角色。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_092618_215.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_092618_215.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 202759,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力",
+          "婚纱",
+          "优雅",
+          "新娘"
+        ],
+        "description": "一位身着白色婚纱的新娘站在镜子前，双手放在头上，展现出她的优雅气质。",
+        "filenameSuggestions": [
+          "白色婚纱中的优雅新娘.jpg",
+          "镜前新娘的优雅瞬间.jpg"
+        ],
+        "displayTitle": "白色婚纱中的优雅新娘",
+        "confidence": 0.9,
+        "reasoning": "'检测到人物穿着婚纱，背部裸露，符合规则A2的定义，判定为[魅力]。'"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_092625_478.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_092625_478.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 241124,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "阳光",
+          "海滩",
+          "休闲"
+        ],
+        "description": "一位长发女子坐在海边椅子上，享受着阳光和海风的美好时光。她的白色上衣随风飘动，展现出一种轻松自在的氛围。远处的海洋和天空相接，形成了一幅美丽的画卷。",
+        "filenameSuggestions": [
+          "阳光下的海边休闲时光.jpg",
+          "长发女孩坐在海边椅子上.jpg"
+        ],
+        "displayTitle": "阳光下的海边休闲时光",
+        "confidence": 0.9,
+        "reasoning": null
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_092645_230.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_092645_230.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 261567,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "黄昏",
+          "奔跑",
+          "清新",
+          "天空"
+        ],
+        "description": "一位年轻女子在黄昏时分奔跑于田野上，她的身影在夕阳的映照下显得格外清新。",
+        "filenameSuggestions": [
+          "黄昏奔跑的女孩.jpg",
+          "夕阳下的奔跑者.jpg"
+        ],
+        "displayTitle": "黄昏下奔跑的女孩",
+        "confidence": 0.9,
+        "reasoning": "图片中没有特定的明星或古装元素，因此排除A1和A2。图片中的女孩没有表现出明确的身材展示，因此排除A2。图片具有明亮的光线和自然的色彩，符合B4的特征，因此判定为清新风格。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_092706_925.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_092706_925.png",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 1352487,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "月光",
+          "紫色天空",
+          "浪漫"
+        ],
+        "description": "一对情侣在城市的桥上享受着浪漫的夜晚，背景是美丽的紫色天空。",
+        "filenameSuggestions": [
+          "紫霞仙子的吻.jpg",
+          "月光下俏皮的情侣.jpg"
+        ],
+        "displayTitle": "紫霞仙子的吻",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这是一对情侣在城市桥上的照片，背景是美丽的紫色天空，符合清新风格的特点。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_092723_127.png",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_092723_127.png",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 1966151,
+      "format": "png",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "青春",
+          "校园",
+          "阳光",
+          "清新"
+        ],
+        "description": "两个穿着校服的学生坐在长椅上，享受着阳光带来的温暖，他们的表情充满了幸福和满足。",
+        "filenameSuggestions": [
+          "阳光下的青春时光-学生情侣.jpg",
+          "校园里的美好回忆.jpg"
+        ],
+        "displayTitle": "阳光下的青春时光",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，两个人物都穿着校服，看起来像是高中生或大学生。他们坐在长椅上，似乎在休息或者聊天。背景是木制的墙壁和地板，给人一种温馨的感觉。整体色调明亮，阳光透过窗户洒在他们身上，营造出一种轻松愉快的氛围。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_092729_942.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_092729_942.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 183310,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "粉色",
+          "优雅",
+          "少女"
+        ],
+        "description": "一位身着粉色服装的年轻女性，展现出迷人的魅力。",
+        "filenameSuggestions": [
+          "粉色梦境中的优雅少女.jpg",
+          "夜晚漫步的粉色少女.jpg"
+        ],
+        "displayTitle": "粉色梦境中的优雅少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，该图片符合‘魅力’的分类标准，因此被归类为人像分类中的魅力类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_092737_007.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_092737_007.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 167247,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "夜晚",
+          "长发",
+          "黑色裙子",
+          "优雅"
+        ],
+        "description": "一位穿着黑色裙子的长发女孩在夜晚优雅地漫步。",
+        "filenameSuggestions": [
+          "身穿黑色长裙的卷发港风少女.jpg",
+          "夜色中优雅漫步的长发女孩.jpg"
+        ],
+        "displayTitle": "夜色中优雅漫步的长发女孩",
+        "confidence": 0.9,
+        "reasoning": "根据人物的着装和姿态，她符合魅力的定义，特别是她的身材曲线和整体气质。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_092742_781.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_092742_781.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 210580,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "白色吊带",
+          "粉色短裤",
+          "可爱女生"
+        ],
+        "description": "一位穿着白色吊带和粉色短裤的女生坐在地板上，她的头发扎成一个马尾辫，双手放在头上，表情看起来很开心。她身后是一张床和一些枕头。",
+        "filenameSuggestions": [
+          "白色吊带粉色短裤的可爱女生.jpg",
+          "夜晚白色吊带粉色短裤的可爱女生.jpg"
+        ],
+        "displayTitle": "白色吊带粉色短裤的可爱女生",
+        "confidence": 0.9,
+        "reasoning": null
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_092748_193.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_092748_193.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 200206,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "白衬衫",
+          "黑皮裙",
+          "长发",
+          "夜晚",
+          "优雅"
+        ],
+        "description": "一位穿着白色衬衫和黑色皮裙的长发女子在夜晚的街头漫步，展现出她的优雅气质。",
+        "filenameSuggestions": [
+          "身穿白色衬衫的黑色皮裙长发女孩.jpg",
+          "夜色中优雅漫步的长发女孩.jpg"
+        ],
+        "displayTitle": "夜色中优雅漫步的长发女孩",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这位女性穿着时尚的服装，展现出一种成熟的魅力，符合‘魅力’的分类标准。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_092754_366.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_092754_366.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 132547,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "暗夜",
+          "黑丝",
+          "优雅",
+          "性感"
+        ],
+        "description": "一位身着黑色连衣裙、搭配黑丝袜的女性在昏暗中展现迷人风采。",
+        "filenameSuggestions": [
+          "暗夜魅影的黑丝佳人.jpg",
+          "夜幕下优雅的黑色诱惑.jpg"
+        ],
+        "displayTitle": "暗夜魅影",
+        "confidence": 0.9,
+        "reasoning": "图中女性穿着黑色连衣裙和黑丝袜，展现出成熟的魅力，符合‘魅力’类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_092802_991.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_092802_991.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 139562,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "白色蕾丝裙",
+          "优雅",
+          "自拍"
+        ],
+        "description": "一位身着白色蕾丝裙的女性，在柔和灯光下自拍。",
+        "filenameSuggestions": [
+          "白色蕾丝裙下的优雅身影.jpg",
+          "夜晚自拍的白裙女孩.jpg"
+        ],
+        "displayTitle": "白色连衣裙下的优雅身影",
+        "confidence": 0.9,
+        "reasoning": "图中女性穿着白色蕾丝裙，展现出优雅的气质，符合‘魅力’分类的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_092814_436.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_092814_436.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 142892,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "黑丝",
+          "夜晚",
+          "优雅",
+          "性感"
+        ],
+        "description": "一位身着黑色连衣裙的女性，在柔和灯光下展现着迷人的魅力。",
+        "filenameSuggestions": [
+          "暗夜玫瑰般的魅惑身影.jpg",
+          "黑色长裙下的优雅风情.jpg"
+        ],
+        "displayTitle": "暗夜玫瑰",
+        "confidence": 0.9,
+        "reasoning": "图中女性穿着黑色连衣裙，搭配黑丝袜，展现出成熟女性的魅力，符合‘魅力’的分类标准。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_092905_157.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_092905_157.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 108896,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "黑色长发",
+          "夜色",
+          "优雅"
+        ],
+        "description": "一位黑色长发的女性在夜晚的街道上优雅地行走，她的身影被柔和的光线所笼罩，营造出一种神秘而迷人的氛围。",
+        "filenameSuggestions": [
+          "夜色中优雅漫步的长发女孩.jpg",
+          "黑色长发女孩在夜晚散步.jpg"
+        ],
+        "displayTitle": "夜色中优雅漫步的长发女孩",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这位女性的发型和气质符合‘魅力’这一类别，因此将其归类为人像分类中的魅力子类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/萌宠/猫咪/微信图片_2026-10-11_092921_734.jpg",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_2026-10-11_092921_734.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 116958,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "mobile",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "萌宠",
+          "猫咪",
+          "可爱",
+          "帽子"
+        ],
+        "description": "一只戴着黄色帽子的灰色猫咪，眼神清澈而好奇。",
+        "filenameSuggestions": [
+          "戴帽子的小灰猫.jpg",
+          "黄色帽子里的萌猫.jpg"
+        ],
+        "displayTitle": "戴帽子的可爱猫咪",
+        "confidence": 0.9,
+        "reasoning": "'萌宠'类别下，'猫咪'子类别最符合这张图片的内容。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_092930_576.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_092930_576.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 333143,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "阳光",
+          "花市",
+          "鲜花"
+        ],
+        "description": "一位穿着红色毛衣的女孩站在花市前，手里拿着一束鲜花，背后是五彩缤纷的花朵和温暖的阳光。",
+        "filenameSuggestions": [
+          "阳光下的花市少女.jpg",
+          "手持鲜花的红衣女孩.jpg"
+        ],
+        "displayTitle": "阳光下的花市少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女孩穿着休闲服装，没有特定的明星或古装元素，因此排除A1和A2。她的装扮和表情给人一种清新、自然的感觉，符合B4的定义。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/微信图片_2026-10-11_092938_633.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_2026-10-11_092938_633.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 58732,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "暗夜玫瑰",
+          "黑色长裙",
+          "优雅",
+          "神秘"
+        ],
+        "description": "一位身着黑色长裙的女性，在昏黄的灯光下散发着迷人的气息。",
+        "filenameSuggestions": [
+          "暗夜玫瑰般的优雅身影.jpg",
+          "黑色长裙下的神秘风情.jpg"
+        ],
+        "displayTitle": "暗夜玫瑰",
+        "confidence": 0.9,
+        "reasoning": "'检测到人物穿着黑色长裙，展现出成熟的魅力，符合规则B2.'"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_092944_539.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_092944_539.jpg",
+      "createdAt": "2026-10-11T01:53:44.861Z",
+      "size": 221292,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新",
+          "白衣少女",
+          "湖泊风光",
+          "长发飘飘"
+        ],
+        "description": "一位身着白色连衣裙的年轻女子站在湖边，她的长发随风飘动，展现出一种宁静而优雅的气质。",
+        "filenameSuggestions": [
+          "湖畔微风中的白衣少女.jpg",
+          "绿草如茵上的优雅身影.jpg"
+        ],
+        "displayTitle": "湖畔微风中的白衣少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这位女子的着装和环境都给人一种清新脱俗的感觉，符合‘清新’的分类标准。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/微信图片_2026-10-11_092951_829.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_2026-10-11_092951_829.jpg",
+      "createdAt": "2026-10-11T01:53:44.862Z",
+      "size": 147545,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "夏日",
+          "清新",
+          "微笑",
+          "长发"
+        ],
+        "description": "一位年轻女性在户外享受着温暖的夏日时光，她的头发被风吹起，脸上洋溢着幸福的笑容。",
+        "filenameSuggestions": [
+          "夏日微风中的清新少女.jpg",
+          "阳光下的微笑女孩.jpg"
+        ],
+        "displayTitle": "夏日微风中的清新少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这位女性的外貌特征符合‘清新’的风格，因此将其归类为人像分类中的‘清新’子类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/通用/通用/微信图片_2026-10-11_093037_892.jpg",
+      "category": "通用",
+      "subcategory": "通用",
+      "filename": "微信图片_2026-10-11_093037_892.jpg",
+      "createdAt": "2026-10-11T01:53:44.862Z",
+      "size": 241195,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "通用",
+        "subcategory": "通用",
+        "primary": "mobile",
+        "secondary": "通用",
+        "third": "通用",
+        "keywords": [
+          "下午茶",
+          "蛋糕",
+          "红酒",
+          "玫瑰花束"
+        ],
+        "description": "一张充满浪漫气息的下午茶照片，桌上摆放着精美的甜点和一瓶红酒。",
+        "filenameSuggestions": [
+          "浪漫下午茶时光.jpg",
+          "温馨甜蜜时刻.jpg"
+        ],
+        "displayTitle": "浪漫下午茶时光",
+        "confidence": 0.9,
+        "reasoning": "这张图片没有特定的明星或动漫角色，也没有明确的场景或动作，因此无法精确归类到现有的二级或三级分类中。它更倾向于一种通用的、具有浪漫氛围的场景。"
+      }
+    }
+  ]
+}
