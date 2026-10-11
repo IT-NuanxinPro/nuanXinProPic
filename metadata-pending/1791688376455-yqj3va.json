@@ -1,0 +1,3147 @@
+{
+  "version": 1,
+  "createdAt": "2026-10-11T03:12:56.453Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/萌宠/猫咪/0.jpg",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "0.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 154277,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "猫咪",
+          "橘色",
+          "白色",
+          "特写"
+        ],
+        "description": "一只橘白双色的猫咪近距离特写，眼神明亮而温柔。",
+        "filenameSuggestions": [
+          "橘白双色猫咪近照.jpg",
+          "橘白双色猫咪特写.jpg"
+        ],
+        "displayTitle": "橘白双色猫咪近照",
+        "confidence": 0.9,
+        "reasoning": "这是一只真实的猫咪照片，属于萌宠类别中的猫咪分支。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100407_736.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100407_736.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 86950,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "阳光",
+          "微笑",
+          "绘画"
+        ],
+        "description": "一位戴着白色帽子、面带微笑的女孩正在享受绘画的乐趣。她坐在白色的桌子前，桌上摆放着各种绘画工具，背景是明亮的室内环境。",
+        "filenameSuggestions": [
+          "阳光下的微笑女孩.jpg",
+          "白帽甜妹绘画时光.jpg"
+        ],
+        "displayTitle": "阳光下的微笑女孩",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女孩的面部表情甜美可爱，符合‘甜妹’的特征，因此归类为人像/甜妹。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100430_501.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100430_501.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 126436,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "冬日",
+          "微笑",
+          "甜妹"
+        ],
+        "description": "一位戴着红色围巾、穿着灰色大衣的甜美女孩在雪天里开心地笑着。",
+        "filenameSuggestions": [
+          "冬日微笑甜妹.jpg",
+          "雪地红围巾甜妹.jpg"
+        ],
+        "displayTitle": "冬日微笑甜妹",
+        "confidence": 0.9,
+        "reasoning": "根据B3规则，该图片符合‘甜妹’的特征，因此被归类为人像/甜妹。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100438_691.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100438_691.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 224547,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "夏日",
+          "阳光",
+          "温柔",
+          "微笑"
+        ],
+        "description": "一位穿着黑色吊带裙的女孩在阳光下微笑着闭上了眼睛，她的头发随风飘扬，背景是一面石墙和一些木制家具。",
+        "filenameSuggestions": [
+          "夏日阳光下的温柔微笑.jpg",
+          "黑衣甜妹在阳光下微笑.jpg"
+        ],
+        "displayTitle": "夏日阳光下的温柔微笑",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这是一位展现甜美风格的年轻女性，符合‘人像/甜妹’的分类标准。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100446_023.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100446_023.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 118812,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "温柔",
+          "静谧",
+          "女孩"
+        ],
+        "description": "一位长发女孩闭着眼睛，手托腮，戴着眼镜，手持手机，背景为浅色墙壁和沙发。",
+        "filenameSuggestions": [
+          "温柔时光下的女孩.jpg",
+          "静谧时刻中的女孩.jpg"
+        ],
+        "displayTitle": "温柔时光",
+        "confidence": 0.9,
+        "reasoning": "根据B3规则，该图片符合‘甜妹’的特征，因此归类为人像/甜妹。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100509_396.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100509_396.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 131272,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "冬日",
+          "阳光",
+          "温暖",
+          "豹纹",
+          "慵懒风"
+        ],
+        "description": "一位穿着豹纹外套的女孩在冬日温暖的阳光下享受宁静时刻。她的姿态轻松自然，背景中的白色花朵和窗外景色增添了温馨的氛围。",
+        "filenameSuggestions": [
+          "冬日阳光下的温暖女孩.jpg",
+          "慵懒风豹纹外套女孩.jpg"
+        ],
+        "displayTitle": "冬日暖阳下的温柔时光",
+        "confidence": 0.9,
+        "reasoning": "根据人物的表情、服装以及整体氛围，该图片被归类为人像/甜妹类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100542_865.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100542_865.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 93077,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "冬日",
+          "温暖",
+          "微笑",
+          "自然光"
+        ],
+        "description": "一位穿着舒适冬装的年轻女性，在柔和的自然光线下展现着她的温柔微笑。",
+        "filenameSuggestions": [
+          "冬日微笑女孩.jpg",
+          "阳光下的温柔微笑.jpg"
+        ],
+        "displayTitle": "冬日暖阳下的温柔微笑",
+        "confidence": 0.9,
+        "reasoning": "根据人物的表情和服装风格，她符合‘甜妹’的特征，因此被归类为人像/甜妹类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100554_305.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100554_305.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 90862,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "女孩",
+          "可爱"
+        ],
+        "description": "一位拥有棕色长发的甜美女孩，穿着白色上衣，戴着项链，手持一个绿色的KIEHL'S盒子，头上还有一个粉色的蛋糕装饰品。",
+        "filenameSuggestions": [
+          "甜美风女孩.jpg",
+          "粉嫩女孩头像图.jpg"
+        ],
+        "displayTitle": "甜美风女孩",
+        "confidence": 0.9,
+        "reasoning": "根据人物的外貌特征和整体氛围，她被归类为人像中的甜妹类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100601_349.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100601_349.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 156965,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜妹",
+          "温柔",
+          "校园风"
+        ],
+        "description": "一位穿着格子衬衫的女孩，手持蛋糕，背景为木质墙面，展现了一种温馨可爱的氛围。",
+        "filenameSuggestions": [
+          "温柔甜妹.jpg",
+          "清新校园风女孩.jpg"
+        ],
+        "displayTitle": "温柔甜妹",
+        "confidence": 0.9,
+        "reasoning": "根据人物的外貌和气质，她符合‘甜妹’的风格特点。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100609_478.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100609_478.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 129769,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜妹",
+          "玩偶",
+          "温柔",
+          "可爱"
+        ],
+        "description": "一位拥有温柔气质的甜妹，手中拿着可爱的玩偶。",
+        "filenameSuggestions": [
+          "温柔甜妹手持玩偶.jpg",
+          "甜美女孩手持玩偶.jpg"
+        ],
+        "displayTitle": "温柔甜妹",
+        "confidence": 0.9,
+        "reasoning": "根据人物的外貌和气质，她符合‘甜妹’的特征，因此被归类为人像/甜妹类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100616_018.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100616_018.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 87649,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "冬日",
+          "甜妹",
+          "白毛衣"
+        ],
+        "description": "一位穿着白色毛衣、戴着黑色毛线帽的女孩，展现出冬日里的温暖与甜美。",
+        "filenameSuggestions": [
+          "冬日甜心女孩.jpg",
+          "白色毛衣黑帽女孩.jpg"
+        ],
+        "displayTitle": "冬日甜心",
+        "confidence": 0.9,
+        "reasoning": "根据人物的外貌特征和服装搭配，她符合‘甜妹’的分类标准。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100623_346.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100623_346.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 136960,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "夏日",
+          "甜点",
+          "甜妹"
+        ],
+        "description": "一位戴着时尚帽子的年轻女性享受着美味的冰淇淋，展现出夏日的甜蜜与活力。",
+        "filenameSuggestions": [
+          "夏日冰淇淋甜妹.jpg",
+          "清新风甜妹头像.jpg"
+        ],
+        "displayTitle": "夏日甜点时光",
+        "confidence": 0.9,
+        "reasoning": "图中人物展现出了甜美可爱的气质，符合‘甜妹’的分类标准。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100634_246.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100634_246.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 87174,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜妹",
+          "生日蛋糕",
+          "可爱"
+        ],
+        "description": "一位穿着白色上衣的女孩站在绿色和粉色相间的蛋糕前，蛋糕上有白色的奶油装饰和两根点燃的蜡烛。女孩头上戴着一个带有大蝴蝶结的蓝色头饰，上面点缀着黄色星星图案。她的眼睛睁得很大，嘴巴微开，舌头吐出来，看起来非常开心和兴奋。",
+        "filenameSuggestions": [
+          "粉绿蛋糕甜妹.jpg",
+          "生日快乐甜妹.jpg"
+        ],
+        "displayTitle": "粉绿蛋糕甜妹",
+        "confidence": 0.9,
+        "reasoning": null
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100639_927.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100639_927.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 114725,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "夏日",
+          "清新",
+          "甜妹"
+        ],
+        "description": "一位穿着白色上衣的女孩正在享受一杯清凉饮品。",
+        "filenameSuggestions": [
+          "清新夏日女孩.jpg",
+          "白衬衫女孩喝饮料.jpg"
+        ],
+        "displayTitle": "清新夏日女孩",
+        "confidence": 0.9,
+        "reasoning": "'甜妹'风格符合图中人物的特征，因此选择该分类。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100645_108.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100645_108.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 204321,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "阳光",
+          "温柔",
+          "甜妹"
+        ],
+        "description": "一位长发女子在阳光下微笑着，她的眼神温柔而坚定，仿佛能融化人心。",
+        "filenameSuggestions": [
+          "阳光下的温柔微笑.jpg",
+          "黑发甜妹头像.jpg"
+        ],
+        "displayTitle": "阳光下的温柔微笑",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这位女子的外貌特征符合‘甜妹’的分类标准，因此被归类为人像/甜妹。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100650_000.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100650_000.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 130822,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "红苹果",
+          "俏皮",
+          "少女"
+        ],
+        "description": "一位可爱的少女坐在书架前，双手捧着一个红苹果，遮住了自己的半张脸，展现出一种俏皮而甜美的气质。",
+        "filenameSuggestions": [
+          "红苹果下的俏皮少女.jpg",
+          "书架前俏皮的少女.jpg"
+        ],
+        "displayTitle": "红苹果下的俏皮少女",
+        "confidence": 0.9,
+        "reasoning": "'红苹果下的俏皮少女'符合'人像/甜妹'的分类标准，因为人物展现出了甜美可爱的特质。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100703_124.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100703_124.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 142181,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "都市夜景",
+          "高楼",
+          "微笑",
+          "女孩"
+        ],
+        "description": "一位穿着白色上衣的女孩站在高楼之上，背景是美丽的城市夜景。她的笑容温暖而甜美，仿佛整个城市的灯火都为她点亮了。",
+        "filenameSuggestions": [
+          "城市夜景中的微笑女孩.jpg",
+          "黄昏时分的高楼上的微笑女孩.jpg"
+        ],
+        "displayTitle": "都市夜景中的微笑女孩",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女孩的形象符合‘甜妹’的特征，因此归类为人像/甜妹。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/氛围感/微信图片_2026-10-11_100712_846.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_100712_846.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 112346,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "海边",
+          "夕阳",
+          "氛围感"
+        ],
+        "description": "一位穿着灰色毛衣的女孩站在海边栏杆旁，背景是美丽的日落和波涛汹涌的大海。她的头发被风吹起，给人一种宁静而略带忧郁的感觉。",
+        "filenameSuggestions": [
+          "海边风中的温柔时光.jpg",
+          "夕阳下海边氛围感人物.jpg"
+        ],
+        "displayTitle": "海边风中的温柔时光",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这是一幅展现海边风景和人物的图片，符合‘人像’类别下的‘氛围感’子类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100719_584.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100719_584.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 120984,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "湖畔",
+          "黑发",
+          "优雅"
+        ],
+        "description": "一位穿着白色外套和黑色围巾的黑发少女站在湖边，背景是宁静的湖泊和远处的山脉。",
+        "filenameSuggestions": [
+          "湖畔优雅黑发少女.jpg",
+          "宁静湖边甜妹照.jpg"
+        ],
+        "displayTitle": "湖畔白裙黑发少女",
+        "confidence": 0.9,
+        "reasoning": "根据人物的外貌和气质，她被归类为人像中的甜妹类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100735_071.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100735_071.jpg",
+      "createdAt": "2026-10-11T03:12:56.454Z",
+      "size": 172033,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "阳光",
+          "温柔",
+          "少女"
+        ],
+        "description": "一位穿着粉红色衬衫的女孩坐在窗边，享受着温暖的阳光。她的头发被扎成一个可爱的发髻，脸上带着微笑，看起来非常开心。窗外是郁郁葱葱的树木，为整个画面增添了生机与活力。",
+        "filenameSuggestions": [
+          "阳光下的温柔少女.jpg",
+          "粉红色衬衫的甜美女孩.jpg"
+        ],
+        "displayTitle": "阳光下的温柔少女",
+        "confidence": 0.9,
+        "reasoning": null
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100743_787.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100743_787.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 104730,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜妹",
+          "街拍",
+          "手机控"
+        ],
+        "description": "一位穿着棕色外套的女孩站在街道上，手里拿着手机低头看着屏幕，背景中有行驶的车辆和双层巴士。",
+        "filenameSuggestions": [
+          "温柔时光中的甜妹.jpg",
+          "街头漫步的甜妹.jpg"
+        ],
+        "displayTitle": "温柔时光中的甜妹",
+        "confidence": 0.9,
+        "reasoning": "根据人物的外貌和气质，她被归类为人像分类中的甜妹。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100754_714.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100754_714.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 102760,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "俏皮",
+          "少女",
+          "搞怪"
+        ],
+        "description": "一位俏皮的少女搞怪自拍，展现可爱的嘟嘴表情。",
+        "filenameSuggestions": [
+          "俏皮少女搞怪自拍.jpg",
+          "俏皮少女可爱嘟嘴照.jpg"
+        ],
+        "displayTitle": "俏皮少女",
+        "confidence": 0.9,
+        "reasoning": "根据人物的表情和姿态，她展现出一种俏皮可爱的风格，符合‘甜妹’的分类标准。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_100801_738.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_100801_738.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 133250,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "少女",
+          "笑容",
+          "校园风"
+        ],
+        "description": "一位穿着校服的年轻女子坐在木制长椅上，手持饮料杯，面带微笑，展现出青春洋溢的气息。",
+        "filenameSuggestions": [
+          "阳光下的微笑少女.jpg",
+          "清新校园风少女.jpg"
+        ],
+        "displayTitle": "阳光下的微笑少女",
+        "confidence": 0.9,
+        "reasoning": "根据人物的表情、服装以及整体氛围，将她归类为人像中的甜妹类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_101029_119.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_101029_119.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 93546,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "温柔",
+          "微笑",
+          "优雅",
+          "长发"
+        ],
+        "description": "一位坐在车内的长发女孩，面带温柔的微笑，展现出一种优雅的气质。",
+        "filenameSuggestions": [
+          "温柔微笑的女孩.jpg",
+          "车内优雅女孩.jpg"
+        ],
+        "displayTitle": "温柔微笑的女孩",
+        "confidence": 0.9,
+        "reasoning": "'根据B3甜妹标准，该人物符合甜美可爱的特征，因此归类为人像/甜妹。'"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_101045_739.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_101045_739.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 102267,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "温柔",
+          "长发",
+          "女孩"
+        ],
+        "description": "一位拥有长发的温柔女孩，她的眼神透露着宁静与深邃。",
+        "filenameSuggestions": [
+          "温柔长发女孩.jpg",
+          "黑发女孩头像.jpg"
+        ],
+        "displayTitle": "温柔长发女孩",
+        "confidence": 0.9,
+        "reasoning": "根据人物的外貌特征和气质，她符合‘甜妹’的分类标准。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_101052_214.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_101052_214.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 60982,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "阳光",
+          "微笑",
+          "清新"
+        ],
+        "description": "一位戴着头巾、穿着印有‘开心’字样的白色T恤的女孩坐在蓝色椅子上，双手放在头的后面，背景是一面白色的墙和一辆摩托车。",
+        "filenameSuggestions": [
+          "阳光下的微笑女孩.jpg",
+          "清新风格微笑女孩.jpg"
+        ],
+        "displayTitle": "阳光下的微笑女孩",
+        "confidence": 0.9,
+        "reasoning": "根据B4规则，该图片符合甜妹的特征，因此归类为人像/甜妹。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/表情包/搞怪/微信图片_2026-10-11_101225_976.jpg",
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "微信图片_2026-10-11_101225_976.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 78820,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "搞怪",
+          "可爱",
+          "表情包"
+        ],
+        "description": "一个可爱的卡通人物做出搞怪的表情，眼睛眯起，嘴巴张开，手放在眼前比耶，背景是黄色的。",
+        "filenameSuggestions": [
+          "俏皮可爱的搞怪表情.jpg",
+          "俏皮可爱的搞怪表情包.jpg"
+        ],
+        "displayTitle": "俏皮可爱的搞怪表情",
+        "confidence": 0.9,
+        "reasoning": "该图片符合表情包的分类标准，特别是搞怪这一类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/插画/二次元/微信图片_2026-10-11_101232_230.jpg",
+      "category": "插画",
+      "subcategory": "二次元",
+      "filename": "微信图片_2026-10-11_101232_230.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 131907,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "插画",
+        "subcategory": "二次元",
+        "primary": "avatar",
+        "secondary": "插画",
+        "third": "二次元",
+        "keywords": [
+          "插画",
+          "二次元",
+          "少女"
+        ],
+        "description": "这是一幅描绘一位金色长发的少女的插画，她有着大大的眼睛和微笑的表情，背景中有许多飞舞的钞票，营造出一种欢乐的氛围。",
+        "filenameSuggestions": [
+          "金色长发少女插画.jpg",
+          "快乐少女插画.jpg"
+        ],
+        "displayTitle": "金色长发少女插画",
+        "confidence": 0.9,
+        "reasoning": "这幅图是一幅二次元的插画，符合插画/二次元的分类标准。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/插画/创意/微信图片_2026-10-11_101314_336.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_2026-10-11_101314_336.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 115161,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "avatar",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "喜庆",
+          "红帽女孩"
+        ],
+        "description": "一幅充满节日气氛的插画，描绘了一个戴着红色帽子的小女孩，背景中有烟花绽放，象征着欢乐和庆祝的氛围。",
+        "filenameSuggestions": [
+          "喜庆红帽女孩插画.jpg",
+          "红帽女孩创意插画.jpg"
+        ],
+        "displayTitle": "喜庆红帽女孩插画",
+        "confidence": 0.9,
+        "reasoning": "这幅图是一幅具有创意风格的插画，虽然不是特定的IP形象，但它展示了独特的艺术表现手法和节日主题。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/萌宠/狗狗/微信图片_2026-10-11_101358_531.jpg",
+      "category": "萌宠",
+      "subcategory": "狗狗",
+      "filename": "微信图片_2026-10-11_101358_531.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 127701,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "狗狗",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "狗狗",
+        "keywords": [
+          "小狗",
+          "快乐",
+          "阳光"
+        ],
+        "description": "一只毛茸茸的小狗坐在木制地板上，眼睛明亮而温柔，嘴巴微开，舌头伸出来，看起来非常开心和满足。它的毛发柔软顺滑，耳朵耷拉着，尾巴向上翘起，显得十分可爱。",
+        "filenameSuggestions": [
+          "阳光下的快乐小狗.jpg",
+          "地板上的开心小狗.jpg"
+        ],
+        "displayTitle": "阳光下的快乐小狗",
+        "confidence": 0.9,
+        "reasoning": "'萌宠'因为这是一只真实的小狗照片，属于宠物类别；'狗狗'因为这只动物是一只狗。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/背影/微信图片_2026-10-11_101453_925.jpg",
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "微信图片_2026-10-11_101453_925.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 204349,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "背影",
+          "夜晚",
+          "湖水",
+          "沉思"
+        ],
+        "description": "画面中，一个人独自坐在湖边的长椅上，背景是宁静的夜色和波光粼粼的湖水，营造出一种深沉的思考和宁静的氛围。",
+        "filenameSuggestions": [
+          "静谧湖畔沉思者.jpg",
+          "夜晚湖边思考的人.jpg"
+        ],
+        "displayTitle": "静谧湖畔沉思者",
+        "confidence": 0.9,
+        "reasoning": "图中人物背对镜头，符合人像分类中的‘背影’类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/氛围感/微信图片_2026-10-11_101501_646.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_101501_646.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 34321,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "黑白色调",
+          "侧脸轮廓",
+          "光影对比"
+        ],
+        "description": "这是一幅以黑白为主题的摄影作品，展现了一位年轻男子的侧面轮廓。背景模糊，突出了人物的面部细节和发型。整体给人一种神秘而深沉的感觉。",
+        "filenameSuggestions": [
+          "暗影中的沉思者.jpg",
+          "静谧时刻.jpg"
+        ],
+        "displayTitle": "暗影中的思考者",
+        "confidence": 0.9,
+        "reasoning": null
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/背影/微信图片_2026-10-11_101512_030.jpg",
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "微信图片_2026-10-11_101512_030.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 158745,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "背影",
+          "海滩",
+          "宁静",
+          "思考"
+        ],
+        "description": "一位男子背对镜头坐在草地上，望向远方的海洋，展现出一种宁静而深沉的氛围。",
+        "filenameSuggestions": [
+          "坐在草地上的男人背影.jpg",
+          "海边沉思的男人.jpg"
+        ],
+        "displayTitle": "静谧海岸线上的沉思者",
+        "confidence": 0.9,
+        "reasoning": "图片中的人物没有面部特征，符合‘背影’的分类标准。因此，将其归类为人像/背影类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/背影/微信图片_2026-10-11_101523_359.jpg",
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "微信图片_2026-10-11_101523_359.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 200496,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "背影",
+          "山间",
+          "雾气"
+        ],
+        "description": "一个人在山间的背影，周围是茂密的植被和湍急的河流。",
+        "filenameSuggestions": [
+          "山间漫步背影.jpg",
+          "雾气缭绕的山间风景.jpg"
+        ],
+        "displayTitle": "山间漫步",
+        "confidence": 0.9,
+        "reasoning": "这是一个人在户外的背影照，符合人像/背影的分类标准。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/氛围感/微信图片_2026-10-11_101623_661.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_101623_661.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 92425,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "夜晚",
+          "烹饪",
+          "美食",
+          "忙碌"
+        ],
+        "description": "一位厨师在夜晚专注地烹饪美食，周围弥漫着食物的香气。",
+        "filenameSuggestions": [
+          "夜晚厨师烹饪美食.jpg",
+          "厨师夜晚忙碌工作.jpg"
+        ],
+        "displayTitle": "夜幕下的烹饪时光",
+        "confidence": 0.9,
+        "reasoning": "'人物面部被遮挡，符合人像分类中的氛围感标准。'"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/氛围感/微信图片_2026-10-11_101635_364.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_101635_364.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 118519,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "冷色调",
+          "静谧",
+          "人物剪影",
+          "蓝色调"
+        ],
+        "description": "这是一幅充满神秘感的画面，人物的轮廓在冷色调的光线中若隐若现。",
+        "filenameSuggestions": [
+          "冷色系静谧人物剪影.jpg",
+          "蓝色调下的人物剪影.jpg"
+        ],
+        "displayTitle": "冷色调下的静谧身影",
+        "confidence": 0.9,
+        "reasoning": "图片中没有特定的IP形象或动漫角色，因此不符合IP形象与动漫决策树的任何分支。由于图片展示了人的背影，并且具有强烈的氛围感，符合B2的氛围感标准，所以归类为人像/氛围感。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/氛围感/微信图片_2026-10-11_101647_731.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_101647_731.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 138145,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "雨伞",
+          "城市街道",
+          "氛围感",
+          "黑衣男子"
+        ],
+        "description": "一个撑着黑色雨伞的男人站在雨中的街头，背景是湿漉漉的城市街道。",
+        "filenameSuggestions": [
+          "黑色雨伞下的身影.jpg",
+          "都市雨景中的孤独者.jpg"
+        ],
+        "displayTitle": "雨中漫步",
+        "confidence": 0.9,
+        "reasoning": "'根据B2，人物背影被雨伞遮挡，符合氛围感的特征，因此归类为人像/氛围感。'"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/氛围感/微信图片_2026-10-11_101700_837.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_101700_837.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 39740,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "日落",
+          "剪影",
+          "人物",
+          "黄昏",
+          "天空"
+        ],
+        "description": "夕阳西下，人物的剪影映衬着美丽的晚霞。",
+        "filenameSuggestions": [
+          "日落剪影人物.jpg",
+          "夕阳下的人物剪影.jpg"
+        ],
+        "displayTitle": "日落下的剪影",
+        "confidence": 0.9,
+        "reasoning": "'轮廓清晰的人物剪影，符合B2标准，因此归类为人像/氛围感。'"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/氛围感/微信图片_2026-10-11_101707_832.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_101707_832.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 107929,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "瀑布",
+          "神秘",
+          "氛围感"
+        ],
+        "description": "一位神秘的人物站在瀑布前，阳光透过树叶洒下，形成了独特的光影效果。整个画面充满了自然的美感和神秘的气息。",
+        "filenameSuggestions": [
+          "冰泉之影神秘人物.jpg",
+          "瀑布前神秘人物氛围感图.jpg"
+        ],
+        "displayTitle": "冰泉之影",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这是一幅具有强烈氛围感的图片，符合B2规则，因此归类为人像/氛围感。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/氛围感/微信图片_2026-10-11_101722_020.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_101722_020.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 61664,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "黑色连帽衫",
+          "耳机",
+          "手环",
+          "神秘氛围"
+        ],
+        "description": "图片中的人物穿着黑色的连帽衫，戴着耳机，一只手放在脸上，展现出一种深沉的思考姿态。",
+        "filenameSuggestions": [
+          "静谧黑影下的沉思者.jpg",
+          "神秘氛围中的思考者.jpg"
+        ],
+        "displayTitle": "静谧黑影下的沉思者",
+        "confidence": 0.9,
+        "reasoning": "'人物面部被部分遮挡，符合人像分类决策树的B2规则，因此归类为人像/氛围感。'"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/氛围感/微信图片_2026-10-11_101733_412.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_101733_412.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 132860,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "卡通简笔画",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "卡通简笔画",
+        "keywords": [
+          "卡通",
+          "简约",
+          "温馨"
+        ],
+        "description": "一个穿着灰色连帽衫的人物躺在床上，旁边有两个可爱的卡通玩偶。",
+        "filenameSuggestions": [
+          "静谧时光卡通人物",
+          "温馨场景中的卡通人物"
+        ],
+        "displayTitle": "静谧时光",
+        "confidence": 0.9,
+        "reasoning": "图中人物面部被遮挡，符合卡通简笔画的特点，因此归类为人像/卡通简笔画。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/背影/微信图片_2026-10-11_101758_573.jpg",
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "微信图片_2026-10-11_101758_573.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 144057,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "背影",
+          "湖畔",
+          "黄昏"
+        ],
+        "description": "一位男子坐在沙滩椅上，背对着镜头，望向远方的湖泊和山丘，夕阳的光辉洒在他的身上，营造出一种宁静而深邃的氛围。",
+        "filenameSuggestions": [
+          "宁静湖畔背影人物.jpg",
+          "黄昏时分沙滩上的背影人物.jpg"
+        ],
+        "displayTitle": "宁静湖畔背影",
+        "confidence": 0.9,
+        "reasoning": "图片中的人物没有面部特写，只展示了背影，符合人像分类中的‘背影’子类。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/氛围感/微信图片_2026-10-11_101811_134.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_101811_134.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 78895,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "夜晚",
+          "蓝色天空",
+          "黑色连帽衫",
+          "街道标志牌"
+        ],
+        "description": "一位穿着黑色连帽衫的人站在黄昏的天空下，背景是蓝色的天空和街道标志牌。",
+        "filenameSuggestions": [
+          "夜晚沉思者.jpg",
+          "黑色连帽衫男子.jpg"
+        ],
+        "displayTitle": "夜幕下的沉思者",
+        "confidence": 0.9,
+        "reasoning": "图片中的人物没有特定的表情或动作，符合‘氛围感’的特征，因此归类为人像/氛围感。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/背影/微信图片_2026-10-11_101816_094.jpg",
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "微信图片_2026-10-11_101816_094.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 87292,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "背影",
+          "日落",
+          "海边",
+          "黄色上衣"
+        ],
+        "description": "一位穿着黄色上衣的人站在海边，背对着镜头，看着远方的落日。天空中有几朵云彩，阳光洒在海面上，形成金色的光带。",
+        "filenameSuggestions": [
+          "海边黄色上衣人物背影.jpg",
+          "夕阳下的海边背影.jpg"
+        ],
+        "displayTitle": "海边日落背影",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这是一幅展现人物背影的照片，背景是美丽的海滩日落景色。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/背影/微信图片_2026-10-11_101823_424.jpg",
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "微信图片_2026-10-11_101823_424.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 168873,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "云海",
+          "日出",
+          "背影"
+        ],
+        "description": "一个人坐在山顶上，背景是一片壮观的云海和初升的太阳。",
+        "filenameSuggestions": [
+          "云海上的人影剪影.jpg",
+          "日出时的云海背影.jpg"
+        ],
+        "displayTitle": "云海上的背影",
+        "confidence": 0.9,
+        "reasoning": "这是一幅展现自然美景的照片，画面中心人物背对着镜头，呈现出一种宁静而深邃的氛围。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/背影/微信图片_2026-10-11_101838_788.jpg",
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "微信图片_2026-10-11_101838_788.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 160601,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "自然风光",
+          "湖水",
+          "雪山",
+          "蓝天白云"
+        ],
+        "description": "一个人背对着镜头站在湖边，张开双臂享受大自然的宁静与美丽。",
+        "filenameSuggestions": [
+          "张开双臂享受自然风光.jpg",
+          "静谧湖畔的背影.jpg"
+        ],
+        "displayTitle": "拥抱自然的宁静",
+        "confidence": 0.9,
+        "reasoning": "图中人物背对镜头，符合人像分类中的‘背影’特征。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/表情包/搞怪/微信图片_2026-10-11_101936_901.png",
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "微信图片_2026-10-11_101936_901.png",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 1712611,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "表情包",
+        "subcategory": "搞怪",
+        "primary": "avatar",
+        "secondary": "表情包",
+        "third": "搞怪",
+        "keywords": [
+          "酷炫",
+          "兔子",
+          "竖大拇指",
+          "表情包"
+        ],
+        "description": "一只戴着墨镜、穿着蓝色上衣和绿色短裤的白色兔子，手持可口可乐瓶子，竖起大拇指。",
+        "filenameSuggestions": [
+          "酷炫太阳镜兔子竖拇指表情包.jpg",
+          "戴墨镜喝可乐的兔子竖大拇指表情包.jpg"
+        ],
+        "displayTitle": "酷炫兔子表情包",
+        "confidence": 0.9,
+        "reasoning": "'根据C.表情包决策树中的特征，该图片符合表情包/搞怪的分类标准。'"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/IP形象/通用/微信图片_2026-10-11_102015_106.png",
+      "category": "IP形象",
+      "subcategory": "通用",
+      "filename": "微信图片_2026-10-11_102015_106.png",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 1708153,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "avatar",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "眼镜猫",
+          "帽子",
+          "围巾",
+          "玩偶"
+        ],
+        "description": "一个可爱的猫形玩偶，戴着黑色圆框眼镜，穿着蓝色牛仔帽和黄色围巾，背景为深色布料。",
+        "filenameSuggestions": [
+          "戴着帽子和围巾的眼镜猫玩偶.jpg",
+          "戴黑框眼镜的可爱猫玩偶.jpg"
+        ],
+        "displayTitle": "时尚眼镜猫玩偶",
+        "confidence": 0.9,
+        "reasoning": "该图像显示了一个具有独特配饰的猫形玩偶，其外观类似于流行的卡通角色，但没有特定的IP标识。因此，它被归类为IP形象下的通用类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/萌宠/猫咪/微信图片_2026-10-11_102025_372.png",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_2026-10-11_102025_372.png",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 1178984,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "猫咪",
+          "橘色",
+          "温馨"
+        ],
+        "description": "一只橘色的猫咪温柔地靠在一个人的怀里，展现出一种宁静而温暖的氛围。",
+        "filenameSuggestions": [
+          "橘色小猫温馨照.jpg",
+          "橘色小猫依偎在怀里.jpg"
+        ],
+        "displayTitle": "橘色小猫温馨照",
+        "confidence": 0.9,
+        "reasoning": "这是一只真实的猫咪照片，属于萌宠类别中的猫咪。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/萌宠/猫咪/微信图片_2026-10-11_102031_537.jpg",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_2026-10-11_102031_537.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 76324,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "小白猫",
+          "戴眼镜",
+          "可爱"
+        ],
+        "description": "一只戴着粉红色圆框眼镜的小白猫，头顶上有一个桃子形状的装饰物。",
+        "filenameSuggestions": [
+          "戴眼镜的小白猫.jpg",
+          "萌萌哒小白猫.jpg"
+        ],
+        "displayTitle": "戴眼镜的小白猫",
+        "confidence": 0.9,
+        "reasoning": "'C3' 判定树，特征符合真实猫的照片，属于 '萌宠/猫咪' 类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/喜羊羊与灰太狼/微信图片_2026-10-11_102038_381.png",
+      "category": "动漫",
+      "subcategory": "喜羊羊与灰太狼",
+      "filename": "微信图片_2026-10-11_102038_381.png",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 635935,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "喜羊羊与灰太狼",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "喜羊羊与灰太狼",
+        "keywords": [
+          "喜羊羊与灰太狼",
+          "卡通",
+          "饮料"
+        ],
+        "description": "一只可爱的卡通小羊正在享受一杯饮料，背景中有其他小羊。",
+        "filenameSuggestions": [
+          "快乐的小羊喝饮料.jpg",
+          "喜羊羊与灰太狼中的小羊.jpg"
+        ],
+        "displayTitle": "快乐的小羊",
+        "confidence": 0.9,
+        "reasoning": "这是一只来自《喜羊羊与灰太狼》的卡通小羊，符合动漫/喜羊羊与灰太狼的分类。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/IP形象/通用/微信图片_2026-10-11_102108_569.jpg",
+      "category": "IP形象",
+      "subcategory": "通用",
+      "filename": "微信图片_2026-10-11_102108_569.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 125928,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "avatar",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "小狗",
+          "帽子",
+          "眼镜"
+        ],
+        "description": "一只戴着红色棒球帽和黑色圆框眼镜的小狗玩偶，背景中有格子图案和一本蓝色封面的书。",
+        "filenameSuggestions": [
+          "戴帽眼镜小狗.jpg",
+          "萌趣小狗头像.jpg"
+        ],
+        "displayTitle": "戴帽眼镜小狗",
+        "confidence": 0.9,
+        "reasoning": "这是一只玩具小狗，不是真实的宠物。它戴着红色的棒球帽和黑色的圆框眼镜，看起来非常可爱和有趣。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/IP形象/天线宝宝/微信图片_2026-10-11_102121_664.jpg",
+      "category": "IP形象",
+      "subcategory": "天线宝宝",
+      "filename": "微信图片_2026-10-11_102121_664.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 167232,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "IP形象",
+        "subcategory": "天线宝宝",
+        "primary": "avatar",
+        "secondary": "IP形象",
+        "third": "天线宝宝",
+        "keywords": [
+          "天线宝宝",
+          "玩偶",
+          "卡通"
+        ],
+        "description": "一个戴着黑色圆框眼镜的天线宝宝玩偶，看起来非常可爱。",
+        "filenameSuggestions": [
+          "天线宝宝玩偶.jpg",
+          "戴眼镜的天线宝宝玩偶.jpg"
+        ],
+        "displayTitle": "天线宝宝玩偶",
+        "confidence": 0.9,
+        "reasoning": "'识别出天线宝宝的标志性绿色帽子和眼睛，根据规则A1，判定为[IP形象/天线宝宝]'."
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_102531_614.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_102531_614.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 87775,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "夏日",
+          "甜美",
+          "少女"
+        ],
+        "description": "一位穿着淡粉色吊带裙的女孩坐在沙发上，背景是温馨的家居环境，阳光洒在她身上，营造出一种温暖而舒适的氛围。",
+        "filenameSuggestions": [
+          "温柔甜美的夏日女孩.jpg",
+          "粉嫩色调下的甜美少女.jpg"
+        ],
+        "displayTitle": "温柔甜美的夏日女孩",
+        "confidence": 0.9,
+        "reasoning": "根据人物的外貌和服饰特点，她展现出一种甜美可爱的气质，符合‘甜妹’的分类标准。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_102617_837.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_102617_837.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 229820,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "淡雅",
+          "粉发",
+          "甜妹"
+        ],
+        "description": "一位穿着蓝色上衣、戴着黑色帽子的粉发女孩，手持饮料杯，背景为现代建筑风格。",
+        "filenameSuggestions": [
+          "淡雅粉发甜妹.jpg",
+          "清新蓝衣甜妹.jpg"
+        ],
+        "displayTitle": "淡雅粉发甜妹",
+        "confidence": 0.9,
+        "reasoning": "根据人物的外貌特征和服饰风格，她符合‘甜妹’的分类标准。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/萌娃/微信图片_2026-10-11_102704_008.jpg",
+      "category": "人像",
+      "subcategory": "萌娃",
+      "filename": "微信图片_2026-10-11_102704_008.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 93418,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "萌娃",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "萌娃",
+        "keywords": [
+          "萌娃",
+          "阳光",
+          "可爱"
+        ],
+        "description": "一个小女孩在阳光下玩耍的场景，她穿着粉色的裤子，戴着白色的帽子，看起来非常开心。",
+        "filenameSuggestions": [
+          "阳光下的萌娃.jpg",
+          "可爱小女孩.jpg"
+        ],
+        "displayTitle": "阳光下的萌娃",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这是一个小女孩的形象，属于人像中的萌娃类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_102708_708.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_102708_708.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 101562,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜妹",
+          "清晨",
+          "温馨"
+        ],
+        "description": "一位可爱的女孩裹着印有小星星图案的被子，享受着早晨的温暖时光。她的眼神充满好奇和期待，仿佛正在迎接新的一天。",
+        "filenameSuggestions": [
+          "被窝里裹着毯子的甜妹.jpg",
+          "晨光中的甜妹.jpg"
+        ],
+        "displayTitle": "温柔晨光中的甜妹",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女孩展现出甜美可爱的特质，符合‘甜妹’的分类标准。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/背影/微信图片_2026-10-11_102713_890.jpg",
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "微信图片_2026-10-11_102713_890.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 66712,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "背影",
+          "温馨",
+          "室内"
+        ],
+        "description": "两位女性坐在地毯上，背对镜头，享受着宁静的时光。房间内有壁炉和装饰品，营造出一种舒适的氛围。",
+        "filenameSuggestions": [
+          "静谧时光中的背影.jpg",
+          "温馨场景中的背影.jpg"
+        ],
+        "displayTitle": "静谧时光",
+        "confidence": 0.9,
+        "reasoning": "图中展示了两位女性的背影，符合人像分类中的‘背影’子类。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_102718_679.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_102718_679.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 65364,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "可爱",
+          "微笑"
+        ],
+        "description": "一位面带温柔微笑的女孩，她的眼神明亮而温暖，仿佛能融化人心。她穿着一件深色的上衣，手指上戴着一枚戒指，展现出一种优雅的气质。背景虽然模糊不清，但似乎是在室内环境中拍摄的。",
+        "filenameSuggestions": [
+          "温柔微笑的女孩.jpg",
+          "甜美可爱的女孩头像.jpg"
+        ],
+        "displayTitle": "温柔微笑的女孩",
+        "confidence": 0.9,
+        "reasoning": null
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/萌宠/猫咪/微信图片_2026-10-11_102726_819.jpg",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_2026-10-11_102726_819.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 109469,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "猫咪",
+          "温馨",
+          "陪伴"
+        ],
+        "description": "一只橘色的猫咪安静地躺在人的怀里，显得十分舒适和放松。整个画面充满了温暖和宁静的氛围。",
+        "filenameSuggestions": [
+          "温馨猫咪陪伴.jpg",
+          "猫咪温柔拥抱.jpg"
+        ],
+        "displayTitle": "温馨猫咪陪伴",
+        "confidence": 0.9,
+        "reasoning": "这是一张真实的猫咪照片，根据C3规则，归类为‘萌宠/猫咪’。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_102732_015.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_102732_015.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 71347,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜妹",
+          "长发",
+          "微笑"
+        ],
+        "description": "一位穿着黑色西装外套和白色衬衫的长发女生，戴着口罩，展现出优雅的气质和甜美的笑容。",
+        "filenameSuggestions": [
+          "优雅黑发甜妹.jpg",
+          "长发女生温柔微笑.jpg"
+        ],
+        "displayTitle": "优雅黑发甜妹",
+        "confidence": 0.9,
+        "reasoning": "根据人物的外貌特征和服装打扮，她被归类为人像中的甜妹类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/表情包/搞怪/微信图片_2026-10-11_102737_780.jpg",
+      "category": "表情包",
+      "subcategory": "搞怪",
+      "filename": "微信图片_2026-10-11_102737_780.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 147163,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "avatar",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "毛绒玩具",
+          "角落",
+          "温馨"
+        ],
+        "description": "一个黄色的毛绒玩具坐在角落里，背景有一个粉色的枕头和一些装饰品。",
+        "filenameSuggestions": [
+          "角落里的黄色毛绒玩具.jpg",
+          "温馨角落中的可爱毛绒玩具.jpg"
+        ],
+        "displayTitle": "角落里的黄色毛绒玩具",
+        "confidence": 0.9,
+        "reasoning": "图片中没有特定的IP形象或动漫角色，因此无法精确归类到某个具体的二级或三级分类。但是，这个毛绒玩具具有可爱的外观，可以被归类为通用的IP形象。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/萌宠/猫咪/微信图片_2026-10-11_102743_037.jpg",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_2026-10-11_102743_037.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 170884,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "猫咪",
+          "可爱",
+          "毛茸茸"
+        ],
+        "description": "一只可爱的白色小猫，毛发柔软，眼神清澈，正在被人轻轻抚摸鼻子。",
+        "filenameSuggestions": [
+          "雪白小猫.jpg",
+          "可爱白色猫咪.jpg"
+        ],
+        "displayTitle": "雪白小猫",
+        "confidence": 0.9,
+        "reasoning": "这是一只真实的猫咪照片，符合萌宠分类中的猫咪子类。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_102748_674.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_102748_674.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 52929,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "温柔",
+          "微笑",
+          "黑发"
+        ],
+        "description": "一位黑发女孩温柔地抱着一只白色的狗狗，展现出温馨可爱的画面。",
+        "filenameSuggestions": [
+          "温柔微笑的女孩抱着白色小狗.jpg",
+          "黑发女孩抱着白色小狗.jpg"
+        ],
+        "displayTitle": "温柔微笑的女孩",
+        "confidence": 0.9,
+        "reasoning": "根据人物的外貌和气质，她被归类为人像中的甜妹类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_102753_573.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_102753_573.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 109916,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "温柔",
+          "微笑",
+          "白衬衫"
+        ],
+        "description": "一位穿着白色蕾丝上衣，面带温柔微笑的女孩。她的头发扎成马尾，眼睛明亮，皮肤细腻。背景简约温馨，整体画面给人一种温暖和谐的感觉。",
+        "filenameSuggestions": [
+          "温柔微笑的女孩.jpg",
+          "白衬衫女孩头像.jpg"
+        ],
+        "displayTitle": "温柔微笑的女孩",
+        "confidence": 0.9,
+        "reasoning": null
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/萌娃/微信图片_2026-10-11_102758_193.jpg",
+      "category": "人像",
+      "subcategory": "萌娃",
+      "filename": "微信图片_2026-10-11_102758_193.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 81631,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "萌娃",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "萌娃",
+        "keywords": [
+          "萌娃",
+          "美食",
+          "快乐"
+        ],
+        "description": "一个可爱的女孩正在享受一块美味的面包，她的头发上还戴着一个毛绒玩具发夹，显得更加俏皮可爱。",
+        "filenameSuggestions": [
+          "俏皮小吃货女孩.jpg",
+          "美味面包小女孩.jpg"
+        ],
+        "displayTitle": "俏皮小吃货",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这个女孩符合‘萌娃’的特征，因此被归类为人像/萌娃类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_102803_389.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_102803_389.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 30722,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "温柔",
+          "女孩",
+          "白衬衫",
+          "长发"
+        ],
+        "description": "一位穿着白色上衣的长发女孩，面带温柔的微笑。",
+        "filenameSuggestions": [
+          "温柔微笑的女孩.jpg",
+          "甜美风格的女孩头像.jpg"
+        ],
+        "displayTitle": "温柔微笑的女孩",
+        "confidence": 0.9,
+        "reasoning": "'根据B3，人物具有甜美可爱的特点，符合'甜妹'的定义。'"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/萌娃/微信图片_2026-10-11_102811_222.jpg",
+      "category": "人像",
+      "subcategory": "萌娃",
+      "filename": "微信图片_2026-10-11_102811_222.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 141288,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "萌娃",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "萌娃",
+        "keywords": [
+          "萌娃",
+          "玩偶",
+          "玩具"
+        ],
+        "description": "一个可爱的孩子正在玩耍，手里拿着一个蛋糕形状的玩具。",
+        "filenameSuggestions": [
+          "俏皮萌娃玩偶玩具.jpg",
+          "可爱小女孩玩偶玩具.jpg"
+        ],
+        "displayTitle": "俏皮萌娃",
+        "confidence": 0.9,
+        "reasoning": "图中有一个可爱的孩子，属于人像中的萌娃类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/萌娃/微信图片_2026-10-11_102816_184.jpg",
+      "category": "人像",
+      "subcategory": "萌娃",
+      "filename": "微信图片_2026-10-11_102816_184.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 98620,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "萌娃",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "萌娃",
+        "keywords": [
+          "萌娃",
+          "笑容",
+          "帽子"
+        ],
+        "description": "一个戴着花色头巾的小女孩，露出开心的笑容。",
+        "filenameSuggestions": [
+          "俏皮小女孩.jpg",
+          "戴帽子的可爱女孩.jpg"
+        ],
+        "displayTitle": "俏皮小女孩",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，该图片属于人像中的萌娃类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_102821_464.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_102821_464.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 152236,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜妹",
+          "长发",
+          "粉嫩"
+        ],
+        "description": "一位拥有长发的甜美女孩，面容柔和，妆容精致。",
+        "filenameSuggestions": [
+          "温柔甜妹头像1.jpg",
+          "甜美女孩头像2.jpg"
+        ],
+        "displayTitle": "温柔甜妹",
+        "confidence": 0.9,
+        "reasoning": "'根据B3甜妹标准，该人物符合甜美可爱的特征。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_102921_671.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_102921_671.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 175434,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "阳光",
+          "海边",
+          "甜妹",
+          "长发",
+          "微笑"
+        ],
+        "description": "一位长发女孩在海边的阳光下微笑着，背景是碧蓝的大海。",
+        "filenameSuggestions": [
+          "阳光下的海边甜妹.jpg",
+          "微笑的海边女孩.jpg"
+        ],
+        "displayTitle": "阳光下的海边甜妹",
+        "confidence": 0.9,
+        "reasoning": "'根据B3规则，该图片符合'甜妹'的特征，因此归类为人像/甜妹。'"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/萌宠/猫咪/微信图片_2026-10-11_103039_540.jpg",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_2026-10-11_103039_540.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 98026,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "可爱",
+          "毛绒",
+          "宠物"
+        ],
+        "description": "一只毛茸茸的白色小兔子，眼神温柔而好奇，耳朵耷拉着，显得十分可爱。",
+        "filenameSuggestions": [
+          "可爱毛茸茸的小兔子.jpg",
+          "温馨可爱的宠物兔.jpg"
+        ],
+        "displayTitle": "萌趣小兔",
+        "confidence": 0.9,
+        "reasoning": "'根据C2决策树，这是一只真实的宠物兔，因此归类为'萌宠/猫咪'。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_103103_787.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_103103_787.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 170014,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜妹",
+          "长发",
+          "耳机"
+        ],
+        "description": "一位戴着耳机的长发女孩，面带温柔的微笑，展现出甜美可爱的气质。",
+        "filenameSuggestions": [
+          "温柔微笑的甜妹.jpg",
+          "书店里微笑的女孩.jpg"
+        ],
+        "displayTitle": "温柔微笑的甜妹",
+        "confidence": 0.9,
+        "reasoning": "根据人物的外貌特征和表情，她被归类为人像中的甜妹类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_103116_204.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_103116_204.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 167869,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "夏日",
+          "姐妹",
+          "阳光"
+        ],
+        "description": "两位穿着红色格子裙的女孩在阳光下享受美好的时光。",
+        "filenameSuggestions": [
+          "夏日姐妹花.jpg",
+          "阳光下的红格子裙女孩.jpg"
+        ],
+        "displayTitle": "夏日阳光下的姐妹花",
+        "confidence": 0.9,
+        "reasoning": "图中展示了两位年轻女性，她们穿着时尚的服装，展现出青春活力。根据B3规则，归类为人像/甜妹。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_103121_769.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_103121_769.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 189974,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "夏日",
+          "姐妹",
+          "阳光"
+        ],
+        "description": "两位穿着不同风格裙子的年轻女性坐在沙发上，享受着夏日的温暖阳光。",
+        "filenameSuggestions": [
+          "夏日姐妹花.jpg",
+          "阳光下的姐妹花.jpg"
+        ],
+        "displayTitle": "夏日午后阳光下的姐妹花",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这两位女性的形象符合‘甜妹’的特征，因此被归类为人像/甜妹类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/氛围感/微信图片_2026-10-11_103136_923.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_103136_923.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 49924,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "阳光",
+          "氛围感",
+          "优雅"
+        ],
+        "description": "一位长发女子背对镜头，沐浴在温暖的阳光下，展现出一种宁静而优雅的氛围。",
+        "filenameSuggestions": [
+          "阳光下的温柔身影.jpg",
+          "微风中的优雅剪影.jpg"
+        ],
+        "displayTitle": "阳光下的温柔身影",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这是一幅展现人物背影的艺术作品，符合‘人像/氛围感’的分类标准。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_103203_488.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_103203_488.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 88145,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "白衣少年",
+          "喝水",
+          "甜妹"
+        ],
+        "description": "一位穿着白色T恤的年轻男子正在喝瓶装水，他的头发湿漉漉的，背景较为简约。",
+        "filenameSuggestions": [
+          "白衣少年饮水图.jpg",
+          "白衣少年喝水图.jpg"
+        ],
+        "displayTitle": "白衣少年饮水图",
+        "confidence": 0.9,
+        "reasoning": "根据人物的特征和服装，该图片被归类为人像中的甜妹类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/氛围感/微信图片_2026-10-11_103209_090.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_103209_090.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 61799,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "黑色西装",
+          "蒙眼",
+          "氛围感"
+        ],
+        "description": "一位穿着黑色西装的男子，蒙着眼睛，展现出一种神秘而深邃的氛围感。",
+        "filenameSuggestions": [
+          "黑色西装盲者.jpg",
+          "蒙眼男子.jpg"
+        ],
+        "displayTitle": "黑色西装盲者",
+        "confidence": 0.9,
+        "reasoning": "图片中的男子穿着黑色西装，蒙着眼睛，符合‘氛围感’的特征，因此归类为人像/氛围感。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_103319_137.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_103319_137.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 66952,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "阳光",
+          "温柔",
+          "甜美",
+          "清新",
+          "女孩"
+        ],
+        "description": "一位面带温柔微笑的女孩，沐浴在温暖的阳光下，展现出清新甜美的气质。",
+        "filenameSuggestions": [
+          "阳光下的温柔微笑.jpg",
+          "清新甜美的女孩头像.jpg"
+        ],
+        "displayTitle": "阳光下的温柔微笑",
+        "confidence": 0.9,
+        "reasoning": "'甜妹'类别符合图中人物的特征，她拥有甜美的笑容和清新自然的妆容，因此被归类为人像/甜妹。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/日漫/微信图片_2026-10-11_103355_626.png",
+      "category": "动漫",
+      "subcategory": "日漫",
+      "filename": "微信图片_2026-10-11_103355_626.png",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 535537,
+      "format": "png",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "日漫",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "日漫",
+        "keywords": [
+          "俏皮",
+          "校园",
+          "少女",
+          "眨眼微笑"
+        ],
+        "description": "一位俏皮的校园少女，带着可爱的眨眼微笑，展现出青春的活力与纯真。",
+        "filenameSuggestions": [
+          "俏皮校园少女眨眼微笑.jpg",
+          "俏皮校园少女眨眼微笑.jpg"
+        ],
+        "displayTitle": "俏皮校园少女",
+        "confidence": 0.9,
+        "reasoning": "图中人物具有明显的动漫风格特征，符合日漫的分类标准。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/IP形象/兔斯基/微信图片_2026-10-11_103403_555.jpg",
+      "category": "IP形象",
+      "subcategory": "兔斯基",
+      "filename": "微信图片_2026-10-11_103403_555.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 65757,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "IP形象",
+        "subcategory": "兔斯基",
+        "primary": "avatar",
+        "secondary": "IP形象",
+        "third": "兔斯基",
+        "keywords": [
+          "兔斯基",
+          "时尚",
+          "墨镜"
+        ],
+        "description": "一只戴着红色墨镜的白色兔斯基，看起来非常酷炫。",
+        "filenameSuggestions": [
+          "时尚兔斯基.jpg",
+          "戴墨镜的兔斯基.jpg"
+        ],
+        "displayTitle": "时尚兔斯基",
+        "confidence": 0.9,
+        "reasoning": "通过图中角色的外观特征，特别是其独特的造型和配饰，可以确定这是兔斯基这一IP形象。因此，它被归类为IP形象下的兔斯基类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_103449_112.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_103449_112.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 298800,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "阳光",
+          "微笑",
+          "向日葵"
+        ],
+        "description": "一位面带微笑的女孩站在户外，手中握着一朵向日葵，背景是远处的山丘和蓝天白云。",
+        "filenameSuggestions": [
+          "阳光下的微笑女孩.jpg",
+          "手持向日葵的女孩.jpg"
+        ],
+        "displayTitle": "阳光下的微笑女孩",
+        "confidence": 0.9,
+        "reasoning": "根据人物的表情和姿态，以及手中的向日葵元素，该图片被归类为人像中的甜妹类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_103518_374.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_103518_374.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 191107,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "夏日",
+          "甜美",
+          "女孩"
+        ],
+        "description": "一位穿着粉色连衣裙的女孩站在户外，头顶上有一个梨形装饰物，背景中有树木和篮子等元素。",
+        "filenameSuggestions": [
+          "夏日微风下的甜美女孩.jpg",
+          "阳光下的粉红裙女孩.jpg"
+        ],
+        "displayTitle": "夏日微风中的甜美女孩",
+        "confidence": 0.9,
+        "reasoning": "根据人物的外貌和服装风格，她被归类为人像/甜妹类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/背影/微信图片_2026-10-11_103601_172.jpg",
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "微信图片_2026-10-11_103601_172.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 142803,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "背影",
+          "长发",
+          "度假",
+          "海边"
+        ],
+        "description": "一位长发女孩坐在床上，背对镜头，望向窗外，享受着宁静的海边度假时光。",
+        "filenameSuggestions": [
+          "长发背影女孩.jpg",
+          "海边度假背影女孩.jpg"
+        ],
+        "displayTitle": "静谧时光",
+        "confidence": 0.9,
+        "reasoning": "图中人物背对镜头，符合‘背影’的特征，因此归类为人像/背影。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_103620_545.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_103620_545.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 96252,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "长发",
+          "微笑"
+        ],
+        "description": "一位拥有长发的甜美女孩，面带温柔的微笑，展现出青春的气息。",
+        "filenameSuggestions": [
+          "甜美微笑的女孩.jpg",
+          "长发女孩温柔微笑.jpg"
+        ],
+        "displayTitle": "甜美微笑的女孩",
+        "confidence": 0.9,
+        "reasoning": "根据人物的外貌特征和气质，她被归类为人像中的甜妹类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_103648_643.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_103648_643.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 183690,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "夏日",
+          "清新",
+          "时尚"
+        ],
+        "description": "一位穿着白色T恤的女孩，戴着棕色墨镜，手持一杯果汁，背景是室内环境。",
+        "filenameSuggestions": [
+          "清新夏日风女孩.jpg",
+          "夏日清新风女孩.jpg"
+        ],
+        "displayTitle": "清新夏日风",
+        "confidence": 0.9,
+        "reasoning": "根据人物的特征和服装风格，她被归类为人像中的甜妹类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/氛围感/微信图片_2026-10-11_103653_348.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_103653_348.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 78435,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "张凌赫",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "张凌赫",
+        "keywords": [
+          "温柔",
+          "时光",
+          "张凌赫"
+        ],
+        "description": "画面中展现了一位年轻男子与一只柯基犬亲密互动的场景，营造出一种温馨而宁静的氛围。男子的眼神温和，面带微笑，似乎在与狗狗分享着美好的时光。狗狗则显得十分乖巧，依偎在男子身边，展现出对主人的信任和依赖。整个场景充满了爱与和谐，让人感受到人与动物之间深厚的情感纽带。",
+        "filenameSuggestions": [
+          "温柔时光中的张凌赫.jpg",
+          "温馨时刻的张凌赫.jpg"
+        ],
+        "displayTitle": "温柔时光",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这是一张人物肖像照，其中包含了一个人和一只柯基犬。由于图中的人物是张凌赫，因此可以直接归类为人像分类下的张凌赫。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/氛围感/微信图片_2026-10-11_103658_492.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_2026-10-11_103658_492.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 143496,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "阳光",
+          "沉思",
+          "静谧"
+        ],
+        "description": "一位身着白色上衣的男子静静地趴在窗边，沐浴着温暖的阳光，仿佛在深思人生的意义。他的眼神专注而深邃，似乎在寻找答案或是回忆过去的点点滴滴。整个画面充满了宁静与平和的氛围，让人感受到生活的美好和无限可能。",
+        "filenameSuggestions": [
+          "阳光下的沉思者.jpg",
+          "静谧时光中的思考者.jpg"
+        ],
+        "displayTitle": "阳光下的沉思者",
+        "confidence": 0.9,
+        "reasoning": null
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/萌宠/猫咪/微信图片_2026-10-11_103705_839.jpg",
+      "category": "萌宠",
+      "subcategory": "猫咪",
+      "filename": "微信图片_2026-10-11_103705_839.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 107039,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "萌宠",
+        "subcategory": "猫咪",
+        "primary": "avatar",
+        "secondary": "萌宠",
+        "third": "猫咪",
+        "keywords": [
+          "温馨",
+          "猫咪",
+          "互动"
+        ],
+        "description": "画面中，一只可爱的灰色猫咪被温柔地抱起，人与宠物之间的亲密互动充满了温馨的氛围。",
+        "filenameSuggestions": [
+          "温柔时光抱猫.jpg",
+          "温馨互动猫咪.jpg"
+        ],
+        "displayTitle": "温柔时光",
+        "confidence": 0.9,
+        "reasoning": "这是一张真实的猫咪照片，根据C-C2规则，应归类为‘萌宠/猫咪’。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_103714_209.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_103714_209.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 206790,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "阳光",
+          "笑容",
+          "女孩",
+          "小狗"
+        ],
+        "description": "一位面带微笑的女孩抱着一只白色的小狗，背景是绿色的树木。",
+        "filenameSuggestions": [
+          "阳光下的微笑女孩.jpg",
+          "抱着小狗的女孩.jpg"
+        ],
+        "displayTitle": "阳光下的微笑女孩",
+        "confidence": 0.9,
+        "reasoning": "'根据B3甜妹标准，该图片符合甜妹的特征，归类为人像/甜妹。'"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_103720_323.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_103720_323.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 149357,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "甜美",
+          "画家",
+          "阳光"
+        ],
+        "description": "一位面带微笑的年轻女性，身着带有红色波点的白色上衣，正专注地凝视着手中的画笔。她的长发自然垂落，脖子上佩戴着一条银色的项链。她坐在户外，背后是充满活力的商店和人群。阳光洒在她的脸上，为她增添了一抹温暖的色彩。",
+        "filenameSuggestions": [
+          "阳光下的甜美画家.jpg",
+          "手持调色盘的女孩.jpg"
+        ],
+        "displayTitle": "阳光下的甜美画家",
+        "confidence": 0.9,
+        "reasoning": "根据人物的表情、服装以及手中的绘画工具，可以推断出这是一位热爱艺术的年轻女性。她的微笑和专注的眼神传达出她对艺术的热情和对生活的热爱。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/萌娃/微信图片_2026-10-11_103731_644.jpg",
+      "category": "人像",
+      "subcategory": "萌娃",
+      "filename": "微信图片_2026-10-11_103731_644.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 117448,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "萌娃",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "萌娃",
+        "keywords": [
+          "温馨",
+          "互动",
+          "宠物"
+        ],
+        "description": "画面中，一位戴着眼镜的小男孩正温柔地抚摸着一只橘色的猫咪，背景中有其他人和家具，营造出一种家庭温馨的氛围。",
+        "filenameSuggestions": [
+          "温馨互动时光.jpg",
+          "人与宠物和谐相处.jpg"
+        ],
+        "displayTitle": "温馨互动时光",
+        "confidence": 0.9,
+        "reasoning": "根据图中人物的特征和行为，可以将其归类为人像中的萌娃类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/插画/创意/微信图片_2026-10-11_103740_876.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_2026-10-11_103740_876.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 143157,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "avatar",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "创意",
+          "小女孩"
+        ],
+        "description": "这是一幅充满童趣的插画，描绘了一个戴着红色眼镜的小女孩坐在地上，旁边有一只可爱的兔子玩偶。她的头上戴着一个带有红色波点的白色头巾，看起来非常可爱。",
+        "filenameSuggestions": [
+          "俏皮小女孩插画.jpg",
+          "创意风格小女孩插画.jpg"
+        ],
+        "displayTitle": "俏皮小女孩插画",
+        "confidence": 0.9,
+        "reasoning": "这幅图是一幅创意插画，虽然不是现有的任何一种类型，但它具有独特的创意风格，因此被归类为插画/创意。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/插画/创意/微信图片_2026-10-11_103746_974.jpg",
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "微信图片_2026-10-11_103746_974.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 125262,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "avatar",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "插画",
+          "眼镜",
+          "眨眼",
+          "可爱"
+        ],
+        "description": "一个戴着蓝色边框眼镜、穿着黄色背心和蓝色背带裤的小男孩，他正眨着一只眼睛，手里拿着一块红色波点的布料，背景中有粉色的云朵和爱心图案。",
+        "filenameSuggestions": [
+          "俏皮眼镜男孩插画.jpg",
+          "眨眼戴眼镜的小男孩插画.jpg"
+        ],
+        "displayTitle": "俏皮眼镜男孩",
+        "confidence": 0.9,
+        "reasoning": "这是一幅具有创意元素的插画，不属于现有的IP形象或特定动漫角色，因此归类为插画/创意。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/动漫/海绵宝宝/微信图片_2026-10-11_103808_756.jpg",
+      "category": "动漫",
+      "subcategory": "海绵宝宝",
+      "filename": "微信图片_2026-10-11_103808_756.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 50795,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "动漫",
+        "subcategory": "海绵宝宝",
+        "primary": "avatar",
+        "secondary": "动漫",
+        "third": "海绵宝宝",
+        "keywords": [
+          "海绵宝宝",
+          "懒洋洋",
+          "卡通"
+        ],
+        "description": "一个穿着蓝色衣服的橙色卡通人物躺在桌子上，看起来很放松。",
+        "filenameSuggestions": [
+          "懒洋洋的海绵宝宝.jpg",
+          "悠闲的海绵宝宝.jpg"
+        ],
+        "displayTitle": "懒洋洋的海绵宝宝",
+        "confidence": 0.9,
+        "reasoning": "图中的人物是《海绵宝宝》中的主角海绵宝宝，他穿着蓝色的衣服躺在床上，表情轻松愉快。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/背影/微信图片_2026-10-11_103830_029.jpg",
+      "category": "人像",
+      "subcategory": "背影",
+      "filename": "微信图片_2026-10-11_103830_029.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 183921,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "背影",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "背影",
+        "keywords": [
+          "青春",
+          "背影",
+          "休闲"
+        ],
+        "description": "一个穿着运动服的年轻人背对镜头，手持饮料，享受着悠闲的时光。",
+        "filenameSuggestions": [
+          "青春洋溢的背影.jpg",
+          "阳光下的休闲时光.jpg"
+        ],
+        "displayTitle": "青春洋溢的背影",
+        "confidence": 0.9,
+        "reasoning": "图片中没有明显的表情包、插画或动漫元素，因此排除表情包、插画和动漫相关类别。人物没有面部特写，符合人像分类中的‘背影’子类。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/萌娃/微信图片_2026-10-11_103839_191.jpg",
+      "category": "人像",
+      "subcategory": "萌娃",
+      "filename": "微信图片_2026-10-11_103839_191.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 191025,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "萌娃",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "萌娃",
+        "keywords": [
+          "萌娃",
+          "蓝色外套",
+          "吃面"
+        ],
+        "description": "一个穿着蓝色连帽衫的小男孩正在用勺子吃饭。他坐在餐桌前，面前有一碗食物和一些餐具。背景中有一些瓶子和装饰品。",
+        "filenameSuggestions": [
+          "穿蓝衣服吃泡面的萌娃.jpg",
+          "蓝色外套萌娃吃面.jpg"
+        ],
+        "displayTitle": "蓝色外套萌娃",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这个小孩看起来很年轻，可能是孩子或者青少年，所以将他归类为人像中的萌娃类别。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_103845_862.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_103845_862.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 284928,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "夏日",
+          "微风",
+          "微笑",
+          "白裙",
+          "温柔"
+        ],
+        "description": "一位穿着白色连衣裙的女孩在夏日的微风中微笑着，背景是郁郁葱葱的树木。",
+        "filenameSuggestions": [
+          "夏日微风中的微笑女孩.jpg",
+          "清新白裙下的温柔微笑.jpg"
+        ],
+        "displayTitle": "夏日微风中的微笑女孩",
+        "confidence": 0.9,
+        "reasoning": "'根据B3甜妹标准，该图片符合甜妹的特征，归类为人像/甜妹。'"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_103938_492.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_103938_492.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 226531,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "春日",
+          "樱花",
+          "甜美",
+          "自然风光"
+        ],
+        "description": "一位穿着卡其色外套的女孩站在盛开的樱花树下，手持手机自拍，背景是美丽的自然风光。",
+        "filenameSuggestions": [
+          "春光中的甜美女孩.jpg",
+          "樱花树下的小确幸.jpg"
+        ],
+        "displayTitle": "春日里的温柔时光",
+        "confidence": 0.9,
+        "reasoning": "'春日里的温柔时光'作为标题，既体现了图片的季节特点，又传达了人物的情感状态。'春光中的甜美女孩'和'樱花树下的小确幸'这两个文件名分别突出了春天的美好和女孩的快乐心情。"
+      }
+    },
+    {
+      "series": "avatar",
+      "relativePath": "wallpaper/avatar/人像/甜妹/微信图片_2026-10-11_104001_046.jpg",
+      "category": "人像",
+      "subcategory": "甜妹",
+      "filename": "微信图片_2026-10-11_104001_046.jpg",
+      "createdAt": "2026-10-11T03:12:56.455Z",
+      "size": 112693,
+      "format": "jpg",
+      "ai": {
+        "series": "avatar",
+        "category": "人像",
+        "subcategory": "甜妹",
+        "primary": "avatar",
+        "secondary": "人像",
+        "third": "甜妹",
+        "keywords": [
+          "温馨",
+          "可爱",
+          "女孩"
+        ],
+        "description": "一位可爱的女孩与她的白色小狗共度美好时光，展现出温馨的氛围。",
+        "filenameSuggestions": [
+          "温馨时光中的女孩.jpg",
+          "甜蜜互动的女孩.jpg"
+        ],
+        "displayTitle": "温馨时光",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女孩展现出了甜美可爱的气质，符合‘甜妹’的分类标准。"
+      }
+    }
+  ]
+}
