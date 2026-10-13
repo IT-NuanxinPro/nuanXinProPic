@@ -1,0 +1,360 @@
+{
+  "version": 1,
+  "createdAt": "2026-10-13T07:21:53.022Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/吊带丝袜-女性人像.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "吊带丝袜-女性人像.jpg",
+      "createdAt": "2026-10-13T07:21:53.023Z",
+      "size": 347941,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "暗夜",
+          "红玫瑰",
+          "高跟鞋"
+        ],
+        "description": "一位身着红色连衣裙和高跟鞋的女性，在昏暗的光线下展现出迷人的魅力。她的长发随风飘动，仿佛一朵盛开的红玫瑰在夜晚中独自绽放。",
+        "filenameSuggestions": [
+          "暗夜里绽放的红玫瑰.jpg",
+          "夜色中优雅漫步的长发女孩.jpg"
+        ],
+        "displayTitle": "暗夜里绽放的红玫瑰",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女性穿着红色连衣裙和高跟鞋，展现出一种成熟的魅力。这种装扮通常与‘魅力’类别相关联。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/人像-侧脸-公交车内.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "人像-侧脸-公交车内.jpg",
+      "createdAt": "2026-10-13T07:21:53.023Z",
+      "size": 239922,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "阳光",
+          "微笑",
+          "地铁"
+        ],
+        "description": "一位年轻女性在地铁内享受着温暖的阳光，她的长发随风飘动，展现出一种清新自然的美丽。",
+        "filenameSuggestions": [
+          "阳光下微笑的女孩.jpg",
+          "地铁里的微笑少女.jpg"
+        ],
+        "displayTitle": "阳光下的微笑少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这位女性的外貌和气质符合‘清新’的风格特点，因此被归类为人像分类中的‘清新’类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/中袖-低胸-包臀裙.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "中袖-低胸-包臀裙.jpg",
+      "createdAt": "2026-10-13T07:21:53.023Z",
+      "size": 800928,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "绿色连衣裙",
+          "高跟鞋",
+          "镜子自拍"
+        ],
+        "description": "一位穿着绿色蕾丝连衣裙和高跟鞋的女性站在玻璃门前自拍。",
+        "filenameSuggestions": [
+          "绿裙佳人.jpg",
+          "夜晚玻璃前自信的女孩.jpg"
+        ],
+        "displayTitle": "绿裙佳人",
+        "confidence": 0.9,
+        "reasoning": "'检测到人物穿着绿色蕾丝连衣裙和高跟鞋，展现出成熟美的身材曲线，符合规则B2中定义的魅力类别。'"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/Ios-优雅-写真.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "Ios-优雅-写真.jpg",
+      "createdAt": "2026-10-13T07:21:53.023Z",
+      "size": 659550,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "阳光",
+          "长发",
+          "清新",
+          "微笑"
+        ],
+        "description": "一位长发女孩在阳光下展现出的清新气质。",
+        "filenameSuggestions": [
+          "阳光下的温柔微笑.jpg",
+          "长发女孩的清新瞬间.jpg"
+        ],
+        "displayTitle": "阳光下的温柔微笑",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，该图片符合‘清新’的分类标准，因此被归类为人像/清新类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/人像-夏日-大海.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "人像-夏日-大海.jpg",
+      "createdAt": "2026-10-13T07:21:53.023Z",
+      "size": 153842,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "阳光",
+          "清新",
+          "海滩",
+          "少女"
+        ],
+        "description": "一位穿着白色露肩上衣和牛仔短裤的年轻女子站在海边，背景是蔚蓝的大海和晴朗的天空。",
+        "filenameSuggestions": [
+          "阳光下的清新少女.jpg",
+          "海边微笑的女孩.jpg"
+        ],
+        "displayTitle": "阳光下的清新少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，人物没有特定的明星或古装元素，因此排除A1。图片中没有明显的丝袜、紧身衣等元素，不符合A2的定义。虽然有一定的时尚感，但整体色调明亮，符合B4的特征，因此判定为清新风格。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/冬季穿搭-冬日少女.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "冬季穿搭-冬日少女.jpg",
+      "createdAt": "2026-10-13T07:21:53.023Z",
+      "size": 206810,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "冬日",
+          "阳光",
+          "清新",
+          "少女"
+        ],
+        "description": "一位戴着白色毛绒帽子的年轻女性，她的指甲上装饰着黄色的美甲，展现出一种清新自然的气息。",
+        "filenameSuggestions": [
+          "冬日暖阳下清新少女.jpg",
+          "阳光明媚的冬日女孩.jpg"
+        ],
+        "displayTitle": "冬日暖阳下的清新少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，这位女性的妆容精致，眼神明亮，给人一种清新脱俗的感觉。她穿着白色的毛绒外套，整体造型简洁大方，符合‘清新’的风格特点。因此，将她归类为人像分类中的‘清新’类别。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/侧颜-壁纸-女性.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "侧颜-壁纸-女性.jpg",
+      "createdAt": "2026-10-13T07:21:53.023Z",
+      "size": 252159,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "晨光",
+          "柔和",
+          "宁静"
+        ],
+        "description": "这是一张展现清新风格的图片，晨光洒在脸上，给人一种宁静而温柔的印象。",
+        "filenameSuggestions": [
+          "晨曦下轻柔微笑的女孩.jpg",
+          "清晨微光中的静谧时光.jpg"
+        ],
+        "displayTitle": "晨光中的温柔梦境",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，可以明显看出这是一张以清新为主题的图片，符合‘清新’的分类标准。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/好身材-对镜自拍.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "好身材-对镜自拍.jpg",
+      "createdAt": "2026-10-13T07:21:53.023Z",
+      "size": 430717,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "月光",
+          "黑色",
+          "曼陀罗",
+          "魅力",
+          "优雅"
+        ],
+        "description": "一位长发女性在月光的照耀下展现她的迷人风采。",
+        "filenameSuggestions": [
+          "月光下魅力的长发女孩.jpg",
+          "夜晚漫步的优雅女性.jpg"
+        ],
+        "displayTitle": "月光下的黑色曼陀罗",
+        "confidence": 0.9,
+        "reasoning": "根据人物的着装和姿态，她符合'魅力'的分类标准。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/仰角-女生-灰色短裤.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "仰角-女生-灰色短裤.jpg",
+      "createdAt": "2026-10-13T07:21:53.023Z",
+      "size": 249363,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "黑丝",
+          "夜晚",
+          "性感",
+          "优雅"
+        ],
+        "description": "一位身着红色毛衣和短裤的女性站在白色柱子上，她戴着耳机，长发随风飘动，展现出一种自信而迷人的气质。",
+        "filenameSuggestions": [
+          "暗夜里绽放的黑玫瑰.jpg",
+          "夜色中优雅漫步的长发女孩.jpg"
+        ],
+        "displayTitle": "暗夜里绽放的黑玫瑰",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女性穿着暴露，突出身材曲线，符合魅力类的特征。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/人像-冷艳-御姐.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "人像-冷艳-御姐.jpg",
+      "createdAt": "2026-10-13T07:21:53.023Z",
+      "size": 890225,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "暗夜玫瑰",
+          "魅惑",
+          "黑丝"
+        ],
+        "description": "一位身着黑色蕾丝内衣的女子，长发披肩，眼神深邃而神秘。",
+        "filenameSuggestions": [
+          "暗夜玫瑰般的魅惑少女.jpg",
+          "夜幕下绽放的黑玫瑰.jpg"
+        ],
+        "displayTitle": "暗夜玫瑰",
+        "confidence": 0.9,
+        "reasoning": "'根据图片内容，人物穿着暴露且具有性感元素，符合魅力分类的特征。'"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/清新/侧颜-列车车窗-卷发.jpg",
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "侧颜-列车车窗-卷发.jpg",
+      "createdAt": "2026-10-13T07:21:53.023Z",
+      "size": 293179,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "阳光",
+          "清新",
+          "长发",
+          "火车"
+        ],
+        "description": "一位长发女孩坐在火车的窗边，享受着温暖的阳光。",
+        "filenameSuggestions": [
+          "阳光下的清新少女.jpg",
+          "火车窗边的长发女孩.jpg"
+        ],
+        "displayTitle": "阳光下的清新少女",
+        "confidence": 0.9,
+        "reasoning": "根据图片内容，女孩穿着白色上衣，头发被风吹起，展现出一种清新自然的气质。光线明亮，给人一种温暖的感觉，符合‘清新’的分类标准。"
+      }
+    }
+  ]
+}
