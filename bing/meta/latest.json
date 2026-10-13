@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-10-12 23:36:39",
+  "generatedAt": "2026-10-13 21:54:24",
   "total": 7,
   "items": [
+    {
+      "date": "2026-10-14",
+      "title": "穿越时间的螺旋",
+      "copyright": "侏罗纪时期的菊石化石 (© J Nemchinova/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9B%BD%E5%AE%B6%E5%8C%96%E7%9F%B3%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261013_AmmoniteFossils%22&FORM=HPQUIZ",
+      "hsh": "999a4070dbede033fe884401e20c4f09",
+      "urlbase": "/th?id=OHR.AmmoniteFossils_ZH-CN5825251327"
+    },
     {
       "date": "2026-10-13",
       "title": "蓝与绿的交响曲",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261007_MayotteOctopus%22&FORM=HPQUIZ",
       "hsh": "331520d87b4d7e5a28772c33351d7153",
       "urlbase": "/th?id=OHR.MayotteOctopus_ZH-CN2837659998"
-    },
-    {
-      "date": "2026-10-07",
-      "title": "迷惑不解？沿着小径走",
-      "copyright": "覆满苔藓的岩石，英国格洛斯特郡谜林，迪恩森林，格洛斯特郡，英格兰 (© Fulcanelli_AOS/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E8%8B%B1%E5%9B%BD%E6%A0%BC%E6%B4%9B%E6%96%AF%E7%89%B9%E9%83%A1%E8%B0%9C%E6%9E%97&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261006_ForestofDean%22&FORM=HPQUIZ",
-      "hsh": "a1d23cf68b668a311237ebdb46f12180",
-      "urlbase": "/th?id=OHR.ForestofDean_ZH-CN2654753621"
     }
   ]
 }
