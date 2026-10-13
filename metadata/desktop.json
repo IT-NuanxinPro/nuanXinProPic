@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-10-12 23:37:01",
-  "count": 856,
+  "lastUpdated": "2026-10-13 07:25:51",
+  "count": 858,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -27250,6 +27250,81 @@
         "description": "教室里整齐排列着课桌椅，阳光透过窗户洒进来，营造出一种安静的学习氛围。",
         "confidence": 0.9,
         "reasoning": "'图片中没有特定的人物或角色，因此无法归类为人像分类。同时，图片也没有明显的动漫、插画或其他特定主题的风格，所以无法归类为动漫或插画分类。根据风景分类决策树，图片没有明确的自然景观，因此选择通用分类。'"
+      }
+    },
+    "wallpaper/desktop/风景/雪山/公路-冬季-夜景.jpg": {
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "公路-冬季-夜景.jpg",
+      "createdAt": "2026-10-13T07:23:16.897Z",
+      "cdnTag": "v1.4.67",
+      "size": 1177068,
+      "format": "jpg",
+      "resolution": {
+        "width": 2560,
+        "height": 1440,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "星空",
+          "雪山",
+          "小镇",
+          "夜晚",
+          "宁静"
+        ],
+        "description": "这幅图展现了一幅宁静的雪山小镇夜景，繁星点点的夜空映衬着被白雪覆盖的山峰，小镇上的灯光点缀其中。",
+        "filenameSuggestions": [
+          "星河浩瀚下的雪山小镇.jpg",
+          "夜幕下静谧的雪山村庄.jpg"
+        ],
+        "displayTitle": "星河浩瀚下的雪山小镇",
+        "confidence": 0.9,
+        "reasoning": "'图片为雪山风景，山峰清晰可见，根据规则C1，判定为[风景/雪山]。'"
+      }
+    },
+    "wallpaper/desktop/插画/场景/壁纸-情侣-冬日.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "壁纸-情侣-冬日.jpg",
+      "createdAt": "2026-10-13T07:23:16.897Z",
+      "cdnTag": "v1.4.67",
+      "size": 2082367,
+      "format": "jpg",
+      "resolution": {
+        "width": 2912,
+        "height": 1536,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "冬日",
+          "浪漫",
+          "雪景",
+          "情侣"
+        ],
+        "description": "一对情侣在雪地中相拥，背景是美丽的雪山景色。",
+        "filenameSuggestions": [
+          "冬日浪漫情侣.jpg",
+          "雪地中的甜蜜拥抱.jpg"
+        ],
+        "displayTitle": "冬日浪漫时光",
+        "confidence": 0.9,
+        "reasoning": "图片是一幅插画风格的画作，描绘了一对情侣在雪地中相拥的场景，属于插画/场景类别。"
       }
     }
   }
