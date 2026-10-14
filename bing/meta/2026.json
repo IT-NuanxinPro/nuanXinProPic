@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 286,
+  "total": 287,
   "items": [
+    {
+      "date": "2026-10-15",
+      "title": "桥梁、屋顶与暮色",
+      "copyright": "弗罗茨瓦夫集市广场景观，摄自女巫桥，弗罗茨瓦夫，波兰 (© Piotr Mitelski/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%BC%97%E7%BD%97%E8%8C%A8%E7%93%A6%E5%A4%AB&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261014_WroclawPoland%22&FORM=HPQUIZ",
+      "hsh": "4ca868c84dea42c17e5d790158722de1",
+      "urlbase": "/th?id=OHR.WroclawPoland_ZH-CN6042428292"
+    },
     {
       "date": "2026-10-14",
       "title": "穿越时间的螺旋",
@@ -2577,5 +2586,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-10-13 21:54:24"
+  "updatedAt": "2026-10-14 20:29:57"
 }

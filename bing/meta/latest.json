@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-10-13 21:54:24",
+  "generatedAt": "2026-10-14 20:29:57",
   "total": 7,
   "items": [
+    {
+      "date": "2026-10-15",
+      "title": "桥梁、屋顶与暮色",
+      "copyright": "弗罗茨瓦夫集市广场景观，摄自女巫桥，弗罗茨瓦夫，波兰 (© Piotr Mitelski/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%BC%97%E7%BD%97%E8%8C%A8%E7%93%A6%E5%A4%AB&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261014_WroclawPoland%22&FORM=HPQUIZ",
+      "hsh": "4ca868c84dea42c17e5d790158722de1",
+      "urlbase": "/th?id=OHR.WroclawPoland_ZH-CN6042428292"
+    },
     {
       "date": "2026-10-14",
       "title": "穿越时间的螺旋",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261008_IlesSanguinaires%22&FORM=HPQUIZ",
       "hsh": "e324aa5d2988404657fe38261700de65",
       "urlbase": "/th?id=OHR.IlesSanguinaires_ZH-CN3149346035"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "现在你“海”能看见我……",
-      "copyright": "印度洋马约特岛，一只呈防御姿态的章鱼 (© Gabriel Barathieu/Minden Pictures)",
-      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E7%AB%A0%E9%B1%BC%E6%97%A5&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261007_MayotteOctopus%22&FORM=HPQUIZ",
-      "hsh": "331520d87b4d7e5a28772c33351d7153",
-      "urlbase": "/th?id=OHR.MayotteOctopus_ZH-CN2837659998"
     }
   ]
 }
