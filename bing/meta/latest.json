@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-10-14 20:29:57",
+  "generatedAt": "2026-10-15 20:13:55",
   "total": 7,
   "items": [
+    {
+      "date": "2026-10-16",
+      "title": "一窥科罗拉多群峰",
+      "copyright": "斯奈费尔斯山，里奇韦附近的圣胡安山脉，科罗拉多州，美国 (© lightphoto/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%96%AF%E5%A5%88%E8%B4%B9%E5%B0%94%E6%96%AF%E5%B1%B1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261015_SneffelsAutumn%22&FORM=HPQUIZ",
+      "hsh": "01324fb451f97a15a594d097f3d816c5",
+      "urlbase": "/th?id=OHR.SneffelsAutumn_ZH-CN3002661429"
+    },
     {
       "date": "2026-10-15",
       "title": "桥梁、屋顶与暮色",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261009_CormorantsFlight%22&FORM=HPQUIZ",
       "hsh": "5334aa6c5bad613d8231ab1fb253585d",
       "urlbase": "/th?id=OHR.CormorantsFlight_ZH-CN0770863330"
-    },
-    {
-      "date": "2026-10-09",
-      "title": "科西嘉岛的岩石前哨",
-      "copyright": "桑吉奈尔群岛景观，摄自科西嘉岛，法国 (© Francesco Riccardo Iacomino/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E7%A7%91%E8%A5%BF%E5%98%89%E5%B2%9B%E6%A1%91%E5%90%89%E5%A5%88%E5%B0%94%E7%BE%A4%E5%B2%9B&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261008_IlesSanguinaires%22&FORM=HPQUIZ",
-      "hsh": "e324aa5d2988404657fe38261700de65",
-      "urlbase": "/th?id=OHR.IlesSanguinaires_ZH-CN3149346035"
     }
   ]
 }

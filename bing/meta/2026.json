@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 287,
+  "total": 288,
   "items": [
+    {
+      "date": "2026-10-16",
+      "title": "一窥科罗拉多群峰",
+      "copyright": "斯奈费尔斯山，里奇韦附近的圣胡安山脉，科罗拉多州，美国 (© lightphoto/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%96%AF%E5%A5%88%E8%B4%B9%E5%B0%94%E6%96%AF%E5%B1%B1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261015_SneffelsAutumn%22&FORM=HPQUIZ",
+      "hsh": "01324fb451f97a15a594d097f3d816c5",
+      "urlbase": "/th?id=OHR.SneffelsAutumn_ZH-CN3002661429"
+    },
     {
       "date": "2026-10-15",
       "title": "桥梁、屋顶与暮色",
@@ -2586,5 +2595,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-10-14 20:29:57"
+  "updatedAt": "2026-10-15 20:13:55"
 }
