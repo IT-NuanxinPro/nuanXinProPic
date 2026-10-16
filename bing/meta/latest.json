@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-10-15 20:13:55",
+  "generatedAt": "2026-10-16 19:50:51",
   "total": 7,
   "items": [
+    {
+      "date": "2026-10-17",
+      "title": "发掘尘封的过去",
+      "copyright": "肖维岩洞艺术作品等比例复制品，瓦隆蓬达尔克，法国 (© Audrey Poree/Alamy)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E8%80%83%E5%8F%A4%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261016_ChauvetPaintingsFrance%22&FORM=HPQUIZ",
+      "hsh": "4e1ade5dbf2afc59df2b3bd5a69a55ad",
+      "urlbase": "/th?id=OHR.ChauvetPaintingsFrance_ZH-CN3150703955"
+    },
     {
       "date": "2026-10-16",
       "title": "一窥科罗拉多群峰",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261010_BabcockSP%22&FORM=HPQUIZ",
       "hsh": "9561adf7c48edb8bad9274e4bfac4225",
       "urlbase": "/th?id=OHR.BabcockSP_ZH-CN5266848536"
-    },
-    {
-      "date": "2026-10-10",
-      "title": "迁飞路线上的生命",
-      "copyright": "蒙特雷湾上空的双冠鸬鹚，加利福尼亚州，美国 (© Hiroya Minakuchi/Minden Pictures)",
-      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E5%80%99%E9%B8%9F%E6%97%A5&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261009_CormorantsFlight%22&FORM=HPQUIZ",
-      "hsh": "5334aa6c5bad613d8231ab1fb253585d",
-      "urlbase": "/th?id=OHR.CormorantsFlight_ZH-CN0770863330"
     }
   ]
 }
