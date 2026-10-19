@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 291,
+  "total": 292,
   "items": [
+    {
+      "date": "2026-10-20",
+      "title": "慢节奏生活",
+      "copyright": "褐喉三趾树懒，塔拉曼卡旧港，哥斯达黎加 (© Suzi Eszterhas/Minden Pictures)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E6%A0%91%E6%87%92%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261019_BrownSloth%22&FORM=HPQUIZ",
+      "hsh": "1a1dd724adcbc1c2aa3af8c97ea83f63",
+      "urlbase": "/th?id=OHR.BrownSloth_ZH-CN5776383136"
+    },
     {
       "date": "2026-10-19",
       "title": "水上通衢",
@@ -2622,5 +2631,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-10-18 19:16:07"
+  "updatedAt": "2026-10-19 21:32:28"
 }
