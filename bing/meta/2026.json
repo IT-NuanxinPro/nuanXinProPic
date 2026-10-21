@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 293,
+  "total": 294,
   "items": [
+    {
+      "date": "2026-10-22",
+      "title": "静水映斑斓",
+      "copyright": "内藏山国立公园的秋景，韩国 (© Twenty47studio/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%86%85%E8%97%8F%E5%B1%B1%E5%9B%BD%E7%AB%8B%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261021_NaejangsanNP%22&FORM=HPQUIZ",
+      "hsh": "f5712223d70223a41356c0e2064f8cbd",
+      "urlbase": "/th?id=OHR.NaejangsanNP_ZH-CN6538893004"
+    },
     {
       "date": "2026-10-21",
       "title": "飞掠河面",
@@ -2640,5 +2649,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-10-20 20:21:01"
+  "updatedAt": "2026-10-21 20:29:09"
 }
