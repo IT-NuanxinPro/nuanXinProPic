@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-10-22 21:01:12",
+  "generatedAt": "2026-10-23 20:14:10",
   "total": 7,
   "items": [
+    {
+      "date": "2026-10-24",
+      "title": "书香里的极致华美",
+      "copyright": "皇家葡萄牙语阅览室，里约热内卢，巴西 (© Antonio Salaverry/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%9A%87%E5%AE%B6%E8%91%A1%E8%90%84%E7%89%99%E8%AF%AD%E9%98%85%E8%A7%88%E5%AE%A4&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261023_PortugueseLibrary%22&FORM=HPQUIZ",
+      "hsh": "8b6a33956db57eaa614b800cd9e6c3d8",
+      "urlbase": "/th?id=OHR.PortugueseLibrary_ZH-CN7096893027"
+    },
     {
       "date": "2026-10-23",
       "title": "荒野伙伴",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261017_DolbadarnWales%22&FORM=HPQUIZ",
       "hsh": "65461e4b90bf6915104c62b9a3ec91e7",
       "urlbase": "/th?id=OHR.DolbadarnWales_ZH-CN3649667806"
-    },
-    {
-      "date": "2026-10-17",
-      "title": "发掘尘封的过去",
-      "copyright": "肖维岩洞艺术作品等比例复制品，瓦隆蓬达尔克，法国 (© Audrey Poree/Alamy)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E8%80%83%E5%8F%A4%E6%97%A5&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261016_ChauvetPaintingsFrance%22&FORM=HPQUIZ",
-      "hsh": "4e1ade5dbf2afc59df2b3bd5a69a55ad",
-      "urlbase": "/th?id=OHR.ChauvetPaintingsFrance_ZH-CN3150703955"
     }
   ]
 }
