@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 296,
+  "total": 297,
   "items": [
+    {
+      "date": "2026-10-25",
+      "title": "群峰与宁静相遇之地",
+      "copyright": "玛琳湖，贾斯珀国家公园，艾伯塔省，加拿大 (© Andrey Popov/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%8E%9B%E7%90%B3%E6%B9%96&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261024_MaligneFest%22&FORM=HPQUIZ",
+      "hsh": "e5e6a9075ef5d714848599cb68148e62",
+      "urlbase": "/th?id=OHR.MaligneFest_ZH-CN8343066766"
+    },
     {
       "date": "2026-10-24",
       "title": "书香里的极致华美",
@@ -2667,5 +2676,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-10-23 20:14:10"
+  "updatedAt": "2026-10-24 19:16:55"
 }

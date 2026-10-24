@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-10-23 20:14:10",
+  "generatedAt": "2026-10-24 19:16:55",
   "total": 7,
   "items": [
+    {
+      "date": "2026-10-25",
+      "title": "群峰与宁静相遇之地",
+      "copyright": "玛琳湖，贾斯珀国家公园，艾伯塔省，加拿大 (© Andrey Popov/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%8E%9B%E7%90%B3%E6%B9%96&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261024_MaligneFest%22&FORM=HPQUIZ",
+      "hsh": "e5e6a9075ef5d714848599cb68148e62",
+      "urlbase": "/th?id=OHR.MaligneFest_ZH-CN8343066766"
+    },
     {
       "date": "2026-10-24",
       "title": "书香里的极致华美",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261018_VeniceSunrise%22&FORM=HPQUIZ",
       "hsh": "423ca0274a16c6906e776de99f1a0240",
       "urlbase": "/th?id=OHR.VeniceSunrise_ZH-CN5251815339"
-    },
-    {
-      "date": "2026-10-18",
-      "title": "75载，风华正茂",
-      "copyright": "多巴达恩城堡，兰贝里斯，斯诺登尼亚国家公园，威尔士 (© joe daniel price/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%A8%81%E5%B0%94%E5%A3%AB%E6%96%AF%E8%AF%BA%E7%99%BB%E5%B0%BC%E4%BA%9A%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261017_DolbadarnWales%22&FORM=HPQUIZ",
-      "hsh": "65461e4b90bf6915104c62b9a3ec91e7",
-      "urlbase": "/th?id=OHR.DolbadarnWales_ZH-CN3649667806"
     }
   ]
 }
