@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 301,
+  "total": 302,
   "items": [
+    {
+      "date": "2026-10-30",
+      "title": "展翅高飞的时节",
+      "copyright": "沙丘鹤，博斯克德尔阿帕奇国家野生动物保护区，新墨西哥州，美国 (© Terry St.Louis/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%B2%99%E4%B8%98%E9%B9%A4&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261029_AutumnCranes%22&FORM=HPQUIZ",
+      "hsh": "19f861c6ad7549bbc1fae0b28ba1d421",
+      "urlbase": "/th?id=OHR.AutumnCranes_ZH-CN5772055404"
+    },
     {
       "date": "2026-10-29",
       "title": "薄雾邂逅千年时光",
@@ -2712,5 +2721,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-10-28 21:37:03"
+  "updatedAt": "2026-10-29 21:33:09"
 }
