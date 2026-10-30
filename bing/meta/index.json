@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-29 21:33:09",
+  "generatedAt": "2026-10-30 21:25:21",
   "series": "bing",
   "seriesName": "Bing 每日",
-  "total": 2712,
+  "total": 2713,
   "years": [
     {
       "year": 2026,
-      "count": 302,
+      "count": 303,
       "file": "2026.json"
     },
     {
