@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 304,
+  "total": 305,
   "items": [
+    {
+      "date": "2026-11-02",
+      "title": "写在冰上的未来",
+      "copyright": "北极熊和幼崽，哈得孙湾畔，马尼托巴省，加拿大 (© Danita Delimont/Adobe Stock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%8C%97%E6%9E%81%E7%86%8A%E5%91%A8&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261101_HudsonBear%22&FORM=HPQUIZ",
+      "hsh": "c091713ae0083d7086be3f2e0dba0f90",
+      "urlbase": "/th?id=OHR.HudsonBear_ZH-CN6630706907"
+    },
     {
       "date": "2026-11-01",
       "title": "林间迷雾",
@@ -2739,5 +2748,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-10-31 20:26:17"
+  "updatedAt": "2026-11-01 21:02:15"
 }
