@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-11-02 23:49:40",
+  "generatedAt": "2026-11-03 22:25:39",
   "total": 7,
   "items": [
+    {
+      "date": "2026-11-04",
+      "title": "泛舟如画秋林",
+      "copyright": "五彩落羽杉间划船的人们，宣城，安徽省，中国 (© Jackal Pan/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%90%BD%E7%BE%BD%E6%9D%89&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261103_AutumnChina%22&FORM=HPQUIZ",
+      "hsh": "92b10e60db48e67f8af937985ce75657",
+      "urlbase": "/th?id=OHR.AutumnChina_ZH-CN7665959692"
+    },
     {
       "date": "2026-11-03",
       "title": "群峰间的宁静",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261028_AveburyStones%22&FORM=HPQUIZ",
       "hsh": "8b7f035ee445c1ba73f3300ae54a3756",
       "urlbase": "/th?id=OHR.AveburyStones_ZH-CN9127100951"
-    },
-    {
-      "date": "2026-10-28",
-      "title": "历史守望之地",
-      "copyright": "库涅季采山城堡，波希米亚，捷克 (© Marek Saroch/Alamy)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%BA%93%E6%B6%85%E5%AD%A3%E9%87%87%E5%B1%B1%E5%9F%8E%E5%A0%A1&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261027_KuneticeCastle%22&FORM=HPQUIZ",
-      "hsh": "11b5bd9380c5434da5967379a03e1961",
-      "urlbase": "/th?id=OHR.KuneticeCastle_ZH-CN8895858920"
     }
   ]
 }
