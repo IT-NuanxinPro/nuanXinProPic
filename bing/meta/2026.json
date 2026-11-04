@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 307,
+  "total": 308,
   "items": [
+    {
+      "date": "2026-11-05",
+      "title": "向山巅再迈一步",
+      "copyright": "石墙边的木制翻越梯，黑岩，湖区，英格兰 (© Alex Treadway/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%8B%B1%E6%A0%BC%E5%85%B0%E6%B9%96%E5%8C%BA&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261104_StileCrossing%22&FORM=HPQUIZ",
+      "hsh": "e764edbedb3e17b846cc1a31ea9fa5a8",
+      "urlbase": "/th?id=OHR.StileCrossing_ZH-CN9811465935"
+    },
     {
       "date": "2026-11-04",
       "title": "泛舟如画秋林",
@@ -2766,5 +2775,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-11-03 22:25:39"
+  "updatedAt": "2026-11-04 22:27:00"
 }
