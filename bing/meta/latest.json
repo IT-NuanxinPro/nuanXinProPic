@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-11-04 22:27:00",
+  "generatedAt": "2026-11-05 22:34:10",
   "total": 7,
   "items": [
+    {
+      "date": "2026-11-06",
+      "title": "穿越毛伊岛的绿色隧道",
+      "copyright": "竹林，皮皮维小径，哈莱亚卡拉国家公园，毛伊岛，夏威夷州，美国 (© MNStudio/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%93%88%E8%8E%B1%E4%BA%9A%E5%8D%A1%E6%8B%89%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261105_PipiwaiTrail%22&FORM=HPQUIZ",
+      "hsh": "83e427360a433d9f9e12ebbb4317ff61",
+      "urlbase": "/th?id=OHR.PipiwaiTrail_ZH-CN1811194311"
+    },
     {
       "date": "2026-11-05",
       "title": "向山巅再迈一步",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261030_FrankfurtHalloween%22&FORM=HPQUIZ",
       "hsh": "d50b635f82614ecfde8e234c0f6d0631",
       "urlbase": "/th?id=OHR.FrankfurtHalloween_ZH-CN5998782698"
-    },
-    {
-      "date": "2026-10-30",
-      "title": "展翅高飞的时节",
-      "copyright": "沙丘鹤，博斯克德尔阿帕奇国家野生动物保护区，新墨西哥州，美国 (© Terry St.Louis/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E6%B2%99%E4%B8%98%E9%B9%A4&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261029_AutumnCranes%22&FORM=HPQUIZ",
-      "hsh": "19f861c6ad7549bbc1fae0b28ba1d421",
-      "urlbase": "/th?id=OHR.AutumnCranes_ZH-CN5772055404"
     }
   ]
 }
