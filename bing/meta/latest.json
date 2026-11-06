@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-11-05 22:34:10",
+  "generatedAt": "2026-11-06 21:58:52",
   "total": 7,
   "items": [
+    {
+      "date": "2026-11-07",
+      "title": "归来的草原巨兽",
+      "copyright": "草原上的一头野牛，西奥多·罗斯福国家公园，北达科他州，美国 (© Tandem Stock/Adobe Stock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%BE%8E%E6%B4%B2%E9%87%8E%E7%89%9B&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261106_DakotaBison%22&FORM=HPQUIZ",
+      "hsh": "8bd1a0a85b934a78ee8c90d2a6692a2b",
+      "urlbase": "/th?id=OHR.DakotaBison_ZH-CN2302503868"
+    },
     {
       "date": "2026-11-06",
       "title": "穿越毛伊岛的绿色隧道",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261031_SchwarzwaldAutumn%22&FORM=HPQUIZ",
       "hsh": "242d9ded23355c54c0b733c1211d1586",
       "urlbase": "/th?id=OHR.SchwarzwaldAutumn_ZH-CN6323627599"
-    },
-    {
-      "date": "2026-10-31",
-      "title": "往昔帝国的幽影",
-      "copyright": "圣巴尔多禄茂教堂，法兰克福，德国 (© AlxeyPnferov/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%87%E5%9C%A3%E8%8A%82&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261030_FrankfurtHalloween%22&FORM=HPQUIZ",
-      "hsh": "d50b635f82614ecfde8e234c0f6d0631",
-      "urlbase": "/th?id=OHR.FrankfurtHalloween_ZH-CN5998782698"
     }
   ]
 }
