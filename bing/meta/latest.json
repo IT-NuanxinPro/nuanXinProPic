@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-11-06 21:58:52",
+  "generatedAt": "2026-11-07 20:41:38",
   "total": 7,
   "items": [
+    {
+      "date": "2026-11-08",
+      "title": "光芒四射的节日",
+      "copyright": "排灯节灯笼，孟买，马哈拉施特拉邦，印度 (© Dinodia Photo/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%8E%92%E7%81%AF%E8%8A%82&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261107_DiwaliLamps%22&FORM=HPQUIZ",
+      "hsh": "8603d5f4458b499767e4c196511719c7",
+      "urlbase": "/th?id=OHR.DiwaliLamps_ZH-CN2462894749"
+    },
     {
       "date": "2026-11-07",
       "title": "归来的草原巨兽",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261101_HudsonBear%22&FORM=HPQUIZ",
       "hsh": "c091713ae0083d7086be3f2e0dba0f90",
       "urlbase": "/th?id=OHR.HudsonBear_ZH-CN6630706907"
-    },
-    {
-      "date": "2026-11-01",
-      "title": "林间迷雾",
-      "copyright": "黑森林，巴登-符腾堡州，德国 (© Britus/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%BE%B7%E5%9B%BD%E9%BB%91%E6%A3%AE%E6%9E%97&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261031_SchwarzwaldAutumn%22&FORM=HPQUIZ",
-      "hsh": "242d9ded23355c54c0b733c1211d1586",
-      "urlbase": "/th?id=OHR.SchwarzwaldAutumn_ZH-CN6323627599"
     }
   ]
 }
