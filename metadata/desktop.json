@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-11-08 21:00:24",
-  "count": 891,
+  "lastUpdated": "2026-11-09 06:15:14",
+  "count": 892,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -28578,6 +28578,44 @@
         "displayTitle": "银发映雪藏一眸温柔",
         "confidence": 0.9,
         "reasoning": "画面为三维渲染的二次元少女特写，银色长发遮住一侧眼睛，双手拢住围巾，背景铺陈蓝紫散景与雪点。无明确作品或人物身份依据，归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/冬日风光-动漫风景.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "冬日风光-动漫风景.jpg",
+      "createdAt": "2026-11-09T06:12:23.160Z",
+      "cdnTag": "v1.4.96",
+      "size": 2088465,
+      "format": "jpg",
+      "resolution": {
+        "width": 2912,
+        "height": 1536,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "场景插画",
+          "雪山",
+          "滑雪场",
+          "暮霞",
+          "缆车"
+        ],
+        "description": "粉金暮霞映照连绵雪山，缆车横越松林，滑雪者沿蜿蜒雪道轻快而下。",
+        "filenameSuggestions": [
+          "粉彩暮霞下的雪山滑雪场.jpg",
+          "覆雪松林间的滑雪者与缆车.jpg"
+        ],
+        "displayTitle": "暮霞映雪群山共冬歌",
+        "confidence": 0.9,
+        "reasoning": "画面以绘画插画呈现横向雪山滑雪场，包含覆雪松林、空中缆车及多位滑雪者，主体为完整冬日环境，归入插画下的场景类。"
       }
     }
   }
