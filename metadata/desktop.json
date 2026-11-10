@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-11-10 15:10:20",
-  "count": 892,
+  "lastUpdated": "2026-11-10 12:25:20",
+  "count": 897,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -28616,6 +28616,200 @@
         "displayTitle": "暮霞映雪群山共冬歌",
         "confidence": 0.9,
         "reasoning": "画面以绘画插画呈现横向雪山滑雪场，包含覆雪松林、空中缆车及多位滑雪者，主体为完整冬日环境，归入插画下的场景类。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/和栗薰子-树叶 [3773311446]_2560x1440.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "和栗薰子-树叶 [3773311446]_2560x1440.png",
+      "createdAt": "2026-11-10T12:13:40.467Z",
+      "cdnTag": "v1.5.0",
+      "size": 6829811,
+      "format": "png",
+      "resolution": {
+        "width": 2560,
+        "height": 1440,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "黑发少女",
+          "手势取景",
+          "斑斓树冠",
+          "仰视构图"
+        ],
+        "description": "黑发少女在斑斓树冠下眨眼微笑，双手框起晴空，细碎光影洒满青春画面。",
+        "filenameSuggestions": [
+          "晴空树影下眨眼取景的少女.jpg",
+          "斑斓林间抬手比框的黑发少女.jpg"
+        ],
+        "displayTitle": "指间框住斑斓的晴光",
+        "confidence": 0.9,
+        "reasoning": "画面采用二次元绘画风格，以仰视构图呈现穿水手领上衣的黑发少女，周围有粉色、金黄与翠绿树冠。无明确作品或人物身份依据，归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/夏柠柒 [3814078588]_2560x1440.png": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "夏柠柒 [3814078588]_2560x1440.png",
+      "createdAt": "2026-11-10T12:13:40.467Z",
+      "cdnTag": "v1.5.0",
+      "size": 3724250,
+      "format": "png",
+      "resolution": {
+        "width": 2560,
+        "height": 1440,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "氛围感",
+        "subcategory": "氛围感",
+        "filenameSuggestions": [
+          "浅蓝围巾夏柠柒雪中凝望.jpg",
+          "黑衣长发少女冬日飘雪肖像.jpg"
+        ],
+        "filenames": [
+          "浅蓝围巾夏柠柒雪中凝望.jpg",
+          "黑衣长发少女冬日飘雪肖像.jpg"
+        ],
+        "displayTitle": "雪落青丝冬日浅蓝梦",
+        "keywords": [
+          "夏柠柒",
+          "冬日飘雪",
+          "浅蓝围巾",
+          "黑色长发",
+          "柔光"
+        ],
+        "description": "雪花轻落乌黑长发，浅蓝围巾裹住冬日寒意，柔白雪景映衬静谧凝望。",
+        "confidence": 0.9,
+        "reasoning": "画面以黑色长发、浅蓝围巾的少女半身肖像为主体，背景为虚化雪景，冷色柔光与飘雪突出冬日氛围，适合归入人像下的氛围感。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/女孩黑猫 [3092648120]_2560x1440.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "女孩黑猫 [3092648120]_2560x1440.png",
+      "createdAt": "2026-11-10T12:13:40.467Z",
+      "cdnTag": "v1.5.0",
+      "size": 3246342,
+      "format": "png",
+      "resolution": {
+        "width": 2560,
+        "height": 1440,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "粉黑配色",
+          "黑猫",
+          "少女",
+          "面部特写"
+        ],
+        "description": "粉黑交织的横幅画面中，长发少女与黑猫相依同框，明亮粉瞳透出神秘而温柔的气息。",
+        "filenameSuggestions": [
+          "粉黑配色少女与黑猫特写.jpg",
+          "粉瞳黑猫与长发少女同框.jpg"
+        ],
+        "displayTitle": "粉瞳映夜少女与黑猫",
+        "confidence": 0.9,
+        "reasoning": "画面为动漫风格的少女与黑猫近景，以粉黑撞色、夸张眼眸和清晰线条呈现；无明确作品身份依据，归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/插画/创意/会说话的眼睛2 [3529118677]_3840x2160.png": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "会说话的眼睛2 [3529118677]_3840x2160.png",
+      "createdAt": "2026-11-10T12:15:53.446Z",
+      "cdnTag": "v1.5.0",
+      "size": 6801129,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "幻想插画",
+          "少女特写",
+          "星光眼眸",
+          "彩色蝴蝶",
+          "梦幻光影"
+        ],
+        "description": "彩蝶掠过少女的璀璨眼眸，粉紫发丝与斑驳光影交织，宛如一场流光幻梦。",
+        "filenameSuggestions": [
+          "梦幻少女星光眼眸与彩蝶特写.jpg",
+          "斑驳光影下的紫发少女面部.jpg"
+        ],
+        "displayTitle": "万千蝶影落入星眸",
+        "confidence": 0.9,
+        "reasoning": "画面以非写实少女面部为近景主体，突出星光般的虹膜、缤纷蝴蝶与梦幻光效，无明确作品或人物身份，适合归入插画中的创意分类。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/叶瞬光 [3670060903]_3840x2160.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "叶瞬光 [3670060903]_3840x2160.png",
+      "createdAt": "2026-11-10T12:15:53.446Z",
+      "cdnTag": "v1.5.0",
+      "size": 6496111,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "银发少女",
+          "都市夜景",
+          "霓虹",
+          "沙发"
+        ],
+        "description": "银发少女倚坐深蓝沙发，窗外高楼与霓虹交织，将静谧夜色染上清冷微光。",
+        "filenameSuggestions": [
+          "霓虹夜景中银发少女倚坐沙发.jpg",
+          "落地窗前白裙少女托腮静坐.jpg"
+        ],
+        "displayTitle": "霓虹映窗银发伴夜色",
+        "confidence": 0.9,
+        "reasoning": "画面为二次元人物插画，银发少女身着白裙坐于沙发，背景保留落地窗与都市夜景；无法确认具体作品或角色，归入动漫下的二次元。"
       }
     }
   }
