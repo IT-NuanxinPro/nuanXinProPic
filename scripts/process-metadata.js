@@ -242,6 +242,10 @@ function findActualImagePath(expectedRelativePath) {
 }
 
 function reconcileMetadataImagePath(relativePath, imageData) {
+  if (relativePath.startsWith('wallpaper/video/') && imageData.storage === 'r2') {
+    return { relativePath, imageData, changed: false, missing: false }
+  }
+
   const actualRelativePath = findActualImagePath(relativePath)
   const absolutePath = path.join(imageRepoRoot, actualRelativePath)
 
@@ -499,7 +503,10 @@ function generateFrontendData(metadataMap, dataDir, newTag) {
       const topic = series === 'video' ? (data.topic || pathParts[1] || data.subcategory || '通用') : undefined
 
       let thumbnailPath, previewPath
-      if (subdir) {
+      if (series === 'video' && data.storage === 'r2') {
+        thumbnailPath = data.thumbnailPath
+        previewPath = data.previewPath
+      } else if (subdir) {
         thumbnailPath = resolveDerivedAssetPath(imageRepoRoot, series, subdir, filenameNoExt, 'thumbnail')
         previewPath = series !== 'avatar' ? resolveDerivedAssetPath(imageRepoRoot, series, subdir, filenameNoExt, 'preview') : null
       } else {

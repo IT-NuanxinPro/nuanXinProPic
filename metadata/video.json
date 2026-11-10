@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "video",
-  "lastUpdated": "2026-11-10 00:35:22",
-  "count": 49,
+  "lastUpdated": "2026-11-10 20:58:59",
+  "count": 52,
   "images": {
     "wallpaper/video/desktop/IP形象/HelloKitty_秋日秋千.mp4": {
       "category": "desktop",
@@ -1472,6 +1472,135 @@
         "confidence": 0,
         "model": "filename-inference",
         "analyzedAt": null
+      }
+    },
+    "wallpaper/video/desktop/动漫/蝶光流转_星眸少女.mp4": {
+      "category": "desktop",
+      "subcategory": "动漫",
+      "filename": "蝶光流转_星眸少女.mp4",
+      "createdAt": "2026-11-10 20:58:59",
+      "cdnTag": "v1.5.1",
+      "storage": "r2",
+      "thumbnailPath": "/thumbnail/video/desktop/动漫/蝶光流转_星眸少女.webp",
+      "previewPath": "/preview/video/desktop/动漫/蝶光流转_星眸少女.mp4",
+      "size": 178569463,
+      "format": "mp4",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "duration": 10,
+      "mediaType": "video",
+      "usage": "desktop",
+      "topic": "动漫",
+      "ai": {
+        "keywords": [
+          "动漫少女",
+          "眼睛特写",
+          "星眸",
+          "彩色蝴蝶",
+          "流光",
+          "幻彩",
+          "梦幻"
+        ],
+        "description": "浅色发丝下，一双蓝紫色眼眸映出细密星光。彩色蝴蝶与碎光在面庞前流转，光影随画面变化掠过睫毛与瞳孔，形成明亮梦幻的近景动态壁纸。",
+        "displayTitle": "蝶光流转的星眸少女",
+        "filenameSuggestions": [
+          "蝶光流转_星眸少女.mp4",
+          "幻彩蝶影_少女眼眸特写.mp4"
+        ],
+        "confidence": 0.9,
+        "model": "manual-review",
+        "analyzedAt": "2026-11-10T12:58:59.363Z",
+        "reasoning": "封面与视频中段均为少女眼睛近景，蝴蝶、星点和冷暖交错的光影是主要视觉元素；未见可确认的作品或角色标识。"
+      }
+    },
+    "wallpaper/video/desktop/国风/红绸掀纱_国风少女.mp4": {
+      "category": "desktop",
+      "subcategory": "国风",
+      "filename": "红绸掀纱_国风少女.mp4",
+      "createdAt": "2026-11-10 20:58:59",
+      "cdnTag": "v1.5.1",
+      "storage": "r2",
+      "thumbnailPath": "/thumbnail/video/desktop/国风/红绸掀纱_国风少女.webp",
+      "previewPath": "/preview/video/desktop/国风/红绸掀纱_国风少女.mp4",
+      "size": 99337132,
+      "format": "mp4",
+      "resolution": {
+        "width": 2560,
+        "height": 1440,
+        "label": "2K",
+        "type": "info"
+      },
+      "duration": 23.4,
+      "mediaType": "video",
+      "usage": "desktop",
+      "topic": "国风",
+      "ai": {
+        "keywords": [
+          "国风",
+          "红衣少女",
+          "红绸",
+          "掀纱",
+          "金色纹饰",
+          "喜庆",
+          "古风人物"
+        ],
+        "description": "身着赤红华服的黑发少女抬手掀起轻纱，衣襟上的金色纹饰与耳饰在暖光中闪现。层叠红绸随画面舒展，暗背景衬出浓烈的国风喜庆氛围。",
+        "displayTitle": "红绸掀纱映囍色",
+        "filenameSuggestions": [
+          "红绸掀纱_国风少女.mp4",
+          "赤衣金饰_红纱轻扬.mp4"
+        ],
+        "confidence": 0.9,
+        "model": "manual-review",
+        "analyzedAt": "2026-11-10T12:58:59.363Z",
+        "reasoning": "封面与视频中段呈现同一红衣人物及飘动红纱；原文件名为“囍”，画面有喜庆意象，但未见明确的婚礼场景或角色身份。"
+      }
+    },
+    "wallpaper/video/desktop/动漫/雪之下雪乃_夜海回眸.mp4": {
+      "category": "desktop",
+      "subcategory": "动漫",
+      "filename": "雪之下雪乃_夜海回眸.mp4",
+      "createdAt": "2026-11-10 20:58:59",
+      "cdnTag": "v1.5.1",
+      "storage": "r2",
+      "thumbnailPath": "/thumbnail/video/desktop/动漫/雪之下雪乃_夜海回眸.webp",
+      "previewPath": "/preview/video/desktop/动漫/雪之下雪乃_夜海回眸.mp4",
+      "size": 44825588,
+      "format": "mp4",
+      "resolution": {
+        "width": 5980,
+        "height": 3350,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "duration": 24,
+      "mediaType": "video",
+      "usage": "desktop",
+      "topic": "动漫",
+      "ai": {
+        "keywords": [
+          "雪之下雪乃",
+          "动漫人物",
+          "夜海",
+          "回眸",
+          "蓝色海面",
+          "城市灯光",
+          "静谧"
+        ],
+        "description": "深色长发的雪之下雪乃在夜色中的海边回眸，浅色露肩衣衫与明亮的蓝色水面形成对比。远岸灯光沿海平线铺开，海面反光轻轻变化，呈现安静的夏夜氛围。",
+        "displayTitle": "雪之下雪乃·夜海回眸",
+        "filenameSuggestions": [
+          "雪之下雪乃_夜海回眸.mp4",
+          "雪乃海边夜色_蓝光倒影.mp4"
+        ],
+        "confidence": 0.9,
+        "model": "manual-review",
+        "analyzedAt": "2026-11-10T12:58:59.363Z",
+        "reasoning": "角色名称沿用用户提供的源文件名；封面与视频中段可见长发少女、夜海、远岸灯光和蓝色水面，归入动漫人物主题。"
       }
     }
   }

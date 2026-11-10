@@ -68,7 +68,7 @@ jobs:
           DESKTOP_PREV=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
           MOBILE_PREV=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
           AVATAR_PREV=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
-          VIDEO_PREV=$(find wallpaper/video -type f \( -iname '*.mp4' -o -iname '*.webm' -o -iname '*.mov' -o -iname '*.m4v' \) 2>/dev/null | wc -l | tr -d ' ')
+          VIDEO_PREV=$(jq -r '.images | length' metadata/video.json)
           BING_PREV=$(if [ -f bing/meta/index.json ]; then jq -r '.total' bing/meta/index.json; else echo 0; fi)
           
           echo "desktop=$DESKTOP_PREV" >> $GITHUB_OUTPUT
@@ -282,7 +282,7 @@ jobs:
           DESKTOP_NOW=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
           MOBILE_NOW=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
           AVATAR_NOW=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
-          VIDEO_NOW=$(find wallpaper/video -type f \( -iname '*.mp4' -o -iname '*.webm' -o -iname '*.mov' -o -iname '*.m4v' \) 2>/dev/null | wc -l | tr -d ' ')
+          VIDEO_NOW=$(jq -r '.images | length' metadata/video.json)
           BING_NOW=$(if [ -f bing/meta/index.json ]; then jq -r '.total' bing/meta/index.json; else echo 0; fi)
 
           # 计算增量
@@ -491,7 +491,7 @@ jobs:
           DESKTOP_NOW=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
           MOBILE_NOW=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
           AVATAR_NOW=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
-          VIDEO_NOW=$(find wallpaper/video -type f \( -iname '*.mp4' -o -iname '*.webm' -o -iname '*.mov' -o -iname '*.m4v' \) 2>/dev/null | wc -l | tr -d ' ')
+          VIDEO_NOW=$(jq -r '.images | length' metadata/video.json)
           BING_NOW=$(if [ -f bing/meta/index.json ]; then jq -r '.total' bing/meta/index.json; else echo 0; fi)
 
           # 计算增量
