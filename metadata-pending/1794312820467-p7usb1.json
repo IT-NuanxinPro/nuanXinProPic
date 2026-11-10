@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "createdAt": "2026-11-10T12:13:40.466Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/和栗薰子-树叶 [3773311446]_2560x1440.png",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "和栗薰子-树叶 [3773311446]_2560x1440.png",
+      "createdAt": "2026-11-10T12:13:40.467Z",
+      "size": 6829811,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "黑发少女",
+          "手势取景",
+          "斑斓树冠",
+          "仰视构图"
+        ],
+        "description": "黑发少女在斑斓树冠下眨眼微笑，双手框起晴空，细碎光影洒满青春画面。",
+        "filenameSuggestions": [
+          "晴空树影下眨眼取景的少女.jpg",
+          "斑斓林间抬手比框的黑发少女.jpg"
+        ],
+        "displayTitle": "指间框住斑斓的晴光",
+        "confidence": 0.9,
+        "reasoning": "画面采用二次元绘画风格，以仰视构图呈现穿水手领上衣的黑发少女，周围有粉色、金黄与翠绿树冠。无明确作品或人物身份依据，归入动漫下的二次元。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/氛围感/夏柠柒 [3814078588]_2560x1440.png",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "夏柠柒 [3814078588]_2560x1440.png",
+      "createdAt": "2026-11-10T12:13:40.467Z",
+      "size": 3724250,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "氛围感",
+        "subcategory": "氛围感",
+        "filenameSuggestions": [
+          "浅蓝围巾夏柠柒雪中凝望.jpg",
+          "黑衣长发少女冬日飘雪肖像.jpg"
+        ],
+        "filenames": [
+          "浅蓝围巾夏柠柒雪中凝望.jpg",
+          "黑衣长发少女冬日飘雪肖像.jpg"
+        ],
+        "displayTitle": "雪落青丝冬日浅蓝梦",
+        "keywords": [
+          "夏柠柒",
+          "冬日飘雪",
+          "浅蓝围巾",
+          "黑色长发",
+          "柔光"
+        ],
+        "description": "雪花轻落乌黑长发，浅蓝围巾裹住冬日寒意，柔白雪景映衬静谧凝望。",
+        "confidence": 0.9,
+        "reasoning": "画面以黑色长发、浅蓝围巾的少女半身肖像为主体，背景为虚化雪景，冷色柔光与飘雪突出冬日氛围，适合归入人像下的氛围感。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/女孩黑猫 [3092648120]_2560x1440.png",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "女孩黑猫 [3092648120]_2560x1440.png",
+      "createdAt": "2026-11-10T12:13:40.467Z",
+      "size": 3246342,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "粉黑配色",
+          "黑猫",
+          "少女",
+          "面部特写"
+        ],
+        "description": "粉黑交织的横幅画面中，长发少女与黑猫相依同框，明亮粉瞳透出神秘而温柔的气息。",
+        "filenameSuggestions": [
+          "粉黑配色少女与黑猫特写.jpg",
+          "粉瞳黑猫与长发少女同框.jpg"
+        ],
+        "displayTitle": "粉瞳映夜少女与黑猫",
+        "confidence": 0.9,
+        "reasoning": "画面为动漫风格的少女与黑猫近景，以粉黑撞色、夸张眼眸和清晰线条呈现；无明确作品身份依据，归入动漫下的二次元。"
+      }
+    }
+  ]
+}
