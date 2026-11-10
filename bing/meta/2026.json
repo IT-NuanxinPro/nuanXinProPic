@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 312,
+  "total": 313,
   "items": [
+    {
+      "date": "2026-11-10",
+      "title": "惬意放松，尽享海岛时光",
+      "copyright": "玫瑰岛航拍图，巴哈马 (© Abstract Aerial Art/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%B7%B4%E5%93%88%E9%A9%AC%E7%8E%AB%E7%91%B0%E5%B2%9B&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261109_RoseIsland%22&FORM=HPQUIZ",
+      "hsh": "9999d3a3c7f78905711802f9717916f9",
+      "urlbase": "/th?id=OHR.RoseIsland_ZH-CN6477140814"
+    },
     {
       "date": "2026-11-09",
       "title": "艺术与韵律交汇之地",
@@ -2811,5 +2820,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-11-08 20:59:40"
+  "updatedAt": "2026-11-10 00:34:53"
 }

@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-11-08 20:59:40",
+  "generatedAt": "2026-11-10 00:34:53",
   "total": 7,
   "items": [
+    {
+      "date": "2026-11-10",
+      "title": "惬意放松，尽享海岛时光",
+      "copyright": "玫瑰岛航拍图，巴哈马 (© Abstract Aerial Art/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%B7%B4%E5%93%88%E9%A9%AC%E7%8E%AB%E7%91%B0%E5%B2%9B&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261109_RoseIsland%22&FORM=HPQUIZ",
+      "hsh": "9999d3a3c7f78905711802f9717916f9",
+      "urlbase": "/th?id=OHR.RoseIsland_ZH-CN6477140814"
+    },
     {
       "date": "2026-11-09",
       "title": "艺术与韵律交汇之地",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261103_AutumnChina%22&FORM=HPQUIZ",
       "hsh": "92b10e60db48e67f8af937985ce75657",
       "urlbase": "/th?id=OHR.AutumnChina_ZH-CN7665959692"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "群峰间的宁静",
-      "copyright": "布莱埃斯湖，法内斯-塞内斯-布莱埃斯湖自然公园，多洛米蒂山脉，意大利 (© leonid_tit/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%A4%9A%E6%B4%9B%E7%B1%B3%E8%92%82%E5%B1%B1%E8%84%89&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261102_AlpineBraies%22&FORM=HPQUIZ",
-      "hsh": "6bd5dfc358e5b75ec73225f8ebca75dd",
-      "urlbase": "/th?id=OHR.AlpineBraies_ZH-CN7307997866"
     }
   ]
 }
