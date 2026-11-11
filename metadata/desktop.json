@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-11-10 22:11:28",
-  "count": 897,
+  "lastUpdated": "2026-11-11 13:12:47",
+  "count": 921,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -28810,6 +28810,922 @@
         "displayTitle": "霓虹映窗银发伴夜色",
         "confidence": 0.9,
         "reasoning": "画面为二次元人物插画，银发少女身着白裙坐于沙发，背景保留落地窗与都市夜景；无法确认具体作品或角色，归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2026-10-03_43994.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2026-10-03_43994.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 4877763,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2560,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "氛围感",
+        "subcategory": "氛围感",
+        "filenameSuggestions": [
+          "复古红幕前托腮静坐的白鹿.jpg",
+          "身披棕色披肩倚坐的白鹿.jpg"
+        ],
+        "filenames": [
+          "复古红幕前托腮静坐的白鹿.jpg",
+          "身披棕色披肩倚坐的白鹿.jpg"
+        ],
+        "displayTitle": "红幕深处静听流年",
+        "keywords": [
+          "白鹿",
+          "红色帷幕",
+          "棕色披肩",
+          "优雅坐姿",
+          "暖调摄影"
+        ],
+        "description": "红色帷幕映衬温柔侧影，女子披着棕色披肩倚坐，暖光勾勒沉静而优雅的瞬间。",
+        "confidence": 0.9,
+        "reasoning": "画面为写实人像摄影，女子倚坐椅上，身后红色帷幕铺满横向背景；棕色披肩与柔和暖光营造复古静谧氛围，适合归入人像下的氛围感。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/2026-10-19_42855.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2026-10-19_42855.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 4737182,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "龙猫",
+          "治愈系插画",
+          "雨中森林",
+          "候车亭",
+          "荷叶伞"
+        ],
+        "description": "细雨轻落幽深森林，龙猫撑着荷叶伞与小伙伴静候亭旁，水洼映出温柔绿意。",
+        "filenameSuggestions": [
+          "雨中龙猫撑荷叶伞候车.jpg",
+          "幽静森林龙猫相伴候车.jpg"
+        ],
+        "displayTitle": "雨落幽林静候一程",
+        "confidence": 0.9,
+        "reasoning": "画面为动画插画，龙猫与两只小伙伴在森林候车亭旁撑叶避雨，主体具有明确作品特征；目录尚无龙猫分类，故归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/插画/文字/2026-10-29_35345.jpg": {
+      "category": "插画",
+      "subcategory": "文字",
+      "filename": "2026-10-29_35345.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 675505,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2560,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "文字",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "文字",
+        "keywords": [
+          "文字插画",
+          "卡通女孩",
+          "上班寄语",
+          "绿色长裙",
+          "治愈风"
+        ],
+        "description": "米色留白间写着俏皮上班寄语，四位绿裙女孩与小猫相伴，点亮日常心情。",
+        "filenameSuggestions": [
+          "米色背景绿裙女孩上班寄语.jpg",
+          "俏皮绿裙女孩与猫咪文字插画.jpg"
+        ],
+        "displayTitle": "绿裙轻摇上班也有晴天",
+        "confidence": 0.9,
+        "reasoning": "画面以“公主请开心上班”文字为视觉重点，搭配四位绿裙卡通女孩及小猫，米色背景与绿色底边构成简洁横向布局，适合归入插画下的文字分类。"
+      }
+    },
+    "wallpaper/desktop/动漫/猫和老鼠/2026-11-11_34712.jpg": {
+      "category": "动漫",
+      "subcategory": "猫和老鼠",
+      "filename": "2026-11-11_34712.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 1246362,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "猫和老鼠",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "猫和老鼠",
+        "keywords": [
+          "猫和老鼠",
+          "卡通风格",
+          "桌面分区",
+          "深蓝背景",
+          "奶酪"
+        ],
+        "description": "深蓝底色映衬白色分区，汤姆探头微笑，杰瑞站在奶酪上，添一份俏皮童趣。",
+        "filenameSuggestions": [
+          "深蓝背景猫和老鼠桌面分区.jpg",
+          "卡通猫鼠与奶酪分区壁纸.jpg"
+        ],
+        "displayTitle": "蓝色时光里的猫鼠趣事",
+        "confidence": 0.9,
+        "reasoning": "画面为卡通桌面分区壁纸，可明确识别汤姆与杰瑞，并有奶酪及白色收纳区域，故归入动漫下的猫和老鼠。"
+      }
+    },
+    "wallpaper/desktop/风景/自然/2026-10-29_44385.jpg": {
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "2026-10-29_44385.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 4272859,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "田园风光",
+          "绿色丘陵",
+          "白色小屋",
+          "暖阳",
+          "清新唯美"
+        ],
+        "description": "暖阳掠过起伏绿丘，草叶泛起金光，远处白色小屋与疏树静依蓝天。",
+        "filenameSuggestions": [
+          "金色阳光下的绿丘白色小屋.jpg",
+          "湛蓝天空下的起伏田野草浪.jpg"
+        ],
+        "displayTitle": "晴光漫过绿野与白屋",
+        "confidence": 0.9,
+        "reasoning": "横向画面以绿色丘陵、前景草丛和开阔蓝天为主体，白色小屋与树木点缀远景，自然田园景观比建筑更突出，归入风景下的自然。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-11-03_44436.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-11-03_44436.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 2451573,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "红衣舞者",
+          "暮色群山",
+          "金饰",
+          "玄幻"
+        ],
+        "description": "红绡随长发翻飞，金饰映着暮光，女子扬臂起舞，远山与巍峨剪影沉入苍蓝。",
+        "filenameSuggestions": [
+          "暮色中红衣女子扬手起舞.jpg",
+          "群山前长发舞者红绸飘扬.jpg"
+        ],
+        "displayTitle": "暮色流金映红绡起舞",
+        "confidence": 0.9,
+        "reasoning": "画面为数字绘画风格，主体是佩戴金饰的长发红衣舞者，背景包含暮色群山与幻想建筑剪影。无充分依据确认具体作品或人物，按整体古风玄幻视觉归入插画中的国风。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2026-10-30_44437.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-10-30_44437.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 5904105,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "场景插画",
+          "雨后小巷",
+          "绿荫",
+          "竹篱",
+          "水面倒影"
+        ],
+        "description": "雨后小巷积水映着绿荫与晴光，老屋依偎竹篱，满目青翠铺展出悠然静意。",
+        "filenameSuggestions": [
+          "清新绿荫小巷雨后映晴光.jpg",
+          "静谧老屋竹篱旁的积水小路.jpg"
+        ],
+        "displayTitle": "雨歇深巷绿荫映晴光",
+        "confidence": 0.9,
+        "reasoning": "画面以绘画笔触呈现横向延伸的雨后巷道，树木、老屋、竹篱与积水倒影构成主体，适合归入插画下的场景分类。"
+      }
+    },
+    "wallpaper/desktop/IP形象/线条小狗/2026-10-18_42011.jpg": {
+      "category": "IP形象",
+      "subcategory": "线条小狗",
+      "filename": "2026-10-18_42011.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 896614,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "IP形象",
+        "subcategory": "线条小狗",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "third": "线条小狗",
+        "keywords": [
+          "线条小狗",
+          "治愈系插画",
+          "绿色草坡",
+          "放风筝",
+          "极简留白"
+        ],
+        "description": "绿意铺满起伏的草坡，小狗迎风奔跑，黄色风筝轻扬，大片留白盛着悠然童趣。",
+        "filenameSuggestions": [
+          "治愈系线条小狗草坡放风筝.jpg",
+          "绿草坡上追逐嬉戏的线条小狗.jpg"
+        ],
+        "displayTitle": "草坡追风拾一缕晴光",
+        "confidence": 0.9,
+        "reasoning": "画面以简洁黑线描绘白色与浅棕色小狗，具有线条小狗的形象特征；草坡、奔跑与放风筝构成横向治愈场景，优先归入对应IP分类。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2026-11-02_44446.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-11-02_44446.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 2673569,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "场景插画",
+          "极光",
+          "星河",
+          "海面",
+          "蓝色调"
+        ],
+        "description": "星河垂落深蓝天幕，碧色极光穿行云间，海平线上的暖光在静海铺开粼粼倒影。",
+        "filenameSuggestions": [
+          "梦幻蓝色海面映照极光星河.jpg",
+          "深蓝夜空星河垂落海平线.jpg"
+        ],
+        "displayTitle": "星河垂落海天微光处",
+        "confidence": 0.9,
+        "reasoning": "画面以横向海天全景呈现星河、绿色极光与层叠云海，光影具有鲜明的数字绘画质感，适合归入插画中的场景分类。"
+      }
+    },
+    "wallpaper/desktop/动漫/蜡笔小新/2026-10-11_39655.jpg": {
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "2026-10-11_39655.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 2172356,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2560,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "小白",
+          "动漫插画",
+          "沙滩午睡",
+          "清新治愈"
+        ],
+        "description": "碧蓝海浪轻吻浅金沙滩，小新与小白并肩酣睡，贝壳与海星点缀悠闲夏日。",
+        "filenameSuggestions": [
+          "悠闲小新与小白沙滩午睡.jpg",
+          "碧海沙滩上并躺的小新与小白.jpg"
+        ],
+        "displayTitle": "海风轻抚小新与小白的梦",
+        "confidence": 0.9,
+        "reasoning": "画面为清新动漫插画，可明确识别蜡笔小新与小白；横向构图保留海浪、沙滩及贝壳海星，优先归入具体作品分类。"
+      }
+    },
+    "wallpaper/desktop/插画/卡通/2026-10-14_39539.jpg": {
+      "category": "插画",
+      "subcategory": "卡通",
+      "filename": "2026-10-14_39539.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 1766729,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "卡通",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "卡通",
+        "keywords": [
+          "卡通插画",
+          "黑猫",
+          "幽绿森林",
+          "发光蝴蝶",
+          "治愈系"
+        ],
+        "description": "幽绿林间，圆眼黑猫蜷卧柔软苔地，莹白光蝶轻舞，点亮静谧而梦幻的角落。",
+        "filenameSuggestions": [
+          "幽绿森林中凝望微光的黑猫.jpg",
+          "圆眼黑猫蜷卧苔地伴光蝶.jpg"
+        ],
+        "displayTitle": "幽林微光落入猫的梦",
+        "confidence": 0.9,
+        "reasoning": "画面以卡通绘画呈现大眼黑猫、苔地与林间发光蝶影，整体为绿色调幻想场景；无充分依据确认具体IP，归入插画下的卡通。"
+      }
+    },
+    "wallpaper/desktop/科技/抽象/2026-10-21_36345.jpg": {
+      "category": "科技",
+      "subcategory": "抽象",
+      "filename": "2026-10-21_36345.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 2936418,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "科技",
+        "subcategory": "抽象",
+        "primary": "desktop",
+        "secondary": "科技",
+        "third": "抽象",
+        "keywords": [
+          "科技抽象",
+          "粒子光效",
+          "蓝色球体",
+          "黑色背景",
+          "数字艺术"
+        ],
+        "description": "幽蓝粒子凝成巨大球形弧面，微光环绕其外，在深黑留白中流露静谧而神秘的科技美感。",
+        "filenameSuggestions": [
+          "幽蓝粒子球体映照漆黑背景.jpg",
+          "璀璨蓝色光点勾勒球形弧面.jpg"
+        ],
+        "displayTitle": "幽蓝微光织就星球之梦",
+        "confidence": 0.9,
+        "reasoning": "画面以蓝色发光粒子构成球体及外围弧环，背景大面积留黑，无明确地貌或真实星空细节，属于科技感抽象数字视觉。"
+      }
+    },
+    "wallpaper/desktop/风景/雪山/2026-10-07_44166.jpg": {
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "2026-10-07_44166.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 6214695,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "自然风光",
+          "雪山",
+          "金色秋林",
+          "牧场",
+          "奔马"
+        ],
+        "description": "皑皑雪峰映着湛蓝晴空，金色秋林环抱牧场，骏马奔过毡房与木屋前的草地。",
+        "filenameSuggestions": [
+          "金色秋林环绕雪山牧场.jpg",
+          "巍峨雪山下的奔马与毡房.jpg"
+        ],
+        "displayTitle": "雪岭映秋牧野流金",
+        "confidence": 0.9,
+        "reasoning": "横向画面以连绵雪山为背景，前景可见金黄树林、草场、毡房、木屋及奔马，雪峰主体突出，归入风景下的雪山。"
+      }
+    },
+    "wallpaper/desktop/动漫/蜡笔小新/2026-10-15_38285.jpg": {
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "2026-10-15_38285.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 3478157,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动画风格",
+          "山野草坡",
+          "金色云海",
+          "治愈系"
+        ],
+        "description": "小新在花草山坡上张开双臂，白犬与羊群相伴，远山与金色流云铺展成温柔天地。",
+        "filenameSuggestions": [
+          "暖阳下小新张臂坐在山坡.jpg",
+          "金色云海下小新与白犬羊群.jpg"
+        ],
+        "displayTitle": "小新拥抱云海与山风",
+        "confidence": 0.9,
+        "reasoning": "画面为动画插画风格，可辨识蜡笔小新形象，主体坐于草坡并张开双臂，周围有白犬、羊群、花草与远山云海，优先归入已有作品分类。"
+      }
+    },
+    "wallpaper/desktop/影视/海绵宝宝/2026-10-08_40175.jpg": {
+      "category": "影视",
+      "subcategory": "海绵宝宝",
+      "filename": "2026-10-08_40175.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 1667998,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "影视",
+        "subcategory": "海绵宝宝",
+        "primary": "desktop",
+        "secondary": "影视",
+        "third": "海绵宝宝",
+        "keywords": [
+          "海绵宝宝",
+          "卡通",
+          "趣味文字",
+          "伙伴合影",
+          "浅色背景"
+        ],
+        "description": "浅粉背景上，比奇堡伙伴并排露出笑容，搭配醒目的打工文字，诙谐又轻松。",
+        "filenameSuggestions": [
+          "可爱海绵宝宝伙伴并排微笑.jpg",
+          "浅色背景下的比奇堡伙伴合影.jpg"
+        ],
+        "displayTitle": "比奇堡伙伴的打工日常",
+        "confidence": 0.9,
+        "reasoning": "画面可见海绵宝宝、章鱼哥、派大星和珊迪，上方配有“不干活就没饭吃”文字，明确对应影视下的海绵宝宝分类。"
+      }
+    },
+    "wallpaper/desktop/影视/海绵宝宝/2026-10-10_43543.jpg": {
+      "category": "影视",
+      "subcategory": "海绵宝宝",
+      "filename": "2026-10-10_43543.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 2882336,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "影视",
+        "subcategory": "海绵宝宝",
+        "primary": "desktop",
+        "secondary": "影视",
+        "third": "海绵宝宝",
+        "keywords": [
+          "海绵宝宝",
+          "派大星",
+          "蟹堡王",
+          "卡通风格",
+          "广角合影"
+        ],
+        "description": "派大星伸手凑近镜头，与海绵宝宝、章鱼哥和蟹老板同框，定格餐厅里的欢乐瞬间。",
+        "filenameSuggestions": [
+          "欢乐派大星与伙伴餐厅合影.jpg",
+          "卡通海绵宝宝与伙伴齐聚餐厅.jpg"
+        ],
+        "displayTitle": "蟹堡王里定格欢乐时光",
+        "confidence": 0.9,
+        "reasoning": "画面明确呈现派大星、海绵宝宝、章鱼哥及蟹老板，背景为蟹堡王餐厅，采用夸张广角合影构图，归入影视下的海绵宝宝。"
+      }
+    },
+    "wallpaper/desktop/影视/海绵宝宝/2026-10-12_43529.jpg": {
+      "category": "影视",
+      "subcategory": "海绵宝宝",
+      "filename": "2026-10-12_43529.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 4570897,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "影视",
+        "subcategory": "海绵宝宝",
+        "primary": "desktop",
+        "secondary": "影视",
+        "third": "海绵宝宝",
+        "keywords": [
+          "海绵宝宝",
+          "卡通动画",
+          "派大星",
+          "海底餐厅",
+          "收银台"
+        ],
+        "description": "海底餐厅里，派大星与众多顾客聚在收银台前，鲜明色彩勾勒出喧闹诙谐的瞬间。",
+        "filenameSuggestions": [
+          "热闹海底餐厅里的派大星与顾客.jpg",
+          "卡通海底餐厅收银台前的人群.jpg"
+        ],
+        "displayTitle": "海底餐厅的喧闹时刻",
+        "confidence": 0.9,
+        "reasoning": "画面可明确辨认派大星及《海绵宝宝》的海底居民，横向构图呈现餐厅内部、收银台与聚集的顾客，应优先归入已有的影视作品分类。"
+      }
+    },
+    "wallpaper/desktop/游戏/崩坏/2026-10-28_38096.jpg": {
+      "category": "游戏",
+      "subcategory": "崩坏",
+      "filename": "2026-10-28_38096.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 2846954,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "游戏",
+        "subcategory": "崩坏",
+        "primary": "desktop",
+        "secondary": "游戏",
+        "third": "崩坏",
+        "keywords": [
+          "崩坏",
+          "二次元插画",
+          "银发少女",
+          "拼贴背景",
+          "几何光影"
+        ],
+        "description": "银发少女轻竖指尖，蓝衣映衬明眸，斜落光影将身后的报刊拼贴墙分割成明暗两境。",
+        "filenameSuggestions": [
+          "银发蓝眸少女倚立拼贴墙前.jpg",
+          "蓝衣双辫少女逆光轻作嘘声.jpg"
+        ],
+        "displayTitle": "银发轻垂于光影之间",
+        "confidence": 0.9,
+        "reasoning": "画面为二次元角色插画，银发双辫、蓝眸及上衣可见的作品相关字样指向《崩坏》角色形象；横向构图保留大面积报刊拼贴背景与斜向光影，优先归入游戏下的崩坏分类。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-10-04_44174.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-10-04_44174.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 4389387,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "古装少女",
+          "白色花枝",
+          "粉色飘带",
+          "柔美逆光"
+        ],
+        "description": "白花掩映着少女清丽的面容，粉纱随风轻扬，暖光勾勒出温柔如梦的古典意境。",
+        "filenameSuggestions": [
+          "柔美国风少女白花间轻抚耳饰.jpg",
+          "暖光中古装少女与飘逸粉纱.jpg"
+        ],
+        "displayTitle": "花间绮梦映桃色流光",
+        "confidence": 0.9,
+        "reasoning": "画面为精细数字绘制的古装少女，发髻金饰、粉色衣裙与花枝飘纱共同营造国风意境；无明确作品或人物身份依据，归入插画下的国风。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2026-11-01_44442.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-11-01_44442.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 7176782,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "场景插画",
+          "青山绿谷",
+          "奔跑少女",
+          "蓝天白云",
+          "治愈系"
+        ],
+        "description": "少女张开双臂奔向青翠山谷，蜿蜒河流伸向远山，盛夏的风掠过明亮草坡。",
+        "filenameSuggestions": [
+          "明媚群山间短发少女奔跑.jpg",
+          "蓝天白云下少女奔向山谷.jpg"
+        ],
+        "displayTitle": "迎风奔向青山与云海",
+        "confidence": 0.9,
+        "reasoning": "画面为绘画插画，横向铺展群山、草坡、森林与蜿蜒河流，奔跑人物点缀其中；无明确作品身份，环境场景占主导，归入插画下的场景。"
+      }
+    },
+    "wallpaper/desktop/风景/海滨/2026-10-22_31892.jpg": {
+      "category": "风景",
+      "subcategory": "海滨",
+      "filename": "2026-10-22_31892.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 4130420,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "海滨",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "海滨",
+        "keywords": [
+          "航拍摄影",
+          "海滨",
+          "白色沙洲",
+          "碧蓝海水",
+          "舟艇"
+        ],
+        "description": "银白沙洲斜贯碧海，舟艇散泊浅水之间，层叠蓝绿铺展出明净悠然的海上风光。",
+        "filenameSuggestions": [
+          "碧蓝浅海环绕的狭长沙洲.jpg",
+          "澄澈海水中舟艇停泊沙洲.jpg"
+        ],
+        "displayTitle": "一脉银沙浮于碧海之间",
+        "confidence": 0.9,
+        "reasoning": "画面为写实航拍，横向呈现狭长白色沙洲、蓝绿渐变海水及沿岸停泊的舟艇，主体属于海滨风景。"
+      }
+    },
+    "wallpaper/desktop/人像/国风/2026-10-05_44167.jpg": {
+      "category": "人像",
+      "subcategory": "国风",
+      "filename": "2026-10-05_44167.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 4782573,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "国风",
+        "keywords": [
+          "国风人像",
+          "古装女子",
+          "轻纱",
+          "花海",
+          "数字绘画"
+        ],
+        "description": "花枝与轻纱交织成温柔春景，古装女子抬指点颊，一眼含笑映着晴空。",
+        "filenameSuggestions": [
+          "唯美国风女子花间眨眼.jpg",
+          "轻纱古装女子抬手点颊.jpg"
+        ],
+        "displayTitle": "花间轻纱映一眸春色",
+        "confidence": 0.9,
+        "reasoning": "画面为精致数字绘画质感，主体女子身着传统风格衣裙、挽发佩饰，周围花枝与飘动轻纱形成横向构图。无明确作品或人物身份依据，归入人像下的国风。"
+      }
+    },
+    "wallpaper/desktop/动漫/新世纪福音战士/2026-10-13_39483.jpg": {
+      "category": "动漫",
+      "subcategory": "新世纪福音战士",
+      "filename": "2026-10-13_39483.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 5057562,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "新世纪福音战士",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "新世纪福音战士",
+        "keywords": [
+          "新世纪福音战士",
+          "明日香",
+          "线稿",
+          "留白",
+          "动漫同人"
+        ],
+        "description": "赤红线条勾勒少女长发与俏皮眨眼，一抹蓝眸点亮右侧肖像，左侧留白清透舒展。",
+        "filenameSuggestions": [
+          "赤发蓝眸明日香眨眼线稿.jpg",
+          "白底红线明日香托腮近像.jpg"
+        ],
+        "displayTitle": "赤色发间藏一抹晴蓝",
+        "confidence": 0.9,
+        "reasoning": "红色长发、蓝色眼眸及标志性红色发饰指向明日香，采用疏密交错的线稿表现，人物居右、左侧大幅留白，归入新世纪福音战士。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2026-10-06_44169.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-10-06_44169.jpg",
+      "createdAt": "2026-11-11T13:06:34.113Z",
+      "cdnTag": "v1.5.3",
+      "size": 6353839,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "风景插画",
+          "秋日山林",
+          "金黄树叶",
+          "蓝天白云",
+          "针叶林"
+        ],
+        "description": "金黄与橙红漫染山坡，苍翠针叶林错落其间，蓝天白云映衬明亮秋色。",
+        "filenameSuggestions": [
+          "金黄秋日山林与蓝天白云.jpg",
+          "斑斓秋叶与苍翠针叶林交映.jpg"
+        ],
+        "displayTitle": "晴空之下秋林染金",
+        "confidence": 0.9,
+        "reasoning": "画面以绘画笔触呈现横向铺展的秋日山林，金橙树冠与深绿针叶树交错，属于自然场景插画，归入插画下的场景。"
       }
     }
   }
