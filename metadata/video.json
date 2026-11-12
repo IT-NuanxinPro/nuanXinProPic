@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "video",
-  "lastUpdated": "2026-11-12 17:33:27",
-  "count": 61,
+  "lastUpdated": "2026-11-12T14:21:10.014Z",
+  "count": 66,
   "images": {
     "wallpaper/video/desktop/IP形象/HelloKitty_秋日秋千.mp4": {
       "category": "desktop",
@@ -1944,6 +1944,220 @@
         "model": "manual-review",
         "analyzedAt": "2026-11-12T09:33:27.934Z"
       }
+    },
+    "wallpaper/video/desktop/国风/黑发银饰少女冷光回眸-b1a4b9d1.mp4": {
+      "id": "video-b1a4b9d1-f66e-4067-8f96-f7f0b8c362d0",
+      "jobId": "b1a4b9d1-f66e-4067-8f96-f7f0b8c362d0",
+      "category": "desktop",
+      "subcategory": "国风",
+      "usage": "desktop",
+      "topic": "国风",
+      "filename": "黑发银饰少女冷光回眸-b1a4b9d1.mp4",
+      "createdAt": "2026-11-12T13:52:17.119Z",
+      "size": 1240503,
+      "format": "mp4",
+      "mediaType": "video",
+      "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "超清",
+        "type": "primary"
+      },
+      "duration": 5.1,
+      "codec": "h264",
+      "ai": {
+        "frameId": "frame-2",
+        "model": "sub2api-gpt-6.1-sol",
+        "confidence": 0.9,
+        "analyzedAt": "2026-11-12T14:17:36.033Z",
+        "keywords": [
+          "三维国风",
+          "古风少女",
+          "黑发",
+          "银饰",
+          "蓝色光斑",
+          "回眸"
+        ],
+        "description": "黑发少女佩着精巧银饰，在幽蓝浮光间回眸，白衣与清冷目光交织出梦幻意境。",
+        "displayTitle": "冷光回眸·黑发银饰少女"
+      },
+      "sha256": "03dd24aa85223c6602f0bccb03a4e3345ba00c89ffef66ccca86d457607e16b5",
+      "storage": "r2",
+      "previewPath": "/preview/video/desktop/国风/%E9%BB%91%E5%8F%91%E9%93%B6%E9%A5%B0%E5%B0%91%E5%A5%B3%E5%86%B7%E5%85%89%E5%9B%9E%E7%9C%B8-b1a4b9d1.mp4",
+      "thumbnailPath": "/thumbnail/video/desktop/国风/%E9%BB%91%E5%8F%91%E9%93%B6%E9%A5%B0%E5%B0%91%E5%A5%B3%E5%86%B7%E5%85%89%E5%9B%9E%E7%9C%B8-b1a4b9d1.webp",
+      "publicationId": "60be517b-dc48-4313-99ba-38e487a586e9",
+      "publicationJobCount": 5
+    },
+    "wallpaper/video/desktop/国风/银灰长发少女竹影浮光-820f37ee.mp4": {
+      "id": "video-820f37ee-012c-4aa1-89c3-4e5461e063fb",
+      "jobId": "820f37ee-012c-4aa1-89c3-4e5461e063fb",
+      "category": "desktop",
+      "subcategory": "国风",
+      "usage": "desktop",
+      "topic": "国风",
+      "filename": "银灰长发少女竹影浮光-820f37ee.mp4",
+      "createdAt": "2026-11-12T13:52:11.217Z",
+      "size": 5184268,
+      "format": "mp4",
+      "mediaType": "video",
+      "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "超清",
+        "type": "primary"
+      },
+      "duration": 5.1,
+      "codec": "h264",
+      "ai": {
+        "frameId": "frame-2",
+        "model": "sub2api-gpt-6.1-sol",
+        "confidence": 0.9,
+        "analyzedAt": "2026-11-12T14:17:36.162Z",
+        "keywords": [
+          "三维国风",
+          "古风少女",
+          "银灰长发",
+          "竹林",
+          "光点",
+          "冷色光影"
+        ],
+        "description": "银灰长发少女置身幽深竹影，细碎光点掠过发丝与银饰，冷白微光勾勒侧脸。",
+        "displayTitle": "竹影浮光中的古风少女"
+      },
+      "sha256": "5af6a4601f2b788f47004257ee11e85442256eca6136fbde7e321dce6678d9df",
+      "storage": "r2",
+      "previewPath": "/preview/video/desktop/国风/%E9%93%B6%E7%81%B0%E9%95%BF%E5%8F%91%E5%B0%91%E5%A5%B3%E7%AB%B9%E5%BD%B1%E6%B5%AE%E5%85%89-820f37ee.mp4",
+      "thumbnailPath": "/thumbnail/video/desktop/国风/%E9%93%B6%E7%81%B0%E9%95%BF%E5%8F%91%E5%B0%91%E5%A5%B3%E7%AB%B9%E5%BD%B1%E6%B5%AE%E5%85%89-820f37ee.webp",
+      "publicationId": "60be517b-dc48-4313-99ba-38e487a586e9",
+      "publicationJobCount": 5
+    },
+    "wallpaper/video/desktop/国风/银饰白衣少女林间侧颜-eb011dde.mp4": {
+      "id": "video-eb011dde-0b78-4cca-a9b6-37d54adf1a56",
+      "jobId": "eb011dde-0b78-4cca-a9b6-37d54adf1a56",
+      "category": "desktop",
+      "subcategory": "国风",
+      "usage": "desktop",
+      "topic": "国风",
+      "filename": "银饰白衣少女林间侧颜-eb011dde.mp4",
+      "createdAt": "2026-11-12T13:52:10.560Z",
+      "size": 6255627,
+      "format": "mp4",
+      "mediaType": "video",
+      "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "超清",
+        "type": "primary"
+      },
+      "duration": 5.1,
+      "codec": "h264",
+      "ai": {
+        "frameId": "frame-1",
+        "model": "sub2api-gpt-6.1-sol",
+        "confidence": 0.9,
+        "analyzedAt": "2026-11-12T14:17:27.856Z",
+        "keywords": [
+          "三维国风",
+          "古装少女",
+          "银色发饰",
+          "白衣",
+          "林间光影",
+          "侧颜"
+        ],
+        "description": "银饰点缀深色长发，白衣少女侧望幽林，冷色微光与轻扬发丝营造清幽氛围。",
+        "displayTitle": "银饰白衣少女·幽林侧颜"
+      },
+      "sha256": "52f75c4c33acfd8561980f707fb8ee023f7a4f5412f1c435d38d2ce09363e07f",
+      "storage": "r2",
+      "previewPath": "/preview/video/desktop/国风/%E9%93%B6%E9%A5%B0%E7%99%BD%E8%A1%A3%E5%B0%91%E5%A5%B3%E6%9E%97%E9%97%B4%E4%BE%A7%E9%A2%9C-eb011dde.mp4",
+      "thumbnailPath": "/thumbnail/video/desktop/国风/%E9%93%B6%E9%A5%B0%E7%99%BD%E8%A1%A3%E5%B0%91%E5%A5%B3%E6%9E%97%E9%97%B4%E4%BE%A7%E9%A2%9C-eb011dde.webp",
+      "publicationId": "60be517b-dc48-4313-99ba-38e487a586e9",
+      "publicationJobCount": 5
+    },
+    "wallpaper/video/desktop/国风/紫发花饰少女星光凝望-37299518.mp4": {
+      "id": "video-37299518-339d-4467-8bab-11386d3c3646",
+      "jobId": "37299518-339d-4467-8bab-11386d3c3646",
+      "category": "desktop",
+      "subcategory": "国风",
+      "usage": "desktop",
+      "topic": "国风",
+      "filename": "紫发花饰少女星光凝望-37299518.mp4",
+      "createdAt": "2026-11-12T13:51:50.643Z",
+      "size": 21096604,
+      "format": "mp4",
+      "mediaType": "video",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "duration": 11.433333,
+      "codec": "h264",
+      "ai": {
+        "frameId": "frame-5",
+        "model": "sub2api-gpt-6.1-sol",
+        "confidence": 0.9,
+        "analyzedAt": "2026-11-12T14:15:42.491Z",
+        "keywords": [
+          "三维国风",
+          "仙侠少女",
+          "紫色长发",
+          "蓝紫光影",
+          "花饰",
+          "人物特写"
+        ],
+        "description": "紫色长发少女佩着花饰与垂坠耳环，在蓝紫微光和飘浮光点间静静凝望。",
+        "displayTitle": "紫发少女·星辉凝望"
+      },
+      "sha256": "6a1cdad4bd9d9a93c9c64777b285c8b0f521bd5a51c7873fb38d0a008d01e3d7",
+      "storage": "r2",
+      "previewPath": "/preview/video/desktop/国风/%E7%B4%AB%E5%8F%91%E8%8A%B1%E9%A5%B0%E5%B0%91%E5%A5%B3%E6%98%9F%E5%85%89%E5%87%9D%E6%9C%9B-37299518.mp4",
+      "thumbnailPath": "/thumbnail/video/desktop/国风/%E7%B4%AB%E5%8F%91%E8%8A%B1%E9%A5%B0%E5%B0%91%E5%A5%B3%E6%98%9F%E5%85%89%E5%87%9D%E6%9C%9B-37299518.webp",
+      "publicationId": "60be517b-dc48-4313-99ba-38e487a586e9",
+      "publicationJobCount": 5
+    },
+    "wallpaper/video/desktop/动漫/金黄皮卡丘持刀挥出烈焰-92e85fc2.mp4": {
+      "id": "video-92e85fc2-a67f-4ba3-8280-9f56b6f7038d",
+      "jobId": "92e85fc2-a67f-4ba3-8280-9f56b6f7038d",
+      "category": "desktop",
+      "subcategory": "动漫",
+      "usage": "desktop",
+      "topic": "动漫",
+      "filename": "金黄皮卡丘持刀挥出烈焰-92e85fc2.mp4",
+      "createdAt": "2026-11-12T13:51:50.535Z",
+      "size": 13654428,
+      "format": "mp4",
+      "mediaType": "video",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "duration": 11.516667,
+      "codec": "h264",
+      "ai": {
+        "frameId": "frame-4",
+        "model": "sub2api-gpt-6.1-sol",
+        "confidence": 0.9,
+        "analyzedAt": "2026-11-12T14:09:42.978Z",
+        "keywords": [
+          "皮卡丘",
+          "神奇宝贝",
+          "同人插画",
+          "烈焰长刀",
+          "暗色背景"
+        ],
+        "description": "皮卡丘执刀立于暗夜，炽烈金光横贯画面，飞散火星映亮灵动双眸。",
+        "displayTitle": "雷光燃刃照亮暗夜"
+      },
+      "sha256": "cdf967fb2c2ab0e59a882f8e02776f235c08be6bcf2fd001ccbf30248d1be868",
+      "storage": "r2",
+      "previewPath": "/preview/video/desktop/动漫/%E9%87%91%E9%BB%84%E7%9A%AE%E5%8D%A1%E4%B8%98%E6%8C%81%E5%88%80%E6%8C%A5%E5%87%BA%E7%83%88%E7%84%B0-92e85fc2.mp4",
+      "thumbnailPath": "/thumbnail/video/desktop/动漫/%E9%87%91%E9%BB%84%E7%9A%AE%E5%8D%A1%E4%B8%98%E6%8C%81%E5%88%80%E6%8C%A5%E5%87%BA%E7%83%88%E7%84%B0-92e85fc2.webp",
+      "publicationId": "60be517b-dc48-4313-99ba-38e487a586e9",
+      "publicationJobCount": 5
     }
   }
 }
