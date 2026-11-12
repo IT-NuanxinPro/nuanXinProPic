@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-12 17:33:27",
-  "cdnTag": "v1.5.7",
+  "lastUpdated": "2026-11-12 12:45:38",
+  "cdnTag": "v1.5.8",
   "series": {
     "desktop": {
-      "count": 955,
+      "count": 963,
       "categories": [
         "插画",
         "动漫",
@@ -56,12 +56,22 @@
     }
   },
   "total": {
-    "desktop": 980,
+    "desktop": 993,
     "mobile": 943,
     "avatar": 658,
     "video": 61
   },
   "releases": [
+    {
+      "tag": "v1.5.8",
+      "date": "2026-11-12",
+      "added": {
+        "desktop": 13,
+        "mobile": 8,
+        "avatar": 0
+      },
+      "publisher": "IT-NuanxinPro"
+    },
     {
       "tag": "v1.5.7",
       "date": "2026-11-12",
