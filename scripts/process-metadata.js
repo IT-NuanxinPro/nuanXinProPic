@@ -43,6 +43,7 @@ const CHAR_MAP_ENCODE = {
 
 const VERSION_PREFIX = 'v1.'
 const LATEST_SLICE_SIZE = 40
+const STATIC_SERIES = ['desktop', 'mobile', 'avatar']
 
 function compareWallpapers(a, b) {
   const dateDiff = new Date(b.createdAt || 0) - new Date(a.createdAt || 0)
@@ -328,6 +329,13 @@ function processPendingFile(pendingFile, metadataMap, newTag) {
   const content = fs.readFileSync(pendingFile, 'utf-8')
   const pending = JSON.parse(content)
 
+  // 整个文件先校验，防止混合系列被部分消费后清理。
+  const unknownSeries = [...new Set((pending.images || []).map(image => image.series))]
+    .filter(series => !STATIC_SERIES.includes(series))
+  if (unknownSeries.length > 0) {
+    throw new Error(`静态链不处理 series: ${unknownSeries.join(', ')}；pending 文件已保留`)
+  }
+
   let processed = 0
 
   for (const image of pending.images || []) {
@@ -466,6 +474,8 @@ function generateFrontendData(metadataMap, dataDir, newTag) {
   }
 
   for (const [series, metadata] of Object.entries(metadataMap)) {
+    // 视频由独立发布链管理，不允许本地扫描重建。
+    if (!STATIC_SERIES.includes(series)) continue
     // 确保系列目录存在
     const seriesDir = path.join(dataDir, series)
     if (!fs.existsSync(seriesDir)) {
@@ -691,21 +701,21 @@ function generateFrontendData(metadataMap, dataDir, newTag) {
       existingStats = JSON.parse(fs.readFileSync(statsPath, 'utf-8'))
       console.log(`  读取现有 stats.json (${existingStats.releases?.length || 0} 条发布记录)`)
     } catch (e) {
-      console.warn(`  警告: 无法解析现有 stats.json，将创建新文件`)
+      throw new Error(`无法解析现有 stats.json，停止生成以保留其他系列: ${e.message}`)
     }
   }
 
-  // 合并数据：保留 releases，更新 total 和 series
+  // 仅合并本脚本负责的系列，保留视频、Bing 和扩展字段。
   const mergedStats = {
+    ...existingStats,
     ...stats,
-    total: {
-      desktop: stats.series.desktop?.count || 0,
-      mobile: stats.series.mobile?.count || 0,
-      avatar: stats.series.avatar?.count || 0,
-      video: stats.series.video?.count || 0,
-      bing: existingStats.total?.bing || 0  // bing 不在此脚本处理，保留原值
-    },
+    series: { ...existingStats.series },
+    total: { ...existingStats.total },
     releases: existingStats.releases || []
+  }
+  for (const [series, value] of Object.entries(stats.series)) {
+    mergedStats.series[series] = { ...existingStats.series?.[series], ...value }
+    mergedStats.total[series] = value.count
   }
 
   fs.writeFileSync(statsPath, JSON.stringify(mergedStats, null, 2))
@@ -756,11 +766,11 @@ async function main() {
   const metadataMap = {
     desktop: loadMetadata(path.join(metadataDir, 'desktop.json')),
     mobile: loadMetadata(path.join(metadataDir, 'mobile.json')),
-    avatar: loadMetadata(path.join(metadataDir, 'avatar.json')),
-    video: loadMetadata(path.join(metadataDir, 'video.json'))
+    avatar: loadMetadata(path.join(metadataDir, 'avatar.json'))
   }
 
   let totalProcessed = 0
+  const processedFiles = []
 
   // ========================================
   // 步骤 1: 处理 metadata-pending 文件（优先处理 AI 数据）
@@ -782,8 +792,6 @@ async function main() {
     } else {
       console.log(`  发现 ${pendingFiles.length} 个 pending 文件`)
 
-      const processedFiles = []
-
       for (const pendingFile of pendingFiles) {
         console.log()
         console.log(`  处理: ${path.basename(pendingFile)}`)
@@ -792,17 +800,10 @@ async function main() {
           totalProcessed += count
           processedFiles.push(pendingFile)
         } catch (e) {
-          console.error(`    错误: ${e.message}`)
+          throw new Error(`${path.basename(pendingFile)}: ${e.message}`)
         }
       }
 
-      // 删除已处理的 pending 文件
-      console.log()
-      console.log('  清理 pending 文件...')
-      for (const file of processedFiles) {
-        fs.unlinkSync(file)
-        console.log(`    删除 ${path.basename(file)}`)
-      }
     }
   }
 
@@ -820,8 +821,8 @@ async function main() {
   console.log(`共处理 ${totalProcessed} 个资源`)
 
   // 保存更新后的 metadata 并生成前端数据
-  // 条件：有新增图片 OR 强制重新生成
-  if (totalProcessed > 0 || forceRegenerate) {
+  // 有 pending 时也重新持久化，覆盖上次部分保存后重试的情况。
+  if (totalProcessed > 0 || forceRegenerate || processedFiles.length > 0) {
     if (forceRegenerate && totalProcessed === 0) {
       console.log()
       console.log('强制重新生成前端数据（metadata 可能已更新）...')
@@ -843,6 +844,16 @@ async function main() {
 
   // 输出处理数量
   fs.writeFileSync('/tmp/metadata_processed.txt', String(totalProcessed))
+
+  // 所有生成和持久化成功后再清理；失败时保留 pending 以便恢复。
+  if (processedFiles.length > 0) {
+    console.log()
+    console.log('  清理 pending 文件...')
+    for (const file of processedFiles) {
+      fs.unlinkSync(file)
+      console.log(`    删除 ${path.basename(file)}`)
+    }
+  }
 
   console.log()
   console.log('========================================')

@@ -52,9 +52,6 @@ jobs:
         with:
           node-version: '20'
 
-      # ========================================
-      # 1. 同步壁纸资源（desktop/mobile/avatar/video）
-      # ========================================
       - name: Install ImageMagick and Chinese fonts
         if: ${{ github.event.inputs.sync_wallpaper != 'false' }}
         run: |
@@ -68,16 +65,13 @@ jobs:
           DESKTOP_PREV=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
           MOBILE_PREV=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
           AVATAR_PREV=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
-          VIDEO_PREV=$(jq -r '.images | length' metadata/video.json)
           BING_PREV=$(if [ -f bing/meta/index.json ]; then jq -r '.total' bing/meta/index.json; else echo 0; fi)
-          
+
           echo "desktop=$DESKTOP_PREV" >> $GITHUB_OUTPUT
           echo "mobile=$MOBILE_PREV" >> $GITHUB_OUTPUT
           echo "avatar=$AVATAR_PREV" >> $GITHUB_OUTPUT
-          echo "video=$VIDEO_PREV" >> $GITHUB_OUTPUT
           echo "bing=$BING_PREV" >> $GITHUB_OUTPUT
-          
-          echo "📊 Previous counts: Desktop=$DESKTOP_PREV, Mobile=$MOBILE_PREV, Avatar=$AVATAR_PREV, Video=$VIDEO_PREV, Bing=$BING_PREV"
+
 
       - name: Sync wallpapers from Gitee
         id: sync_gitee
@@ -88,7 +82,7 @@ jobs:
           echo "📥 Syncing wallpapers from Gitee..."
           chmod +x ./scripts/sync-wallpaper.sh
           ./scripts/sync-wallpaper.sh || echo "⚠️ Gitee sync completed with warnings"
-          
+
           # 记录更新的系列
           UPDATED_SERIES=""
           if [ -n "$(git status --porcelain wallpaper/desktop)" ]; then
@@ -100,14 +94,8 @@ jobs:
           if [ -n "$(git status --porcelain wallpaper/avatar)" ]; then
             UPDATED_SERIES="$UPDATED_SERIES avatar"
           fi
-          if [ -n "$(git status --porcelain wallpaper/video)" ]; then
-            UPDATED_SERIES="$UPDATED_SERIES video"
-          fi
           echo "updated_series=$UPDATED_SERIES" >> $GITHUB_OUTPUT
 
-      # ========================================
-      # 2. 同步 Bing 每日壁纸
-      # ========================================
       - name: Sync Bing daily wallpaper
         id: sync_bing
         if: ${{ github.event.inputs.sync_bing != 'false' }}
@@ -115,7 +103,7 @@ jobs:
           echo "📥 Syncing Bing daily wallpaper..."
           DAYS="${{ github.event.inputs.bing_days || '1' }}"
           node ./scripts/sync-bing.mjs "$DAYS"
-          
+
           # 检查 Bing 是否有更新
           if [ -n "$(git status --porcelain bing/)" ]; then
             echo "bing_updated=true" >> $GITHUB_OUTPUT
@@ -123,14 +111,11 @@ jobs:
             echo "bing_updated=false" >> $GITHUB_OUTPUT
           fi
 
-      # ========================================
-      # 3. 检查变化并提交
-      # ========================================
       - name: Check for changes
         id: check
         run: |
-          # 只检查图片相关目录的变更，忽略脚本、文档等修改
-          IMAGE_CHANGES=$(git status --porcelain wallpaper/ thumbnail/ preview/ bing/ timestamps-backup-all.txt 2>/dev/null || echo "")
+          # 仅检查静态链负责的目录，视频对象与数据由独立发布链管理
+          IMAGE_CHANGES=$(git status --porcelain wallpaper/desktop/ wallpaper/mobile/ wallpaper/avatar/ thumbnail/desktop/ thumbnail/mobile/ thumbnail/avatar/ preview/desktop/ preview/mobile/ bing/ timestamps-backup-all.txt 2>/dev/null || echo "")
 
           if [ -n "$IMAGE_CHANGES" ]; then
             echo "has_changes=true" >> $GITHUB_OUTPUT
@@ -170,10 +155,10 @@ jobs:
         run: |
           echo "📝 Updating timestamps file with new tag..."
           NEW_TAG="${{ steps.version.outputs.new_tag }}"
-          
+
           chmod +x ./scripts/update-timestamps.sh
           ./scripts/update-timestamps.sh . "$NEW_TAG"
-          
+
           echo "✅ Timestamps file updated"
 
       - name: Commit and push
@@ -182,23 +167,117 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          # 添加所有变化的目录（只添加存在的目录）
-          for dir in wallpaper thumbnail preview bing; do
+          # 仅暂存静态资源，视频由独立发布链提交
+          for dir in wallpaper/desktop wallpaper/mobile wallpaper/avatar thumbnail/desktop thumbnail/mobile thumbnail/avatar preview/desktop preview/mobile bing; do
             if [ -d "$dir" ]; then
-              git add "$dir/" || true
+              git add "$dir/"
             fi
           done
-          
+
           # 添加 timestamps 文件
-          git add timestamps-backup-all.txt || true
+          git add timestamps-backup-all.txt
 
           TODAY=$(TZ='Asia/Shanghai' date +'%Y-%m-%d')
           git commit -m "chore: daily sync [$TODAY]"
           git push
 
-      # ========================================
-      # 4. 上传到 Cloudflare R2
-      # ========================================
+      - name: Process metadata from timestamps
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          echo "📊 Processing metadata from timestamps..."
+
+          # 获取新 tag
+          NEW_TAG="${{ steps.version.outputs.new_tag }}"
+
+          # 处理 metadata（会从 timestamps-backup-all.txt 同步缺失的资源）
+          node ./scripts/process-metadata.js . "$NEW_TAG" --force
+
+          echo "✅ Metadata processed"
+
+      - name: Commit metadata and data updates
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          # 提交 metadata 和 data 的更新
+          if [ -n "$(git status --porcelain metadata/ data/ ':(exclude)metadata/video.json' ':(exclude)data/video.json' ':(exclude)data/video/**')" ]; then
+            echo "📝 Committing metadata and data updates..."
+            git add -- metadata/ data/ ':(exclude)metadata/video.json' ':(exclude)data/video.json' ':(exclude)data/video/**'
+            git commit -m "chore: update metadata and frontend data"
+            git push
+          fi
+
+      - name: Update stats.json
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          NEW_TAG="${{ steps.version.outputs.new_tag }}"
+          TODAY=$(TZ='Asia/Shanghai' date +'%Y-%m-%d')
+
+          DESKTOP_NOW=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
+          DESKTOP_DIFF=$((DESKTOP_NOW - ${{ steps.prev_count.outputs.desktop }}))
+          MOBILE_NOW=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
+          MOBILE_DIFF=$((MOBILE_NOW - ${{ steps.prev_count.outputs.mobile }}))
+          AVATAR_NOW=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
+          AVATAR_DIFF=$((AVATAR_NOW - ${{ steps.prev_count.outputs.avatar }}))
+          BING_NOW=$(if [ -f stats.json ]; then jq -r '.total.bing // 0' stats.json; else echo 0; fi)
+          BING_DIFF=0
+          if [ "${{ github.event.inputs.sync_bing }}" != "false" ] && [ -f bing/meta/index.json ]; then
+            BING_NOW=$(jq -r '.total' bing/meta/index.json)
+            BING_DIFF=$((BING_NOW - ${{ steps.prev_count.outputs.bing }}))
+          fi
+
+          # 创建新的 release 记录
+          NEW_RELEASE=$(cat <<EOF
+          {
+            "tag": "$NEW_TAG",
+            "date": "$TODAY",
+            "added": {
+              "desktop": $DESKTOP_DIFF,
+              "mobile": $MOBILE_DIFF,
+              "avatar": $AVATAR_DIFF,
+              "bing": $BING_DIFF
+            },
+            "publisher": "github-actions[bot]"
+          }
+          EOF
+          )
+
+          # 更新 stats.json
+          if [ -f stats.json ]; then
+            # 更新 total 和 releases 数组
+            jq --argjson new_release "$NEW_RELEASE" \
+               --argjson desktop "$DESKTOP_NOW" \
+               --argjson mobile "$MOBILE_NOW" \
+               --argjson avatar "$AVATAR_NOW" \
+               --argjson bing "$BING_NOW" \
+               '.total.desktop = $desktop | .total.mobile = $mobile | .total.avatar = $avatar | .total.bing = $bing | .lastUpdated = now | .releases = [$new_release] + .releases' \
+               stats.json > stats.json.tmp && mv stats.json.tmp stats.json
+          else
+            # 创建新的 stats.json
+            jq -n --argjson new_release "$NEW_RELEASE" \
+               --argjson desktop "$DESKTOP_NOW" \
+               --argjson mobile "$MOBILE_NOW" \
+               --argjson avatar "$AVATAR_NOW" \
+               --argjson bing "$BING_NOW" \
+               '{total: {desktop: $desktop, mobile: $mobile, avatar: $avatar, bing: $bing}, lastUpdated: now, releases: [$new_release]}' \
+               > stats.json
+          fi
+
+          # 提交 stats.json
+          git add stats.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update stats.json for $NEW_TAG"
+          fi
+          git push
+
+          echo "✅ Updated stats.json"
+
+      - name: Create tag
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          NEW_TAG="${{ steps.version.outputs.new_tag }}"
+          git tag -a "$NEW_TAG" -m "Daily sync $(TZ='Asia/Shanghai' date +'%Y-%m-%d')"
+          git push origin "$NEW_TAG"
+          echo "✅ Created tag: $NEW_TAG"
+
       - name: Upload to Cloudflare R2
         id: r2_upload
         if: steps.check.outputs.has_changes == 'true' || github.event.inputs.full_sync == 'true'
@@ -213,61 +292,55 @@ jobs:
             echo "r2_enabled=false" >> $GITHUB_OUTPUT
             exit 0
           fi
-          
+
           echo "r2_enabled=true" >> $GITHUB_OUTPUT
-          
+
           # 安装 AWS CLI
           pip install awscli --quiet
-          
+
           echo "📤 Uploading to Cloudflare R2..."
           chmod +x ./scripts/upload-r2.sh
-          
+
           if [ "${{ github.event.inputs.full_sync }}" == "true" ]; then
             ./scripts/upload-r2.sh --full
           else
             ./scripts/upload-r2.sh
           fi
 
-      # ========================================
-      # 5. 处理 metadata（关键步骤！）
-      # ========================================
-      - name: Process metadata from timestamps
-        if: steps.check.outputs.has_changes == 'true'
+      - name: Upload JSON data to R2
+        if: (steps.check.outputs.has_changes == 'true' || github.event.inputs.full_sync == 'true') && steps.r2_upload.outputs.r2_enabled == 'true'
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_R2_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY }}
+          CLOUDFLARE_R2_SECRET_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_KEY }}
         run: |
-          echo "📊 Processing metadata from timestamps..."
-          
-          # 获取新 tag
-          NEW_TAG="${{ steps.version.outputs.new_tag }}"
-          
-          # 处理 metadata（会从 timestamps-backup-all.txt 同步缺失的资源）
-          node ./scripts/process-metadata.js . "$NEW_TAG" --force
-          
-          echo "✅ Metadata processed"
+          echo "📤 Uploading JSON to R2..."
 
-      # ========================================
-      # 6. 提交 metadata 和 data 更新
-      # ========================================
-      - name: Commit metadata and data updates
-        if: steps.check.outputs.has_changes == 'true'
-        run: |
-          # 提交 metadata 和 data 的更新
-          if [ -n "$(git status --porcelain metadata/ data/)" ]; then
-            echo "📝 Committing metadata and data updates..."
-            git add metadata/ data/
-            git commit -m "chore: update metadata and frontend data" || true
-            git push || true
+          # 配置 AWS CLI
+          export AWS_ACCESS_KEY_ID="$CLOUDFLARE_R2_ACCESS_KEY"
+          export AWS_SECRET_ACCESS_KEY="$CLOUDFLARE_R2_SECRET_KEY"
+          export AWS_DEFAULT_REGION="auto"
+
+          R2_ENDPOINT="https://${CLOUDFLARE_ACCOUNT_ID}.r2.cloudflarestorage.com"
+          R2_BUCKET="wallpaper-images"
+
+          # 上传 JSON 数据（--size-only 避免重复上传未变化的文件）
+          aws s3 sync data/ "s3://$R2_BUCKET/data/" \
+            --endpoint-url "$R2_ENDPOINT" \
+            --content-type "application/json" \
+            --size-only \
+            --exclude "video.json" \
+            --exclude "video/*" \
+            --no-progress
+
+          # 单独强制上传 latest.json（内容变化但大小可能相同）
+          if [ -f data/bing/latest.json ]; then
+            aws s3 cp data/bing/latest.json "s3://$R2_BUCKET/data/bing/latest.json" \
+              --endpoint-url "$R2_ENDPOINT" \
+              --content-type "application/json"
           fi
 
-      # ========================================
-      # 7. 创建 Git Tag 和 Release（保留用于 jsDelivr 回退）
-      # ========================================
-      - name: Create tag
-        if: steps.check.outputs.has_changes == 'true'
-        run: |
-          NEW_TAG="${{ steps.version.outputs.new_tag }}"
-          git tag -a "$NEW_TAG" -m "Daily sync $(TZ='Asia/Shanghai' date +'%Y-%m-%d')"
-          git push origin "$NEW_TAG"
-          echo "✅ Created tag: $NEW_TAG"
+          echo "✅ JSON data uploaded"
 
       - name: Create Release
         id: release
@@ -277,25 +350,22 @@ jobs:
         run: |
           NEW_TAG="${{ steps.version.outputs.new_tag }}"
           TODAY=$(TZ='Asia/Shanghai' date +'%Y-%m-%d')
-          
+
           # 计算当前数量
           DESKTOP_NOW=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
           MOBILE_NOW=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
           AVATAR_NOW=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
-          VIDEO_NOW=$(jq -r '.images | length' metadata/video.json)
           BING_NOW=$(if [ -f bing/meta/index.json ]; then jq -r '.total' bing/meta/index.json; else echo 0; fi)
 
           # 计算增量
           DESKTOP_PREV=${{ steps.prev_count.outputs.desktop }}
           MOBILE_PREV=${{ steps.prev_count.outputs.mobile }}
           AVATAR_PREV=${{ steps.prev_count.outputs.avatar }}
-          VIDEO_PREV=${{ steps.prev_count.outputs.video }}
           BING_PREV=${{ steps.prev_count.outputs.bing }}
 
           DESKTOP_DIFF=$((DESKTOP_NOW - DESKTOP_PREV))
           MOBILE_DIFF=$((MOBILE_NOW - MOBILE_PREV))
           AVATAR_DIFF=$((AVATAR_NOW - AVATAR_PREV))
-          VIDEO_DIFF=$((VIDEO_NOW - VIDEO_PREV))
           BING_DIFF=$((BING_NOW - BING_PREV))
 
           # 格式化增量显示（正数加+号）
@@ -306,7 +376,6 @@ jobs:
           DESKTOP_DIFF_STR=$(format_diff $DESKTOP_DIFF)
           MOBILE_DIFF_STR=$(format_diff $MOBILE_DIFF)
           AVATAR_DIFF_STR=$(format_diff $AVATAR_DIFF)
-          VIDEO_DIFF_STR=$(format_diff $VIDEO_DIFF)
           BING_DIFF_STR=$(format_diff $BING_DIFF)
 
           # 生成 Release 内容
@@ -318,7 +387,6 @@ jobs:
           | 🖥️ Desktop | $DESKTOP_NOW | $DESKTOP_DIFF_STR |
           | 📱 Mobile | $MOBILE_NOW | $MOBILE_DIFF_STR |
           | 👤 Avatar | $AVATAR_NOW | $AVATAR_DIFF_STR |
-          | 🎬 Video | $VIDEO_NOW | $VIDEO_DIFF_STR |
           | 🌄 Bing | $BING_NOW | $BING_DIFF_STR |
 
           ---
@@ -330,127 +398,17 @@ jobs:
             --latest
 
           echo "✅ Created release: $NEW_TAG"
-          
+
           # 保存增量信息供后续步骤使用
           echo "desktop_diff=$DESKTOP_DIFF" >> $GITHUB_OUTPUT
           echo "mobile_diff=$MOBILE_DIFF" >> $GITHUB_OUTPUT
           echo "avatar_diff=$AVATAR_DIFF" >> $GITHUB_OUTPUT
-          echo "video_diff=$VIDEO_DIFF" >> $GITHUB_OUTPUT
           echo "bing_diff=$BING_DIFF" >> $GITHUB_OUTPUT
           echo "desktop_now=$DESKTOP_NOW" >> $GITHUB_OUTPUT
           echo "mobile_now=$MOBILE_NOW" >> $GITHUB_OUTPUT
           echo "avatar_now=$AVATAR_NOW" >> $GITHUB_OUTPUT
-          echo "video_now=$VIDEO_NOW" >> $GITHUB_OUTPUT
           echo "bing_now=$BING_NOW" >> $GITHUB_OUTPUT
 
-      - name: Update stats.json
-        if: steps.check.outputs.has_changes == 'true'
-        run: |
-          NEW_TAG="${{ steps.version.outputs.new_tag }}"
-          TODAY=$(TZ='Asia/Shanghai' date +'%Y-%m-%d')
-          
-          DESKTOP_DIFF=${{ steps.release.outputs.desktop_diff }}
-          MOBILE_DIFF=${{ steps.release.outputs.mobile_diff }}
-          AVATAR_DIFF=${{ steps.release.outputs.avatar_diff }}
-          VIDEO_DIFF=${{ steps.release.outputs.video_diff }}
-          BING_DIFF=${{ steps.release.outputs.bing_diff }}
-          DESKTOP_NOW=${{ steps.release.outputs.desktop_now }}
-          MOBILE_NOW=${{ steps.release.outputs.mobile_now }}
-          AVATAR_NOW=${{ steps.release.outputs.avatar_now }}
-          VIDEO_NOW=${{ steps.release.outputs.video_now }}
-          BING_NOW=${{ steps.release.outputs.bing_now }}
-          
-          # 创建新的 release 记录
-          NEW_RELEASE=$(cat <<EOF
-          {
-            "tag": "$NEW_TAG",
-            "date": "$TODAY",
-            "added": {
-              "desktop": $DESKTOP_DIFF,
-              "mobile": $MOBILE_DIFF,
-              "avatar": $AVATAR_DIFF,
-              "video": $VIDEO_DIFF,
-              "bing": $BING_DIFF
-            },
-            "publisher": "github-actions[bot]"
-          }
-          EOF
-          )
-          
-          # 更新 stats.json
-          if [ -f stats.json ]; then
-            # 更新 total 和 releases 数组
-            jq --argjson new_release "$NEW_RELEASE" \
-               --argjson desktop "$DESKTOP_NOW" \
-               --argjson mobile "$MOBILE_NOW" \
-               --argjson avatar "$AVATAR_NOW" \
-               --argjson video "$VIDEO_NOW" \
-               --argjson bing "$BING_NOW" \
-               '.total.desktop = $desktop | .total.mobile = $mobile | .total.avatar = $avatar | .total.video = $video | .total.bing = $bing | .lastUpdated = now | .releases = [$new_release] + .releases' \
-               stats.json > stats.json.tmp && mv stats.json.tmp stats.json
-          else
-            # 创建新的 stats.json
-            jq -n --argjson new_release "$NEW_RELEASE" \
-               --argjson desktop "$DESKTOP_NOW" \
-               --argjson mobile "$MOBILE_NOW" \
-               --argjson avatar "$AVATAR_NOW" \
-               --argjson video "$VIDEO_NOW" \
-               --argjson bing "$BING_NOW" \
-               '{total: {desktop: $desktop, mobile: $mobile, avatar: $avatar, video: $video, bing: $bing}, lastUpdated: now, releases: [$new_release]}' \
-               > stats.json
-          fi
-          
-          # 提交 stats.json
-          git add stats.json
-          git commit -m "chore: update stats.json for $NEW_TAG" || true
-          git push || true
-          
-          echo "✅ Updated stats.json"
-
-      # ========================================
-      # 9. 上传 JSON 数据到 R2（放在最后，失败不影响核心流程）
-      # ========================================
-      - name: Upload JSON data to R2
-        if: (steps.check.outputs.has_changes == 'true' || github.event.inputs.full_sync == 'true') && steps.r2_upload.outputs.r2_enabled == 'true'
-        env:
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CLOUDFLARE_R2_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY }}
-          CLOUDFLARE_R2_SECRET_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_KEY }}
-        run: |
-          echo "📤 Uploading JSON to R2..."
-          
-          # 配置 AWS CLI
-          export AWS_ACCESS_KEY_ID="$CLOUDFLARE_R2_ACCESS_KEY"
-          export AWS_SECRET_ACCESS_KEY="$CLOUDFLARE_R2_SECRET_KEY"
-          export AWS_DEFAULT_REGION="auto"
-          
-          R2_ENDPOINT="https://${CLOUDFLARE_ACCOUNT_ID}.r2.cloudflarestorage.com"
-          R2_BUCKET="wallpaper-images"
-          
-          # 上传 JSON 数据（--size-only 避免重复上传未变化的文件）
-          aws s3 sync data/ "s3://$R2_BUCKET/data/" \
-            --endpoint-url "$R2_ENDPOINT" \
-            --content-type "application/json" \
-            --size-only \
-            --no-progress
-          
-          # 单独强制上传 latest.json（内容变化但大小可能相同）
-          if [ -f data/bing/latest.json ]; then
-            aws s3 cp data/bing/latest.json "s3://$R2_BUCKET/data/bing/latest.json" \
-              --endpoint-url "$R2_ENDPOINT" \
-              --content-type "application/json"
-          fi
-          if [ -f data/video/latest.json ]; then
-            aws s3 cp data/video/latest.json "s3://$R2_BUCKET/data/video/latest.json" \
-              --endpoint-url "$R2_ENDPOINT" \
-              --content-type "application/json"
-          fi
-          
-          echo "✅ JSON data uploaded"
-
-      # ========================================
-      # 10. 清除 Cloudflare 缓存
-      # ========================================
       - name: Purge Cloudflare Cache
         if: (steps.check.outputs.has_changes == 'true' || github.event.inputs.full_sync == 'true') && steps.r2_upload.outputs.r2_enabled == 'true'
         env:
@@ -462,10 +420,10 @@ jobs:
             echo "⚠️ Cache purge credentials not configured, skipping"
             exit 0
           fi
-          
+
           echo "🔄 Purging Cloudflare cache..."
           chmod +x ./scripts/purge-cache.sh
-          
+
           # 根据更新的系列清除缓存
           SERIES_TO_PURGE=""
           if [ -n "${{ steps.sync_gitee.outputs.updated_series }}" ]; then
@@ -474,7 +432,7 @@ jobs:
           if [ "${{ steps.sync_bing.outputs.bing_updated }}" == "true" ]; then
             SERIES_TO_PURGE="$SERIES_TO_PURGE bing"
           fi
-          
+
           if [ -n "$SERIES_TO_PURGE" ]; then
             ./scripts/purge-cache.sh $SERIES_TO_PURGE
           else
@@ -482,36 +440,30 @@ jobs:
             ./scripts/purge-cache.sh
           fi
 
-      # ========================================
-      # 11. 生成摘要
-      # ========================================
       - name: Generate summary
         run: |
           # 计算当前数量
           DESKTOP_NOW=$(find wallpaper/desktop -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
           MOBILE_NOW=$(find wallpaper/mobile -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
           AVATAR_NOW=$(find wallpaper/avatar -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l | tr -d ' ')
-          VIDEO_NOW=$(jq -r '.images | length' metadata/video.json)
           BING_NOW=$(if [ -f bing/meta/index.json ]; then jq -r '.total' bing/meta/index.json; else echo 0; fi)
 
           # 计算增量
           DESKTOP_PREV=${{ steps.prev_count.outputs.desktop }}
           MOBILE_PREV=${{ steps.prev_count.outputs.mobile }}
           AVATAR_PREV=${{ steps.prev_count.outputs.avatar }}
-          VIDEO_PREV=${{ steps.prev_count.outputs.video }}
           BING_PREV=${{ steps.prev_count.outputs.bing }}
 
           DESKTOP_DIFF=$((DESKTOP_NOW - DESKTOP_PREV))
           MOBILE_DIFF=$((MOBILE_NOW - MOBILE_PREV))
           AVATAR_DIFF=$((AVATAR_NOW - AVATAR_PREV))
-          VIDEO_DIFF=$((VIDEO_NOW - VIDEO_PREV))
           BING_DIFF=$((BING_NOW - BING_PREV))
 
           # 格式化增量显示
           format_diff() {
             if [ "$1" -gt 0 ]; then echo "+$1"; elif [ "$1" -lt 0 ]; then echo "$1"; else echo "-"; fi
           }
-          
+
           echo "## 🖼️ Daily Wallpaper Sync" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| 系列 | 总数 | 今日增量 |" >> $GITHUB_STEP_SUMMARY
@@ -519,14 +471,13 @@ jobs:
           echo "| 🖥️ Desktop | $DESKTOP_NOW | $(format_diff $DESKTOP_DIFF) |" >> $GITHUB_STEP_SUMMARY
           echo "| 📱 Mobile | $MOBILE_NOW | $(format_diff $MOBILE_DIFF) |" >> $GITHUB_STEP_SUMMARY
           echo "| 👤 Avatar | $AVATAR_NOW | $(format_diff $AVATAR_DIFF) |" >> $GITHUB_STEP_SUMMARY
-          echo "| 🎬 Video | $VIDEO_NOW | $(format_diff $VIDEO_DIFF) |" >> $GITHUB_STEP_SUMMARY
           echo "| 🌄 Bing | $BING_NOW | $(format_diff $BING_DIFF) |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
           if [ "${{ steps.check.outputs.has_changes }}" == "true" ]; then
             echo "### ✅ 同步完成" >> $GITHUB_STEP_SUMMARY
             echo "- 版本: \`${{ steps.version.outputs.new_tag }}\`" >> $GITHUB_STEP_SUMMARY
-            
+
             if [ "${{ steps.r2_upload.outputs.r2_enabled }}" == "true" ]; then
               echo "- R2 上传: ✅" >> $GITHUB_STEP_SUMMARY
               echo "- 缓存清除: ✅" >> $GITHUB_STEP_SUMMARY

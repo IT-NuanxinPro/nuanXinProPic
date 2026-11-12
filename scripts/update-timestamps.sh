@@ -26,7 +26,7 @@ get_new_images_by_scan() {
     local project_root="$1"
     local backup_file="$2"
     
-    for series in desktop mobile avatar video; do
+    for series in desktop mobile avatar; do
         local wallpaper_dir="$project_root/wallpaper/$series"
         [ ! -d "$wallpaper_dir" ] && continue
 

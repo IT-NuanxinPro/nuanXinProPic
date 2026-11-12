@@ -119,14 +119,14 @@ sync_directory() {
     fi
     
     # 排除隐藏文件
-    sync_cmd="$sync_cmd --exclude \".*\" --exclude \"*/.*\""
+    sync_cmd="$sync_cmd --exclude \".*\" --exclude \"*/.*\" --exclude \"video/*\""
     
     # 执行同步
     local output
     if output=$(eval "$sync_cmd" 2>&1); then
         # 统计上传的文件
         local file_count
-        file_count=$(echo "$output" | grep -c "upload:" || echo "0")
+        file_count=$(echo "$output" | awk '/upload:/ { count++ } END { print count + 0 }')
         
         if [ "$file_count" -gt 0 ]; then
             echo -e "${GREEN}[OK]${NC} Uploaded $file_count files from $dir/"
@@ -157,7 +157,7 @@ echo "Starting sync..."
 echo ""
 
 for dir in "${SYNC_DIRS[@]}"; do
-    sync_directory "$dir" || true
+    sync_directory "$dir"
 done
 
 # 计算总大小

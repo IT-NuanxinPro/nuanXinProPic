@@ -167,18 +167,6 @@ const CONFIG = {
       outputFile: 'avatar.json',
       hasPreview: false,
     },
-    video: {
-      id: 'video',
-      name: '动态壁纸',
-      wallpaperDir: 'wallpaper/video',
-      thumbnailDir: 'thumbnail/video',
-      previewDir: 'preview/video',
-      outputFile: 'video.json',
-      hasPreview: true,
-      isVideo: true,
-      mediaExtensions: ['.mp4', '.webm', '.mov', '.m4v'],
-      keepGenericSubcategory: true,
-    },
     bing: {
       id: 'bing',
       name: '每日Bing',
