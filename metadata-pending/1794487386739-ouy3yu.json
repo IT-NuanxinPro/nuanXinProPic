@@ -1,0 +1,279 @@
+{
+  "version": 1,
+  "createdAt": "2026-11-12T12:43:06.737Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/微信图片_20261112203310_3597_71.png",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微信图片_20261112203310_3597_71.png",
+      "createdAt": "2026-11-12T12:43:06.739Z",
+      "size": 8926074,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "粉发少女",
+          "眼镜",
+          "教室",
+          "暖阳"
+        ],
+        "description": "暖阳穿过教室窗棂，粉发少女手持手机托腮浅笑，绿植与课桌浸在柔光里。",
+        "filenameSuggestions": [
+          "暖阳下粉发眼镜少女托腮.jpg",
+          "教室里粉发少女手持手机.jpg"
+        ],
+        "displayTitle": "晴窗映照粉色的心事",
+        "confidence": 0.9,
+        "reasoning": "画面为二次元绘画，粉发眼镜少女坐于教室课桌前，身后可见黑板、窗户与绿植；无法确认具体作品或人物，归入动漫下的二次元。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/魅力/微信图片_20261112203314_3598_71.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_20261112203314_3598_71.png",
+      "createdAt": "2026-11-12T12:43:06.739Z",
+      "size": 9804439,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "写实人像",
+          "红色吊带裙",
+          "暖色光影",
+          "室内写真",
+          "侧坐"
+        ],
+        "description": "暖光轻落肩头，红裙女子垂眸坐于地毯，沙发与木饰墙面衬出静谧柔暖的室内氛围。",
+        "filenameSuggestions": [
+          "暖光中红裙女子侧坐地毯.jpg",
+          "沙发旁黑发女子垂眸静坐.jpg"
+        ],
+        "displayTitle": "暖影深处一抹绯红",
+        "confidence": 0.9,
+        "reasoning": "画面为写实风格女性人像，主体身穿红色吊带短裙，侧坐于沙发前的地毯上。暖色光影与姿态突出人物魅力，归入人像下的魅力分类。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/魅力/微信图片_20261112203319_3599_71.png",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "微信图片_20261112203319_3599_71.png",
+      "createdAt": "2026-11-12T12:43:06.739Z",
+      "size": 12301291,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "写实人像",
+          "紫色缎裙",
+          "复古客厅",
+          "柔和光影",
+          "沙发"
+        ],
+        "description": "女子身着紫色缎裙蜷坐沙发，印花靠枕与复古台灯映衬出静谧柔和的室内氛围。",
+        "filenameSuggestions": [
+          "紫色缎裙女子蜷坐布艺沙发.jpg",
+          "复古客厅中倚枕而坐的女子.jpg"
+        ],
+        "displayTitle": "紫缎微光里的静谧时分",
+        "confidence": 0.9,
+        "reasoning": "画面以身穿紫色缎面裙装的女子为主体，横向构图保留沙发、花纹靠枕与台灯等环境。人物姿态与柔和光影突出魅力人像风格，无明确人物身份依据。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/氛围感/微信图片_20261112203322_3600_71.png",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "微信图片_20261112203322_3600_71.png",
+      "createdAt": "2026-11-12T12:43:06.739Z",
+      "size": 8405798,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感人像",
+          "冷色调",
+          "暮色露台",
+          "吊带长裙",
+          "长发女子"
+        ],
+        "description": "暮云笼罩露台，长发女子身着灰色长裙静立，悬挂灯串与天边微光映出清冷诗意。",
+        "filenameSuggestions": [
+          "暮色露台上的灰裙长发女子.jpg",
+          "冷蓝天幕下的吊带长裙女子.jpg"
+        ],
+        "displayTitle": "暮云深处晚风轻驻",
+        "confidence": 0.9,
+        "reasoning": "画面为写实人像摄影，以灰色吊带长裙女子为主体，保留露台座椅、横贯灯串及暮色云层；冷蓝色调与低照度营造鲜明氛围，适合归入人像下的氛围感。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/斗破苍穹/3D建模-国漫-小医仙.jpg",
+      "category": "动漫",
+      "subcategory": "斗破苍穹",
+      "filename": "3D建模-国漫-小医仙.jpg",
+      "createdAt": "2026-11-12T12:43:06.739Z",
+      "size": 2071613,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "斗破苍穹",
+        "subcategory": "斗破苍穹",
+        "filenameSuggestions": [
+          "银发小医仙与紫蝶相伴夜色.jpg",
+          "冷色银发小医仙倚近车旁.jpg"
+        ],
+        "filenames": [
+          "银发小医仙与紫蝶相伴夜色.jpg",
+          "冷色银发小医仙倚近车旁.jpg"
+        ],
+        "displayTitle": "银发映夜紫蝶入梦",
+        "keywords": [
+          "小医仙",
+          "银发少女",
+          "紫色光蝶",
+          "冷色光影"
+        ],
+        "description": "银发小医仙沐浴蓝紫微光，晶莹衣饰映着翩飞光蝶，身后车辆隐入朦胧夜色。",
+        "confidence": 0.9,
+        "reasoning": "画面为三维动画风格，主体是银发幻想少女，周围有紫色光蝶，背景可见车辆与建筑。无法确认具体作品及人物，选择动漫下的二次元分类。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/国风/微信图片_20261112203328_3603_71.png",
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "微信图片_20261112203328_3603_71.png",
+      "createdAt": "2026-11-12T12:43:06.739Z",
+      "size": 10788695,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "红发少女",
+          "雨夜庭院",
+          "油纸伞",
+          "古典建筑"
+        ],
+        "description": "红发少女撑伞静坐朱栏，庭院雨丝垂落，幽灯映着水光，晕染清冷夜色。",
+        "filenameSuggestions": [
+          "雨夜撑伞的红发少女倚栏.jpg",
+          "古风红发少女静坐庭院雨中.jpg"
+        ],
+        "displayTitle": "一伞烟雨半庭灯影",
+        "confidence": 0.9,
+        "reasoning": "画面呈数字绘画质感，红发少女持油纸伞坐在朱红廊栏旁，背景可见古典庭院、石灯与雨水。无法确认具体人物或作品，依据整体古典环境与服饰设计归入插画下的国风。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/微信图片_20261112203325_3602_71.png",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微信图片_20261112203325_3602_71.png",
+      "createdAt": "2026-11-12T12:43:06.739Z",
+      "size": 6608693,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "黑发少女",
+          "金色蝴蝶结",
+          "俯视构图",
+          "留白"
+        ],
+        "description": "黑发少女仰望视线，黑白衣装缀以金色蝴蝶结，素白背景与斜影衬出清亮神采。",
+        "filenameSuggestions": [
+          "黑发金瞳少女白底俯视插画.jpg",
+          "黑色短 jacket少女.jpg"
+        ],
+        "displayTitle": "素白光影里的金色心绪",
+        "confidence": 0.9,
+        "reasoning": "画面为二次元人物插画，以俯视角度描绘黑发金瞳少女，白底大面积留白并带斜向投影；无法确认具体作品与身份，归入动漫下的二次元。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/微信图片_20261112203307_3595_71.png",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微信图片_20261112203307_3595_71.png",
+      "createdAt": "2026-11-12T12:43:06.739Z",
+      "size": 8958595,
+      "format": "png",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "哥特风",
+          "绿发少女",
+          "提灯",
+          "幽暗森林"
+        ],
+        "description": "绿发少女披着黑纱于幽林水间回眸，暖灯映亮涟漪，微绿幽光缠绕古木。",
+        "filenameSuggestions": [
+          "幽暗森林中绿发少女提灯回眸.jpg",
+          "黑纱绿发少女立于水中灯影间.jpg"
+        ],
+        "displayTitle": "幽林深处一盏引梦灯",
+        "confidence": 0.9,
+        "reasoning": "画面为二次元绘画，绿发少女身穿黑色蕾丝长裙、手提灯笼，置身古木环绕的幽暗水域；未能确认具体作品身份，归入动漫下的二次元。"
+      }
+    }
+  ]
+}
