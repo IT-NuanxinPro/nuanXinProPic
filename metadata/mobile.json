@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "mobile",
-  "lastUpdated": "2026-11-12 08:56:57",
-  "count": 940,
+  "lastUpdated": "2026-11-12 09:16:39",
+  "count": 943,
   "images": {
     "wallpaper/mobile/IP形象/乌萨奇/乌萨奇&小八&小熊_睡衣裹被贴贴.png": {
       "category": "IP形象",
@@ -30760,6 +30760,119 @@
         "displayTitle": "彩窗流光里的黑纱玫瑰",
         "confidence": 0.9,
         "reasoning": "画面以黑色蕾丝装束的长发女子为主体，彩窗、玫瑰与柔和逆光营造浪漫氛围，无明确人物或作品身份依据，归入人像下的氛围感。"
+      }
+    },
+    "wallpaper/mobile/人像/魅力/丝袜-女性人像.jpg": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "丝袜-女性人像.jpg",
+      "createdAt": "2026-11-12T09:14:02.192Z",
+      "cdnTag": "v1.5.6",
+      "size": 1394399,
+      "format": "jpg",
+      "resolution": {
+        "width": 2160,
+        "height": 4715,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "柔光人像",
+          "浅蓝吊带裙",
+          "蕾丝",
+          "长发",
+          "窗边"
+        ],
+        "description": "长发女子身着浅蓝蕾丝吊带裙，静坐窗畔，柔光映出温婉神情与细腻衣饰。",
+        "filenameSuggestions": [
+          "浅蓝吊带裙长发女子窗边端坐.jpg",
+          "柔光中蕾丝裙女子抬手拢发.jpg"
+        ],
+        "displayTitle": "窗畔柔光里的浅蓝诗意",
+        "confidence": 0.9,
+        "reasoning": "画面以窗边端坐的长发女子为主体，浅蓝修身吊带裙与蕾丝细节突出精致造型，柔和光线与优雅姿态符合人像下的魅力分类。"
+      }
+    },
+    "wallpaper/mobile/人像/魅力/写真-居家室内-性感.jpg": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "写真-居家室内-性感.jpg",
+      "createdAt": "2026-11-12T09:14:02.192Z",
+      "cdnTag": "v1.5.6",
+      "size": 673104,
+      "format": "jpg",
+      "resolution": {
+        "width": 986,
+        "height": 2176,
+        "label": "2K",
+        "type": "info"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力人像",
+          "玫粉短裙",
+          "窗边柔光",
+          "侧扎长发"
+        ],
+        "description": "女子身着玫粉色挂脖短裙立于窗边，侧扎长发垂落肩头，柔光映出明丽而温柔的气息。",
+        "filenameSuggestions": [
+          "玫粉挂脖短裙女子窗边站立.jpg",
+          "柔光下侧扎长发女子倚窗.jpg"
+        ],
+        "displayTitle": "窗畔玫色映一缕柔光",
+        "confidence": 0.9,
+        "reasoning": "画面为竖构图真人写真，以窗边站立的女子为主体，玫粉短裙、侧扎长发与柔和光线共同呈现魅力人像风格，无明确人物身份依据。"
+      }
+    },
+    "wallpaper/mobile/人像/魅力/优雅坐姿-卧室背景.jpg": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "优雅坐姿-卧室背景.jpg",
+      "createdAt": "2026-11-12T09:14:02.192Z",
+      "cdnTag": "v1.5.6",
+      "size": 1673112,
+      "format": "jpg",
+      "resolution": {
+        "width": 2160,
+        "height": 4672,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "暖色调",
+          "室内人像",
+          "长发",
+          "黑色短裙",
+          "优雅"
+        ],
+        "description": "暖灯映着浅色卧室，长发女子倚坐床沿，银白上衣与黑色短裙勾勒优雅身姿。",
+        "filenameSuggestions": [
+          "暖光下长发女子倚坐床沿.jpg",
+          "身穿黑色短裙的长发女子.jpg"
+        ],
+        "displayTitle": "暖灯映照温柔的倩影",
+        "confidence": 0.9,
+        "reasoning": "画面为室内女性摄影人像，以暖色灯光、精致服饰与倚坐姿态呈现优雅魅力，未有可确认的具体人物身份，归入人像下的魅力。"
       }
     }
   }

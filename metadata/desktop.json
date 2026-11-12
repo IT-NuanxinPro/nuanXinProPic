@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-11-12 08:56:57",
-  "count": 953,
+  "lastUpdated": "2026-11-12 09:16:39",
+  "count": 955,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -30961,6 +30961,82 @@
         "displayTitle": "浅光轻吻银发花间少女",
         "confidence": 0.9,
         "reasoning": "画面为日系动画风格的少女近景，银灰长发、花朵发饰与浅色背景构成柔和横向构图；无法确认具体作品或人物，归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/动漫/蜡笔小新/动漫-啤酒罐.jpg": {
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "动漫-啤酒罐.jpg",
+      "createdAt": "2026-11-12T09:14:02.192Z",
+      "cdnTag": "v1.5.6",
+      "size": 1064093,
+      "format": "jpg",
+      "resolution": {
+        "width": 3894,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动画风格",
+          "饮料罐",
+          "趣味表情",
+          "粉色背景"
+        ],
+        "description": "粉色竖纹背景前，小新双手高举蓝色饮料罐，头顶橙味饮料，神情呆萌俏皮。",
+        "filenameSuggestions": [
+          "红衣蜡笔小新双手举起饮料罐.jpg",
+          "呆萌蜡笔小新头顶橙味饮料罐.jpg"
+        ],
+        "displayTitle": "小新与罐装饮料的趣时光",
+        "confidence": 0.9,
+        "reasoning": "画面角色具有蜡笔小新标志性的粗眉、脸型与红衣，双手举罐、头顶饮料罐，明确匹配动漫下的蜡笔小新分类。"
+      }
+    },
+    "wallpaper/desktop/人像/魅力/复古风-明星.jpg": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "复古风-明星.jpg",
+      "createdAt": "2026-11-12T09:14:02.192Z",
+      "cdnTag": "v1.5.6",
+      "size": 636941,
+      "format": "jpg",
+      "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "超清",
+        "type": "primary"
+      },
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "写真人像",
+          "复古华丽",
+          "黑色长发",
+          "金色花饰",
+          "凝眸"
+        ],
+        "description": "黑色长发映衬柔和面容，金色墙饰与花影环绕，凝眸间流露静谧而华丽的气息。",
+        "filenameSuggestions": [
+          "复古金色背景下的长发女子.jpg",
+          "柔光中佩戴项链的黑发女子.jpg"
+        ],
+        "displayTitle": "金色花影里的温柔凝眸",
+        "confidence": 0.9,
+        "reasoning": "画面为女子近景写真人像，黑色长发、精致首饰与金色浮雕花饰共同营造华丽质感，适合人像下的魅力分类；无明确身份依据。"
       }
     }
   }
