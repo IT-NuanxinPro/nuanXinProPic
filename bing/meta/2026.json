@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 315,
+  "total": 316,
   "items": [
+    {
+      "date": "2026-11-13",
+      "title": "冰下秘境",
+      "copyright": "亚伯拉罕湖，艾伯塔省，加拿大 (© Guang Cao/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%89%BE%E4%BC%AF%E5%A1%94%E7%9C%81%E4%BA%9A%E4%BC%AF%E6%8B%89%E7%BD%95%E6%B9%96&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261112_AbrahamCanada%22&FORM=HPQUIZ",
+      "hsh": "2a34b5b6572ba4df26d1368e9a64c61e",
+      "urlbase": "/th?id=OHR.AbrahamCanada_ZH-CN0344365912"
+    },
     {
       "date": "2026-11-12",
       "title": "没有建筑师的建筑杰作",
@@ -2838,5 +2847,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-11-11 23:19:20"
+  "updatedAt": "2026-11-12 23:03:35"
 }
