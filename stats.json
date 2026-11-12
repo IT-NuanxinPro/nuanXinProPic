@@ -1,18 +1,18 @@
 {
-  "lastUpdated": 1794439198.525566,
-  "cdnTag": "v1.5.4",
+  "lastUpdated": "2026-11-12 08:56:57",
+  "cdnTag": "v1.5.5",
   "series": {
     "desktop": {
-      "count": 921,
+      "count": 953,
       "categories": [
         "插画",
         "动漫",
         "人像",
         "风景",
         "IP形象",
-        "萌宠",
-        "游戏",
         "影视",
+        "游戏",
+        "萌宠",
         "政治",
         "科技",
         "通用",
@@ -45,24 +45,24 @@
         "萌宠",
         "表情包"
       ]
-    },
-    "video": {
-      "count": 52,
-      "categories": [
-        "social-cover",
-        "desktop",
-        "mobile"
-      ]
     }
   },
   "total": {
-    "desktop": 921,
+    "desktop": 973,
     "mobile": 940,
-    "avatar": 658,
-    "video": 52,
-    "bing": 2725
+    "avatar": 658
   },
   "releases": [
+    {
+      "tag": "v1.5.5",
+      "date": "2026-11-12",
+      "added": {
+        "desktop": 37,
+        "mobile": 8,
+        "avatar": 0
+      },
+      "publisher": "IT-NuanxinPro"
+    },
     {
       "tag": "v1.5.4",
       "date": "2026-11-12",
