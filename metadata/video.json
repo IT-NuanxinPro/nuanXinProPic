@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "video",
-  "lastUpdated": "2026-11-11 23:19:54",
-  "count": 52,
+  "lastUpdated": "2026-11-12 17:33:27",
+  "count": 61,
   "images": {
     "wallpaper/video/desktop/IP形象/HelloKitty_秋日秋千.mp4": {
       "category": "desktop",
@@ -1601,6 +1601,348 @@
         "model": "manual-review",
         "analyzedAt": "2026-11-10T12:58:59.363Z",
         "reasoning": "角色名称沿用用户提供的源文件名；封面与视频中段可见长发少女、夜海、远岸灯光和蓝色水面，归入动漫人物主题。"
+      }
+    },
+    "wallpaper/video/desktop/IP形象/DeepSeek鲸鱼娘_蓝眸流光.mp4": {
+      "category": "desktop",
+      "subcategory": "IP形象",
+      "filename": "DeepSeek鲸鱼娘_蓝眸流光.mp4",
+      "createdAt": "2026-11-12 17:33:27",
+      "cdnTag": "v1.5.7",
+      "storage": "r2",
+      "thumbnailPath": "/thumbnail/video/desktop/IP形象/DeepSeek鲸鱼娘_蓝眸流光.webp",
+      "previewPath": "/preview/video/desktop/IP形象/DeepSeek鲸鱼娘_蓝眸流光.mp4",
+      "size": 25255993,
+      "format": "mp4",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "duration": 8,
+      "mediaType": "video",
+      "usage": "desktop",
+      "topic": "IP形象",
+      "ai": {
+        "keywords": [
+          "DeepSeek",
+          "鲸鱼娘",
+          "蓝发少女",
+          "青绿眼眸",
+          "花饰",
+          "冷蓝光效",
+          "科技感"
+        ],
+        "description": "深色背景中，蓝发少女占据画面右侧，青绿色眼眸和发间花饰被冷蓝流光照亮；左侧出现 DeepSeek 字样，浮动光点营造静谧的科技氛围。",
+        "displayTitle": "DeepSeek鲸鱼娘·蓝眸流光",
+        "confidence": 0.9,
+        "model": "manual-review",
+        "analyzedAt": "2026-11-12T09:33:27.934Z"
+      }
+    },
+    "wallpaper/video/desktop/IP形象/OS娘Q版_草坡集合.mp4": {
+      "category": "desktop",
+      "subcategory": "IP形象",
+      "filename": "OS娘Q版_草坡集合.mp4",
+      "createdAt": "2026-11-12 17:33:27",
+      "cdnTag": "v1.5.7",
+      "storage": "r2",
+      "thumbnailPath": "/thumbnail/video/desktop/IP形象/OS娘Q版_草坡集合.webp",
+      "previewPath": "/preview/video/desktop/IP形象/OS娘Q版_草坡集合.mp4",
+      "size": 3555715,
+      "format": "mp4",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "duration": 2,
+      "mediaType": "video",
+      "usage": "desktop",
+      "topic": "IP形象",
+      "ai": {
+        "keywords": [
+          "OS娘",
+          "Q版",
+          "角色群像",
+          "草坡",
+          "蓝天白云",
+          "紫瞳",
+          "可爱"
+        ],
+        "description": "蓝天白云下，紫瞳的 Q 版 OS娘坐在草坡中央，一排小巧角色分列两旁；开阔的绿色草地与明亮天空让画面轻松活泼。",
+        "displayTitle": "OS娘的晴空草坡",
+        "confidence": 0.9,
+        "model": "manual-review",
+        "analyzedAt": "2026-11-12T09:33:27.934Z"
+      }
+    },
+    "wallpaper/video/desktop/动漫/雨中卧室_小羊安睡.mp4": {
+      "category": "desktop",
+      "subcategory": "动漫",
+      "filename": "雨中卧室_小羊安睡.mp4",
+      "createdAt": "2026-11-12 17:33:27",
+      "cdnTag": "v1.5.7",
+      "storage": "r2",
+      "thumbnailPath": "/thumbnail/video/desktop/动漫/雨中卧室_小羊安睡.webp",
+      "previewPath": "/preview/video/desktop/动漫/雨中卧室_小羊安睡.mp4",
+      "size": 37121109,
+      "format": "mp4",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "duration": 29.1,
+      "mediaType": "video",
+      "usage": "desktop",
+      "topic": "动漫",
+      "ai": {
+        "keywords": [
+          "卡通",
+          "小羊",
+          "卧室",
+          "窗上雨滴",
+          "蓝色被褥",
+          "安睡",
+          "治愈"
+        ],
+        "description": "昏暗卧室里，小羊盖着蓝色被褥安静入睡，窗玻璃上持续滑落雨滴；室外冷蓝雨景让整个画面显得安宁柔和。",
+        "displayTitle": "窗外落雨的小羊卧室",
+        "confidence": 0.9,
+        "model": "manual-review",
+        "analyzedAt": "2026-11-12T09:33:27.934Z"
+      }
+    },
+    "wallpaper/video/desktop/动漫/白发蓝瞳_光影轻拂.mp4": {
+      "category": "desktop",
+      "subcategory": "动漫",
+      "filename": "白发蓝瞳_光影轻拂.mp4",
+      "createdAt": "2026-11-12 17:33:27",
+      "cdnTag": "v1.5.7",
+      "storage": "r2",
+      "thumbnailPath": "/thumbnail/video/desktop/动漫/白发蓝瞳_光影轻拂.webp",
+      "previewPath": "/preview/video/desktop/动漫/白发蓝瞳_光影轻拂.mp4",
+      "size": 24436050,
+      "format": "mp4",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "duration": 11.3,
+      "mediaType": "video",
+      "usage": "desktop",
+      "topic": "动漫",
+      "ai": {
+        "keywords": [
+          "白发少女",
+          "蓝瞳",
+          "眼部特写",
+          "眼角水光",
+          "叶影",
+          "柔光",
+          "二次元"
+        ],
+        "description": "白发少女的湛蓝双眼近距离凝视，眼角泛着细微水光；蓝色叶片与斑驳亮光掠过面庞，画面清透柔和。",
+        "displayTitle": "蓝瞳少女·流光轻拂",
+        "confidence": 0.9,
+        "model": "manual-review",
+        "analyzedAt": "2026-11-12T09:33:27.934Z"
+      }
+    },
+    "wallpaper/video/desktop/动漫/蓝发少女_剑光花瓣.mp4": {
+      "category": "desktop",
+      "subcategory": "动漫",
+      "filename": "蓝发少女_剑光花瓣.mp4",
+      "createdAt": "2026-11-12 17:33:27",
+      "cdnTag": "v1.5.7",
+      "storage": "r2",
+      "thumbnailPath": "/thumbnail/video/desktop/动漫/蓝发少女_剑光花瓣.webp",
+      "previewPath": "/preview/video/desktop/动漫/蓝发少女_剑光花瓣.mp4",
+      "size": 14556611,
+      "format": "mp4",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "duration": 5.1,
+      "mediaType": "video",
+      "usage": "desktop",
+      "topic": "动漫",
+      "ai": {
+        "keywords": [
+          "蓝发少女",
+          "剑刃",
+          "蓝色光效",
+          "粉色花瓣",
+          "蓝色眼眸",
+          "近景",
+          "幻想"
+        ],
+        "description": "蓝发少女立于画面中央，一柄泛蓝光的长剑横过眼前，粉色花瓣在暗蓝背景中飘动，形成冷光与柔色交织的幻想近景。",
+        "displayTitle": "蓝发少女与花瓣剑光",
+        "confidence": 0.9,
+        "model": "manual-review",
+        "analyzedAt": "2026-11-12T09:33:27.934Z"
+      }
+    },
+    "wallpaper/video/desktop/动漫/银发少女_赤蓝霜刃.mp4": {
+      "category": "desktop",
+      "subcategory": "动漫",
+      "filename": "银发少女_赤蓝霜刃.mp4",
+      "createdAt": "2026-11-12 17:33:27",
+      "cdnTag": "v1.5.7",
+      "storage": "r2",
+      "thumbnailPath": "/thumbnail/video/desktop/动漫/银发少女_赤蓝霜刃.webp",
+      "previewPath": "/preview/video/desktop/动漫/银发少女_赤蓝霜刃.mp4",
+      "size": 51396184,
+      "format": "mp4",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "duration": 15,
+      "mediaType": "video",
+      "usage": "desktop",
+      "topic": "动漫",
+      "ai": {
+        "keywords": [
+          "银发少女",
+          "赤红眼眸",
+          "冰蓝光效",
+          "发光刀刃",
+          "雪粒",
+          "冷暖变幻",
+          "幻想"
+        ],
+        "description": "银发少女横持刻纹长刀，赤红目光与粉金刀光在冷蓝光效间交替，细碎雪粒持续飘落；刀刃横贯画面，突出冷暖变幻的幻想氛围。",
+        "displayTitle": "银发少女·赤蓝霜刃",
+        "confidence": 0.9,
+        "model": "manual-review",
+        "analyzedAt": "2026-11-12T09:33:27.934Z"
+      }
+    },
+    "wallpaper/video/desktop/萌宠/黑猫探头_琥珀大眼.mp4": {
+      "category": "desktop",
+      "subcategory": "萌宠",
+      "filename": "黑猫探头_琥珀大眼.mp4",
+      "createdAt": "2026-11-12 17:33:27",
+      "cdnTag": "v1.5.7",
+      "storage": "r2",
+      "thumbnailPath": "/thumbnail/video/desktop/萌宠/黑猫探头_琥珀大眼.webp",
+      "previewPath": "/preview/video/desktop/萌宠/黑猫探头_琥珀大眼.mp4",
+      "size": 4503272,
+      "format": "mp4",
+      "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "超清",
+        "type": "primary"
+      },
+      "duration": 10,
+      "mediaType": "video",
+      "usage": "desktop",
+      "topic": "萌宠",
+      "ai": {
+        "keywords": [
+          "黑猫",
+          "橙黄眼睛",
+          "探头",
+          "毛茸茸",
+          "猫爪",
+          "蓝色背景",
+          "萌宠"
+        ],
+        "description": "一只毛茸茸的黑猫从浅蓝色边缘探出脑袋和小爪，圆亮的橙黄眼睛直视前方，尾巴也在身后露出，画面俏皮可爱。",
+        "displayTitle": "琥珀大眼的黑猫探头",
+        "confidence": 0.9,
+        "model": "manual-review",
+        "analyzedAt": "2026-11-12T09:33:27.934Z"
+      }
+    },
+    "wallpaper/video/desktop/动漫/黑发少女_星瞳流光.mp4": {
+      "category": "desktop",
+      "subcategory": "动漫",
+      "filename": "黑发少女_星瞳流光.mp4",
+      "createdAt": "2026-11-12 17:33:27",
+      "cdnTag": "v1.5.7",
+      "storage": "r2",
+      "thumbnailPath": "/thumbnail/video/desktop/动漫/黑发少女_星瞳流光.webp",
+      "previewPath": "/preview/video/desktop/动漫/黑发少女_星瞳流光.mp4",
+      "size": 37344527,
+      "format": "mp4",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "duration": 8,
+      "mediaType": "video",
+      "usage": "desktop",
+      "topic": "动漫",
+      "ai": {
+        "keywords": [
+          "黑发少女",
+          "粉紫星瞳",
+          "眼部特写",
+          "彩色水光",
+          "霓虹",
+          "光粒",
+          "梦幻"
+        ],
+        "description": "黑发少女的粉紫色眼眸映着星点，彩色的液态光带横过面前，细小亮片与冷暖霓虹在脸上流转，呈现梦幻近景。",
+        "displayTitle": "黑发少女·星瞳流光",
+        "confidence": 0.9,
+        "model": "manual-review",
+        "analyzedAt": "2026-11-12T09:33:27.934Z"
+      }
+    },
+    "wallpaper/video/desktop/动漫/黑发少女_赤瞳心光.mp4": {
+      "category": "desktop",
+      "subcategory": "动漫",
+      "filename": "黑发少女_赤瞳心光.mp4",
+      "createdAt": "2026-11-12 17:33:27",
+      "cdnTag": "v1.5.7",
+      "storage": "r2",
+      "thumbnailPath": "/thumbnail/video/desktop/动漫/黑发少女_赤瞳心光.webp",
+      "previewPath": "/preview/video/desktop/动漫/黑发少女_赤瞳心光.mp4",
+      "size": 18790522,
+      "format": "mp4",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "duration": 8,
+      "mediaType": "video",
+      "usage": "desktop",
+      "topic": "动漫",
+      "ai": {
+        "keywords": [
+          "黑发少女",
+          "红色眼睛",
+          "心形瞳孔",
+          "眼部特写",
+          "粉紫侧光",
+          "暗色背景",
+          "二次元"
+        ],
+        "description": "暗色画面里，黑发少女的红色双眼以心形光纹为中心发亮，眼周被粉紫侧光勾勒，特写强调锐利而鲜明的表情。",
+        "displayTitle": "赤色心瞳的黑发少女",
+        "confidence": 0.9,
+        "model": "manual-review",
+        "analyzedAt": "2026-11-12T09:33:27.934Z"
       }
     }
   }

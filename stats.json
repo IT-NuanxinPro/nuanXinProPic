@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-12 09:16:39",
-  "cdnTag": "v1.5.6",
+  "lastUpdated": "2026-11-12 17:33:27",
+  "cdnTag": "v1.5.7",
   "series": {
     "desktop": {
       "count": 955,
@@ -45,14 +45,35 @@
         "萌宠",
         "表情包"
       ]
+    },
+    "video": {
+      "count": 61,
+      "categories": [
+        "social-cover",
+        "desktop",
+        "mobile"
+      ]
     }
   },
   "total": {
     "desktop": 980,
     "mobile": 943,
-    "avatar": 658
+    "avatar": 658,
+    "video": 61
   },
   "releases": [
+    {
+      "tag": "v1.5.7",
+      "date": "2026-11-12",
+      "added": {
+        "desktop": 0,
+        "mobile": 0,
+        "avatar": 0,
+        "video": 9,
+        "bing": 0
+      },
+      "publisher": "IT-NuanxinPro"
+    },
     {
       "tag": "v1.5.6",
       "date": "2026-11-12",
