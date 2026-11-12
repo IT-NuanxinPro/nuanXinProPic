@@ -1,0 +1,176 @@
+{
+  "version": 1,
+  "createdAt": "2026-11-12T09:14:02.192Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/蜡笔小新/动漫-啤酒罐.jpg",
+      "category": "动漫",
+      "subcategory": "蜡笔小新",
+      "filename": "动漫-啤酒罐.jpg",
+      "createdAt": "2026-11-12T09:14:02.192Z",
+      "size": 1064093,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "蜡笔小新",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "蜡笔小新",
+        "keywords": [
+          "蜡笔小新",
+          "动画风格",
+          "饮料罐",
+          "趣味表情",
+          "粉色背景"
+        ],
+        "description": "粉色竖纹背景前，小新双手高举蓝色饮料罐，头顶橙味饮料，神情呆萌俏皮。",
+        "filenameSuggestions": [
+          "红衣蜡笔小新双手举起饮料罐.jpg",
+          "呆萌蜡笔小新头顶橙味饮料罐.jpg"
+        ],
+        "displayTitle": "小新与罐装饮料的趣时光",
+        "confidence": 0.9,
+        "reasoning": "画面角色具有蜡笔小新标志性的粗眉、脸型与红衣，双手举罐、头顶饮料罐，明确匹配动漫下的蜡笔小新分类。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/魅力/复古风-明星.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "复古风-明星.jpg",
+      "createdAt": "2026-11-12T09:14:02.192Z",
+      "size": 636941,
+      "format": "jpg",
+      "ai": {
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "写真人像",
+          "复古华丽",
+          "黑色长发",
+          "金色花饰",
+          "凝眸"
+        ],
+        "description": "黑色长发映衬柔和面容，金色墙饰与花影环绕，凝眸间流露静谧而华丽的气息。",
+        "filenameSuggestions": [
+          "复古金色背景下的长发女子.jpg",
+          "柔光中佩戴项链的黑发女子.jpg"
+        ],
+        "displayTitle": "金色花影里的温柔凝眸",
+        "confidence": 0.9,
+        "reasoning": "画面为女子近景写真人像，黑色长发、精致首饰与金色浮雕花饰共同营造华丽质感，适合人像下的魅力分类；无明确身份依据。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/丝袜-女性人像.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "丝袜-女性人像.jpg",
+      "createdAt": "2026-11-12T09:14:02.192Z",
+      "size": 1394399,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "柔光人像",
+          "浅蓝吊带裙",
+          "蕾丝",
+          "长发",
+          "窗边"
+        ],
+        "description": "长发女子身着浅蓝蕾丝吊带裙，静坐窗畔，柔光映出温婉神情与细腻衣饰。",
+        "filenameSuggestions": [
+          "浅蓝吊带裙长发女子窗边端坐.jpg",
+          "柔光中蕾丝裙女子抬手拢发.jpg"
+        ],
+        "displayTitle": "窗畔柔光里的浅蓝诗意",
+        "confidence": 0.9,
+        "reasoning": "画面以窗边端坐的长发女子为主体，浅蓝修身吊带裙与蕾丝细节突出精致造型，柔和光线与优雅姿态符合人像下的魅力分类。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/写真-居家室内-性感.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "写真-居家室内-性感.jpg",
+      "createdAt": "2026-11-12T09:14:02.192Z",
+      "size": 673104,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "魅力人像",
+          "玫粉短裙",
+          "窗边柔光",
+          "侧扎长发"
+        ],
+        "description": "女子身着玫粉色挂脖短裙立于窗边，侧扎长发垂落肩头，柔光映出明丽而温柔的气息。",
+        "filenameSuggestions": [
+          "玫粉挂脖短裙女子窗边站立.jpg",
+          "柔光下侧扎长发女子倚窗.jpg"
+        ],
+        "displayTitle": "窗畔玫色映一缕柔光",
+        "confidence": 0.9,
+        "reasoning": "画面为竖构图真人写真，以窗边站立的女子为主体，玫粉短裙、侧扎长发与柔和光线共同呈现魅力人像风格，无明确人物身份依据。"
+      }
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/魅力/优雅坐姿-卧室背景.jpg",
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "优雅坐姿-卧室背景.jpg",
+      "createdAt": "2026-11-12T09:14:02.192Z",
+      "size": 1673112,
+      "format": "jpg",
+      "ai": {
+        "series": "mobile",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "mobile",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "暖色调",
+          "室内人像",
+          "长发",
+          "黑色短裙",
+          "优雅"
+        ],
+        "description": "暖灯映着浅色卧室，长发女子倚坐床沿，银白上衣与黑色短裙勾勒优雅身姿。",
+        "filenameSuggestions": [
+          "暖光下长发女子倚坐床沿.jpg",
+          "身穿黑色短裙的长发女子.jpg"
+        ],
+        "displayTitle": "暖灯映照温柔的倩影",
+        "confidence": 0.9,
+        "reasoning": "画面为室内女性摄影人像，以暖色灯光、精致服饰与倚坐姿态呈现优雅魅力，未有可确认的具体人物身份，归入人像下的魅力。"
+      }
+    }
+  ]
+}
