@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "video",
-  "lastUpdated": "2026-11-12T14:21:10.014Z",
-  "count": 66,
+  "lastUpdated": "2026-11-13T04:24:20.104Z",
+  "count": 67,
   "images": {
     "wallpaper/video/desktop/IP形象/HelloKitty_秋日秋千.mp4": {
       "category": "desktop",
@@ -2158,6 +2158,48 @@
       "thumbnailPath": "/thumbnail/video/desktop/动漫/%E9%87%91%E9%BB%84%E7%9A%AE%E5%8D%A1%E4%B8%98%E6%8C%81%E5%88%80%E6%8C%A5%E5%87%BA%E7%83%88%E7%84%B0-92e85fc2.webp",
       "publicationId": "60be517b-dc48-4313-99ba-38e487a586e9",
       "publicationJobCount": 5
+    },
+    "wallpaper/video/desktop/动漫/冷艳黑发异瞳少女面部特写-035a7208.mp4": {
+      "id": "video-035a7208-1366-47b6-b891-7cd2b1e0d0b8",
+      "jobId": "035a7208-1366-47b6-b891-7cd2b1e0d0b8",
+      "category": "desktop",
+      "subcategory": "动漫",
+      "usage": "desktop",
+      "topic": "动漫",
+      "filename": "冷艳黑发异瞳少女面部特写-035a7208.mp4",
+      "createdAt": "2026-11-13T03:59:19.430Z",
+      "size": 8260134,
+      "format": "mp4",
+      "mediaType": "video",
+      "resolution": {
+        "width": 2560,
+        "height": 1440,
+        "label": "2K",
+        "type": "info"
+      },
+      "duration": 5,
+      "codec": "h264",
+      "ai": {
+        "frameId": "frame-2",
+        "model": "gpt-6.1-sol",
+        "confidence": 0.9,
+        "analyzedAt": "2026-11-13T04:23:57.414Z",
+        "keywords": [
+          "二次元",
+          "异瞳少女",
+          "黑色长发",
+          "红黑光影",
+          "面部特写"
+        ],
+        "description": "黑发少女的红蓝异瞳映着细碎光芒，绯红侧光掠过脸颊，在暗色横幅中凝成静谧凝望。",
+        "displayTitle": "绯光映入星色眼眸"
+      },
+      "sha256": "797f5e29334ecbe059da9af958e61cf844f50984f3be0e4442c991f907bf731a",
+      "storage": "r2",
+      "previewPath": "/preview/video/desktop/动漫/%E5%86%B7%E8%89%B3%E9%BB%91%E5%8F%91%E5%BC%82%E7%9E%B3%E5%B0%91%E5%A5%B3%E9%9D%A2%E9%83%A8%E7%89%B9%E5%86%99-035a7208.mp4",
+      "thumbnailPath": "/thumbnail/video/desktop/动漫/%E5%86%B7%E8%89%B3%E9%BB%91%E5%8F%91%E5%BC%82%E7%9E%B3%E5%B0%91%E5%A5%B3%E9%9D%A2%E9%83%A8%E7%89%B9%E5%86%99-035a7208.webp",
+      "publicationId": "16185e26-a33e-4c6b-acc1-9dcec1ad7bc8",
+      "publicationJobCount": 1
     }
   }
 }
