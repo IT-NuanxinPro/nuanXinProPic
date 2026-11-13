@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "video",
-  "lastUpdated": "2026-11-13T04:55:07.576Z",
-  "count": 68,
+  "lastUpdated": "2026-11-13T07:12:01.915Z",
+  "count": 69,
   "images": {
     "wallpaper/video/desktop/IP形象/HelloKitty_秋日秋千.mp4": {
       "category": "desktop",
@@ -2241,6 +2241,47 @@
       "previewPath": "/preview/video/desktop/动漫/%E7%B2%89%E7%B4%AB%E6%98%9F%E7%9C%B8%E5%B0%91%E5%A5%B3%E9%9A%94%E5%88%80%E5%87%9D%E6%9C%9B-7c55aa42.mp4",
       "thumbnailPath": "/thumbnail/video/desktop/动漫/%E7%B2%89%E7%B4%AB%E6%98%9F%E7%9C%B8%E5%B0%91%E5%A5%B3%E9%9A%94%E5%88%80%E5%87%9D%E6%9C%9B-7c55aa42.webp",
       "publicationId": "7d1c3d0e-845e-4036-bdbb-9c332904d800",
+      "publicationJobCount": 1
+    },
+    "wallpaper/video/desktop/动漫/蓝发少女戴白色蝶饰宽檐帽-f541f509.mp4": {
+      "id": "video-f541f509-a85e-4fa7-ba74-dc9919163ccb",
+      "jobId": "f541f509-a85e-4fa7-ba74-dc9919163ccb",
+      "category": "desktop",
+      "subcategory": "动漫",
+      "usage": "desktop",
+      "topic": "动漫",
+      "filename": "蓝发少女戴白色蝶饰宽檐帽-f541f509.mp4",
+      "createdAt": "2026-11-13T07:08:14.031Z",
+      "size": 76163349,
+      "format": "mp4",
+      "mediaType": "video",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "duration": 31.3,
+      "codec": "h264",
+      "ai": {
+        "frameId": "frame-2",
+        "model": "gpt-6-sol",
+        "confidence": 0.9,
+        "analyzedAt": "2026-11-13T07:11:38.243Z",
+        "keywords": [
+          "二次元",
+          "蓝发少女",
+          "蝶饰宽檐帽",
+          "蓝色光影"
+        ],
+        "description": "蓝发少女戴着缀有蝶饰的宽檐帽，在幽蓝光影中静静凝望前方。",
+        "displayTitle": "蓝纱蝶影映星眸"
+      },
+      "sha256": "9e2e026fad0a2970258e0e686cee9bb67f5ceb7bb7deb3b408c4a86031f81c12",
+      "storage": "r2",
+      "previewPath": "/preview/video/desktop/动漫/%E8%93%9D%E5%8F%91%E5%B0%91%E5%A5%B3%E6%88%B4%E7%99%BD%E8%89%B2%E8%9D%B6%E9%A5%B0%E5%AE%BD%E6%AA%90%E5%B8%BD-f541f509.mp4",
+      "thumbnailPath": "/thumbnail/video/desktop/动漫/%E8%93%9D%E5%8F%91%E5%B0%91%E5%A5%B3%E6%88%B4%E7%99%BD%E8%89%B2%E8%9D%B6%E9%A5%B0%E5%AE%BD%E6%AA%90%E5%B8%BD-f541f509.webp",
+      "publicationId": "c6d72370-84db-43b9-9684-5a4ecc59771e",
       "publicationJobCount": 1
     }
   }
