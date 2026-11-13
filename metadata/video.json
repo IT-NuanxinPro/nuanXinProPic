@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "video",
-  "lastUpdated": "2026-11-13T07:12:01.915Z",
-  "count": 69,
+  "lastUpdated": "2026-11-13T07:12:08.784Z",
+  "count": 70,
   "images": {
     "wallpaper/video/desktop/IP形象/HelloKitty_秋日秋千.mp4": {
       "category": "desktop",
@@ -2282,6 +2282,48 @@
       "previewPath": "/preview/video/desktop/动漫/%E8%93%9D%E5%8F%91%E5%B0%91%E5%A5%B3%E6%88%B4%E7%99%BD%E8%89%B2%E8%9D%B6%E9%A5%B0%E5%AE%BD%E6%AA%90%E5%B8%BD-f541f509.mp4",
       "thumbnailPath": "/thumbnail/video/desktop/动漫/%E8%93%9D%E5%8F%91%E5%B0%91%E5%A5%B3%E6%88%B4%E7%99%BD%E8%89%B2%E8%9D%B6%E9%A5%B0%E5%AE%BD%E6%AA%90%E5%B8%BD-f541f509.webp",
       "publicationId": "c6d72370-84db-43b9-9684-5a4ecc59771e",
+      "publicationJobCount": 1
+    },
+    "wallpaper/video/desktop/动漫/幽蓝星光下闭眼的尖耳少女-b41edce9.mp4": {
+      "id": "video-b41edce9-eccc-4c21-a3c5-36079141d9e5",
+      "jobId": "b41edce9-eccc-4c21-a3c5-36079141d9e5",
+      "category": "desktop",
+      "subcategory": "动漫",
+      "usage": "desktop",
+      "topic": "动漫",
+      "filename": "幽蓝星光下闭眼的尖耳少女-b41edce9.mp4",
+      "createdAt": "2026-11-13T07:08:23.452Z",
+      "size": 23060059,
+      "format": "mp4",
+      "mediaType": "video",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "duration": 8.016667,
+      "codec": "h264",
+      "ai": {
+        "frameId": "frame-2",
+        "model": "gpt-6-sol",
+        "confidence": 0.9,
+        "analyzedAt": "2026-11-13T07:11:57.343Z",
+        "keywords": [
+          "二次元",
+          "蓝发少女",
+          "尖耳",
+          "星纹",
+          "幽蓝光影"
+        ],
+        "description": "蓝发尖耳少女在深蓝夜色中闭目，细亮的星纹掠过面颊，画面静谧而梦幻。",
+        "displayTitle": "星纹映照蓝发少女的梦"
+      },
+      "sha256": "02ecf56fa6941394ca3a5a59dcf5648b5a6a09f8302011679b4187858e15e074",
+      "storage": "r2",
+      "previewPath": "/preview/video/desktop/动漫/%E5%B9%BD%E8%93%9D%E6%98%9F%E5%85%89%E4%B8%8B%E9%97%AD%E7%9C%BC%E7%9A%84%E5%B0%96%E8%80%B3%E5%B0%91%E5%A5%B3-b41edce9.mp4",
+      "thumbnailPath": "/thumbnail/video/desktop/动漫/%E5%B9%BD%E8%93%9D%E6%98%9F%E5%85%89%E4%B8%8B%E9%97%AD%E7%9C%BC%E7%9A%84%E5%B0%96%E8%80%B3%E5%B0%91%E5%A5%B3-b41edce9.webp",
+      "publicationId": "6cd6198b-ed07-4ab3-bdee-c6894fb9c475",
       "publicationJobCount": 1
     }
   }
