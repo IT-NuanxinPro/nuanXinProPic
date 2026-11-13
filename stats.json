@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-11-13T07:12:08.784Z",
-  "cdnTag": "v1.5.9",
+  "lastUpdated": "2026-11-13 07:22:30",
+  "cdnTag": "v1.5.10",
   "series": {
     "desktop": {
-      "count": 963,
+      "count": 995,
       "categories": [
-        "插画",
         "动漫",
+        "插画",
         "人像",
         "风景",
         "IP形象",
-        "影视",
         "游戏",
+        "影视",
         "萌宠",
         "政治",
-        "科技",
         "通用",
+        "科技",
         "汽车"
       ]
     },
@@ -56,13 +56,23 @@
     }
   },
   "total": {
-    "desktop": 963,
+    "desktop": 1035,
     "mobile": 943,
     "avatar": 658,
     "video": 70,
     "bing": 2726
   },
   "releases": [
+    {
+      "tag": "v1.5.10",
+      "date": "2026-11-13",
+      "added": {
+        "desktop": 37,
+        "mobile": 8,
+        "avatar": 0
+      },
+      "publisher": "IT-NuanxinPro"
+    },
     {
       "tag": "v1.5.9",
       "date": "2026-11-13",
