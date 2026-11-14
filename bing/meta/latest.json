@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-11-13 22:25:08",
+  "generatedAt": "2026-11-14 21:08:11",
   "total": 7,
   "items": [
+    {
+      "date": "2026-11-15",
+      "title": "霜染枝叶",
+      "copyright": "覆霜的红叶杜鹃 (© avoferten/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%9D%9C%E9%B9%83%E8%8A%B1&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261114_FirstFrost%22&FORM=HPQUIZ",
+      "hsh": "ec68aadb483bc1046ea041d7af239397",
+      "urlbase": "/th?id=OHR.FirstFrost_ZH-CN2219029557"
+    },
     {
       "date": "2026-11-14",
       "title": "唯有向上发展",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261108_TrianaSpain%22&FORM=HPQUIZ",
       "hsh": "59e5064fcb772d5d91242962833903f7",
       "urlbase": "/th?id=OHR.TrianaSpain_ZH-CN6329291776"
-    },
-    {
-      "date": "2026-11-08",
-      "title": "光芒四射的节日",
-      "copyright": "排灯节灯笼，孟买，马哈拉施特拉邦，印度 (© Dinodia Photo/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E6%8E%92%E7%81%AF%E8%8A%82&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261107_DiwaliLamps%22&FORM=HPQUIZ",
-      "hsh": "8603d5f4458b499767e4c196511719c7",
-      "urlbase": "/th?id=OHR.DiwaliLamps_ZH-CN2462894749"
     }
   ]
 }
