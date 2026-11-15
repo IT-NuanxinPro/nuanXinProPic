@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 318,
+  "total": 319,
   "items": [
+    {
+      "date": "2026-11-16",
+      "title": "历经岁月，屹立不倒",
+      "copyright": "美国新墨西哥州吉拉悬崖民居国家纪念地 (© Chiara Salvadori/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%90%89%E6%8B%89%E6%82%AC%E5%B4%96%E6%B0%91%E5%B1%85%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E5%9C%B0&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261115_GilaCliff%22&FORM=HPQUIZ",
+      "hsh": "77e8d59b9dd7048a85e8166d528bc270",
+      "urlbase": "/th?id=OHR.GilaCliff_ZH-CN2393001519"
+    },
     {
       "date": "2026-11-15",
       "title": "霜染枝叶",
@@ -2865,5 +2874,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-11-14 21:08:11"
+  "updatedAt": "2026-11-15 21:30:45"
 }

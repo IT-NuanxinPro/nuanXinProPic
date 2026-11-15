@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-11-14 21:08:11",
+  "generatedAt": "2026-11-15 21:30:45",
   "total": 7,
   "items": [
+    {
+      "date": "2026-11-16",
+      "title": "历经岁月，屹立不倒",
+      "copyright": "美国新墨西哥州吉拉悬崖民居国家纪念地 (© Chiara Salvadori/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%90%89%E6%8B%89%E6%82%AC%E5%B4%96%E6%B0%91%E5%B1%85%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E5%9C%B0&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261115_GilaCliff%22&FORM=HPQUIZ",
+      "hsh": "77e8d59b9dd7048a85e8166d528bc270",
+      "urlbase": "/th?id=OHR.GilaCliff_ZH-CN2393001519"
+    },
     {
       "date": "2026-11-15",
       "title": "霜染枝叶",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261109_RoseIsland%22&FORM=HPQUIZ",
       "hsh": "9999d3a3c7f78905711802f9717916f9",
       "urlbase": "/th?id=OHR.RoseIsland_ZH-CN6477140814"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "艺术与韵律交汇之地",
-      "copyright": "特里亚纳历史街区，塞维利亚，西班牙 (© Andrzej Rostek/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E5%A1%9E%E7%BB%B4%E5%88%A9%E4%BA%9A&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261108_TrianaSpain%22&FORM=HPQUIZ",
-      "hsh": "59e5064fcb772d5d91242962833903f7",
-      "urlbase": "/th?id=OHR.TrianaSpain_ZH-CN6329291776"
     }
   ]
 }
