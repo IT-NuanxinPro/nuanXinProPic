@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16 02:09:05",
+  "lastUpdated": "2026-11-16T02:19:51.935Z",
   "cdnTag": "v1.5.14",
   "series": {
     "desktop": {
@@ -47,7 +47,7 @@
       ]
     },
     "video": {
-      "count": 70,
+      "count": 72,
       "categories": [
         "social-cover",
         "desktop",
@@ -59,7 +59,7 @@
     "desktop": 1081,
     "mobile": 943,
     "avatar": 658,
-    "video": 70,
+    "video": 72,
     "bing": 2729
   },
   "releases": [
