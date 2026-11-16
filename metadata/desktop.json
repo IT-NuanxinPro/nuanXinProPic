@@ -31502,12 +31502,12 @@
         "reasoning": "画面呈数字绘制的国风人物形象，发饰与衣裙带有古风元素；未见足以确认具体作品或角色的标识。"
       }
     },
-    "wallpaper/desktop/动漫/凡人修真传/2026-07-13_43403.jpg": {
+    "wallpaper/desktop/动漫/凡人修仙传/2026-07-13_43403.jpg": {
       "category": "动漫",
-      "subcategory": "凡人修真传",
+      "subcategory": "凡人修仙传",
       "filename": "2026-07-13_43403.jpg",
       "createdAt": "2026-11-13T07:03:29.463Z",
-      "cdnTag": "v1.5.10",
+      "cdnTag": "v1.5.18",
       "size": 4891877,
       "format": "jpg",
       "resolution": {
@@ -31521,8 +31521,8 @@
         "primary": "desktop",
         "secondary": "动漫",
         "category": "动漫",
-        "third": "凡人修真传",
-        "subcategory": "凡人修真传",
+        "third": "凡人修仙传",
+        "subcategory": "凡人修仙传",
         "filenameSuggestions": [
           "金色雷光中的玄衣施法韩立.jpg",
           "赤色天幕下凝聚雷电的古装韩立.jpg"
