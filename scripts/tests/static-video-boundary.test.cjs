@@ -6,7 +6,8 @@ const { spawnSync } = require('node:child_process')
 const { test } = require('node:test')
 
 const pictureRoot = path.resolve(__dirname, '../..')
-const workflowRoot = path.resolve(pictureRoot, '../wallpaper-gallery-workflow')
+const workflowRoot = process.env.WORKFLOW_REPO_ROOT || process.env.WORKFLOW_TEST_ROOT || path.resolve(pictureRoot, '../wallpaper-gallery-workflow')
+const realGit = spawnSync('which', ['git'], { encoding: 'utf8' }).stdout.trim()
 const metadataScripts = [pictureRoot, workflowRoot].map(root => path.join(root, 'scripts/process-metadata.js'))
 
 function fixture(t) {
@@ -41,6 +42,8 @@ function run(command, args, root, env = {}) {
 }
 
 function metadataRunner(root, script) {
+  const helper = path.join(path.dirname(script), 'lib/timestamps.mjs')
+  if (fs.existsSync(helper)) write(root, 'lib/timestamps.mjs', fs.readFileSync(helper, 'utf8'))
   // 只重定向旧脚本的临时交接文件，所有处理逻辑使用原脚本。
   write(root, 'metadata-runner.cjs', fs.readFileSync(script, 'utf8').replaceAll('/tmp/metadata_processed.txt', path.join(root, 'processed.txt')))
   return path.join(root, 'metadata-runner.cjs')
@@ -137,7 +140,7 @@ test('standalone data scan keeps video output and does not add video timestamps'
   const root = fixture(t)
   initialize(root)
   write(root, 'package.json', { type: 'module' })
-  for (const name of ['generate-data.js', 'codec-config.js']) {
+  for (const name of ['generate-data.js', 'codec-config.js', 'lib/timestamps.mjs']) {
     write(root, `scripts/${name}`, fs.readFileSync(path.join(pictureRoot, 'scripts', name), 'utf8'))
   }
   write(root, 'wallpaper/video/desktop/topic/local.mp4', 'fixture-video')
@@ -213,22 +216,33 @@ test(`release stats retains other series and history using ${nodeFallback ? 'Nod
   write(root, 'stats.json', initialStats)
   // 仅替换临时交接文件路径，避免依赖机器上其他任务的 /tmp 状态。
   write(root, 'publish.sh', fs.readFileSync(path.join(workflowRoot, 'scripts/publish-release.sh'), 'utf8').replaceAll('/tmp/new_tag.txt', path.join(root, 'tag.txt')))
+  write(root, 'lib/timestamps.mjs', fs.readFileSync(path.join(workflowRoot, 'scripts/lib/timestamps.mjs'), 'utf8'))
   write(root, 'tag.txt', 'v1.0.1')
-  binary(root, 'git', 'if [ "$1" = status ]; then echo " M stats.json"; elif [ "$1" = push ]; then exit 17; fi')
+  for (const args of [
+    ['init', '-q'], ['config', 'user.name', 'Fixture'], ['config', 'user.email', 'fixture@example.test'],
+    ['add', '.'], ['commit', '-qm', 'baseline'], ['tag', 'v1.0.0'],
+  ]) assert.equal(run(realGit, args, root).status, 0)
+  write(root, 'wallpaper/desktop/动漫/新图[1]||.jpg', 'fixture-image')
+  for (const args of [['add', '.'], ['commit', '-qm', 'new image'], ['tag', 'v1.0.1']])
+    assert.equal(run(realGit, args, root).status, 0)
+  binary(root, 'git', `if [ "$1" = push ]; then exit 17; fi
+exec "${realGit}" "$@"`)
   binary(root, 'gh', 'echo published > "$RELEASE_LOG"')
   if (nodeFallback) {
     for (const name of ['bash', 'date', 'cat']) fs.symlinkSync(`/bin/${name}`, path.join(root, 'bin', name))
-    for (const name of ['grep', 'wc', 'tr']) fs.symlinkSync(`/usr/bin/${name}`, path.join(root, 'bin', name))
+    for (const name of ['grep', 'wc', 'tr', 'dirname']) fs.symlinkSync(`/usr/bin/${name}`, path.join(root, 'bin', name))
     fs.symlinkSync(process.execPath, path.join(root, 'bin/node'))
   }
   const result = run('bash', [path.join(root, 'publish.sh'), root, 'fixture', 'tester'], root, { PATH: nodeFallback ? path.join(root, 'bin') : `${path.join(root, 'bin')}:${process.env.PATH}`, RELEASE_LOG: path.join(root, 'released') })
   assert.notEqual(result.status, 0)
   const stats = JSON.parse(fs.readFileSync(path.join(root, 'stats.json')))
+  assert.equal(stats.total.desktop, 1)
+  assert.equal(stats.releases[0].added.desktop, 1)
+  assert.equal(stats.releases[0].added.mobile, 0)
   assert.equal(stats.total.video, 42)
   assert.equal(stats.total.bing, 55)
-  assert.equal(stats.total.bing, 55)
   assert.equal(stats.total.future, 88)
-  assert.equal(stats.releases.length, 52)
+  assert.equal(stats.releases.length, 52, result.stderr + result.stdout)
   assert.deepEqual(stats.releases.at(-1), { tag: 'v0.0.50', added: { video: 1 }, opaque: true })
   assert.equal(fs.existsSync(path.join(root, 'released')), false)
 })

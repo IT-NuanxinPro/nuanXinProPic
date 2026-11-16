@@ -814,7 +814,7 @@ async function main() {
   // ========================================
   // 这会处理通过 Gitee 同步或其他方式直接添加的资源
   console.log('步骤 2: 从 timestamps 同步缺失的资源...')
-  const syncedFromTimestamps = syncFromTimestamps(timestampsFile, metadataMap, newTag)
+  const syncedFromTimestamps = await syncFromTimestamps(timestampsFile, metadataMap, newTag)
   totalProcessed += syncedFromTimestamps
   console.log(`  从 timestamps 同步了 ${syncedFromTimestamps} 个资源`)
   console.log()
@@ -862,7 +862,8 @@ async function main() {
 }
 
 // 从 timestamps-backup-all.txt 同步缺失的图片到 metadata
-function syncFromTimestamps(timestampsFile, metadataMap, defaultTag) {
+async function syncFromTimestamps(timestampsFile, metadataMap, defaultTag) {
+  const { parseTimestamp } = await import('./lib/timestamps.mjs')
   if (!fs.existsSync(timestampsFile)) {
     console.log('  timestamps-backup-all.txt 不存在，跳过同步')
     return 0
@@ -874,27 +875,9 @@ function syncFromTimestamps(timestampsFile, metadataMap, defaultTag) {
   let synced = 0
 
   for (const line of lines) {
-    // 格式兼容：
-    // series|relativePath|timestamp|cdnTag
-    // series|relativePath|timestamp
-    // relativePath|timestamp (历史桌面图)
-    const parts = line.split('|')
-    if (parts.length < 2) continue
-
-    let series = 'desktop'
-    let relativePath = ''
-    let timestamp = ''
-    let cdnTag = defaultTag
-
-    if (parts.length >= 4) {
-      [series, relativePath, timestamp, cdnTag] = parts
-    }
-    else if (parts.length === 3) {
-      [series, relativePath, timestamp] = parts
-    }
-    else if (parts.length === 2) {
-      [relativePath, timestamp] = parts
-    }
+    const record = parseTimestamp(line)
+    if (!record) continue
+    const { series, relativePath, timestamp, tag: cdnTag } = record
 
     // 只处理已知的 series
     if (!metadataMap[series]) continue
@@ -971,6 +954,7 @@ module.exports = {
   findActualImagePath,
   generateFrontendData,
   reconcileMetadataImagePath,
+  syncFromTimestamps,
 }
 
 if (require.main === module) {

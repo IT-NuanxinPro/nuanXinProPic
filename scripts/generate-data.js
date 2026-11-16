@@ -21,6 +21,7 @@
  */
 
 import { Buffer } from 'node:buffer'
+import { parseTimestamp } from './lib/timestamps.mjs'
 import { execSync } from 'node:child_process'
 import fs from 'node:fs'
 import path from 'node:path'
@@ -58,24 +59,14 @@ function loadTimestampBackup(rootDir) {
     const lines = content.split('\n').filter(line => line.trim())
 
     for (const line of lines) {
-      const parts = line.split('|')
-      if (parts.length === 4) {
-        // 新格式: series|path|timestamp|first_tag
-        const [series, relativePath, timestamp, firstTag] = parts
-        const key = `${series}|${relativePath.trim()}`
-        timestampMap.set(key, parseInt(timestamp.trim()) * 1000)
-        tagMap.set(key, firstTag.trim())
-      } else if (parts.length === 3) {
-        // 旧格式(兼容): series|path|timestamp
-        const [series, relativePath, timestamp] = parts
-        const key = `${series}|${relativePath.trim()}`
-        timestampMap.set(key, parseInt(timestamp.trim()) * 1000)
-      } else if (parts.length === 2) {
-        // 更旧格式(兼容): path|timestamp (默认 desktop)
-        const [relativePath, timestamp] = parts
-        const key = `desktop|${relativePath.trim()}`
-        timestampMap.set(key, parseInt(timestamp.trim()) * 1000)
-      }
+      const record = parseTimestamp(line)
+      if (!record) continue
+      const key = `${record.series}|${record.relativePath}`
+      const previous = timestampMap.get(key)
+      if (previous !== undefined && previous <= record.timestamp * 1000) continue
+      timestampMap.set(key, record.timestamp * 1000)
+      if (record.tag) tagMap.set(key, record.tag)
+      else tagMap.delete(key)
     }
     console.log(`  Loaded ${timestampMap.size} timestamps from timestamps-backup-all.txt`)
     console.log(`  Loaded ${tagMap.size} first_tag entries`)

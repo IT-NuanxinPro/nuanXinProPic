@@ -56,7 +56,7 @@
     }
   },
   "total": {
-    "desktop": 1120,
+    "desktop": 1050,
     "mobile": 943,
     "avatar": 658,
     "video": 72,
@@ -67,8 +67,8 @@
       "tag": "v1.5.16",
       "date": "2026-11-16",
       "added": {
-        "desktop": 33,
-        "mobile": 8,
+        "desktop": 28,
+        "mobile": 0,
         "avatar": 0
       },
       "publisher": "IT-NuanxinPro"
@@ -77,8 +77,8 @@
       "tag": "v1.5.15",
       "date": "2026-11-16",
       "added": {
-        "desktop": 6,
-        "mobile": 8,
+        "desktop": 1,
+        "mobile": 0,
         "avatar": 0
       },
       "publisher": "IT-NuanxinPro"
@@ -87,8 +87,8 @@
       "tag": "v1.5.14",
       "date": "2026-11-16",
       "added": {
-        "desktop": 31,
-        "mobile": 8,
+        "desktop": 26,
+        "mobile": 0,
         "avatar": 0
       },
       "publisher": "IT-NuanxinPro"
@@ -130,8 +130,8 @@
       "tag": "v1.5.10",
       "date": "2026-11-13",
       "added": {
-        "desktop": 37,
-        "mobile": 8,
+        "desktop": 32,
+        "mobile": 0,
         "avatar": 0
       },
       "publisher": "IT-NuanxinPro"
@@ -151,8 +151,8 @@
       "tag": "v1.5.8",
       "date": "2026-11-12",
       "added": {
-        "desktop": 13,
-        "mobile": 8,
+        "desktop": 8,
+        "mobile": 0,
         "avatar": 0
       },
       "publisher": "IT-NuanxinPro"
@@ -173,8 +173,8 @@
       "tag": "v1.5.6",
       "date": "2026-11-12",
       "added": {
-        "desktop": 7,
-        "mobile": 11,
+        "desktop": 2,
+        "mobile": 3,
         "avatar": 0
       },
       "publisher": "IT-NuanxinPro"
@@ -183,8 +183,8 @@
       "tag": "v1.5.5",
       "date": "2026-11-12",
       "added": {
-        "desktop": 37,
-        "mobile": 8,
+        "desktop": 32,
+        "mobile": 0,
         "avatar": 0
       },
       "publisher": "IT-NuanxinPro"
@@ -205,8 +205,8 @@
       "tag": "v1.5.3",
       "date": "2026-11-11",
       "added": {
-        "desktop": 29,
-        "mobile": 8,
+        "desktop": 24,
+        "mobile": 0,
         "avatar": 0
       },
       "publisher": "IT-NuanxinPro"
