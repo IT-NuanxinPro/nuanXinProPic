@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-11-15 21:30:51",
-  "count": 995,
+  "lastUpdated": "2026-11-16 02:09:04",
+  "count": 1021,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -32580,6 +32580,1024 @@
         "displayTitle": "蓝发少女跃入晴空",
         "confidence": 0.9,
         "reasoning": "画面为二次元风格的蓝发少女，身穿女仆装，在蓝色背景前挥拳；缺乏足以确认具体作品或人物的视觉依据。"
+      }
+    },
+    "wallpaper/desktop/游戏/原神/2026-06-18_42925.jpg": {
+      "category": "游戏",
+      "subcategory": "原神",
+      "filename": "2026-06-18_42925.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 3426908,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "游戏",
+        "subcategory": "原神",
+        "primary": "desktop",
+        "secondary": "游戏",
+        "third": "原神",
+        "keywords": [
+          "芙宁娜",
+          "原神",
+          "二次元插画",
+          "异色蓝瞳",
+          "托腮比耶"
+        ],
+        "description": "银蓝发丝在光影中轻扬，少女托腮比耶，深浅蓝瞳与暗色背景映出清澈灵动。",
+        "filenameSuggestions": [
+          "银蓝短发芙宁娜托腮比耶.jpg",
+          "异色蓝瞳芙宁娜近景肖像.jpg"
+        ],
+        "displayTitle": "银蓝发间流转的澄澈目光",
+        "confidence": 0.9,
+        "reasoning": "画面为二次元角色近景插画，银蓝发色、深浅异色蓝瞳及水滴状瞳孔符合原神角色芙宁娜的视觉特征，优先归入游戏下的原神。"
+      }
+    },
+    "wallpaper/desktop/风景/自然/2026-06-18_43015.jpg": {
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "2026-06-18_43015.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 5725240,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "自然风光",
+          "写实摄影",
+          "草原",
+          "蓝天白云",
+          "绿色丘陵"
+        ],
+        "description": "青翠草甸铺展至天际，连绵缓丘沐浴阳光，白云在澄澈蓝天间舒展。",
+        "filenameSuggestions": [
+          "蓝天白云下的辽阔起伏草原.jpg",
+          "阳光照耀下的青翠草甸丘陵.jpg"
+        ],
+        "displayTitle": "碧野连天白云悠悠",
+        "confidence": 0.9,
+        "reasoning": "画面为写实自然风光，近景草丛与远处绿色缓丘层层延伸，上方蓝天白云开阔，归入风景下的自然最为贴切。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-06-17_42990.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-06-17_42990.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 3095003,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "古装女子",
+          "临水木廊",
+          "斑驳光影",
+          "写实渲染"
+        ],
+        "description": "浅青衣裙的女子静坐临水木廊，绿叶筛落晴光，轻纱与碧水相映成一帘清梦。",
+        "filenameSuggestions": [
+          "浅青古装女子临水木廊静坐.jpg",
+          "斑驳树影下的长发古风女子.jpg"
+        ],
+        "displayTitle": "水榭晴光映照青衣倩影",
+        "confidence": 0.9,
+        "reasoning": "画面呈写实三维渲染质感，长发女子身着古风衣裙，周围可见木廊、流水、树影与白色垂帘。无明确作品或人物身份依据，按整体中式古典视觉归入插画下的国风。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-06-17_42989.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-06-17_42989.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 3552915,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "古装少女",
+          "轻纱飘带",
+          "桃林溪瀑",
+          "林间光影"
+        ],
+        "description": "青白纱衣少女立于溪畔山石，桃枝垂映，细瀑流光，衣带随风轻扬。",
+        "filenameSuggestions": [
+          "青白纱衣少女立于桃林溪畔.jpg",
+          "梦幻古装少女抬手倚立山石.jpg"
+        ],
+        "displayTitle": "桃溪流光映照云裳",
+        "confidence": 0.9,
+        "reasoning": "画面呈三维渲染质感，古装少女身着青白纱衣，置身桃树、溪瀑与苔石构成的幻想山林。未能确认具体作品或人物，依据服饰与整体意境归入插画下的国风。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-06-16_42743.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-06-16_42743.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 2676002,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "古风女子",
+          "水墨山水",
+          "莲花",
+          "飘逸轻纱"
+        ],
+        "description": "青衣女子静立烟岚山水间，莲花映肩，轻纱随风舒展，点点微光添几分空灵。",
+        "filenameSuggestions": [
+          "青衣女子伴莲立于水墨山间.jpg",
+          "古风女子轻纱飘舞映远山.jpg"
+        ],
+        "displayTitle": "烟岚浮翠莲影照佳人",
+        "confidence": 0.9,
+        "reasoning": "画面为绘画式幻想插画，女子着青绿色古风衣裙，配以莲花、飘带及水墨远山，未见可确认的作品或人物标识，归入插画下的国风分类。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-06-16_42733.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-06-16_42733.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 4043534,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "古风少女",
+          "长发",
+          "玉饰",
+          "青白山水"
+        ],
+        "description": "长发少女身着浅色衣衫，玉饰映衬清丽眉眼，青白山水与留白铺展出悠远意境。",
+        "filenameSuggestions": [
+          "清雅古风少女浅衣佩玉肖像.jpg",
+          "青白山水背景中的长发少女.jpg"
+        ],
+        "displayTitle": "清风拂发玉影含烟",
+        "confidence": 0.9,
+        "reasoning": "画面为具有三维渲染质感的古风女性数字插画，浅色衣饰、玉饰与山水留白呈现国风审美；无法确认具体作品或人物，归入插画下的国风。"
+      }
+    },
+    "wallpaper/desktop/插画/创意/2026-06-15_42955.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "2026-06-15_42955.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 3330748,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "插画",
+        "category": "插画",
+        "third": "创意",
+        "subcategory": "创意",
+        "filenameSuggestions": [
+          "浅紫发兜帽少女侧坐远望.jpg",
+          "清透蓝光下的白衣光环少女.jpg"
+        ],
+        "filenames": [
+          "浅紫发兜帽少女侧坐远望.jpg",
+          "清透蓝光下的白衣光环少女.jpg"
+        ],
+        "displayTitle": "浅蓝天光里静候微风",
+        "keywords": [
+          "蔚蓝档案",
+          "日系插画",
+          "兜帽少女",
+          "几何光环",
+          "浅蓝色调"
+        ],
+        "description": "浅蓝天光笼罩城市，白色兜帽少女静坐凝望，前景虚影衬出片刻安宁。",
+        "confidence": 0.9,
+        "reasoning": "画面为日系游戏角色插画，右侧少女戴白色兜帽，头顶有几何光环，左侧以前景人物及枪械装备形成纵深。作品视觉特征对应《蔚蓝档案》，现有目录无专属分类，归入游戏下的通用。"
+      }
+    },
+    "wallpaper/desktop/插画/通用/2026-06-14_42945.jpg": {
+      "category": "插画",
+      "subcategory": "通用",
+      "filename": "2026-06-14_42945.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 3496129,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "通用",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "通用",
+        "keywords": [
+          "三维插画",
+          "红发少女",
+          "侧颜",
+          "金色光环",
+          "几何装饰"
+        ],
+        "description": "红发少女抬臂侧首，金色饰链映着柔光，身后圆环与几何线条交织出华丽静谧。",
+        "filenameSuggestions": [
+          "金色光环前的红发少女侧颜.jpg",
+          "暖光中红发少女抬臂回眸.jpg"
+        ],
+        "displayTitle": "绯红发间流转鎏金微光",
+        "confidence": 0.9,
+        "reasoning": "画面为三维渲染质感的人物插画，主体是红发编辫、佩戴金饰的少女，背景由明亮圆环和几何线条构成。无充分依据确认具体作品或人物，归入插画下的通用分类。"
+      }
+    },
+    "wallpaper/desktop/游戏/原神/2026-06-14_42939.jpg": {
+      "category": "游戏",
+      "subcategory": "原神",
+      "filename": "2026-06-14_42939.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 7163410,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "游戏",
+        "subcategory": "原神",
+        "primary": "desktop",
+        "secondary": "游戏",
+        "third": "原神",
+        "keywords": [
+          "原神",
+          "蓝砚",
+          "国风插画",
+          "水乡",
+          "光影"
+        ],
+        "description": "古桥筛落柔光，少女静坐轻舟，足尖轻点碧水，蝶影与涟漪共织清幽梦境。",
+        "filenameSuggestions": [
+          "清雅蓝砚乘舟垂足点水.jpg",
+          "古桥下蓝砚静坐荷塘小舟.jpg"
+        ],
+        "displayTitle": "一叶轻舟摇落满池星光",
+        "confidence": 0.9,
+        "reasoning": "人物的深蓝环髻、白青服饰与金色藤环符合《原神》蓝砚的形象特征；横向画面呈现古桥、轻舟与荷叶水面，优先归入具体游戏分类。"
+      }
+    },
+    "wallpaper/desktop/动漫/插画/2026-06-13_42924.jpg": {
+      "category": "动漫",
+      "subcategory": "插画",
+      "filename": "2026-06-13_42924.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 3767157,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "插画",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "插画",
+        "keywords": [
+          "二次元插画",
+          "金发少女",
+          "壁炉暖光",
+          "复古室内",
+          "明暗对比"
+        ],
+        "description": "炉火照亮两位金发少女，裙摆铺展于木地板，散落的桌椅隐入幽暗。",
+        "filenameSuggestions": [
+          "暖光中金发少女围坐壁炉旁.jpg",
+          "复古房间里相对而坐的少女.jpg"
+        ],
+        "displayTitle": "炉火映照静谧的旧时光",
+        "confidence": 0.9,
+        "reasoning": "画面以二次元绘画呈现两位金发少女及复古室内环境，横向构图保留壁炉、木地板与倾倒家具。无法仅凭可见特征确认具体作品或人物，归入动漫下的插画分类。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/2026-06-13_42963.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2026-06-13_42963.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 1814383,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "黑发少女",
+          "暗色背景",
+          "暖色光影",
+          "人物特写"
+        ],
+        "description": "黑发少女抬手轻倚面庞，暖橙色勾勒眉眼，右侧人物与左侧暗色留白相映。",
+        "filenameSuggestions": [
+          "暗色背景中抬手凝望的黑发少女.jpg",
+          "暖橙光影下侧脸回眸的动漫少女.jpg"
+        ],
+        "displayTitle": "暗夜深处一抹温柔凝眸",
+        "confidence": 0.9,
+        "reasoning": "画面为动漫风格人物插画，黑发少女位于右侧，左侧大面积暗色留白，面部与手部以暖橙色线条勾勒。无明确作品或人物身份依据，归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-06-12_43035.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-06-12_43035.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 1267811,
+      "format": "jpg",
+      "resolution": {
+        "width": 7680,
+        "height": 4320,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "金色麦穗",
+          "书法祝福",
+          "极简留白"
+        ],
+        "description": "金黄麦穗在素雅留白间舒展，竖排墨字寄寓前程似锦与金榜题名的美好祝愿。",
+        "filenameSuggestions": [
+          "淡雅金黄麦穗映衬书法祝福.jpg",
+          "素色背景金色麦穗国风插画.jpg"
+        ],
+        "displayTitle": "金穗迎光前程似锦",
+        "confidence": 0.9,
+        "reasoning": "画面以手绘金色麦穗为主体，搭配“前程似锦”“金榜题名”竖排书法及大面积留白，具有明确的国风插画特征。"
+      }
+    },
+    "wallpaper/desktop/插画/卡通/2026-06-12_42949.jpg": {
+      "category": "插画",
+      "subcategory": "卡通",
+      "filename": "2026-06-12_42949.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 724531,
+      "format": "jpg",
+      "resolution": {
+        "width": 7680,
+        "height": 4320,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "卡通",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "卡通",
+        "keywords": [
+          "卡通插画",
+          "白鸭",
+          "绿叶",
+          "草地",
+          "极简治愈"
+        ],
+        "description": "白鸭仰躺在嫩绿草地上，绿叶轻覆面庞，舒展双翅，尽享一隅清闲。",
+        "filenameSuggestions": [
+          "绿叶覆面的白鸭仰躺草地.jpg",
+          "嫩绿草地上展翅躺卧的白鸭.jpg"
+        ],
+        "displayTitle": "一叶轻遮草色里的悠然",
+        "confidence": 0.9,
+        "reasoning": "画面以简洁手绘线条表现白鸭、覆面绿叶与大片绿色草地，属于卡通插画；未见足以确认具体作品或IP身份的特征。"
+      }
+    },
+    "wallpaper/desktop/游戏/原神/2026-06-11_42926.jpg": {
+      "category": "游戏",
+      "subcategory": "原神",
+      "filename": "2026-06-11_42926.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 3749063,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "游戏",
+        "subcategory": "原神",
+        "primary": "desktop",
+        "secondary": "游戏",
+        "third": "原神",
+        "keywords": [
+          "原神",
+          "珊瑚宫心海",
+          "二次元插画",
+          "海滨日落",
+          "梦幻泡影"
+        ],
+        "description": "暮色染暖海面，珊瑚宫心海静坐礁石，轻盈泡影映着霞光，织出温柔梦境。",
+        "filenameSuggestions": [
+          "暖霞中珊瑚宫心海静坐海礁.jpg",
+          "落日下珊瑚宫心海轻触泡影.jpg"
+        ],
+        "displayTitle": "珊瑚宫畔霞光入梦",
+        "confidence": 0.9,
+        "reasoning": "人物具有珊瑚宫心海标志性的粉色长发、鱼鳍状发饰与蓝紫色服装，可识别为《原神》角色。横向画面展现落日海滨、礁石与泡影，属于游戏角色同人插画，优先归入游戏下的原神。"
+      }
+    },
+    "wallpaper/desktop/风景/自然/2026-06-11_42953.jpg": {
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "2026-06-11_42953.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 10025008,
+      "format": "jpg",
+      "resolution": {
+        "width": 5120,
+        "height": 2880,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "风光摄影",
+          "山谷田园",
+          "岩石群峰",
+          "乡村教堂",
+          "金色暮光"
+        ],
+        "description": "暮光轻染嶙峋群峰，苍翠林海环抱碧绿田野，尖顶教堂静立山谷之间。",
+        "filenameSuggestions": [
+          "金色暮光下的群峰与田园村庄.jpg",
+          "翠绿山谷中的教堂与层叠群山.jpg"
+        ],
+        "displayTitle": "暮光染群峰田园入画",
+        "confidence": 0.9,
+        "reasoning": "画面为写实风光摄影，远处岩峰、森林与近处草坡田野构成主体，村舍和教堂点缀其间，整体最符合风景下的自然分类。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/2026-06-10_42932.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2026-06-10_42932.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 6556444,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "娜娜",
+          "日系动漫",
+          "摇滚风",
+          "双人肖像",
+          "复古拼贴"
+        ],
+        "description": "紫黑色海报与城市窗景交叠，两位少女相依而坐，温柔与叛逆在旧纸纹理间交织。",
+        "filenameSuggestions": [
+          "复古拼贴背景下的娜娜双人像.jpg",
+          "紫黑摇滚风少女并肩依偎.jpg"
+        ],
+        "displayTitle": "蔷薇夜色里的温柔依偎",
+        "confidence": 0.9,
+        "reasoning": "画面以《娜娜》两位女主角为主体，搭配乐队海报、蝴蝶图案和紫黑拼贴背景，具有鲜明的日系漫画与摇滚美学。现有目录无该作品，故归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2026-06-10_42970.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-06-10_42970.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 4225567,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "治愈系插画",
+          "辽阔草原",
+          "白裙女孩",
+          "小狗",
+          "暖色晴空"
+        ],
+        "description": "白裙女孩与小狗静坐青翠草坡，远处绿野起伏，柔和天光铺展成宁静的梦。",
+        "filenameSuggestions": [
+          "清新白裙女孩与小狗静坐草坡.jpg",
+          "明亮草原上相伴看远方的女孩与狗.jpg"
+        ],
+        "displayTitle": "风过青原与你共听晴光",
+        "confidence": 0.9,
+        "reasoning": "画面以绘画方式呈现辽阔草原、柔和天空及草坡上的女孩与小狗，环境构图占主导，无明确作品或人物身份依据，归入插画下的场景分类。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-06-09_42968.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-06-09_42968.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 3675430,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "三维渲染",
+          "古装女子",
+          "轻纱面饰",
+          "冷蓝色调"
+        ],
+        "description": "长发女子身着浅蓝衣裙斜倚纱间，银饰与薄纱交映，前景花枝添几分朦胧。",
+        "filenameSuggestions": [
+          "浅蓝古装女子轻纱间斜倚.jpg",
+          "银冠长发女子蓝色纱帐中.jpg"
+        ],
+        "displayTitle": "蓝纱轻拢一帘清梦",
+        "confidence": 0.9,
+        "reasoning": "画面为三维渲染风格的古装女子，具有银色发饰、轻纱面饰与蓝色衣裙，横向构图保留纱帐及前景花枝。无充分依据确认具体作品或人物，按明确的古典服饰与国风视觉归入插画下的国风。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/2026-06-09_42948.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2026-06-09_42948.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 4018028,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "三维动漫",
+          "暗黑奇幻",
+          "绿衣女子",
+          "骸骨王座",
+          "幽暗殿堂"
+        ],
+        "description": "碧衣女子斜倚骸骨王座，金饰映着微光，幽暗殿堂与远处火色交织出冷峻气息。",
+        "filenameSuggestions": [
+          "碧衣长发女子端坐骸骨王座.jpg",
+          "幽暗殿堂中交叠双腿的绿衣女子.jpg"
+        ],
+        "displayTitle": "幽殿寒光映碧衣孤影",
+        "confidence": 0.9,
+        "reasoning": "画面为三维动漫渲染，长发女子身着绿色衣裙，置身骸骨环绕的王座与幽暗殿堂。无充分依据确认具体作品或人物，归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/2026-06-08_42833.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2026-06-08_42833.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 3527525,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "二次元",
+        "subcategory": "二次元",
+        "filenameSuggestions": [
+          "柔光中银白短发少女窗边肖像.jpg",
+          "身穿白色蕾丝衣裙的银发少女.jpg"
+        ],
+        "filenames": [
+          "柔光中银白短发少女窗边肖像.jpg",
+          "身穿白色蕾丝衣裙的银发少女.jpg"
+        ],
+        "displayTitle": "银发轻拂窗畔晨光",
+        "keywords": [
+          "银白短发",
+          "窗边逆光",
+          "蕾丝衣裙",
+          "冷暖光影"
+        ],
+        "description": "银白短发映着窗边暖光，蕾丝与薄纱交织细腻纹理，蓝灰色调静谧温柔。",
+        "confidence": 0.9,
+        "reasoning": "画面为偏三维渲染质感的数字人物插画，银发少女居左，右侧窗框与薄纱形成逆光背景。未有充分依据确认具体作品或人物，归入插画下的通用分类。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2026-06-08_42848.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2026-06-08_42848.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 4923882,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2560,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感人像",
+          "冷色调",
+          "侧颜仰望",
+          "毛领外套",
+          "盘发发饰"
+        ],
+        "description": "灰墙与疏叶隐入冷色背景，女子裹着蓬松毛领侧颜仰望，眉眼间凝着静谧。",
+        "filenameSuggestions": [
+          "冷色光影中毛领女子侧颜仰望.jpg",
+          "灰墙前佩戴发饰的黑衣女子.jpg"
+        ],
+        "displayTitle": "灰墙疏影间抬眸望远",
+        "confidence": 0.9,
+        "reasoning": "画面为写实人像摄影，女子身穿黑色毛领外套，盘发佩饰，侧脸向上仰望。灰墙、植物与虚化前景营造冷调静谧氛围，适合归入人像下的氛围感；仅凭发饰不足以判为国风。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-06-07_42944.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-06-07_42944.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 4947638,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "持剑女子",
+          "灵虎",
+          "传统纹样",
+          "红黑配色"
+        ],
+        "description": "赤衣女子举剑凝望，长发与飘带交织，灵虎穿行于古雅纹样之间，红黑色调尽显奇幻气韵。",
+        "filenameSuggestions": [
+          "赤衣长发女子举剑灵虎环绕.jpg",
+          "国风持剑女子与云纹白虎.jpg"
+        ],
+        "displayTitle": "赤衣执剑灵虎绕清影",
+        "confidence": 0.9,
+        "reasoning": "画面为绘画插画，以赤衣持剑女子为中心，周围分布虎形灵兽与传统装饰纹样，具有鲜明国风奇幻特征；未见足以确认具体作品或人物的标识。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-06-06_42889.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-06-06_42889.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 3071009,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "紫衣女子",
+          "古城夜景",
+          "星空圆月",
+          "凭栏背影"
+        ],
+        "description": "紫衣女子凭栏远望，长发与飘带随风舒展，满城灯火映着星河明月。",
+        "filenameSuggestions": [
+          "紫衣长发女子凭栏望月夜景.jpg",
+          "古风女子背影与灯火古城.jpg"
+        ],
+        "displayTitle": "紫袖迎风遥望满城星月",
+        "confidence": 0.9,
+        "reasoning": "画面呈三维渲染质感，紫衣古风女子背对观者立于楼台，远处铺展古城灯火与星月夜空。无可确认的作品或人物标识，归入插画下的国风分类。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-06-06_42946.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-06-06_42946.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 3655593,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "紫衣女子",
+          "古城楼阁",
+          "霞光",
+          "轻纱长裙"
+        ],
+        "description": "紫衣女子立于楼阁长廊，轻纱随风舒展，远处古城层叠，山影与霞光相映。",
+        "filenameSuggestions": [
+          "紫衣长发女子凭栏远眺古城.jpg",
+          "霞光中古装女子立于楼阁长廊.jpg"
+        ],
+        "displayTitle": "紫衣临风遥望烟霞城",
+        "confidence": 0.9,
+        "reasoning": "画面为数字绘画风格，主体是紫衣古装女子，横向展开古城楼阁、山峦与霞光，具有鲜明国风幻想意境；无明确作品或人物身份依据，归入插画下的国风。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2026-06-05_42934.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2026-06-05_42934.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 3521583,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感人像",
+          "黑发女子",
+          "暖色流光",
+          "回眸",
+          "柔焦"
+        ],
+        "description": "黑发女子侧身回眸，橙红流光掠过浅灰背景，柔焦与颗粒交织出朦胧诗意。",
+        "filenameSuggestions": [
+          "暖色流光中黑发女子回眸.jpg",
+          "浅灰背景下黑发女子侧身肖像.jpg"
+        ],
+        "displayTitle": "流光掠影间的一瞬回眸",
+        "confidence": 0.9,
+        "reasoning": "画面以写实质感的黑发女子半身肖像为主体，横向构图保留左侧留白，右侧叠加橙红光影与颗粒效果，氛围营造突出，适合归入人像下的氛围感。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/2026-06-05_42937.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2026-06-05_42937.jpg",
+      "createdAt": "2026-11-16T02:04:49.620Z",
+      "cdnTag": "v1.5.14",
+      "size": 5243690,
+      "format": "jpg",
+      "resolution": {
+        "width": 4279,
+        "height": 2400,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "短发少女",
+          "白衬衫",
+          "蓝天白云",
+          "清新插画"
+        ],
+        "description": "短发少女身着白衬衫俯身凝望，晴空白云映衬面庞，明亮光影轻拂发梢。",
+        "filenameSuggestions": [
+          "晴空下白衬衫短发少女近景.jpg",
+          "蓝天白云下短发少女俯身凝望.jpg"
+        ],
+        "displayTitle": "晴空流云间的温柔回眸",
+        "confidence": 0.9,
+        "reasoning": "画面为二次元绘画，横向构图以低视角呈现白衬衫短发少女，背景为蓝天与大片白云；无明确作品或人物身份依据，归入动漫下的二次元。"
       }
     }
   }
