@@ -1,0 +1,218 @@
+{
+  "head": "3ae03802c9183c1370a85a74c3920f6770d5d87c",
+  "correctedReleases": [
+    {
+      "tag": "v1.5.16",
+      "previous": "v1.5.15",
+      "oldAdded": {
+        "desktop": 33,
+        "mobile": 8,
+        "avatar": 0
+      },
+      "newAdded": {
+        "desktop": 28,
+        "mobile": 0,
+        "avatar": 0
+      },
+      "total": {
+        "desktop": 1050,
+        "mobile": 943,
+        "avatar": 658
+      },
+      "bodyChanged": true
+    },
+    {
+      "tag": "v1.5.15",
+      "previous": "v1.5.14",
+      "oldAdded": {
+        "desktop": 6,
+        "mobile": 8,
+        "avatar": 0
+      },
+      "newAdded": {
+        "desktop": 1,
+        "mobile": 0,
+        "avatar": 0
+      },
+      "total": {
+        "desktop": 1022,
+        "mobile": 943,
+        "avatar": 658
+      },
+      "bodyChanged": true
+    },
+    {
+      "tag": "v1.5.14",
+      "previous": "v1.5.13",
+      "oldAdded": {
+        "desktop": 31,
+        "mobile": 8,
+        "avatar": 0
+      },
+      "newAdded": {
+        "desktop": 26,
+        "mobile": 0,
+        "avatar": 0
+      },
+      "total": {
+        "desktop": 1021,
+        "mobile": 943,
+        "avatar": 658
+      },
+      "bodyChanged": true
+    },
+    {
+      "tag": "v1.5.10",
+      "previous": "v1.5.9",
+      "oldAdded": {
+        "desktop": 37,
+        "mobile": 8,
+        "avatar": 0
+      },
+      "newAdded": {
+        "desktop": 32,
+        "mobile": 0,
+        "avatar": 0
+      },
+      "total": {
+        "desktop": 995,
+        "mobile": 943,
+        "avatar": 658
+      },
+      "bodyChanged": true
+    },
+    {
+      "tag": "v1.5.8",
+      "previous": "v1.5.7",
+      "oldAdded": {
+        "desktop": 13,
+        "mobile": 8,
+        "avatar": 0
+      },
+      "newAdded": {
+        "desktop": 8,
+        "mobile": 0,
+        "avatar": 0
+      },
+      "total": {
+        "desktop": 963,
+        "mobile": 943,
+        "avatar": 658
+      },
+      "bodyChanged": true
+    },
+    {
+      "tag": "v1.5.6",
+      "previous": "v1.5.5",
+      "oldAdded": {
+        "desktop": 7,
+        "mobile": 11,
+        "avatar": 0
+      },
+      "newAdded": {
+        "desktop": 2,
+        "mobile": 3,
+        "avatar": 0
+      },
+      "total": {
+        "desktop": 955,
+        "mobile": 943,
+        "avatar": 658
+      },
+      "bodyChanged": true
+    },
+    {
+      "tag": "v1.5.5",
+      "previous": "v1.5.4",
+      "oldAdded": {
+        "desktop": 37,
+        "mobile": 8,
+        "avatar": 0
+      },
+      "newAdded": {
+        "desktop": 32,
+        "mobile": 0,
+        "avatar": 0
+      },
+      "total": {
+        "desktop": 953,
+        "mobile": 940,
+        "avatar": 658
+      },
+      "bodyChanged": true
+    },
+    {
+      "tag": "v1.5.3",
+      "previous": "v1.5.2",
+      "oldAdded": {
+        "desktop": 29,
+        "mobile": 8,
+        "avatar": 0
+      },
+      "newAdded": {
+        "desktop": 24,
+        "mobile": 0,
+        "avatar": 0
+      },
+      "total": {
+        "desktop": 921,
+        "mobile": 940,
+        "avatar": 658
+      },
+      "bodyChanged": true
+    }
+  ],
+  "removedDuplicateTimestampRows": 70,
+  "restoredTimestamps": [
+    {
+      "path": "wallpaper/desktop/动漫/二次元/17_image_#电脑桌面 #wallpaper..._1_4K.png",
+      "from": "v1.4.99",
+      "to": "v1.4.94"
+    },
+    {
+      "path": "wallpaper/mobile/人像/氛围感/image_蒂法这张脸配婚纱也是降维打击||..._3.jpg",
+      "from": "v1.5.16",
+      "to": "v1.5.0"
+    },
+    {
+      "path": "wallpaper/mobile/人像/氛围感/image_蒂法这张脸配婚纱也是降维打击||..._7.jpg",
+      "from": "v1.5.16",
+      "to": "v1.5.0"
+    },
+    {
+      "path": "wallpaper/mobile/人像/氛围感/image_蒂法这张脸配婚纱也是降维打击||..._1.jpg",
+      "from": "v1.5.16",
+      "to": "v1.5.0"
+    },
+    {
+      "path": "wallpaper/mobile/人像/氛围感/image_蒂法这张脸配婚纱也是降维打击||..._2.jpg",
+      "from": "v1.5.16",
+      "to": "v1.5.0"
+    },
+    {
+      "path": "wallpaper/mobile/人像/插画/image_蒂法这张脸配婚纱也是降维打击||..._4.jpg",
+      "from": "v1.5.16",
+      "to": "v1.5.0"
+    },
+    {
+      "path": "wallpaper/mobile/人像/插画/image_蒂法这张脸配婚纱也是降维打击||..._0.jpg",
+      "from": "v1.5.16",
+      "to": "v1.5.0"
+    },
+    {
+      "path": "wallpaper/mobile/人像/插画/image_蒂法这张脸配婚纱也是降维打击||..._5.jpg",
+      "from": "v1.5.16",
+      "to": "v1.5.0"
+    },
+    {
+      "path": "wallpaper/mobile/人像/插画/image_蒂法这张脸配婚纱也是降维打击||..._6.jpg",
+      "from": "v1.5.16",
+      "to": "v1.5.0"
+    }
+  ],
+  "actualTotals": {
+    "desktop": 1050,
+    "mobile": 943,
+    "avatar": 658
+  }
+}
