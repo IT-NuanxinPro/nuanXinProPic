@@ -1,0 +1,360 @@
+{
+  "version": 1,
+  "createdAt": "2026-11-17T01:34:54Z",
+  "source": "visual-review",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/明星/微信图片_2026-11-16_194721_087.jpg",
+      "category": "人像",
+      "subcategory": "明星",
+      "filename": "微信图片_2026-11-16_194721_087.jpg",
+      "createdAt": "2026-11-17 00:45:20",
+      "size": 302617,
+      "format": "jpg",
+      "ai": {
+        "keywords": [
+          "人像",
+          "红色裙装",
+          "卷发",
+          "侧颜",
+          "暖色光影"
+        ],
+        "description": "长卷发女子身着红色裙装，侧身垂眸，暖光勾勒出脸颊与发丝的轮廓。",
+        "displayTitle": "红裙女孩的侧颜光影",
+        "confidence": 0.85,
+        "model": "visual-review",
+        "analyzedAt": "2026-11-17T01:34:54Z",
+        "filenameSuggestions": [
+          "红裙卷发女子暖光侧颜.jpg"
+        ]
+      },
+      "refreshAssets": false
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/明星/微信图片_2026-11-16_194732_338.jpg",
+      "category": "人像",
+      "subcategory": "明星",
+      "filename": "微信图片_2026-11-16_194732_338.jpg",
+      "createdAt": "2026-11-17 00:45:20",
+      "size": 481268,
+      "format": "jpg",
+      "ai": {
+        "keywords": [
+          "人像",
+          "白色连衣裙",
+          "花园",
+          "花卉",
+          "夜色"
+        ],
+        "description": "女子身着白色裙装坐在花丛间，暖色花枝与深蓝背景衬出柔和的人像。",
+        "displayTitle": "繁花之间的白裙倩影",
+        "confidence": 0.85,
+        "model": "visual-review",
+        "analyzedAt": "2026-11-17T01:34:54Z",
+        "filenameSuggestions": [
+          "繁花簇拥的白裙女子.jpg"
+        ]
+      },
+      "refreshAssets": false
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/明星/微信图片_2026-11-16_194740_683.jpg",
+      "category": "人像",
+      "subcategory": "明星",
+      "filename": "微信图片_2026-11-16_194740_683.jpg",
+      "createdAt": "2026-11-17 00:45:20",
+      "size": 273779,
+      "format": "jpg",
+      "ai": {
+        "keywords": [
+          "人像",
+          "黑色皮衣",
+          "街头",
+          "长靴",
+          "长发"
+        ],
+        "description": "长发女子身穿黑色皮衣与长靴走过街头，暖色墙面映出冷峻的街拍气息。",
+        "displayTitle": "黑色皮衣街头漫步",
+        "confidence": 0.85,
+        "model": "visual-review",
+        "analyzedAt": "2026-11-17T01:34:54Z",
+        "filenameSuggestions": [
+          "黑色皮衣女子街头漫步.jpg"
+        ]
+      },
+      "refreshAssets": false
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/明星/微信图片_2026-11-16_194749_825.jpg",
+      "category": "人像",
+      "subcategory": "明星",
+      "filename": "微信图片_2026-11-16_194749_825.jpg",
+      "createdAt": "2026-11-17 00:45:20",
+      "size": 208391,
+      "format": "jpg",
+      "ai": {
+        "keywords": [
+          "人像",
+          "相机",
+          "黑色服饰",
+          "室内",
+          "复古氛围"
+        ],
+        "description": "黑衣女子举起相机遮住半张脸，红棕色墙面映出安静的复古氛围。",
+        "displayTitle": "镜头前的黑衣少女",
+        "confidence": 0.85,
+        "model": "visual-review",
+        "analyzedAt": "2026-11-17T01:34:54Z",
+        "filenameSuggestions": [
+          "黑衣女子举相机留影.jpg"
+        ]
+      },
+      "refreshAssets": false
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/明星/微信图片_2026-11-16_194921_919.jpg",
+      "category": "人像",
+      "subcategory": "明星",
+      "filename": "微信图片_2026-11-16_194921_919.jpg",
+      "createdAt": "2026-11-17 00:45:20",
+      "size": 236405,
+      "format": "jpg",
+      "ai": {
+        "keywords": [
+          "人像",
+          "长发",
+          "宽松外套",
+          "街头",
+          "日常街拍"
+        ],
+        "description": "长发女子披着宽松外套站在街边，玻璃橱窗与砖墙构成自然的街拍场景。",
+        "displayTitle": "街角的长发女孩",
+        "confidence": 0.85,
+        "model": "visual-review",
+        "analyzedAt": "2026-11-17T01:34:54Z",
+        "filenameSuggestions": [
+          "长发女孩街角回眸.jpg"
+        ]
+      },
+      "refreshAssets": false
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/明星/微信图片_2026-11-16_194933_728.jpg",
+      "category": "人像",
+      "subcategory": "明星",
+      "filename": "微信图片_2026-11-16_194933_728.jpg",
+      "createdAt": "2026-11-17 00:45:20",
+      "size": 572566,
+      "format": "jpg",
+      "ai": {
+        "keywords": [
+          "人像",
+          "黑色无袖上衣",
+          "树荫",
+          "银色耳饰",
+          "自然光"
+        ],
+        "description": "女子身穿黑色无袖上衣静坐树荫下，银色耳饰映着明亮的自然光。",
+        "displayTitle": "树荫下的黑衣倩影",
+        "confidence": 0.85,
+        "model": "visual-review",
+        "analyzedAt": "2026-11-17T01:34:54Z",
+        "filenameSuggestions": [
+          "树荫下的黑衣女子.jpg"
+        ]
+      },
+      "refreshAssets": false
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/明星/微信图片_2026-11-16_194943_384.jpg",
+      "category": "人像",
+      "subcategory": "明星",
+      "filename": "微信图片_2026-11-16_194943_384.jpg",
+      "createdAt": "2026-11-17 00:45:20",
+      "size": 234651,
+      "format": "jpg",
+      "ai": {
+        "keywords": [
+          "人像",
+          "淡紫薄纱",
+          "长卷发",
+          "回眸",
+          "室内光影"
+        ],
+        "description": "长发女子披着淡紫色薄纱侧身回眸，室内灯光勾出柔和的轮廓。",
+        "displayTitle": "淡紫薄纱间的回眸",
+        "confidence": 0.85,
+        "model": "visual-review",
+        "analyzedAt": "2026-11-17T01:34:54Z",
+        "filenameSuggestions": [
+          "淡紫薄纱长发女子回眸.jpg"
+        ]
+      },
+      "refreshAssets": false
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/明星/微信图片_2026-11-16_194954_964.jpg",
+      "category": "人像",
+      "subcategory": "明星",
+      "filename": "微信图片_2026-11-16_194954_964.jpg",
+      "createdAt": "2026-11-17 00:45:20",
+      "size": 353839,
+      "format": "jpg",
+      "ai": {
+        "keywords": [
+          "人像",
+          "绿色上衣",
+          "青年",
+          "窗边",
+          "侧光"
+        ],
+        "description": "黑发青年穿着绿色上衣倚坐窗边，侧光照亮面部与衣服的纹理。",
+        "displayTitle": "绿衣少年窗边小憩",
+        "confidence": 0.85,
+        "model": "visual-review",
+        "analyzedAt": "2026-11-17T01:34:54Z",
+        "filenameSuggestions": [
+          "绿色上衣青年倚坐窗边.jpg"
+        ]
+      },
+      "refreshAssets": false
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/易烊千玺/微信图片_2026-11-16_194858_234.jpg",
+      "category": "人像",
+      "subcategory": "易烊千玺",
+      "filename": "微信图片_2026-11-16_194858_234.jpg",
+      "createdAt": "2026-11-17 00:45:20",
+      "size": 57244,
+      "format": "jpg",
+      "ai": {
+        "keywords": [
+          "人像",
+          "红色光影",
+          "黑发",
+          "侧颜",
+          "男星"
+        ],
+        "description": "黑发青年置身浓郁红色光影中，侧脸与深色项链形成鲜明对比。",
+        "displayTitle": "红色光影中的少年侧颜",
+        "confidence": 0.85,
+        "model": "visual-review",
+        "analyzedAt": "2026-11-17T01:34:54Z",
+        "filenameSuggestions": [
+          "红色光影中的青年侧颜.jpg"
+        ]
+      },
+      "refreshAssets": false
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/易烊千玺/微信图片_2026-11-16_194904_694.jpg",
+      "category": "人像",
+      "subcategory": "易烊千玺",
+      "filename": "微信图片_2026-11-16_194904_694.jpg",
+      "createdAt": "2026-11-17 00:45:20",
+      "size": 90794,
+      "format": "jpg",
+      "ai": {
+        "keywords": [
+          "人像",
+          "蓝色毛衣",
+          "微笑",
+          "室内",
+          "青年"
+        ],
+        "description": "青年身穿蓝色印花毛衣低头微笑，身后的暖色摆件映出轻松的室内气氛。",
+        "displayTitle": "蓝色毛衣下的温柔笑意",
+        "confidence": 0.85,
+        "model": "visual-review",
+        "analyzedAt": "2026-11-17T01:34:54Z",
+        "filenameSuggestions": [
+          "蓝色印花毛衣青年微笑.jpg"
+        ]
+      },
+      "refreshAssets": false
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/人像/氛围感/0.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "0.jpg",
+      "createdAt": "2026-11-17 00:45:20",
+      "size": 416526,
+      "format": "jpg",
+      "ai": {
+        "keywords": [
+          "人像",
+          "公园",
+          "黑色连衣裙",
+          "背影",
+          "树荫"
+        ],
+        "description": "黑裙女子背对镜头走过树荫下的草地，长发映着午后晴光。",
+        "displayTitle": "林间奔向晴光的背影",
+        "confidence": 0.85,
+        "model": "visual-review",
+        "analyzedAt": "2026-11-17T01:34:54Z",
+        "filenameSuggestions": [
+          "黑裙女子走过林间草地.jpg"
+        ]
+      },
+      "refreshAssets": false
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/花卉/1.jpg",
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "1.jpg",
+      "createdAt": "2026-11-17 00:45:20",
+      "size": 354576,
+      "format": "jpg",
+      "ai": {
+        "keywords": [
+          "白玫瑰",
+          "花束",
+          "夜色",
+          "手持花束",
+          "静物摄影"
+        ],
+        "description": "夜色中有人手持一束白玫瑰，浅色衣袖与深色地面形成鲜明对比。",
+        "displayTitle": "夜色里的一束白玫瑰",
+        "confidence": 0.85,
+        "model": "visual-review",
+        "analyzedAt": "2026-11-17T01:34:54Z",
+        "filenameSuggestions": [
+          "夜色中手持白玫瑰花束.jpg"
+        ]
+      },
+      "refreshAssets": true
+    },
+    {
+      "series": "mobile",
+      "relativePath": "wallpaper/mobile/风景/花卉/1.png",
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "1.png",
+      "createdAt": "2026-11-17T00:41:03.973Z",
+      "size": 6018831,
+      "format": "png",
+      "ai": {},
+      "refreshAssets": true
+    }
+  ]
+}
