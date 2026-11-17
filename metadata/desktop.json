@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-11-17 01:43:15",
-  "count": 1075,
+  "lastUpdated": "2026-11-17 02:40:12",
+  "count": 1082,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -35729,6 +35729,279 @@
         "displayTitle": "暗夜深处紫光流转",
         "confidence": 0.9,
         "reasoning": "画面以黑紫渐变、发光边缘及扭转曲面构成，无可辨识人物、作品或自然场景，符合科技类抽象视觉特征。"
+      }
+    },
+    "wallpaper/desktop/人像/清新/微信图片_20261113171216_3635_71.png": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "微信图片_20261113171216_3635_71.png",
+      "createdAt": "2026-11-17T02:38:04.832Z",
+      "cdnTag": "v1.5.22",
+      "size": 10654570,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新人像",
+          "居家写真",
+          "窗边日光",
+          "灰色沙发",
+          "休闲穿搭"
+        ],
+        "description": "窗边日光轻落灰色沙发，长发女子闲坐其间，木色家具映衬温柔宁静的居家时光。",
+        "filenameSuggestions": [
+          "灰衣长发女子闲坐窗边沙发.jpg",
+          "柔和日光下的居家女子肖像.jpg"
+        ],
+        "displayTitle": "一窗晴光半日闲情",
+        "confidence": 0.9,
+        "reasoning": "画面为写实人像，女子身着灰色休闲服坐在沙发上，横向构图保留窗户、木柜与室内陈设。自然光柔和、色调素净，符合人像下的清新分类，无明确明星或作品身份依据。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/微信图片_20261113171220_3636_71.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微信图片_20261113171220_3636_71.png",
+      "createdAt": "2026-11-17T02:38:04.833Z",
+      "cdnTag": "v1.5.22",
+      "size": 10498009,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "银发少女",
+          "白色花丛",
+          "兽骨",
+          "梦幻"
+        ],
+        "description": "银发少女闭目卧于白花之间，长角兽骨静伴身侧，透明薄纱映出清冷微光。",
+        "filenameSuggestions": [
+          "银发少女闭目躺卧白色花丛.jpg",
+          "白裙少女与长角兽骨相伴.jpg"
+        ],
+        "displayTitle": "银梦轻眠于纯白花间",
+        "confidence": 0.9,
+        "reasoning": "画面以二次元绘制的银发少女为主体，白裙、花丛、长角兽骨与透明薄纱构成梦幻横向构图。未见足以确认具体作品或角色的标识，归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/插画/人像/微信图片_20261113171223_3637_71.png": {
+      "category": "插画",
+      "subcategory": "人像",
+      "filename": "微信图片_20261113171223_3637_71.png",
+      "createdAt": "2026-11-17T02:38:04.833Z",
+      "cdnTag": "v1.5.22",
+      "size": 9940509,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "人像",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "人像",
+        "keywords": [
+          "人像插画",
+          "白衬衫",
+          "短发女子",
+          "饰品摊",
+          "粉色蔷薇"
+        ],
+        "description": "短发女子抱臂立于饰品摊前，白衬衫映着柔光，粉色蔷薇点缀悠然街景。",
+        "filenameSuggestions": [
+          "白衬衫短发女子站在饰品摊前.jpg",
+          "柔光下短发女子与粉色蔷薇.jpg"
+        ],
+        "displayTitle": "蔷薇晴光里的温柔回眸",
+        "confidence": 0.9,
+        "reasoning": "画面为精细绘制的人像插画，以白衬衫短发女子为主体，横向构图保留饰品摊、花丛与街头人群。未见可确认的作品或角色标识，归入插画下的人像最为贴切。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/微信图片_20261113171225_3638_71.png": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "微信图片_20261113171225_3638_71.png",
+      "createdAt": "2026-11-17T02:38:04.833Z",
+      "cdnTag": "v1.5.22",
+      "size": 8048642,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "猫耳少女",
+          "银白长发",
+          "霓虹碎片",
+          "暗色系"
+        ],
+        "description": "银发猫耳少女于暗色中回眸，粉紫流光与晶莹碎片斜掠画面，映亮灵动双眸。",
+        "filenameSuggestions": [
+          "霓光环绕的银发猫耳少女.jpg",
+          "暗色背景中回眸的猫耳少女.jpg"
+        ],
+        "displayTitle": "暗夜流光映照银发猫耳",
+        "confidence": 0.9,
+        "reasoning": "画面为二次元绘画，主体具有银白长发、猫耳与粉色眼眸，周围点缀斜向霓光和几何碎片。未见足以确认具体作品或角色的标识，归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/微信图片_20261113171228_3639_71.png": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "微信图片_20261113171228_3639_71.png",
+      "createdAt": "2026-11-17T02:38:04.833Z",
+      "cdnTag": "v1.5.22",
+      "size": 9333353,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "银发女子",
+          "白鸽",
+          "红花",
+          "青色圆景"
+        ],
+        "description": "银发女子立于青色圆景前，红花映衬素衣，白鸽舒翼，金饰与红穗点染清雅画境。",
+        "filenameSuggestions": [
+          "银发红穗女子立于花鸟之间.jpg",
+          "国风银发女子与白鸽红花.jpg"
+        ],
+        "displayTitle": "银丝拂清风花鸟相依",
+        "confidence": 0.9,
+        "reasoning": "画面为绘画插画，银发女子身着带盘扣、金饰与红穗的幻想国风服装，周围以花卉、白鸽和青色圆形背景构图。无法可靠确认具体作品或角色，依据可见服饰与装饰风格归入插画／国风。"
+      }
+    },
+    "wallpaper/desktop/插画/人像/微信图片_20261113171232_3640_71.png": {
+      "category": "插画",
+      "subcategory": "人像",
+      "filename": "微信图片_20261113171232_3640_71.png",
+      "createdAt": "2026-11-17T02:38:04.833Z",
+      "cdnTag": "v1.5.22",
+      "size": 11572866,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "人像",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "人像",
+        "keywords": [
+          "人物插画",
+          "水手服",
+          "持刀少女",
+          "红砖墙",
+          "明暗对比"
+        ],
+        "description": "长发少女持刀立于斑驳红墙前，斜阳切开浓重暗影，衣袂与发丝勾勒冷冽气息。",
+        "filenameSuggestions": [
+          "红砖墙前的长发持刀少女.jpg",
+          "斜阳下身穿水手服的少女.jpg"
+        ],
+        "displayTitle": "赤墙斜照下的持刀少女",
+        "confidence": 0.9,
+        "reasoning": "画面为绘画插画，以水手服长发持刀少女为主体，红砖墙与斜射光影构成背景。无足够视觉依据确认具体作品或角色，选择插画下的人像分类。"
+      }
+    },
+    "wallpaper/desktop/插画/人像/微信图片_20261113171234_3641_71.png": {
+      "category": "插画",
+      "subcategory": "人像",
+      "filename": "微信图片_20261113171234_3641_71.png",
+      "createdAt": "2026-11-17T02:38:04.833Z",
+      "cdnTag": "v1.5.22",
+      "size": 9164004,
+      "format": "png",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.1-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "人像",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "人像",
+        "keywords": [
+          "写实插画",
+          "女性人像",
+          "海滨公路",
+          "运动装",
+          "晴空"
+        ],
+        "description": "黑帽长发女子抬臂立于海滨公路，白色运动装映着晴光，蓝海与道路向远方延展。",
+        "filenameSuggestions": [
+          "晴空下黑帽女子海滨公路侧身.jpg",
+          "白色运动装女子海边抬臂留影.jpg"
+        ],
+        "displayTitle": "海风轻拂晴蓝公路",
+        "confidence": 0.9,
+        "reasoning": "画面以身穿白色运动装、头戴黑帽的女性为主体，背景为海面、护栏与延伸的公路。人物五官与肌肤呈数字绘制的理想化质感，适合归入插画下的人像；没有可确认的作品或角色标识。"
       }
     }
   }
