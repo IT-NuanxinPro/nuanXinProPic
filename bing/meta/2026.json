@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 319,
+  "total": 320,
   "items": [
+    {
+      "date": "2026-11-17",
+      "title": "走进广阔的大自然",
+      "copyright": "雪松林步道，冰川国家公园，蒙大拿州，美国 (© DBushue Photography/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%86%B0%E5%B7%9D%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD%E7%9A%84%E9%9B%AA%E6%9D%BE%E6%9E%97%E6%AD%A5%E9%81%93&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261116_TrailCedars%22&FORM=HPQUIZ",
+      "hsh": "3b8afb6796beb49fa4f34e5ed7c87a93",
+      "urlbase": "/th?id=OHR.TrailCedars_ZH-CN2670680285"
+    },
     {
       "date": "2026-11-16",
       "title": "历经岁月，屹立不倒",
@@ -2874,5 +2883,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-11-15 21:30:45"
+  "updatedAt": "2026-11-17 02:19:28"
 }
