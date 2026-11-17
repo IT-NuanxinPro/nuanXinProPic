@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 320,
+  "total": 321,
   "items": [
+    {
+      "date": "2026-11-18",
+      "title": "从黄昏狩猎到黎明",
+      "copyright": "一对仓鸮 (© Zahoor Salmi/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%BB%93%E9%B8%AE&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261117_BarnOwlsUnite%22&FORM=HPQUIZ",
+      "hsh": "12b362ab9443bdc239f76afb2e1df543",
+      "urlbase": "/th?id=OHR.BarnOwlsUnite_ZH-CN2930153291"
+    },
     {
       "date": "2026-11-17",
       "title": "走进广阔的大自然",
@@ -2883,5 +2892,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-11-17 02:19:28"
+  "updatedAt": "2026-11-17 23:47:06"
 }
