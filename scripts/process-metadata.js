@@ -299,6 +299,11 @@ function resolveDerivedAssetPath(projectRoot, series, subdir, filenameNoExt, typ
   return `/${fallbackPath}`.replace(/\\/g, '/')
 }
 
+function resolveDerivativeStem(projectRoot, series, subdir, filename) {
+  const specificThumbnail = path.join(projectRoot, 'thumbnail', series, subdir, `${filename}.webp`)
+  return fs.existsSync(specificThumbnail) ? filename : filename.replace(/\.[^.]+$/, '')
+}
+
 // 读取或初始化 metadata JSON
 function loadMetadata(filePath) {
   if (fs.existsSync(filePath)) {
@@ -502,12 +507,12 @@ function generateFrontendData(metadataMap, dataDir, newTag) {
       // relativePath: wallpaper/desktop/动漫/原神/xxx.jpg
       const parts = relativePath.split('/')
       const filename = parts.pop()
-      const filenameNoExt = filename.replace(/\.[^.]+$/, '')
       const pathParts = parts.slice(2) // 去掉 wallpaper/series
 
       // 构建路径（保持与 generate-data.js 一致）
       const imagePath = `/${parts.join('/')}/${encodeURIComponent(filename).replace(/%2F/g, '/')}`
       const subdir = pathParts.length > 0 ? pathParts.join('/') : ''
+      const derivativeStem = resolveDerivativeStem(imageRepoRoot, series, subdir, filename)
       const mediaType = data.mediaType || (series === 'video' ? 'video' : 'image')
       const usage = series === 'video' ? (data.usage || pathParts[0] || data.category || 'desktop') : undefined
       const topic = series === 'video' ? (data.topic || pathParts[1] || data.subcategory || '通用') : undefined
@@ -517,11 +522,11 @@ function generateFrontendData(metadataMap, dataDir, newTag) {
         thumbnailPath = data.thumbnailPath
         previewPath = data.previewPath
       } else if (subdir) {
-        thumbnailPath = resolveDerivedAssetPath(imageRepoRoot, series, subdir, filenameNoExt, 'thumbnail')
-        previewPath = series !== 'avatar' ? resolveDerivedAssetPath(imageRepoRoot, series, subdir, filenameNoExt, 'preview') : null
+        thumbnailPath = resolveDerivedAssetPath(imageRepoRoot, series, subdir, derivativeStem, 'thumbnail')
+        previewPath = series !== 'avatar' ? resolveDerivedAssetPath(imageRepoRoot, series, subdir, derivativeStem, 'preview') : null
       } else {
-        thumbnailPath = resolveDerivedAssetPath(imageRepoRoot, series, '', filenameNoExt, 'thumbnail')
-        previewPath = series !== 'avatar' ? resolveDerivedAssetPath(imageRepoRoot, series, '', filenameNoExt, 'preview') : null
+        thumbnailPath = resolveDerivedAssetPath(imageRepoRoot, series, '', derivativeStem, 'thumbnail')
+        previewPath = series !== 'avatar' ? resolveDerivedAssetPath(imageRepoRoot, series, '', derivativeStem, 'preview') : null
       }
 
       const wallpaperData = {
@@ -954,6 +959,7 @@ module.exports = {
   findActualImagePath,
   generateFrontendData,
   reconcileMetadataImagePath,
+  resolveDerivativeStem,
   syncFromTimestamps,
 }
 

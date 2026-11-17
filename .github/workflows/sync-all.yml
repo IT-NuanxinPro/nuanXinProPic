@@ -1,7 +1,7 @@
 name: Sync All Wallpapers
 
 on:
-  # 每天 UTC 17:00（北京时间 13:00）- 低峰期,延迟最短
+  # 每天 UTC 17:00（北京时间次日 01:00）
   schedule:
     - cron: "0 17 * * *"
 
@@ -36,6 +36,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: sync-all-wallpapers
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -130,6 +134,7 @@ jobs:
         id: version
         if: steps.check.outputs.has_changes == 'true'
         run: |
+          git fetch --tags origin
           LATEST_TAG=$(git tag -l 'v*' --sort=-version:refname | head -1)
           if [ -z "$LATEST_TAG" ]; then
             NEW_TAG="v1.0.1"
@@ -151,7 +156,7 @@ jobs:
           echo "📦 Version: $LATEST_TAG -> $NEW_TAG"
 
       - name: Update timestamps file
-        if: steps.check.outputs.has_changes == 'true'
+        if: steps.check.outputs.has_changes == 'true' && steps.sync_gitee.outputs.updated_series != ''
         run: |
           echo "📝 Updating timestamps file with new tag..."
           NEW_TAG="${{ steps.version.outputs.new_tag }}"
@@ -179,10 +184,10 @@ jobs:
 
           TODAY=$(TZ='Asia/Shanghai' date +'%Y-%m-%d')
           git commit -m "chore: daily sync [$TODAY]"
-          git push
+          bash ./scripts/lib/push-with-rebase.sh
 
       - name: Process metadata from timestamps
-        if: steps.check.outputs.has_changes == 'true'
+        if: steps.check.outputs.has_changes == 'true' && steps.sync_gitee.outputs.updated_series != ''
         run: |
           echo "📊 Processing metadata from timestamps..."
 
@@ -195,14 +200,14 @@ jobs:
           echo "✅ Metadata processed"
 
       - name: Commit metadata and data updates
-        if: steps.check.outputs.has_changes == 'true'
+        if: steps.check.outputs.has_changes == 'true' && steps.sync_gitee.outputs.updated_series != ''
         run: |
           # 提交 metadata 和 data 的更新
           if [ -n "$(git status --porcelain metadata/ data/ ':(exclude)metadata/video.json' ':(exclude)data/video.json' ':(exclude)data/video/**')" ]; then
             echo "📝 Committing metadata and data updates..."
             git add -- metadata/ data/ ':(exclude)metadata/video.json' ':(exclude)data/video.json' ':(exclude)data/video/**'
             git commit -m "chore: update metadata and frontend data"
-            git push
+            bash ./scripts/lib/push-with-rebase.sh
           fi
 
       - name: Update stats.json
@@ -266,7 +271,7 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "chore: update stats.json for $NEW_TAG"
           fi
-          git push
+          bash ./scripts/lib/push-with-rebase.sh
 
           echo "✅ Updated stats.json"
 

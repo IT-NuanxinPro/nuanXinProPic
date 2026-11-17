@@ -1,0 +1,20 @@
+const assert = require('node:assert/strict')
+const fs = require('node:fs')
+const os = require('node:os')
+const path = require('node:path')
+const { test } = require('node:test')
+const { resolveDerivativeStem } = require('../process-metadata.js')
+
+test('static metadata keeps extension-specific derivatives after another sync', t => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'wallpaper-derivative-stem-'))
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }))
+  const thumbnailDir = path.join(root, 'thumbnail', 'mobile', '风景', '花卉')
+  fs.mkdirSync(thumbnailDir, { recursive: true })
+  fs.writeFileSync(path.join(thumbnailDir, '1.png.webp'), 'png')
+
+  assert.equal(resolveDerivativeStem(root, 'mobile', '风景/花卉', '1.png'), '1.png')
+  assert.equal(resolveDerivativeStem(root, 'mobile', '风景/花卉', '1.jpg'), '1')
+  fs.writeFileSync(path.join(thumbnailDir, '1.jpg.webp'), 'jpg')
+  assert.equal(resolveDerivativeStem(root, 'mobile', '风景/花卉', '1.jpg'), '1.jpg')
+  assert.equal(resolveDerivativeStem(root, 'mobile', '风景/花卉', '花束.jpg'), '花束')
+})
