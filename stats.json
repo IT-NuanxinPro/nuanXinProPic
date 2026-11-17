@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-17 00:45:23",
-  "cdnTag": "v1.5.19",
+  "lastUpdated": "2026-11-17 01:43:16",
+  "cdnTag": "v1.5.20",
   "series": {
     "desktop": {
       "count": 1075,
@@ -63,6 +63,16 @@
     "bing": 2729
   },
   "releases": [
+    {
+      "tag": "v1.5.20",
+      "date": "2026-11-17",
+      "added": {
+        "desktop": 0,
+        "mobile": 0,
+        "avatar": 0
+      },
+      "publisher": ""
+    },
     {
       "tag": "v1.5.19",
       "date": "2026-11-17",
