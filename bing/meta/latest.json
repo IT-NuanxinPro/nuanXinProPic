@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-11-17 23:47:06",
+  "generatedAt": "2026-11-18 23:18:44",
   "total": 7,
   "items": [
+    {
+      "date": "2026-11-19",
+      "title": "思想在此成形",
+      "copyright": "雕塑《知识之躯》，由豪梅·普兰萨创作，位于德国法兰克福的法兰克福歌德大学 (© Todamo/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E5%93%B2%E5%AD%A6%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261118_KnowledgeSculpture%22&FORM=HPQUIZ",
+      "hsh": "6bf6c295d1f9662feed47a0b68e8da90",
+      "urlbase": "/th?id=OHR.KnowledgeSculpture_ZH-CN3168800853"
+    },
     {
       "date": "2026-11-18",
       "title": "从黄昏狩猎到黎明",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261112_AbrahamCanada%22&FORM=HPQUIZ",
       "hsh": "2a34b5b6572ba4df26d1368e9a64c61e",
       "urlbase": "/th?id=OHR.AbrahamCanada_ZH-CN0344365912"
-    },
-    {
-      "date": "2026-11-12",
-      "title": "没有建筑师的建筑杰作",
-      "copyright": "北窗，拱门国家公园，莫阿布，犹他州，美国 (© lightphoto/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E6%8B%B1%E9%97%A8%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261111_NorthWindow%22&FORM=HPQUIZ",
-      "hsh": "4cd78b6a40ab0d146b30dc1d5e26cd6e",
-      "urlbase": "/th?id=OHR.NorthWindow_ZH-CN6734579353"
     }
   ]
 }
