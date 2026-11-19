@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-11-18 23:18:44",
+  "generatedAt": "2026-11-19 23:26:40",
   "total": 7,
   "items": [
+    {
+      "date": "2026-11-20",
+      "title": "在峡湾中大快朵颐",
+      "copyright": "正在潜水的座头鲸，挪威北部特罗姆斯的克瓦尔岛 (© Espen Bergersen/Minden Pictures)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%BA%A7%E5%A4%B4%E9%B2%B8&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261119_Megaptera%22&FORM=HPQUIZ",
+      "hsh": "fe8250db00606968c8404f967f5a8b4a",
+      "urlbase": "/th?id=OHR.Megaptera_ZH-CN3361807823"
+    },
     {
       "date": "2026-11-19",
       "title": "思想在此成形",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261113_BlueHK%22&FORM=HPQUIZ",
       "hsh": "1856b2d356971c95d3f11a4500ccb30d",
       "urlbase": "/th?id=OHR.BlueHK_ZH-CN1382345392"
-    },
-    {
-      "date": "2026-11-13",
-      "title": "冰下秘境",
-      "copyright": "亚伯拉罕湖，艾伯塔省，加拿大 (© Guang Cao/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E8%89%BE%E4%BC%AF%E5%A1%94%E7%9C%81%E4%BA%9A%E4%BC%AF%E6%8B%89%E7%BD%95%E6%B9%96&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261112_AbrahamCanada%22&FORM=HPQUIZ",
-      "hsh": "2a34b5b6572ba4df26d1368e9a64c61e",
-      "urlbase": "/th?id=OHR.AbrahamCanada_ZH-CN0344365912"
     }
   ]
 }
