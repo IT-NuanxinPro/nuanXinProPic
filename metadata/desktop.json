@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-11-20 02:04:55",
-  "count": 1140,
+  "lastUpdated": "2026-11-20 05:59:08",
+  "count": 1176,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -38274,6 +38274,1413 @@
         "displayTitle": "一束微光落在眉间",
         "confidence": 0.9,
         "reasoning": "横幅近景中，女子微微仰首，左侧暗色留白衬出发丝的轮廓光。光影与姿态营造的静谧感最为突出，符合人像下的氛围感分类。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2026-01-17_40987.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2026-01-17_40987.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "cdnTag": "v1.5.28",
+      "size": 4296563,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2880,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感人像",
+          "窗台",
+          "轻纱长裙",
+          "紫色花枝",
+          "粉色霞光"
+        ],
+        "description": "紫色花枝垂入一窗粉霞，女子倚坐窗台，轻纱裙摆在暖光里缓缓垂落。",
+        "filenameSuggestions": [
+          "浅色纱裙女子倚坐木窗台.jpg",
+          "粉霞映照花枝下的长裙女子.jpg"
+        ],
+        "displayTitle": "一窗花影落入裙裾",
+        "confidence": 0.9,
+        "reasoning": "人物沿横向木窗舒展而坐，两侧帷幔围合画面，粉色天光将花枝、侧颜与裙摆融入柔和色调，符合氛围感人像。"
+      }
+    },
+    "wallpaper/desktop/风景/雪山/2026-01-16_40983.jpg": {
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "2026-01-16_40983.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "cdnTag": "v1.5.28",
+      "size": 4256516,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "冰山",
+          "月夜",
+          "海面",
+          "冷色调风景"
+        ],
+        "description": "一轮小月悬在冰峰左上方，青蓝色冰脊横过暗夜，微光落入水纹。",
+        "filenameSuggestions": [
+          "清冷月色下的海上冰山.jpg",
+          "深蓝夜幕中耸立的锯齿冰峰.jpg"
+        ],
+        "displayTitle": "一轮清月照寒冰入海",
+        "confidence": 0.9,
+        "reasoning": "横向画面以锯齿状冰脊和陡峭冰壁为主体，月亮与海面作衬。现有目录无冰山分类，雪山在峰体轮廓与冰雪景观上最接近。"
+      }
+    },
+    "wallpaper/desktop/风景/星空/2026-01-16_40982.jpg": {
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "2026-01-16_40982.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "cdnTag": "v1.5.28",
+      "size": 2568435,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "梦幻风景",
+          "极光",
+          "星空",
+          "海岸群峰",
+          "浅滩倒影"
+        ],
+        "description": "蓝绿极光垂过星空，群峰横卧在淡紫色云下，山影静静铺入浅滩。",
+        "filenameSuggestions": [
+          "蓝绿极光垂落海岸群峰.jpg",
+          "紫色星夜山影倒映浅滩.jpg"
+        ],
+        "displayTitle": "星幕垂光映山入海",
+        "confidence": 0.9,
+        "reasoning": "繁星与蓝绿极光占据画面上半部，是最醒目的视觉主体；横向延展的海岸群峰与浅滩倒影衬托夜空，因此归入风景下的星空。"
+      }
+    },
+    "wallpaper/desktop/科技/抽象/2026-01-15_40961.jpg": {
+      "category": "科技",
+      "subcategory": "抽象",
+      "filename": "2026-01-15_40961.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "cdnTag": "v1.5.28",
+      "size": 1884454,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2560,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "科技",
+        "subcategory": "抽象",
+        "primary": "desktop",
+        "secondary": "科技",
+        "third": "抽象",
+        "keywords": [
+          "极简抽象",
+          "暖金渐变",
+          "球面弧光",
+          "对称构图"
+        ],
+        "description": "两道暖金弧光在墨黑中上下相望，最亮处只隔一线暗隙。",
+        "filenameSuggestions": [
+          "黑色背景中相望的金色双弧.jpg",
+          "暖金渐变球面上下相映.jpg"
+        ],
+        "displayTitle": "双弧之间一隙金辉",
+        "confidence": 0.9,
+        "reasoning": "上下两片球面由金棕渐变勾出轮廓，构图以几何形态与明暗对照为主，没有可辨识的星体或实景，符合科技类的抽象壁纸特征。"
+      }
+    },
+    "wallpaper/desktop/插画/人像/2026-01-14_32173.jpg": {
+      "category": "插画",
+      "subcategory": "人像",
+      "filename": "2026-01-14_32173.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "cdnTag": "v1.5.28",
+      "size": 1802730,
+      "format": "jpg",
+      "resolution": {
+        "width": 5120,
+        "height": 1440,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "人像",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "人像",
+        "keywords": [
+          "半写实插画",
+          "黑发少女",
+          "雨夜街景",
+          "霓虹逆光"
+        ],
+        "description": "冷光勾亮少女的黑发，细雨斜落，身后的黄车与霓虹一同隐入夜色。",
+        "filenameSuggestions": [
+          "冷光中的黑发少女雨夜侧目.jpg",
+          "短发少女与雨中街头的黄车.jpg"
+        ],
+        "displayTitle": "雨丝斜过霓虹眉间",
+        "confidence": 0.9,
+        "reasoning": "横幅以黑发少女的面部近景为焦点，发丝与肌肤呈半写实渲染质感，虚化的街灯和黄车衬托人物。未见足以辨认特定作品或角色的标志，归入插画中的人像。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2026-01-14_40981.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-01-14_40981.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "cdnTag": "v1.5.28",
+      "size": 5102641,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "田园插画",
+          "落日",
+          "金色麦田",
+          "蜿蜒小路",
+          "远山"
+        ],
+        "description": "小路沿着金色麦浪蜿蜒向远丘，落日低悬，山间水面透出一抹浅蓝。",
+        "filenameSuggestions": [
+          "金色麦田间蜿蜒的乡间小路.jpg",
+          "绯红天幕下的落日与远山.jpg"
+        ],
+        "displayTitle": "一径穿金野半轮照远山",
+        "confidence": 0.9,
+        "reasoning": "麦田与草坡以色块和短笔触绘成，蜿蜒小路将横幅前景与远丘、落日相连，属于以田园环境为主体的场景插画。"
+      }
+    },
+    "wallpaper/desktop/人像/国风/2026-01-12_40930.jpg": {
+      "category": "人像",
+      "subcategory": "国风",
+      "filename": "2026-01-12_40930.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "cdnTag": "v1.5.28",
+      "size": 4261956,
+      "format": "jpg",
+      "resolution": {
+        "width": 4500,
+        "height": 3000,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "国风",
+        "keywords": [
+          "国风人像",
+          "竹林",
+          "浅色古装",
+          "青丝拂面",
+          "抬眸"
+        ],
+        "description": "近处翠竹映着一袭浅衣，女子微微抬眸，几缕青丝随风掠过唇边。",
+        "filenameSuggestions": [
+          "浅衣古装女子竹间仰望.jpg",
+          "翠竹旁长发女子迎风抬眸.jpg"
+        ],
+        "displayTitle": "竹影深处青丝随风",
+        "confidence": 0.9,
+        "reasoning": "横幅中，左侧竹竿与右侧人物相衬，后方竹林虚化。浅色古装、半挽长发与垂珠发饰共同呈现国风人像特征，无明确线索指向具体作品或角色。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/2026-01-11_40932.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2026-01-11_40932.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "cdnTag": "v1.5.28",
+      "size": 2341476,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "草帽少女",
+          "向日葵花田",
+          "浅蓝连衣裙",
+          "金色逆光"
+        ],
+        "description": "金色葵田铺向远方，暖光勾亮草帽边缘，蓝裙少女的指尖轻触花瓣。",
+        "filenameSuggestions": [
+          "浅蓝裙草帽少女轻抚向日葵.jpg",
+          "暖光中编发少女侧立葵田.jpg"
+        ],
+        "displayTitle": "一畦向日葵半袖晴光",
+        "confidence": 0.9,
+        "reasoning": "横幅以草帽少女为主体，向日葵花田延伸至地平线。人物五官与发丝呈日系动漫画风，未见足以确认具体作品的标识，归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2025-12-24_35648.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2025-12-24_35648.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 6534160,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "场景插画",
+          "林间石阶",
+          "海湾",
+          "礁岛",
+          "白帆"
+        ],
+        "description": "斑驳日影落在林间石阶上，枝叶框住一湾碧海，点点白帆散在礁岛远处。",
+        "filenameSuggestions": [
+          "浓荫下通向海湾的石阶.jpg",
+          "林间石阶尽头的碧海白帆.jpg"
+        ],
+        "displayTitle": "一径浓荫望尽千帆",
+        "confidence": 0.9,
+        "reasoning": "树冠与扶栏从两侧框景，石阶将视线引向海湾和礁岛。层叠的叶簇与海面浪纹呈现绘制感，适合归入插画中的场景类。"
+      }
+    },
+    "wallpaper/desktop/人像/清新/2025-12-20_39387.jpg": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "2025-12-20_39387.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 6372477,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新人像",
+          "白色上衣",
+          "低马尾",
+          "树荫",
+          "自然光"
+        ],
+        "description": "白衣女子在树荫下微微抬眸，柔光映亮脸庞，身后的白栏隐在一片青绿里。",
+        "filenameSuggestions": [
+          "柔光下白衣女子抬眸.jpg",
+          "青翠树荫下的低马尾女子.jpg"
+        ],
+        "displayTitle": "绿荫深处一抹晴光",
+        "confidence": 0.9,
+        "reasoning": "横幅以右侧白衣女子为主体，左侧虚化的栏杆与上方枝叶交代户外环境。自然光、素雅衣着与淡青色调共同呈现清新人像摄影风格。"
+      }
+    },
+    "wallpaper/desktop/插画/文字/2025-12-19_34709.jpg": {
+      "category": "插画",
+      "subcategory": "文字",
+      "filename": "2025-12-19_34709.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 554433,
+      "format": "jpg",
+      "resolution": {
+        "width": 4096,
+        "height": 2304,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "文字",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "文字",
+        "keywords": [
+          "手绘插画",
+          "桌面分区",
+          "办公提醒",
+          "仙人掌",
+          "草绿色"
+        ],
+        "description": "草绿底上，三格留白由小盆栽点缀，右侧的浅黄短句提醒工作时耐心细致。",
+        "filenameSuggestions": [
+          "草绿色仙人掌办公分区桌面.jpg",
+          "手绘盆栽点缀工作提醒栏.jpg"
+        ],
+        "displayTitle": "一盆新绿伴案头有序",
+        "confidence": 0.9,
+        "reasoning": "左侧以“常用的”“进行中”“临时的”标注三个分区，右侧用醒目文字排列工作提醒。手绘盆栽装饰边角，文字与插画共同构成版面，符合插画下的文字类。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2025-12-18_40606.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2025-12-18_40606.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 2396810,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "日系插画",
+          "星夜海湾",
+          "粉裙少女",
+          "蓝色海浪",
+          "沿岸灯火"
+        ],
+        "description": "少女赤足立在沙滩上，星河横过夜空，蓝色浪沿在海湾尽头与暖灯相接。",
+        "filenameSuggestions": [
+          "粉裙少女赤足静望星夜海湾.jpg",
+          "璀璨星河下的蓝色海浪与岸灯.jpg"
+        ],
+        "displayTitle": "一湾灯火映星潮",
+        "confidence": 0.9,
+        "reasoning": "横幅以少女背影为近景，弧形海岸线将视线引向远处灯火。人物线稿与色块化的浪花呈现日系插画风格，画面重在海湾夜景，无明确作品或角色标识，归入插画下的场景类。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2025-12-18_40654.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2025-12-18_40654.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 2385624,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感人像",
+          "银河夜空",
+          "草坡",
+          "托腮仰望",
+          "蒲公英"
+        ],
+        "description": "女子俯卧在蒲公英点缀的草坡上，托腮望向夜空，银河在她眼前静静铺展。",
+        "filenameSuggestions": [
+          "长发女子俯卧草坡遥望星河.jpg",
+          "深蓝夜色中托腮仰望的女子.jpg"
+        ],
+        "displayTitle": "枕草静听星河流转",
+        "confidence": 0.9,
+        "reasoning": "横向构图以近景女子为主体，面部暖光与深蓝星空形成冷暖对照。草坡与银河烘托托腮仰望的神态，适合归入人像下的氛围感。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2025-12-11_39425.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2025-12-11_39425.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 4313124,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "斗笠少女",
+          "水墨山景",
+          "飞雪",
+          "书法题字"
+        ],
+        "description": "雪落笠沿，蓝袍少女捧着一只黑碗，身后淡墨山影与纵行题字相间。",
+        "filenameSuggestions": [
+          "深蓝袍少女戴笠立雪中.jpg",
+          "长发少女捧碗映墨山.jpg"
+        ],
+        "displayTitle": "一笠风雪半卷墨山",
+        "confidence": 0.9,
+        "reasoning": "少女虽以二次元笔法绘成，但宽檐斗笠、交领长袍与横幅中的水墨雪山、纵向题字共同构成国风画意。画中未见足以确认具体作品或角色的标识。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/2025-12-11_39310.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2025-12-11_39310.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 1664889,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "水墨风",
+          "长发剪影",
+          "蓝色光流"
+        ],
+        "description": "灰白底色上，长发随墨痕回旋，一束湛蓝光流自左下斜贯人物剪影。",
+        "filenameSuggestions": [
+          "墨色长发剪影与斜掠蓝光.jpg",
+          "湛蓝光流中扬发的动漫人物.jpg"
+        ],
+        "displayTitle": "一线苍蓝破墨而来",
+        "confidence": 0.9,
+        "reasoning": "长发与蓝色眼部亮点勾出动漫人物轮廓，弧形墨迹与斜向光流强化动势。服饰和道具细节不足以辨认具体作品，归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/风景/星空/2025-12-07_40556.jpg": {
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "2025-12-07_40556.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 3083917,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "风光摄影",
+          "极光",
+          "星空",
+          "冰湖倒影",
+          "雪岭"
+        ],
+        "description": "碧绿极光横过蓝紫星空，越过远处雪岭，在澄蓝冰面上留下一道柔光。",
+        "filenameSuggestions": [
+          "翠绿极光横贯冰湖星空.jpg",
+          "蓝紫夜色中冰湖倒映极光.jpg"
+        ],
+        "displayTitle": "一帘碧光映入冰湖",
+        "confidence": 0.9,
+        "reasoning": "翠绿色极光在繁星间横向舒展，是画面的视觉主体；低矮雪岭勾勒天际线，前景冰湖映照天光，因此归入风景下的星空。"
+      }
+    },
+    "wallpaper/desktop/风景/星空/2025-12-06_40557.jpg": {
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "2025-12-06_40557.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 3021995,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "风光摄影",
+          "极光",
+          "星空",
+          "冰面倒影",
+          "雪山"
+        ],
+        "description": "碧色极光在疏星间舒展，越过远山的雪脊，在幽蓝冰面上留下柔亮的倒影。",
+        "filenameSuggestions": [
+          "碧色极光横跨雪山夜空.jpg",
+          "幽蓝冰面倒映翠绿极光.jpg"
+        ],
+        "displayTitle": "一幕碧光落入冰镜",
+        "confidence": 0.9,
+        "reasoning": "横幅以星点可见的夜空为主体，绿色极光贯穿天际，冰面倒影与远处雪山衬托光幕，因此归入风景下的星空。"
+      }
+    },
+    "wallpaper/desktop/风景/星空/2025-12-06_40555.jpg": {
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "2025-12-06_40555.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 3207588,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "风光摄影",
+          "极光",
+          "星空",
+          "冰裂纹",
+          "冰面倒影"
+        ],
+        "description": "青紫极光如帷幕般横过星空，冰面映着微光，裂纹自近处向远方延伸。",
+        "filenameSuggestions": [
+          "青紫极光横跨冰原星空.jpg",
+          "斑斓极光倒映在开裂的冰面上.jpg"
+        ],
+        "displayTitle": "青紫星帷垂落冰原",
+        "confidence": 0.9,
+        "reasoning": "横幅画面以星夜中的青紫极光为主体，低平的地平线与前景冰面衬托夜空的辽阔，最符合风景下的星空分类。"
+      }
+    },
+    "wallpaper/desktop/IP形象/线条小狗/2025-11-29_38785.jpg": {
+      "category": "IP形象",
+      "subcategory": "线条小狗",
+      "filename": "2025-11-29_38785.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 1397125,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "IP形象",
+        "subcategory": "线条小狗",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "third": "线条小狗",
+        "keywords": [
+          "线条小狗",
+          "极简卡通",
+          "绿色草地",
+          "奶酪形提包"
+        ],
+        "description": "一白一黄两只小狗在草地中央舒展四肢，红心与奶酪形提包为绿意添上亮色。",
+        "filenameSuggestions": [
+          "绿草地上并排嬉戏的线条小狗.jpg",
+          "奶酪形提包旁的黑线双犬.jpg"
+        ],
+        "displayTitle": "青青草间的双犬小憩",
+        "confidence": 0.9,
+        "reasoning": "白色绒毛小狗与浅金色垂耳小狗成对出现，圆点眼、简笔笑脸与粗黑轮廓符合线条小狗的形象特征。横幅四周以大片草绿留白衬托中央双犬，故优先归入具体IP。"
+      }
+    },
+    "wallpaper/desktop/动漫/新世纪福音战士/2025-11-26_40392.jpg": {
+      "category": "动漫",
+      "subcategory": "新世纪福音战士",
+      "filename": "2025-11-26_40392.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 2507985,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "新世纪福音战士",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "新世纪福音战士",
+        "keywords": [
+          "新世纪福音战士",
+          "明日香",
+          "日系动漫插画",
+          "湖畔草坡",
+          "浅青连衣裙"
+        ],
+        "description": "晴空下，湖面在草坡远处铺展，风将少女的橙金长发与浅青裙摆轻轻扬起。",
+        "filenameSuggestions": [
+          "浅青裙明日香立于湖畔草坡.jpg",
+          "晴空下明日香长发随风飘扬.jpg"
+        ],
+        "displayTitle": "湖风轻拂一袭青裙",
+        "confidence": 0.9,
+        "reasoning": "橙金长发、蓝眼睛与成对的红色头饰构成明日香的标志性组合。虽换作浅青色连衣裙，仍优先归入具体作品分类。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2025-11-26_39933.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2025-11-26_39933.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 1749923,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "水墨山峦",
+          "银发剑客",
+          "白衣古装"
+        ],
+        "description": "群峰在淡墨与云雾间隐现，白衣剑客侧身垂剑，银发与衣袂一同扬起。",
+        "filenameSuggestions": [
+          "银发白衣剑客侧立云山间.jpg",
+          "水墨群峰间垂剑的白衣人.jpg"
+        ],
+        "displayTitle": "一袭白衣立于墨山间",
+        "confidence": 0.9,
+        "reasoning": "横幅以水墨晕染的山峦衬托中央持剑人物，古装衣袍与黑白设色共同构成国风插画；画面无足以确认具体作品或角色的标识。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2025-11-25_40461.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2025-11-25_40461.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 1522858,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风武侠",
+          "三维渲染",
+          "双刀",
+          "芒草原野",
+          "双人对阵"
+        ],
+        "description": "青空下银白草浪翻涌，一人横臂持刃，一人双刀分展，衣带与长发一同扬起。",
+        "filenameSuggestions": [
+          "青空下古装双侠芒草间交锋.jpg",
+          "银白草浪中高马尾侠客挥双刀.jpg"
+        ],
+        "displayTitle": "风卷银芒双刃生寒",
+        "confidence": 0.9,
+        "reasoning": "横幅以左侧近景持刃者衬出右侧挥双刀的人物，古装束发、武侠招式与芒草原野构成鲜明的国风画面。画面呈三维渲染质感，但缺少可确认具体游戏或国漫作品的标识，故归入插画下的国风。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2025-11-25_40467.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2025-11-25_40467.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 3746612,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "奇幻场景插画",
+          "山巅城堡",
+          "屋脊剪影",
+          "黄昏城景",
+          "一人一犬"
+        ],
+        "description": "一人一犬并坐屋脊，暮霞穿过层叠的尖塔，远山之巅亮着城堡的灯火。",
+        "filenameSuggestions": [
+          "暮色中一人一犬坐望山巅城堡.jpg",
+          "暖霞下尖塔与层叠屋顶远景.jpg"
+        ],
+        "displayTitle": "暮色屋脊遥望云间城",
+        "confidence": 0.9,
+        "reasoning": "横向构图以右侧屋脊上的人物与犬为近景，越过城镇望向拱形山体上的城堡。奇幻地貌与绘画光影突出环境叙事，无明确作品或角色标识，归入插画下的场景。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/2025-11-23_40290.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2025-11-23_40290.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 2510503,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "短发少女",
+          "银框眼镜",
+          "手机微光",
+          "黑色皮椅"
+        ],
+        "description": "短发少女倚着黑色皮椅，垂眸看向手机，一线冷光沿着银色镜框流转。",
+        "filenameSuggestions": [
+          "短发少女倚坐皮椅看手机.jpg",
+          "微光中银框眼镜少女垂眸读屏.jpg"
+        ],
+        "displayTitle": "一屏微光映入眼底",
+        "confidence": 0.9,
+        "reasoning": "人物五官与发束呈二次元造型，立体明暗刻画出面部与皮椅的质感。画面没有足以辨认具体作品或角色的标志，归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/动漫/新世纪福音战士/2025-11-23_40285.jpg": {
+      "category": "动漫",
+      "subcategory": "新世纪福音战士",
+      "filename": "2025-11-23_40285.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 2255672,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "新世纪福音战士",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "新世纪福音战士",
+        "keywords": [
+          "新世纪福音战士",
+          "绫波丽",
+          "动漫插画",
+          "星空",
+          "白裙"
+        ],
+        "description": "星光散落在画面两侧，绫波丽微垂红眸，交握的双手映着一层柔光。",
+        "filenameSuggestions": [
+          "星空下十指交握的白裙绫波丽.jpg",
+          "柔光中垂眸的蓝发绫波丽.jpg"
+        ],
+        "displayTitle": "星辉轻落绫波肩头",
+        "confidence": 0.9,
+        "reasoning": "浅蓝短发、红瞳及头侧的接口状发饰共同指向绫波丽，因此优先归入其所属作品《新世纪福音战士》。"
+      }
+    },
+    "wallpaper/desktop/汽车/2025-11-22_40262.jpg": {
+      "category": "汽车",
+      "subcategory": "",
+      "filename": "2025-11-22_40262.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 1048576,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2560,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "汽车",
+        "subcategory": "",
+        "primary": "desktop",
+        "secondary": "汽车",
+        "third": "",
+        "keywords": [
+          "保时捷",
+          "跑车侧影",
+          "低调光摄影",
+          "轮廓光",
+          "地面倒影"
+        ],
+        "description": "深色跑车横卧黑幕之下，银光沿车顶弧线滑落，轮下倒影隐约可见。",
+        "filenameSuggestions": [
+          "极简黑幕下的保时捷侧影.jpg",
+          "冷光勾勒的深色跑车与倒影.jpg"
+        ],
+        "displayTitle": "一线银光勾勒保时捷",
+        "confidence": 0.9,
+        "reasoning": "横幅以跑车侧面为主体，车身居中，黑色留白衬出车顶曲线与轮圈；右下角可见保时捷标识，符合汽车分类。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2025-11-22_40261.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2025-11-22_40261.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 6061012,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2560,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "氛围感",
+        "subcategory": "氛围感",
+        "filenameSuggestions": [
+          "暖光中白鹿伏案静观金鱼.jpg",
+          "长耳饰白鹿与木桌上的圆鱼缸.jpg"
+        ],
+        "filenames": [
+          "暖光中白鹿伏案静观金鱼.jpg",
+          "长耳饰白鹿与木桌上的圆鱼缸.jpg"
+        ],
+        "displayTitle": "一尾金鱼游过晴光",
+        "keywords": [
+          "白鹿",
+          "暖调摄影",
+          "圆形鱼缸",
+          "金鱼",
+          "木桌"
+        ],
+        "description": "白鹿枕着手臂静看缸中金鱼，日光穿过水面，在木桌上留下一弯亮痕。",
+        "confidence": 0.9,
+        "reasoning": "横幅左侧是圆形鱼缸，右侧女子俯身凝望，视线将两者相连。侧光照亮面庞，缸中折出的光斑落在木桌上，突出写实人像的静谧氛围。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2025-11-22_40264.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2025-11-22_40264.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 5642980,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "氛围感",
+        "subcategory": "氛围感",
+        "filenameSuggestions": [
+          "暖光中抬手凝望的长发白鹿.jpg",
+          "斑驳光影下佩戴长耳坠的白鹿.jpg"
+        ],
+        "filenames": [
+          "暖光中抬手凝望的长发白鹿.jpg",
+          "斑驳光影下佩戴长耳坠的白鹿.jpg"
+        ],
+        "displayTitle": "一缕金光落在眉间",
+        "keywords": [
+          "白鹿",
+          "暖色散景",
+          "长发女子",
+          "流苏耳坠",
+          "斑驳光影"
+        ],
+        "description": "金色散景晕开在画面左侧，白鹿抬手近眉，颊边一抹暖光与耳坠相映。",
+        "confidence": 0.9,
+        "reasoning": "横幅近景中，女子居于右侧，左侧背景虚化为柔和光斑。落在面颊和肩头的暖光呼应珠饰的亮点，光影氛围突出，适合归入人像下的氛围感。"
+      }
+    },
+    "wallpaper/desktop/人像/魅力/2025-11-22_40265.jpg": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "2025-11-22_40265.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 5131405,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "魅力",
+        "subcategory": "魅力",
+        "filenameSuggestions": [
+          "暖光中轻托下颌的长发白鹿.jpg",
+          "佩戴层叠项链的黑裙白鹿凝望镜头.jpg"
+        ],
+        "filenames": [
+          "暖光中轻托下颌的长发白鹿.jpg",
+          "佩戴层叠项链的黑裙白鹿凝望镜头.jpg"
+        ],
+        "displayTitle": "一缕暖光映珠华",
+        "keywords": [
+          "白鹿",
+          "暖调柔光",
+          "垂坠耳饰",
+          "层叠项链",
+          "浅景深"
+        ],
+        "description": "暖褐光影在画幅左侧晕开，白鹿轻托下颌，耳畔与颈间的珠光遥相呼应。",
+        "confidence": 0.9,
+        "reasoning": "横幅以虚化暖景衬托右侧人物，垂坠耳饰、层叠项链与闪亮黑裙呼应。造型和凝视镜头的姿态是视觉重点，适合归入人像下的魅力。"
+      }
+    },
+    "wallpaper/desktop/人像/清新/2025-11-21_39646.jpg": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "2025-11-21_39646.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 4859500,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新人像",
+          "室内柔光",
+          "黑发",
+          "珍珠饰边",
+          "发型整理"
+        ],
+        "description": "柔光映着白衣上的珍珠饰边，一双手轻轻拢起鬓发，她静静望向镜头。",
+        "filenameSuggestions": [
+          "柔光下黑发女子梳妆近照.jpg",
+          "白衣女子理发间隙望向镜头.jpg"
+        ],
+        "displayTitle": "柔光轻落鬓边青丝",
+        "confidence": 0.9,
+        "reasoning": "横幅近景中，黑发女子身穿珍珠饰边白衣，画面左侧有人替她整理发丝。浅色室内背景、柔和光线与自然妆容更符合清新人像风格。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/2025-11-21_38190.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2025-11-21_38190.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 4522767,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "三维国漫风",
+          "古风少年",
+          "红衣",
+          "古树明月",
+          "缭绕白雾"
+        ],
+        "description": "一轮明月照亮满树蓝叶，红衣少年斜倚枝头，目光随指间白雾流转。",
+        "filenameSuggestions": [
+          "月下红衣少年倚坐古树.jpg",
+          "蓝叶间的少年抬手凝望白雾.jpg"
+        ],
+        "displayTitle": "一树月华映少年红衣",
+        "confidence": 0.9,
+        "reasoning": "人物面容与衣袍呈三维动画质感，右侧红衣少年与左侧明月形成呼应。古装、葫芦和流雾体现国风奇幻气质，但不足以确认具体作品，故归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2025-11-20_40088.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2025-11-20_40088.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 2671718,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "日系插画",
+          "深蓝海面",
+          "白衣少女",
+          "海平线",
+          "波光"
+        ],
+        "description": "白衣少女悬腿仰望，远处海天相接，一线金光沿着深蓝波纹向她延伸。",
+        "filenameSuggestions": [
+          "白衣少女坐在海面上方仰望.jpg",
+          "深蓝海面上的少女与粼粼日光.jpg"
+        ],
+        "displayTitle": "海天一线碎光浮金",
+        "confidence": 0.9,
+        "reasoning": "少女呈日系动画画风，无可确认具体作品的标识。白色结构从左下方斜伸，人物与远处海平线之间由波光相连，构图重在展现人与海的关系，适合归入插画下的场景类。"
+      }
+    },
+    "wallpaper/desktop/人像/国风/2025-11-20_40062.jpg": {
+      "category": "人像",
+      "subcategory": "国风",
+      "filename": "2025-11-20_40062.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 5093918,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "国风",
+        "keywords": [
+          "国风人像",
+          "浅青纱衣",
+          "圆月",
+          "古松",
+          "灯笼"
+        ],
+        "description": "一轮明月映在女子掌前，浅青裙裾垂入薄雾，松下灯笼透出暖光。",
+        "filenameSuggestions": [
+          "浅青古装女子抬手映月.jpg",
+          "素雅古装女子松下望月.jpg"
+        ],
+        "displayTitle": "松间明月落于掌上",
+        "confidence": 0.9,
+        "reasoning": "横幅画面以古装女子的侧影与抬手姿态为中心，左侧圆月与右侧古松相对。发饰、纱衣和古式灯笼共同营造国风意境，符合人像下的国风分类。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2025-11-19_40137.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2025-11-19_40137.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 5717326,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2560,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感人像",
+          "百叶窗",
+          "条带光影",
+          "红棕马尾",
+          "侧颜"
+        ],
+        "description": "窗光穿过百叶帘，在眉眼间留下一道亮色，红棕色马尾映着静谧的灰蓝背景。",
+        "filenameSuggestions": [
+          "红棕马尾女子轻触百叶窗.jpg",
+          "冷调窗光下的黑衣女子侧颜.jpg"
+        ],
+        "displayTitle": "一缕窗光轻落眉眼",
+        "confidence": 0.9,
+        "reasoning": "横幅左侧是明亮的百叶窗，右侧是女子的侧颜。窗隙投下的条状光影与灰蓝背景共同营造静谧感，符合氛围感人像摄影。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2025-11-19_40070.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2025-11-19_40070.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 5274164,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2560,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感人像",
+          "烛光",
+          "绯色绸缎",
+          "闭目枕臂",
+          "珠宝配饰"
+        ],
+        "description": "绯色绸缎铺过斑驳桌面，女子闭目枕臂，腕间珠宝映着微微烛光。",
+        "filenameSuggestions": [
+          "暖烛光下闭目枕臂的女子.jpg",
+          "绯色缎面旁伏案小憩的女子.jpg"
+        ],
+        "displayTitle": "一枕绯缎半盏烛光",
+        "confidence": 0.9,
+        "reasoning": "画面为写实人像摄影。女子沿桌面斜向俯卧，左侧与右下角的烛光呼应，暗背景衬出柔和肤光与缎面光泽，视觉重点是静谧氛围。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2025-11-18_40140.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2025-11-18_40140.jpg",
+      "createdAt": "2026-11-20T03:15:18.547Z",
+      "cdnTag": "v1.5.28",
+      "size": 5052457,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2560,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "复古人像",
+          "刺绣礼裙",
+          "窗边侧望",
+          "长廊透视",
+          "暖调光影"
+        ],
+        "description": "窗边暖光映亮裙上的刺绣花枝，女子抬手侧望，身旁的长廊渐入暗处。",
+        "filenameSuggestions": [
+          "身着花卉刺绣礼裙的窗边女子.jpg",
+          "暖光长廊里倚窗侧望的女子.jpg"
+        ],
+        "displayTitle": "窗前花影与长廊微光",
+        "confidence": 0.9,
+        "reasoning": "横向写真人像将女子置于右侧亮窗前，左侧长廊向暗处延伸。明暗对照与刺绣礼裙共同营造出复古氛围，适合归入人像下的氛围感。"
       }
     }
   }
