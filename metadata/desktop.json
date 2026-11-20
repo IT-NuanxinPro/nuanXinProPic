@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-11-20 01:49:32",
-  "count": 1112,
+  "lastUpdated": "2026-11-20 02:04:55",
+  "count": 1140,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -37182,6 +37182,1098 @@
         "description": "白鹿交臂侧望，长卷发垂落肩头，黑裙上的银花在两侧深黑留白的衬托下微闪。",
         "confidence": 0.9,
         "reasoning": "画面是横幅半身人像，黑色礼服、银色花饰与精致妆发是视觉重点，深色留白进一步突出人物仪态，因此选择比「氛围感」更贴合的「人像／魅力」。画面没有足以确认人物身份或作品归属的线索。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-02-27_41771.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-02-27_41771.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 5687437,
+      "format": "jpg",
+      "resolution": {
+        "width": 8530,
+        "height": 4320,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "飞天舞姿",
+          "华灯楼阁",
+          "彩马",
+          "飘带"
+        ],
+        "description": "华灯映亮女子鬓间的红花，绯色飘带掠过青山，与踏云彩马相逐。",
+        "filenameSuggestions": [
+          "华冠女子长安灯影.jpg",
+          "绚丽彩马踏云穿山水.jpg"
+        ],
+        "displayTitle": "华灯映鬓彩练逐云",
+        "confidence": 0.9,
+        "reasoning": "古装女子居中，横幅两侧铺展灯火楼阁、青山与彩马。飞天般的舞姿和流动的飘带具有鲜明的国风插画特征，画面无足以确认具体作品或角色的标识。"
+      }
+    },
+    "wallpaper/desktop/风景/雪山/2026-02-27_41807.jpg": {
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "2026-02-27_41807.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 3483932,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "风光摄影",
+          "雪山",
+          "日照金山",
+          "山间木屋",
+          "雪地弯道"
+        ],
+        "description": "金光染暖峭壁，蓝影铺过雪坡，一道弯路从山间木屋下方蜿蜒而过。",
+        "filenameSuggestions": [
+          "金光映照的雪山岩峰.jpg",
+          "静谧雪坡上的木屋与弯道.jpg"
+        ],
+        "displayTitle": "一抹金光落雪峰",
+        "confidence": 0.9,
+        "reasoning": "横幅画面以积雪覆盖的连绵山体和受光岩峰为主体，木屋与弯道衬托山势，符合风景中的雪山分类。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2026-02-26_41781.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2026-02-26_41781.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 4689056,
+      "format": "jpg",
+      "resolution": {
+        "width": 5000,
+        "height": 3333,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "氛围感",
+        "subcategory": "氛围感",
+        "filenameSuggestions": [
+          "暖光中倚窗凝望的长发白鹿.jpg",
+          "棕衣白鹿侧望百叶窗外.jpg"
+        ],
+        "filenames": [
+          "暖光中倚窗凝望的长发白鹿.jpg",
+          "棕衣白鹿侧望百叶窗外.jpg"
+        ],
+        "displayTitle": "一帘斜光映静默侧颜",
+        "keywords": [
+          "白鹿",
+          "百叶窗",
+          "暖调侧光",
+          "长发侧颜"
+        ],
+        "description": "日光穿过百叶窗，在长发白鹿的眉眼与手背上落下细亮的纹路。",
+        "confidence": 0.9,
+        "reasoning": "横幅左侧的百叶窗将视线引向右侧女子的侧脸。明亮窗光与暗色室内形成对比，突出安静的凝望姿态，符合氛围感人像摄影。"
+      }
+    },
+    "wallpaper/desktop/插画/人像/2026-02-26_41700.jpg": {
+      "category": "插画",
+      "subcategory": "人像",
+      "filename": "2026-02-26_41700.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 1091170,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "人像",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "人像",
+        "keywords": [
+          "三维人像插画",
+          "紫色长发",
+          "金色耳坠",
+          "纯黑背景",
+          "侧光"
+        ],
+        "description": "深紫长发渐融于两侧墨色里，一束柔光掠过眉眼，落在轻搭肩头的指尖。",
+        "filenameSuggestions": [
+          "纯黑背景下紫发女子侧首凝望.jpg",
+          "佩金色耳坠的长发女子轻搭肩头.jpg"
+        ],
+        "displayTitle": "一缕微光落眉间",
+        "confidence": 0.9,
+        "reasoning": "横幅以两侧黑色留白衬托中央半身人物，面容与发丝呈细腻的三维渲染质感。画面侧重人物神态，未见足以确认特定作品或角色的标识，故归入插画下的人像。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-02-25_41750.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-02-25_41750.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 3006292,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风奇幻插画",
+          "红绳铜钱",
+          "悬空飞剑",
+          "绣衣少女",
+          "青雾"
+        ],
+        "description": "红绳串着铜钱，自少女发亮的指间牵向画外，数柄飞剑悬在青雾深处。",
+        "filenameSuggestions": [
+          "红绳缠指的少女掌中凝光.jpg",
+          "青雾中飞剑环绕的绣衣少女.jpg"
+        ],
+        "displayTitle": "一缕红绳牵动剑光",
+        "confidence": 0.9,
+        "reasoning": "画面以绣衣、铜钱、红绳与带穗飞剑构成国风奇幻意象。前伸的手掌与远处剑影形成纵深，无明确标识可确认具体作品或角色，归入插画下的国风。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2026-02-24_41778.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2026-02-24_41778.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 4489042,
+      "format": "jpg",
+      "resolution": {
+        "width": 5000,
+        "height": 3333,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "氛围感",
+        "subcategory": "氛围感",
+        "filenameSuggestions": [
+          "棕衣长发白鹿在木架旁抱书.jpg",
+          "暖调书架旁怀抱书册的白鹿.jpg"
+        ],
+        "filenames": [
+          "棕衣长发白鹿在木架旁抱书.jpg",
+          "暖调书架旁怀抱书册的白鹿.jpg"
+        ],
+        "displayTitle": "一怀书卷半壁柔光",
+        "keywords": [
+          "白鹿",
+          "暖棕色调",
+          "木质书架",
+          "抱书女子"
+        ],
+        "description": "木架上的书页泛着暖色，棕衣白鹿怀抱书册，长发轻轻拂向一旁。",
+        "confidence": 0.9,
+        "reasoning": "横幅左侧的木架与书册衬托抱书女子，右侧素墙留白。棕色衣装与木色相呼应，柔和光线营造出安静的书卷气，适合归入氛围感人像。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-02-24_41783.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-02-24_41783.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 5028102,
+      "format": "jpg",
+      "resolution": {
+        "width": 5631,
+        "height": 2400,
+        "label": "5K+",
+        "type": "danger"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "对镜描妆",
+          "朱红面纹",
+          "编发少女",
+          "暖色侧光"
+        ],
+        "description": "暖光勾亮发梢，蓝衣少女对镜提笔，在眼下描出一道朱红，身后人影朦胧。",
+        "filenameSuggestions": [
+          "蓝衣长辫少女对镜描妆.jpg",
+          "暖光下少女执笔细绘红纹.jpg"
+        ],
+        "displayTitle": "一笔朱红映入镜中",
+        "confidence": 0.9,
+        "reasoning": "横幅构图以左侧手镜呼应右侧人物，细笔正触及眼下红纹。高领蓝衣、编发与脸谱式妆纹共同体现国风插画特征，画中没有足以确认具体作品或角色的标识。"
+      }
+    },
+    "wallpaper/desktop/影视/疯狂动物城/2026-02-23_41224.jpg": {
+      "category": "影视",
+      "subcategory": "疯狂动物城",
+      "filename": "2026-02-23_41224.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 2661667,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "影视",
+        "subcategory": "疯狂动物城",
+        "primary": "desktop",
+        "secondary": "影视",
+        "third": "疯狂动物城",
+        "keywords": [
+          "疯狂动物城",
+          "尼克与朱迪",
+          "三维动画",
+          "雪中街景",
+          "暖色街灯"
+        ],
+        "description": "黄巴士驶过雪街，尼克与朱迪倚着落雪的蓝栏杆，在暖灯下相视而笑。",
+        "filenameSuggestions": [
+          "雪中尼克与朱迪倚栏相视.jpg",
+          "暖灯下围着围巾的尼克与朱迪.jpg"
+        ],
+        "displayTitle": "雪落街灯下相视一笑",
+        "confidence": 0.9,
+        "reasoning": "红狐尼克的面部轮廓及衬衫领带、灰兔朱迪的紫眼长耳均有辨识度。雪街是角色互动的背景，故优先归入具体作品“影视/疯狂动物城”。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-02-22_41754.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-02-22_41754.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 2926090,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "双锦鲤",
+          "朱红底色",
+          "金粉",
+          "对角构图"
+        ],
+        "description": "朱红底上，双鲤沿对角线相向而游，一虚一实，鳞间金光散作点点微尘。",
+        "filenameSuggestions": [
+          "朱红底色上相向游动的锦鲤.jpg",
+          "赤金双鲤摇尾洒落点点金粉.jpg"
+        ],
+        "displayTitle": "朱砂染梦双鲤流金",
+        "confidence": 0.9,
+        "reasoning": "两尾锦鲤分置左下与右上，柔化的鱼尾与细描的金鳞形成虚实对照。传统双鲤题材配以朱红、金色，符合国风插画特征。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-02-22_41825.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-02-22_41825.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 4001871,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "醒狮帽",
+          "红衣少女",
+          "花灯",
+          "烟花"
+        ],
+        "description": "花枝自左侧探入夜色，少女戴醒狮帽轻提花灯，身后烟花与衣上金纹交相辉映。",
+        "filenameSuggestions": [
+          "红衣少女戴醒狮帽提花灯.jpg",
+          "烟花夜色中提灯的醒狮帽少女.jpg"
+        ],
+        "displayTitle": "花火映狮灯照春颜",
+        "confidence": 0.9,
+        "reasoning": "横幅画面以花枝和烟花衬托提灯少女，醒狮帽、红金纹饰与花灯共同构成中式节庆意象。画面为绘制插画，无足以确认具体作品或角色的标识，归入插画下的国风。"
+      }
+    },
+    "wallpaper/desktop/风景/天空/2026-02-21_41506.jpg": {
+      "category": "风景",
+      "subcategory": "天空",
+      "filename": "2026-02-21_41506.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 1511192,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "天空",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "天空",
+        "keywords": [
+          "夜景摄影",
+          "孔明灯",
+          "暮蓝天空",
+          "树影剪映",
+          "水面倒影"
+        ],
+        "description": "天灯从水岸缓缓升入暮蓝深处，树影下，橙红灯火在水面拉出细长倒影。",
+        "filenameSuggestions": [
+          "橙红天灯飘向深蓝夜空.jpg",
+          "暮色中群灯飞越水岸树影.jpg"
+        ],
+        "displayTitle": "千盏天灯渡过暮蓝",
+        "confidence": 0.9,
+        "reasoning": "横幅大部分留给由浅蓝渐暗的天空，橙红天灯从远处密集成群到高处零星散开。下方树岸与水面倒影作衬，视觉主体是夜空而非湖面或星群。"
+      }
+    },
+    "wallpaper/desktop/插画/文字/2026-02-20_34707.jpg": {
+      "category": "插画",
+      "subcategory": "文字",
+      "filename": "2026-02-20_34707.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 812789,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "文字",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "文字",
+        "keywords": [
+          "扁平卡通插画",
+          "举牌青蛙",
+          "趣味标语",
+          "桌面分区"
+        ],
+        "description": "蓝天白云下，橙衣青蛙在草地上举起黄底标语，两侧留出整齐的文件分区。",
+        "filenameSuggestions": [
+          "橙衣青蛙草地上高举横幅.jpg",
+          "蓝天草地间的青蛙文件分区壁纸.jpg"
+        ],
+        "displayTitle": "云下蛙举一纸闲言",
+        "confidence": 0.9,
+        "reasoning": "中央大字“有事请找旁边那位”与青蛙横幅上的“已老实求放过”构成画面笑点，两侧文字标明文件分区。文字主导了这幅卡通插画的表达与用途，故归入“插画/文字”。"
+      }
+    },
+    "wallpaper/desktop/动漫/喜洋洋与灰太狼/2026-02-12_32259.jpg": {
+      "category": "动漫",
+      "subcategory": "喜洋洋与灰太狼",
+      "filename": "2026-02-12_32259.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 1698285,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "喜洋洋与灰太狼",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "喜洋洋与灰太狼",
+        "keywords": [
+          "国产动画",
+          "懒羊羊",
+          "卧室",
+          "侧卧",
+          "窗外晴空"
+        ],
+        "description": "窗外白云浮在晴空里，懒羊羊裹着蓝灰色被子，睁圆了眼睛侧卧在枕边。",
+        "filenameSuggestions": [
+          "蓝灰被窝里睁眼侧卧的懒羊羊.jpg",
+          "晴空映窗下的懒羊羊卧室.jpg"
+        ],
+        "displayTitle": "一窗晴光伴小羊卧眠",
+        "confidence": 0.9,
+        "reasoning": "墙上画像中的卷形额毛和黄色围兜是懒羊羊的标志，床上角色的羊角与脸部造型也与之呼应，因此归入现有作品分类“喜洋洋与灰太狼”。"
+      }
+    },
+    "wallpaper/desktop/影视/疯狂动物城/2026-01-30_41068.jpg": {
+      "category": "影视",
+      "subcategory": "疯狂动物城",
+      "filename": "2026-01-30_41068.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 2163970,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "影视",
+        "subcategory": "疯狂动物城",
+        "primary": "desktop",
+        "secondary": "影视",
+        "third": "疯狂动物城",
+        "keywords": [
+          "疯狂动物城",
+          "尼克",
+          "朱迪",
+          "三维动画",
+          "暖霞雪景"
+        ],
+        "description": "覆雪的栏杆横贯画面，朱迪抬头与尼克对望，远处的城影融入暖金色霞光。",
+        "filenameSuggestions": [
+          "暖霞下尼克与朱迪雪中对望.jpg",
+          "覆雪栏杆旁朱迪仰望尼克.jpg"
+        ],
+        "displayTitle": "冰雪长桥上的温柔对望",
+        "confidence": 0.9,
+        "reasoning": "花衬衫、领带与红狐外形对应尼克，灰色长耳与蓝色制服对应朱迪，可明确归入“影视/疯狂动物城”。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2026-01-30_41067.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-01-30_41067.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 6122156,
+      "format": "jpg",
+      "resolution": {
+        "width": 4000,
+        "height": 2256,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "场景插画",
+          "林间小径",
+          "徒步旅人",
+          "远山雪峰",
+          "斑驳树影"
+        ],
+        "description": "花草簇拥着斑驳的林径，橙衣旅人拄杖停步，枝叶深处露出一线雪峰。",
+        "filenameSuggestions": [
+          "葱郁林间橙衣旅人驻足.jpg",
+          "繁花掩映的小径通向雪峰.jpg"
+        ],
+        "displayTitle": "林径尽处雪峰入画",
+        "confidence": 0.9,
+        "reasoning": "层叠的绿色笔触描绘林木，近处枝叶围合成框，小径将视线引向旅人与远山。人物服务于环境叙事，故归入插画下的场景。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/2026-01-29_41070.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2026-01-29_41070.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 3541471,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2560,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "蓝眸少女",
+          "白色发结",
+          "冷色光影",
+          "侧颜特写"
+        ],
+        "description": "深灰底色衬出少女微仰的侧颜，细碎蓝光沿发丝游走，与眸光相映。",
+        "filenameSuggestions": [
+          "冷光中蓝眸少女侧首特写.jpg",
+          "白色发结长发少女微微仰首.jpg"
+        ],
+        "displayTitle": "一缕蓝光落在眉间",
+        "confidence": 0.9,
+        "reasoning": "横幅以少女侧颜为主体，细线勾勒的发丝与夸张的蓝色眼眸具有鲜明的二次元画风。白色发结不足以确认具体作品或角色，故归入动漫下的二次元。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2026-01-28_41114.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-01-28_41114.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 1364698,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "场景插画",
+          "雪山弯道",
+          "蓝紫色调",
+          "粉霞",
+          "行人与猫"
+        ],
+        "description": "雪路在电线杆间缓缓转弯，行人与黑猫停在路旁，远处峰尖染上一抹粉霞。",
+        "filenameSuggestions": [
+          "蓝紫雪原上通往群山的弯道.jpg",
+          "粉霞下雪路旁的行人与黑猫.jpg"
+        ],
+        "displayTitle": "一径雪色遥接粉霞",
+        "confidence": 0.9,
+        "reasoning": "山体与积雪由柔和的蓝紫色块绘成，呈现绘画质感。弯道与电线将视线引向远峰，右侧人猫点景，主体是完整的雪原环境，故归入插画下的场景。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-01-27_41082.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-01-27_41082.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 4049738,
+      "format": "jpg",
+      "resolution": {
+        "width": 4096,
+        "height": 2448,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风武侠插画",
+          "白发红眸",
+          "斗笠剑客",
+          "双人构图",
+          "冷色调"
+        ],
+        "description": "白发剑客向左展袖，身后墨发掠过笠沿，一线寒光斜贯横幅。",
+        "filenameSuggestions": [
+          "冷光中展袖的白发红眸剑客.jpg",
+          "宽檐斗笠下持剑的长发侠客.jpg"
+        ],
+        "displayTitle": "霜发青丝共映剑光",
+        "confidence": 0.9,
+        "reasoning": "宽袖交领、编织斗笠与佩剑构成鲜明的国风武侠意象。两人一明一暗，前后错落，呈绘画质感；未见足以确认具体作品或角色的标识。"
+      }
+    },
+    "wallpaper/desktop/动漫/二次元/2026-01-27_41096.jpg": {
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2026-01-27_41096.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 2537819,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "白发赤瞳",
+          "宽袖长袍",
+          "蓝色飘带",
+          "明暗对比"
+        ],
+        "description": "暗色横幅中，赤瞳少女向左舒展袍袖，一束斜光照亮银发，细蓝飘带绕过肩头。",
+        "filenameSuggestions": [
+          "暗色背景中舒袖的白发少女.jpg",
+          "赤瞳少女伸手蓝带轻扬.jpg"
+        ],
+        "displayTitle": "银发凝光袍袖生风",
+        "confidence": 0.9,
+        "reasoning": "人物以动漫笔触绘成，白发、赤瞳与宽袖长袍构成视觉重点。这些特征不足以确认具体作品或角色，按明确可见的二次元风格归档。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-01-26_41103.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-01-26_41103.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 1867548,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风水墨",
+          "橘子",
+          "竹编果篮",
+          "静物写意"
+        ],
+        "description": "竹篮里堆着金黄的橘子，几片青叶探出篮沿，淡墨在留白处晕开。",
+        "filenameSuggestions": [
+          "水墨竹篮盛满金黄橘子.jpg",
+          "青翠橘叶垂落竹篮两侧.jpg"
+        ],
+        "displayTitle": "一篮金橘映青枝",
+        "confidence": 0.9,
+        "reasoning": "画面以浓淡墨线勾出竹篮编纹，用橙色与青绿色写果绘叶。横幅上方大面积留白，具有国风写意静物画的特征。"
+      }
+    },
+    "wallpaper/desktop/动漫/卡通/2026-01-23_41007.jpg": {
+      "category": "动漫",
+      "subcategory": "卡通",
+      "filename": "2026-01-23_41007.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 1190217,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "卡通",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "卡通",
+        "keywords": [
+          "小羊肖恩",
+          "手绘卡通",
+          "青草地",
+          "暖黄留白"
+        ],
+        "description": "嫩草沿画幅下缘铺开，白绒小羊睁圆双眼，暖黄留白衬出几分天真。",
+        "filenameSuggestions": [
+          "白绒黑脸的小羊立在草间.jpg",
+          "圆眼小羊肖恩在草地上张望.jpg"
+        ],
+        "displayTitle": "一团云落在青草间",
+        "confidence": 0.9,
+        "reasoning": "居中的小羊有肖恩标志性的黑脸、白卷毛和细黑腿，横向草地与留白以简笔勾勒。因缺少作品专类，归入动漫下的卡通。"
+      }
+    },
+    "wallpaper/desktop/人像/清新/2026-01-22_41014.jpg": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "2026-01-22_41014.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 2256045,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新人像",
+          "自然光",
+          "绿叶前景",
+          "米白吊带裙",
+          "泛黄纸页"
+        ],
+        "description": "绿叶从画幅边缘探入，柔光落在米白裙上，女子捧着泛黄纸页抬眸而望。",
+        "filenameSuggestions": [
+          "柔光下米白裙女子双手持纸.jpg",
+          "绿叶间白裙女子抬眸望向远处.jpg"
+        ],
+        "displayTitle": "一纸浅黄映叶间清光",
+        "confidence": 0.9,
+        "reasoning": "画面以持纸女子为主体，横幅两侧的虚化枝叶与浅色墙面衬出人物，柔和日光与素净衣裙符合清新人像摄影特征。"
+      }
+    },
+    "wallpaper/desktop/人像/清新/2026-01-22_41013.jpg": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "2026-01-22_41013.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 2821254,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "清新",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "清新",
+        "keywords": [
+          "清新人像",
+          "白色长裙",
+          "海滨沙滩",
+          "侧身回眸",
+          "自然光"
+        ],
+        "description": "白裙女子在沙滩上侧身回眸，海风拂起长发，身后碧蓝的海面闪着细碎波光。",
+        "filenameSuggestions": [
+          "晴光下白裙女子海边回眸.jpg",
+          "长发女子侧身立于浅色沙滩.jpg"
+        ],
+        "displayTitle": "海风轻拂一袭白裙",
+        "confidence": 0.9,
+        "reasoning": "白裙女子居于横幅中央，是画面的视觉主体。平直的海岸线与浅色沙滩衬出人物轮廓，明亮自然光和淡雅的蓝白配色符合清新人像风格。"
+      }
+    },
+    "wallpaper/desktop/影视/疯狂动物城/2026-01-20_41017.jpg": {
+      "category": "影视",
+      "subcategory": "疯狂动物城",
+      "filename": "2026-01-20_41017.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 2825365,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "影视",
+        "subcategory": "疯狂动物城",
+        "primary": "desktop",
+        "secondary": "影视",
+        "third": "疯狂动物城",
+        "keywords": [
+          "疯狂动物城",
+          "尼克与朱迪",
+          "三维动画风格",
+          "爱心围巾",
+          "冬日雪林"
+        ],
+        "description": "覆雪的松林向远处延伸，尼克与朱迪笑卧雪地，一条绣着爱心的白围巾绕过肩头。",
+        "filenameSuggestions": [
+          "尼克与朱迪并肩躺在雪地.jpg",
+          "雪林前共裹爱心围巾的狐兔.jpg"
+        ],
+        "displayTitle": "一条围巾暖了整片雪林",
+        "confidence": 0.9,
+        "reasoning": "黄衬衫配条纹领带的红狐尼克与身穿蓝色警服的灰兔朱迪均清晰可辨，雪林是角色互动的背景，故归入影视下的疯狂动物城。"
+      }
+    },
+    "wallpaper/desktop/影视/疯狂动物城/2026-01-20_41016.jpg": {
+      "category": "影视",
+      "subcategory": "疯狂动物城",
+      "filename": "2026-01-20_41016.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 2461251,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "影视",
+        "subcategory": "疯狂动物城",
+        "primary": "desktop",
+        "secondary": "影视",
+        "third": "疯狂动物城",
+        "keywords": [
+          "疯狂动物城",
+          "尼克",
+          "朱迪",
+          "动画插画",
+          "雪地围巾"
+        ],
+        "description": "尼克与朱迪共围一条白围巾，笑卧雪坡一侧，远处松林染着淡蓝。",
+        "filenameSuggestions": [
+          "白雪中共围围巾的尼克与朱迪.jpg",
+          "雪坡上并肩躺卧的狐狸与灰兔.jpg"
+        ],
+        "displayTitle": "一条围巾暖了整片雪坡",
+        "confidence": 0.9,
+        "reasoning": "橙狐的衬衫领带与灰兔的蓝色警服、警徽清晰可见，可辨为《疯狂动物城》的尼克与朱迪。雪坡与松林是背景，优先归入具体作品分类。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2026-01-19_40998.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2026-01-19_40998.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 1970098,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感人像",
+          "暖色侧光",
+          "垂眸",
+          "黑发",
+          "横幅特写"
+        ],
+        "description": "暖光自左侧落上肩头，黑发融入暗处，低垂的眉眼在明暗之间显得格外安静。",
+        "filenameSuggestions": [
+          "暖光下垂眸的黑发女子.jpg",
+          "暗背景中女子低眉近照.jpg"
+        ],
+        "displayTitle": "一束暖光落在眉间",
+        "confidence": 0.9,
+        "reasoning": "横向近景中，左侧明亮的肩头与右侧低垂的面容构成斜线，暗背景衬出暖光。光影与神态是视觉重点，适合归入人像下的氛围感。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2026-01-18_40989.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2026-01-18_40989.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 2509908,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感人像",
+          "暖色轮廓光",
+          "长发回眸",
+          "暗调留白"
+        ],
+        "description": "女子回眸，一缕发丝轻拂脸颊，暖光勾亮肩头，右侧留下一片静黑。",
+        "filenameSuggestions": [
+          "暖色轮廓光下的长发女子回眸.jpg",
+          "黑色背景中发丝拂面的女子.jpg"
+        ],
+        "displayTitle": "一缕金光落在回眸间",
+        "confidence": 0.9,
+        "reasoning": "写实近景以回眸女子为主体，人物偏左，右侧以暗色留白衬托发丝与肩头的暖色高光。画面的静谧感主要来自光影和构图，适合归入人像下的氛围感。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2026-01-17_41000.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2026-01-17_41000.jpg",
+      "createdAt": "2026-11-20T02:01:34.865Z",
+      "cdnTag": "v1.5.27",
+      "size": 2070651,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感人像",
+          "逆光",
+          "长发",
+          "抬眸",
+          "暗色背景"
+        ],
+        "description": "一束光从上方勾亮发丝，女子指尖轻触唇角，目光越过画面一侧的暗影。",
+        "filenameSuggestions": [
+          "柔光下长发女子抬眸.jpg",
+          "暗背景下女子指尖轻触唇角.jpg"
+        ],
+        "displayTitle": "一束微光落在眉间",
+        "confidence": 0.9,
+        "reasoning": "横幅近景中，女子微微仰首，左侧暗色留白衬出发丝的轮廓光。光影与姿态营造的静谧感最为突出，符合人像下的氛围感分类。"
       }
     }
   }
