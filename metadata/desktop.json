@@ -1,8 +1,8 @@
 {
   "version": 2,
   "series": "desktop",
-  "lastUpdated": "2026-11-17 02:40:12",
-  "count": 1082,
+  "lastUpdated": "2026-11-20 01:49:32",
+  "count": 1112,
   "images": {
     "wallpaper/desktop/IP形象/乌萨奇/乌撒奇-兔子-卡通.png": {
       "category": "IP形象",
@@ -36002,6 +36002,1186 @@
         "displayTitle": "海风轻拂晴蓝公路",
         "confidence": 0.9,
         "reasoning": "画面以身穿白色运动装、头戴黑帽的女性为主体，背景为海面、护栏与延伸的公路。人物五官与肌肤呈数字绘制的理想化质感，适合归入插画下的人像；没有可确认的作品或角色标识。"
+      }
+    },
+    "wallpaper/desktop/IP形象/通用/2026-03-29_42208.jpg": {
+      "category": "IP形象",
+      "subcategory": "通用",
+      "filename": "2026-03-29_42208.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 3902817,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "IP形象",
+        "subcategory": "通用",
+        "primary": "desktop",
+        "secondary": "IP形象",
+        "third": "通用",
+        "keywords": [
+          "变形金刚",
+          "大黄蜂",
+          "写实机甲",
+          "蓝色双眼",
+          "飞溅火花"
+        ],
+        "description": "横幅画面中，火星掠过大黄蜂磨损的黄黑装甲，湛蓝双眼照亮暗色背景。",
+        "filenameSuggestions": [
+          "蓝眼大黄蜂置身飞溅火花中.jpg",
+          "黄黑装甲大黄蜂的暗背景特写.jpg"
+        ],
+        "displayTitle": "暗夜飞火映钢铁蓝眸",
+        "confidence": 0.9,
+        "reasoning": "胸前圆形车灯、背后车门和汽车人标志共同指向影视造型的大黄蜂。画面以角色特写为主，无法确认出自哪一部影片；现有影视与IP形象目录均无对应专类，因此归入IP形象下的通用。"
+      }
+    },
+    "wallpaper/desktop/动漫/哆啦A梦/2026-03-28_34713.jpg": {
+      "category": "动漫",
+      "subcategory": "哆啦A梦",
+      "filename": "2026-03-28_34713.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 2348916,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "哆啦A梦",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "哆啦A梦",
+        "keywords": [
+          "哆啦A梦",
+          "卡通插画",
+          "蓝色桌面",
+          "桌面分区",
+          "加油标语"
+        ],
+        "description": "哆啦A梦在蓝色横幅中央眨眼跃起，黄花点亮留白，虚线框划出桌面的几处角落。",
+        "filenameSuggestions": [
+          "俏皮哆啦艾梦蓝色桌面分区.jpg",
+          "元气机器猫眨眼跳跃桌面.jpg"
+        ],
+        "displayTitle": "蓝色花间的元气一跃",
+        "confidence": 0.9,
+        "reasoning": "画面中央的蓝白机器猫有红鼻子、金铃铛和腹前口袋，可明确识别为哆啦A梦。桌面分区是版式设计，具体作品分类优先于泛化的卡通插画分类。"
+      }
+    },
+    "wallpaper/desktop/人像/清新/2026-03-27_33596.jpg": {
+      "category": "人像",
+      "subcategory": "清新",
+      "filename": "2026-03-27_33596.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 4436736,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "清新",
+        "subcategory": "清新",
+        "filenameSuggestions": [
+          "佩白花发饰的女子低眉浅照.jpg",
+          "浅粉花饰女子绿荫下抬手.jpg"
+        ],
+        "filenames": [
+          "佩白花发饰的女子低眉浅照.jpg",
+          "浅粉花饰女子绿荫下抬手.jpg"
+        ],
+        "displayTitle": "绿影浮光里一抹浅粉",
+        "keywords": [
+          "王楚然",
+          "自然柔光",
+          "白花发饰",
+          "浅粉花饰",
+          "绿意虚化"
+        ],
+        "description": "王楚然抬手垂眸，鬓边白花与肩头浅粉花饰相映，横幅左侧的绿影在柔光中晕开。",
+        "confidence": 0.9,
+        "reasoning": "画面是户外写实人像，人物位于横幅偏右，左侧保留大面积虚化绿景。明亮柔光与淡粉、浅绿配色呈现清新感；花饰不足以判定为国风，也没有可确认的角色或作品线索。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-03-24_37252.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-03-24_37252.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 1528553,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "卡通财神",
+          "招财进宝",
+          "红金配色",
+          "横版留白"
+        ],
+        "description": "米色留白铺满左侧，右缘一列笑脸财神从朱红条幅后探身，金钱与元宝点亮画面。",
+        "filenameSuggestions": [
+          "俏皮财神探出红色福字条幅.jpg",
+          "喜庆财神捧元宝迎福.jpg"
+        ],
+        "displayTitle": "红幅藏笑喜迎满堂金",
+        "confidence": 0.9,
+        "reasoning": "财神群像、铜钱、元宝和红底金字条幅共同构成传统招财主题。人物虽采用卡通画法，但民俗题材与红金配色更能体现国风插画特征，未见可确认的特定作品或商业IP。"
+      }
+    },
+    "wallpaper/desktop/插画/文字/2026-03-22_37939.jpg": {
+      "category": "插画",
+      "subcategory": "文字",
+      "filename": "2026-03-22_37939.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 2224768,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "文字",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "文字",
+        "keywords": [
+          "国风书法",
+          "吉星高照",
+          "红底金字",
+          "竖排祝词",
+          "朱印"
+        ],
+        "description": "朱红暗纹铺展成宽幅底色，金色吉语簇拥着竖写的吉星高照，朱印点缀其间。",
+        "filenameSuggestions": [
+          "朱红暗纹底金字吉星高照.jpg",
+          "喜庆金色祝词居中竖排.jpg"
+        ],
+        "displayTitle": "吉星映红笺万福盈门",
+        "confidence": 0.9,
+        "reasoning": "画面无人物或可辨识的作品标识，以居中的金色书法祝词为主体，红底暗纹与印章为陪衬；文字排版比国风色彩更能概括画面，因此归入「插画／文字」。"
+      }
+    },
+    "wallpaper/desktop/插画/人像/2026-04-10_42289__52a4daf8.jpg": {
+      "category": "插画",
+      "subcategory": "人像",
+      "filename": "2026-04-10_42289__52a4daf8.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 3135832,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "人像",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "人像",
+        "keywords": [
+          "线稿插画",
+          "蓝色线描",
+          "少女侧颜",
+          "盘发",
+          "留白构图"
+        ],
+        "description": "蓝色细线勾勒出少女低垂的眉眼与盘起的长发，右侧大片留白衬出侧影的静谧。",
+        "filenameSuggestions": [
+          "纤细蓝线勾勒垂眸少女侧颜.jpg",
+          "清雅盘发少女侧身留白线稿.jpg"
+        ],
+        "displayTitle": "蓝线轻描垂眸一瞬",
+        "confidence": 0.9,
+        "reasoning": "主体是蓝色线稿绘制的少女侧身半身像，人物集中在左侧，右侧大面积留白。画面并非写实摄影，也无可辨识的作品或角色标志，因此归入插画下的人像类。"
+      }
+    },
+    "wallpaper/desktop/风景/建筑/2026-03-19_42124.jpg": {
+      "category": "风景",
+      "subcategory": "建筑",
+      "filename": "2026-03-19_42124.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 3555841,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "建筑",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "建筑",
+        "keywords": [
+          "航拍摄影",
+          "环形石堡",
+          "乡野田畴",
+          "云影"
+        ],
+        "description": "蜿蜒小径通向山坡上的环形石堡，远处田畴在浓云下明暗相间。",
+        "filenameSuggestions": [
+          "旷野山坡上的环形石堡.jpg",
+          "阴云下俯瞰石堡与田野.jpg"
+        ],
+        "displayTitle": "云影掠过原野石堡",
+        "confidence": 0.9,
+        "reasoning": "横幅航拍以山坡上的环形石砌建筑为视觉中心，小径将视线引向石堡，远处田野与云层构成背景，因此归入风景下的建筑。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-03-18_37079.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-03-18_37079.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 1151172,
+      "format": "jpg",
+      "resolution": {
+        "width": 7680,
+        "height": 4320,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "红柿",
+          "书法祝语",
+          "暖杏色",
+          "留白构图"
+        ],
+        "description": "四枚红柿自左上垂落，右侧两列墨字寄语平安顺遂，暖杏留白舒展宁静。",
+        "filenameSuggestions": [
+          "橙红柿子垂枝配竖排祝语.jpg",
+          "暖杏底上四枚红柿挂枝.jpg"
+        ],
+        "displayTitle": "一枝红柿寄岁岁平安",
+        "confidence": 0.9,
+        "reasoning": "画面以手绘柿枝为主体，搭配竖排书法祝语与大面积暖色留白，呈现鲜明的国风插画特征；文字与绘画共同构成画面，并非纯文字壁纸。"
+      }
+    },
+    "wallpaper/desktop/风景/花卉/2026-03-18_42125.jpg": {
+      "category": "风景",
+      "subcategory": "花卉",
+      "filename": "2026-03-18_42125.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 3887380,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "花卉",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "花卉",
+        "keywords": [
+          "樱花",
+          "粉白花瓣",
+          "枝头花苞",
+          "浅景深摄影"
+        ],
+        "description": "粉白樱花沿斜枝舒展，深粉花苞点缀其间，远处花影在浅蓝天幕下轻轻晕开。",
+        "filenameSuggestions": [
+          "粉白樱花斜枝映蓝天.jpg",
+          "浅粉樱花与枝头花苞.jpg"
+        ],
+        "displayTitle": "一枝春色映晴空",
+        "confidence": 0.9,
+        "reasoning": "画面以斜伸枝条上的粉白花朵和深粉花苞为清晰主体，天空和虚化花影仅作衬景，符合风景下的花卉分类。"
+      }
+    },
+    "wallpaper/desktop/插画/人像/2026-03-13_42090.jpg": {
+      "category": "插画",
+      "subcategory": "人像",
+      "filename": "2026-03-13_42090.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 3741238,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "人像",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "人像",
+        "keywords": [
+          "数字插画",
+          "侧脸特写",
+          "虹彩折射",
+          "晶片碎光",
+          "暗色背景"
+        ],
+        "description": "暗底衬出半张侧脸，晶片掠过眼眸与发丝，虹彩光束向右横贯画面。",
+        "filenameSuggestions": [
+          "暗色人像眼眸映出虹彩.jpg",
+          "冷调人像侧脸浮现晶片.jpg"
+        ],
+        "displayTitle": "一眸映尽碎光流虹",
+        "confidence": 0.9,
+        "reasoning": "细密的绘制线条与虹彩晶片呈现数字绘画质感，眼眸和侧脸是画面焦点。未见可确认作品或角色身份的特征，归入插画／人像。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2026-03-13_42084.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-03-13_42084.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 2213121,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "海洋插画",
+          "座头鲸",
+          "水下光影",
+          "蓝色调"
+        ],
+        "description": "座头鲸斜游向泛金的水面，微光掠过鲸背，长鳍在澄蓝海水中舒展。",
+        "filenameSuggestions": [
+          "蔚蓝海水中仰游的座头鲸.jpg",
+          "金色波光下舒展胸鳍的鲸.jpg"
+        ],
+        "displayTitle": "蓝色海面下的逐光之鲸",
+        "confidence": 0.9,
+        "reasoning": "长胸鳍与喉部纵褶符合座头鲸的外形特征。横幅同时呈现斜向游动的鲸、开阔水域与水面波光，柔化轮廓和色块光影具有明显的绘画质感，适合归入插画下的场景。"
+      }
+    },
+    "wallpaper/desktop/人像/国风/2026-03-12_42087.jpg": {
+      "category": "人像",
+      "subcategory": "国风",
+      "filename": "2026-03-12_42087.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 2106533,
+      "format": "jpg",
+      "resolution": {
+        "width": 3842,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "国风",
+        "keywords": [
+          "现代国风",
+          "低调光人像",
+          "红色短衫",
+          "古阁暗纹",
+          "居中构图"
+        ],
+        "description": "红衫女子居中凝眸，两侧古阁与祥云隐入暗色，衬得一抹朱红格外鲜明。",
+        "filenameSuggestions": [
+          "朱红衣女子立于古阁暗纹前.jpg",
+          "清冷长发女子红衣正面凝眸.jpg"
+        ],
+        "displayTitle": "一抹朱红照古阁",
+        "confidence": 0.9,
+        "reasoning": "主体为写实棚拍人像，红色短衫与牛仔裤是现代穿搭。横幅背景中的古阁、祥云与圆形纹样共同构成明确的国风视觉主题，因此归入人像／国风。画面没有足够线索确认人物身份或作品归属。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2026-03-12_42053.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2026-03-12_42053.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 5684629,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感人像",
+          "窗边逆光",
+          "长卷发",
+          "镂空针织",
+          "青绿光影"
+        ],
+        "description": "长发女子倚窗托腮，日光勾亮发梢，窗外绿意在玻璃映影中轻轻晕开。",
+        "filenameSuggestions": [
+          "清雅卷发女子倚窗托腮.jpg",
+          "柔光中浅色针织衣女子侧望.jpg"
+        ],
+        "displayTitle": "一窗青影半肩晴光",
+        "confidence": 0.9,
+        "reasoning": "横幅写实人像以托腮侧望的女子为主体，窗边逆光勾勒发丝，青绿虚景与玻璃映影共同营造静谧氛围，符合人像下的氛围感分类；画面没有足以确认具体人物或作品的线索。"
+      }
+    },
+    "wallpaper/desktop/人像/魅力/2026-03-12_42088.jpg": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "2026-03-12_42088.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 807387,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "魅力",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "魅力",
+        "keywords": [
+          "极简时尚人像",
+          "黑色背景",
+          "居中构图",
+          "白色短上衣",
+          "红色腕巾"
+        ],
+        "description": "女子身穿白色短上衣与浅蓝牛仔裤，在横幅黑幕中央直视镜头，腕间红巾醒目。",
+        "filenameSuggestions": [
+          "白衣女子在纯黑背景前凝视.jpg",
+          "系红巾的牛仔装女子居中站立.jpg"
+        ],
+        "displayTitle": "深幕之中一抹绯红",
+        "confidence": 0.9,
+        "reasoning": "画面呈写实人像风格。人物居中直视镜头，纯黑背景两侧留白，突出利落的白衣牛仔搭配与腕间红巾，整体更偏简约时尚，符合人像下的魅力分类。画面无足以确认人物身份或作品归属的线索。"
+      }
+    },
+    "wallpaper/desktop/插画/创意/2026-03-11_42085.jpg": {
+      "category": "插画",
+      "subcategory": "创意",
+      "filename": "2026-03-11_42085.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 3145072,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "创意",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "创意",
+        "keywords": [
+          "超现实插画",
+          "微缩景观",
+          "阶梯吐司",
+          "云海",
+          "红顶小屋"
+        ],
+        "description": "覆雪的吐司浮在云海之上，木梯串起层层平台，微缩人物散立其间，最高处坐落着一座红顶小屋。",
+        "filenameSuggestions": [
+          "覆雪的阶梯吐司浮在云海.jpg",
+          "红顶小屋立于雪覆吐司之巅.jpg"
+        ],
+        "displayTitle": "云海之上有座面包山",
+        "confidence": 0.9,
+        "reasoning": "画面将巨型吐司变成悬浮于云海的阶梯地形，并用木梯、小屋和微缩人物营造尺度反差。核心是超现实的创意构想，而非写实风景，也没有可确认的作品或角色标识，因此归入插画下的创意分类。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2026-03-11_42063.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-03-11_42063.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 2268492,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "风景插画",
+          "红顶木屋",
+          "雪山",
+          "碧水",
+          "草坡"
+        ],
+        "description": "红顶木屋立在明亮的草坡上，白布轻垂，碧水沿着远处的雪山铺展开来。",
+        "filenameSuggestions": [
+          "明亮草坡上的红顶木屋.jpg",
+          "雪山碧水前的红顶小屋.jpg"
+        ],
+        "displayTitle": "晴光落在雪山与小屋之间",
+        "confidence": 0.9,
+        "reasoning": "草坡、木屋、水岸与远处雪山构成横向全景，柔和的笔触与明亮的色块呈现绘画质感。画面没有可确认的作品或角色标识，最符合插画下的场景分类。"
+      }
+    },
+    "wallpaper/desktop/人像/国风/2026-03-10_41858.jpg": {
+      "category": "人像",
+      "subcategory": "国风",
+      "filename": "2026-03-10_41858.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 5065943,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "国风",
+        "subcategory": "国风",
+        "filenameSuggestions": [
+          "红衣女子在橙红暖光中抬眸.jpg",
+          "金簪古装女子侧身望向远处.jpg"
+        ],
+        "filenames": [
+          "红衣女子在橙红暖光中抬眸.jpg",
+          "金簪古装女子侧身望向远处.jpg"
+        ],
+        "displayTitle": "霞光深处金簪映红衣",
+        "keywords": [
+          "国风人像",
+          "红色古装",
+          "王楚然",
+          "侧身抬眸",
+          "暖色光影"
+        ],
+        "description": "红衣楚然簪金垂珠，微微抬眸，橙红光影在横幅画面中如霞铺展。",
+        "confidence": 0.9,
+        "reasoning": "画面以写实的女性半身肖像为主体，盘髻、金簪垂珠与织纹交领共同构成鲜明的国风造型。橙红背景衬托人物，画面没有足以确认具体作品或身份的线索，因此归入人像／国风。"
+      }
+    },
+    "wallpaper/desktop/动漫/插画/2026-03-10_42036.jpg": {
+      "category": "动漫",
+      "subcategory": "插画",
+      "filename": "2026-03-10_42036.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 6793428,
+      "format": "jpg",
+      "resolution": {
+        "width": 4477,
+        "height": 2550,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "插画",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "插画",
+        "keywords": [
+          "二次元插画",
+          "蓝白色调",
+          "海浪礁石",
+          "短发少女",
+          "飞散纸页"
+        ],
+        "description": "浅蓝裙少女赤足踏上礁石，纸页随风翻飞，白浪在横幅画面中层层铺开。",
+        "filenameSuggestions": [
+          "浅蓝裙少女赤足踏礁石.jpg",
+          "蓝白浪花中的短发少女.jpg"
+        ],
+        "displayTitle": "潮声里飞起蓝色诗页",
+        "confidence": 0.9,
+        "reasoning": "画面以动漫画风描绘短发少女的背影，并以翻涌的海浪、飞散的纸页和几何图形构成横向场景，符合动漫插画。发饰与服装不足以确认具体角色或作品，因此不归入特定作品目录。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2026-03-09_42035.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-03-09_42035.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 2700312,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "日系插画",
+          "街边小馆",
+          "暖色逆光",
+          "白犬",
+          "市井日常"
+        ],
+        "description": "斜阳穿过小馆的薄雾，两人坐在桌边，女孩伸手轻抚白犬，红书包垂在椅背上。",
+        "filenameSuggestions": [
+          "暖阳小馆里女孩轻抚白犬.jpg",
+          "烟火小馆里两人与白犬相伴.jpg"
+        ],
+        "displayTitle": "小馆暖阳落在白犬背上",
+        "confidence": 0.9,
+        "reasoning": "横幅将桌边人物与白犬、后方灶台和店员纳入同一画面，重点是暖光下的小馆日常，而非单独的人像或宠物。人物虽采用动漫化画法，但没有足以确认具体作品、角色或游戏来源的视觉线索，因此归入插画的场景分类。"
+      }
+    },
+    "wallpaper/desktop/风景/自然/2026-03-08_42033.jpg": {
+      "category": "风景",
+      "subcategory": "自然",
+      "filename": "2026-03-08_42033.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 3646808,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "自然",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "自然",
+        "keywords": [
+          "航拍摄影",
+          "蓝色泉池",
+          "矿物纹理",
+          "木栈道",
+          "自然风光"
+        ],
+        "description": "木栈道在黄绿植被与浅白岩纹间蜿蜒，一泓湛蓝静卧在层叠的石缘中。",
+        "filenameSuggestions": [
+          "湛蓝泉池与蜿蜒木栈道.jpg",
+          "俯瞰蓝色泉池与黄绿苔原.jpg"
+        ],
+        "displayTitle": "大地深处的一泓湛蓝",
+        "confidence": 0.9,
+        "reasoning": "横幅照片以垂直俯拍呈现蓝色泉池、层叠岩纹和黄绿植被。木栈道是构图中的引导线，主体是泉池与周围的自然地貌，水体也未呈现湖泊尺度，因此归入风景的自然分类。"
+      }
+    },
+    "wallpaper/desktop/动漫/仙逆/2026-03-08_42037.jpg": {
+      "category": "动漫",
+      "subcategory": "仙逆",
+      "filename": "2026-03-08_42037.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 6781265,
+      "format": "jpg",
+      "resolution": {
+        "width": 5000,
+        "height": 2814,
+        "label": "4K+",
+        "type": "warning"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "仙逆",
+        "subcategory": "仙逆",
+        "filenameSuggestions": [
+          "银发王林侧身并指施法.jpg",
+          "紫衣王林置身蓝紫流光.jpg"
+        ],
+        "filenames": [
+          "银发王林侧身并指施法.jpg",
+          "紫衣王林置身蓝紫流光.jpg"
+        ],
+        "displayTitle": "银发一扬紫澜起",
+        "keywords": [
+          "王林",
+          "银发修士",
+          "并指施法",
+          "蓝紫流光"
+        ],
+        "description": "王林侧身并指，发丝向右扬散，蓝紫流光绕过衣袍，铺展在幽蓝的横幅中。",
+        "confidence": 0.9,
+        "reasoning": "画面呈三维动画质感，银色长发、紫白衣袍、并指手势和环绕光效共同构成仙侠风格。未见足以确认具体作品或角色的标志，也没有明确的游戏画面依据，因此归入现有目录中最接近的动漫／二次元。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2026-03-07_41943.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2026-03-07_41943.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 7206632,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2560,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感人像",
+          "暖调低光",
+          "侧脸回望",
+          "横幅留白"
+        ],
+        "description": "黑衣青年在画面右侧回望，暖光勾勒侧脸，左侧暗影与虚化背景衬出静谧。",
+        "filenameSuggestions": [
+          "暖光下回望的黑衣男子.jpg",
+          "暗棕背景中侧望的黑衣青年.jpg"
+        ],
+        "displayTitle": "暖影深处的一瞬回眸",
+        "confidence": 0.9,
+        "reasoning": "画面主体为写实摄影中的黑衣青年，右侧侧脸由暖光勾勒，左侧大片暗部与虚化背景形成留白。没有足以确认人物身份或影视出处的视觉线索，最贴合人像下的氛围感分类。"
+      }
+    },
+    "wallpaper/desktop/人像/氛围感/2026-03-06_41940.jpg": {
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2026-03-06_41940.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 5178253,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感人像",
+          "浅蓝单肩礼服",
+          "蓝色珠宝",
+          "窗边柔光",
+          "横幅构图"
+        ],
+        "description": "女子身着浅蓝单肩礼服倚墙而立，右侧窗光映亮衣褶与蓝色珠饰。",
+        "filenameSuggestions": [
+          "清雅浅蓝礼服女子倚墙.jpg",
+          "佩蓝色珠宝的女子窗畔凝眸.jpg"
+        ],
+        "displayTitle": "一襟浅蓝映窗光",
+        "confidence": 0.9,
+        "reasoning": "画面是横幅写真人像，左侧蓝灰墙面与右侧明亮窗格衬托人物，浅蓝礼服、珠饰和柔光共同营造清雅氛围。画面没有可确认的作品或人物身份线索，因此归入人像下的氛围感。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2026-03-04_41868.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-03-04_41868.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 3718418,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "科幻插画",
+          "宇航员",
+          "航天舱",
+          "太空系绳",
+          "彩色光轨"
+        ],
+        "description": "金橙与蓝紫流光斜贯长幅，一缕红绳牵起漂浮的宇航员与右下方的航天舱。",
+        "filenameSuggestions": [
+          "绚彩流光中系绳漂浮的宇航员.jpg",
+          "金橙光带掠过倾斜的航天舱.jpg"
+        ],
+        "displayTitle": "万道流光牵一线孤舟",
+        "confidence": 0.9,
+        "reasoning": "红色航天服、系绳和右下方的舱体构成完整的科幻场景，斜贯画面的彩色光轨强化了纵深与动势。画面不足以确认具体作品或角色，且主体并非抽象图形，因此归入最接近的插画／场景。"
+      }
+    },
+    "wallpaper/desktop/动漫/卡通/2026-03-03_41867.jpg": {
+      "category": "动漫",
+      "subcategory": "卡通",
+      "filename": "2026-03-03_41867.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 2222016,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "category": "动漫",
+        "third": "卡通",
+        "subcategory": "卡通",
+        "filenameSuggestions": [
+          "金黄背景下踩圆盘的毛绒河狸.jpg",
+          "笑眼河狸在金色背景里张臂抬脚.jpg"
+        ],
+        "filenames": [
+          "金黄背景下踩圆盘的毛绒河狸.jpg",
+          "笑眼河狸在金色背景里张臂抬脚.jpg"
+        ],
+        "displayTitle": "金色晴光里的河狸舞步",
+        "keywords": [
+          "河狸变身计划",
+          "河狸",
+          "三维动画",
+          "金黄背景",
+          "圆盘装置"
+        ],
+        "description": "笑眼河狸张开双臂，单脚踏着倾斜的圆盘，横幅两侧的金黄留白衬出轻盈的动感。",
+        "confidence": 0.9,
+        "reasoning": "蓬松的橙棕绒毛、显眼的门牙与宽扁尾巴共同构成可辨识的三维河狸形象。画面以单一角色为主体，并非动物摄影或游戏画面；当前没有对应作品或角色的专属目录，因此暂归入IP形象／通用。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-03-03_41832.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-03-03_41832.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 2382488,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "三维国风插画",
+          "青衣女子",
+          "金色发饰",
+          "林间逆光",
+          "飘逸绿带"
+        ],
+        "description": "暖光穿过层叠树影，青衣女子静立林间，绿带与长发向画面左侧轻扬。",
+        "filenameSuggestions": [
+          "清雅青衣女子林间静立.jpg",
+          "清丽金饰女子林间绿带轻扬.jpg"
+        ],
+        "displayTitle": "林深光暖青衣入画",
+        "confidence": 0.9,
+        "reasoning": "青色交领衣袍与金色发饰确立了国风主题，人物和林景呈现细腻的三维渲染质感。画面没有足以确认具体作品或角色的标志性特征，因此归入「插画／国风」。"
+      }
+    },
+    "wallpaper/desktop/插画/场景/2026-03-02_41698.jpg": {
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-03-02_41698.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 7012925,
+      "format": "jpg",
+      "resolution": {
+        "width": 4000,
+        "height": 2182,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "奇幻场景插画",
+          "流星夜空",
+          "篝火",
+          "持书女子",
+          "冷暖对比"
+        ],
+        "description": "她捧着摊开的书仰望夜空，篝火扬起细碎火星，流星掠过远山上方的深蓝云隙。",
+        "filenameSuggestions": [
+          "暖色火光中持书仰望的女子.jpg",
+          "深蓝星空下的篝火与读书人.jpg"
+        ],
+        "displayTitle": "流星落在篝火未眠时",
+        "confidence": 0.9,
+        "reasoning": "横向画面以左侧持书仰望的女子与右下篝火形成呼应，远山、云层和流星铺开夜景。环境与冷暖光影共同构成画面主体，符合「插画／场景」；可见的服饰与道具不足以确认具体作品或角色。"
+      }
+    },
+    "wallpaper/desktop/插画/国风/2026-03-01_41826.jpg": {
+      "category": "插画",
+      "subcategory": "国风",
+      "filename": "2026-03-01_41826.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 3459892,
+      "format": "jpg",
+      "resolution": {
+        "width": 8120,
+        "height": 4134,
+        "label": "8K",
+        "type": "danger"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "国风",
+        "keywords": [
+          "国风插画",
+          "水墨笔触",
+          "古装女子",
+          "竹林薄雾",
+          "书法题字"
+        ],
+        "description": "女子闭目盘坐于竹影间，长发与衣袂向两侧舒展，墨痕和金线浮于淡雾之上。",
+        "filenameSuggestions": [
+          "清雅古装女子竹间闭目盘坐.jpg",
+          "飘逸长发女子静坐竹林薄雾中.jpg"
+        ],
+        "displayTitle": "翠竹深处墨韵生",
+        "confidence": 0.9,
+        "reasoning": "画面以闭目盘坐的古装女子为中心，两侧竹竿框住横向构图，飞墨、金线与书法题字共同构成鲜明的国风插画特征。画面没有足够明确的角色或作品标识可用于确认具体归属。"
+      }
+    },
+    "wallpaper/desktop/插画/人像/2026-02-28_41811.jpg": {
+      "category": "插画",
+      "subcategory": "人像",
+      "filename": "2026-02-28_41811.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 1110037,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2160,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "model": "gpt-6.2-sol",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "人像",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "人像",
+        "keywords": [
+          "人像插画",
+          "短发侧颜",
+          "逆光",
+          "暗色背景",
+          "细长耳饰"
+        ],
+        "description": "横幅暗幕中，逆光勾亮短发与高领衣缘，细长耳饰垂在静默的侧颜旁。",
+        "filenameSuggestions": [
+          "冷调短发女子逆光侧颜.jpg",
+          "静谧黑衣女子暗背景特写.jpg"
+        ],
+        "displayTitle": "微光停在沉静的眉眼",
+        "confidence": 0.9,
+        "reasoning": "画面以短发女子的侧颜特写为主体，发束与面部带有明显的绘制感。画面没有足以确认具体角色或作品的标志，因此归入更贴合构图与媒介的「插画／人像」。"
+      }
+    },
+    "wallpaper/desktop/人像/魅力/2026-02-28_41542.jpg": {
+      "category": "人像",
+      "subcategory": "魅力",
+      "filename": "2026-02-28_41542.jpg",
+      "createdAt": "2026-11-20T01:42:27.376Z",
+      "cdnTag": "v1.5.26",
+      "size": 4005974,
+      "format": "jpg",
+      "resolution": {
+        "width": 3840,
+        "height": 2400,
+        "label": "4K",
+        "type": "success"
+      },
+      "ai": {
+        "series": "desktop",
+        "primary": "desktop",
+        "secondary": "人像",
+        "category": "人像",
+        "third": "魅力",
+        "subcategory": "魅力",
+        "filenameSuggestions": [
+          "优雅黑裙白鹿交臂侧望.jpg",
+          "长卷发白鹿着银花黑礼服.jpg"
+        ],
+        "filenames": [
+          "优雅黑裙白鹿交臂侧望.jpg",
+          "长卷发白鹿着银花黑礼服.jpg"
+        ],
+        "displayTitle": "银花映衬一袭夜色",
+        "keywords": [
+          "白鹿",
+          "黑色礼服",
+          "银色花饰",
+          "长卷发",
+          "暗调摄影"
+        ],
+        "description": "白鹿交臂侧望，长卷发垂落肩头，黑裙上的银花在两侧深黑留白的衬托下微闪。",
+        "confidence": 0.9,
+        "reasoning": "画面是横幅半身人像，黑色礼服、银色花饰与精致妆发是视觉重点，深色留白进一步突出人物仪态，因此选择比「氛围感」更贴合的「人像／魅力」。画面没有足以确认人物身份或作品归属的线索。"
       }
     }
   }
