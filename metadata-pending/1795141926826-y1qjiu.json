@@ -1,0 +1,329 @@
+{
+  "version": 1,
+  "createdAt": "2026-11-20T02:32:06.826Z",
+  "source": "studio",
+  "targetRepo": {
+    "owner": "IT-NuanxinPro",
+    "repo": "nuanXinProPic",
+    "branch": "main"
+  },
+  "images": [
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/氛围感/2026-01-17_40987.jpg",
+      "category": "人像",
+      "subcategory": "氛围感",
+      "filename": "2026-01-17_40987.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "size": 4296563,
+      "format": "jpg",
+      "localSource": {
+        "collectorId": "dd18c295a2f580fdffed97142eac880fbfeb34b6582fa62099be85b2766b41e6",
+        "batchId": "upload-20261111-215508-timeline-netbian-40fe",
+        "sourceItemId": "40987",
+        "sha256": "ed64fafb5f36ece74b16d7f690c65f0a59cc337fa467f6da157cd83c97f436d4"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "氛围感",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "氛围感",
+        "keywords": [
+          "氛围感人像",
+          "窗台",
+          "轻纱长裙",
+          "紫色花枝",
+          "粉色霞光"
+        ],
+        "description": "紫色花枝垂入一窗粉霞，女子倚坐窗台，轻纱裙摆在暖光里缓缓垂落。",
+        "filenameSuggestions": [
+          "浅色纱裙女子倚坐木窗台.jpg",
+          "粉霞映照花枝下的长裙女子.jpg"
+        ],
+        "displayTitle": "一窗花影落入裙裾",
+        "confidence": 0.9,
+        "reasoning": "人物沿横向木窗舒展而坐，两侧帷幔围合画面，粉色天光将花枝、侧颜与裙摆融入柔和色调，符合氛围感人像。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/雪山/2026-01-16_40983.jpg",
+      "category": "风景",
+      "subcategory": "雪山",
+      "filename": "2026-01-16_40983.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "size": 4256516,
+      "format": "jpg",
+      "localSource": {
+        "collectorId": "dd18c295a2f580fdffed97142eac880fbfeb34b6582fa62099be85b2766b41e6",
+        "batchId": "upload-20261111-215508-timeline-netbian-40fe",
+        "sourceItemId": "40983",
+        "sha256": "ef8caec69e7ec566d134dccb8144b5b764b705a5fdc5c30254f288bad36cd0ee"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "雪山",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "雪山",
+        "keywords": [
+          "冰山",
+          "月夜",
+          "海面",
+          "冷色调风景"
+        ],
+        "description": "一轮小月悬在冰峰左上方，青蓝色冰脊横过暗夜，微光落入水纹。",
+        "filenameSuggestions": [
+          "清冷月色下的海上冰山.jpg",
+          "深蓝夜幕中耸立的锯齿冰峰.jpg"
+        ],
+        "displayTitle": "一轮清月照寒冰入海",
+        "confidence": 0.9,
+        "reasoning": "横向画面以锯齿状冰脊和陡峭冰壁为主体，月亮与海面作衬。现有目录无冰山分类，雪山在峰体轮廓与冰雪景观上最接近。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/风景/星空/2026-01-16_40982.jpg",
+      "category": "风景",
+      "subcategory": "星空",
+      "filename": "2026-01-16_40982.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "size": 2568435,
+      "format": "jpg",
+      "localSource": {
+        "collectorId": "dd18c295a2f580fdffed97142eac880fbfeb34b6582fa62099be85b2766b41e6",
+        "batchId": "upload-20261111-215508-timeline-netbian-40fe",
+        "sourceItemId": "40982",
+        "sha256": "bae5e31c4e97cb708aa554e3e1d1d81e25e718bebe32b1ac6710c9a1d60a9b88"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "风景",
+        "subcategory": "星空",
+        "primary": "desktop",
+        "secondary": "风景",
+        "third": "星空",
+        "keywords": [
+          "梦幻风景",
+          "极光",
+          "星空",
+          "海岸群峰",
+          "浅滩倒影"
+        ],
+        "description": "蓝绿极光垂过星空，群峰横卧在淡紫色云下，山影静静铺入浅滩。",
+        "filenameSuggestions": [
+          "蓝绿极光垂落海岸群峰.jpg",
+          "紫色星夜山影倒映浅滩.jpg"
+        ],
+        "displayTitle": "星幕垂光映山入海",
+        "confidence": 0.9,
+        "reasoning": "繁星与蓝绿极光占据画面上半部，是最醒目的视觉主体；横向延展的海岸群峰与浅滩倒影衬托夜空，因此归入风景下的星空。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/科技/抽象/2026-01-15_40961.jpg",
+      "category": "科技",
+      "subcategory": "抽象",
+      "filename": "2026-01-15_40961.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "size": 1884454,
+      "format": "jpg",
+      "localSource": {
+        "collectorId": "dd18c295a2f580fdffed97142eac880fbfeb34b6582fa62099be85b2766b41e6",
+        "batchId": "upload-20261111-215508-timeline-netbian-40fe",
+        "sourceItemId": "40961",
+        "sha256": "4dc619dc847c74530f829315f2189e6e84ee1b7fb511ea25a4d17666c8dadaf1"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "科技",
+        "subcategory": "抽象",
+        "primary": "desktop",
+        "secondary": "科技",
+        "third": "抽象",
+        "keywords": [
+          "极简抽象",
+          "暖金渐变",
+          "球面弧光",
+          "对称构图"
+        ],
+        "description": "两道暖金弧光在墨黑中上下相望，最亮处只隔一线暗隙。",
+        "filenameSuggestions": [
+          "黑色背景中相望的金色双弧.jpg",
+          "暖金渐变球面上下相映.jpg"
+        ],
+        "displayTitle": "双弧之间一隙金辉",
+        "confidence": 0.9,
+        "reasoning": "上下两片球面由金棕渐变勾出轮廓，构图以几何形态与明暗对照为主，没有可辨识的星体或实景，符合科技类的抽象壁纸特征。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/人像/2026-01-14_32173.jpg",
+      "category": "插画",
+      "subcategory": "人像",
+      "filename": "2026-01-14_32173.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "size": 1802730,
+      "format": "jpg",
+      "localSource": {
+        "collectorId": "dd18c295a2f580fdffed97142eac880fbfeb34b6582fa62099be85b2766b41e6",
+        "batchId": "upload-20261111-215508-timeline-netbian-40fe",
+        "sourceItemId": "32173",
+        "sha256": "5ed3b91170ee403f3b0e615781a8a274323ddc4be0141aa3a1b1d97679867185"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "人像",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "人像",
+        "keywords": [
+          "半写实插画",
+          "黑发少女",
+          "雨夜街景",
+          "霓虹逆光"
+        ],
+        "description": "冷光勾亮少女的黑发，细雨斜落，身后的黄车与霓虹一同隐入夜色。",
+        "filenameSuggestions": [
+          "冷光中的黑发少女雨夜侧目.jpg",
+          "短发少女与雨中街头的黄车.jpg"
+        ],
+        "displayTitle": "雨丝斜过霓虹眉间",
+        "confidence": 0.9,
+        "reasoning": "横幅以黑发少女的面部近景为焦点，发丝与肌肤呈半写实渲染质感，虚化的街灯和黄车衬托人物。未见足以辨认特定作品或角色的标志，归入插画中的人像。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/插画/场景/2026-01-14_40981.jpg",
+      "category": "插画",
+      "subcategory": "场景",
+      "filename": "2026-01-14_40981.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "size": 5102641,
+      "format": "jpg",
+      "localSource": {
+        "collectorId": "dd18c295a2f580fdffed97142eac880fbfeb34b6582fa62099be85b2766b41e6",
+        "batchId": "upload-20261111-215508-timeline-netbian-40fe",
+        "sourceItemId": "40981",
+        "sha256": "51802010e3153a7a2fbbf55b1a72019dfd63bab6dcf9a7227e060ae81ac8a5fe"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "插画",
+        "subcategory": "场景",
+        "primary": "desktop",
+        "secondary": "插画",
+        "third": "场景",
+        "keywords": [
+          "田园插画",
+          "落日",
+          "金色麦田",
+          "蜿蜒小路",
+          "远山"
+        ],
+        "description": "小路沿着金色麦浪蜿蜒向远丘，落日低悬，山间水面透出一抹浅蓝。",
+        "filenameSuggestions": [
+          "金色麦田间蜿蜒的乡间小路.jpg",
+          "绯红天幕下的落日与远山.jpg"
+        ],
+        "displayTitle": "一径穿金野半轮照远山",
+        "confidence": 0.9,
+        "reasoning": "麦田与草坡以色块和短笔触绘成，蜿蜒小路将横幅前景与远丘、落日相连，属于以田园环境为主体的场景插画。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/人像/国风/2026-01-12_40930.jpg",
+      "category": "人像",
+      "subcategory": "国风",
+      "filename": "2026-01-12_40930.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "size": 4261956,
+      "format": "jpg",
+      "localSource": {
+        "collectorId": "dd18c295a2f580fdffed97142eac880fbfeb34b6582fa62099be85b2766b41e6",
+        "batchId": "upload-20261111-215508-timeline-netbian-40fe",
+        "sourceItemId": "40930",
+        "sha256": "3c7c794be6dbbb3c0e6260d9cf68d3a9b7c0842cbf12ee0a326bc5dc585bfebe"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "人像",
+        "subcategory": "国风",
+        "primary": "desktop",
+        "secondary": "人像",
+        "third": "国风",
+        "keywords": [
+          "国风人像",
+          "竹林",
+          "浅色古装",
+          "青丝拂面",
+          "抬眸"
+        ],
+        "description": "近处翠竹映着一袭浅衣，女子微微抬眸，几缕青丝随风掠过唇边。",
+        "filenameSuggestions": [
+          "浅衣古装女子竹间仰望.jpg",
+          "翠竹旁长发女子迎风抬眸.jpg"
+        ],
+        "displayTitle": "竹影深处青丝随风",
+        "confidence": 0.9,
+        "reasoning": "横幅中，左侧竹竿与右侧人物相衬，后方竹林虚化。浅色古装、半挽长发与垂珠发饰共同呈现国风人像特征，无明确线索指向具体作品或角色。"
+      }
+    },
+    {
+      "series": "desktop",
+      "relativePath": "wallpaper/desktop/动漫/二次元/2026-01-11_40932.jpg",
+      "category": "动漫",
+      "subcategory": "二次元",
+      "filename": "2026-01-11_40932.jpg",
+      "createdAt": "2026-11-20T02:32:06.826Z",
+      "size": 2341476,
+      "format": "jpg",
+      "localSource": {
+        "collectorId": "dd18c295a2f580fdffed97142eac880fbfeb34b6582fa62099be85b2766b41e6",
+        "batchId": "upload-20261111-215508-timeline-netbian-40fe",
+        "sourceItemId": "40932",
+        "sha256": "a155bac1b5558dc368c7272c379d7717a91cb13b859ec2b266b9176582412716"
+      },
+      "ai": {
+        "model": "gpt-6.2-astra",
+        "series": "desktop",
+        "category": "动漫",
+        "subcategory": "二次元",
+        "primary": "desktop",
+        "secondary": "动漫",
+        "third": "二次元",
+        "keywords": [
+          "二次元",
+          "草帽少女",
+          "向日葵花田",
+          "浅蓝连衣裙",
+          "金色逆光"
+        ],
+        "description": "金色葵田铺向远方，暖光勾亮草帽边缘，蓝裙少女的指尖轻触花瓣。",
+        "filenameSuggestions": [
+          "浅蓝裙草帽少女轻抚向日葵.jpg",
+          "暖光中编发少女侧立葵田.jpg"
+        ],
+        "displayTitle": "一畦向日葵半袖晴光",
+        "confidence": 0.9,
+        "reasoning": "横幅以草帽少女为主体，向日葵花田延伸至地平线。人物五官与发丝呈日系动漫画风，未见足以确认具体作品的标识，归入动漫下的二次元。"
+      }
+    }
+  ]
+}
