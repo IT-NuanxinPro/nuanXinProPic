@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 325,
+  "total": 326,
   "items": [
+    {
+      "date": "2026-11-23",
+      "title": "自然中的几何之美",
+      "copyright": "蕨类植物的卷曲嫩叶 (© Reza Saputra/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261122_FibonacciFern%22&FORM=HPQUIZ",
+      "hsh": "8bcab12cbf53fd1c7b81ec7e9b34e20c",
+      "urlbase": "/th?id=OHR.FibonacciFern_ZH-CN3882237848"
+    },
     {
       "date": "2026-11-22",
       "title": "海浪间的庇护所",
@@ -2928,5 +2937,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-11-21 22:03:18"
+  "updatedAt": "2026-11-22 22:19:48"
 }

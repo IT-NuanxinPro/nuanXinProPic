@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-11-21 22:03:18",
+  "generatedAt": "2026-11-22 22:19:48",
   "total": 7,
   "items": [
+    {
+      "date": "2026-11-23",
+      "title": "自然中的几何之美",
+      "copyright": "蕨类植物的卷曲嫩叶 (© Reza Saputra/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261122_FibonacciFern%22&FORM=HPQUIZ",
+      "hsh": "8bcab12cbf53fd1c7b81ec7e9b34e20c",
+      "urlbase": "/th?id=OHR.FibonacciFern_ZH-CN3882237848"
+    },
     {
       "date": "2026-11-22",
       "title": "海浪间的庇护所",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261116_TrailCedars%22&FORM=HPQUIZ",
       "hsh": "3b8afb6796beb49fa4f34e5ed7c87a93",
       "urlbase": "/th?id=OHR.TrailCedars_ZH-CN2670680285"
-    },
-    {
-      "date": "2026-11-16",
-      "title": "历经岁月，屹立不倒",
-      "copyright": "美国新墨西哥州吉拉悬崖民居国家纪念地 (© Chiara Salvadori/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E5%90%89%E6%8B%89%E6%82%AC%E5%B4%96%E6%B0%91%E5%B1%85%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E5%9C%B0&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261115_GilaCliff%22&FORM=HPQUIZ",
-      "hsh": "77e8d59b9dd7048a85e8166d528bc270",
-      "urlbase": "/th?id=OHR.GilaCliff_ZH-CN2393001519"
     }
   ]
 }
