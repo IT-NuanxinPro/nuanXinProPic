@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-11-24 03:12:13",
+  "generatedAt": "2026-11-25 01:22:44",
   "total": 7,
   "items": [
+    {
+      "date": "2026-11-25",
+      "title": "美国西南部的一场雪",
+      "copyright": "日落观景点，布莱斯峡谷国家公园，犹他州 (© Colin D. Young/Alamy)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%B8%83%E8%8E%B1%E6%96%AF%E5%B3%A1%E8%B0%B7%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261124_SunsetPoint%22&FORM=HPQUIZ",
+      "hsh": "0fde8be729d820a01149c059f0b16a26",
+      "urlbase": "/th?id=OHR.SunsetPoint_ZH-CN5737034685"
+    },
     {
       "date": "2026-11-24",
       "title": "秋日的保护色",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261118_KnowledgeSculpture%22&FORM=HPQUIZ",
       "hsh": "6bf6c295d1f9662feed47a0b68e8da90",
       "urlbase": "/th?id=OHR.KnowledgeSculpture_ZH-CN3168800853"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "从黄昏狩猎到黎明",
-      "copyright": "一对仓鸮 (© Zahoor Salmi/Getty Images)",
-      "copyrightlink": "https://www.bing.com/search?q=%E4%BB%93%E9%B8%AE&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261117_BarnOwlsUnite%22&FORM=HPQUIZ",
-      "hsh": "12b362ab9443bdc239f76afb2e1df543",
-      "urlbase": "/th?id=OHR.BarnOwlsUnite_ZH-CN2930153291"
     }
   ]
 }
