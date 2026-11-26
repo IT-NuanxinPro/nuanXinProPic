@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-11-25 01:22:44",
+  "generatedAt": "2026-11-26 00:52:41",
   "total": 7,
   "items": [
+    {
+      "date": "2026-11-26",
+      "title": "彩虹落下的地方",
+      "copyright": "怀卢库河上的彩虹瀑布，希洛市，夏威夷州，美国 (© Peter Unger/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%A4%8F%E5%A8%81%E5%A4%B7%E5%B7%9E%E6%80%80%E5%8D%A2%E5%BA%93%E6%B2%B3%E7%9A%84%E5%BD%A9%E8%99%B9%E7%80%91%E5%B8%83&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261125_RFHilo%22&FORM=HPQUIZ",
+      "hsh": "f8c04b2a00aa14c262abbfe7827c039b",
+      "urlbase": "/th?id=OHR.RFHilo_ZH-CN5962114314"
+    },
     {
       "date": "2026-11-25",
       "title": "美国西南部的一场雪",
@@ -55,15 +64,6 @@
       "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261119_Megaptera%22&FORM=HPQUIZ",
       "hsh": "fe8250db00606968c8404f967f5a8b4a",
       "urlbase": "/th?id=OHR.Megaptera_ZH-CN3361807823"
-    },
-    {
-      "date": "2026-11-19",
-      "title": "思想在此成形",
-      "copyright": "雕塑《知识之躯》，由豪梅·普兰萨创作，位于德国法兰克福的法兰克福歌德大学 (© Todamo/Shutterstock)",
-      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E5%93%B2%E5%AD%A6%E6%97%A5&form=hpcapt&mkt=zh-cn",
-      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261118_KnowledgeSculpture%22&FORM=HPQUIZ",
-      "hsh": "6bf6c295d1f9662feed47a0b68e8da90",
-      "urlbase": "/th?id=OHR.KnowledgeSculpture_ZH-CN3168800853"
     }
   ]
 }
