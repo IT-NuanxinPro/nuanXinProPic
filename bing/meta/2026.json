@@ -1,7 +1,16 @@
 {
   "year": 2026,
-  "total": 330,
+  "total": 331,
   "items": [
+    {
+      "date": "2026-11-28",
+      "title": "跨越时光的桥梁",
+      "copyright": "捷克布拉格老城区与伏尔塔瓦河 (© Lara_Uhryn/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%B8%83%E6%8B%89%E6%A0%BC%E7%9A%84%E6%A1%A5%E6%A2%81&form=hpcapt&mkt=zh-cn",
+      "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20261127_VltavaPrague%22&FORM=HPQUIZ",
+      "hsh": "d50dad4dd134b0637281d0dd1d196123",
+      "urlbase": "/th?id=OHR.VltavaPrague_ZH-CN9898139716"
+    },
     {
       "date": "2026-11-27",
       "title": "灰金交织的峡谷",
@@ -2973,5 +2982,5 @@
       "urlbase": "/th?id=OHR.NewYearFox_ZH-CN9312618796"
     }
   ],
-  "updatedAt": "2026-11-27 00:58:41"
+  "updatedAt": "2026-11-28 00:23:20"
 }
